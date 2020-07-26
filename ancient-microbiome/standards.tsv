@@ -1,0 +1,26 @@
+Column  Valid_Value
+Publication year
+Publication DOI
+Site Name
+Latitude
+Longitude
+Approximate cultural era (regional)
+- Sample Age
+  - Calibrated radiocarbon date
+  - Historical dating (e.g. via coin or historial records)
+- Sample name
+- Microbiome Type
+  - Oral
+  - Gut
+- Microbiome Source
+  - calculus
+  - palaeofaeces
+  - intestinal
+  - chewing gum)
+- Archive
+  - ENA
+  - SRA
+  - OAGR
+- Sample Accession ID
+  - ERS
+  - SRS

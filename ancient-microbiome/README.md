@@ -2,7 +2,7 @@
 
 This page describes columns definitions for the Ancient Microbiome list.
 
-All fields must be lower case (except sample name). Spaces should be replaced with underscores. Optional fields (e.g. Sample Age), can be filled with `NA` to indicate 'no reported value'.
+Spaces should be replaced with underscores. Optional fields (e.g. Sample Age), can be filled with `NA` to indicate 'no reported value'.
 
 Sample columns are as follows:
 
@@ -10,28 +10,36 @@ Sample columns are as follows:
   - Format: surnameYEAR
 - Publication year
 - Publication DOI
+  - Or library permalink
 - Site Name
 - Latitude
   - Decimal format
   - Maximum three decimals
-  - From Google Maps
+  - From Google Maps is recommended
+  - Can be searched in wider literature
 - Longitude
   - Decimal format
   - Maximal three decimals
   - From Google Maps
+  - Can be searched in wider literature
 - Country
   - Based on modern day definitions
 - Approximate cultural era (regional)
+- Sample name
+  - In most cases this is the name of the host individual
 - Sample Host
   - Latin, spaces replaced with underscores (`_`)
+  - If in doubt, follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/)
 - Sample Age
-  - Calibrated radiocarbon date in BP. Values in BCE can add 2000.
-  - Of direct individual
-  - Historical dating (e.g. via coin or historial records)
+  - Of _Individual_ (not proxy dates)
+  - Can be obtained from other publications
+  - Calibrated radiocarbon date in BP preferred (take middle if range). Values in BCE can add 2000.
+  - Infinite 14C can be kept at 49,999
+  - Historical dating also allowed (e.g. via coin or historial records)
 - Sample Age DOI
   - DOI of publication with e.g. radiocarbon date
   - Can be duplicate of Publication DOI
-- Sample name
+  - Or library permalink
 - Microbiome Type
   - e.g. oral, gut
 - Microbiome Source
@@ -40,6 +48,7 @@ Sample columns are as follows:
   - e.g. ENA, SRA, OAGR
 - Sample Accession ID
   - e.g. ERS, SRS
+  - If non-NCBI/ENA, use as close to Sample as possible 
   - Multiple can be separated with commas (e.g. when different extracts of one sample incorrectly uploaded as samples)
 
 All defined categories should be validated against `standards.tsv`. This is to

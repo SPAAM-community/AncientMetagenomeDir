@@ -1,23 +1,23 @@
-Publication	Publication_Year	Publication_DOI	Site_Name	Latitude	Longitude	Country	Cultural_Era	Sample_Host	Sample_Name	Sample_Age	Sample_Age_DOI	Microbiome_Type	Microbiome_Source	Archive	Archive_Accession
-warinner2014	2014	10.1038/ng.2906	dalheim	51.565	8.840	germany	medieval	homo_sapiens	B61	NA	NA	oral	dental_calculus	SRA	SRS473742,SRS473743,SRS473744,SRS473745
-warinner2014	2014	10.1038/ng.2906	dalheim	51.565	8.840	germany	medieval	homo_sapiens	G12	NA	NA	oral	dental_calculus	SRA	SRS473747,SRS473746,SRS473748,SRS473749,SRS473750
-weyrich2017	2017	10.1038/nature21674							Chimp						
-weyrich2017	2017	10.1038/nature21674							ElSidorn1						
-weyrich2017	2017	10.1038/nature21674							ElSidron2						
-weyrich2017	2017	10.1038/nature21674							Spy1						
-weyrich2017	2017	10.1038/nature21674							Spy2						
-weyrich2017	2017	10.1038/nature21674							EuroHG1						
-weyrich2017	2017	10.1038/nature21674							EuroHG2						
-weyrich2017	2017	10.1038/nature21674							EuroLBK1						
-weyrich2017	2017	10.1038/nature21674							EuroLBK2						
-weyrich2017	2017	10.1038/nature21674							EuroLBK3						
-weyrich2017	2017	10.1038/nature21674							Sudan1						
-weyrich2017	2017	10.1038/nature21674							Sudan2						
-weyrich2017	2017	10.1038/nature21674							SouthAfr1						
-weyrich2017	2017	10.1038/nature21674							SouthAf2						
-weyrich2017	2017	10.1038/nature21674							UrbMed1						
-weyrich2017	2017	10.1038/nature21674							UrbWar2						
-weyrich2017	2017	10.1038/nature21674							AfrPP2						
-weyrich2017	2017	10.1038/nature21674							AfrPP1						
-weyrich2017	2017	10.1038/nature21674							IndRev1						
-weyrich2017	2017	10.1038/nature21674							IndRev2						
+Publication	Publication_Year	Publication_DOI	Site_Name	Latitude	Longitude	Country	Cultural_Era	Sample_Name	Sample_Host	Sample_Age	Sample_Age_DOI	Microbiome_Type	Microbiome_Source	Archive	Archive_Accession
+Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	Medieval	B61	Homo_sapiens	NA	NA	oral	dental_calculus	SRA	SRS473742,SRS473743,SRS473744,SRS473745
+Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	Medieval	G12	Homo_sapiens	NA	NA	oral	dental_calculus	SRA	SRS473747,SRS473746,SRS473748,SRS473749,SRS473750
+Weyrich2017	2017	10.1038/nature21674	Gola_Forest	7.657	-10.841	Sierra_Leone	C20th	Chimp	Pan_troglodytes	NA	NA	oral	dental_calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	El_Sidrón_Cave	43.386	-5.328	Spain	Palaeolithic	ElSidron1	Homo_sapiens_neanderthalensis	NA	NA	oral	dental_calculus	OAGR	3011,2962
+Weyrich2017	2017	10.1038/nature21674	El_Sidrón_Cave	43.386	-5.329	Spain	Palaeolithic	ElSidron2	Homo_sapiens_neanderthalensis	NA	NA	oral	dental_calculus	OAGR	2990,3014
+Weyrich2017	2017	10.1038/nature21674	Spy_Cave	50.48	4.674	Belgium	Palaeolithic	Spy1	Homo_sapiens_neanderthalensis	NA	NA	oral	dental_calculus	OAGR	2952,2953 
+Weyrich2017	2017	10.1038/nature21674	Spy_Cave	50.48	4.674	Belgium	Palaeolithic	Spy2	Homo_sapiens_neanderthalensis	NA	NA	oral	dental_calculus	OAGR	2935,2989 
+Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	NA	EuroHG1	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	3066,3010
+Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	NA	EuroHG2	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	3081,3020
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen_I	48.839	9.227	Germany	Neolithic	EuroLBK1	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	3080,3071,3083,3084
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen_I	48.839	9.227	Germany	Neolithic	EuroLBK2	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	2955,2956,3018,3019
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen_I	48.839	9.227	Germany	Neolithic	EuroLBK3	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	3072,3073,2933,2936
+Weyrich2017	2017	10.1038/nature21674	Al_Khiday	15.441	32.381	Sudan	Neolithic	Sudan1	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Al_Khiday	15.441	32.381	Sudan	Neolithic	Sudan2	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Near_Cape_Town	NA	NA	South_Africa	Late_Stone_Age	SouthAfr1	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Near_Cape_Town	NA	NA	South_Africa	Late_Stone_Age	SouthAf2	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United_Kingdom	Medieval	UrbMed1	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United_Kingdom	Medieval	UrbWar2	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Near_Cape_Town	NA	NA	South_Africa	Pastoral_Neolithic	AfrPP2	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Near_Cape_Town	NA	NA	South_Africa	Pastoral_Neolithic	AfrPP1	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Hettstedt_Gymnasium	51.646	11.512	Germany	Post-Industrial_Evolution	IndRev1	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Hettstedt_Gymnasium	51.646	11.512	Germany	Post-Industrial_Evolution	IndRev2	Homo_sapiens	NA	NA	oral	dental_calculus	OAGR	NA

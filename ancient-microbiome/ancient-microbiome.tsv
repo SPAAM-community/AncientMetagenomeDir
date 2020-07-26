@@ -1,0 +1,23 @@
+Publication	Publication_Year	Publication_DOI	Site_Name	Latitude	Longitude	Country	Cultural_Era	Sample_Host	Sample_Name	Sample_Age	Sample_Age_DOI	Microbiome_Type	Microbiome_Source	Archive	Archive_Accession
+warinner2014	2014	10.1038/ng.2906	dalheim	51.565	8.840	germany	medieval	homo_sapiens	B61	NA	NA	oral	dental_calculus	SRA	SRS473742,SRS473743,SRS473744,SRS473745
+warinner2014	2014	10.1038/ng.2906	dalheim	51.565	8.840	germany	medieval	homo_sapiens	G12	NA	NA	oral	dental_calculus	SRA	SRS473747,SRS473746,SRS473748,SRS473749,SRS473750
+weyrich2017	2017	10.1038/nature21674							Chimp						
+weyrich2017	2017	10.1038/nature21674							ElSidorn1						
+weyrich2017	2017	10.1038/nature21674							ElSidron2						
+weyrich2017	2017	10.1038/nature21674							Spy1						
+weyrich2017	2017	10.1038/nature21674							Spy2						
+weyrich2017	2017	10.1038/nature21674							EuroHG1						
+weyrich2017	2017	10.1038/nature21674							EuroHG2						
+weyrich2017	2017	10.1038/nature21674							EuroLBK1						
+weyrich2017	2017	10.1038/nature21674							EuroLBK2						
+weyrich2017	2017	10.1038/nature21674							EuroLBK3						
+weyrich2017	2017	10.1038/nature21674							Sudan1						
+weyrich2017	2017	10.1038/nature21674							Sudan2						
+weyrich2017	2017	10.1038/nature21674							SouthAfr1						
+weyrich2017	2017	10.1038/nature21674							SouthAf2						
+weyrich2017	2017	10.1038/nature21674							UrbMed1						
+weyrich2017	2017	10.1038/nature21674							UrbWar2						
+weyrich2017	2017	10.1038/nature21674							AfrPP2						
+weyrich2017	2017	10.1038/nature21674							AfrPP1						
+weyrich2017	2017	10.1038/nature21674							IndRev1						
+weyrich2017	2017	10.1038/nature21674							IndRev2						

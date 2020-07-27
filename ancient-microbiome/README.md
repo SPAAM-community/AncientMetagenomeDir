@@ -2,8 +2,8 @@
 
 This page describes columns definitions for the Ancient Microbiome list.
 
-Spaces should be replaced with underscores. Optional fields (e.g. Sample Age),
-can be filled with `NA` to indicate 'no reported value'.
+Optional fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
+reported value'.
 
 All column with 'defined categories' should be validated against
 `standards.tsv`. This is to ensure data consistency, e.g. alll Calculus samples
@@ -15,50 +15,58 @@ community](spaam-workshop.github.io), and then add it to `standards.tsv`.
 
 Sample columns are as follows:
 
-## Publication
+## project_name
 
 - Format: surnameYEAR
 
-## Publication_Year
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+
+## publication_year
 
 - YYYY format
 
-## Publication_DOI
+## publication_doi
 
 - Publication DOI
 - Or library permalink 
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
-## Site_Name
+## site_name
 
 - As reported in publication
-- Spaces replaced with underscores
 - Accents are allowed
 
-## Latitude
+## lat_lon
 
+- Separated by a space: e.g. 27.987 86.925
 - Decimal format
 - Maximum three decimals
-- From Google Maps is recommended
+- In WGS84 project (coordinates taken from Google Maps is recommended)
 - Can be searched in wider literature, rough location is acceptable but use
   fewer decimals
 
-## Longitude
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
-- Decimal format
-- Maximal three decimals
-- From Google Maps
-- Can be searched in wider literature, rough location is acceptable but use
-  fewer decimals
-
-## Country
+## geo_loc_name
 
 - Based on modern day definitions
+- Must be based on [INDSC Country list](http://www.insdc.org/country.html)
+
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+
+## sample_name
+
+- In most cases this should be the name of the host *individual*
+
+## sample_host
+
+- Linnean latin name
+- Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
 
 > :warning: Must follow categories specified in `standards.tsv`
 
-## Cultural_Era
+## cultural_era
 
 - These are *approximate* chrono-cultural categories, following broad/general
   definitions
@@ -67,20 +75,9 @@ Sample columns are as follows:
 - Used to assist in grouping samples for timelines when no direct C14/historical
   record date
 
-:warning: Must follow categories specified in `standards.tsv`
-
-## Sample_name
-
-- In most cases this should be the name of the host *individual*
-
-## Sample_Host
-
-- Latin, spaces replaced with underscores (`_`)
-- If in doubt, follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/)
-
 > :warning: Must follow categories specified in `standards.tsv`
 
-# Sample_Age
+# sample_age
 
 - Single year without unit
 - Of _Individual_ - not proxy dates
@@ -91,7 +88,7 @@ Sample columns are as follows:
 - Infinite 14C can be kept at 49,999
 - Historical dating also allowed (e.g. via coin or historial records)
 
-## Sample Age DOI
+## sample_age_doi
 
 - DOI of publication with e.g. radiocarbon date
 - Can be duplicate of Publication DOI
@@ -99,25 +96,36 @@ Sample columns are as follows:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
-## Microbiome Type
+## microbiome_type
 
 - e.g. oral, gut
 
 > :warning: Must follow categories specified in `standards.tsv`
 
-## Microbiome Source
+## material
 
-- e.g. calculus, palaeofaeces, intestinal, chewing gum
+- Sample type DNA was extracted from
+  - e.g. denta lcalculus, palaeofaeces, intestinal, chewing gum
 
-> :warning: Must follow categories specified in `standards.tsv`
-
-## Archive
-
-- e.g. [ENA](https://www.ebi.ac.uk/ena), [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/)
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
+> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
 
 > :warning: Must follow categories specified in `standards.tsv`
 
-## Archive_Accession
+## collection_date
+
+- Year of sample collection in YYYY format
+
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+
+## archive
+
+- e.g. [ENA](https://www.ebi.ac.uk/ena),
+  [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/)
+
+> :warning: Must follow categories specified in `standards.tsv`
+
+## archive_accession
 
 - Of *sample*, where possible
 - e.g. ERS, SRS

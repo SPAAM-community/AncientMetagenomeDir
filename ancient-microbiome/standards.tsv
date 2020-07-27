@@ -1,26 +1,39 @@
-Column  Valid_Value
-Publication year
-Publication DOI
-Site Name
-Latitude
-Longitude
-Approximate cultural era (regional)
-- Sample Age
-  - Calibrated radiocarbon date
-  - Historical dating (e.g. via coin or historial records)
-- Sample name
-- Microbiome Type
-  - Oral
-  - Gut
-- Microbiome Source
-  - calculus
-  - palaeofaeces
-  - intestinal
-  - chewing gum)
-- Archive
-  - ENA
-  - SRA
-  - OAGR
-- Sample Accession ID
-  - ERS
-  - SRS
+Column	Category	Definition
+Country	Germany	
+Country	Sierra_Leone	
+Country	Spain	
+Country	Belgium	
+Country	Poland	
+Country	Sudan	
+Country	South_Africa	
+Country	United_Kingdom	
+Cultural_Era	Middle_Palaeolithic	Europe; 300-45 ky BP (Approx)
+Cultural_Era	Upper_Palaeolithic	Europe; 45-15 ky BP (Approx)
+Cultural_Era	Mesolithic	Europe; 15-10 ky BP (Approx)
+Cultural_Era	Neolithic	Europe; 10-5 ky BP (Approx)
+Cultural_Era	Chalcolithic	Europe; 7-5 ky BP (Approx)
+Cultural_Era	Bronze_Age	Europe; 5-2.5 ky BP (Approx)
+Cultural_Era	Iron_Age	Europe; 3 ky – 800 BP
+Cultural_Era	Classical	Europe; Roman/Greeks
+Cultural_Era	Medieval	Europe; 800 BP – 500 BP
+Cultural_Era	C15th	Europe; 15 th Century
+Cultural_Era	C16th	Europe; 16 th Century
+Cultural_Era	C17th	Europe; 17 th Century
+Cultural_Era	C18th	Europe; 18 th Century
+Cultural_Era	C19th	Europe; 19 th Century
+Cultural_Era	C20th	Europe; 20 th Century
+Cultural_Era	C21st	Europe; 21 st Century
+Cultural_Era	Middle_Stone_Age	Sub-Saharan Africa; Middle Stone Age
+Cultural_Era	Later_Stone_Age	Sub-Saharan Africa; Later Stone Age
+Sample_Host	Homo_sapiens	
+Sample_Host	Homo_sapiens_neanderthalensis	
+Sample_Host	Pan_troglodytes	
+Microbiome_Type	oral	
+Microbiome_Type	gut	
+Microbiome_Source	calculus	
+Microbiome_Source	palaeofaeces	
+Microbiome_Source	intestinal_contents	e.g. from mummies
+Microbiome_Source	birch_tar	e.g. from mummies
+Archive	ENA	https://www.ebi.ac.uk/ena
+Archive	SRA	https://www.ncbi.nlm.nih.gov/sra
+Archive	OAGR	https://www.oagr.org/

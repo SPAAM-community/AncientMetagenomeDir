@@ -37,7 +37,7 @@ is assumed that peer-review has correctly evaluated any submitted metagenome is
 valid.
 
 Samples must also have been accessible on public databases (e.g. [EBI
-ENA](https://www.ebi.ac.uk/ena) or [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra).
+ENA](https://www.ebi.ac.uk/ena) or [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra)).
 
 > Important: we currently do not record *sequencing data* information, due to
 > different uploading strategies by different groups.
@@ -46,14 +46,14 @@ ENA](https://www.ebi.ac.uk/ena) or [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra).
 
 Contributing a new publication's sample information consists:
 
-    - check if site/samples have been published before (i.e. to ensure the same names are used for any new samples) 
-    - making your own fork or branch of the repository
-    - update the given list (e.g. in spreadsheet program, R etc.))
-      - generally you will be copying direct from publication's supplementary information
-      - some columns have standard pre-defined categories, check a lists's README if in doubt!
-    - making a pull-request
-    - receive a review to check your additions follow current conventions
-    - have your PR merged
+- check if site/samples have been published before (i.e. to ensure the same names are used for any new samples)
+- making your own fork or branch of the repository
+- update the given list (e.g. in spreadsheet program, R etc.))
+  - generally you will be copying direct from publication's supplementary information
+  - some columns have standard pre-defined categories, check a lists's README if in doubt!
+- making a pull-request
+- receive a review to check your additions follow current conventions
+- have your PR merged
 
 All contributions are attributed through Git's in-built recording of the author
 of each commit and pull request. These will be displayed publically in the

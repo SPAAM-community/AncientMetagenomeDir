@@ -4,18 +4,18 @@ on: [push, pull_request]
 
 
 jobs:
-    test_dataset:
-        runs-on: ubuntu-latest
-        steps:
-        - uses: actions/setup-python@v1
-            with:
-            python-version: '3.6'
-            architecture: 'x64'
-        - name: Install dependencies
-            run: |
-            python -m pip install --upgrade pip
-            pip install git+https://github.com/maxibor/ancientMetagenomeCheck.git
-        - name: test ancient microbiome 
-            run: |
-            ancientMetagenomeCheck ${GITHUB_WORKSPACE}/ancient-microbiome/standards.tsv ${GITHUB_WORKSPACE}/ancient-microbiome/ancient-microbiome.tsv
+  ancientMetagenomeCheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.6'
+          architecture: 'x64'
+      - name: Install dependencies
+        run: |
+        python -m pip install --upgrade pip
+        pip install git+https://github.com/maxibor/ancientMetagenomeCheck.git
+      - name: test ancient microbiome 
+        run: |
+        ancientMetagenomeCheck ${GITHUB_WORKSPACE}/ancient-microbiome/standards.tsv ${GITHUB_WORKSPACE}/ancient-microbiome/ancient-microbiome.tsv
             

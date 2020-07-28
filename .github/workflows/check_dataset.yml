@@ -16,5 +16,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install git+https://github.com/maxibor/ancientMetagenomeCheck.git
       - name: test ancient microbiome 
-        run: ancientMetagenomeCheck ${GITHUB_WORKSPACE}/ancient-microbiome/standards.tsv ${GITHUB_WORKSPACE}/ancient-microbiome/ancient-microbiome.tsv
+        run: ancientMetagenomeCheck ancient-microbiome/standards.tsv ancient-microbiome/ancient-microbiome.tsv
             

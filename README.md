@@ -49,7 +49,7 @@ Contributing a new publication's sample information consists:
 - check if site/samples have been published before (i.e. to ensure the same names are used for any new samples)
 - making your own fork or branch of the repository
 - update the given list (e.g. in spreadsheet program, R etc.))
-  - generally you will be copying direct from publication's supplementary information
+  - generally you will be copying direct from a publication's supplementary information
   - some columns have standard pre-defined categories, check a lists's README if in doubt!
 - making a pull-request
 - receive a review to check your additions follow current conventions
@@ -73,7 +73,7 @@ Contribution of these publications follow as [above](#own-publications).
 ### Guidelines and Conventions
 
 To ensure efficient and consistent searching, we include guidelines on how to
-record and format information. Adherence to these guidelines is enforced by PR
+record and format information. Adherence to these guidelines is enforced by 'pull request' review
 by members of the SPAAM community and other contributors. Furthermore, each
 category of metagenome will have their own 'special' fields, which will be
 defined in each specific context.

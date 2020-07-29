@@ -1,23 +1,69 @@
-project_name	publication_year	publication_doi	site_name	lat_lon		geo_loc_name	sample_name	sample_host	cultural_era	sample_age	sample_age_doi	microbiome_type	material	archive	archive_accession
-Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	B61	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS473742,SRS473743,SRS473744,SRS473745
-Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	G12	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS473747,SRS473746,SRS473748,SRS473749,SRS473750
-Weyrich2017	2017	10.1038/nature21674	Gola Forest	7.657	-10.841	Sierra Leone	Chimp	Pan troglodytes	C20th	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.328	Spain	ElSidron1	Homo sapiens neanderthalensis	Middle Palaeolithic	NA	NA	oral	dental calculus	OAGR	3011,2962
-Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.329	Spain	ElSidron2	Homo sapiens neanderthalensis	Middle Palaeolithic	NA	NA	oral	dental calculus	OAGR	2990,3014
-Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy1	Homo sapiens neanderthalensis	Upper Palaeolithic	NA	NA	oral	dental calculus	OAGR	2952,2953 
-Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy2	Homo sapiens neanderthalensis	Upper Palaeolithic	NA	NA	oral	dental calculus	OAGR	2935,2989 
-Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG1	Homo sapiens	NA	NA	NA	oral	dental calculus	OAGR	3066,3010
-Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG2	Homo sapiens	NA	NA	NA	oral	dental calculus	OAGR	3081,3020
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK1	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	3080,3071,3083,3084
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK2	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	2955,2956,3018,3019
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK3	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	3072,3073,2933,2936
-Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan1	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan2	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	SouthAfr1	Homo sapiens	Later Stone Age	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	SouthAf2	Homo sapiens	Later Stone Age	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbMed1	Homo sapiens	Medieval	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbWar2	Homo sapiens	Medieval	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrPP2	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrPP1	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev1	Homo sapiens	Modern	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev2	Homo sapiens	Modern	NA	NA	oral	dental calculus	OAGR	NA
+project_name	publication_year	publication_doi	site_name	lat_lon	geo_loc_name	sample_name	sample_host	cultural_era	sample_age	sample_age_doi	microbiome_type	material	archive	archive_accession
+Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565 8.84	Germany	B61	Homo sapiens	Medieval			oral	dental calculus	SRA	SRS473742,SRS473743,SRS473744,SRS473745
+Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565 8.84	Germany	G12	Homo sapiens	Medieval			oral	dental calculus	SRA	SRS473747,SRS473746,SRS473748,SRS473749,SRS473750
+Weyrich2017	2017	10.1038/nature21674	Gola Forest	7.657 -10.841	Sierra Leone	Chimp	Pan troglodytes	C20th			oral	dental calculus	OAGR	
+Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386 -5.328	Spain	ElSidron1	Homo sapiens neanderthalensis	Middle Palaeolithic			oral	dental calculus	OAGR	3011,2962
+Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386 -5.329	Spain	ElSidron2	Homo sapiens neanderthalensis	Middle Palaeolithic			oral	dental calculus	OAGR	2990,3014
+Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48 4.674	Belgium	Spy1	Homo sapiens neanderthalensis	Upper Palaeolithic			oral	dental calculus	OAGR	2952,2953
+Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48 4.674	Belgium	Spy2	Homo sapiens neanderthalensis	Upper Palaeolithic			oral	dental calculus	OAGR	2935,2989
+Weyrich2017	2017	10.1038/nature21674	Dudka	53.96 21.86	Poland	EuroHG1	Homo sapiens				oral	dental calculus	OAGR	3066,3010
+Weyrich2017	2017	10.1038/nature21674	Dudka	53.96 21.86	Poland	EuroHG2	Homo sapiens				oral	dental calculus	OAGR	3081,3020
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839 9.227	Germany	EuroLBK1	Homo sapiens	Neolithic			oral	dental calculus	OAGR	3080,3071,3083,3084
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839 9.227	Germany	EuroLBK2	Homo sapiens	Neolithic			oral	dental calculus	OAGR	2955,2956,3018,3019
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839 9.227	Germany	EuroLBK3	Homo sapiens	Neolithic			oral	dental calculus	OAGR	3072,3073,2933,2936
+Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441 32.381	Sudan	Sudan1	Homo sapiens	Neolithic			oral	dental calculus	OAGR	
+Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441 32.381	Sudan	Sudan2	Homo sapiens	Neolithic			oral	dental calculus	OAGR	
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA NA	South Africa	SouthAfr1	Homo sapiens	Later Stone Age			oral	dental calculus	OAGR	
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA NA	South Africa	SouthAf2	Homo sapiens	Later Stone Age			oral	dental calculus	OAGR	
+Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962 -1.075	United Kingdom	UrbMed1	Homo sapiens	Medieval			oral	dental calculus	OAGR	
+Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962 -1.075	United Kingdom	UrbWar2	Homo sapiens	Medieval			oral	dental calculus	OAGR	
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA NA	South Africa	AfrPP2	Homo sapiens	Neolithic			oral	dental calculus	OAGR	
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA NA	South Africa	AfrPP1	Homo sapiens	Neolithic			oral	dental calculus	OAGR	
+Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646 11.512	Germany	IndRev1	Homo sapiens	Modern			oral	dental calculus	OAGR	
+Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646 11.512	Germany	IndRev2	Homo sapiens	Modern			oral	dental calculus	OAGR	
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS01	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178232,SAMEA5178280,SAMEA6080407
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS02	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178233,SAMEA5178281,SAMEA6080408
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS03	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178234,SAMEA5178282,SAMEA6080409
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS04	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178235,SAMEA5178283,SAMEA6080410
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS05	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178284,SAMEA6080411
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS06	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178285,SAMEA6080412
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS07	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178236,SAMEA5178286,SAMEA6080413
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS08	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178237,SAMEA5178287,SAMEA6080414
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS09	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178238,SAMEA5178288,SAMEA6080415
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS10	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178239,SAMEA5178289,SAMEA6080416
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS11	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178240,SAMEA5178290,SAMEA6080417
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS12	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178241,SAMEA5178291,SAMEA6080418
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS13	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178242,SAMEA5178292,SAMEA6080419
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS14	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178243,SAMEA5178293,SAMEA6080420
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS15	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178244,SAMEA5178294,SAMEA6080421
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS16	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178245,SAMEA5178295,SAMEA6080422
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS17	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178246,SAMEA5178296,SAMEA6080423
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS18	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178247,SAMEA5178297,SAMEA6080424
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS19	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178248,SAMEA5178298,SAMEA6080425
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS20	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178249,SAMEA5178299,SAMEA6080426
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS21	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178250,SAMEA5178300,SAMEA6080427
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS22	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178251,SAMEA5178301,SAMEA6080428
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS23	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178252,SAMEA5178302,SAMEA6080429
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS24	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178253,SAMEA5178303,SAMEA6080430
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS26	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178254,SAMEA5178304,SAMEA6080431
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS27	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178255,SAMEA5178305,SAMEA6080432
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS28	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178256,SAMEA5178306,SAMEA6080433
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS29	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178257,SAMEA5178307,SAMEA6080434
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS30	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178258,SAMEA5178308,SAMEA6080435
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS31	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178259,SAMEA5178309,SAMEA6080436
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS32	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178260,SAMEA5178310,SAMEA6080437
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS33	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178261,SAMEA5178311,SAMEA6080438
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS34	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178262,SAMEA5178312,SAMEA6080439
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS35	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178263,SAMEA5178313,SAMEA6080440
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS36	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178264,SAMEA5178314,SAMEA6080441
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS37	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178265,SAMEA5178315,SAMEA6080442
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS38	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178266,SAMEA5178316,SAMEA6080443
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS39	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178267,SAMEA5178317,SAMEA6080444
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS40	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178268,SAMEA5178318,SAMEA6080445
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS42	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178269,SAMEA5178319,SAMEA6080446
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS43	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178270,SAMEA5178320,SAMEA6080447
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS44	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178271,SAMEA5178321,SAMEA6080448
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS45	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178272,SAMEA5178322,SAMEA6080449
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS46	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178273,SAMEA5178323,SAMEA6080450
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS47	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178274,SAMEA5178324,SAMEA6080451
+Velsko2018	2018	https://doi.org/10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022 -1.257677	United Kingdom	CS48	Homo sapiens	C19th			oral	calculus	ENA	SAMEA5178275,SAMEA5178325,SAMEA6080452

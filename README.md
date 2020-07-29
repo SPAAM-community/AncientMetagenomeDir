@@ -22,7 +22,11 @@ The purpose of this repository is not meant to be a comprehensive set of all
 metadata about every ancient metagenome, but the aim is to have a lightweight
 set of minimal information but with sufficient links to original sources of
 detailed information. Keeping the repository simple and lightweight will promote
-continual updating of the lists over a long period of time.
+continual updating of the lists over a long period of time. That said, we will
+design lists as far as possible to follow larger database metadata
+specifications e.g.
+[MIxS](https://www.ebi.ac.uk/ena/submit/mixs-checklists#MIxS_shared) for
+compatibility.
 
 Finally, we aim to make releases of this at regular intervals, and assign each
 release a citeable DOI. Each release will also include a changelog to record all
@@ -37,20 +41,24 @@ is assumed that peer-review has correctly evaluated any submitted metagenome is
 valid.
 
 Samples must also have been accessible on public databases (e.g. [EBI
-ENA](https://www.ebi.ac.uk/ena) or [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra)).
+ENA](https://www.ebi.ac.uk/ena) or [NCBI
+SRA](https://www.ncbi.nlm.nih.gov/sra)).
 
-> Important: we currently do not record *sequencing data* information, due to
+> Important: we do not currently record *sequencing data* information, due to
 > different uploading strategies by different groups.
 
 ### Own Publications
 
 Contributing a new publication's sample information consists:
 
-- check if site/samples have been published before (i.e. to ensure the same names are used for any new samples)
+- check if site/samples have been published before (i.e. to ensure the same
+  names are used for any new samples)
 - making your own fork or branch of the repository
 - update the given list (e.g. in spreadsheet program, R etc.))
-  - generally you will be copying direct from publication's supplementary information
-  - some columns have standard pre-defined categories, check a lists's README if in doubt!
+  - generally you will be copying direct from publication's supplementary
+    information
+  - some columns have standard pre-defined categories, check a lists's README if
+    in doubt!
 - making a pull-request
 - receive a review to check your additions follow current conventions
 - have your PR merged

@@ -81,7 +81,7 @@ Contribution of these publications follow as [above](#own-publications).
 ### Guidelines and Conventions
 
 To ensure efficient and consistent searching, we include guidelines on how to
-record and format information. Adherence to these guidelines is enforced by PR
+record and format information. Adherence to these guidelines is enforced by 'pull request' review
 by members of the SPAAM community and other contributors. Furthermore, each
 category of metagenome will have their own 'special' fields, which will be
 defined in each specific context.

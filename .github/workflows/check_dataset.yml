@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 
 jobs:
-  ancientMetagenomeCheck:
+  ancientMetagenomeDirCheck:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,7 +15,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install git+https://github.com/maxibor/ancientMetagenomeCheck.git
+          pip install git+https://github.com/SPAAM-workshop/AncientMetagenomeDirCheck.git
       - name: test ancient microbiome 
-        run: ancientMetagenomeCheck ancient-microbiome/standards.tsv ancient-microbiome/ancient-microbiome.tsv
+        run: ancientMetagenomeDirCheck ancient-microbiome/standards.tsv ancient-microbiome/ancient-microbiome.tsv
             

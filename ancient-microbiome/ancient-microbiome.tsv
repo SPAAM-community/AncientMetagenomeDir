@@ -1,71 +1,117 @@
-project_name	publication_year	publication_doi	site_name	lat_lon	geo_loc_name	sample_name	sample_host	cultural_era	sample_age	sample_age_doi	microbiome_type	material	archive	archive_accession
-Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565 8.84	Germany	B61	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS473742,SRS473743,SRS473744,SRS473745
-Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565 8.84	Germany	G12	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS473747,SRS473746,SRS473748,SRS473749,SRS473750
-Weyrich2017	2017	10.1038/nature21674	Gola Forest	7.657 -10.841	Sierra Leone	Chimp	Pan troglodytes	C20th	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386 -5.328	Spain	ElSidron1	Homo sapiens neanderthalensis	Middle Palaeolithic	NA	NA	oral	dental calculus	OAGR	3011,2962
-Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386 -5.329	Spain	ElSidron2	Homo sapiens neanderthalensis	Middle Palaeolithic	NA	NA	oral	dental calculus	OAGR	2990,3014
-Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48 4.674	Belgium	Spy1	Homo sapiens neanderthalensis	Upper Palaeolithic	NA	NA	oral	dental calculus	OAGR	2952,2953 
-Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48 4.674	Belgium	Spy2	Homo sapiens neanderthalensis	Upper Palaeolithic	NA	NA	oral	dental calculus	OAGR	2935,2989 
-Weyrich2017	2017	10.1038/nature21674	Dudka	53.96 21.86	Poland	EuroHG1	Homo sapiens	NA	NA	NA	oral	dental calculus	OAGR	3066,3010
-Weyrich2017	2017	10.1038/nature21674	Dudka	53.96 21.86	Poland	EuroHG2	Homo sapiens	NA	NA	NA	oral	dental calculus	OAGR	3081,3020
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839 9.227	Germany	EuroLBK1	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	3080,3071,3083,3084
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839 9.227	Germany	EuroLBK2	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	2955,2956,3018,3019
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839 9.227	Germany	EuroLBK3	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	3072,3073,2933,2936
-Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441 32.381	Sudan	Sudan1	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441 32.381	Sudan	Sudan2	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA NA	South Africa	SouthAfr1	Homo sapiens	Later Stone Age	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA NA	South Africa	SouthAf2	Homo sapiens	Later Stone Age	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962 -1.075	United Kingdom	UrbMed1	Homo sapiens	Medieval	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962 -1.075	United Kingdom	UrbWar2	Homo sapiens	Medieval	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA NA	South Africa	AfrPP2	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA NA	South Africa	AfrPP1	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646 11.512	Germany	IndRev1	Homo sapiens	Modern	NA	NA	oral	dental calculus	OAGR	NA
-Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646 11.512	Germany	IndRev2	Homo sapiens	Modern	NA	NA	oral	dental calculus	OAGR	NA
-Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102 -1.865	Spain	C214	Homo sapiens				oral	dental calculus	SRA	SRS3078201
-Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102 -1.865	Spain	C53	Homo sapiens				oral	dental calculus	SRA	SRS3078204
-Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde		Guadeloupe	F1948	Homo sapiens				oral	dental calculus	SRA	SRS3078198
-Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde		Guadeloupe	F349A	Homo sapiens				oral	dental calculus	SRA	SRS3078200
-Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl		Mongolia	H10	Homo sapiens				oral	dental calculus	SRA	SRS3078195
-Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl		Mongolia	H24	Homo sapiens				oral	dental calculus	SRA	SRS3078181
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT01	Homo sapiens				oral	dental calculus	SRA	SRS3078183,SRS3078182 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT02	Homo sapiens				oral	dental calculus	SRA	SRS3078176
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT03	Homo sapiens				oral	dental calculus	SRA	SRS3078178
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT04	Homo sapiens				oral	dental calculus	SRA	SRS3078185
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT05	Homo sapiens				oral	dental calculus	SRA	SRS3078115,SRS3078117 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT06	Homo sapiens				oral	dental calculus	SRA	SRS3078111
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT07	Homo sapiens				oral	dental calculus	SRA	SRS3078113
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT08	Homo sapiens				oral	dental calculus	SRA	SRS3078109,SRS3078099 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT09	Homo sapiens				oral	dental calculus	SRA	SRS3078097,SRS3078104 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT10	Homo sapiens				oral	dental calculus	SRA	SRS3078101
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT11	Homo sapiens				oral	dental calculus	SRA	SRS3078105
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT12	Homo sapiens				oral	dental calculus	SRA	SRS3078133
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT13	Homo sapiens				oral	dental calculus	SRA	SRS3078131,SRS3078137 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT14	Homo sapiens				oral	dental calculus	SRA	SRS3078134,SRS3078129 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT15	Homo sapiens				oral	dental calculus	SRA	SRS3078120
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT16	Homo sapiens				oral	dental calculus	SRA	SRS3078122
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT17	Homo sapiens				oral	dental calculus	SRA	SRS3078124
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT18	Homo sapiens				oral	dental calculus	SRA	SRS3078126
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT19	Homo sapiens				oral	dental calculus	SRA	SRS3078118
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT20	Homo sapiens				oral	dental calculus	SRA	SRS3078148
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT21	Homo sapiens				oral	dental calculus	SRA	SRS3078150
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT22	Homo sapiens				oral	dental calculus	SRA	SRS3078151
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT23	Homo sapiens				oral	dental calculus	SRA	SRS3078155
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT24	Homo sapiens				oral	dental calculus	SRA	SRS3078156,SRS3078146 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT25	Homo sapiens				oral	dental calculus	SRA	SRS3078197,SRS3078141 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT26	Homo sapiens				oral	dental calculus	SRA	SRS3078139,SRS3078145 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT27	Homo sapiens				oral	dental calculus	SRA	SRS3078093
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT28	Homo sapiens				oral	dental calculus	SRA	SRS3078091,SRS3078089 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT29	Homo sapiens				oral	dental calculus	SRA	SRS3078087,SRS3078085 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT30	Homo sapiens				oral	dental calculus	SRA	SRS3078193
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT31	Homo sapiens				oral	dental calculus	SRA	SRS3078158,SRS3078147 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT32	Homo sapiens				oral	dental calculus	SRA	SRS3078192,SRS3078187 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT33	Homo sapiens				oral	dental calculus	SRA	SRS3078170
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT34	Homo sapiens				oral	dental calculus	SRA	SRS3078167
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT35	Homo sapiens				oral	dental calculus	SRA	SRS3078165
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen		Ireland	KT36	Homo sapiens				oral	dental calculus	SRA	SRS3078163,SRS3078172 
-Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms		United_States	NF217	Homo sapiens				oral	dental calculus	SRA	SRS3078173
-Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms		United_States	NF47	Homo sapiens				oral	dental calculus	SRA	SRS3078175
-Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster		Netherlands	S108	Homo sapiens				oral	dental calculus	SRA	SRS3078160
-Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong		Nepal	S40	Homo sapiens				oral	dental calculus	SRA	SRS3078162
-Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong		Nepal	S41	Homo sapiens				oral	dental calculus	SRA	SRS3078206
-Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster		Netherlands	S454	Homo sapiens				oral	dental calculus	SRA	SRS3078095
+project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	sample_name	sample_host	cultural_era	sample_age	sample_age_doi	microbiome_type	material	archive	archive_accession
+Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	B61	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS473742,SRS473743,SRS473744,SRS473745
+Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	G12	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS473747,SRS473746,SRS473748,SRS473749,SRS473750
+Weyrich2017	2017	10.1038/nature21674	Gola Forest	7.657	-10.841	Sierra Leone	Chimp	Pan troglodytes	C20th	NA	NA	oral	dental calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.328	Spain	ElSidron1	Homo sapiens neanderthalensis	Middle Palaeolithic	NA	NA	oral	dental calculus	OAGR	3011,2962
+Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.329	Spain	ElSidron2	Homo sapiens neanderthalensis	Middle Palaeolithic	NA	NA	oral	dental calculus	OAGR	2990,3014
+Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy1	Homo sapiens neanderthalensis	Upper Palaeolithic	NA	NA	oral	dental calculus	OAGR	2952,2953
+Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy2	Homo sapiens neanderthalensis	Upper Palaeolithic	NA	NA	oral	dental calculus	OAGR	2935,2989
+Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG1	Homo sapiens	NA	NA	NA	oral	dental calculus	OAGR	3066,3010
+Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG2	Homo sapiens	NA	NA	NA	oral	dental calculus	OAGR	3081,3020
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK1	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	3080,3071,3083,3084
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK2	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	2955,2956,3018,3019
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK3	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	3072,3073,2933,2936
+Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan1	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan2	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	SouthAfr1	Homo sapiens	Later Stone Age	NA	NA	oral	dental calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	SouthAf2	Homo sapiens	Later Stone Age	NA	NA	oral	dental calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbMed1	Homo sapiens	Medieval	NA	NA	oral	dental calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbWar2	Homo sapiens	Medieval	NA	NA	oral	dental calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrPP2	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrPP1	Homo sapiens	Neolithic	NA	NA	oral	dental calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev1	Homo sapiens	C18th	NA	NA	oral	dental calculus	OAGR	NA
+Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev2	Homo sapiens	C18th	NA	NA	oral	dental calculus	OAGR	NA
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS01	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985742,ERS2985790,ERS3881508
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS02	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985743,ERS2985791,ERS3881509
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS03	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985744,ERS2985792,ERS3881510
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS04	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985745,ERS2985793,ERS3881511
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS05	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985794,ERS3881512
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS06	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985795,ERS3881513
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS07	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985746,ERS2985796,ERS3881514
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS08	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985747,ERS2985797,ERS3881515
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS09	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985748,ERS2985798,ERS3881516
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS10	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985749,ERS2985799,ERS3881517
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS11	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985750,ERS2985800,ERS3881518
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS12	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985751,ERS2985801,ERS3881519
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS13	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985752,ERS2985802,ERS3881520
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS14	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985753,ERS2985803,ERS3881521
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS15	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985754,ERS2985804,ERS3881522
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS16	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985755,ERS2985805,ERS3881523
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS17	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985756,ERS2985806,ERS3881524
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS18	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985757,ERS2985807,ERS3881525
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS19	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985758,ERS2985808,ERS3881526
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS20	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985759,ERS2985809,ERS3881527
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS21	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985760,ERS2985810,ERS3881528
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS22	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985761,ERS2985811,ERS3881529
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS23	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985762,ERS2985812,ERS3881530
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS24	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985763,ERS2985813,ERS3881531
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS26	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985764,ERS2985814,ERS3881532
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS27	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985765,ERS2985815,ERS3881533
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS28	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985766,ERS2985816,ERS3881534
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS29	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985767,ERS2985817,ERS3881535
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS30	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985768,ERS2985818,ERS3881536
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS31	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985769,ERS2985819,ERS3881537
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS32	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985770,ERS2985820,ERS3881538
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS33	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985771,ERS2985821,ERS3881539
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS34	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985772,ERS2985822,ERS3881540
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS35	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985773,ERS2985823,ERS3881541
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS36	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985774,ERS2985824,ERS3881542
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS37	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985775,ERS2985825,ERS3881543
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS38	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985776,ERS2985826,ERS3881544
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS39	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985777,ERS2985827,ERS3881545
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS40	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985778,ERS2985828,ERS3881546
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS42	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985779,ERS2985829,ERS3881547
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS43	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985780,ERS2985830,ERS3881548
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS44	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985781,ERS2985831,ERS3881549
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS45	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985782,ERS2985832,ERS3881550
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS46	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985783,ERS2985833,ERS3881551
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS47	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985784,ERS2985834,ERS3881552
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752022	-1.257677	United Kingdom	CS48	Homo sapiens	C19th	NA	NA	oral	dental calculus	ENA	ERS2985785,ERS2985835,ERS3881553
+Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C214	Homo sapiens	Chalcolithic	NA	NA	oral	dental calculus	SRA	SRS3078201
+Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C53	Homo sapiens	Chalcolithic	NA	NA	oral	dental calculus	SRA	SRS3078204
+Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F1948	Homo sapiens	Late Ceramic Age	NA	NA	oral	dental calculus	SRA	SRS3078198
+Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F349A	Homo sapiens	Late Ceramic Age	NA	NA	oral	dental calculus	SRA	SRS3078200
+Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H10	Homo sapiens	Bronze Age	NA	NA	oral	dental calculus	SRA	SRS3078195
+Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H24	Homo sapiens	Bronze Age	NA	NA	oral	dental calculus	SRA	SRS3078181
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT01	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078183,SRS3078182 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT02	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078176
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT03	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078178
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT04	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078185
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT05	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078115,SRS3078117 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT06	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078111
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT07	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078113
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT08	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078109,SRS3078099 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT09	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078097,SRS3078104 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT10	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078101
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT11	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078105
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT12	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078133
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT13	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078131,SRS3078137 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT14	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078134,SRS3078129 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT15	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078120
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT16	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078122
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT17	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078124
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT18	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078126
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT19	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078118
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT20	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078148
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT21	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078150
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT22	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078151
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT23	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078155
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT24	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078156,SRS3078146 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT25	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078197,SRS3078141 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT26	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078139,SRS3078145 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT27	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078093
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT28	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078091,SRS3078089 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT29	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078087,SRS3078085 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT30	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078193
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT31	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078158,SRS3078147 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT32	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078192,SRS3078187 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT33	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078170
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT34	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078167
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT35	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078165
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT36	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078163,SRS3078172 
+Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.230	-90.143	USA	NF217	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078173
+Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.230	-90.143	USA	NF47	Homo sapiens	Medieval	NA	NA	oral	dental calculus	SRA	SRS3078175
+Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S108	Homo sapiens	C17th	NA	NA	oral	dental calculus	SRA	SRS3078160
+Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S40	Homo sapiens	Samdzong	NA	NA	oral	dental calculus	SRA	SRS3078162
+Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S41	Homo sapiens	Samdzong	NA	NA	oral	dental calculus	SRA	SRS3078206
+Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S454	Homo sapiens	C17th	NA	NA	oral	dental calculus	SRA	SRS3078095

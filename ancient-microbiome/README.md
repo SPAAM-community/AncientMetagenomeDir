@@ -6,18 +6,17 @@ Optional fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
 reported value'.
 
 All column with 'defined categories' should be validated against
-`standards.tsv`. This is to ensure data consistency, e.g. alll Calculus samples
-are listed as `calculus` (as defined in `standards.tsv`), and not Calculus or
-CaLcUlUs etc.
+`assests/fields/<column>.txt`. This is to ensure data consistency, e.g. all Dental calculus samples
+are listed as `dental calculus` (as defined in `assests/fields/<column>.txt`. This is to ensure data consistency.
 
 If you wish to a new category, please consult with the [SPAAM
-community](spaam-workshop.github.io), and then add it to `standards.tsv`.
+community](spaam-workshop.github.io), and then add it to `assests/fields/<column>.txt`.
 
 Sample columns are as follows:
 
 ## project_name
 
-- Format: surnameYEAR
+- Format: surnameYYYY (YYYY in numeric format)
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 

@@ -25,9 +25,10 @@
         "geo_loc_name" : {
             "datatype" : {
                 "base" : "string",
-                "format" : ".*"
+                "format" : "^[a-zA-Z \(\)\-\']+$"
             },
-            "required" : true
+            "required" : true,
+            "valid_fields" : "fields/geo_loc_name.txt"
         },
         "lat_lon" : {
             "datatype" : {
@@ -90,7 +91,7 @@
             "datatype" : {
                 "base" : "string",
                 "format" : ".*" 
-            },
+            }
         },
         "microbiome_type" : {
             "datatype" : {

@@ -1,3 +1,5 @@
+![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
+
 # AncientMetagenomeDir - Ancient Microbiome
 
 This page describes columns definitions for the Ancient Microbiome list.

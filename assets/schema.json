@@ -80,19 +80,11 @@
             },
             "valid_fields" : "fields/sample_host.txt"
         },
-        "cultural_era" : {
-            "datatype" : {
-                "base" : "string",
-                "format" : "^[a-zA-Z ]+$"
-            },
-            "valid_fields" : "fields/cultural_era.txt"
-        },
         "sample_age" : {
             "datatype" : {
                 "base" : "integer",
-                "format" : "^[0-9]+$"
+                "format" : "^[0-9]+00$"
             },
-            "valid_fields" : "fields/sample_age.txt"
         },
         "sample_age_doi" : {
             "datatype" : {

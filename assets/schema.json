@@ -1,0 +1,103 @@
+
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "columns" : [{
+        "project_name" : {
+            "datatype" : {
+                "base" : "string",
+                "format" : "^[a-zA-Z]*[0-9]{4}$"
+            },
+            "required" : true
+        },
+        "publication_year": {
+            "datatype" : {
+                "base" : "string",
+                "format" : "^[0-9]{4}$"
+            },
+            "required" : true
+        },
+        "publication_doi" : {
+            "datatype" : {
+                "base" : "string",
+                "format" : ".*"
+            },
+            "required" : true
+        },
+        "geo_loc_name" : {
+            "datatype" : {
+                "base" : "string",
+                "$ref" : "definitions-geo_loc_name.json"
+            },
+            "required" : true
+        },
+        "latitude" : {
+            "datatype" : {
+                "base" : "string",
+                "format" : "^-?[0-9]+.[0-9]+"
+            },
+            "required" : true
+        },
+        "longitude" : {
+            "datatype" : {
+                "base" : "string",
+                "format" : "^-?[0-9]+.[0-9]+"
+            },
+            "required" : true
+        },
+        "sample_name" : {
+            "datatype" : {
+                "base" : "string",
+                "format" : ".*"
+            },
+            "required" : true
+        },
+        "material" : {
+            "datatype" : {
+                "base" : "string",
+                "format" : "^[a-z ]+$"
+            },
+            "required" : true,
+            "valid_fields" : "fields/material.txt"
+        },
+        "archive": {
+            "datatype" : {
+                "base" : "string",
+                "format" : "^[a-zA-Z]+$"
+            },
+            "required" : true
+        },
+        "archive_accession" : {
+            "datatype" : {
+                "base" : "string",
+                "format" : "^[a-zA-Z0-9]+$"
+            },
+            "required" : true
+        },        
+        "sample_host" : {           
+            "datatype" : {
+            "base" : "string",
+            "format" : "^[a-zA-Z ]+$"
+            },
+            "valid_fields" : "fields/sample_host.txt"
+        },
+        "sample_age" : {
+            "datatype" : {
+                "base" : "integer",
+                "format" : "^[0-9]+00$"
+            },
+        },
+        "sample_age_doi" : {
+            "datatype" : {
+                "base" : "string",
+                "format" : ".*" 
+            }
+        },
+        "microbiome_type" : {
+            "datatype" : {
+                "base" : "string",
+                "format" : "^[a-zA-Z ]+$"
+            },
+        "valid_fields" : "fields/microbiome_type.txt"
+        }
+    }]
+}

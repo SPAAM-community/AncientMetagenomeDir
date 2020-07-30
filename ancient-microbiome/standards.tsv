@@ -1,22 +1,4 @@
 Column	Category	Definition
-cultural_era	Middle Palaeolithic	Europe; 300-45 ky BP (Approx)
-cultural_era	Upper Palaeolithic	Europe; 45-15 ky BP (Approx)
-cultural_era	Mesolithic	Europe; 15-10 ky BP (Approx)
-cultural_era	Neolithic	Europe; 10-5 ky BP (Approx)
-cultural_era	Chalcolithic	Europe; 7-5 ky BP (Approx)
-cultural_era	Bronze_Age	Europe; 5-2.5 ky BP (Approx)
-cultural_era	Iron_Age	Europe; 3 ky – 800 BP
-cultural_era	Classical	Europe; Roman/Greeks
-cultural_era	Medieval	Europe; 800 BP – 500 BP
-cultural_era	C15th	Europe; 15 th Century
-cultural_era	C16th	Europe; 16 th Century
-cultural_era	C17th	Europe; 17 th Century
-cultural_era	C18th	Europe; 18 th Century
-cultural_era	C19th	Europe; 19 th Century
-cultural_era	C20th	Europe; 20 th Century
-cultural_era	C21st	Europe; 21 st Century
-cultural_era	Middle Stone Age	Sub-Saharan Africa; Middle Stone Age
-cultural_era	Later Stone Age	Sub-Saharan Africa; Later Stone Age
 sample_host	Homo sapiens	
 sample_host	Homo sapiens neanderthalensis	
 sample_host	Pan troglodytes	

@@ -2,7 +2,6 @@
 
 This page describes columns definitions for the Ancient Sediment list.
 
-
 All column with 'defined categories' should be validated against
 `standards.tsv`. This is to ensure data consistency.
 
@@ -24,7 +23,7 @@ Sample columns are as follows:
 ## publication_doi
 
 - Publication DOI
-- Or library permalink 
+- Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
@@ -48,20 +47,29 @@ Sample columns are as follows:
 
 ## sample_name
 
-# sample_age
+- In most cases this should be the name as reported in publication
 
-- Single year without unit
-- Of _Individual_ - not proxy dates
-- Can be obtained from other publications
-- In BP format!
-- Calibrated radiocarbon date in preferred (take middle if range). 
-  - When in doubt: https://nikhausmann.shinyapps.io/BP_to_BC_and_more/
-- Infinite 14C can be kept at 49,999
-- Historical dating also allowed (e.g. via coin or historial records)
+## sample_age
+
+- Approximate single date rounded to nearest century (i.e. end in '00')
+  - e.g. something only 50 years old would be assigned as 100
+- In Before Present (BP) format i.e. since 1950 AD (~2000 AD is also fine)
+  - When in doubt: [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
+- Can be obtained from other publications if known (see `sample_age_doi`)
+
+- If date _ranges_ reported, take approximate mid-point
+- Dates for specific individual preferred.
+- Proxy dates are allowed. e.g.
+  - from other individuals in stratum/burial
+  - period of occupation of site
+  - via coin or historical records
+- Radiocarbon dates
+  - Uncalibrated dates are preferred, but if only calibrated reported can be
+    used
 
 ## sample_age_doi
 
-- DOI of publication with e.g. radiocarbon date
+- DOI of publication with date derived from
 - Can be duplicate of Publication DOI
 - Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
@@ -73,7 +81,6 @@ Sample columns are as follows:
 
 > :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
 > [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
-
 > :warning: Must follow categories specified in `standards.tsv`
 
 ## collection_date
@@ -94,5 +101,5 @@ Sample columns are as follows:
 - Of *sample*, where possible
 - e.g. ERS, SRS
 - If non-NCBI/ENA, use as close to Sample as possible
-- Multiple can be separated with commas 
+- Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples

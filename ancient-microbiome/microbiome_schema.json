@@ -1,10 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "http://example.com/example.json",
+    "$id": "https://spaam-workshop.github.io/AncientMetagenomeDir/ancient-microbiome/microbiome_schema.json",
     "type": "array",
-    "title": "The root schema",
-    "description": "The root schema comprises the entire JSON document.",
-    "default": [],
+    "title": "JSON schema for AncientMetagenomeDir ancient microbiome data",
+    "description": "The JSON schema for AncientMetagenomeDir ancient microbiome data",
     "additionalItems": false,
     "items": {
         "$id": "#/items",
@@ -73,7 +72,10 @@
             },
             "latitude": {
                 "$id": "#/items/properties/latitude",
-                "type": "number",
+                "type": [
+                    "number",
+                    "null"
+                ],
                 "minimum": -90,
                 "maximum": 90,
                 "title": "Latitude",
@@ -84,7 +86,10 @@
             },
             "longitude": {
                 "$id": "#/items/properties/longitude",
-                "type": "number",
+                "type": [
+                    "number",
+                    "null"
+                ],
                 "minimum": -90,
                 "maximum": 90,
                 "title": "Longitude",
@@ -98,7 +103,7 @@
                 "type": "string",
                 "title": "Country name",
                 "description": "Based on modern day definitions, based on INDSC Country list",
-                "$ref": "https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/ci-structure/assets/definitions.json",
+                "$ref": "https://raw.githubusercontent.com/maxibor/AncientMetagenomeDir/ci-structure/assets/enums/geo_loc_name.json",
                 "examples": [
                     "Germany"
                 ]
@@ -117,6 +122,7 @@
                 "type": "string",
                 "title": "Latin name of the host species",
                 "description": "Linnean latin name, follows NCBI taxonomy where possible",
+                "$ref": "https://raw.githubusercontent.com/maxibor/AncientMetagenomeDir/ci-structure/assets/enums/sample_host.json",
                 "examples": [
                     "Homo sapiens"
                 ]
@@ -148,6 +154,7 @@
                 "type": "string",
                 "title": "Type of microbiome",
                 "description": "The type of the microbiome",
+                "$ref": "https://raw.githubusercontent.com/maxibor/AncientMetagenomeDir/ci-structure/assets/enums/microbiome_type.json",
                 "examples": [
                     "oral"
                 ]
@@ -157,6 +164,7 @@
                 "type": "string",
                 "title": "Type of microbiome material",
                 "description": "Sample type DNA was extracted from ",
+                "$ref": "https://raw.githubusercontent.com/maxibor/AncientMetagenomeDir/ci-structure/assets/enums/material.json",
                 "examples": [
                     "dental calculus"
                 ]
@@ -180,13 +188,17 @@
                 "type": "string",
                 "title": "Archiving platform",
                 "description": "Name of the nucleotide data archiving platform",
+                "$ref": "https://raw.githubusercontent.com/maxibor/AncientMetagenomeDir/ci-structure/assets/enums/archive.json",
                 "examples": [
                     "ENA"
                 ]
             },
             "archive_accession": {
                 "$id": "#/items/properties/archive_accession",
-                "type": "string",
+                "type": [
+                    "string",
+                    "null"
+                ],
                 "title": "Archive accession number",
                 "description": "Samples archive accession numbers, multiple records can be separated with commas",
                 "examples": [

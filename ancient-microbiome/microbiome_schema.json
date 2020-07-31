@@ -103,7 +103,7 @@
                 "type": "string",
                 "title": "Country name",
                 "description": "Based on modern day definitions, based on INDSC Country list",
-                "$ref": "https://raw.githubusercontent.com/maxibor/AncientMetagenomeDir/ci-structure/assets/enums/geo_loc_name.json",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/geo_loc_name.json",
                 "examples": [
                     "Germany"
                 ]
@@ -122,7 +122,7 @@
                 "type": "string",
                 "title": "Latin name of the host species",
                 "description": "Linnean latin name, follows NCBI taxonomy where possible",
-                "$ref": "https://raw.githubusercontent.com/maxibor/AncientMetagenomeDir/ci-structure/assets/enums/sample_host.json",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/sample_host.json",
                 "examples": [
                     "Homo sapiens"
                 ]
@@ -154,7 +154,7 @@
                 "type": "string",
                 "title": "Type of microbiome",
                 "description": "The type of the microbiome",
-                "$ref": "https://raw.githubusercontent.com/maxibor/AncientMetagenomeDir/ci-structure/assets/enums/microbiome_type.json",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/microbiome_type.json",
                 "examples": [
                     "oral"
                 ]
@@ -164,7 +164,7 @@
                 "type": "string",
                 "title": "Type of microbiome material",
                 "description": "Sample type DNA was extracted from ",
-                "$ref": "https://raw.githubusercontent.com/maxibor/AncientMetagenomeDir/ci-structure/assets/enums/material.json",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/material.json",
                 "examples": [
                     "dental calculus"
                 ]
@@ -188,7 +188,7 @@
                 "type": "string",
                 "title": "Archiving platform",
                 "description": "Name of the nucleotide data archiving platform",
-                "$ref": "https://raw.githubusercontent.com/maxibor/AncientMetagenomeDir/ci-structure/assets/enums/archive.json",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/archive.json",
                 "examples": [
                     "ENA"
                 ]

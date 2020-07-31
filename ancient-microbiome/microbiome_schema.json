@@ -144,7 +144,7 @@
                 ],
                 "pattern": "^10.\\d{4,9}\\/.+$",
                 "title": "Digital Object Identifier (DOI) of the sample dating publication",
-                "description": "A valid DOI link",
+                "description": "A valid DOI code (not as an URL)",
                 "examples": [
                     "10.1038/ng.2906"
                 ]

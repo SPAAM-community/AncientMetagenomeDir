@@ -47,7 +47,8 @@ ENA](https://www.ebi.ac.uk/ena) or [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra))
 Contributing a new publication's sample information consists of the following:
 
 - check under the issues tab if the paper is already listed (if not, make one!)
-  - also check whether the issue has already been closed
+  - check whether the issue has already been closed
+  - if it listed, check to see if there is already a pull request linked to it
 - assign yourself to the issue
 - check if site/samples have been published before (i.e. to ensure the same names are used for any new samples)
 - making your own fork or branch of the repository

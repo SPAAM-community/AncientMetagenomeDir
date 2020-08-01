@@ -1,26 +1,28 @@
 ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
-# AncientMetagenomeDir - Ancient Microbiome
+# AncientMetagenomeDir - Ancient Pathogen
 
-This page describes columns definitions for the Ancient Microbiome list.
+This page describes columns definitions for the Ancient Pathogen list.
 
 Optional fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
 reported value'.
 
 All column with 'defined categories' should be validated against
-`assets/enums/<column>.json`. This is to ensure data consistency, e.g. all Dental calculus samples
-are listed as `dental calculus` (as defined in `assets/enums/<column>.json`. This is to ensure data consistency.
+`assets/enums/<column>.json`. This is to ensure data consistency, e.g. all
+Dental calculus samples are listed as `dental calculus` (as defined in
+`assets/enums/<column>.json`. This is to ensure data consistency.
 
 If you wish to a new category, please consult with the [SPAAM
-community](spaam-workshop.github.io), and then add it to `assets/enums/<column>.json`.
+community](spaam-workshop.github.io), and then add it to
+`assets/enums/<column>.json`.
 
 Sample columns are as follows:
 
 ## project_name
 
 - Format: surnameYYYY (YYYY in numeric format)
-- Due to restrictions in regex (used for validation checks), characters with accents cannot be used.
-  In these cases use the non-accented version.
+- Due to restrictions in regex (used for validation checks), characters with
+  accents cannot be used. In these cases use the non-accented version.
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
@@ -84,7 +86,8 @@ Sample columns are as follows:
   - period of occupation of site
   - via coin or historical records
 - Radiocarbon dates
-  - Uncalibrated dates are preferred, but if only calibrated reported can be used
+  - Uncalibrated dates are preferred, but if only calibrated reported can be
+    used
 
 ## sample_age_doi
 
@@ -94,9 +97,10 @@ Sample columns are as follows:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
-## microbiome_type
+## pathogen_species
 
-- e.g. oral, gut
+- Linnean latin name
+- Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 

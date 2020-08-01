@@ -19,6 +19,8 @@ Sample columns are as follows:
 ## project_name
 
 - Format: surnameYYYY (YYYY in numeric format)
+- Due to restrictions in regex (used for validation checks), characters with accents cannot be used.
+  In these cases use the non-accented version.
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 

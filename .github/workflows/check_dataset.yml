@@ -18,4 +18,4 @@ jobs:
       - name: test ancient microbiome 
         run: ancientMetagenomeDirCheck ancient-microbiome/ancient-microbiome.tsv ancient-microbiome/microbiome_schema.json
       - name: test ancient pathogen 
-        run: ancientMetagenomeDirCheck ancient-pathogen/ancient-pathogen.tsv ancient-pathogen/microbiome_pathogen.json
+        run: ancientMetagenomeDirCheck ancient-pathogen/ancient-pathogen.tsv ancient-pathogen/pathogen_schema.json

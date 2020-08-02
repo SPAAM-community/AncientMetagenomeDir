@@ -1,0 +1,7 @@
+{
+    "enum": [
+        "Homo sapiens",
+        "Homo sapiens neanderthalensis",
+        "Pan troglodytes"
+    ]
+}

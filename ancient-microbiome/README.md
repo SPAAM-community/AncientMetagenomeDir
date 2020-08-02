@@ -8,18 +8,19 @@ Optional fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
 reported value'.
 
 All column with 'defined categories' should be validated against
-`standards.tsv`. This is to ensure data consistency, e.g. alll Calculus samples
-are listed as `calculus` (as defined in `standards.tsv`), and not Calculus or
-CaLcUlUs etc.
+`assets/enums/<column>.json`. This is to ensure data consistency, e.g. all Dental calculus samples
+are listed as `dental calculus` (as defined in `assets/enums/<column>.json`. This is to ensure data consistency.
 
 If you wish to a new category, please consult with the [SPAAM
-community](spaam-workshop.github.io), and then add it to `standards.tsv`.
+community](spaam-workshop.github.io), and then add it to `assets/enums/<column>.json`.
 
 Sample columns are as follows:
 
 ## project_name
 
-- Format: surnameYEAR
+- Format: surnameYYYY (YYYY in numeric format)
+- Due to restrictions in regex (used for validation checks), characters with accents cannot be used.
+  In these cases use the non-accented version.
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
@@ -66,33 +67,28 @@ Sample columns are as follows:
 - Linnean latin name
 - Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
 
-> :warning: Must follow categories specified in `standards.tsv`
-
-## cultural_era
-
-- These are *approximate* chrono-cultural categories, following broad/general
-  definitions
-  - Therefore no arguing please. In most cases report as in publication, or
-    closest equivalent
-- Used to assist in grouping samples for timelines when no direct C14/historical
-  record date
-
-> :warning: Must follow categories specified in `standards.tsv`
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 # sample_age
 
-- Single year without unit
-- Of _Individual_ - not proxy dates
-- Can be obtained from other publications
-- In BP format!
-- Calibrated radiocarbon date in preferred (take middle if range). 
+- Single date rounded to nearest century (i.e. end in '00')
+  - e.g. something only 50 years old would be assigned as 100
+- In Before Present (BP) format i.e. since 1950 AD (~2000 AD is also fine)
   - When in doubt: https://nikhausmann.shinyapps.io/BP_to_BC_and_more/
-- Infinite 14C can be kept at 49,999
-- Historical dating also allowed (e.g. via coin or historial records)
+- Can be obtained from other publications if known (see `sample_age_doi`)
+
+- If date _ranges_ reported, take approximate mid-point
+- Dates for specific individual preferred.
+- Proxy dates are allowed. e.g.
+  - from other individuals in stratum/burial
+  - period of occupation of site
+  - via coin or historical records
+- Radiocarbon dates
+  - Uncalibrated dates are preferred, but if only calibrated reported can be used
 
 ## sample_age_doi
 
-- DOI of publication with e.g. radiocarbon date
+- DOI of publication with date derived from
 - Can be duplicate of Publication DOI
 - Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
@@ -102,7 +98,7 @@ Sample columns are as follows:
 
 - e.g. oral, gut
 
-> :warning: Must follow categories specified in `standards.tsv`
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## material
 
@@ -112,7 +108,7 @@ Sample columns are as follows:
 > :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
 > [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
 
-> :warning: Must follow categories specified in `standards.tsv`
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## collection_date
 
@@ -125,7 +121,7 @@ Sample columns are as follows:
 - e.g. [ENA](https://www.ebi.ac.uk/ena),
   [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/)
 
-> :warning: Must follow categories specified in `standards.tsv`
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## archive_accession
 

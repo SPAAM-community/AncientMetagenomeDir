@@ -2,7 +2,6 @@ name: check_dataset
 # This workflow is triggered on pushes and PRs to the repository.
 on: [push, pull_request]
 
-
 jobs:
   ancientMetagenomeDirCheck:
     runs-on: ubuntu-latest
@@ -17,5 +16,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install git+https://github.com/SPAAM-workshop/AncientMetagenomeDirCheck.git
       - name: test ancient microbiome 
-        run: ancientMetagenomeDirCheck ancient-microbiome/standards.tsv ancient-microbiome/ancient-microbiome.tsv
-            
+        run: ancientMetagenomeDirCheck ancient-microbiome/ancient-microbiome.tsv ancient-microbiome/microbiome_schema.json
+      - name: test ancient pathogen 
+        run: ancientMetagenomeDirCheck ancient-pathogen/ancient-pathogen.tsv ancient-pathogen/pathogen_schema.json

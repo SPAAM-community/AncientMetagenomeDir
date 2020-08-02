@@ -1,7 +1,7 @@
 # AncientMetagenomeDir
 
 [![License: CC BY
-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
 AncientMetagenomeDir is a community curated resource of lists of all published
 shotgun-sequenced ancient metagenome samples. It is primarily meant to act as a
@@ -44,8 +44,12 @@ ENA](https://www.ebi.ac.uk/ena) or [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra))
 
 ### Own Publications
 
-Contributing a new publication's sample information consists:
+Contributing a new publication's sample information consists of the following:
 
+- check under the issues tab if the paper is already listed (if not, make one!)
+  - check whether the issue has already been closed
+  - if it listed, check to see if there is already a pull request linked to it
+- assign yourself to the issue
 - check if site/samples have been published before (i.e. to ensure the same names are used for any new samples)
 - making your own fork or branch of the repository
 - update the given list (e.g. in spreadsheet program, R etc.))
@@ -54,6 +58,7 @@ Contributing a new publication's sample information consists:
 - making a pull-request
 - receive a review to check your additions follow current conventions
 - have your PR merged
+- close the issue
 
 All contributions are attributed through Git's in-built recording of the author
 of each commit and pull request. These will be displayed publically in the

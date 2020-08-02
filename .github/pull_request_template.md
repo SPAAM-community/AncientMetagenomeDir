@@ -17,5 +17,6 @@ This PR is for
 - [ ] Checked samples in this publication are not previously published _data_ (newly re-sequenced metagenomes are OK!) 
 - [ ] Checked the list follows conventions as described in the corresponding sample type's README file
 - [ ] Checked columns against the corresponding sample type list against `standard.tsv`
+- [ ] Updated CHANGELOG.md
 - [ ] (If applicable) Updated `standards.tsv` with new categories 
 

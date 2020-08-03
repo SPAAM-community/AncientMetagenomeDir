@@ -1,19 +1,23 @@
 # AncientMetagenomeDir
 
-<img src="assets/images/spaam-AncientMetagenomeDir_socialmedia.png" width=30% >
 
 [![License: CC BY
-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
+4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
+
+<p align='center'>
+  <img src="assets/images/spaam-AncientMetagenomeDir_socialmedia.png" width=40% >
+</p>
 
 AncientMetagenomeDir is a community curated resource of lists of all published
-shotgun-sequenced ancient metagenome samples. It is primarily meant to act as a
-reference guide to help point researchers toward any relevent public data for
-comparative analysis. It is hoped it will help researchers track growth and
+**shotgun**-sequenced ancient metagenome samples. It is primarily meant to act
+as a reference guide to help point researchers toward any relevent public data
+for comparative analysis. It is hoped it will help researchers track growth and
 development of the field of ancient metagenomics over time.
 
 These lists contain information such as publication, sample name, sample type,
-geographic location, dates and DOIs and other accession numbers to _samples_ in
-establised sequencing data databases. We define here 'metagenome' in a broad
+geographic location, dates and DOIs and other accession numbers to **samples**
+in establised sequencing data databases. We define here 'metagenome' in a broad
 sense, primarily focusing any data where the whole DNA content is analysed and
 explored. Examples for this are ancient microbiomes, ancient sedimentary DNA and
 also samples used for ancient pathogen screening. Further expansion of these
@@ -33,13 +37,14 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 ## Contributing
 
-Samples must be from *published* studies, and should only include *sample* level
-information. Preprints often have not made data avaliable at this point, and it
-is assumed that peer-review has correctly evaluated any submitted metagenome is
-valid.
+Samples must be from **published** studies, and should only include **sample**
+level information. Preprints often have not made data avaliable at this point,
+and it is assumed that peer-review has correctly evaluated any submitted
+metagenome is valid.
 
 Samples must also have been accessible on public databases (e.g. [EBI
-ENA](https://www.ebi.ac.uk/ena) or [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra)).
+ENA](https://www.ebi.ac.uk/ena) or [NCBI
+SRA](https://www.ncbi.nlm.nih.gov/sra)).
 
 > Important: we currently do not record *sequencing data* information, due to
 > different uploading strategies by different groups.
@@ -52,11 +57,14 @@ Contributing a new publication's sample information consists of the following:
   - check whether the issue has already been closed
   - if it listed, check to see if there is already a pull request linked to it
 - assign yourself to the issue
-- check if site/samples have been published before (i.e. to ensure the same names are used for any new samples)
+- check if site/samples have been published before (i.e. to ensure the same
+  names are used for any new samples)
 - making your own fork or branch of the repository
 - update the given list (e.g. in spreadsheet program, R etc.))
-  - generally you will be copying direct from a publication's supplementary information
-  - some columns have standard pre-defined categories, check a lists's README if in doubt!
+  - generally you will be copying direct from a publication's supplementary
+    information
+  - some columns have standard pre-defined categories, check a lists's README if
+    in doubt!
 - making a pull-request
 - receive a review to check your additions follow current conventions
 - have your PR merged
@@ -80,10 +88,10 @@ Contribution of these publications follow as [above](#own-publications).
 ### Guidelines and Conventions
 
 To ensure efficient and consistent searching, we include guidelines on how to
-record and format information. Adherence to these guidelines is enforced by 'pull request' review
-by members of the SPAAM community and other contributors. Furthermore, each
-category of metagenome will have their own 'special' fields, which will be
-defined in each specific context.
+record and format information. Adherence to these guidelines is enforced by
+'pull request' review by members of the SPAAM community and other contributors.
+Furthermore, each category of metagenome will have their own 'special' fields,
+which will be defined in each specific context.
 
 [![License: CC BY
 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)

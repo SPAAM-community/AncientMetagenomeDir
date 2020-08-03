@@ -1,5 +1,8 @@
 # AncientMetagenomeDir
 
+<img src="assets/images/spaam-AncientMetaGenomdir_logo.png" width=10% >
+
+
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 

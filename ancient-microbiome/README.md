@@ -19,8 +19,8 @@ Sample columns are as follows:
 ## project_name
 
 - Format: surnameYYYY (YYYY in numeric format)
-- Due to restrictions in regex (used for validation checks), characters with accents cannot be used.
-  In these cases use the non-accented version.
+- Due to restrictions in regex (used for validation checks), **characters with accents cannot be used**.
+  - In these cases use the non-accented version.
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
@@ -40,16 +40,21 @@ Sample columns are as follows:
 - As reported in publication
 - Accents are allowed
 
-## lat_lon
+## latitude
 
-- Separated by a space: e.g. 27.987 86.925
 - Decimal format
 - Maximum three decimals
-- In WGS84 project (coordinates taken from Google Maps is recommended)
+- In WGS84 projection (coordinates taken from Google Maps is recommended, range 90 to -90)
 - Can be searched in wider literature, rough location is acceptable but use
   fewer decimals
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+## longitude
+
+- Decimal format
+- Maximum three decimals
+- In WGS84 projection (coordinates taken from Google Maps is recommended, range 180 to -180)
+- Can be searched in wider literature, rough location is acceptable but use
+  fewer decimals
 
 ## geo_loc_name
 
@@ -127,6 +132,9 @@ Sample columns are as follows:
 
 - Of *sample*, where possible
 - e.g. ERS, SRS
+  - For ENA/SRA: These should be **secondary** accession IDs to keep as close to data as possible (e.g. SRS, ERS, not SAMEA)
+  - On ENA this can be viewed by 'Show selected columns', then tick box next to 'secondary sample' accession - the column should now appear
+  - On SRA this can be seen under the **Sample:** header, the second entry of the line (to the right of the SAMEA* accession ID)
 - If non-NCBI/ENA, use as close to Sample as possible
 - Multiple can be separated with commas 
   - e.g. when different extracts of one sample incorrectly uploaded as samples

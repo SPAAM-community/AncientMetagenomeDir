@@ -2,7 +2,7 @@
     "enum": [
         "ENA",
         "SRA",
-        "OAGR"
+        "OAGR",
         "UCPH ERDA"
     ]
 }

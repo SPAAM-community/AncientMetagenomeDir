@@ -1,5 +1,6 @@
 ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
+
 # AncientMetagenomeDir - Ancient Sediment
 
 This page describes columns definitions for the Ancient Sediment list.
@@ -8,11 +9,13 @@ Optional fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
 reported value'.
 
 All column with 'defined categories' should be validated against
-`assets/enums/<column>.json`. This is to ensure data consistency, e.g. all Dental calculus samples
-are listed as `dental calculus` (as defined in `assets/enums/<column>.json`. This is to ensure data consistency.
+`assets/enums/<column>.json`. This is to ensure data consistency, e.g. all
+dental calculus samples are listed as `dental calculus` (as defined in
+`assets/enums/<column>.json`. This is to ensure data consistency.
 
 If you wish to a new category, please consult with the [SPAAM
-community](spaam-workshop.github.io), and then add it to `assets/enums/<column>.json`.
+community](spaam-workshop.github.io), and then add it to
+`assets/enums/<column>.json`.
 
 Sample columns are as follows:
 
@@ -65,9 +68,9 @@ Sample columns are as follows:
 
 ## sample_name
 
-- In most cases this should be the name of the original sample
+- Unique identifier for that sample as used in publication
 
-# sample_age
+## sample_age
 
 - Single date rounded to nearest century (i.e. end in '00')
   - e.g. something only 50 years old would be assigned as 100
@@ -82,7 +85,8 @@ Sample columns are as follows:
   - period of occupation of site
   - via coin or historical records
 - Radiocarbon dates
-  - Uncalibrated dates are preferred, but if only calibrated reported can be used
+  - Uncalibrated dates are preferred, but if only calibrated reported can be
+    used
 
 ## sample_age_doi
 
@@ -92,13 +96,15 @@ Sample columns are as follows:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
-## material
+## sediment_description
 
-- Sample type DNA was extracted from
+- Further description of sediment following [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
+  - e.g. permafrost, lake sediment, peat soil
 
 ## collection_date
 
 - Year of sample collection in YYYY format
+- If sample is from a sediment core, may be later than year of core collection
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 

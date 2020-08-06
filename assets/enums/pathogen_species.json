@@ -1,0 +1,12 @@
+{
+    "enum": [
+        "Yersinia pestis",
+        "Mycobacterium leprae",
+        "Mycobacterium tuberculosis",
+        "Salmonella enterica",
+        "Parvovirus B19",
+        "Hepatitis B virus",
+        "Treponema pallidum",
+        "Variola virus",
+    ]
+}

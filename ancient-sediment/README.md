@@ -66,6 +66,8 @@ Sample columns are as follows:
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
+
 ## sample_name
 
 - Unique identifier for that sample as used in publication
@@ -100,6 +102,11 @@ Sample columns are as follows:
 
 - Description of sediment following [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
   - e.g. permafrost, lake sediment, peat soil
+
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
+> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## collection_date
 

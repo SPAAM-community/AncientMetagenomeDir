@@ -52,15 +52,16 @@ ENA](https://www.ebi.ac.uk/ena) or [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra))
 
 Contributing a new publication's sample information consists of the following:
 
-- check under the issues tab if the paper is already listed (if not, make one!)
-  - check whether the issue has already been closed
-  - if it listed, check to see if there is already a pull request linked to it
+- check under the [issues](https://github.com/SPAAM-workshop/AncientMetagenomeDir/issues) tab if the paper is already listed (if not, make one!)
+  - check whether the issue has already been [closed](https://github.com/SPAAM-workshop/AncientMetagenomeDir/issues?q=is%3Aissue+is%3Aclosed)
+  - if it listed, check to see if there is already a [pull request](https://github.com/SPAAM-workshop/AncientMetagenomeDir/pulls) linked to it
 - assign yourself to the issue
 - check if site/samples have been published before (i.e. to ensure the same names are used for any new samples)
 - making your own fork or branch of the repository
-- update the given list (e.g. in spreadsheet program, R etc.))
+- update the given list (e.g. in spreadsheet program, R etc.)
   - generally you will be copying direct from a publication's supplementary information
   - some columns have standard pre-defined categories, check a lists's README if in doubt!
+  - if you need to add a category please request one by mentioning @ancientmetagenomedir-coreteam in your PR, or update the enums in JSON files under `assets/enums` yourself
 - making a pull-request
 - receive a review to check your additions follow current conventions
 - have your PR merged

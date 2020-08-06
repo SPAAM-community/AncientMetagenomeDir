@@ -34,7 +34,7 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 ## Contributing
 
 If you are not familiar with Git(Hub), a simple step-by-step guide can be seen
-[here](https://hackmd.io/@jfy133/H19kmDalw#/15).
+[here](https://hackmd.io/@jfy133/H19kmDalw#/15) or in PDF format [here](https://github.com/SPAAM-workshop/AncientMetagenomeDir/raw/master/assets/intro_to_github_and_ancientmetagenomedir.pdf)
 
 Samples must be from *published* studies, and should only include *sample* level
 information. Preprints often have not made data avaliable at this point, and it

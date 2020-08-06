@@ -118,7 +118,7 @@ Sample columns are as follows:
 ## material
 
 - Sample type DNA was extracted from
-  - e.g. dental calculus, palaeofaeces, intestinal, chewing gum
+  - e.g. tooth, bone, dental calculus
 
 > :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
 > [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)

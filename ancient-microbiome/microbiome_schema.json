@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
     "$id": "https://spaam-workshop.github.io/AncientMetagenomeDir/ancient-microbiome/microbiome_schema.json",
-    "type": "array",
+    "type": "object",
     "title": "JSON schema for AncientMetagenomeDir ancient microbiome data",
     "description": "The JSON schema for AncientMetagenomeDir ancient microbiome data",
     "additionalItems": false,

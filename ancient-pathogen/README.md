@@ -100,6 +100,10 @@ Sample columns are as follows:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
+## pathogen_domain
+
+- Which domain of life (or equivalent) the species comes from: bacteria, archea, virus, eukaryota
+
 ## pathogen_species
 
 - Linnean latin name

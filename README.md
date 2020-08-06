@@ -33,6 +33,9 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 ## Contributing
 
+If you are not familiar with Git(Hub), a simple step-by-step guide can be seen
+[here](https://hackmd.io/@jfy133/H19kmDalw#/15).
+
 Samples must be from *published* studies, and should only include *sample* level
 information. Preprints often have not made data avaliable at this point, and it
 is assumed that peer-review has correctly evaluated any submitted metagenome is

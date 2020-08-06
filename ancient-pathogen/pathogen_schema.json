@@ -23,6 +23,7 @@
             "sample_host",
             "sample_age",
             "sample_age_doi",
+            "pathogen_domain",
             "pathogen_species",
             "material",
             "collection_date",
@@ -162,7 +163,7 @@
             "pathogen_species": {
                 "$id": "#/items/properties/pathogen_species",
                 "type": "string",
-                "title": "Latin name of the pathogen species",
+                "title": "Latin name of the microbiome species",
                 "description": "Linnean latin name, follows NCBI taxonomy where possible",
                 "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/pathogen_species.json",
                 "examples": [

@@ -63,6 +63,8 @@ Sample columns are as follows:
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
+
 ## sample_name
 
 - In most cases this should be the name of the host *individual*
@@ -103,6 +105,8 @@ Sample columns are as follows:
 ## pathogen_domain
 
 - Which domain of life (or equivalent) the species comes from: bacteria, archea, virus, eukaryota
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## pathogen_species
 

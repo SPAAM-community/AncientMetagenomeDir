@@ -5,6 +5,8 @@
 
 This page describes columns definitions for the Ancient Pathogen list.
 
+These entries should represent whole genome-level metagenomes (not plasmids etc.).
+
 Optional fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
 reported value'.
 

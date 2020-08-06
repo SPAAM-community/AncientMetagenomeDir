@@ -101,6 +101,9 @@ Sample columns are as follows:
 - Description of sediment following [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
   - e.g. permafrost, lake sediment, peat soil
 
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
+> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
+
 ## collection_date
 
 - Year of sample collection in YYYY format

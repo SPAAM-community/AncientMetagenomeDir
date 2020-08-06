@@ -10,7 +10,7 @@ reported value'.
 
 All column with 'defined categories' should be validated against
 `assets/enums/<column>.json`. This is to ensure data consistency, e.g. all
-dental calculus samples are listed as `dental calculus` (as defined in
+Lake Sediment samples are listed as `lake sediment` (as defined in
 `assets/enums/<column>.json`. This is to ensure data consistency.
 
 If you wish to a new category, please consult with the [SPAAM
@@ -96,9 +96,9 @@ Sample columns are as follows:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
-## sediment_description
+## material
 
-- Further description of sediment following [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
+- Description of sediment following [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
   - e.g. permafrost, lake sediment, peat soil
 
 ## collection_date

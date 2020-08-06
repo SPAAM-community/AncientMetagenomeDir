@@ -1,1 +1,4 @@
 project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	sample_name	sample_host	sample_age	sample_age_doi	pathogen_domain	pathogen_species	material	collection_date	archive	archive_accession
+Bos2014	2014	10.1038/nature13591	El Yaral	-17.410336	-71.092822	Peru	64	Homo sapiens 	1200	10.1038/nature13591	bacteria	Mycobacterium pinnipedii	bone	NA	SRA	SRS592075
+Bos2014	2014	10.1038/nature13591	El Algodonal	-17.583388	-71.21093	Peru	58	Homo sapiens 	1100	10.1038/nature13591	bacteria	Mycobacterium pinnipedii	bone	NA	SRA	SRS591992
+Bos2014	2014	10.1038/nature13591	Chiribaya Alta	-17.621902	-71.26992	Peru	54	Homo sapiens 	1100	10.1038/nature13591	bacteria	Mycobacterium pinnipedii	bone	NA	SRA	SRS591994

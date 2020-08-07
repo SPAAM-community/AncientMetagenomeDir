@@ -1,9 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://spaam-workshop.github.io/AncientMetagenomeDir/ancient-microbiome/microbiome_schema.json",
+    "$id": "https://spaam-workshop.github.io/AncientMetagenomeDir/ancient-sediment/sediment_schema.json",
     "type": "array",
-    "title": "JSON schema for AncientMetagenomeDir ancient microbiome data",
-    "description": "The JSON schema for AncientMetagenomeDir ancient microbiome data",
+    "title": "JSON schema for AncientMetagenomeDir ancient sediment data",
+    "description": "The JSON schema for AncientMetagenomeDir ancient sediment data",
     "additionalItems": false,
     "items": {
         "$id": "#/items",
@@ -20,10 +20,8 @@
             "longitude",
             "geo_loc_name",
             "sample_name",
-            "sample_host",
             "sample_age",
             "sample_age_doi",
-            "microbiome_type",
             "collection_date",
             "material",
             "archive",
@@ -79,7 +77,7 @@
                 "minimum": -90,
                 "maximum": 90,
                 "title": "Latitude",
-                "description": "WGS 84 Latitude Ranges between -90 and 90 (e.g. as used in Google Maps)",
+                "description": "Ranges between -90 and 90",
                 "examples": [
                     51.565
                 ]
@@ -93,7 +91,7 @@
                 "minimum": -180,
                 "maximum": 180,
                 "title": "Longitude",
-                "description": "WGS 84 Longitude Ranges between -180 and 180 (e.g. as used in Google Maps)",
+                "description": "Ranges between -180 and 180",
                 "examples": [
                     8.84
                 ]
@@ -115,16 +113,6 @@
                 "description": "In most cases this should be the name of the host individual",
                 "examples": [
                     "B61"
-                ]
-            },
-            "sample_host": {
-                "$id": "#/items/properties/sample_host",
-                "type": "string",
-                "title": "Latin name of the host species",
-                "description": "Linnean latin name, follows NCBI taxonomy where possible",
-                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/sample_host.json",
-                "examples": [
-                    "Homo sapiens"
                 ]
             },
             "sample_age": {
@@ -149,20 +137,10 @@
                     "10.1038/ng.2906"
                 ]
             },
-            "microbiome_type": {
-                "$id": "#/items/properties/microbiome_type",
-                "type": "string",
-                "title": "Type of microbiome",
-                "description": "The type of the microbiome",
-                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/microbiome_type.json",
-                "examples": [
-                    "oral"
-                ]
-            },
             "material": {
                 "$id": "#/items/properties/material",
                 "type": "string",
-                "title": "Type of microbiome material",
+                "title": "Type of sediment material",
                 "description": "Sample type DNA was extracted from ",
                 "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/material.json",
                 "examples": [

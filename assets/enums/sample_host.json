@@ -2,6 +2,11 @@
     "enum": [
         "Homo sapiens",
         "Homo sapiens neanderthalensis",
-        "Pan troglodytes"
+        "Pan troglodytes",
+        "Papio hamadryas",
+        "Papio anubis",
+        "Papio sp.",
+        "Pan troglodytes schweinfurthii",
+        "Gorilla beringei"
     ]
 }

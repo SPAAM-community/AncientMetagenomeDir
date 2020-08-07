@@ -23,6 +23,7 @@
             "sample_host",
             "sample_age",
             "sample_age_doi",
+            "pathogen_domain",
             "pathogen_species",
             "material",
             "collection_date",
@@ -149,10 +150,20 @@
                     "10.1038/ng.2906"
                 ]
             },
+            "pathogen_domain": {
+                "$id": "#/items/properties/pathogen_domain",
+                "type": "string",
+                "title": "Pathogen domain",
+                "description": "Domain or equivalent of pathogen species",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/pathogen_domain.json",
+                "examples": [
+                    "bacteria"
+                ]
+            },
             "pathogen_species": {
                 "$id": "#/items/properties/pathogen_species",
                 "type": "string",
-                "title": "Latin name of the pathogen species",
+                "title": "Latin name of the microbiome species",
                 "description": "Linnean latin name, follows NCBI taxonomy where possible",
                 "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/pathogen_species.json",
                 "examples": [

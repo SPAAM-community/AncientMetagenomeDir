@@ -1,0 +1,8 @@
+{
+    "enum": [
+        "bacteria",
+        "archaea",
+        "virus",
+        "eukaryota"
+    ]
+}

@@ -23,6 +23,7 @@
             "sample_host",
             "sample_age",
             "sample_age_doi",
+            "pathogen_domain",
             "pathogen_species",
             "material",
             "collection_date",
@@ -79,7 +80,7 @@
                 "minimum": -90,
                 "maximum": 90,
                 "title": "Latitude",
-                "description": "Ranges between -90 and 90",
+                "description": "WGS 84 Latitude Ranges between -90 and 90 (e.g. as used in Google Maps)",
                 "examples": [
                     51.565
                 ]
@@ -90,10 +91,10 @@
                     "number",
                     "null"
                 ],
-                "minimum": -90,
-                "maximum": 90,
+                "minimum": -180,
+                "maximum": 180,
                 "title": "Longitude",
-                "description": "Ranges between -90 and 90",
+                "description": "WGS 84 Longitude Ranges between -180 and 180 (e.g. as used in Google Maps)",
                 "examples": [
                     8.84
                 ]
@@ -149,10 +150,20 @@
                     "10.1038/ng.2906"
                 ]
             },
+            "pathogen_domain": {
+                "$id": "#/items/properties/pathogen_domain",
+                "type": "string",
+                "title": "Pathogen domain",
+                "description": "Domain or equivalent of pathogen species",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/pathogen_domain.json",
+                "examples": [
+                    "bacteria"
+                ]
+            },
             "pathogen_species": {
                 "$id": "#/items/properties/pathogen_species",
                 "type": "string",
-                "title": "Latin name of the pathogen species",
+                "title": "Latin name of the microbiome species",
                 "description": "Linnean latin name, follows NCBI taxonomy where possible",
                 "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/pathogen_species.json",
                 "examples": [

@@ -19,8 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Brealey 2020 10.1093/molbev/msaa135	
 - Ozga 2019 10.1038/s41598-019-53802-1	
 - Ottoni 2019 10.1038/s41598-019-56074-x	
-- Zhou 2018 10.1016/j.cub.2018.05.058	
-- Ahmed 2018 10.1016/j.quascirev.2017.11.037	
+- Zhou 2018 10.1016/j.cub.2018.05.058
 
 **pathogen**
 

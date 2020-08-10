@@ -7,8 +7,8 @@ This page describes columns definitions for the Ancient Pathogen list.
 
 These entries should represent whole genome-level metagenomes (not plasmids etc.).
 
-Optional fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
-reported value'.
+Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
+reported value'. Text fields (e.g. `geo_loc_name` can be indicated with `Unknown`).
 
 All column with 'defined categories' should be validated against
 `assets/enums/<column>.json`. This is to ensure data consistency, e.g. all
@@ -44,22 +44,31 @@ Sample columns are as follows:
 
 - As reported in publication
 - Accents are allowed
+- Missing name: `Unknown`
 
-## lat_lon
+## latitude
 
-- Separated by a space: e.g. 27.987 86.925
 - Decimal format
 - Maximum three decimals
-- In WGS84 project (coordinates taken from Google Maps is recommended)
+- In WGS84 projection (coordinates taken from Google Maps is recommended, range 90 to -90)
 - Can be searched in wider literature, rough location is acceptable but use
   fewer decimals
+- Missing value: `NA`
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+## longitude
+
+- Decimal format
+- Maximum three decimals
+- In WGS84 projection (coordinates taken from Google Maps is recommended, range 180 to -180)
+- Can be searched in wider literature, rough location is acceptable but use
+  fewer decimals
+- Missing value: `NA`
 
 ## geo_loc_name
 
 - Based on modern day definitions
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
+- Missing name: `Unknown`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
@@ -91,8 +100,9 @@ Sample columns are as follows:
   - period of occupation of site
   - via coin or historical records
 - Radiocarbon dates
-  - Uncalibrated dates are preferred, but if only calibrated reported can be
-    used
+  - Uncalibrated dates are preferred, but if only calibrated reported can be used
+  
+- Missing value: `NA`
 
 ## sample_age_doi
 
@@ -145,7 +155,6 @@ Sample columns are as follows:
 - If non-NCBI/ENA, use as close to sample-level as possible
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
-
 
 <details>
   <summary>Expand to show location of ERS codes on ENA</summary>

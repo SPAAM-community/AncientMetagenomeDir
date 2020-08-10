@@ -19,3 +19,6 @@ jobs:
         run: ancientMetagenomeDirCheck ancient-microbiome/ancient-microbiome.tsv ancient-microbiome/microbiome_schema.json
       - name: test ancient pathogen 
         run: ancientMetagenomeDirCheck ancient-pathogen/ancient-pathogen.tsv ancient-pathogen/pathogen_schema.json
+      - name: test ancient sediment
+        run: ancientMetagenomeDirCheck ancient-sediment/ancient-sediment.tsv ancient-sediment/sediment_schema.json
+              

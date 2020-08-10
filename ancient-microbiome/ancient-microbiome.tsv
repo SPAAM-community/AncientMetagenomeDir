@@ -68,12 +68,12 @@ Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	Unit
 Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS47	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985784,ERS2985834,ERS3881552
 Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS48	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985785,ERS2985835,ERS3881553
 Jensen2019	2019	10.1038/s41467-019-13549-9	Syltholm	54.66	11.35	Denmark	Syltholm_1	Homo sapiens	5700	10.1038/s41467-019-13549-9	oral	birch pitch	NA	ENA	ERS3337752
-Fagernas2020	2020	10.1016/j.jas.2020.105135	Driffield Terrace	53.951	-1.1	United Kingdom	3DT21	Homo sapiens	1700	NA	oral	dental calculus	NA	ENA	ERS4042406,ERS4042407,ERS4042408,ERS4042409
-Fagernas2020	2020	10.1016/j.jas.2020.105135	Wighill	53.91	-1.29	United Kingdom	WG1561	Homo sapiens	700	NA	oral	dental calculus	NA	ENA	ERS4042435,ERS4042436,ERS4042437,ERS4042438
-Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 1441-1-1440(044)	Homo sapiens	1100	NA	oral	dental calculus	NA	ENA	ERS4042423,ERS4042424,ERS4042425,ERS4042426
-Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 2591-1-2590(159)	Homo sapiens	1100	NA	oral	dental calculus	NA	ENA	ERS4042427,ERS4042428,ERS4042429,ERS4042430
-Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 2711-1-2710(171)	Homo sapiens	1000	NA	oral	dental calculus	NA	ENA	ERS4042431,ERS4042432,ERS4042433,ERS4042434
-Fagernas2020	2020	10.1016/j.jas.2020.105135	Rupert's Valley	-15.933	-5.75	Saint Helena	SK203	Homo sapiens	100	NA	oral	dental calculus	NA	ENA	ERS4042419,ERS4042420,ERS4042421,ERS4042422
+Fagernas2020	2020	10.1016/j.jas.2020.105135	Driffield Terrace	53.951	-1.1	United Kingdom	3DT21	Homo sapiens	1700	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042406,ERS4042407,ERS4042408,ERS4042409
+Fagernas2020	2020	10.1016/j.jas.2020.105135	Wighill	53.91	-1.29	United Kingdom	WG1561	Homo sapiens	700	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042435,ERS4042436,ERS4042437,ERS4042438
+Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 1441-1-1440(044)	Homo sapiens	1100	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042423,ERS4042424,ERS4042425,ERS4042426
+Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 2591-1-2590(159)	Homo sapiens	1100	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042427,ERS4042428,ERS4042429,ERS4042430
+Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 2711-1-2710(171)	Homo sapiens	1000	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042431,ERS4042432,ERS4042433,ERS4042434
+Fagernas2020	2020	10.1016/j.jas.2020.105135	Rupert's Valley	-15.933	-5.75	Saint Helena	SK203	Homo sapiens	100	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042419,ERS4042420,ERS4042421,ERS4042422
 Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C214	Homo sapiens	4700	NA	oral	dental calculus	NA	SRA	SRS3078201
 Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C53	Homo sapiens	4700	NA	oral	dental calculus	NA	SRA	SRS3078204
 Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F1948	Homo sapiens	900	NA	oral	dental calculus	NA	SRA	SRS3078198
@@ -122,6 +122,39 @@ Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands
 Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S40	Homo sapiens	1500	NA	oral	dental calculus	NA	SRA	SRS3078162
 Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S41	Homo sapiens	1500	NA	oral	dental calculus	NA	SRA	SRS3078206
 Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S454	Homo sapiens	300	NA	oral	dental calculus	NA	SRA	SRS3078095
+Brealey2020	2020	10.1093/molbev/msaa135	Karisimbi	-1.508	29.445	Democratic Republic of the Congo	Gb1	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545903,ERS4545904 ,ERS4545905 
+Brealey2020	2020	10.1093/molbev/msaa135	Lulingu	-2.316	27.549	Democratic Republic of the Congo	Gb2	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545906,ERS4545907,ERS4545908 
+Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua2	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545909
+Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua6	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545910
+Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua7	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545911
+Brealey2020	2020	10.1093/molbev/msaa135	Lake Ladoga	61	31.5	Russia	Ua13	Ursus arctos	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545912
+Brealey2020	2020	10.1093/molbev/msaa135	Dalarna	61.004	14.537	Sweden	Ua14	Ursus arctos	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545913
+Brealey2020	2020	10.1093/molbev/msaa135	Jämtland	63.399	13.081	Sweden	Ua9	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545914
+Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt1	Rangifer tarandus	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545915
+Brealey2020	2020	10.1093/molbev/msaa135	Unknown	NA	NA	Unknown	Rt5	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545916
+Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt7	Rangifer tarandus	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545917
+Brealey2020	2020	10.1093/molbev/msaa135	South-west Norway	60	6	Norway	Rt11	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545918
+Brealey2020	2020	10.1093/molbev/msaa135	North-east Greenland	79	-56	Greenland	Rt13	Rangifer tarandus	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545919
+Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt_tooth	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	tooth	NA	ENA	ERS4545920
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	02C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625244
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	04C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625243
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	05C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625242
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	07C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625241
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	13C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625248
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	14C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625247
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	16C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625246
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	17C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625245
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	18C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625250
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	19C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625249
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	20C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625239
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	21C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625238
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	22C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625237
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	24C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625236
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	25C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625235
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	26C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625234
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	27C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625233
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	28C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625232
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	29C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625240
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB01	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887040
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB05	Papio anubis	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887041,ERS3887041 
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB06	Papio anubis	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887042,ERS3887042 
@@ -130,3 +163,4 @@ Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB11	Papio sp.	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887045
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Zoological Society of Philadelphia	39.97	-75.19	USA	ANSP11833	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887046
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Zoological Society of Philadelphia	39.97	-75.19	USA	ANSP3271	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887047
+

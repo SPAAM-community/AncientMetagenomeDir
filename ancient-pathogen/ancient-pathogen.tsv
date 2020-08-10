@@ -1,1 +1,5 @@
-project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	sample_name	sample_host	sample_age	sample_age_doi	pathogen_species	material	collection_date	archive	archive_accession
+project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	sample_name	sample_host	sample_age	sample_age_doi	pathogen_domain	pathogen_species	material	collection_date	archive	archive_accession
+Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	G12	Homo sapiens	900	10.1038/ng.2906	bacteria	Tannerella forsythia	tooth	NA	SRA	SRS473747,SRS473746,SRS473748,SRS473749,SRS473750
+Bos2014	2014	10.1038/nature13591	El Yaral	-17.41	-71.092	Peru	64	Homo sapiens	700	10.1038/nature13591	bacteria	Mycobacterium pinnipedii	bone	NA	SRA	SRS592075
+Bos2014	2014	10.1038/nature13591	El Algodonal	-17.583	-71.21	Peru	58	Homo sapiens	800	10.1038/nature13591	bacteria	Mycobacterium pinnipedii	bone	NA	SRA	SRS591992
+Bos2014	2014	10.1038/nature13591	Chiribaya Alta	-17.621	-71.269	Peru	54	Homo sapiens	800	10.1038/nature13591	bacteria	Mycobacterium pinnipedii	bone	NA	SRA	SRS591994

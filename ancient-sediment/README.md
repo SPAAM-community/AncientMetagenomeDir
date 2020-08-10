@@ -1,18 +1,29 @@
+![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
+
+
 # AncientMetagenomeDir - Ancient Sediment
 
 This page describes columns definitions for the Ancient Sediment list.
 
+Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
+reported value'. Text fields (e.g. `geo_loc_name` can be indicated with `Unknown`).
+
 All column with 'defined categories' should be validated against
-`standards.tsv`. This is to ensure data consistency.
+`assets/enums/<column>.json`. This is to ensure data consistency, e.g. all
+Lake Sediment samples are listed as `lake sediment` (as defined in
+`assets/enums/<column>.json`. This is to ensure data consistency.
 
 If you wish to a new category, please consult with the [SPAAM
-community](spaam-workshop.github.io), and then add it to `standards.tsv`.
+community](spaam-workshop.github.io), and then add it to
+`assets/enums/<column>.json`.
 
 Sample columns are as follows:
 
 ## project_name
 
-- Format: surnameYEAR
+- Format: surnameYYYY (YYYY in numeric format)
+- Due to restrictions in regex (used for validation checks), **characters with accents cannot be used**.
+  - In these cases use the non-accented version.
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
@@ -23,38 +34,54 @@ Sample columns are as follows:
 ## publication_doi
 
 - Publication DOI
-- Or library permalink
+- Or library permalink 
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
-## lat_lon
+## site_name
 
-- Separated by a space: e.g. 27.987 86.925
+- As reported in publication
+- Accents are allowed
+- Missing name: `Unknown`
+
+## latitude
+
 - Decimal format
 - Maximum three decimals
-- In WGS84 project (coordinates taken from Google Maps is recommended)
+- In WGS84 projection (coordinates taken from Google Maps is recommended, range 90 to -90)
 - Can be searched in wider literature, rough location is acceptable but use
   fewer decimals
+- Missing value: `NA`
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+## longitude
+
+- Decimal format
+- Maximum three decimals
+- In WGS84 projection (coordinates taken from Google Maps is recommended, range 180 to -180)
+- Can be searched in wider literature, rough location is acceptable but use
+  fewer decimals
+- Missing value: `NA`
 
 ## geo_loc_name
 
 - Based on modern day definitions
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
+- Missing name: `Unknown`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
+
 ## sample_name
 
-- In most cases this should be the name as reported in publication
+- Unique identifier for that sample as used in publication
 
 ## sample_age
 
-- Approximate single date rounded to nearest century (i.e. end in '00')
+- Single date rounded to nearest century (i.e. end in '00')
   - e.g. something only 50 years old would be assigned as 100
 - In Before Present (BP) format i.e. since 1950 AD (~2000 AD is also fine)
-  - When in doubt: [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
+  - When in doubt: https://nikhausmann.shinyapps.io/BP_to_BC_and_more/
 - Can be obtained from other publications if known (see `sample_age_doi`)
 
 - If date _ranges_ reported, take approximate mid-point
@@ -66,6 +93,8 @@ Sample columns are as follows:
 - Radiocarbon dates
   - Uncalibrated dates are preferred, but if only calibrated reported can be
     used
+    
+ - Missing value: `NA`
 
 ## sample_age_doi
 
@@ -77,15 +106,19 @@ Sample columns are as follows:
 
 ## material
 
-- Sample type DNA was extracted from
+- Description of sediment following [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
+  - e.g. permafrost, lake sediment, peat soil
 
 > :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
 > [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
-> :warning: Must follow categories specified in `standards.tsv`
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## collection_date
 
 - Year of sample collection in YYYY format
+- If sample is from a sediment core, may be later than year of core collection
+- Missing value: `NA`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
@@ -94,12 +127,30 @@ Sample columns are as follows:
 - e.g. [ENA](https://www.ebi.ac.uk/ena),
   [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/)
 
-> :warning: Must follow categories specified in `standards.tsv`
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## archive_accession
 
 - Of *sample*, where possible
-- e.g. ERS, SRS
-- If non-NCBI/ENA, use as close to Sample as possible
+- For ENA/SRA: These should be **secondary** accession IDs to keep as close to data as possible (e.g. SRS, ERS, not SAMEA - see below)
+- If non-NCBI/ENA, use as close to sample-level as possible
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
+
+
+<details>
+  <summary>Expand to show location of ERS codes on ENA</summary>
+  
+  ![Location of ERS codes](../assets/images/spaam-AncientMetagenomeDir_ena_ers_location.png)
+  
+  Select the 'secondary_sample_accesion' and 'sample_alias' columns.
+
+</details>
+<details>
+  <summary>Expand to show location of SRS codes on SRA</summary>
+
+  ![Location of ERS codes](../assets/images/spaam-AncientMetagenomeDir_sra_srs_location.png)
+  
+  The SRS code is to the left of the SAMEA-like code under the **sample:** field
+
+</details>

@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Warinner 2014 10.1038/ng.2906	
 - Bos 2014 10.1038/nature13591	
+- Philips 2020 10.1186/s12864-020-06810-9
 
 **sediment**
 

@@ -2,8 +2,8 @@
 
 This PR is for a
 
-- [ ] New Publication(s)
-- [ ] Correction
+- [ ] [New Publication(s)](#new-publication)
+- [ ] [Correction](#correction)
 
 For the follow list (s)
 
@@ -24,13 +24,14 @@ This pull request is to add samples from the following publication(s):
 
 ### Checklist
 
-- [ ] Publication is published (preprints currently not accepted)
-- [ ] Checked the publication is not already in the database
-- [ ] Checked samples in this publication are not previously published _data_ (newly re-sequenced metagenomes are OK!)
-- [ ] Samples are shotgun metagenomes
-- [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)
-- [ ] (If applicable) Updated the JSON files under `/assets/enums` with new categories (e.g. material or archive).
+- [ ] Publication is published (preprints currently not accepted)?
+- [ ] Checked the publication is not already in the database?
+- [ ] Checked samples in this publication are not previously published _data_ (newly re-sequenced metagenomes are OK!)?
+- [ ] Samples are shotgun metagenomes?
+- [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)?
+- [ ] (If applicable) Updated the JSON files under `/assets/enums` with new categories (e.g. material or archive)?
 - [ ] Does your PR pass validation checks?
+- [ ] Changelog is updated?
 
 <details>
   <summary>If you do not know how to check errors in failed validation checks, expand here</summary>
@@ -64,5 +65,6 @@ The issue is:
 
 ### Checklist
 
-- [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)
+- [ ] Checked the corrected entries follow conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)
 - [ ] Does your PR pass validation checks?
+- [ ] Changelog is updated?

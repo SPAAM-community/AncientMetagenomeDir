@@ -122,21 +122,17 @@ Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands
 Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S40	Homo sapiens	1500	NA	oral	dental calculus	NA	SRA	SRS3078162
 Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S41	Homo sapiens	1500	NA	oral	dental calculus	NA	SRA	SRS3078206
 Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S454	Homo sapiens	300	NA	oral	dental calculus	NA	SRA	SRS3078095
-Brealey2020	2020	10.1093/molbev/msaa135	Royal Museum for Central Africa	-1.508	29.445	Democratic Republic of the Congo	Gb1-reg	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545903
-Brealey2020	2020	10.1093/molbev/msaa135	Royal Museum for Central Africa	-1.508	29.445	Democratic Republic of the Congo	Gb1-uv	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545904
-Brealey2020	2020	10.1093/molbev/msaa135	Royal Museum for Central Africa	-1.508	29.445	Democratic Republic of the Congo	Gb1-wash	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545905
-Brealey2020	2020	10.1093/molbev/msaa135	Royal Museum for Central Africa	-2.316	27.549	Democratic Republic of the Congo	Gb2-reg	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545906
-Brealey2020	2020	10.1093/molbev/msaa135	Royal Museum for Central Africa	-2.316	27.549	Democratic Republic of the Congo	Gb2-uv	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545907
-Brealey2020	2020	10.1093/molbev/msaa135	Royal Museum for Central Africa	-2.316	27.549	Democratic Republic of the Congo	Gb2-wash	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545908
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	56.21	159.346	Russia	Ua2	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545909
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	56.21	159.346	Russia	Ua6	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545910
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	56.21	159.346	Russia	Ua7	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545911
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	61	31.5	Russia	Ua13	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545912
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	61.004	14.537	Sweden	Ua14	Ursus arctos	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545913
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	63.399	13.081	Sweden	Ua9	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545914
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	78.899	18.016	Norway	Rt1	Rangifer tarandus	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545915
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	NA	NA	Unknown	Rt5	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545916
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	78.899	18.016	Norway	Rt7	Rangifer tarandus	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545917
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	60	6	Norway	Rt11	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545918
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	79	-56	Greenland	Rt13	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545919
-Brealey2020	2020	10.1093/molbev/msaa135	Swedish Natural History Museum	78.899	18.016	Norway	Rt_tooth	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	tooth	NA	ENA	ERS4545920
+Brealey2020	2020	10.1093/molbev/msaa135	Karisimbi	-1.508	29.445	Democratic Republic of the Congo	Gb1-reg	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545903,ERS4545904 ,ERS4545905 
+Brealey2020	2020	10.1093/molbev/msaa135	Lulingu	-2.316	27.549	Democratic Republic of the Congo	Gb2-reg	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545906,ERS4545907,ERS4545908 
+Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua2	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545909
+Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua6	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545910
+Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua7	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545911
+Brealey2020	2020	10.1093/molbev/msaa135	Lake Ladoga	61	31.5	Russia	Ua13	Ursus arctos	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545912
+Brealey2020	2020	10.1093/molbev/msaa135	Dalarna	61.004	14.537	Sweden	Ua14	Ursus arctos	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545913
+Brealey2020	2020	10.1093/molbev/msaa135	Jämtland	63.399	13.081	Sweden	Ua9	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545914
+Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt1	Rangifer tarandus	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545915
+Brealey2020	2020	10.1093/molbev/msaa135	NA	NA	NA	NA	Rt5	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545916
+Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt7	Rangifer tarandus	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545917
+Brealey2020	2020	10.1093/molbev/msaa135	South-west Norway	60	6	Norway	Rt11	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545918
+Brealey2020	2020	10.1093/molbev/msaa135	North-east Greenland	79	-56	Greenland	Rt13	Rangifer tarandus	200	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545919
+Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt_tooth	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	tooth	NA	ENA	ERS4545920

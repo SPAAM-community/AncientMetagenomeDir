@@ -20,13 +20,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ozga 2019 10.1038/s41598-019-53802-1	
 - Ottoni 2019 10.1038/s41598-019-56074-x	
 - Zhou 2018 10.1016/j.cub.2018.05.058	
-- Ahmed 2018 10.1016/j.quascirev.2017.11.037	
+- Philips 2017 10.1093/gigascience/gix044
 
 **pathogen**
 
 - Warinner 2014 10.1038/ng.2906	
 - Bos 2014 10.1038/nature13591	
-- Philips 2020 10.1186/s12864-020-06810-9
 
 **sediment**
 

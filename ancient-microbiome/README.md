@@ -4,8 +4,8 @@
 
 This page describes columns definitions for the Ancient Microbiome list.
 
-Optional fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
-reported value'.
+Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
+reported value'. Text fields (e.g. `geo_loc_name` can be indicated with `Unknown`).
 
 All column with 'defined categories' should be validated against
 `assets/enums/<column>.json`. This is to ensure data consistency, e.g. all Dental calculus samples
@@ -39,6 +39,7 @@ Sample columns are as follows:
 
 - As reported in publication
 - Accents are allowed
+- Missing name: `Unknown`
 
 ## latitude
 
@@ -47,6 +48,7 @@ Sample columns are as follows:
 - In WGS84 projection (coordinates taken from Google Maps is recommended, range 90 to -90)
 - Can be searched in wider literature, rough location is acceptable but use
   fewer decimals
+- Missing value: `NA`
 
 ## longitude
 
@@ -55,11 +57,13 @@ Sample columns are as follows:
 - In WGS84 projection (coordinates taken from Google Maps is recommended, range 180 to -180)
 - Can be searched in wider literature, rough location is acceptable but use
   fewer decimals
+- Missing value: `NA`
 
 ## geo_loc_name
 
 - Based on modern day definitions
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
+- Missing name: `Unknown`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
@@ -92,6 +96,8 @@ Sample columns are as follows:
   - via coin or historical records
 - Radiocarbon dates
   - Uncalibrated dates are preferred, but if only calibrated reported can be used
+  
+- Missing value: `NA`
 
 ## sample_age_doi
 
@@ -122,6 +128,8 @@ Sample columns are as follows:
 - Year of sample collection in YYYY format
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+
+- Missing value: `NA`
 
 ## archive
 

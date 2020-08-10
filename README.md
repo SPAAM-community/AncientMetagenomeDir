@@ -1,5 +1,8 @@
-# AncientMetagenomeDir
+<p align="center">
+<img src="assets/images/spaam-AncientMetagenomeDir_socialmedia.png" width=50% >
+<p/>
 
+----
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
@@ -22,7 +25,11 @@ The purpose of this repository is not meant to be a comprehensive set of all
 metadata about every ancient metagenome, but the aim is to have a lightweight
 set of minimal information but with sufficient links to original sources of
 detailed information. Keeping the repository simple and lightweight will promote
-continual updating of the lists over a long period of time.
+continual updating of the lists over a long period of time. That said, we will
+design lists as far as possible to follow larger database metadata
+specifications e.g.
+[MIxS](https://www.ebi.ac.uk/ena/submit/mixs-checklists#MIxS_shared) for
+compatibility.
 
 Finally, we aim to make releases of this at regular intervals, and assign each
 release a citeable DOI. Each release will also include a changelog to record all
@@ -31,30 +38,35 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 ## Contributing
 
+If you are not familiar with Git(Hub), a simple step-by-step guide can be seen
+[here](https://hackmd.io/@jfy133/H19kmDalw#/) or in PDF format [here](https://github.com/SPAAM-workshop/AncientMetagenomeDir/raw/master/assets/intro_to_github_and_ancientmetagenomedir.pdf)
+
 Samples must be from *published* studies, and should only include *sample* level
 information. Preprints often have not made data avaliable at this point, and it
 is assumed that peer-review has correctly evaluated any submitted metagenome is
 valid.
 
 Samples must also have been accessible on public databases (e.g. [EBI
-ENA](https://www.ebi.ac.uk/ena) or [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra)).
+ENA](https://www.ebi.ac.uk/ena) or [NCBI
+SRA](https://www.ncbi.nlm.nih.gov/sra)).
 
-> Important: we currently do not record *sequencing data* information, due to
+> Important: we do not currently record *sequencing data* information, due to
 > different uploading strategies by different groups.
 
 ### Own Publications
 
 Contributing a new publication's sample information consists of the following:
 
-- check under the issues tab if the paper is already listed (if not, make one!)
-  - check whether the issue has already been closed
-  - if it listed, check to see if there is already a pull request linked to it
+- check under the [issues](https://github.com/SPAAM-workshop/AncientMetagenomeDir/issues) tab if the paper is already listed (if not, make one!)
+  - check whether the issue has already been [closed](https://github.com/SPAAM-workshop/AncientMetagenomeDir/issues?q=is%3Aissue+is%3Aclosed)
+  - if it listed, check to see if there is already a [pull request](https://github.com/SPAAM-workshop/AncientMetagenomeDir/pulls) linked to it
 - assign yourself to the issue
 - check if site/samples have been published before (i.e. to ensure the same names are used for any new samples)
 - making your own fork or branch of the repository
-- update the given list (e.g. in spreadsheet program, R etc.))
+- update the given list (e.g. in spreadsheet program, R etc.)
   - generally you will be copying direct from a publication's supplementary information
   - some columns have standard pre-defined categories, check a lists's README if in doubt!
+  - if you need to add a category please request one by mentioning @ancientmetagenomedir-coreteam in your PR, or update the enums in JSON files under `assets/enums` yourself
 - making a pull-request
 - receive a review to check your additions follow current conventions
 - have your PR merged

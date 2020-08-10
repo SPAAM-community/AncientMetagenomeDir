@@ -138,6 +138,7 @@ Sample columns are as follows:
 ## collection_date
 
 - Year of sample collection in YYYY format
+- Missing value: `NA`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 

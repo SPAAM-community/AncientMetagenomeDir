@@ -1,9 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://spaam-workshop.github.io/AncientMetagenomeDir/ancient-pathogen/pathogen_schema.json",
+    "$id": "https://spaam-workshop.github.io/AncientMetagenomeDir/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json",
     "type": "array",
-    "title": "JSON schema for AncientMetagenomeDir ancient pathogen data",
-    "description": "The JSON schema for AncientMetagenomeDir ancient pathogen data",
+    "title": "JSON schema for AncientMetagenomeDir ancient host-associated metagenome data",
+    "description": "The JSON schema for AncientMetagenomeDir ancient host-associated metagenome data data",
     "additionalItems": false,
     "items": {
         "$id": "#/items",
@@ -23,10 +23,9 @@
             "sample_host",
             "sample_age",
             "sample_age_doi",
-            "pathogen_domain",
-            "pathogen_species",
-            "material",
+            "community_type",
             "collection_date",
+            "material",
             "archive",
             "archive_accession"
         ],
@@ -150,31 +149,22 @@
                     "10.1038/ng.2906"
                 ]
             },
-            "pathogen_domain": {
-                "$id": "#/items/properties/pathogen_domain",
+            "community_type": {
+                "$id": "#/items/properties/community_type",
                 "type": "string",
-                "title": "Pathogen domain",
-                "description": "Domain or equivalent of pathogen species",
-                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/pathogen_domain.json",
+                "title": "Type of the host's community sample represents",
+                "description": "The type of the original host's community the sample contains",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/community_type.json",
                 "examples": [
-                    "bacteria"
-                ]
-            },
-            "pathogen_species": {
-                "$id": "#/items/properties/pathogen_species",
-                "type": "string",
-                "title": "Latin name of the microbiome species",
-                "description": "Linnean latin name, follows NCBI taxonomy where possible",
-                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/pathogen_species.json",
-                "examples": [
-                    "Homo sapiens"
+                    "oral",
+                    "gut"
                 ]
             },
             "material": {
                 "$id": "#/items/properties/material",
                 "type": "string",
-                "title": "Type of microbiome material",
-                "description": "Sample type DNA was extracted from ",
+                "title": "Type of material the host's community was selected from",
+                "description": "Sample type DNA was extracted from",
                 "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/material.json",
                 "examples": [
                     "dental calculus"

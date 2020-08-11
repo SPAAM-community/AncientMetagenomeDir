@@ -21,7 +21,7 @@ explored. Examples for this are ancient microbiomes (host associated metagenome)
 ancient sedimentary DNA (environmental) and also samples used for ancient pathogen 
 screening  (single genomes). See the README of each list for more detailed 
 descriptions of the contents of each list. Further modification and expansion of
-these categories can be proposed to the [SPAAM community](spaam-workshop.github.io) 
+these categories can be proposed to the [SPAAM community](https://spaam-workshop.github.io) 
 for further consideration.
 
 The purpose of this repository is not meant to be a comprehensive set of all

@@ -1,1 +1,52 @@
-<p> Hello World </p>
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SPAAM</title>
+  <link rel="icon" href="_media/SPAAM-Avatar-White.svg">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="theme-custom.css">
+  <style>
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '<img src="_media/SPAAM-Logo-Black.svg" width=80%/>',
+      repo: 'https://github.com/SPAAM-workshop/spaam-workshop.github.io',
+      homepage: 'home.md',
+      loadSidebar: true,
+      coverpage: true,
+      onlyCover: false,
+      search: 'auto',
+      themeColor: '#732a82',
+
+      search: {
+        maxAge: 10000, // Expiration time, the default one day
+        paths: 'auto', // or 'auto'
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        // Headline depth, 1 - 6
+        depth: 3,
+        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+      },
+
+      footer: {
+        copy: ' ',
+        auth: '',
+        pre: '<hr/>',
+        style: 'text-align: centre; vertical-align: text-top',
+        style: 'className'
+      }
+
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="https://unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+</body>

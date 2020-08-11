@@ -1,23 +1,37 @@
-<!-- Thank you for contributing to AncientMetagenomeDir Please fill in the information below-->
+# Pull Request
 
-This pull request is to add samples from the following publication:
+This PR is for a
 
-<!-- Replace this comment with citation-->
+- [ ] [New Publication(s)](#new-publication)
+- [ ] [Correction](#correction)
 
-This PR is for
+For the follow list (s)
 
 - [ ] Ancient Microbiome
 - [ ] sedaDNA
 - [ ] Ancient Pathogen
 
-## Checklist
+## New Publication
 
-- [ ] Publication is published (preprints currently not accepted)
-- [ ] Checked the publication is not already in the database
-- [ ] Checked samples in this publication are not previously published _data_ (newly re-sequenced metagenomes are OK!) 
-- [ ] Checked the list follows conventions as described in the corresponding sample type's README file
-- [ ] (If applicable) Updated the JSON files under `/assets/enums` with new categories (e.g. material or archive). 
+### Publication Information
+
+<!-- Thank you for contributing to AncientMetagenomeDir Please fill in the information below-->
+<!-- Please @ancientmetagenomedir-coreteam if you have any questions-->
+
+This pull request is to add samples from the following publication(s):
+
+<!-- Replace this comment with citation-->
+
+### Checklist
+
+- [ ] Publication is published (preprints currently not accepted)?
+- [ ] Checked the publication is not already in the database?
+- [ ] Checked samples in this publication are not previously published _data_ (newly re-sequenced metagenomes are OK!)?
+- [ ] Samples are shotgun metagenomes?
+- [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)?
+- [ ] (If applicable) Updated the JSON files under `/assets/enums` with new categories (e.g. material or archive)?
 - [ ] Does your PR pass validation checks?
+- [ ] Changelog is updated?
 
 <details>
   <summary>If you do not know how to check errors in failed validation checks, expand here</summary>
@@ -28,3 +42,29 @@ This PR is for
    4. Read the error, and fix accordingly. Check the README for a given list for more guidance. If in doubt, ask!
 
 </details>
+
+## Correction
+
+This PR is for
+
+- [ ] Ancient Microbiome
+- [ ] sedaDNA
+- [ ] Ancient Pathogen
+
+### Reference
+
+This pull request is to correct samples from the following publication(s):
+
+<!-- Replace this with the publication being corrected -->
+
+### Description
+
+The issue is: 
+
+<!-- Replace this with a description and justification of the correction -->
+
+### Checklist
+
+- [ ] Checked the corrected entries follow conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)
+- [ ] Does your PR pass validation checks?
+- [ ] Changelog is updated?

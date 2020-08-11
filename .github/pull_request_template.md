@@ -7,20 +7,23 @@ This PR is for a
 
 For the follow list (s)
 
-- [ ] Ancient Microbiome
-- [ ] sedaDNA
-- [ ] Ancient Pathogen
+- [ ] ancientmetagenome-hostassociated
+- [ ] ancientsinglegenome-hostassociated
+- [ ] ancientmetagenome-environmental
+- [ ] ancientmetagenome-anthropogenic
 
 ## New Publication
 
 ### Publication Information
 
-<!-- Thank you for contributing to AncientMetagenomeDir Please fill in the information below-->
-<!-- Please @ancientmetagenomedir-coreteam if you have any questions-->
+<!-- 
+Thank you for contributing to AncientMetagenomeDir Please fill in the information below
+Please @ancientmetagenomedir-coreteam if you have any questions
+-->
 
 This pull request is to add samples from the following publication(s):
 
-<!-- Replace this comment with citation-->
+<!-- Replace this comment with citation(s) URLs/DOIs/descriptions-->
 
 ### Checklist
 
@@ -47,9 +50,10 @@ This pull request is to add samples from the following publication(s):
 
 This PR is for
 
-- [ ] Ancient Microbiome
-- [ ] sedaDNA
-- [ ] Ancient Pathogen
+- [ ] ancientmetagenome-hostassociated
+- [ ] ancientsinglegenome-hostassociated
+- [ ] ancientmetagenome-environmental
+- [ ] ancientmetagenome-anthropogenic
 
 ### Reference
 
@@ -59,7 +63,7 @@ This pull request is to correct samples from the following publication(s):
 
 ### Description
 
-The issue is: 
+The issue is:
 
 <!-- Replace this with a description and justification of the correction -->
 

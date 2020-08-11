@@ -17,9 +17,11 @@ These lists contain information such as publication, sample name, sample type,
 geographic location, dates and DOIs and other accession numbers to **samples**
 in establised sequencing data databases. We define here 'metagenome' in a broad
 sense, primarily focusing any data where the whole DNA content is analysed and
-explored. Examples for this are ancient microbiomes, ancient sedimentary DNA and
-also samples used for ancient pathogen screening. Further expansion of these
-categories can be proposed to the [SPAAM community](spaam-workshop.github.io)
+explored. Examples for this are ancient microbiomes (host associated metagenome), 
+ancient sedimentary DNA (environmental) and also samples used for ancient pathogen 
+screening  (single genomes). See the README of each list for more detailed 
+descriptions of the contents of each list. Further modification and expansion of
+these categories can be proposed to the [SPAAM community](spaam-workshop.github.io) 
 for further consideration.
 
 The purpose of this repository is not meant to be a comprehensive set of all

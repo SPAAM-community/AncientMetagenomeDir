@@ -5,8 +5,8 @@
 
 This page describes columns definitions for the Ancient Sediment list.
 
-Optional fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
-reported value'.
+Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
+reported value'. Text fields (e.g. `geo_loc_name` can be indicated with `Unknown`).
 
 All column with 'defined categories' should be validated against
 `assets/enums/<column>.json`. This is to ensure data consistency, e.g. all
@@ -42,6 +42,7 @@ Sample columns are as follows:
 
 - As reported in publication
 - Accents are allowed
+- Missing name: `Unknown`
 
 ## latitude
 
@@ -50,6 +51,7 @@ Sample columns are as follows:
 - In WGS84 projection (coordinates taken from Google Maps is recommended, range 90 to -90)
 - Can be searched in wider literature, rough location is acceptable but use
   fewer decimals
+- Missing value: `NA`
 
 ## longitude
 
@@ -58,13 +60,17 @@ Sample columns are as follows:
 - In WGS84 projection (coordinates taken from Google Maps is recommended, range 180 to -180)
 - Can be searched in wider literature, rough location is acceptable but use
   fewer decimals
+- Missing value: `NA`
 
 ## geo_loc_name
 
 - Based on modern day definitions
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
+- Missing name: `Unknown`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## sample_name
 
@@ -87,6 +93,8 @@ Sample columns are as follows:
 - Radiocarbon dates
   - Uncalibrated dates are preferred, but if only calibrated reported can be
     used
+    
+ - Missing value: `NA`
 
 ## sample_age_doi
 
@@ -101,10 +109,16 @@ Sample columns are as follows:
 - Description of sediment following [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
   - e.g. permafrost, lake sediment, peat soil
 
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
+> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
+
 ## collection_date
 
 - Year of sample collection in YYYY format
 - If sample is from a sediment core, may be later than year of core collection
+- Missing value: `NA`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
@@ -118,10 +132,25 @@ Sample columns are as follows:
 ## archive_accession
 
 - Of *sample*, where possible
-- e.g. ERS, SRS
-  - For ENA/SRA: These should be **secondary** accession IDs to keep as close to data as possible (e.g. SRS, ERS, not SAMEA)
-  - On ENA this can be viewed by 'Show selected columns', then tick box next to 'secondary sample' accession - the column should now appear
-  - On SRA this can be seen under the **Sample:** header, the second entry of the line (to the right of the SAMEA* accession ID)
-- If non-NCBI/ENA, use as close to Sample as possible
+- For ENA/SRA: These should be **secondary** accession IDs to keep as close to data as possible (e.g. SRS, ERS, not SAMEA - see below)
+- If non-NCBI/ENA, use as close to sample-level as possible
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
+
+
+<details>
+  <summary>Expand to show location of ERS codes on ENA</summary>
+  
+  ![Location of ERS codes](../assets/images/spaam-AncientMetagenomeDir_ena_ers_location.png)
+  
+  Select the 'secondary_sample_accesion' and 'sample_alias' columns.
+
+</details>
+<details>
+  <summary>Expand to show location of SRS codes on SRA</summary>
+
+  ![Location of ERS codes](../assets/images/spaam-AncientMetagenomeDir_sra_srs_location.png)
+  
+  The SRS code is to the left of the SAMEA-like code under the **sample:** field
+
+</details>

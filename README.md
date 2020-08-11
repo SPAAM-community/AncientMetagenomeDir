@@ -7,10 +7,6 @@
 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
-<p align='center'>
-  <img src="assets/images/spaam-AncientMetagenomeDir_socialmedia.png" width=40% >
-</p>
-
 AncientMetagenomeDir is a community curated resource of lists of all published
 **shotgun**-sequenced ancient metagenome samples. It is primarily meant to act
 as a reference guide to help point researchers toward any relevent public data
@@ -21,9 +17,11 @@ These lists contain information such as publication, sample name, sample type,
 geographic location, dates and DOIs and other accession numbers to **samples**
 in establised sequencing data databases. We define here 'metagenome' in a broad
 sense, primarily focusing any data where the whole DNA content is analysed and
-explored. Examples for this are ancient microbiomes, ancient sedimentary DNA and
-also samples used for ancient pathogen screening. Further expansion of these
-categories can be proposed to the [SPAAM community](spaam-workshop.github.io)
+explored. Examples for this are ancient microbiomes (host associated metagenome), 
+ancient sedimentary DNA (environmental) and also samples used for ancient pathogen 
+screening  (single genomes). See the README of each list for more detailed 
+descriptions of the contents of each list. Further modification and expansion of
+these categories can be proposed to the [SPAAM community](spaam-workshop.github.io) 
 for further consideration.
 
 The purpose of this repository is not meant to be a comprehensive set of all

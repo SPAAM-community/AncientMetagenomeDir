@@ -1,14 +1,24 @@
+# AncientMetagenomeDir - Host Associated Metagenome
+
 ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
+This page describes columns definitions for the host-associated ancient
+metagenome list.
 
-# AncientMetagenomeDir - Ancient Pathogen
+This covers samples that contain metagenomes such as
 
-This page describes columns definitions for the Ancient Pathogen list.
+- oral microbiome (e.g. from dental calculus, teeth)
+- gut microbiome (e.g. from palaeofaeces, intestinal contents of mummies)
 
-These entries should represent whole genome-level metagenomes (not plasmids etc.).
+Included samples should have evidence of the corresponding original host's
+microbiome as reported in the given paper (e.g. a tooth should have evidence of
+the oral microbiota to be included, otherwise the microbial community should be
+considered a part of the natural decomposition and be placed under the
+[environmental](../ancientmetagenome-environmental/README.md) list).
 
 Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
-reported value'. Text fields (e.g. `geo_loc_name` can be indicated with `Unknown`).
+reported value'. Text fields (e.g. `geo_loc_name` can be indicated with
+`Unknown`).
 
 All column with 'defined categories' should be validated against
 `assets/enums/<column>.json`. This is to ensure data consistency, e.g. all
@@ -24,8 +34,9 @@ Sample columns are as follows:
 ## project_name
 
 - Format: surnameYYYY (YYYY in numeric format)
-- Due to restrictions in regex (used for validation checks), characters with
-  accents cannot be used. In these cases use the non-accented version.
+- Due to restrictions in regex (used for validation checks), **characters with
+  accents cannot be used**.
+  - In these cases use the non-accented version.
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
@@ -36,7 +47,7 @@ Sample columns are as follows:
 ## publication_doi
 
 - Publication DOI
-- Or library permalink 
+- Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
@@ -50,7 +61,8 @@ Sample columns are as follows:
 
 - Decimal format
 - Maximum three decimals
-- In WGS84 projection (coordinates taken from Google Maps is recommended, range 90 to -90)
+- In WGS84 projection (coordinates taken from Google Maps is recommended, range
+  90 to -90)
 - Can be searched in wider literature, rough location is acceptable but use
   fewer decimals
 - Missing value: `NA`
@@ -59,7 +71,8 @@ Sample columns are as follows:
 
 - Decimal format
 - Maximum three decimals
-- In WGS84 projection (coordinates taken from Google Maps is recommended, range 180 to -180)
+- In WGS84 projection (coordinates taken from Google Maps is recommended, range
+  180 to -180)
 - Can be searched in wider literature, rough location is acceptable but use
   fewer decimals
 - Missing value: `NA`
@@ -70,9 +83,8 @@ Sample columns are as follows:
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
 - Missing name: `Unknown`
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
-
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field :warning: Must
+> follow categories specified in `assets/enums/<column>.json`
 
 ## sample_name
 
@@ -85,12 +97,13 @@ Sample columns are as follows:
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
-# sample_age
+## sample_age
 
 - Single date rounded to nearest century (i.e. end in '00')
   - e.g. something only 50 years old would be assigned as 100
 - In Before Present (BP) format i.e. since 1950 AD (~2000 AD is also fine)
-  - When in doubt: https://nikhausmann.shinyapps.io/BP_to_BC_and_more/
+  - When in doubt:
+    [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
 - Can be obtained from other publications if known (see `sample_age_doi`)
 
 - If date _ranges_ reported, take approximate mid-point
@@ -100,8 +113,9 @@ Sample columns are as follows:
   - period of occupation of site
   - via coin or historical records
 - Radiocarbon dates
-  - Uncalibrated dates are preferred, but if only calibrated reported can be used
-  
+  - Uncalibrated dates are preferred, but if only calibrated reported can be
+    used
+
 - Missing value: `NA`
 
 ## sample_age_doi
@@ -112,35 +126,30 @@ Sample columns are as follows:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
-## pathogen_domain
+## community_type
 
-- Which domain of life (or equivalent) the species comes from: bacteria, archea, virus, eukaryota
+The type of community from the host's original body the sample is derived from.
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
-
-## pathogen_species
-
-- Linnean latin name
-- Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
+- e.g. oral, gut
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## material
 
 - Sample type DNA was extracted from
-  - e.g. tooth, bone, dental calculus
+  - e.g. denta calculus, palaeofaeces, intestinal, chewing gum
 
 > :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
 > [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
-
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## collection_date
 
 - Year of sample collection in YYYY format
-- Missing value: `NA`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+
+- Missing value: `NA`
 
 ## archive
 
@@ -152,7 +161,8 @@ Sample columns are as follows:
 ## archive_accession
 
 - Of *sample*, where possible
-- For ENA/SRA: These should be **secondary** accession IDs to keep as close to data as possible (e.g. SRS, ERS, not SAMEA - see below)
+- For ENA/SRA: These should be **secondary** accession IDs to keep as close to
+  data as possible (e.g. SRS, ERS, not SAMEA - see below)
 - If non-NCBI/ENA, use as close to sample-level as possible
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
@@ -160,7 +170,8 @@ Sample columns are as follows:
 <details>
   <summary>Expand to show location of ERS codes on ENA</summary>
   
-  ![Location of ERS codes](../assets/images/spaam-AncientMetagenomeDir_ena_ers_location.png)
+  ![Location of ERS
+  codes](../assets/images/spaam-AncientMetagenomeDir_ena_ers_location.png)
   
   Select the 'secondary_sample_accesion' and 'sample_alias' columns.
 
@@ -168,7 +179,8 @@ Sample columns are as follows:
 <details>
   <summary>Expand to show location of SRS codes on SRA</summary>
 
-  ![Location of ERS codes](../assets/images/spaam-AncientMetagenomeDir_sra_srs_location.png)
+  ![Location of ERS
+  codes](../assets/images/spaam-AncientMetagenomeDir_sra_srs_location.png)
   
   The SRS code is to the left of the SAMEA-like code under the **sample:** field
 

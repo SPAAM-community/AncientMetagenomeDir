@@ -29,7 +29,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Schuenemann 2018 10.1371/journal.ppat.1006997
 - Philips 2020 10.1186/s12864-020-06810-9
 
-
 #### Ancient Metagenome: Environmental
 
 - Ahmed 2018 10.1016/j.quascirev.2017.11.037

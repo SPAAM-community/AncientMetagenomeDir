@@ -28,14 +28,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bos 2014 10.1038/nature13591
 - Schuenemann 2013 10.1126/science.1238286
 - Schuenemann 2018 10.1371/journal.ppat.1006997
+- Devault 2017 10.7554/eLife.20983
 
 #### Ancient Metagenome: Environmental
 
 - Ahmed 2018 10.1016/j.quascirev.2017.11.037
 
 #### Ancient Metagenome: Anthropogenic
-
-- Ahmed 2018 10.1016/j.quascirev.2017.11.037
 
 ### Changed
 

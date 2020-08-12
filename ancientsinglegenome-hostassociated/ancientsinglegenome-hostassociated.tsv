@@ -18,3 +18,7 @@ Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	G12	Homo sapiens	9
 Bos2014	2014	10.1038/nature13591	El Yaral	-17.41	-71.092	Peru	64	Homo sapiens	700	10.1038/nature13591	bacteria	Mycobacterium pinnipedii	bone	NA	SRA	SRS592075
 Bos2014	2014	10.1038/nature13591	El Algodonal	-17.583	-71.21	Peru	58	Homo sapiens	800	10.1038/nature13591	bacteria	Mycobacterium pinnipedii	bone	NA	SRA	SRS591992
 Bos2014	2014	10.1038/nature13591	Chiribaya Alta	-17.621	-71.269	Peru	54	Homo sapiens	800	10.1038/nature13591	bacteria	Mycobacterium pinnipedii	bone	NA	SRA	SRS591994
+Devault2017	2017	10.7554/eLife.20983	Troy	39.953	26.236	Turkey	Nod1	Homo sapiens	800	10.7554/eLife.20983	bacteria	Gardnerella vaginalis	calcified nodule	NA	SRA	SRS1779841,SRS1779840
+Devault2017	2017	10.7554/eLife.20983	Troy	39.953	26.236	Turkey	Nod1	Homo sapiens	800	10.7554/eLife.20983	bacteria	Staphylococcus saprophyticus	calcified nodule	NA	SRA	SRS1779841,SRS1779840
+Devault2017	2017	10.7554/eLife.20983	Troy	39.953	26.236	Turkey	Nod2	Homo sapiens	800	10.7554/eLife.20983	bacteria	Gardnerella vaginalis	calcified nodule	NA	SRA	SRS1779846,SRS1779844
+Devault2017	2017	10.7554/eLife.20983	Troy	39.953	26.236	Turkey	Nod2	Homo sapiens	800	10.7554/eLife.20983	bacteria	Staphylococcus saprophyticus	calcified nodule	NA	SRA	SRS1779846,SRS1779844

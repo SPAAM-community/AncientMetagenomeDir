@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ozga 2019 10.1038/s41598-019-53802-1
 - Ottoni 2019 10.1038/s41598-019-56074-x
 - Zhou 2018 10.1016/j.cub.2018.05.058
-- Wilman 2017 10.1371/journal.pone.0196482
+- Wilman 2018 10.1371/journal.pone.0196482
 
 #### Ancient Single Genome: Host Associated
 

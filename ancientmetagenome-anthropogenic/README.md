@@ -30,9 +30,10 @@ Sample columns are as follows:
 ## project_name
 
 - Format: surnameYYYY (YYYY in numeric format)
-- Due to restrictions in regex (used for validation checks), **characters with
+- Due to restrictions in regex (used for validation checks), **punctuation (e.g. hyphens or spaces) or characters with
   accents cannot be used**.
-  - In these cases use the non-accented version.
+  - Use the non-accented version.
+  - If the first author has multiple or hyphenated surnames,  write them all together capitalising each surname.
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 

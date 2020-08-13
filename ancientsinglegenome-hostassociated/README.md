@@ -79,8 +79,7 @@ Sample columns are as follows:
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
 - Missing name: `Unknown`
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
-
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## sample_name
@@ -141,7 +140,7 @@ Sample columns are as follows:
 - Sample type DNA was extracted from
   - e.g. tooth, bone, dental calculus
 
-> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, ideally an [ontology term](https://www.ebi.ac.uk/ols/index), but not currently mandatory
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, ideally an [ontology term](https://www.ebi.ac.uk/ols/index), but not currently mandatory  
 > [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`

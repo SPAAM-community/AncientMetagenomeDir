@@ -87,12 +87,16 @@ Sample columns are as follows:
 - Mandatory value
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
+
 > :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
 > :warning: Mandatory value
 
 ## sample_name
 
 - Unique identifier for that sample as used in publication
+
+> :warning: Mandatory value
 
 ## sample_age
 
@@ -130,6 +134,7 @@ Sample columns are as follows:
   - e.g. pot crust, parchment, herbarium sample
 
 > :warning: Ideally an entry present in an [ontology](https://www.ebi.ac.uk/ols/index), but not currently required for this list.  
+
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 > :warning: Mandatory value  
@@ -148,6 +153,7 @@ Sample columns are as follows:
   [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/)
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
 > :warning: Mandatory value
 
 ## archive_accession
@@ -158,6 +164,8 @@ Sample columns are as follows:
 - If non-NCBI/ENA, use as close to sample-level as possible
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
+  
+> :warning: Mandatory value  
 
 <details>
   <summary>Expand to show location of ERS codes on ENA</summary>

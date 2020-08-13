@@ -36,6 +36,7 @@ Sample columns are as follows:
   - If the first author has multiple or hyphenated surnames,  write them all together capitalising each surname.
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
+
 > :warning: Mandatory value
 
 ## publication_year
@@ -86,7 +87,9 @@ Sample columns are as follows:
 - Missing name: `Unknown`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
+
 > :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
 > :warning: Mandatory value
 
 ## sample_name
@@ -131,9 +134,11 @@ Sample columns are as follows:
   Ontology](https://www.ebi.ac.uk/ols/ontologies/envo
   - e.g. permafrost, lake sediment, peat soil, bone
 
-> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
-> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)  
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)  
+
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
+
+> :warning: Mandatory value  
 
 ## collection_date
 

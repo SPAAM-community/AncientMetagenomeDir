@@ -116,8 +116,7 @@ Sample columns are as follows:
 
 ## material
 
-- Description of sediment following [Environment
-  Ontology](http://www.environmentontology.org/Browse-EnvO)
+- Description of sediment. Ideally an entry present in an [ontoloty](https://www.ebi.ac.uk/ols/index), but not currently required for this list.
   - e.g. pot crust, parchment, herbarium sample
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`

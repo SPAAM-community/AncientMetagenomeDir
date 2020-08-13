@@ -80,8 +80,8 @@ Sample columns are as follows:
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
 - Missing name: `Unknown`
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field :warning: Must
-> follow categories specified in `assets/enums/<column>.json`
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## sample_name
 
@@ -121,7 +121,7 @@ Sample columns are as follows:
   - e.g. permafrost, lake sediment, peat soil, bone
 
 > :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
-> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
+> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)  
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## collection_date

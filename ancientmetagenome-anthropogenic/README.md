@@ -116,7 +116,7 @@ Sample columns are as follows:
   - Uncalibrated dates are preferred, but if only calibrated reported can be
     used
 
-- :warning: Mandatory value
+> :warning: Mandatory value
 
 ## sample_age_doi
 

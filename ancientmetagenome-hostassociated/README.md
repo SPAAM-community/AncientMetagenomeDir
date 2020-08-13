@@ -84,8 +84,8 @@ Sample columns are as follows:
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
 - Missing name: `Unknown`
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field :warning: Must
-> follow categories specified in `assets/enums/<column>.json`
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## sample_name
 
@@ -140,7 +140,7 @@ The type of community from the host's original body the sample is derived from.
 - Sample type DNA was extracted from
   - e.g. denta calculus, palaeofaeces, intestinal, chewing gum
 
-> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, ideally a term from an [ontology](https://www.ebi.ac.uk/ols/index), but not currently mandatory
+> :warning: Partly [MIxS v5](https://gensc.org/mixs/) compliant field, ideally a term from an [ontology](https://www.ebi.ac.uk/ols/index), but not currently mandatory  
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## collection_date

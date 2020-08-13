@@ -35,11 +35,15 @@ Sample columns are as follows:
   - Use the non-accented version.
   - If the first author has multiple or hyphenated surnames,  write them all together capitalising each surname.
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
+
+> :warning: Mandatory value
 
 ## publication_year
 
 - YYYY format
+
+> :warning: Mandatory value
 
 ## publication_doi
 
@@ -47,6 +51,8 @@ Sample columns are as follows:
 - Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
+
+> :warning: Mandatory value
 
 ## site_name
 
@@ -80,12 +86,17 @@ Sample columns are as follows:
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
 - Missing name: `Unknown`
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field :warning: Must
-> follow categories specified in `assets/enums/<column>.json`
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
+> :warning: Mandatory value
 
 ## sample_name
 
 - Unique identifier for that sample as used in publication
+
+> :warning: Mandatory value
 
 ## sample_age
 
@@ -104,7 +115,8 @@ Sample columns are as follows:
 - Radiocarbon dates
   - Uncalibrated dates are preferred, but if only calibrated reported can be
     used
-- Missing value: `NA`
+
+> :warning: Mandatory value
 
 ## sample_age_doi
 
@@ -113,16 +125,20 @@ Sample columns are as follows:
 - Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
+    
+> :warning: Mandatory value
 
 ## material
 
 - Description of sediment following [Environment
-  Ontology](http://www.environmentontology.org/Browse-EnvO)
+  Ontology](https://www.ebi.ac.uk/ols/ontologies/envo
   - e.g. permafrost, lake sediment, peat soil, bone
 
-> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
-> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)  
+
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
+
+> :warning: Mandatory value  
 
 ## collection_date
 
@@ -139,6 +155,8 @@ Sample columns are as follows:
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
+> :warning: Mandatory value
+
 ## archive_accession
 
 - Of *sample*, where possible
@@ -147,6 +165,8 @@ Sample columns are as follows:
 - If non-NCBI/ENA, use as close to sample-level as possible
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
+  
+> :warning: Mandatory value
 
 <details>
   <summary>Expand to show location of ERS codes on ENA</summary>

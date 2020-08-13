@@ -117,7 +117,7 @@ Sample columns are as follows:
 ## material
 
 - Description of sediment following [Environment
-  Ontology](http://www.environmentontology.org/Browse-EnvO)
+  Ontology](https://www.ebi.ac.uk/ols/ontologies/envo
   - e.g. permafrost, lake sediment, peat soil, bone
 
 > :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following

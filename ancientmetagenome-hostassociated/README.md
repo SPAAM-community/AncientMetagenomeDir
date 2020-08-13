@@ -140,8 +140,7 @@ The type of community from the host's original body the sample is derived from.
 - Sample type DNA was extracted from
   - e.g. denta calculus, palaeofaeces, intestinal, chewing gum
 
-> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
-> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, ideally a term from an [ontology](https://www.ebi.ac.uk/ols/index), but not currently mandatory
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
 ## collection_date

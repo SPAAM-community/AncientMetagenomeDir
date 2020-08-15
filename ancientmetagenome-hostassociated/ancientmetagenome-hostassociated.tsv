@@ -173,13 +173,13 @@ Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	406	Ho
 Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-217C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	SRS1052916
 Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-47C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	SRS1052918
 NievesColon2020	2020	10.1093/molbev/msz267	Paso del Indio	18.41	-66.33	USA	PI-420A-C	Homo sapiens	800	10.1093/molbev/msz267	oral	dental calculus	NA	SRA	SRS5211976
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Stomach corpus, content I 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942275,ERS942266
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Stomach corpus, content II 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942267,ERS942277
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Stomach corpus, surface 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942270,ERS942274,ERS942269
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Stomach antrum, content 1051	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942268,ERS942271
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Stomach antrum, surface 1051	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942265,ERS942273
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Small intestine 1063	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942272
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Large intestine, upper part I 1036	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942281
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Large intestine, upper part II 1036	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942282
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Large intestine, lower part 225	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942276
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Muscle tissue, Muscle 1 and 2	Homo sapiens	5300	10.1126/science.aad2545	soft tissue	muscle tissue	NA	ENA	ERS942279, ERS942280
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, content I 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942275,ERS942266
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, content II 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942267,ERS942277
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, surface 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942270,ERS942274,ERS942269
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach antrum, content 1051	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942268,ERS942271
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach antrum, surface 1051	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942265,ERS942273
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Small intestine 1063	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942272
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Large intestine, upper part I 1036	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942281
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Large intestine, upper part II 1036	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942282
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Large intestine, lower part 225	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942276
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Muscle tissue, Muscle 1 and 2	Homo sapiens	5300	10.1126/science.aad2545	soft tissue	muscle tissue	NA	ENA	ERS942279, ERS942280

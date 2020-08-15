@@ -42,5 +42,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Fagernäs 2020: Fixed missing sample age DOI
+- Ottoni 2019: Fixed duplicate SRA codes
 
 ### Removed

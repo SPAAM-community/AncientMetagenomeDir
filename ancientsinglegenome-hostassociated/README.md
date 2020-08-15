@@ -7,9 +7,9 @@ This page describes columns definitions for the host-associated ancient single
 genome list.
 
 This list covers samples from which single microbial genomes have been extracted
-from. This can be both known pathogens but also commensals. These entries should
-represent whole genome-level metagenomes (not amplicon data or solely plasmids
-etc.), however can be derived from enrichment techniques.
+from (e.g. not just pathogens but also commensals and other types of microbes). 
+These entries should represent whole genome-level metagenomes (not amplicon data 
+or solely plasmids etc.), however can be derived from enrichment techniques.
 
 Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
 reported value'. Text fields (e.g. `geo_loc_name` can be indicated with

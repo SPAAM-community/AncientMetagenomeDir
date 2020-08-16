@@ -40,13 +40,16 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 ## Contributing
 
-If you are not familiar with Git(Hub), a simple step-by-step guide can be seen
-[here](https://hackmd.io/@jfy133/H19kmDalw#/) or in PDF format
+If you are not familiar with Git(Hub), simple step-by-step guides can be found in 
+the following:
+
+- Adding samples to a list via pull request [here](https://hackmd.io/@jfy133/H19kmDalw#/) or in PDF format
 [here](https://github.com/SPAAM-workshop/AncientMetagenomeDir/raw/master/assets/intro_to_github_and_ancientmetagenomedir.pdf)
+- Performing a pull request _review_ [here](https://hackmd.io/@jfy133/B156Z2mfP) or in PDF format [here](https://github.com/SPAAM-workshop/AncientMetagenomeDir/raw/master/assets/intro_to_ancientmetagenomedir_github_pull_request_review.pdf)
 
 Samples must be from *published* studies, and should only include *sample* level
-information. Preprints often have not made data avaliable at this point, and it
-is assumed that peer-review has correctly evaluated any submitted metagenome is
+information. Preprints often have not made data avaliable at this point, and we make
+the **assumption** that peer-review has correctly evaluated any submitted metagenome is
 valid.
 
 Samples must also have been accessible on public databases (e.g. [EBI

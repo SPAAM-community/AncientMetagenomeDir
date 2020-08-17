@@ -1,9 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://spaam-workshop.github.io/AncientMetagenomeDir/ancient-microbiome/microbiome_schema.json",
+    "$id": "https://spaam-workshop.github.io/AncientMetagenomeDir/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json",
     "type": "array",
-    "title": "JSON schema for AncientMetagenomeDir ancient microbiome data",
-    "description": "The JSON schema for AncientMetagenomeDir ancient microbiome data",
+    "title": "JSON schema for AncientMetagenomeDir single ancient microbial genome data",
+    "description": "The JSON schema for AncientMetagenomeDir single ancient microbial genome data",
     "additionalItems": false,
     "items": {
         "$id": "#/items",
@@ -23,9 +23,10 @@
             "sample_host",
             "sample_age",
             "sample_age_doi",
-            "microbiome_type",
-            "collection_date",
+            "singlegenome_domain",
+            "singlegenome_species",
             "material",
+            "collection_date",
             "archive",
             "archive_accession"
         ],
@@ -149,14 +150,24 @@
                     "10.1038/ng.2906"
                 ]
             },
-            "microbiome_type": {
-                "$id": "#/items/properties/microbiome_type",
+            "singlegenome_domain": {
+                "$id": "#/items/properties/singlegenome_domain",
                 "type": "string",
-                "title": "Type of microbiome",
-                "description": "The type of the microbiome",
-                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/microbiome_type.json",
+                "title": "Domain of the microbial species",
+                "description": "Taxonomic domain (or equvilient) that the the microbial species is derived from",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/singlegenome_domain.json",
                 "examples": [
-                    "oral"
+                    "bacteria"
+                ]
+            },
+            "singlegenome_species": {
+                "$id": "#/items/properties/singlegenome_species",
+                "type": "string",
+                "title": "Latin name of the microbiome species",
+                "description": "Linnean latin name, follows NCBI taxonomy where possible",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/singlegenome_species.json",
+                "examples": [
+                    "Homo sapiens"
                 ]
             },
             "material": {

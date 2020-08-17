@@ -2,34 +2,39 @@
 
 This PR is for a
 
-- [ ] New Publication(s)
-- [ ] Correction
+- [ ] [New Publication(s)](#new-publication)
+- [ ] [Correction](#correction)
 
 For the follow list (s)
 
-- [ ] Ancient Microbiome
-- [ ] sedaDNA
-- [ ] Ancient Pathogen
+- [ ] ancientmetagenome-hostassociated
+- [ ] ancientsinglegenome-hostassociated
+- [ ] ancientmetagenome-environmental
+- [ ] ancientmetagenome-anthropogenic
 
 ## New Publication
 
 ### Publication Information
 
-<!-- Thank you for contributing to AncientMetagenomeDir Please fill in the information below-->
-<!-- Please @ancientmetagenomedir-coreteam if you have any questions-->
+<!-- 
+Thank you for contributing to AncientMetagenomeDir Please fill in the information below
+Please @ancientmetagenomedir-coreteam if you have any questions
+-->
 
 This pull request is to add samples from the following publication(s):
 
-<!-- Replace this comment with citation-->
+<!-- Replace this comment with citation(s) URLs/DOIs/descriptions-->
 
 ### Checklist
 
-- [ ] Publication is published (preprints currently not accepted)
-- [ ] Checked the publication is not already in the database
-- [ ] Checked samples in this publication are not previously published _data_ (newly re-sequenced metagenomes are OK!)
-- [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)
-- [ ] (If applicable) Updated the JSON files under `/assets/enums` with new categories (e.g. material or archive).
+- [ ] Publication is published (preprints currently not accepted)?
+- [ ] Checked the publication is not already in the database?
+- [ ] Checked samples in this publication are not previously published _data_ (newly re-sequenced metagenomes are OK!)?
+- [ ] Samples are shotgun metagenomes?
+- [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)?
+- [ ] (If applicable) Updated the JSON files under `/assets/enums` with new categories (e.g. material or archive)?
 - [ ] Does your PR pass validation checks?
+- [ ] Changelog is updated?
 
 <details>
   <summary>If you do not know how to check errors in failed validation checks, expand here</summary>
@@ -45,9 +50,10 @@ This pull request is to add samples from the following publication(s):
 
 This PR is for
 
-- [ ] Ancient Microbiome
-- [ ] sedaDNA
-- [ ] Ancient Pathogen
+- [ ] ancientmetagenome-hostassociated
+- [ ] ancientsinglegenome-hostassociated
+- [ ] ancientmetagenome-environmental
+- [ ] ancientmetagenome-anthropogenic
 
 ### Reference
 
@@ -57,11 +63,12 @@ This pull request is to correct samples from the following publication(s):
 
 ### Description
 
-The issue is: 
+The issue is:
 
 <!-- Replace this with a description and justification of the correction -->
 
 ### Checklist
 
-- [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)
+- [ ] Checked the corrected entries follow conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)
 - [ ] Does your PR pass validation checks?
+- [ ] Changelog is updated?

@@ -164,6 +164,25 @@ Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Zoological Society of Philadelphia	39.97	-75.19	USA	ANSP11833	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887046
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Zoological Society of Philadelphia	39.97	-75.19	USA	ANSP3271	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887047
 Zhou2018	2018	10.1016/j.cub.2018.05.058	St. Olav's Cathedral	63.425	10.392	Norway	SK152	Homo sapiens	800	NA	oral	dental calculus	NA	UCPH ERDA	E56xgi8CEl
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	213	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS1170472
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	306	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS2213343
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	308	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS2213341
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	309	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS2213347
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	403	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS2213345
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	406	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS2213344
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	702	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	SRS2213350
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	312	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	SRS2213346
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	307	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	SRS2213342
+Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-217C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	SRS1052916
+Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-47C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	SRS1052918
+NievesColon2020	2020	10.1093/molbev/msz267	Paso del Indio	18.41	-66.33	USA	PI-420A-C	Homo sapiens	800	10.1093/molbev/msz267	oral	dental calculus	NA	SRA	SRS5211976
+SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	-13.53	-71.96	Peru	FI3	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgs295853
+SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	-13.53	-71.96	Peru	FI12	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgs297488
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD22	Homo sapiens	600	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295871
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD3	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295859
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD14	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295862
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD27	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295868
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD29	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295865
 Tett2019	2019	10.1016/j.chom.2019.08.018	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Coprolite 14	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS3348200
 Tett2019	2019	10.1016/j.chom.2019.08.018	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Coprolite 16	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS3348201
 Tett2019	2019	10.1016/j.chom.2019.08.018	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Coprolite 19	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS3348202

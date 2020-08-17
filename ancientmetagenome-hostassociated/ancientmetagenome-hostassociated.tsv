@@ -173,5 +173,5 @@ Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	406	Ho
 Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-217C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	SRS1052916
 Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-47C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	SRS1052918
 NievesColon2020	2020	10.1093/molbev/msz267	Paso del Indio	18.41	-66.33	USA	PI-420A-C	Homo sapiens	800	10.1093/molbev/msz267	oral	dental calculus	NA	SRA	SRS5211976
-SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	13.53	71.96	Peru	FI3	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestinal	NA	MG-RAST	mgs295853
-SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	13.53	71.96	Peru	FI12	Homo sapiens	NA	10.1093/femsec/fiw182	gut	intestinal	NA	MG-RAST	mgs297488
+SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	13.53	71.96	Peru	FI3	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgs295853
+SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	13.53	71.96	Peru	FI12	Homo sapiens	NA	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgs297488

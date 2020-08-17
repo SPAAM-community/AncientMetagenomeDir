@@ -1,9 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://spaam-workshop.github.io/AncientMetagenomeDir/ancient-sediment/sediment_schema.json",
+    "$id": "https://spaam-workshop.github.io/AncientMetagenomeDir/ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json",
     "type": "array",
-    "title": "JSON schema for AncientMetagenomeDir ancient sediment data",
-    "description": "The JSON schema for AncientMetagenomeDir ancient sediment data",
+    "title": "JSON schema for AncientMetagenomeDir ancient environmental metagenome data",
+    "description": "The JSON schema for AncientMetagenomeDir ancient environmental metagenome data",
     "additionalItems": false,
     "items": {
         "$id": "#/items",
@@ -140,11 +140,13 @@
             "material": {
                 "$id": "#/items/properties/material",
                 "type": "string",
-                "title": "Type of sediment material",
-                "description": "Sample type DNA was extracted from ",
+                "title": "Type of material metagenome is from",
+                "description": "Sample type DNA was extracted from, derived from ENVO ontology terms ",
                 "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/material.json",
                 "examples": [
-                    "dental calculus"
+                    "lake sediment",
+                    "soil",
+                    "bone"
                 ]
             },
             "collection_date": {

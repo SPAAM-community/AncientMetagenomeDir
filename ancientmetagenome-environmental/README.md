@@ -9,8 +9,6 @@ This list covers metagenomes like:
 - soil
 - sediments
 - ice cores
-- (natural) decomposition environments (e.g. non-host microbial communities of
-  skeletal elements)
 
 Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
 reported value'. Text fields (e.g. `geo_loc_name` can be indicated with

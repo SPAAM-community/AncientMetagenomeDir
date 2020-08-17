@@ -74,54 +74,101 @@ Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517
 Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 2591-1-2590(159)	Homo sapiens	1100	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042427,ERS4042428,ERS4042429,ERS4042430
 Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 2711-1-2710(171)	Homo sapiens	1000	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042431,ERS4042432,ERS4042433,ERS4042434
 Fagernas2020	2020	10.1016/j.jas.2020.105135	Rupert's Valley	-15.933	-5.75	Saint Helena	SK203	Homo sapiens	100	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042419,ERS4042420,ERS4042421,ERS4042422
-Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C214	Homo sapiens	4700	NA	oral	dental calculus	NA	SRA	SRS3078201
-Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C53	Homo sapiens	4700	NA	oral	dental calculus	NA	SRA	SRS3078204
-Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F1948	Homo sapiens	900	NA	oral	dental calculus	NA	SRA	SRS3078198
-Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F349A	Homo sapiens	900	NA	oral	dental calculus	NA	SRA	SRS3078200
-Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H10	Homo sapiens	4400	NA	oral	dental calculus	NA	SRA	SRS3078195
-Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H24	Homo sapiens	4400	NA	oral	dental calculus	NA	SRA	SRS3078181
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT01	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078183,SRS3078182 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT02	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078176
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT03	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078178
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT04	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078185
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT05	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078115,SRS3078117 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT06	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078111
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT07	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078113
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT08	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078109,SRS3078099 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT09	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078097,SRS3078104 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT10	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078101
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT11	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078105
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT12	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078133
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT13	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078131,SRS3078137 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT14	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078134,SRS3078129 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT15	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078120
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT16	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078122
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT17	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078124
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT18	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078126
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT19	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078118
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT20	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078148
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT21	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078150
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT22	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078151
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT23	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078155
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT24	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078156,SRS3078146 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT25	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078197,SRS3078141 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT26	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078139,SRS3078145 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT27	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078093
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT28	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078091,SRS3078089 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT29	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078087,SRS3078085 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT30	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078193
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT31	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078158,SRS3078147 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT32	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078192,SRS3078187 
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT33	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078170
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT34	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078167
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT35	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078165
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT36	Homo sapiens	1000	NA	oral	dental calculus	NA	SRA	SRS3078163,SRS3078172 
-Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF217	Homo sapiens	700	NA	oral	dental calculus	NA	SRA	SRS3078173
-Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF47	Homo sapiens	700	NA	oral	dental calculus	NA	SRA	SRS3078175
-Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S108	Homo sapiens	300	NA	oral	dental calculus	NA	SRA	SRS3078160
-Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S40	Homo sapiens	1500	NA	oral	dental calculus	NA	SRA	SRS3078162
-Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S41	Homo sapiens	1500	NA	oral	dental calculus	NA	SRA	SRS3078206
-Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S454	Homo sapiens	300	NA	oral	dental calculus	NA	SRA	SRS3078095
+Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C214	Homo sapiens	4700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078201
+Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C53	Homo sapiens	4700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078204
+Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F1948	Homo sapiens	900	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078198
+Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F349A	Homo sapiens	900	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078200
+Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H10	Homo sapiens	4400	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078195
+Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H24	Homo sapiens	4400	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078181
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT01	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078183,SRS3078182 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT02	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078176
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT03	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078178
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT04	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078185
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT05	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078115,SRS3078117 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT06	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078111
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT07	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078113
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT08	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078109,SRS3078099 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT09	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078097,SRS3078104 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT10	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078101
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT11	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078105
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT12	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078133
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT13	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078131,SRS3078137 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT14	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078134,SRS3078129 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT15	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078120
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT16	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078122
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT17	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078124
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT18	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078126
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT19	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078118
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT20	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078148
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT21	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078150
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT22	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078151
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT23	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078155
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT24	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078156,SRS3078146 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT25	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078197,SRS3078141 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT26	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078139,SRS3078145 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT27	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078093
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT28	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078091,SRS3078089 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT29	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078087,SRS3078085 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT30	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078193
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT31	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078158,SRS3078147 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT32	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078192,SRS3078187 
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT33	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078170
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT34	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078167
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT35	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078165
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT36	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078163,SRS3078172 
+Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF217	Homo sapiens	700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078173
+Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF47	Homo sapiens	700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078175
+Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S108	Homo sapiens	300	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078160
+Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S40	Homo sapiens	1500	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078162
+Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S41	Homo sapiens	1500	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078206
+Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S454	Homo sapiens	300	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078095
+Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C214	Homo sapiens	4700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078202
+Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C53	Homo sapiens	4700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078203
+Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F1948	Homo sapiens	900	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078196
+Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F349A	Homo sapiens	900	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078161
+Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H10	Homo sapiens	4400	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078189
+Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H24	Homo sapiens	4400	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078180
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT01	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078177
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT02	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078179
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT03	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078184
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT04	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078114
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT05	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078110,SRS3078116
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT06	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078112
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT07	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078108
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT08	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078098,SRS3078100
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT09	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078102,SRS3078103
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT10	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078106
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT11	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078132
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT12	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078130
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT13	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078135,SRS3078136
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT14	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078121,SRS3078128
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT15	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078123
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT16	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078125
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT17	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078127
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT18	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078119
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT20	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078149
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT21	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078152
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT22	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078153
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT23	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078154
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT24	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078143,SRS3078157
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT25	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078140,SRS3078142
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT26	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078144,SRS3078138
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT27	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078094
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT28	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078090,SRS3078092
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT29	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078086,SRS3078088
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT30	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078190
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT31	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078188,SRS3078194
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT32	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078186,SRS3078191
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT33	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078169
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT34	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078168
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT35	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078166
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT36	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078164,SRS3078107
+Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF217	Homo sapiens	700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078171
+Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF47	Homo sapiens	700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078174
+Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S108	Homo sapiens	300	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078159
+Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S40	Homo sapiens	1500	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078199
+Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S41	Homo sapiens	1500	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078205
+Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S454	Homo sapiens	300	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078096
 Brealey2020	2020	10.1093/molbev/msaa135	Karisimbi	-1.508	29.445	Democratic Republic of the Congo	Gb1	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545903,ERS4545904 ,ERS4545905 
 Brealey2020	2020	10.1093/molbev/msaa135	Lulingu	-2.316	27.549	Democratic Republic of the Congo	Gb2	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545906,ERS4545907,ERS4545908 
 Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua2	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545909
@@ -156,11 +203,30 @@ Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzani
 Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	28C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625232
 Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	29C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625240
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB01	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887040
-Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB05	Papio anubis	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887041,ERS3887041 
-Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB06	Papio anubis	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887042,ERS3887042 
+Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB05	Papio anubis	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887041
+Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB06	Papio anubis	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887042
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB08	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887043
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB09	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887044
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB11	Papio sp.	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887045
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Zoological Society of Philadelphia	39.97	-75.19	USA	ANSP11833	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887046
 Ottoni2019	2019	10.1038/s41598-019-56074-x	Zoological Society of Philadelphia	39.97	-75.19	USA	ANSP3271	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887047
 Zhou2018	2018	10.1016/j.cub.2018.05.058	St. Olav's Cathedral	63.425	10.392	Norway	SK152	Homo sapiens	800	NA	oral	dental calculus	NA	UCPH ERDA	E56xgi8CEl
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	213	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS1170472
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	306	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS2213343
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	308	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS2213341
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	309	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS2213347
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	403	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS2213345
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	406	Homo sapiens	200	10.1371/journal.pone.0196482	oral	tooth	NA	SRA	SRS2213344
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	702	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	SRS2213350
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	312	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	SRS2213346
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	307	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	SRS2213342
+Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-217C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	SRS1052916
+Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-47C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	SRS1052918
+NievesColon2020	2020	10.1093/molbev/msz267	Paso del Indio	18.41	-66.33	USA	PI-420A-C	Homo sapiens	800	10.1093/molbev/msz267	oral	dental calculus	NA	SRA	SRS5211976
+SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	-13.53	-71.96	Peru	FI3	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgs295853
+SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	-13.53	-71.96	Peru	FI12	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgs297488
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD22	Homo sapiens	600	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295871
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD3	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295859
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD14	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295862
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD27	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295868
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD29	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295865

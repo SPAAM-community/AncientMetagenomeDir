@@ -36,3 +36,22 @@ Rasmussen2015	2015	10.1016/j.cell.2015.10.009	Bateni	54.584	90.775	Russia 	RISE5
 Rasmussen2015	2015	10.1016/j.cell.2015.10.009	Bateni	54.584	90.775	Russia 	RISE511 	Homo sapiens	4744	10.1038/nature14507	bacteria	Yersinia pestis	tooth	NA	ENA	ERS848977
 Yu2020	2020	10.1016/j.cell.2020.04.037	Glazkovskoe Predmestie Site	52.279056	104.251778	Russia	GLZ001	Homo sapiens	4319	10.1016/j.cell.2020.04.037	bacteria	Yersinia pestis	tooth	NA	ENA	ERS4540520
 Yu2020	2020	10.1016/j.cell.2020.04.037	Glazkovskoe Predmestie Site	52.279056	104.251778	Russia	GLZ002	Homo sapiens	4369	10.1016/j.cell.2020.04.037	bacteria	Yersinia pestis	tooth	NA	ENA	ERS4540521
+Devault2017	2017	10.7554/eLife.20983	Troy	39.953	26.236	Turkey	Nod1	Homo sapiens	800	10.7554/eLife.20983	bacteria	Gardnerella vaginalis	calcified nodule	NA	SRA	SRS1779841,SRS1779840
+Devault2017	2017	10.7554/eLife.20983	Troy	39.953	26.236	Turkey	Nod1	Homo sapiens	800	10.7554/eLife.20983	bacteria	Staphylococcus saprophyticus	calcified nodule	NA	SRA	SRS1779841,SRS1779840
+Devault2017	2017	10.7554/eLife.20983	Troy	39.953	26.236	Turkey	Nod2	Homo sapiens	800	10.7554/eLife.20983	bacteria	Gardnerella vaginalis	calcified nodule	NA	SRA	SRS1779846,SRS1779844
+Devault2017	2017	10.7554/eLife.20983	Troy	39.953	26.236	Turkey	Nod2	Homo sapiens	800	10.7554/eLife.20983	bacteria	Staphylococcus saprophyticus	calcified nodule	NA	SRA	SRS1779846,SRS1779844
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Bulanovo	52.453	55.16	Russia	RISE387	Homo sapiens	4200	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	tooth	NA	ENA	ERS2295393
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Sandorfalva-Eperjes	46.344	20.162	Hungary	DA195	Homo sapiens	2500	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	NA	ENA	ERS2295388
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Osterhofen-Altenmarkt	48.691	13.061	Germany	RISE563	Homo sapiens	4400	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	tooth	NA	ENA	ERS2295394
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Szàzhalombatta-Földvàr	47.372	18.962	Hungary	RISE254	Homo sapiens	3900	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	bone	NA	ENA	ERS2295391
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Karasyur	46.997	66.285	Kazakhstan	DA29	Homo sapiens	800	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	NA	ENA	ERS2295384
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Halvay 3	52.836	62.893	Kazakhstan	DA27	Homo sapiens	1600	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	NA	ENA	ERS2295383
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Poprad	49.077	20.317	Slovakia	DA119	Homo sapiens	1500	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	NA	ENA	ERS2295387
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Omnogobi	42.525	105.18	Mongolia	DA45	Homo sapiens	2100	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	bone	NA	ENA	ERS2295385
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Szczepankowice	50.948	16.943	Poland	RISE154	Homo sapiens	3800	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	tooth	NA	ENA	ERS2295390
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Keden	41.428	75.329	Kyrgyzstan	DA51	Homo sapiens	2200	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	NA	ENA	ERS2295386
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Bulanovo	52.453	55.16	Russia	RISE386	Homo sapiens	4100	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	tooth	NA	ENA	ERS2295392
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Butakty	43.202	76.981	Kazakhstan	DA222	Homo sapiens	1100	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	NA	ENA	ERS2295389
+Dux2020	2020	10.1126/science.aba9411	Berlin	52.51	13.4	Germany	BMM 655/1912	Homo sapiens	100	10.1126/science.aba9411	virus	Measles morbillivirus	lung tissue	NA	ENA	ERS4249335
+Dux2020	2020	10.1126/science.aba9411	Prague	50.06	14.46	Czech Republic	MVi/Prague.CZE/60/1	Homo sapiens	100	10.1126/science.aba9411	virus	Measles morbillivirus	isolate	NA	ENA	ERS4249362
+Dux2020	2020	10.1126/science.aba9411	Prague	50.06	14.46	Czech Republic	Mvi/Prague.CZE/60/2	Homo sapiens	100	10.1126/science.aba9411	virus	Measles morbillivirus	isolate	NA	ENA	ERS4249363

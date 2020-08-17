@@ -7,9 +7,9 @@ This page describes columns definitions for the host-associated ancient single
 genome list.
 
 This list covers samples from which single microbial genomes have been extracted
-from. This can be both known pathogens but also commensals. These entries should
-represent whole genome-level metagenomes (not amplicon data or solely plasmids
-etc.), however can be derived from enrichment techniques.
+from (e.g. not just pathogens but also commensals and other types of microbes). 
+These entries should represent whole genome-level metagenomes (not amplicon data 
+or solely plasmids etc.), however can be derived from enrichment techniques.
 
 Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
 reported value'. Text fields (e.g. `geo_loc_name` can be indicated with
@@ -29,10 +29,14 @@ Sample columns are as follows:
 ## project_name
 
 - Format: surnameYYYY (YYYY in numeric format)
-- Due to restrictions in regex (used for validation checks), characters with
-  accents cannot be used. In these cases use the non-accented version.
+- Due to restrictions in regex (used for validation checks), **punctuation (e.g. hyphens or spaces) or characters with
+  accents cannot be used**.
+  - Use the non-accented version.
+  - If the first author has multiple or hyphenated surnames,  write them all together capitalising each surname.
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
+
+> :warning: Mandatory value  
 
 ## publication_year
 
@@ -44,6 +48,8 @@ Sample columns are as follows:
 - Or library permalink 
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
+
+> :warning: Mandatory value  
 
 ## site_name
 
@@ -77,13 +83,17 @@ Sample columns are as follows:
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
 - Missing name: `Unknown`
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
+> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
+> :warning: Mandatory value  
 
 ## sample_name
 
 - In most cases this should be the name of the host *individual*
+
+> :warning: Mandatory value  
 
 ## sample_host
 
@@ -110,7 +120,7 @@ Sample columns are as follows:
   - Uncalibrated dates are preferred, but if only calibrated reported can be
     used
 
-- Missing value: `NA`
+> :warning: Mandatory value  
 
 ## sample_age_doi
 
@@ -119,6 +129,8 @@ Sample columns are as follows:
 - Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
+
+> :warning: Mandatory value  
 
 ## pathogen_domain
 
@@ -132,17 +144,21 @@ Sample columns are as follows:
 - Linnean latin name
 - Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
+> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
+> :warning: Mandatory value  
 
 ## material
 
 - Sample type DNA was extracted from
   - e.g. tooth, bone, dental calculus
 
-> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, ideally an [ontology term](https://www.ebi.ac.uk/ols/index), but not currently mandatory  
 > [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
+> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
+> :warning: Mandatory value  
 
 ## collection_date
 
@@ -156,7 +172,9 @@ Sample columns are as follows:
 - e.g. [ENA](https://www.ebi.ac.uk/ena),
   [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/)
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
+> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
+> :warning: Mandatory value  
 
 ## archive_accession
 
@@ -166,6 +184,8 @@ Sample columns are as follows:
 - If non-NCBI/ENA, use as close to sample-level as possible
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
+
+> :warning: Mandatory value  
 
 <details>
   <summary>Expand to show location of ERS codes on ENA</summary>

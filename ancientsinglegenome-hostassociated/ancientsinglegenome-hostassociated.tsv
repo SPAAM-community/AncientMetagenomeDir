@@ -34,8 +34,8 @@ Rasmussen2015	2015	10.1016/j.cell.2015.10.009	Kapan	39.2	46.4	Armenia	RISE397 	H
 Rasmussen2015	2015	10.1016/j.cell.2015.10.009	Kytmanovo	53.456	85.447	Russia	RISE505 	Homo sapiens	3600	10.1038/nature14507	bacteria	Yersinia pestis	tooth	NA	ENA	ERS848975
 Rasmussen2015	2015	10.1016/j.cell.2015.10.009	Bateni	54.584	90.775	Russia	RISE509 	Homo sapiens	4800	10.1038/nature14507	bacteria	Yersinia pestis	tooth	NA	ENA	ERS848976
 Rasmussen2015	2015	10.1016/j.cell.2015.10.009	Bateni	54.584	90.775	Russia	RISE511 	Homo sapiens	4700	10.1038/nature14507	bacteria	Yersinia pestis	tooth	NA	ENA	ERS848977
-Yu2020	2020	10.1016/j.cell.2020.04.037	Glazkovskoe Predmestie Site	52.279056	104.251778	Russia	GLZ001	Homo sapiens	4300	10.1016/j.cell.2020.04.037	bacteria	Yersinia pestis	tooth	NA	ENA	ERS4540520
-Yu2020	2020	10.1016/j.cell.2020.04.037	Glazkovskoe Predmestie Site	52.279056	104.251778	Russia	GLZ002	Homo sapiens	4400	10.1016/j.cell.2020.04.037	bacteria	Yersinia pestis	tooth	NA	ENA	ERS4540521
+Yu2020	2020	10.1016/j.cell.2020.04.037	Glazkovskoe Predmestie Site	52.279	104.251	Russia	GLZ001	Homo sapiens	4300	10.1016/j.cell.2020.04.037	bacteria	Yersinia pestis	tooth	NA	ENA	ERS4540520
+Yu2020	2020	10.1016/j.cell.2020.04.037	Glazkovskoe Predmestie Site	52.279	104.251	Russia	GLZ002	Homo sapiens	4400	10.1016/j.cell.2020.04.037	bacteria	Yersinia pestis	tooth	NA	ENA	ERS4540521
 Devault2017	2017	10.7554/eLife.20983	Troy	39.953	26.236	Turkey	Nod1	Homo sapiens	800	10.7554/eLife.20983	bacteria	Gardnerella vaginalis	calcified nodule	NA	SRA	SRS1779841,SRS1779840
 Devault2017	2017	10.7554/eLife.20983	Troy	39.953	26.236	Turkey	Nod1	Homo sapiens	800	10.7554/eLife.20983	bacteria	Staphylococcus saprophyticus	calcified nodule	NA	SRA	SRS1779841,SRS1779840
 Devault2017	2017	10.7554/eLife.20983	Troy	39.953	26.236	Turkey	Nod2	Homo sapiens	800	10.7554/eLife.20983	bacteria	Gardnerella vaginalis	calcified nodule	NA	SRA	SRS1779846,SRS1779844

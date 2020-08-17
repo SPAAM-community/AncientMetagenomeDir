@@ -4,8 +4,8 @@
 
 ----
 [![License: CC BY
-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
+4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980834.svg)](https://doi.org/10.5281/zenodo.3980834) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg) [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir)
+
 
 AncientMetagenomeDir is a community curated resource of lists of all published
 **shotgun**-sequenced ancient metagenome samples. It is primarily meant to act
@@ -17,11 +17,11 @@ These lists contain information such as publication, sample name, sample type,
 geographic location, dates and DOIs and other accession numbers to **samples**
 in establised sequencing data databases. We define here 'metagenome' in a broad
 sense, primarily focusing any data where the whole DNA content is analysed and
-explored. Examples for this are ancient microbiomes (host associated metagenome), 
+explored. Examples for this are (but not limited to) ancient microbiomes (host associated metagenome), 
 ancient sedimentary DNA (environmental) and also samples used for ancient pathogen 
-screening  (single genomes). See the README of each list for more detailed 
+screening (single genomes). See the README of each list for more detailed 
 descriptions of the contents of each list. Further modification and expansion of
-these categories can be proposed to the [SPAAM community](spaam-workshop.github.io) 
+these categories can be proposed to the [SPAAM community](https://spaam-workshop.github.io) 
 for further consideration.
 
 The purpose of this repository is not meant to be a comprehensive set of all
@@ -41,14 +41,19 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 ## Contributing
 
-If you are not familiar with Git(Hub), a simple step-by-step guide can be seen
-[here](https://hackmd.io/@jfy133/H19kmDalw#/) or in PDF format
+If you are not familiar with Git(Hub), simple step-by-step guides can be found in 
+the following:
+
+- Adding samples to a list via pull request [here](https://hackmd.io/@jfy133/H19kmDalw#/) or in PDF format
 [here](https://github.com/SPAAM-workshop/AncientMetagenomeDir/raw/master/assets/intro_to_github_and_ancientmetagenomedir.pdf)
+- Performing a pull request _review_ [here](https://hackmd.io/@jfy133/B156Z2mfP) or in PDF format [here](https://github.com/SPAAM-workshop/AncientMetagenomeDir/raw/master/assets/intro_to_ancientmetagenomedir_github_pull_request_review.pdf)
 
 Samples must be from *published* studies, and should only include *sample* level
-information. Preprints often have not made data avaliable at this point, and it
-is assumed that peer-review has correctly evaluated any submitted metagenome is
-valid.
+information. Preprints often have not made data avaliable at this point, and we make
+the **assumption** that peer-review has correctly evaluated any submitted metagenome is
+valid. Included papers should generally have uploaded their own data, however in certain
+cases may see exceptions (such as retrieval of bacterial genomes from off-target reads from 
+human population studies). If unsure, please consult the AncientMetagenomeDir community on [slack](https://spaam-community.slack.com/channels/ancientmetagenomedir).
 
 Samples must also have been accessible on public databases (e.g. [EBI
 ENA](https://www.ebi.ac.uk/ena) or [NCBI

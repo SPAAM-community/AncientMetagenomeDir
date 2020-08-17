@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ozga 2016 10.1002/ajpa.22960
 - Santiago-Rodriguez 2016 10.1093/femsec/fiw182
 - Santiago-Rodriguez 2017 10.3390/genes8110310
+- Maixner 2016 10.1126/science.aad2545
 
 #### Ancient Single Genome: Host Associated
 
@@ -47,5 +48,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Fagernäs 2020: Fixed missing sample age DOI
+- Ottoni 2019: Fixed duplicate SRA codes
 
 ### Removed

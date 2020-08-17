@@ -1,15 +1,27 @@
 {
     "enum": [
+        "unknown",
         "dental calculus",
         "palaeofaeces",
-        "intestinal contents",
         "birch pitch",
         "bone",
         "tooth",
         "permafrost",
         "lake sediment",
+        "marine sediment",
+        "shallow marine sediment",
         "peat soil",
         "midden",
-        "rock shelter"
+        "rock shelter",
+        "calcified nodule",
+        "digestive tract contents",
+        "muscle tissue",
+        "buccal fat pad",
+        "omentum",
+        "peritoneum",
+        "intestine",
+        "caecum",
+        "lung tissue",
+        "isolate"
     ]
 }

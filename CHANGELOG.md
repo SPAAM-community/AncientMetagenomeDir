@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Nieves-Colón 2020 10.1093/molbev/msz267
 - Ozga 2016 10.1002/ajpa.22960
 - Santiago-Rodriguez 2016 10.1093/femsec/fiw182
+- Santiago-Rodirguez 2017 10.3390/genes8110310
 
 #### Ancient Single Genome: Host Associated
 

@@ -4,7 +4,8 @@
 
 ----
 [![License: CC BY
-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980834.svg)](https://doi.org/10.5281/zenodo.3980834) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
+4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980834.svg)](https://doi.org/10.5281/zenodo.3980834) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg) [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir)
+
 
 AncientMetagenomeDir is a community curated resource of lists of all published
 **shotgun**-sequenced ancient metagenome samples. It is primarily meant to act
@@ -50,7 +51,9 @@ the following:
 Samples must be from *published* studies, and should only include *sample* level
 information. Preprints often have not made data avaliable at this point, and we make
 the **assumption** that peer-review has correctly evaluated any submitted metagenome is
-valid.
+valid. Included papers should generally have uploaded their own data, however in certain
+cases may see exceptions (such as retrieval of bacterial genomes from off-target reads from 
+human population studies). If unsure, please consult the AncientMetagenomeDir community on [slack](https://spaam-community.slack.com/channels/ancientmetagenomedir).
 
 Samples must also have been accessible on public databases (e.g. [EBI
 ENA](https://www.ebi.ac.uk/ena) or [NCBI

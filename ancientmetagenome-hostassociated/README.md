@@ -9,6 +9,8 @@ This covers samples that contain metagenomes such as
 
 - oral microbiome (e.g. from dental calculus, teeth)
 - gut microbiome (e.g. from palaeofaeces, intestinal contents of mummies)
+- 'skeletal' metagenomes (i.e. metagenomes derived from skeletal elements not representing original 'microbiomes' of a living individual)
+- 'soft tissue' metagenomes (i.e. from mummified remains
 
 Included samples should have evidence of the corresponding original host's
 microbiome as reported in the given paper (e.g. a tooth should have evidence of

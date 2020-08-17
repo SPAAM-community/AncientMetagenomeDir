@@ -3,7 +3,6 @@
         "unknown",
         "dental calculus",
         "palaeofaeces",
-        "intestinal contents",
         "birch pitch",
         "bone",
         "tooth",
@@ -14,6 +13,16 @@
         "peat soil",
         "midden",
         "rock shelter",
-        "calcified nodule"
+        "calcified nodule",
+        "digestive tract contents",
+        "muscle tissue",
+        "buccal fat pad",
+        "omentum",
+        "peritoneum",
+        "intestine",
+        "caecum",
+        "lung tissue",
+        "isolate",
+        "large intestine"
     ]
 }

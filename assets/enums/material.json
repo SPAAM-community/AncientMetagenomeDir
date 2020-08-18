@@ -24,6 +24,8 @@
         "lung tissue",
         "isolate",
         "large intestine",
-        "skin"
+        "skin",
+        "sediment",
+        "soil",
     ]
 }

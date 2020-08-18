@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Santiago-Rodriguez 2016 10.1093/femsec/fiw182
 - Santiago-Rodriguez 2017 10.3390/genes8110310
 - Maixner 2016 10.1126/science.aad2545
+- Ferrari 2018 10.3390/genes9090436
 - Ziesemer 2015 10.1038/srep16498
 
 #### Ancient Single Genome: Host Associated
@@ -38,6 +39,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Devault 2017 10.7554/eLife.20983
 - Mühlemann 2018 10.1038/s41586-018-0097-z
 - Düx 2020 10.1126/science.aba9411
+- Andrades Valtueña 2017 10.1016/j.cub.2017.10.025
+- Rasmussen 2015 10.1016/j.cell.2015.10.009
+- Spyrou 2018 10.1038/s41467-018-04550-9
+- Rascovan 2019 10.1016/j.cell.2018.11.005
+- Yu 2020 10.1016/j.cell.2020.04.037
 
 #### Ancient Metagenome: Environmental
 

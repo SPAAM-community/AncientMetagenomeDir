@@ -7,9 +7,9 @@ This page describes columns definitions for the host-associated ancient single
 genome list.
 
 This list covers samples from which single microbial genomes have been extracted
-from. This can be both known pathogens but also commensals. These entries should
-represent whole genome-level metagenomes (not amplicon data or solely plasmids
-etc.), however can be derived from enrichment techniques.
+from (e.g. not just pathogens but also commensals and other types of microbes). 
+These entries should represent whole genome-level metagenomes (not amplicon data 
+or solely plasmids etc.), however can be derived from enrichment techniques.
 
 Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
 reported value'. Text fields (e.g. `geo_loc_name` can be indicated with
@@ -33,6 +33,9 @@ Sample columns are as follows:
   accents cannot be used**.
   - Use the non-accented version.
   - If the first author has multiple or hyphenated surnames,  write them all together capitalising each surname.
+- If a same author/year combination already exists, please append a single lower case character (a,b,c) to the key. 
+  - The already existing key does not need to be updated. `a` indicates the 'second' key added.
+  - e.g. Muhlemann2018 (original), Muhlemann2018a (first duplicate), Muhlemann2018b (second duplicate) etc.
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
 

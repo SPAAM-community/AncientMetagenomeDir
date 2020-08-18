@@ -33,6 +33,9 @@ Sample columns are as follows:
   accents cannot be used**.
   - Use the non-accented version.
   - If the first author has multiple or hyphenated surnames,  write them all together capitalising each surname.
+- If a same author/year combination already exists, please append a single lower case character (a,b,c) to the key. 
+  - The already existing key does not need to be updated. `a` indicates the 'second' key added.
+  - e.g. Muhlemann2018 (original), Muhlemann2018a (first duplicate), Muhlemann2018b (second duplicate) etc.
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
 

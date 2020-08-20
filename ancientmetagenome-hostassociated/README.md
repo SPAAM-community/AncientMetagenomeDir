@@ -127,7 +127,10 @@ Sample columns are as follows:
 - In Before Present (BP) format i.e. since 1950 AD
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
-- Can be obtained from other publications if known (see `sample_age_doi`)
+
+- In most cases, report the date in the publication of the given sample, even if the date is from an older publication (we assume the original citation can be found by looking at submitted article) _However_:
+  - If a more recent and accurate date has been published this can be used!
+  - Ensure to also update `sample_age_doi`
 
 - If date _ranges_ reported, take approximate mid-point
 - Dates for specific individual preferred.

@@ -47,6 +47,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Duggan 2016 10.1016/j.cub.2016.10.061
 - de Barros Damgaard 2018 10.1038/s41586-018-0094-2
 - Key 2020 10.1038/s41559-020-1106-9
+- Barquera 2020 10.1016/j.cub.2020.04.002
+
 
 #### Ancient Metagenome: Environmental
 

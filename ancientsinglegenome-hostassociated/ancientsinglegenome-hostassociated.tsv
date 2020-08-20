@@ -76,6 +76,8 @@ Key2020	2020	10.1038/s41559-020-1106-9	Oberbipp	47.262	7.659	Switzerland	OBP001	
 Key2020	2020	10.1038/s41559-020-1106-9	Su Asedazzu	39.512	9.145	Italy	SUA004	Homo sapiens	4200	10.1038/s41559-020-1106-9	bacteria	Salmonella enterica	tooth	NA	ENA	raw	ERS3967966
 Key2020	2020	10.1038/s41559-020-1106-9	Marinskaya 3	43.905	43.521	Russia	MK3001	Homo sapiens	2900	10.1038/s41559-020-1106-9	bacteria	Salmonella enterica	tooth	NA	ENA	raw	ERS3967962
 Key2020	2020	10.1038/s41559-020-1106-9	Chiusi	43.016	11.95	Italy	ETR001	Homo sapiens	1700	10.1038/s41559-020-1106-9	bacteria	Salmonella enterica	tooth	NA	ENA	raw	ERS3967960
+Barquera2020	2020	10.1016/j.cub.2020.04.002	Hospital Real de San Jose de los Naturales	19.43	-99.14	Mexico	SJN003	Homo sapiens	400	10.1016/j.cub.2020.04.002	bacteria	Treponema pallidum	tooth	NA	ENA	raw	ERS4529000,ERS4529001
+Barquera2020	2020	10.1016/j.cub.2020.04.002	Hospital Real de San Jose de los Naturales	19.43	-99.14	Mexico	SJN001	Homo sapiens	400	10.1016/j.cub.2020.04.002	virus	Hepatitis B virus	tooth	NA	ENA	raw	ERS4528997,ERS4528998
 KrauseKyora2018	2018	10.7554/eLife.36666	Karsdorf	51.27	11.65	Germany	Karsdorf	Homo sapiens	7000	10.7554/eLife.36666	virus	Hepatitis B virus	tooth	NA	ENA	raw	ERS2200179
 KrauseKyora2018	2018	10.7554/eLife.36666	Sorsum	52.27	9.61	Germany	Sorsum	Homo sapiens	5100	10.7554/eLife.36666	virus	Hepatitis B virus	tooth	NA	ENA	raw	ERS2200180
 KrauseKyora2018	2018	10.7554/eLife.36666	Petersberg	47.71	12.12	Germany	Petersberg	Homo sapiens	900	10.7554/eLife.36666	virus	Hepatitis B virus	tooth	NA	ENA	raw	ERS2200178

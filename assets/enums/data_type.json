@@ -1,0 +1,22 @@
+{
+  "enum": [
+    "raw",
+    "assembly",
+    "binned_mag",
+    "binned_cag",
+    "reference_aligned",
+    "consensus",
+    "raw,reference_aligned",
+    "raw,reference_aligned,consensus",
+    "raw,consensus",
+    "reference_aligned,consensus",
+    "raw,assembly",
+    "raw,assembly,binned_mag",
+    "raw,binned_mag",
+    "assembly,binned_mag",
+    "raw,binned_mag",
+    "raw,assembly,binned_cag",
+    "raw,binned_cag",
+    "assembly,binned_cag"
+  ]
+}

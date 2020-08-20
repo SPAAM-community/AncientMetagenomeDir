@@ -9,7 +9,8 @@ This covers samples that contain metagenomes such as
 
 - oral microbiome (e.g. from dental calculus, teeth)
 - gut microbiome (e.g. from palaeofaeces, intestinal contents of mummies)
-- 'skeletal' metagenomes (i.e. metagenomes derived from skeletal elements not representing original 'microbiomes' of a living individual)
+- 'skeletal' metagenomes (i.e. metagenomes derived from skeletal elements not
+  representing original 'microbiomes' of a living individual)
 - 'soft tissue' metagenomes (i.e. from mummified remains
 
 Included samples should have evidence of the corresponding original host's
@@ -36,13 +37,17 @@ Sample columns are as follows:
 ## project_name
 
 - Format: surnameYYYY (YYYY in numeric format)
-- Due to restrictions in regex (used for validation checks), **punctuation (e.g. hyphens or spaces) or characters with
-  accents cannot be used**.
+- Due to restrictions in regex (used for validation checks), **punctuation (e.g.
+  hyphens or spaces) or characters with accents cannot be used**.
   - Use the non-accented version.
-  - If the first author has multiple or hyphenated surnames,  write them all together capitalising each surname.
-- If a same author/year combination already exists, please append a single lower case character (a,b,c) to the key. 
-  - The already existing key does not need to be updated. `a` indicates the 'second' key added.
-  - e.g. Muhlemann2018 (original), Muhlemann2018a (first duplicate), Muhlemann2018b (second duplicate) etc.
+  - If the first author has multiple or hyphenated surnames,  write them all
+    together capitalising each surname.
+- If a same author/year combination already exists, please append a single lower
+  case character (b,c,d etc.) to the key. 
+  - The already existing key does not need to be updated. `b` indicates the
+    'second' key added.
+  - e.g. Muhlemann2018 (original), Muhlemann2018b (first duplicate),
+    Muhlemann2018c (second duplicate) etc.
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
 
@@ -157,7 +162,9 @@ The type of community from the host's original body the sample is derived from.
 - Sample type DNA was extracted from
   - e.g. denta calculus, palaeofaeces, intestinal, chewing gum
 
-> :warning: Partly [MIxS v5](https://gensc.org/mixs/) compliant field, ideally a term from an [ontology](https://www.ebi.ac.uk/ols/index), but not currently mandatory  
+> :warning: Partly [MIxS v5](https://gensc.org/mixs/) compliant field, ideally a
+> term from an [ontology](https://www.ebi.ac.uk/ols/index), but not currently
+> mandatory  
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
@@ -188,7 +195,7 @@ The type of community from the host's original body the sample is derived from.
 - If non-NCBI/ENA, use as close to sample-level as possible
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
-  
+
 > :warning: Mandatory value  
 
 <details>

@@ -68,3 +68,11 @@ Guellil2018	2018	10.1073/pnas.1807266115	St Nicolay’s ALT St Clement's Church,
 Duggan2016	2016	10.1016/j.cub.2016.10.061	Dominican Church of the Holy Spirit of Vilnius	54.681	25.284	Lithuania	VD21	Homo sapiens	400	10.1016/j.cub.2016.10.061	virus	Variola virus	skin	2011	SRA	SRS1749354
 deBarrosDamgaard2018	2018	10.1038/s41586-018-0094-2	Uch-Kurbu	42.159	77.406	Kyrgyzstan	DA101	Homo sapiens	1700	10.1038/s41586-018-0094-2	bacteria	Yersinia pestis	tooth	NA	ENA	ERS2367268
 deBarrosDamgaard2018	2018	10.1038/s41586-018-0094-2	Unknown	42.861	44.185	Russia	DA147	Homo sapiens	1300	10.1038/s41586-018-0094-2	bacteria	Yersinia pestis	tooth	NA	ENA	ERS2367269
+Key2020	2020	10.1038/s41559-020-1106-9	Murzikhinsky II	55.304	50.086	Russia	MUR009	Homo sapiens	6400	10.1038/s41559-020-1106-9	bacteria	Salmonella enterica	tooth	NA	ENA	ERS3967963
+Key2020	2020	10.1038/s41559-020-1106-9	Murzikhinsky II	55.304	50.086	Russia	MUR019	Homo sapiens	6400	10.1038/s41559-020-1106-9	bacteria	Salmonella enterica	tooth	NA	ENA	ERS3967964
+Key2020	2020	10.1038/s41559-020-1106-9	Ipatovo 3	45.685	42.921	Russia	IV3002	Homo sapiens	5300	10.1038/s41559-020-1106-9	bacteria	Salmonella enterica	tooth	NA	ENA	ERS3967967
+Key2020	2020	10.1038/s41559-020-1106-9	Ikiztepe	41.612	35.87	Turkey	IKI003	Homo sapiens	5200	10.1038/s41559-020-1106-9	bacteria	Salmonella enterica	tooth	NA	ENA	ERS3967961
+Key2020	2020	10.1038/s41559-020-1106-9	Oberbipp	47.262	7.659	Switzerland	OBP001	Homo sapiens	5200	10.1038/s41559-020-1106-9	bacteria	Salmonella enterica	tooth	NA	ENA	ERS3967965
+Key2020	2020	10.1038/s41559-020-1106-9	Su Asedazzu	39.512	9.145	Italy	SUA004	Homo sapiens	4200	10.1038/s41559-020-1106-9	bacteria	Salmonella enterica	tooth	NA	ENA	ERS3967966
+Key2020	2020	10.1038/s41559-020-1106-9	Marinskaya 3	43.905	43.521	Russia	MK3001	Homo sapiens	2900	10.1038/s41559-020-1106-9	bacteria	Salmonella enterica	tooth	NA	ENA	ERS3967962
+Key2020	2020	10.1038/s41559-020-1106-9	Chiusi	43.016	11.95	Italy	ETR001	Homo sapiens	1700	10.1038/s41559-020-1106-9	bacteria	Salmonella enterica	tooth	NA	ENA	ERS3967960

@@ -105,7 +105,7 @@ Sample columns are as follows:
 
 - Single date rounded to nearest century (i.e. end in '00')
   - e.g. something only 50 years old would be assigned as 100
-- In Before Present (BP) format i.e. since 1950 AD (~2000 AD is also fine)
+- In Before Present (BP) format i.e. since 1950 AD
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
 - Can be obtained from other publications if known (see `sample_age_doi`)

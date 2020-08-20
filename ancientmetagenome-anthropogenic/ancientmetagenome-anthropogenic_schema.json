@@ -32,8 +32,8 @@
                 "$id": "#/items/properties/project_name",
                 "type": "string",
                 "title": "AncientMetagenomeDir key of the publication",
-                "description": "Format: surnameYYYY (if duplicate key but different publication, add a,b,c etc. as necessary)",
-                "pattern": "^[a-zA-Z]+\\d{4}[a-z]?$",
+                "description": "Format: surnameYYYY (if duplicate key but different publication, add b,c,d etc. as necessary)",
+                "pattern": "^[a-zA-Z]+\\d{4}[b-z]?$",
                 "examples": [
                     "Warinner2014",
                     "Muhlemann2018",

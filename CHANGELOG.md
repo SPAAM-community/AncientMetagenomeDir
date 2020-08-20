@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Santiago-Rodriguez 2017 10.3390/genes8110310
 - Maixner 2016 10.1126/science.aad2545
 - Ferrari 2018 10.3390/genes9090436
+- Majander 2020 10.1016/j.cub.2020.07.058
 
 
 #### Ancient Single Genome: Host Associated

@@ -17,7 +17,7 @@ reported value'. Text fields (e.g. `geo_loc_name` can be indicated with
 All column with 'defined categories' should be validated against
 `assets/enums/<column>.json`. This is to ensure data consistency, e.g. all Lake
 Sediment samples are listed as `lake sediment` (as defined in
-`assets/enums/<column>.json`. This is to ensure data consistency.
+`assets/enums/<column>.json`). This is to ensure data consistency.
 
 If you wish to a new category, please consult with the [SPAAM
 community](spaam-workshop.github.io), and then add it to
@@ -110,7 +110,11 @@ Sample columns are as follows:
 - In Before Present (BP) format i.e. since 1950 AD
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
-- Can be obtained from other publications if known (see `sample_age_doi`)
+
+- In most cases, report the date in the publication of the given sample, even if the date is from an older publication (we assume the original citation can be found by looking at submitted article). _However_:
+  - If a more recent and accurate date has been published this can be used!
+  - Ensure to also update `sample_age_doi`
+
 - If date _ranges_ reported, take approximate mid-point
 - Dates for specific individual preferred.
 - Proxy dates are allowed. e.g.

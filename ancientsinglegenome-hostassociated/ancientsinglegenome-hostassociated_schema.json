@@ -206,6 +206,18 @@
                     "ENA"
                 ]
             },
+            "data_type": {
+                "$id": "#items/properties/data_type",
+                "type": "string",
+                "title": "Avaliable data types",
+                "description": "Types of accessible data via accession",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/data_type.json",
+                "examples": [
+                    "raw",
+                    "consensus",
+                    "assembly,binned_mag"
+                ]
+            },
             "archive_accession": {
                 "$id": "#/items/properties/archive_accession",
                 "type": [

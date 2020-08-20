@@ -179,6 +179,27 @@ Sample columns are as follows:
 
 > :warning: Mandatory value  
 
+## data_type
+
+- The type of data avaliable under sample accession
+  - In some cases researchers are unable to upload raw data, or upload a combination of types
+  - This field indicates what type of data are avaliable by the uploaded accession
+  - Can include combinations (in comma separated list), but use single upper-level accessions where possible (e.g. ERS/SRS codes, which can be used when searching on the ENA to direct you to both raw files and genbank entries)
+  - If only lower down accession are avalible, this is acceptable (e.g. NCBI GenBank accessions for consensus)
+
+> :warning: Must follow categories specific in `assets/enums/<column>.json
+
+Definitions of possible categories are as follows:
+
+- `raw`: shotgun or whole-genome-enrichment data in FASTQ format without any type of depletion or computational manipulation of read/data composition, with exception of adapters being trimmed (as per ENA submission specifications).
+- `assembly`: anything that is derived of a de-novo assembly process, independent of the completeness.
+- `binned_mag`: a single-taxon assembly (derived from above) based on one or more binned metagenomes that meet certain quality requirements, and can be assumed to represent contigs from one bin of a metagenome.
+- `binned_cag`: reads recruited by ancient co-abundant genes.
+- `reference_aligned:` target reads derived from alignment (mapping) of metagenomic data to a reference sequence. Typically uploaded in BAM format without unmapped reads.
+- `consensus`: Any sequence derived from a consensus calling algorithm applied to `reference_aligned` data (typically a FASTA style file, as can be found on e.g. NCBI GenBank).
+
+For example, if only a consensus is avaliable from GenBank, this can be given the archive_accesion as: `MG585269.1`
+
 ## archive_accession
 
 - Of *sample*, where possible

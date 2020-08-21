@@ -39,6 +39,18 @@ release a citeable DOI. Each release will also include a changelog to record all
 additions and any corrections or modifications. Therefore researchers are free
 to use the information in their own publications, as per the CC-BY 4.0 licence.
 
+## Usage
+
+Please download the `.tsv` file stored in the metagenome type of interest.
+
+For **citations** use the Zenodo DOI listed in the badge at the top of this page. 
+To cite a specific _release_, click on the Zenodo badge and find the corresponding 
+DOI under the 'Versions' box on the righthand side of the Zenodo webpage.
+
+> The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore 
+provides no warranty or completeness or accuracy of the data. If in doubt, refer
+to the original publication of a given sample.
+
 ## Contributing
 
 If you are not familiar with Git(Hub), quick start step-by-step guides can be found in 

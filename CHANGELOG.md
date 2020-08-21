@@ -51,6 +51,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Krause-Kyora 2018 10.7554/eLife.36666
 - Giffin 2020 10.1038/s41598-020-66012-x
 - Feldman 2016 10.1093/molbev/msw170
+- Bar-Gal 2013 10.1002/hep.25852
 
 #### Ancient Metagenome: Environmental
 

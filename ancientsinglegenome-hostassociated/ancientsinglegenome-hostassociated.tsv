@@ -118,3 +118,7 @@ Keller2019	2019	10.1073/pnas.1820447116	Unterthürheim	48.599	10.706	Germany	UNT
 Keller2019	2019	10.1073/pnas.1820447116	Unterthürheim	48.599	10.706	Germany	UNT006.A	Homo sapiens	1400	10.1073/pnas.1820447116	bacteria	Yersinia pestis	tooth	NA	ENA	raw	ERS3465411
 Keller2019	2019	10.1073/pnas.1820447116	Valencia	39.476	-0.374	Spain	VAL001.B	Homo sapiens	1400	10.1073/pnas.1820447116	bacteria	Yersinia pestis	tooth	NA	ENA	raw	ERS3465403
 Keller2019	2019	10.1073/pnas.1820447116	Waging	47.934	12.733	Germany	WAG001.A	Homo sapiens	1500	10.1073/pnas.1820447116	bacteria	Yersinia pestis	tooth	NA	ENA	raw	ERS3465412
+Bos2011	2011	10.1038/nature10549	East Smithfield cementery	51.508	-0.069	United Kingdom	ES_11972	Homo sapiens	600	10.1038/nature10549	bacteria	Yersinia pestis	tooth	NA	SRA	raw	SRS259946
+Bos2011	2011	10.1038/nature10549	East Smithfield cementery	51.508	-0.069	United Kingdom	ES_6330	Homo sapiens	600	10.1038/nature10549	bacteria	Yersinia pestis	tooth	NA	SRA	raw	SRS259944
+Bos2011	2011	10.1038/nature10549	East Smithfield cementery	51.508	-0.069	United Kingdom	ES_8124	Homo sapiens	600	10.1038/nature10549	bacteria	Yersinia pestis	tooth	NA	SRA	raw	SRS259947
+Bos2011	2011	10.1038/nature10549	East Smithfield cementery	51.508	-0.069	United Kingdom	ES_8291	Homo sapiens	600	10.1038/nature10549	bacteria	Yersinia pestis	tooth	NA	SRA	raw	SRS259945

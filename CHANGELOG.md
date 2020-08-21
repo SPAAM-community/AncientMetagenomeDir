@@ -50,6 +50,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Barquera 2020 10.1016/j.cub.2020.04.002
 - Krause-Kyora 2018 10.7554/eLife.36666
 - Giffin 2020 10.1038/s41598-020-66012-x
+- Bar-Gal 2013 10.1002/hep.25852
+
 
 #### Ancient Metagenome: Environmental
 

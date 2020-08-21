@@ -34,11 +34,13 @@
             "project_name": {
                 "$id": "#/items/properties/project_name",
                 "type": "string",
-                "title": "Name of the project",
-                "description": "Format: surnameYYYY",
-                "pattern": "^[a-zA-Z]+\\d+$",
+                "title": "AncientMetagenomeDir key of the publication",
+                "description": "Format: surnameYYYY (if duplicate key but different publication, add b,c,d etc. as necessary)",
+                "pattern": "^[a-zA-Z]+\\d{4}[b-z]?$",
                 "examples": [
-                    "Warinner2014"
+                    "Warinner2014",
+                    "Muhlemann2018",
+                    "Muhlemann2018a"
                 ]
             },
             "publication_year": {
@@ -202,6 +204,18 @@
                 "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/archive.json",
                 "examples": [
                     "ENA"
+                ]
+            },
+            "data_type": {
+                "$id": "#items/properties/data_type",
+                "type": "string",
+                "title": "Avaliable data types",
+                "description": "Types of accessible data via accession",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/data_type.json",
+                "examples": [
+                    "raw",
+                    "consensus",
+                    "assembly,binned_mag"
                 ]
             },
             "archive_accession": {

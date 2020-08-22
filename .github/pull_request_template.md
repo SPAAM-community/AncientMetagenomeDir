@@ -7,10 +7,10 @@ This PR is for a
 
 For the follow list (s)
 
-- [ ] ancientmetagenome-hostassociated
-- [ ] ancientsinglegenome-hostassociated
-- [ ] ancientmetagenome-environmental
-- [ ] ancientmetagenome-anthropogenic
+- [ ] ancientmetagenome-anthropogenic ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-anthropogenic))
+- [ ] ancientmetagenome-environmental ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-environmental))
+- [ ] ancientmetagenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-hostassociated))
+- [ ] ancientsinglegenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientsinglegenome-hostassociated))
 
 ## New Publication
 

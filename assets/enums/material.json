@@ -27,6 +27,7 @@
         "skin",
         "sediment",
         "soil",
-        "liver"
+        "liver",
+        "tissue"
     ]
 }

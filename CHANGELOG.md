@@ -61,6 +61,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Patterson Ross 2018 10.1371/journal.ppat.1006750
 - Vågene 2018 10.1038/s41559-017-0446-6
 - Sabin 2020 10.1186/s13059-020-02112-1
+- Kay 2014 10.1128/mBio.01337-14
+
 
 #### Ancient Metagenome: Environmental
 

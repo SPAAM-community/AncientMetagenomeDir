@@ -184,6 +184,14 @@ Sample columns are as follows:
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
+## genome_level
+
+Specify one of two options: chromosome or organelle
+- `organelle`: if a study has only published a micorbial mitochondrial genome (e.g. for Plasmodium sp.) or a bacterial plasmid sequence
+- `chromosome`: if a study a published the complete genome (chromosome and plasmid) or just the chromosome
+
+> :warning: Mandatory value
+
 ## archive
 
 - e.g. [ENA](https://www.ebi.ac.uk/ena),

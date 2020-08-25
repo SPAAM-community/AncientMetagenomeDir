@@ -155,3 +155,11 @@ deDios2020	2020	10.1016/j.meegid.2020.104209	Musées Royaux des Beaux-Arts de Be
 Sabin2020	2020	10.1186/s13059-020-02112-1	Lund Cathedral	55.704	13.193	Sweden	Bishop Peder Winstrup	Homo sapiens	300	10.1186/s13059-020-02112-1	bacteria	Mycobacterium tuberculosis	calcified nodule	NA	SRA	raw	SRS6462469
 Kay2014	2014	10.1128/mBio.01337-14	Geridu, Sardinia	40.78	8.574	Italy	2568	Homo sapiens	600	10.1128/mBio.01337-14	bacteria	Brucella melitensis	calcified nodule	NA	ENA	raw	ERS430636
 Devault2014	2014	10.1056/NEJMoa1308663	Mütter Museum, College of Physicians of Philadelphia	39.953	-75.176	USA	3090.13	Homo sapiens	100	10.1056/NEJMoa1308663	bacteria	Vibrio cholerae	intestine	NA	SRA	raw	SRS480102
+Kay2015	2015	10.1038/ncomms7717	Dominican church of Vác	47.777	19.127	Hungary	body_121	Homo sapiens	200	10.1038/ncomms7717	bacteria	Mycobacterium tuberculosis	bone	NA	ENA	raw	ERS563413, ERS563414, ERS563415
+Kay2015	2015	10.1038/ncomms7717	Dominican church of Vác	47.777	19.127	Hungary	body_68	Homo sapiens	200	10.1038/ncomms7717	bacteria	Mycobacterium tuberculosis	lung tissue	NA	ENA	raw	ERS563404, ERS563405, ERS563406
+Kay2015	2015	10.1038/ncomms7717	Dominican church of Vác	47.777	19.127	Hungary	body_78	Homo sapiens	200	10.1038/ncomms7717	bacteria	Mycobacterium tuberculosis	bone	NA	ENA	raw	ERS563407
+Kay2015	2015	10.1038/ncomms7717	Dominican church of Vác	47.777	19.127	Hungary	body_28	Homo sapiens	200	10.1038/ncomms7717	bacteria	Mycobacterium tuberculosis	abdomen	NA	ENA	raw	ERS563385, ERS563386, ERS563387
+Kay2015	2015	10.1038/ncomms7717	Dominican church of Vác	47.777	19.127	Hungary	body_25	Homo sapiens	200	10.1038/ncomms7717	bacteria	Mycobacterium tuberculosis	abdomen	NA	ENA	raw	ERS563382, ERS563383
+Kay2015	2015	10.1038/ncomms7717	Dominican church of Vác	47.777	19.127	Hungary	body_80	Homo sapiens	100	10.1038/ncomms7717	bacteria	Mycobacterium tuberculosis	thoracic segment of trunk	NA	ENA	raw	ERS563408
+Kay2015	2015	10.1038/ncomms7717	Dominican church of Vác	47.777	19.127	Hungary	body_23	Homo sapiens	200	10.1038/ncomms7717	bacteria	Mycobacterium tuberculosis	abdomen	NA	ENA	raw	ERS563378, ERS563379
+Kay2015	2015	10.1038/ncomms7717	Dominican church of Vác	47.777	19.127	Hungary	body_92	Homo sapiens	200	10.1038/ncomms7717	bacteria	Mycobacterium tuberculosis	thoracic segment of trunk	NA	ENA	raw	ERS563409

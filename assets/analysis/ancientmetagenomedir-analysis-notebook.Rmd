@@ -1,0 +1,66 @@
+---
+title: "AncientMetagenomeDir - Analysis"
+output: html_notebook
+---
+
+# Introduction
+
+AncientMetagenomeDir is a repository listing published ancient metagenome (and 
+related) samples. It contains critical metadata for ancient metagenome studies, 
+and acts as a 'sign post' towards important data to help facilitate more robust
+and efficient comparative data.
+
+This page provides summary statistics of the current status of the directory.
+
+# Libraries and Versions
+
+```{r}
+library(tidyverse)
+sessionInfo()
+```
+
+# Preparation
+
+## Functions
+
+We will prepare some custom functions
+
+```{r}
+## Load and standardise date across tables
+load_thedir_data <- function(path, name){
+  read_tsv(path) %>%
+    mutate(List = name) %>% 
+    select(List, everything())
+}
+```
+
+
+## Data Loading
+
+We will load and analyse each list separately, as they contain slightly different
+metadata depending on context.
+
+```{r}
+
+
+
+raw_hostmetagenome <- load_thedir_data("../../ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv", "Host Associated Metagenome") 
+raw_hostsinglegenome <- load_thedir_data("../../ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv", "Host Associated Single Genome") 
+raw_environmental <- load_thedir_data("../../ancientmetagenome-environmental/ancientmetagenome-environmental.tsv", "Environmental Metagenome") 
+raw_anthropogenic <- load_thedir_data("../../ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic.tsv", "Anthropogenic Metagenome") 
+```
+
+# Host Associated Metagenome
+
+```{r}
+spanning_years <- raw_hostmetagenome %>% summarise(min = min(publication_year), max = max(publication_year))
+
+raw_hostmetagenome %>% 
+  select(publication_year, publication_doi) %>% 
+  distinct() %>%
+  arrange(publication_year) %>%
+  ggplot(aes(publication_year)) +
+  geom_histogram(bins = spanning_years$max - spanning_years$min) +
+  theme_minimal()
+```
+

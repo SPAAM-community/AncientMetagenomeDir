@@ -60,6 +60,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - de-Dios 2020 10.1016/j.meegid.2020.104209 (JSON updates only)
 - Patterson Ross 2018 10.1371/journal.ppat.1006750
 - Vågene 2018 10.1038/s41559-017-0446-6
+- Zhou 2018 10.1016/j.cub.2018.05.058
 - Sabin 2020 10.1186/s13059-020-02112-1
 - Kay 2014 10.1128/mBio.01337-14
 - Devault 2014 10.1056/NEJMoa1308663
@@ -72,6 +73,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Gaffney 2020 10.3390/geosciences10070270
 - Slon 2017 10.1126/science.aam9695
 - Smith 2015 10.1126/science.1261278
+- Ardelean 2020 10.1038/s41586-020-2509-0
 
 #### Ancient Metagenome: Anthropogenic
 

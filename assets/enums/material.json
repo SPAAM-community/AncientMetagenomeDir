@@ -29,6 +29,8 @@
         "soil",
         "liver",
         "tissue",
-        "blood"
+        "blood",
+        "thoracic segment of trunk",
+        "abdomen"
     ]
 }

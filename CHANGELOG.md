@@ -52,11 +52,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Giffin 2020 10.1038/s41598-020-66012-x
 - Feldman 2016 10.1093/molbev/msw170
 - Bar-Gal 2013 10.1002/hep.25852
+- Keller 2019 10.1073/pnas.1820447116
+- Mühlemann 2018b 10.1073/pnas.1804921115
+- Wagner 2014 10.1016/S1473-3099(13)70323-2
+- Bos 2011 10.1038/nature10549
+- Bos 2016 10.7554/eLife.12994.001
+- de-Dios 2020 10.1016/j.meegid.2020.104209 (JSON updates only)
+- Patterson Ross 2018 10.1371/journal.ppat.1006750
+- Vågene 2018 10.1038/s41559-017-0446-6
 
 #### Ancient Metagenome: Environmental
 
 - Ahmed 2018 10.1016/j.quascirev.2017.11.037
 - Gaffney 2020 10.3390/geosciences10070270
+- Slon 2017 10.1126/science.aam9695
+- Smith 2015 10.1126/science.1261278
 
 #### Ancient Metagenome: Anthropogenic
 

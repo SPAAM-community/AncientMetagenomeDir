@@ -182,6 +182,17 @@
                     "dental calculus"
                 ]
             },
+            "genome_type": {
+                "$id": "#items/properties/genome_type",
+                "type": "string",
+                "title": "Genome Type Reconstructed",
+                "description": "Type of genome reconstructed from data including other genome components",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/genome_type.json",
+                "examples": [
+                    "chromosome",
+                    "organelle"
+                ]
+            },
             "collection_date": {
                 "$id": "#/items/properties/collection_date",
                 "type": [

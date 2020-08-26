@@ -181,7 +181,7 @@ Sample columns are as follows:
 
 ## genome_type
 
-- We primarily are interested in listing reconstructed whole genomes of
+- We are primarily interested in listing reconstructed whole genomes of
   microbes, however in some cases researchers may only be able to analyse
   smaller cell components.
 - Specify one of two levels of genome reconstruction
@@ -189,8 +189,8 @@ Sample columns are as follows:
     genome (e.g. for _Plasmodium_ sp.) or a bacterial plasmid sequence
   - `chromosome`: if the study a published the complete genome (chromosome and
     plasmid) or just the chromosome
-- In both cases the study must have attempted reconstrution of the _complete_
-  sequence, not gene or amplicon sequences.
+- In both cases the study must have attempted reconstruction of the _complete_
+  sequence, not gene or single amplicon sequences.
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`  
 

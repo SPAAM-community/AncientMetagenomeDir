@@ -134,7 +134,10 @@ Sample columns are as follows:
 ## sample_age_doi
 
 - DOI of publication with date derived from
-- Can be duplicate of Publication DOI
+- In most cases, please duplicate the DOI of the publication under submission,
+  even if the date is from an older publication (we assume the original citation
+  can be found by looking at submitted article). _However_:
+  - If a more recent and accurate date has been published this can be used!
 - Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.

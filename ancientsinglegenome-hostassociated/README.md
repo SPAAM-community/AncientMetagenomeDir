@@ -142,7 +142,10 @@ Sample columns are as follows:
 ## sample_age_doi
 
 - DOI of publication with date derived from
-- Can be duplicate of Publication DOI
+- In most cases, please duplicate the DOI of the publication under submission,
+  even if the date is from an older publication (we assume the original citation
+  can be found by looking at submitted article). _However_:
+  - If a more recent and accurate date has been published this can be used!
 - Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
@@ -170,10 +173,12 @@ Sample columns are as follows:
 - Sample type DNA was extracted from
   - e.g. tooth, bone, dental calculus
 
-> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, ideally
-> an [ontology term](https://www.ebi.ac.uk/ols/index), but not currently
-> mandatory  
-> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
+> :warning: Partly [MIxS v5](https://gensc.org/mixs/) compliant field, i.e. term
+> from an [ontology](https://www.ebi.ac.uk/ols/index), and ideally either
+> [UBERON](https://www.ebi.ac.uk/ols/ontologies/uberon) (anatomy) or
+> [ENVO](https://www.ebi.ac.uk/ols/ontologies/envo) (everything else). If you
+> can't find something close enough, please ping
+> @spaam-workshop/ancientmetagenomedir-coreteam
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`  
 
@@ -189,8 +194,8 @@ Sample columns are as follows:
     genome (e.g. for _Plasmodium_ sp.) or a bacterial plasmid sequence
   - `chromosome`: if the study a published the complete genome (chromosome and
     plasmid) or just the chromosome
-- In both cases the aim of the study must have been to attempt to reconstruct the 
-  _complete_ genome sequence, not gene or single amplicon sequences.
+- In both cases the aim of the study must have been to attempt to reconstruct
+  the _complete_ genome sequence, not gene or single amplicon sequences.
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`  
 

@@ -27,6 +27,14 @@
         "skin",
         "sediment",
         "soil",
-        "liver"
+        "liver",
+        "tissue",
+        "blood",
+        "thoracic segment of trunk",
+        "abdomen",
+        "leaf",
+        "bodily fluid material",
+        "medical instrument",
+        "keratinous claw"
     ]
 }

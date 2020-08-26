@@ -122,12 +122,18 @@ Sample columns are as follows:
 
 ## sample_age
 
-- Single date rounded to nearest century (i.e. end in '00')
-  - e.g. something only 50 years old would be assigned as 100
 - In Before Present (BP) format i.e. since 1950 AD
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
+    
+- Radiocarbon dates
+  - Uncalibrated dates are preferred, but if only calibrated reported can be
+    used
 
+- Single date rounded to nearest century (i.e. end in '00')
+  - For samples more recent than 1850, the age should be assigned as 100
+  - e.g. something only 50 years old would be assigned as 100
+  
 - In most cases, report the date in the publication of the given sample, even if the date is from an older publication (we assume the original citation can be found by looking at submitted article). _However_:
   - If a more recent and accurate date has been published this can be used!
   - Ensure to also update `sample_age_doi`
@@ -138,9 +144,7 @@ Sample columns are as follows:
   - from other individuals in stratum/burial
   - period of occupation of site
   - via coin or historical records
-- Radiocarbon dates
-  - Uncalibrated dates are preferred, but if only calibrated reported can be
-    used
+
 
 > :warning: Mandatory value  
 

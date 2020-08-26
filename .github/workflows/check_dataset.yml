@@ -15,8 +15,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install git+https://github.com/SPAAM-workshop/AncientMetagenomeDirCheck.git
-      - name: Make validation results directory
-        run: mkdir validation/
+      - name: Make validation results directory and prepare pipefail
+        run: |
+          mkdir validation/
+          set +o pipefail
       - name: test ancient host-associated metagenome (e.g. microbiomes)
         run: |
           echo -e "# Ancient Metagenome Host Associated\n\`\`\`" >> validation/validation_results.txt 

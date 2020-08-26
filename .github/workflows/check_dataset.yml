@@ -18,9 +18,10 @@ jobs:
       - name: Make validation results directory and prepare pipefail
         run: |
           mkdir validation/
-          set +o pipefail
+          set -o pipefail
       - name: test ancient host-associated metagenome (e.g. microbiomes)
         run: |
+
           echo -e "# Ancient Metagenome Host Associated\n\`\`\`" >> validation/validation_results.txt 
           ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json | tee -a validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt

@@ -20,26 +20,29 @@ jobs:
       - name: test ancient host-associated metagenome (e.g. microbiomes)
         run: |
           echo -e "# Ancient Metagenome Host Associated\n\`\`\`" >> validation/validation_results.txt 
-          ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json | tee -a validation/validation_results.txt
+          ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
       - name: test ancient single microbial genomes (e.g. pathogens)
         run: |
           echo -e "# Ancient Single Genome Host Associated\n\`\`\`" >> validation/validation_results.txt 
-          ancientMetagenomeDirCheck ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json | tee -a validation/validation_results.txt
+          ancientMetagenomeDirCheck ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
       - name: test ancient environmental (e.g. sediment)
         run: |
           echo -e "# Ancient Metagenome Environmental\n\`\`\`" >> validation/validation_results.txt 
-          ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json | tee -a validation/validation_results.txt
+          ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
       - uses: actions/upload-artifact@v1
+        if: always()
         with:
           name: results
           path: validation/validation_results.txt
       - uses: actions/download-artifact@v1
+        if: always()
         with:
           name: results
       - name: comment PR
+        if: always()
         uses: machine-learning-apps/pr-comment@1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,6 +1,6 @@
 name: check_dataset
 # This workflow is triggered on pushes and PRs to the repository.
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   ancientMetagenomeDirCheck:
@@ -15,10 +15,32 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install git+https://github.com/SPAAM-workshop/AncientMetagenomeDirCheck.git
-      - name: test ancient host-associatd metagenome (e.g. microbiomes)
-        run: ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json
+      - name: test ancient host-associated metagenome (e.g. microbiomes)
+        run: |
+          echo -e "# Ancient Metagenome Host Associated\n\`\`\`" >> validation_results.txt 
+          ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json >> validation_results.txt
+          echo -e "\`\`\`" >> validation_results.txt
       - name: test ancient single microbial genomes (e.g. pathogens)
-        run: ancientMetagenomeDirCheck ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json
+        run: |
+          echo -e "# Ancient Single Genome Host Associated\n\`\`\`" >> validation_results.txt 
+          ancientMetagenomeDirCheck ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json >> validation_results.txt
+          echo -e "\`\`\`" >> validation_results.txt
       - name: test ancient environmental (e.g. sediment)
-        run: ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json
-              
+        run: |
+          echo -e "# Ancient Metagenome Environmental\n\`\`\`" >> validation_results.txt 
+          ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json >> validation_results.txt
+          echo -e "\`\`\`" >> validation_results.txt
+      - uses: actions/upload-artifact@v1
+        with:
+          name: results
+          path: validation_results.txt
+      - uses: actions/download-artifact@v1
+        with:
+          name: results
+      - name: comment PR
+        if: failure()
+        uses: machine-learning-apps/pr-comment@1.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          path: validation_results.txt

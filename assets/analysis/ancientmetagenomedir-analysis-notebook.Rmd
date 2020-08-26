@@ -56,16 +56,25 @@ plot_pub_timeline <- function(x) {
 plot_cumulative_timeline <- function(x, grouping){
   timeline <- x %>% 
     select(sample_name, publication_year, {{grouping}}) %>% 
-    group_by(publication_year, {{grouping}}) %>% 
+    rename(group = {{grouping}}) %>%
+    group_by(publication_year, group) %>% 
     summarise(count = n()) %>%
-    group_by({{grouping}}) %>%
+    group_by(group) %>%
     mutate(cumulative_sum = cumsum(count))
-
-  ggplot(timeline, aes(publication_year, cumulative_sum, fill = {{grouping}})) +
+  
+  grouping_order <- timeline %>% 
+    filter(publication_year == max(publication_year)) %>% 
+    arrange(cumulative_sum) %>% 
+    pull(group)
+  
+  ggplot(timeline %>% mutate(group = factor(group, levels = grouping_order)), aes(publication_year, cumulative_sum, fill = group)) +
     geom_bar(stat = "identity") +
     scale_fill_brewer(palette ="Set1") +
+    labs(fill = deparse(substitute(grouping))) +
     theme_minimal()
 }
+
+
 ```
 
 

@@ -1,6 +1,6 @@
 name: check_dataset
 # This workflow is triggered on pushes and PRs to the repository.
-on: [push, pull_request]
+on: [pull_request, push]
 
 jobs:
   ancientMetagenomeDirCheck:
@@ -16,11 +16,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install git+https://github.com/SPAAM-workshop/AncientMetagenomeDirCheck.git
       - name: test ancient host-associatd metagenome (e.g. microbiomes)
-        run: echo "# Ancient Metagenome Host Associated" >> validation_results.txt && ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json >> validation_results.txt
+        run: |
+          printf "# Ancient Metagenome Host Associated\n```" >> validation_results.txt 
+          ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json >> validation_results.txt
+          printf "```" >> validation_results.txt
       - name: test ancient single microbial genomes (e.g. pathogens)
-        run: echo "# Ancient Single Genome Host Associated" >> validation_results.txt && ancientMetagenomeDirCheck ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json >> validation_results.txt
+        run: |
+          printf "# Ancient Metagenome Host Associated\n```" >> validation_results.txt 
+          ancientMetagenomeDirCheck ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json >> validation_results.txt
+          printf "```" >> validation_results.txt
       - name: test ancient environmental (e.g. sediment)
-        run: echo "# Ancient Metagenome Environmental" >> validation_results.txt && ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json >> validation_results.txt
+        run: |
+          printf "# Ancient Metagenome Host Associated\n```" >> validation_results.txt 
+          ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json >> validation_results.txt
+          printf "```" >> validation_results.txt
       - uses: actions/upload-artifact@v1
         with:
           name: results

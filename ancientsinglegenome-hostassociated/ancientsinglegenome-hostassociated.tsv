@@ -168,3 +168,28 @@ vanDorp2020	2020	10.1093/molbev/msz264	Sant Jaume d’Enveja	40.705	0.727	Spain	
 Kerudin2019	2019	10.1016/j.jas.2019.105035	Hospital of  St  James and  St  Mary Magdalene	50.842	-0.759	United Kingdom	C21	Homo sapiens	400	10.1016/j.jas.2019.105035	bacteria	Mycobacterium leprae	bone	chromosome	NA	ENA	raw	ERS3908875
 Kerudin2019	2019	10.1016/j.jas.2019.105035	Hospital of  St  James and  St  Mary Magdalene	50.842	-0.759	United Kingdom	C48	Homo sapiens	400	10.1016/j.jas.2019.105035	bacteria	Mycobacterium leprae	bone	chromosome	NA	ENA	raw	ERS3908876
 Kerudin2019	2019	10.1016/j.jas.2019.105035	Raunds Furnells cemetary	52.349	-0.534	United Kingdom	R5046	Homo sapiens	800	10.1016/j.jas.2019.105035	bacteria	Mycobacterium leprae	bone	chromosome	NA	ENA	raw	ERS3908877
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Bulanovo	52.453	55.16	Russia	RISE387	Homo sapiens	4200	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	ERS2295393
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Sandorfalva-Eperjes	46.344	20.162	Hungary	DA195	Homo sapiens	2500	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	ERS2295388
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Osterhofen-Altenmarkt	48.691	13.061	Germany	RISE563	Homo sapiens	4400	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	ERS2295394
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Szàzhalombatta-Földvàr	47.372	18.962	Hungary	RISE254	Homo sapiens	3900	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	bone	chromosome	NA	ENA	ERS2295391
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Karasyur	46.997	66.285	Kazakhstan	DA29	Homo sapiens	800	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	ERS2295384
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Halvay 3	52.836	62.893	Kazakhstan	DA27	Homo sapiens	1600	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	ERS2295383
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Poprad	49.077	20.317	Slovakia	DA119	Homo sapiens	1500	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	ERS2295387
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Omnogobi	42.525	105.18	Mongolia	DA45	Homo sapiens	2100	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	bone	chromosome	NA	ENA	ERS2295385
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Szczepankowice	50.948	16.943	Poland	RISE154	Homo sapiens	3800	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	ERS2295390
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Keden	41.428	75.329	Kyrgyzstan	DA51	Homo sapiens	2200	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	ERS2295386
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Bulanovo	52.453	55.16	Russia	RISE386	Homo sapiens	4100	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	ERS2295392
+Muhlemann2018	2018	10.1038/s41586-018-0097-z	Butakty	43.202	76.981	Kazakhstan	DA222	Homo sapiens	1100	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	ERS2295389
+Muhlemann2020	2020	10.1126/science.aaw8977		56.663796	16.639378	Öland, SWE	VK382	Homo sapiens	1300	10.1126/science.aaw8978	virus	smallpox	tooth	chromosome	NA	SRA	SAMEA6812788
+Muhlemann2020	2020	10.1126/science.aaw8978		67.096196	14.573296	Nordland, NOR	VK388	Homo sapiens	1400	10.1126/science.aaw8979	virus	smallpox	tooth	chromosome	NA	SRA	SAMEA6812789
+Muhlemann2020	2020	10.1126/science.aaw8979		54.784744	31.865913	Gnezdovo, RUS	VK470	Homo sapiens	1000	10.1126/science.aaw8980	virus	smallpox	tooth	chromosome	NA	SRA	SAMEA6812791
+Muhlemann2020	2020	10.1126/science.aaw8980		55.463155	11.725037	Zealand, DEN	VK281	Homo sapiens	1100	10.1126/science.aaw8981	virus	smallpox	tooth	chromosome	NA	SRA	SAMEA6812787
+Muhlemann2020	2020	10.1126/science.aaw8981		51.751991	-1.257783	Oxford, UK	VK168	Homo sapiens	1100	10.1126/science.aaw8982	virus	smallpox	petrous	chromosome	NA	SRA	SAMEA6812785
+Muhlemann2020	2020	10.1126/science.aaw8982		56.663796	16.639378	Öland, SWE	VK533	Homo sapiens	1100	10.1126/science.aaw8983	virus	smallpox	tooth	chromosome	NA	SRA	SAMEA6812793
+Muhlemann2020	2020	10.1126/science.aaw8983		67.096196	14.573296	Nordland, NOR	VK515	Homo sapiens	1300	10.1126/science.aaw8984	virus	smallpox	tooth	chromosome	NA	SRA	SAMEA6812792
+Muhlemann2020	2020	10.1126/science.aaw8984		54.784744	31.865913	Gnezdovo, RUS	VK255	Homo sapiens	1000	10.1126/science.aaw8985	virus	smallpox	tooth	chromosome	NA	SRA	SAMEA6812786
+Muhlemann2020	2020	10.1126/science.aaw8985		68.224628	38.043507	Varzino, RUS	FIN1	Homo sapiens	200	10.1126/science.aaw8986	virus	smallpox	tooth	chromosome	NA	SRA	SAMEA6812782
+Muhlemann2020	2020	10.1126/science.aaw8986		67.623643	75.069022	Yamalo-Nenetskiy, RUS	KHA1	Homo sapiens	200	10.1126/science.aaw8987	virus	smallpox	petrous	chromosome	NA	SRA	SAMEA6812781
+Muhlemann2030	2020	10.1126/science.aaw8987		56.663796	16.639378	Öland, SWE	VK443	Homo sapiens	1100	10.1126/science.aaw8988	virus	smallpox	tooth	chromosome	NA	SRA	SAMEA6812790
+Muhlemann2020	2020	10.1126/science.aaw8988		55.604968	13.003982	Malmö, SWE	VK108	Homo sapiens	1100	10.1126/science.aaw8989	virus	smallpox	tooth	chromosome	NA	SRA	SAMEA6812783
+Muhlemann2020	2020	10.1126/science.aaw8989		55.32821	10.235716	Fyn, DEN	VK138	Homo sapiens	1000	10.1126/science.aaw8990	virus	smallpox	tooth	chromosome	NA	SRA	 SAMEA6812784

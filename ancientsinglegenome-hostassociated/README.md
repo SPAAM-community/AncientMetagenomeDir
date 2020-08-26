@@ -189,8 +189,8 @@ Sample columns are as follows:
     genome (e.g. for _Plasmodium_ sp.) or a bacterial plasmid sequence
   - `chromosome`: if the study a published the complete genome (chromosome and
     plasmid) or just the chromosome
-- In both cases the study must have attempted reconstruction of the _complete_
-  sequence, not gene or single amplicon sequences.
+- In both cases the aim of the study must have been to attempt to reconstruct the 
+  _complete_ genome sequence, not gene or single amplicon sequences.
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`  
 

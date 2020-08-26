@@ -33,14 +33,16 @@ jobs:
           ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
       - uses: actions/upload-artifact@v1
+        if: always()
         with:
           name: results
           path: validation/validation_results.txt
       - uses: actions/download-artifact@v1
+        if: always()
         with:
           name: results
       - name: comment PR
-        if: failure()
+        if: always()
         uses: machine-learning-apps/pr-comment@1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

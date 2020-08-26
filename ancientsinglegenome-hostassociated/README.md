@@ -114,7 +114,7 @@ Sample columns are as follows:
 - In Before Present (BP) format i.e. since 1950 AD
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
-    
+
 - Radiocarbon dates
   - Uncalibrated dates are preferred, but if only calibrated reported can be
     used
@@ -122,8 +122,10 @@ Sample columns are as follows:
 - Single date rounded to nearest century (i.e. end in '00')
   - For samples more recent than 1850, the age should be assigned as 100
   - e.g. something only 50 years old would be assigned as 100
-  
-- In most cases, report the date in the publication of the given sample, even if the date is from an older publication (we assume the original citation can be found by looking at submitted article). _However_:
+
+- In most cases, report the date in the publication of the given sample, even if
+  the date is from an older publication (we assume the original citation can be
+  found by looking at submitted article). _However_:
   - If a more recent and accurate date has been published this can be used!
   - Ensure to also update `sample_age_doi`
 
@@ -177,20 +179,29 @@ Sample columns are as follows:
 
 > :warning: Mandatory value  
 
+## genome_type
+
+- We primarily are interested in listing reconstructed whole genomes of
+  microbes, however in some cases researchers may only be able to analyse
+  smaller cell components.
+- Specify one of two levels of genome reconstruction
+  - `organelle`: if the study has only published a microbial mitochondrial
+    genome (e.g. for _Plasmodium_ sp.) or a bacterial plasmid sequence
+  - `chromosome`: if the study a published the complete genome (chromosome and
+    plasmid) or just the chromosome
+- In both cases the study must have attempted reconstrution of the _complete_
+  sequence, not gene or amplicon sequences.
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
+> :warning: Mandatory value
+
 ## collection_date
 
 - Year of sample collection in YYYY format
 - Missing value: `NA`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
-
-## genome_level
-
-Specify one of two options: chromosome or organelle
-- `organelle`: if a study has only published a micorbial mitochondrial genome (e.g. for Plasmodium sp.) or a bacterial plasmid sequence
-- `chromosome`: if a study a published the complete genome (chromosome and plasmid) or just the chromosome
-
-> :warning: Mandatory value
 
 ## archive
 

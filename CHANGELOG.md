@@ -70,6 +70,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Worobey 2016 10.1038/nature19827
 - Kerudin 2019 10.1016/j.jas.2019.105035
 - deDios 2019 10.1099/mgen.0.000289
+- Martin 2013 10.1038/ncomms3172
 
 #### Ancient Metagenome: Environmental
 

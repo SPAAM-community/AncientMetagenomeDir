@@ -16,6 +16,9 @@ This page provides summary statistics of the current status of the directory.
 
 ```{r}
 library(tidyverse)
+library(scales)
+library(lubridate)
+library(maps)
 sessionInfo()
 ```
 
@@ -28,9 +31,40 @@ We will prepare some custom functions
 ```{r}
 ## Load and standardise date across tables
 load_thedir_data <- function(path, name){
-  read_tsv(path) %>%
+  read_tsv(path, col_types = cols()) %>%
     mutate(List = name) %>% 
     select(List, everything())
+}
+
+plot_pub_timeline <- function(x) {
+  spanning_years <- x %>% summarise(min = min(publication_year), max = max(publication_year))
+
+  x %>%
+    select(publication_year, publication_doi, List) %>%
+    distinct() %>%
+    arrange(publication_year) %>%
+    ggplot(aes(publication_year, fill = List)) +
+    scale_fill_manual(values = colours) +
+    scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
+    ylab("Number of Publications") +
+    xlab("Publication Year") +
+    geom_histogram(bins = spanning_years$max - spanning_years$min, breaks = seq(spanning_years$min, spanning_years$max, 1)) +
+    theme_minimal() +
+    theme(legend.position = "bottom")
+}
+
+plot_cumulative_timeline <- function(x, grouping){
+  timeline <- x %>% 
+    select(sample_name, publication_year, {{grouping}}) %>% 
+    group_by(publication_year, {{grouping}}) %>% 
+    summarise(count = n()) %>%
+    group_by({{grouping}}) %>%
+    mutate(cumulative_sum = cumsum(count))
+
+  ggplot(timeline, aes(publication_year, cumulative_sum, fill = {{grouping}})) +
+    geom_bar(stat = "identity") +
+    scale_fill_brewer(palette ="Set1") +
+    theme_minimal()
 }
 ```
 
@@ -41,26 +75,70 @@ We will load and analyse each list separately, as they contain slightly differen
 metadata depending on context.
 
 ```{r}
-
-
-
 raw_hostmetagenome <- load_thedir_data("../../ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv", "Host Associated Metagenome") 
 raw_hostsinglegenome <- load_thedir_data("../../ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv", "Host Associated Single Genome") 
 raw_environmental <- load_thedir_data("../../ancientmetagenome-environmental/ancientmetagenome-environmental.tsv", "Environmental Metagenome") 
 raw_anthropogenic <- load_thedir_data("../../ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic.tsv", "Anthropogenic Metagenome") 
 ```
 
-# Host Associated Metagenome
+## Design Assets
 
 ```{r}
-spanning_years <- raw_hostmetagenome %>% summarise(min = min(publication_year), max = max(publication_year))
+colours <-c(`Environmental Metagenome` = "#2da46a", `Host Associated Metagenome` = "#73cff3",
+            `Host Associated Single Genome` = "#d74182", `Anthropogenic Metagenome` = "#d74182")
+```
 
-raw_hostmetagenome %>% 
-  select(publication_year, publication_doi) %>% 
-  distinct() %>%
-  arrange(publication_year) %>%
-  ggplot(aes(publication_year)) +
-  geom_histogram(bins = spanning_years$max - spanning_years$min) +
+
+# Publication Timelines
+
+```{r}
+plot_pub_timeline(raw_hostmetagenome)
+plot_pub_timeline(raw_hostsinglegenome)
+plot_pub_timeline(raw_environmental)
+#plot_pub_timeline(raw_anthropogenic)
+
+```
+
+# Cumulative Samples
+
+```{r}
+plot_cumulative_timeline(raw_hostmetagenome, community_type)
+plot_cumulative_timeline(raw_hostsinglegenome, singlegenome_domain)
+```
+
+# Geographic Spread
+
+With known coordinates!
+
+```{r}
+world_map <- map_data("world")
+
+map_hostmetagenome <- raw_hostmetagenome %>% 
+  filter(!is.na(longitude)) %>% 
+  group_by(latitude, longitude, community_type) %>% 
+  summarise(Count = n()) %>%
+  mutate(group = maps::map.where(database = "world", longitude, latitude))
+
+## Find country name in maps::world a site is in based on long/lat
+
+## Per Lat/Lon
+ggplot() +
+  geom_polygon(data = world_map, aes(x = long, y = lat, group = group), fill = "white", colour = "grey") +
+  geom_point(data = map_hostmetagenome, aes(x = longitude, y = latitude, fill = community_type, size = Count), shape = 21, alpha = 0.5) +
+  scale_fill_brewer(palette ="Set1") +
   theme_minimal()
+
+## Country Heatmap
+map_heatmapdata <- map_hostmetagenome %>% 
+  group_by(community_type, group) %>% 
+  summarise(Total = sum(Count))
+
+
+ggplot() +
+  geom_polygon(data = world_map, aes(x = long, y = lat, group = group), fill = "white", colour = "grey") +
+  geom_polygon(data = map_heatmapdata, aes(fill = Total)) +
+  scale_fill_brewer(palette ="Set1") +
+  theme_minimal()
+
 ```
 

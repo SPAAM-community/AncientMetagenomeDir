@@ -264,3 +264,16 @@ Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba p
 Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba intestinal tissue 1	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	intestine	NA	SRA	SRS2390532
 Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba intestinal tissue 2	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	intestine	NA	SRA	SRS2390531
 Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba caecum	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	caecum	NA	SRA	SRS2390534
+McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga, USNM 194319 Bone	Conepatus chinga	100	10.1093/jmammal/gyy080	skeletal tissue	bone	NA	GenBank	SRS3118688
+McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga, USNM 194319 Claw	Conepatus chinga	100	10.1093/jmammal/gyy080	soft tissue	claw	NA	GenBank	SRS3118688
+McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga, USNM 194319 Osteocrust	Conepatus chinga	100	10.1093/jmammal/gyy080	skeletal tissue	osteocrust	NA	GenBank	SRS3118688
+McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga, USNM 194319 Skin	Conepatus chinga	100	10.1093/jmammal/gyy080	soft tissue	skin	NA	GenBank	SRS3118688
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Bone	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	skeletal tissue	bone	NA	GenBank	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Claw	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	claw	NA	GenBank	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Osteocrust	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	skeletal tissue	osteocrust	NA	GenBank	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Skin	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	skin	NA	GenBank	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis, USNM 219469 Bone	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	skeletal tissue	bone	NA	GenBank	SRS3118689
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis, USNM 219469 Claw	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	claw	NA	GenBank	SRS3118689
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis, USNM 219469 Osteocrust	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	skeletal tissue	osteocrust	NA	GenBank	SRS3118689
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis, USNM 219469 Skin	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	skin	NA	GenBank	SRS3118689
+

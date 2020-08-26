@@ -109,15 +109,23 @@ Sample columns are as follows:
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
-# sample_age
+## sample_age
 
-- Single date rounded to nearest century (i.e. end in '00')
-  - e.g. something only 50 years old would be assigned as 100
 - In Before Present (BP) format i.e. since 1950 AD
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
 
-- In most cases, report the date in the publication of the given sample, even if the date is from an older publication (we assume the original citation can be found by looking at submitted article). _However_:
+- Radiocarbon dates
+  - Uncalibrated dates are preferred, but if only calibrated reported can be
+    used
+
+- Single date rounded to nearest century (i.e. end in '00')
+  - For samples more recent than 1850, the age should be assigned as 100
+  - e.g. something only 50 years old would be assigned as 100
+
+- In most cases, report the date in the publication of the given sample, even if
+  the date is from an older publication (we assume the original citation can be
+  found by looking at submitted article). _However_:
   - If a more recent and accurate date has been published this can be used!
   - Ensure to also update `sample_age_doi`
 
@@ -127,9 +135,7 @@ Sample columns are as follows:
   - from other individuals in stratum/burial
   - period of occupation of site
   - via coin or historical records
-- Radiocarbon dates
-  - Uncalibrated dates are preferred, but if only calibrated reported can be
-    used
+
 
 > :warning: Mandatory value  
 
@@ -172,6 +178,23 @@ Sample columns are as follows:
 > :warning: Must follow categories specified in `assets/enums/<column>.json`  
 
 > :warning: Mandatory value  
+
+## genome_type
+
+- We are primarily interested in listing reconstructed whole genomes of
+  microbes, however in some cases researchers may only be able to analyse
+  smaller cell components.
+- Specify one of two levels of genome reconstruction
+  - `organelle`: if the study has only published a microbial mitochondrial
+    genome (e.g. for _Plasmodium_ sp.) or a bacterial plasmid sequence
+  - `chromosome`: if the study a published the complete genome (chromosome and
+    plasmid) or just the chromosome
+- In both cases the aim of the study must have been to attempt to reconstruct the 
+  _complete_ genome sequence, not gene or single amplicon sequences.
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
+> :warning: Mandatory value
 
 ## collection_date
 

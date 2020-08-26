@@ -16,9 +16,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install git+https://github.com/SPAAM-workshop/AncientMetagenomeDirCheck.git
       - name: test ancient host-associatd metagenome (e.g. microbiomes)
-        run: ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json
+        run: echo "# Ancient Metagenome Host Associated" >> validation_results.txt && ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json >> validation_results.txt
       - name: test ancient single microbial genomes (e.g. pathogens)
-        run: ancientMetagenomeDirCheck ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json
+        run: echo "# Ancient Single Genome Host Associated" >> validation_results.txt && ancientMetagenomeDirCheck ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json >> validation_results.txt
       - name: test ancient environmental (e.g. sediment)
-        run: ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json
-              
+        run: echo "# Ancient Metagenome Environmental" >> validation_results.txt && ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json >> validation_results.txt
+      - uses: actions/upload-artifact@v1
+        with:
+          name: results
+          path: .
+      - uses: actions/download-artifact@v1
+        with:
+          name: results
+      - name: comment PR
+        uses: machine-learning-apps/pr-comment@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          path: results/results.txt

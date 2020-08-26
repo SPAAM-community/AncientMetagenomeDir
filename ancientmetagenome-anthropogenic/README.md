@@ -138,7 +138,10 @@ Sample columns are as follows:
 ## sample_age_doi
 
 - DOI of publication the sample_age date is derived from
-- Can be duplicate of Publication DOI
+- In most cases, please duplicate the DOI of the publication under submission,
+  even if the date is from an older publication (we assume the original citation
+  can be found by looking at submitted article). _However_:
+  - If a more recent and accurate date has been published this can be used!
 - Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
@@ -150,9 +153,12 @@ Sample columns are as follows:
 - Description of sediment.
   - e.g. pot crust, parchment, herbarium sample
 
-> :warning: Ideally an entry present in an
-> [ontology](https://www.ebi.ac.uk/ols/index), but not currently required for
-> this list.  
+> :warning: Partly [MIxS v5](https://gensc.org/mixs/) compliant field, i.e. term
+> from an [ontology](https://www.ebi.ac.uk/ols/index), and ideally either
+> [UBERON](https://www.ebi.ac.uk/ols/ontologies/uberon) (anatomy) or
+> [ENVO](https://www.ebi.ac.uk/ols/ontologies/envo) (everything else). If you
+> can't find something close enough, please ping
+> @spaam-workshop/ancientmetagenomedir-coreteam
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 

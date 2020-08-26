@@ -7,10 +7,10 @@ This PR is for a
 
 For the follow list (s)
 
-- [ ] ancientmetagenome-hostassociated
-- [ ] ancientsinglegenome-hostassociated
-- [ ] ancientmetagenome-environmental
-- [ ] ancientmetagenome-anthropogenic
+- [ ] ancientmetagenome-anthropogenic ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-anthropogenic))
+- [ ] ancientmetagenome-environmental ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-environmental))
+- [ ] ancientmetagenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-hostassociated))
+- [ ] ancientsinglegenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientsinglegenome-hostassociated))
 
 ## New Publication
 
@@ -30,7 +30,7 @@ This pull request is to add samples from the following publication(s):
 - [ ] Publication is published (preprints currently not accepted)?
 - [ ] Checked the publication is not already in the database?
 - [ ] Checked samples in this publication are not previously published _data_ (newly re-sequenced metagenomes are OK!)?
-- [ ] Samples are shotgun metagenomes?
+- [ ] Samples are shotgun metagenomes (hostassociated-singlegenome may also contain whole-genome enriched data)?
 - [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)?
 - [ ] (If applicable) Updated the JSON files under `/assets/enums` with new categories (e.g. material or archive)?
 - [ ] Does your PR pass validation checks?

@@ -142,6 +142,7 @@ map_heatmapdata <- map_hostmetagenome %>%
   group_by(community_type, group) %>% 
   summarise(Total = sum(Count))
 
+world2 <-left_join(world, map_heatmapdata, by = c("name" = "group"))
 
 ggplot() +
   geom_polygon(data = world_map, aes(x = long, y = lat, group = group), fill = "white", colour = "grey") +

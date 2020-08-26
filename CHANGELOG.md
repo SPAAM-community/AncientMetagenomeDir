@@ -78,6 +78,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Slon 2017 10.1126/science.aam9695
 - Smith 2015 10.1126/science.1261278
 - Ardelean 2020 10.1038/s41586-020-2509-0
+- Pedersen 2016 10.1038/nature19085
 
 #### Ancient Metagenome: Anthropogenic
 

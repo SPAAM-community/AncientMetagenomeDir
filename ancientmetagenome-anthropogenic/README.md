@@ -110,7 +110,7 @@ Sample columns are as follows:
 - In Before Present (BP) format i.e. since 1950 AD
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
-    
+
 - Radiocarbon dates
   - Uncalibrated dates are preferred, but if only calibrated reported can be
     used
@@ -118,8 +118,10 @@ Sample columns are as follows:
 - Single date rounded to nearest century (i.e. end in '00')
   - For samples more recent than 1850, the age should be assigned as 100
   - e.g. something only 50 years old would be assigned as 100
-  
-- In most cases, report the date in the publication of the given sample, even if the date is from an older publication (we assume the original citation can be found by looking at submitted article). _However_:
+
+- In most cases, report the date in the publication of the given sample, even if
+  the date is from an older publication (we assume the original citation can be
+  found by looking at submitted article). _However_:
   - If a more recent and accurate date has been published this can be used!
   - Ensure to also update `sample_age_doi`
 
@@ -158,8 +160,10 @@ Sample columns are as follows:
 
 ## collection_date
 
-- Year of sample collection in YYYY format
-- If sample is from a sediment core, may be later than year of core collection
+- Year of collection of (sub-)sample for DNA analysis in YYYY format
+  - e.g. not the year blood was drawn from a patient, but rather the year the
+    aliquot was taken for DNA extraction from the sample in the museum
+    collection, for the current study.
 - Missing value: `NA`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field

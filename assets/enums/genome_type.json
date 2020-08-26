@@ -1,6 +1,6 @@
 {
-  "enum": [
-    "chromosome",
-    "organelle"
-  ]
+    "enum": [
+        "chromosome",
+        "organelle"
+    ]
 }

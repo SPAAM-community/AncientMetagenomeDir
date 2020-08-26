@@ -177,3 +177,8 @@ Worobey2016	2016	10.1038/nature19827	New York Cohort	40.69	-73.98	USA	NYC12	Homo
 Worobey2016	2016	10.1038/nature19827	New York Cohort	40.69	-73.98	USA	NYC4	Homo sapiens	100	10.1038/nature19827	virus	Human immunodeficiency virus 1	blood	chromosome	NA	Dryad	consensus	10.5061/dryad.7mv7v
 Worobey2016	2016	10.1038/nature19827	New York Cohort	40.69	-73.98	USA	Patient0 (PZconservative040513)	Homo sapiens	100	10.1038/nature19827	virus	Human immunodeficiency virus 1	blood	chromosome	NA	Dryad	consensus	10.5061/dryad.7mv7v
 deDios2019	2019	10.1099/mgen.0.000289	Sant Jaume d’Enveja	40.705	0.727	Spain	Ebro-1944	Homo sapiens	100	10.1099/mgen.0.000289	eukaryota	Plasmodium falciparum	blood	chromosome	NA	ENA	raw	ERS3369379,ERS3369380,ERS3369382,ERS3369383
+Martin2013	2013	10.1038/ncomms3172	Audernade	50.86	3.63	Belgium	Pi1845A	Solanum tuberosum	100	doi.org/10.1017/S0953756204009876	eukaryota	Phytophthora infestans	leaf	chromosome	1845	SRA		
+Martin2013	2013	10.1038/ncomms3172	Great Britain	51.52	-0.13	United Kingdom	Pi1845B	Solanum tuberosum	100	doi.org/10.1017/S0953756204009876	eukaryota	Phytophthora infestans	leaf	chromosome	1845	SRA		
+Martin2013	2013	10.1038/ncomms3172	Skårop	55.09	10.69	Denmark	Pi1876	Solanum tuberosum	100	doi.org/10.1017/S0953756204009876	eukaryota	Phytophthora infestans	leaf	chromosome	1876	SRA		
+Martin2013	2013	10.1038/ncomms3172	Stockholm	59.33	18.07	Sweden	Pi1882	Solanum tuberosum	100	doi.org/10.1017/S0953756204009876	eukaryota	Phytophthora infestans	leaf	chromosome	1882	SRA		
+Martin2013	2013	10.1038/ncomms3172	Germany	50.11	8.65	Germany	Pi1889	Solanum tuberosum	100	doi.org/10.1017/S0953756204009876	eukaryota	Phytophthora infestans	leaf	chromosome	1889	SRA		

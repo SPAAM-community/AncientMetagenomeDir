@@ -15,6 +15,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install git+https://github.com/SPAAM-workshop/AncientMetagenomeDirCheck.git
+      - name: Make log file
+        run: |
+          touch validation_results.txt
       - name: test ancient host-associatd metagenome (e.g. microbiomes)
         run: |
           printf "# Ancient Metagenome Host Associated\n```" >> validation_results.txt 

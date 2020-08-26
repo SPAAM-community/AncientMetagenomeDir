@@ -55,12 +55,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Keller 2019 10.1073/pnas.1820447116
 - Mühlemann 2018b 10.1073/pnas.1804921115
 - Wagner 2014 10.1016/S1473-3099(13)70323-2
+- Bos 2011 10.1038/nature10549
+- Bos 2016 10.7554/eLife.12994.001
+- de-Dios 2020 10.1016/j.meegid.2020.104209 (JSON updates only)
+- Patterson Ross 2018 10.1371/journal.ppat.1006750
+- Vågene 2018 10.1038/s41559-017-0446-6
+- Zhou 2018 10.1016/j.cub.2018.05.058
+- Sabin 2020 10.1186/s13059-020-02112-1
+- Kay 2014 10.1128/mBio.01337-14
+- Devault 2014 10.1056/NEJMoa1308663
+- Kay 2015 10.1038/ncomms7717
+- van Dorp 2020 10.1093/molbev/msz264
 - Kerudin 2019 10.1016/j.jas.2019.105035
 
 #### Ancient Metagenome: Environmental
 
 - Ahmed 2018 10.1016/j.quascirev.2017.11.037
 - Gaffney 2020 10.3390/geosciences10070270
+- Slon 2017 10.1126/science.aam9695
+- Smith 2015 10.1126/science.1261278
+- Ardelean 2020 10.1038/s41586-020-2509-0
 
 #### Ancient Metagenome: Anthropogenic
 
@@ -68,5 +82,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fagernäs 2020: Fixed missing sample age DOI
 - Ottoni 2019: Fixed duplicate SRA codes
+- de-Dios 202: Added sample data
+- Schuenemann 2018: dates corrected calculating based on 1950
 
 ### Removed

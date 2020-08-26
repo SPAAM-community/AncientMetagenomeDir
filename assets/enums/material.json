@@ -27,6 +27,11 @@
         "skin",
         "sediment",
         "soil",
-        "liver"
+        "liver",
+        "tissue",
+        "blood",
+        "thoracic segment of trunk",
+        "abdomen",
+        "leaf"
     ]
 }

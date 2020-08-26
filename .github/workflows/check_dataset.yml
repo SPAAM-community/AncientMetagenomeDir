@@ -18,26 +18,24 @@ jobs:
       - name: Make validation results directory and prepare pipefail
         run: |
           mkdir validation/
-          set -o pipefail
       - name: test ancient host-associated metagenome (e.g. microbiomes)
         run: |
-
           echo -e "# Ancient Metagenome Host Associated\n\`\`\`" >> validation/validation_results.txt 
-          set -o pipefail
-          ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json | tee -a validation/validation_results.txt
+          ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
+          cat validation/validation_results.txt
       - name: test ancient single microbial genomes (e.g. pathogens)
         run: |
           echo -e "# Ancient Single Genome Host Associated\n\`\`\`" >> validation/validation_results.txt 
-          set -o pipefail
-          ancientMetagenomeDirCheck ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json | tee -a validation/validation_results.txt
+          ancientMetagenomeDirCheck ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
+          cat validation/validation_results.txt
       - name: test ancient environmental (e.g. sediment)
         run: |
           echo -e "# Ancient Metagenome Environmental\n\`\`\`" >> validation/validation_results.txt 
-          set -o pipefail
-          ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json | tee -a validation/validation_results.txt
+          ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
+          cat validation/validation_results.txt
       - uses: actions/upload-artifact@v1
         with:
           name: results

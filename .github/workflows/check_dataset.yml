@@ -29,6 +29,7 @@ jobs:
         with:
           name: results
       - name: comment PR
+        if: failure()
         uses: machine-learning-apps/pr-comment@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

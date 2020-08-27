@@ -28,6 +28,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Santiago-Rodriguez 2017 10.3390/genes8110310
 - Maixner 2016 10.1126/science.aad2545
 - Ferrari 2018 10.3390/genes9090436
+- McDonough 2018 10.1093/jmammal/gyy080
 - Campana 2014 10.1186/1756-0500-7-111
 
 #### Ancient Single Genome: Host Associated
@@ -73,6 +74,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - deDios 2019 10.1099/mgen.0.000289
 - Duggan 2020 10.1186/s13059-020-02079-z
 - Namouchi 2018 10.1073/pnas.1812865115
+- Spyrou 2016 10.1016/j.chom.2016.05.012
+- Martin 2013 10.1038/ncomms3172
+- Spyrou 2019 10.1038/s41467-019-12154-0
+
 
 #### Ancient Metagenome: Environmental
 
@@ -94,5 +99,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Willman2018: re-list the community_type of tooth samples as skeletal tissue
 - Brealey2020: re-list the community_type of tooth samples as skeletal tissue
 - Maixner2016: collapsed _H. pylori_ genome samples into one
+- Bos2016: Corrected site name
+- Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces after investigation from Monica Green
 
 ### Removed

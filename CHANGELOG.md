@@ -93,5 +93,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Willman2018: re-list the community_type of tooth samples as skeletal tissue
 - Brealey2020: re-list the community_type of tooth samples as skeletal tissue
 - Maixner2016: collapsed _H. pylori_ genome samples into one
+- Bos2016: Corrected site name
 
 ### Removed

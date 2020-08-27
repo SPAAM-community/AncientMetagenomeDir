@@ -133,6 +133,7 @@ Sample columns are as follows:
 - Single date rounded to nearest century (i.e. end in '00')
   - For samples more recent than 1850, the age should be assigned as 100
   - e.g. something only 50 years old would be assigned as 100
+  - Therefore the minimum age possible is 100!
 
 - In most cases, report the date in the publication of the given sample, even if
   the date is from an older publication (we assume the original citation can be
@@ -146,7 +147,6 @@ Sample columns are as follows:
   - from other individuals in stratum/burial
   - period of occupation of site
   - via coin or historical records
-
 
 > :warning: Mandatory value  
 

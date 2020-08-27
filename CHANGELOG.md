@@ -86,7 +86,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Slon 2017 10.1126/science.aam9695
 - Smith 2015 10.1126/science.1261278
 - Ardelean 2020 10.1038/s41586-020-2509-0
-- Dommain 2020 10.3389/fevo.2020.00218
 
 #### Ancient Metagenome: Anthropogenic
 

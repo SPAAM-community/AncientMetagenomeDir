@@ -3,9 +3,9 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+and this project follows to [Calendar Versioning](https://calver.org/).
 
-## [Unreleased]
+## v20.09: Ancient Ksour of Ouadane [Unreleased]
 
 ### Added
 
@@ -92,5 +92,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Schuenemann 2018: dates corrected calculating based on 1950
 - Willman2018: re-list the community_type of tooth samples as skeletal tissue
 - Brealey2020: re-list the community_type of tooth samples as skeletal tissue
+- Maixner2016: collapsed _H. pylori_ genome samples into one
 
 ### Removed

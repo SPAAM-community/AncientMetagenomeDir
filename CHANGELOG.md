@@ -95,6 +95,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Willman2018: re-list the community_type of tooth samples as skeletal tissue
 - Brealey2020: re-list the community_type of tooth samples as skeletal tissue
 - Maixner2016: collapsed _H. pylori_ genome samples into one
+- Bos2016: Corrected site name
 - Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces after investigation from Monica Green
 
 ### Removed

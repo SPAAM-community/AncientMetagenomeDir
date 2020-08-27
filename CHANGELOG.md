@@ -3,9 +3,9 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+and this project follows to [Calendar Versioning](https://calver.org/).
 
-## [Unreleased]
+## v20.09: Ancient Ksour of Ouadane [Unreleased]
 
 ### Added
 
@@ -71,8 +71,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Kerudin 2019 10.1016/j.jas.2019.105035
 - Schuenemann 2011 10.1073/pnas.1105107108
 - deDios 2019 10.1099/mgen.0.000289
-- Duggan 2020 10.1186/s13059-020-02079-z 
-
+- Duggan 2020 10.1186/s13059-020-02079-z
 
 #### Ancient Metagenome: Environmental
 
@@ -92,5 +91,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Schuenemann 2018: dates corrected calculating based on 1950
 - Willman2018: re-list the community_type of tooth samples as skeletal tissue
 - Brealey2020: re-list the community_type of tooth samples as skeletal tissue
+- Maixner2016: collapsed _H. pylori_ genome samples into one
 
 ### Removed

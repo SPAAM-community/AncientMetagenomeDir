@@ -74,6 +74,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Duggan 2020 10.1186/s13059-020-02079-z
 - Namouchi 2018 10.1073/pnas.1812865115
 - Spyrou 2016 10.1016/j.chom.2016.05.012
+- Martin 2013 10.1038/ncomms3172
 
 #### Ancient Metagenome: Environmental
 

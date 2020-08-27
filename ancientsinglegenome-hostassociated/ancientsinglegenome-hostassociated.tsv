@@ -179,7 +179,7 @@ Worobey2016	2016	10.1038/nature19827	New York Cohort	40.69	-73.98	USA	Patient0 (
 deDios2019	2019	10.1099/mgen.0.000289	Sant Jaume d’Enveja	40.705	0.727	Spain	Ebro-1944	Homo sapiens	100	10.1099/mgen.0.000289	eukaryota	Plasmodium falciparum	blood	chromosome	NA	ENA	raw	ERS3369379,ERS3369380,ERS3369382,ERS3369383
 Schuenemann2011	2011	10.1073/pnas.1105107108	East Smithfield Cemetery	51.508	-0.069	United Kingdom	ES 1-5	Homo sapiens	600	10.1073/pnas.1105107108	bacteria	Yersinia pestis	tooth	organelle	NA	GenBank	consensus	HE576987
 Martin2013	2013	10.1038/ncomms3172	Audernade	50.86	3.63	Belgium	Pi1845A	Solanum tuberosum	100	10.1038/ncomms3172	eukaryota	Phytophthora infestans	leaf	chromosome	NA	SRA	raw	ERS258003
-Martin2013	2013	10.1038/ncomms3172	Great Britain	51.52	-0.13	United Kingdom	Pi1845B	Solanum tuberosum	100	10.1038/ncomms3172	eukaryota	Phytophthora infestans	leaf	chromosome	NA	SRA	raw	ERS258004
+Martin2013	2013	10.1038/ncomms3172	NA	51.52	-0.13	United Kingdom	Pi1845B	Solanum tuberosum	100	10.1038/ncomms3172	eukaryota	Phytophthora infestans	leaf	chromosome	NA	SRA	raw	ERS258004
 Martin2013	2013	10.1038/ncomms3172	Skårop	55.09	10.69	Denmark	Pi1876	Solanum tuberosum	100	10.1038/ncomms3172	eukaryota	Phytophthora infestans	leaf	chromosome	NA	SRA	raw	ERS258005
 Martin2013	2013	10.1038/ncomms3172	Stockholm	59.33	18.07	Sweden	Pi1882	Solanum tuberosum	100	10.1038/ncomms3172	eukaryota	Phytophthora infestans	leaf	chromosome	NA	SRA	raw	ERS258006
-Martin2013	2013	10.1038/ncomms3172	Germany	50.11	8.65	Germany	Pi1889	Solanum tuberosum	100	10.1038/ncomms3172	eukaryota	Phytophthora infestans	leaf	chromosome	NA	SRA	raw	ERS258007
+Martin2013	2013	10.1038/ncomms3172	NA	50.11	8.65	Germany	Pi1889	Solanum tuberosum	100	10.1038/ncomms3172	eukaryota	Phytophthora infestans	leaf	chromosome	NA	SRA	raw	ERS258007

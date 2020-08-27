@@ -17,6 +17,9 @@ jobs:
           pip install ancientMetagenomeDirCheck==1.0
       - name: Make validation results directory
         run: mkdir validation/
+      - name: Add 'dir check version
+        run: |
+          echo -e "$(ancientMetagenomeDirCheck --version)" >> validation/validation_results.txt
       - name: test ancient host-associated metagenome (e.g. microbiomes)
         run: |
           echo -e "# Ancient Metagenome Host Associated\n\`\`\`" >> validation/validation_results.txt 

@@ -33,7 +33,7 @@ This is to close <!-- write hashtag and the corresponding issue number here, e.g
 - [ ] Samples are shotgun metagenomes (hostassociated-singlegenome may also contain whole-genome enriched data)?
 - [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)?
 - [ ] (If applicable) Made a separate PR to add new categories to controlled lists (stored unnder `/assets/enums`, e.g. material or archive)? If so: <!-- replace this comment with that PR -->
-- [ ] Changelog is updated to include the publication being added?
+- [ ] Changelog is updated to include the publication under 'Added'?
 
 <details>
   <summary>If you do not know how to check errors in failed validation checks, expand here</summary>
@@ -70,5 +70,4 @@ The issue is:
 ### Checklist
 
 - [ ] Checked the corrected entries follow conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)
-- [ ] Does your PR pass validation checks?
-- [ ] Changelog is updated?
+- [ ] Changelog is updated to include the publication under 'Changed'?

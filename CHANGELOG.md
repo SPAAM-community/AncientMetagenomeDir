@@ -28,6 +28,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Santiago-Rodriguez 2017 10.3390/genes8110310
 - Maixner 2016 10.1126/science.aad2545
 - Ferrari 2018 10.3390/genes9090436
+- McDonough 2018 10.1093/jmammal/gyy080
 - Campana 2014 10.1186/1756-0500-7-111
 
 #### Ancient Single Genome: Host Associated

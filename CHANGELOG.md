@@ -88,5 +88,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ottoni 2019: Fixed duplicate SRA codes
 - de-Dios 202: Added sample data
 - Schuenemann 2018: dates corrected calculating based on 1950
+- Willman2018: re-list the community_type of tooth samples as skeletal tissue
+- Brealey2020: re-list the community_type of tooth samples as skeletal tissue
 
 ### Removed

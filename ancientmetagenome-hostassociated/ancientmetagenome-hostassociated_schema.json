@@ -56,7 +56,7 @@
             "publication_doi": {
                 "$id": "#/items/properties/publication_doi",
                 "type": "string",
-                "pattern": "^10.\\d{4,9}\\/.+$",
+                "pattern": "^10.\\d{4,9}\\/[^,]+$",
                 "title": "Digital Object Identifier (DOI) of the publication",
                 "description": "A valid DOI code (not as an URL)",
                 "examples": [
@@ -145,7 +145,7 @@
                     "string",
                     "null"
                 ],
-                "pattern": "^10.\\d{4,9}\\/.+$",
+                "pattern": "^10.\\d{4,9}\\/[^,]+$",
                 "title": "Digital Object Identifier (DOI) of the sample dating publication",
                 "description": "A valid DOI code (not as an URL)",
                 "examples": [

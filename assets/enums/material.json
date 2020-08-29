@@ -31,6 +31,10 @@
         "tissue",
         "blood",
         "thoracic segment of trunk",
-        "abdomen"
+        "abdomen",
+        "leaf",
+        "bodily fluid material",
+        "medical instrument",
+        "keratinous claw"
     ]
 }

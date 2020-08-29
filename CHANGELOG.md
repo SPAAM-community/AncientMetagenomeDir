@@ -3,9 +3,9 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+and this project follows to [Calendar Versioning](https://calver.org/).
 
-## [Unreleased]
+## v20.09: Ancient Ksour of Ouadane [Unreleased]
 
 ### Added
 
@@ -28,6 +28,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Santiago-Rodriguez 2017 10.3390/genes8110310
 - Maixner 2016 10.1126/science.aad2545
 - Ferrari 2018 10.3390/genes9090436
+- McDonough 2018 10.1093/jmammal/gyy080
+- Campana 2014 10.1186/1756-0500-7-111
 
 #### Ancient Single Genome: Host Associated
 
@@ -66,6 +68,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Devault 2014 10.1056/NEJMoa1308663
 - Kay 2015 10.1038/ncomms7717
 - van Dorp 2020 10.1093/molbev/msz264
+- Worobey 2016 10.1038/nature19827
+- Kerudin 2019 10.1016/j.jas.2019.105035
+- Schuenemann 2011 10.1073/pnas.1105107108
+- deDios 2019 10.1099/mgen.0.000289
+- Duggan 2020 10.1186/s13059-020-02079-z
+- Namouchi 2018 10.1073/pnas.1812865115
+- Spyrou 2016 10.1016/j.chom.2016.05.012
+- Martin 2013 10.1038/ncomms3172
+- Spyrou 2019 10.1038/s41467-019-12154-0
 - Krause-Kyora 2018b 10.1038/s41467-018-03857-x
 
 #### Ancient Metagenome: Environmental
@@ -75,6 +86,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Slon 2017 10.1126/science.aam9695
 - Smith 2015 10.1126/science.1261278
 - Ardelean 2020 10.1038/s41586-020-2509-0
+- Domain 2020 10.3389/fevo.2020.00218
+- Armbrecht 2020 10.1111/1755-0998.13162
 
 #### Ancient Metagenome: Anthropogenic
 
@@ -83,5 +96,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fagernäs 2020: Fixed missing sample age DOI
 - Ottoni 2019: Fixed duplicate SRA codes
 - de-Dios 202: Added sample data
+- Schuenemann 2018: dates corrected calculating based on 1950
+- Willman2018: re-list the community_type of tooth samples as skeletal tissue
+- Brealey2020: re-list the community_type of tooth samples as skeletal tissue
+- Maixner2016: collapsed _H. pylori_ genome samples into one
+- Bos2016: Corrected site name
+- Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces after investigation from Monica Green
 
 ### Removed

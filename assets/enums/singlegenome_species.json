@@ -16,6 +16,14 @@
         "Measles morbillivirus",
         "Borrelia recurrentis",
         "Malassezia restricta",
-        "Cutibacterium acnes"
+        "Cutibacterium acnes",
+        "Brucella melitensis",
+        "Vibrio cholerae",
+        "Plasmodium vivax",
+        "Human immunodeficiency virus 1",
+        "Vaccinia virus",
+        "Plasmodium falciparum",
+        "Phytophthora infestans",
+        "Neisseria meningitidis"
     ]
 }

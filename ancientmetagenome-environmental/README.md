@@ -116,7 +116,8 @@ Sample columns are as follows:
 - Single date rounded to nearest century (i.e. end in '00')
   - For samples more recent than 1850, the age should be assigned as 100
   - e.g. something only 50 years old would be assigned as 100
-  
+  - Therefore the minimum age possible is 100!
+
 - In most cases, report the date in the publication of the given sample, even if the date is from an older publication (we assume the original citation can be found by looking at submitted article). _However_:
   - If a more recent and accurate date has been published this can be used!
   - Ensure to also update `sample_age_doi`
@@ -134,7 +135,10 @@ Sample columns are as follows:
 ## sample_age_doi
 
 - DOI of publication with date derived from
-- Can be duplicate of Publication DOI
+- In most cases, please duplicate the DOI of the publication under submission,
+  even if the date is from an older publication (we assume the original citation
+  can be found by looking at submitted article). _However_:
+  - If a more recent and accurate date has been published this can be used!
 - Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.

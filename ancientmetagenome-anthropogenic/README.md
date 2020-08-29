@@ -110,7 +110,7 @@ Sample columns are as follows:
 - In Before Present (BP) format i.e. since 1950 AD
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
-    
+
 - Radiocarbon dates
   - Uncalibrated dates are preferred, but if only calibrated reported can be
     used
@@ -118,8 +118,11 @@ Sample columns are as follows:
 - Single date rounded to nearest century (i.e. end in '00')
   - For samples more recent than 1850, the age should be assigned as 100
   - e.g. something only 50 years old would be assigned as 100
-  
-- In most cases, report the date in the publication of the given sample, even if the date is from an older publication (we assume the original citation can be found by looking at submitted article). _However_:
+  - Therefore the minimum age possible is 100!
+
+- In most cases, report the date in the publication of the given sample, even if
+  the date is from an older publication (we assume the original citation can be
+  found by looking at submitted article). _However_:
   - If a more recent and accurate date has been published this can be used!
   - Ensure to also update `sample_age_doi`
 
@@ -136,7 +139,10 @@ Sample columns are as follows:
 ## sample_age_doi
 
 - DOI of publication the sample_age date is derived from
-- Can be duplicate of Publication DOI
+- In most cases, please duplicate the DOI of the publication under submission,
+  even if the date is from an older publication (we assume the original citation
+  can be found by looking at submitted article). _However_:
+  - If a more recent and accurate date has been published this can be used!
 - Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
@@ -148,9 +154,12 @@ Sample columns are as follows:
 - Description of sediment.
   - e.g. pot crust, parchment, herbarium sample
 
-> :warning: Ideally an entry present in an
-> [ontology](https://www.ebi.ac.uk/ols/index), but not currently required for
-> this list.  
+> :warning: Partly [MIxS v5](https://gensc.org/mixs/) compliant field, i.e. term
+> from an [ontology](https://www.ebi.ac.uk/ols/index), and ideally either
+> [UBERON](https://www.ebi.ac.uk/ols/ontologies/uberon) (anatomy) or
+> [ENVO](https://www.ebi.ac.uk/ols/ontologies/envo) (everything else). If you
+> can't find something close enough, please ping
+> @spaam-workshop/ancientmetagenomedir-coreteam
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
@@ -158,8 +167,10 @@ Sample columns are as follows:
 
 ## collection_date
 
-- Year of sample collection in YYYY format
-- If sample is from a sediment core, may be later than year of core collection
+- Year of collection of (sub-)sample for DNA analysis in YYYY format
+  - e.g. not the year blood was drawn from a patient, but rather the year the
+    aliquot was taken for DNA extraction from the sample in the museum
+    collection, for the current study.
 - Missing value: `NA`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field

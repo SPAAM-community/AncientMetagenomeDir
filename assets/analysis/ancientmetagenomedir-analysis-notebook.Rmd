@@ -19,6 +19,7 @@ library(tidyverse)
 library(scales)
 library(lubridate)
 library(maps)
+library(patchwork)
 sessionInfo()
 ```
 

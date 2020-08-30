@@ -59,7 +59,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Wagner 2014 10.1016/S1473-3099(13)70323-2
 - Bos 2011 10.1038/nature10549
 - Bos 2016 10.7554/eLife.12994.001
-- de-Dios 2020 10.1016/j.meegid.2020.104209 (JSON updates only)
+- de-Dios 2020 10.1016/j.meegid.2020.104209
 - Patterson Ross 2018 10.1371/journal.ppat.1006750
 - Vågene 2018 10.1038/s41559-017-0446-6
 - Zhou 2018 10.1016/j.cub.2018.05.058
@@ -79,6 +79,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Spyrou 2019 10.1038/s41467-019-12154-0
 - Krause-Kyora 2018b 10.1038/s41467-018-03857-x
 - Majander 2020 10.1016/j.cub.2020.07.058
+- Mendum 2014 10.1186/1471-2164-15-270 
+  - second sample has biosample accession, but no SRA data uploaded so not
+    listed here
 
 #### Ancient Metagenome: Environmental
 
@@ -102,6 +105,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Brealey2020: re-list the community_type of tooth samples as skeletal tissue
 - Maixner2016: collapsed _H. pylori_ genome samples into one
 - Bos2016: Corrected site name
-- Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces after investigation from Monica Green
+- Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces
+  after investigation from Monica Green
 
 ### Removed

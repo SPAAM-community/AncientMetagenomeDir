@@ -79,9 +79,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Spyrou 2019 10.1038/s41467-019-12154-0
 - Krause-Kyora 2018b 10.1038/s41467-018-03857-x
 - Majander 2020 10.1016/j.cub.2020.07.058
-- Mendum 2014 10.1186/1471-2164-15-270 
-  - second sample has biosample accession, but no SRA data uploaded so not
-    listed here
+- Mendum 2014 10.1186/1471-2164-15-270
 
 #### Ancient Metagenome: Environmental
 

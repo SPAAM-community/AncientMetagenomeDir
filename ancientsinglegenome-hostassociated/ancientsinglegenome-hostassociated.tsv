@@ -180,16 +180,16 @@ Muhlemann2018	2018	10.1038/s41586-018-0097-z	Szczepankowice	50.948	16.943	Poland
 Muhlemann2018	2018	10.1038/s41586-018-0097-z	Keden	41.428	75.329	Kyrgyzstan	DA51	Homo sapiens	2200	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	reference_aligned	ERS2295386
 Muhlemann2018	2018	10.1038/s41586-018-0097-z	Bulanovo	52.453	55.16	Russia	RISE386	Homo sapiens	4100	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	reference_aligned	ERS2295392
 Muhlemann2018	2018	10.1038/s41586-018-0097-z	Butakty	43.202	76.981	Kazakhstan	DA222	Homo sapiens	1100	10.1038/s41586-018-0097-z	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	reference_aligned	ERS2295389
-Muhlemann2020	2020	10.1126/science.aaw8977		56.663796	16.639378	Öland, SWE	VK382	Homo sapiens	1300	10.1126/science.aaw8978	virus	smallpox	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812788
-Muhlemann2020	2020	10.1126/science.aaw8978		67.096196	14.573296	Nordland, NOR	VK388	Homo sapiens	1400	10.1126/science.aaw8979	virus	smallpox	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812789
-Muhlemann2020	2020	10.1126/science.aaw8979		54.784744	31.865913	Gnezdovo, RUS	VK470	Homo sapiens	1000	10.1126/science.aaw8980	virus	smallpox	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812791
-Muhlemann2020	2020	10.1126/science.aaw8980		55.463155	11.725037	Zealand, DEN	VK281	Homo sapiens	1100	10.1126/science.aaw8981	virus	smallpox	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812787
-Muhlemann2020	2020	10.1126/science.aaw8981		51.751991	-1.257783	Oxford, UK	VK168	Homo sapiens	1100	10.1126/science.aaw8982	virus	smallpox	petrous	chromosome	NA	SRA	reference_aligned	SAMEA6812785
-Muhlemann2020	2020	10.1126/science.aaw8982		56.663796	16.639378	Öland, SWE	VK533	Homo sapiens	1100	10.1126/science.aaw8983	virus	smallpox	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812793
-Muhlemann2020	2020	10.1126/science.aaw8983		67.096196	14.573296	Nordland, NOR	VK515	Homo sapiens	1300	10.1126/science.aaw8984	virus	smallpox	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812792
-Muhlemann2020	2020	10.1126/science.aaw8984		54.784744	31.865913	Gnezdovo, RUS	VK255	Homo sapiens	1000	10.1126/science.aaw8985	virus	smallpox	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812786
-Muhlemann2020	2020	10.1126/science.aaw8985		68.224628	38.043507	Varzino, RUS	FIN1	Homo sapiens	200	10.1126/science.aaw8986	virus	smallpox	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812782
-Muhlemann2020	2020	10.1126/science.aaw8986		67.623643	75.069022	Yamalo-Nenetskiy, RUS	KHA1	Homo sapiens	200	10.1126/science.aaw8987	virus	smallpox	petrous	chromosome	NA	SRA	reference_aligned	SAMEA6812781
-Muhlemann2030	2020	10.1126/science.aaw8987		56.663796	16.639378	Öland, SWE	VK443	Homo sapiens	1100	10.1126/science.aaw8988	virus	smallpox	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812790
-Muhlemann2020	2020	10.1126/science.aaw8988		55.604968	13.003982	Malmö, SWE	VK108	Homo sapiens	1100	10.1126/science.aaw8989	virus	smallpox	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812783
-Muhlemann2020	2020	10.1126/science.aaw8989		55.32821	10.235716	Fyn, DEN	VK138	Homo sapiens	1000	10.1126/science.aaw8990	virus	smallpox	tooth	chromosome	NA	SRA	reference_aligned	 SAMEA6812784
+Muhlemann2020	2020	10.1126/science.aaw8977	Öland	56.663796	16.639378	Sweden	VK382	Homo sapiens	1300	10.1126/science.aaw8978	virus	Variola virus	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812788
+Muhlemann2020	2020	10.1126/science.aaw8978	Nordland	67.096196	14.573296	Norway	VK388	Homo sapiens	1400	10.1126/science.aaw8979	virus	Variola virus	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812789
+Muhlemann2020	2020	10.1126/science.aaw8979	Gnezdovo	54.784744	31.865913	Russia	VK470	Homo sapiens	1000	10.1126/science.aaw8980	virus	Variola virus	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812791
+Muhlemann2020	2020	10.1126/science.aaw8980	Zealand	55.463155	11.725037	Denmark	VK281	Homo sapiens	1100	10.1126/science.aaw8981	virus	Variola virus	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812787
+Muhlemann2020	2020	10.1126/science.aaw8981	Oxford	51.751991	-1.257783	United Kingdom	VK168	Homo sapiens	1100	10.1126/science.aaw8982	virus	Variola virus	petrous	chromosome	NA	SRA	reference_aligned	SAMEA6812785
+Muhlemann2020	2020	10.1126/science.aaw8982	Öland	56.663796	16.639378	Sweden	VK533	Homo sapiens	1100	10.1126/science.aaw8983	virus	Variola virus	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812793
+Muhlemann2020	2020	10.1126/science.aaw8983	Nordland	67.096196	14.573296	Norway	VK515	Homo sapiens	1300	10.1126/science.aaw8984	virus	Variola virus	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812792
+Muhlemann2020	2020	10.1126/science.aaw8984	Gnezdovo	54.784744	31.865913	Russia	VK255	Homo sapiens	1000	10.1126/science.aaw8985	virus	Variola virus	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812786
+Muhlemann2020	2020	10.1126/science.aaw8985	Varzino	68.224628	38.043507	Russia	FIN1	Homo sapiens	200	10.1126/science.aaw8986	virus	Variola virus	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812782
+Muhlemann2020	2020	10.1126/science.aaw8986	Yamalo-Nenetskiy	67.623643	75.069022	Russia	KHA1	Homo sapiens	200	10.1126/science.aaw8987	virus	Variola virus	petrous	chromosome	NA	SRA	reference_aligned	SAMEA6812781
+Muhlemann2020	2020	10.1126/science.aaw8987	Öland	56.663796	16.639378	Sweden	VK443	Homo sapiens	1100	10.1126/science.aaw8988	virus	Variola virus	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812790
+Muhlemann2020	2020	10.1126/science.aaw8988	Malmö	55.604968	13.003982	Sweden	VK108	Homo sapiens	1100	10.1126/science.aaw8989	virus	Variola virus	tooth	chromosome	NA	SRA	reference_aligned	SAMEA6812783
+Muhlemann2020	2020	10.1126/science.aaw8989	Fyn	55.32821	10.235716	Denmark	VK138	Homo sapiens	1000	10.1126/science.aaw8990	virus	Variola virus	tooth	chromosome	NA	SRA	reference_aligned	 SAMEA6812784

@@ -79,6 +79,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Spyrou 2019 10.1038/s41467-019-12154-0
 - Krause-Kyora 2018b 10.1038/s41467-018-03857-x
 - Majander 2020 10.1016/j.cub.2020.07.058
+- Yoshida 2013 10.7554/eLife.00731 (KM117502 and KM117507 not included, no data in the ENA PRJEB1877)
 
 #### Ancient Metagenome: Environmental
 

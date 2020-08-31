@@ -104,5 +104,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Maixner2016: collapsed _H. pylori_ genome samples into one
 - Bos2016: Corrected site name
 - Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces after investigation from Monica Green
+- Weyrich 2017: Added missing OAGR accession after consultation with authors
 
 ### Removed

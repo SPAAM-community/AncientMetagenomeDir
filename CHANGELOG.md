@@ -79,7 +79,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Spyrou 2019 10.1038/s41467-019-12154-0
 - Krause-Kyora 2018b 10.1038/s41467-018-03857-x
 - Majander 2020 10.1016/j.cub.2020.07.058
+- Mühlemann 2020 10.1126/science.aaw8977
 - Mendum 2014 10.1186/1471-2164-15-270
+
 
 #### Ancient Metagenome: Environmental
 
@@ -105,5 +107,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Bos2016: Corrected site name
 - Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces
   after investigation from Monica Green
+- Weyrich 2017: Added missing OAGR accession after consultation with authors
 
 ### Removed

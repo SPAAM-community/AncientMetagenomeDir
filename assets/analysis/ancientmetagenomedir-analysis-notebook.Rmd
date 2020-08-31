@@ -31,48 +31,75 @@ We will prepare some custom functions
 
 ```{r}
 ## Load and standardise date across tables
-load_thedir_data <- function(path, name){
+load_thedir_data <- function(path, name) {
   read_tsv(path, col_types = cols()) %>%
-    mutate(List = name) %>% 
+    mutate(List = name) %>%
     select(List, everything())
 }
 
-plot_pub_timeline <- function(x) {
-  spanning_years <- x %>% summarise(min = min(publication_year), max = max(publication_year))
 
-  x %>%
-    select(publication_year, publication_doi, List) %>%
-    distinct() %>%
-    arrange(publication_year) %>%
-    ggplot(aes(publication_year, fill = List)) +
-    scale_fill_manual(values = colours) +
+plot_pub_timeline <- function(...) {
+  ## Takes a list of AncientMetagenomeDir TSVs
+  x <- list(...)
+
+  ## Get only relevent columns
+  dat <- lapply(x, FUN = function(y) {
+    select(
+      y,
+      List, publication_doi,
+      publication_year
+    ) %>% distinct()
+  }) %>%
+    bind_rows() %>%
+    mutate(List = factor(List, levels = names(colours) ))
+
+  ## Get range so we plot x-axis nicely
+  spanning_years <- dat %>% summarise(min = min(publication_year), max = max(publication_year))
+
+  ggplot(dat, aes(publication_year, fill = List)) +
+    scale_fill_manual(values = colours, guide = guide_legend(ncol = 1)) +
     scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
-    ylab("Number of Publications") +
-    xlab("Publication Year") +
-    geom_histogram(bins = spanning_years$max - spanning_years$min, breaks = seq(spanning_years$min, spanning_years$max, 1)) +
-    theme_minimal() +
-    theme(legend.position = "bottom")
+    ylab("Number of publications") +
+    xlab("Publication year") +
+    geom_histogram(bins = spanning_years$max - spanning_years$min, binwidth = 1) +
+    scale_x_continuous(breaks = seq(spanning_years$min, spanning_years$max, 1)) +
+    theme_classic() +
+    theme(legend.position = "bottom", axis.text.x = element_text(angle = 20)) +
+    facet_wrap(~List, ncol = 1)
 }
 
-plot_cumulative_timeline <- function(x, grouping){
-  timeline <- x %>% 
-    select(sample_name, publication_year, {{grouping}}) %>% 
-    rename(group = {{grouping}}) %>%
-    group_by(publication_year, group) %>% 
-    summarise(count = n()) %>%
-    group_by(group) %>%
+plot_cumulative_timeline <- function(...) {
+  
+  ## Takes a list of AncientMetagenomeDir TSVs
+  x <- list(...)
+
+  ## Get only relevent columns
+  dat <- lapply(x, FUN = function(y) {
+    select(
+      y,
+      List, sample_name, publication_year,
+      publication_year
+    ) %>% distinct()
+  }) %>%
+    bind_rows() %>%
+    mutate(List = factor(List, levels = names(colours) )) %>%
+    group_by(List, publication_year) %>%
+    summarise(count = n ()) %>%
     mutate(cumulative_sum = cumsum(count))
   
-  grouping_order <- timeline %>% 
-    filter(publication_year == max(publication_year)) %>% 
-    arrange(cumulative_sum) %>% 
-    pull(group)
-  
-  ggplot(timeline %>% mutate(group = factor(group, levels = grouping_order)), aes(publication_year, cumulative_sum, fill = group)) +
+  ## Get range so we plot x-axis nicely
+  spanning_years <- dat %>% ungroup %>% summarise(min = min(publication_year), max = max(publication_year))
+
+  ggplot(dat, aes(publication_year, cumulative_sum, fill = List)) +
     geom_bar(stat = "identity") +
-    scale_fill_brewer(palette ="Set1") +
-    labs(fill = deparse(substitute(grouping))) +
-    theme_minimal()
+    scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
+    scale_x_continuous(breaks = seq(spanning_years$min, spanning_years$max, 1)) +
+    theme_classic() +
+    xlab("Year") +
+    ylab("Number of samples (cumulative sum)") +
+    scale_fill_manual(values = colours, guide = guide_legend(ncol = 1)) +
+    theme(legend.position = "bottom", axis.text.x = element_text(angle = 20)) +
+    facet_wrap(~List, ncol = 1)
 }
 
 
@@ -94,33 +121,55 @@ raw_anthropogenic <- load_thedir_data("../../ancientmetagenome-anthropogenic/anc
 ## Design Assets
 
 ```{r}
-colours <-c(`Environmental Metagenome` = "#2da46a", `Host Associated Metagenome` = "#73cff3",
-            `Host Associated Single Genome` = "#d74182", `Anthropogenic Metagenome` = "#d74182")
+colours <-c(`Host Associated Metagenome` = "#73cff3",
+            `Host Associated Single Genome` = "#d74182",
+            `Environmental Metagenome` = "#2da46a",
+            `Anthropogenic Metagenome` = "#d74182")
 ```
 
 
 # Publication Timelines
 
-```{r}
-plot_pub_timeline(raw_hostmetagenome)
-plot_pub_timeline(raw_hostsinglegenome)
-plot_pub_timeline(raw_environmental)
-#plot_pub_timeline(raw_anthropogenic)
-
+```{r, fig.width=5, fig.height=7}
+figure_publication_time <- plot_pub_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental)
 ```
 
 # Cumulative Samples
 
-```{r}
-plot_cumulative_timeline(raw_hostmetagenome, community_type)
-plot_cumulative_timeline(raw_hostsinglegenome, singlegenome_domain)
+```{r, fig.width=5, fig.height=7}
+figure_cumulative_samples <- plot_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental)
 ```
+
+# Timelines Combined
+
+```{r fig.height=7, fig.width=8}
+figure_timelines <- figure_publication_time + figure_cumulative_samples + plot_layout(ncol = 2) + plot_annotation(tag_levels = 'a')
+
+ggsave("AncientMetagenomeDir-PublicationSample_Timeline.pdf",
+       figure_timelines,
+       device = cairo_pdf(),
+       units = "in",
+       width = 3.5,
+       height = 4,
+       scale = 2
+       )
+
+ggsave("AncientMetagenomeDir-PublicationSample_Timeline.png",
+       figure_timelines,
+       device = "png",
+       units = "in",
+       width = 3.5,
+       height = 4,
+       scale = 2
+       )
+```
+
 
 # Geographic Spread
 
 With known coordinates!
 
-```{r}
+```{r eval = F}
 world_map <- map_data("world")
 
 map_hostmetagenome <- raw_hostmetagenome %>% 
@@ -131,12 +180,12 @@ map_hostmetagenome <- raw_hostmetagenome %>%
 
 ## Find country name in maps::world a site is in based on long/lat
 
-## Per Lat/Lon
+## Per Lat/Lon  
 ggplot() +
   geom_polygon(data = world_map, aes(x = long, y = lat, group = group), fill = "white", colour = "grey") +
   geom_point(data = map_hostmetagenome, aes(x = longitude, y = latitude, fill = community_type, size = Count), shape = 21, alpha = 0.5) +
   scale_fill_brewer(palette ="Set1") +
-  theme_minimal()
+  theme_linedraw()
 
 ## Country Heatmap
 map_heatmapdata <- map_hostmetagenome %>% 

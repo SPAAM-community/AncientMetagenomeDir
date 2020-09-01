@@ -29,6 +29,9 @@ sessionInfo()
 
 We will prepare some custom functions
 
+
+### Loading
+
 ```{r}
 ## Load and standardise date across tables
 load_thedir_data <- function(path, name) {
@@ -37,7 +40,13 @@ load_thedir_data <- function(path, name) {
     select(List, everything())
 }
 
-stats_pub_timeline <- function(...){
+```
+
+### Publication Timeline
+
+```{r}
+
+stats_pub_timeline <- function(...) {
   x <- list(...)
 
   ## Get only relevent columns
@@ -49,25 +58,10 @@ stats_pub_timeline <- function(...){
     ) %>% distinct()
   }) %>%
     bind_rows() %>%
-    mutate(List = factor(List, levels = names(colours) ))
-  
+    mutate(List = factor(List, levels = names(colours)))
 }
 
-plot_pub_timeline <- function(...) {
-  ## Takes a list of AncientMetagenomeDir TSVs
-  x <- list(...)
-
-  ## Get only relevent columns
-  dat <- lapply(x, FUN = function(y) {
-    select(
-      y,
-      List, publication_doi,
-      publication_year
-    ) %>% distinct()
-  }) %>%
-    bind_rows() %>%
-    mutate(List = factor(List, levels = names(colours) ))
-
+plot_pub_timeline <- function(dat) {
   ## Get range so we plot x-axis nicely
   spanning_years <- dat %>% summarise(min = min(publication_year), max = max(publication_year))
 
@@ -76,33 +70,19 @@ plot_pub_timeline <- function(...) {
     scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
     ylab("Number of publications") +
     xlab("Publication year") +
-    geom_histogram(bins = spanning_years$max - spanning_years$min, binwidth = 1) +
-    scale_x_continuous(breaks = seq(spanning_years$min, spanning_years$max, 1)) +
+    geom_bar(bins = spanning_years$max - spanning_years$min, binwidth = 1) +
+    scale_x_continuous(breaks = seq(spanning_years$min, spanning_years$max, 2)) +
     theme_classic() +
-    theme(legend.position = "bottom", axis.text.x = element_text(angle = 20)) +
-    facet_wrap(~List, ncol = 1)
+    theme(legend.position = "bottom") +
+    facet_wrap(~List, ncol = 1) +
+    labs(fill = NULL)
 }
+```
 
+### Cumulative Samples Timeline
+
+```{r}
 stats_cumulative_timeline <- function(...) {
-  ## Takes a list of AncientMetagenomeDir TSVs
-  x <- list(...)
-  
-  lapply(x, FUN = function(y) {
-    select(
-      y,
-      List, sample_name, publication_year,
-      publication_year
-    ) %>% distinct()
-    }) %>%
-    bind_rows() %>%
-    mutate(List = factor(List, levels = names(colours) )) %>%
-    group_by(List, publication_year) %>%
-    summarise(count = n ()) %>%
-    mutate(cumulative_sum = cumsum(count))
-}
-
-plot_cumulative_timeline <- function(...) {
-  
   ## Takes a list of AncientMetagenomeDir TSVs
   x <- list(...)
 
@@ -115,24 +95,57 @@ plot_cumulative_timeline <- function(...) {
     ) %>% distinct()
   }) %>%
     bind_rows() %>%
-    mutate(List = factor(List, levels = names(colours) )) %>%
-    group_by(List, publication_year) %>%
-    summarise(count = n ()) %>%
-    mutate(cumulative_sum = cumsum(count))
-  
-  ## Get range so we plot x-axis nicely
-  spanning_years <- dat %>% ungroup %>% summarise(min = min(publication_year), max = max(publication_year))
+    mutate(List = factor(List, levels = names(colours)))
 
-  ggplot(dat, aes(publication_year, cumulative_sum, fill = List)) +
+  spanning_years <- dat %>%
+    ungroup() %>%
+    summarise(min = min(publication_year), max = max(publication_year))
+
+  ## Make fake base table to ensure all years for all lists
+  ## Currently manually defined
+  base_table <- list(
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1)
+  )
+
+  names(base_table) <- levels(dat$List)
+
+  base_table <- base_table %>%
+    enframe(name = "List", value = "publication_year") %>%
+    unnest(publication_year)
+
+  dat <- dat %>%
+    group_by(List, publication_year) %>%
+    summarise(count = n())
+
+  dat %>%
+    right_join(base_table, by = c("List", "publication_year")) %>%
+    replace_na(list(count = 0)) %>%
+    arrange(List, publication_year) %>%
+    mutate(List = factor(List, levels = names(colours))) %>%
+    group_by(List) %>%
+    mutate(cumulative_sum = cumsum(count))
+}
+
+
+plot_cumulative_timeline <- function(x) {
+  
+  spanning_years <- list(min_year = min(x$publication_year), max_year = max(x$publication_year))
+
+  ## Get range so we plot x-axis nicely
+  ggplot(x, aes(publication_year, cumulative_sum, fill = List)) +
     geom_bar(stat = "identity") +
     scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
-    scale_x_continuous(breaks = seq(spanning_years$min, spanning_years$max, 1)) +
+    scale_x_continuous(breaks = seq(spanning_years$min_year, spanning_years$max_year, 2)) +
     theme_classic() +
-    xlab("Year") +
+    xlab("Publication year") +
     ylab("Number of samples (cumulative sum)") +
     scale_fill_manual(values = colours, guide = guide_legend(ncol = 1)) +
-    theme(legend.position = "bottom", axis.text.x = element_text(angle = 20)) +
-    facet_wrap(~List, ncol = 1)
+    theme(legend.position = "bottom") +
+    facet_wrap(~List, ncol = 1) +
+    labs(fill = NULL)
+  
 }
 
 
@@ -148,23 +161,27 @@ metadata depending on context.
 raw_hostmetagenome <- load_thedir_data("../../ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv", "Host Associated Metagenome") 
 raw_hostsinglegenome <- load_thedir_data("../../ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv", "Host Associated Single Genome") 
 raw_environmental <- load_thedir_data("../../ancientmetagenome-environmental/ancientmetagenome-environmental.tsv", "Environmental Metagenome") 
-raw_anthropogenic <- load_thedir_data("../../ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic.tsv", "Anthropogenic Metagenome") 
+#raw_anthropogenic <- load_thedir_data("../../ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic.tsv", "Anthropogenic Metagenome") 
 ```
 
 ## Design Assets
 
 ```{r}
-colours <-c(`Host Associated Metagenome` = "#73cff3",
+colours <- c(`Host Associated Metagenome` = "#73cff3",
             `Host Associated Single Genome` = "#d74182",
-            `Environmental Metagenome` = "#2da46a",
-            `Anthropogenic Metagenome` = "#d74182")
+            `Environmental Metagenome` = "#2da46a")
+
+notused_colours <- c(`Anthropogenic Metagenome` = "#d74182")
+
 ```
 
 
 # Publication Timelines
 
 ```{r, fig.width=5, fig.height=7}
-figure_publication_time <- plot_pub_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental)
+figure_publication_time <- stats_pub_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% plot_pub_timeline()
+
+figure_publication_time
 ```
 
 Summary stats
@@ -181,7 +198,10 @@ stats_pub_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) 
 # Cumulative Samples
 
 ```{r, fig.width=5, fig.height=7}
-figure_cumulative_samples <- plot_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental)
+
+figure_cumulative_samples <- stats_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% plot_cumulative_timeline()
+
+figure_cumulative_samples
 ```
 
 Summary stats
@@ -197,6 +217,8 @@ stats_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environm
 
 ```{r fig.height=7, fig.width=8}
 figure_timelines <- figure_publication_time + figure_cumulative_samples + plot_layout(ncol = 2) + plot_annotation(tag_levels = 'a')
+
+figure_timelines
 
 ggsave("AncientMetagenomeDir-PublicationSample_Timeline.pdf",
        figure_timelines,
@@ -216,6 +238,7 @@ ggsave("AncientMetagenomeDir-PublicationSample_Timeline.png",
        scale = 2
        )
 ```
+
 
 
 # Geographic Spread

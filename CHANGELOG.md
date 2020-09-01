@@ -85,6 +85,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Yoshida 2013 10.7554/eLife.00731 (KM117502 and KM117507 not included, no data in the ENA PRJEB1877)
 - Mühlemann 2020 10.1126/science.aaw8977
 - Mendum 2014 10.1186/1471-2164-15-270
+- Neukamm 2020 10.1186/s12915-020-00839-8
 
 
 #### Ancient Metagenome: Environmental

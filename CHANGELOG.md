@@ -78,6 +78,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Spyrou 2016 10.1016/j.chom.2016.05.012
 - Martin 2013 10.1038/ncomms3172
 - Spyrou 2019 10.1038/s41467-019-12154-0
+- Krause-Kyora 2018b 10.1038/s41467-018-03857-x
+- Majander 2020 10.1016/j.cub.2020.07.058
 - Eerkens 2018 10.1016/j.ijpp.2018.05.001
 
 #### Ancient Metagenome: Environmental
@@ -87,6 +89,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Slon 2017 10.1126/science.aam9695
 - Smith 2015 10.1126/science.1261278
 - Ardelean 2020 10.1038/s41586-020-2509-0
+- Domain 2020 10.3389/fevo.2020.00218
+- Armbrecht 2020 10.1111/1755-0998.13162
 
 #### Ancient Metagenome: Anthropogenic
 

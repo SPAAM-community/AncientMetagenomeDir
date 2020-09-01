@@ -30,7 +30,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Ferrari 2018 10.3390/genes9090436
 - McDonough 2018 10.1093/jmammal/gyy080
 - Campana 2014 10.1186/1756-0500-7-111
+- Bieker 2020 10.1111/1755-0998.13174
+  - In addition to new samples, includes re-utilised data from Sánchez-Barreiro 2016 10.1111/1755-0998.12610 and Exposito-Alonso 2018 10.1371/journal.pgen.1007155
+- Neukamm 2020 10.1186/s12915-020-00839-8
 - Eerkens 2018 10.1016/j.ijpp.2018.05.001
+
 
 #### Ancient Single Genome: Host Associated
 
@@ -60,7 +64,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Wagner 2014 10.1016/S1473-3099(13)70323-2
 - Bos 2011 10.1038/nature10549
 - Bos 2016 10.7554/eLife.12994.001
-- de-Dios 2020 10.1016/j.meegid.2020.104209 (JSON updates only)
+- de-Dios 2020 10.1016/j.meegid.2020.104209
 - Patterson Ross 2018 10.1371/journal.ppat.1006750
 - Vågene 2018 10.1038/s41559-017-0446-6
 - Zhou 2018 10.1016/j.cub.2018.05.058
@@ -80,7 +84,12 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Spyrou 2019 10.1038/s41467-019-12154-0
 - Krause-Kyora 2018b 10.1038/s41467-018-03857-x
 - Majander 2020 10.1016/j.cub.2020.07.058
+- Yoshida 2013 10.7554/eLife.00731 (KM117502 and KM117507 not included, no data in the ENA PRJEB1877)
+- Mühlemann 2020 10.1126/science.aaw8977
+- Mendum 2014 10.1186/1471-2164-15-270
+- Neukamm 2020 10.1186/s12915-020-00839-8
 - Eerkens 2018 10.1016/j.ijpp.2018.05.001
+
 
 #### Ancient Metagenome: Environmental
 
@@ -91,6 +100,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Ardelean 2020 10.1038/s41586-020-2509-0
 - Domain 2020 10.3389/fevo.2020.00218
 - Armbrecht 2020 10.1111/1755-0998.13162
+- Pedersen 2016 10.1038/nature19085
+- Graham 2016 10.1073/pnas.1604903113
+- Wang 2017 10.1111/jbi.13010
+- Seersholm 2016 10.1038/ncomms13389
+
 
 #### Ancient Metagenome: Anthropogenic
 
@@ -104,6 +118,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Brealey2020: re-list the community_type of tooth samples as skeletal tissue
 - Maixner2016: collapsed _H. pylori_ genome samples into one
 - Bos2016: Corrected site name
-- Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces after investigation from Monica Green
+- Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces
+  after investigation from Monica Green
+- Weyrich 2017: Added missing OAGR accession after consultation with authors
 
 ### Removed

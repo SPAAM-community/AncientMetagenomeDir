@@ -173,6 +173,7 @@ Sample columns are as follows:
 
 - Sample type DNA was extracted from
   - e.g. tooth, bone, dental calculus
+- If a single genome is derived from multiple tissue types from the same individual (e.g. bone and soft tissue) then the entry should simply be listed as 'tissue'
 
 > :warning: Partly [MIxS v5](https://gensc.org/mixs/) compliant field, i.e. term
 > from an [ontology](https://www.ebi.ac.uk/ols/index), and ideally either

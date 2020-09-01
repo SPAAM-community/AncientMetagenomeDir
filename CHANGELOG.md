@@ -30,6 +30,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Ferrari 2018 10.3390/genes9090436
 - McDonough 2018 10.1093/jmammal/gyy080
 - Campana 2014 10.1186/1756-0500-7-111
+- Bieker 2020 10.1111/1755-0998.13174
+  - In addition to new samples, includes re-utilised data from Sánchez-Barreiro 2016 10.1111/1755-0998.12610 and Exposito-Alonso 2018 10.1371/journal.pgen.1007155
 
 #### Ancient Single Genome: Host Associated
 
@@ -93,6 +95,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Ardelean 2020 10.1038/s41586-020-2509-0
 - Domain 2020 10.3389/fevo.2020.00218
 - Armbrecht 2020 10.1111/1755-0998.13162
+- Pedersen 2016 10.1038/nature19085
+- Graham 2016 10.1073/pnas.1604903113
+- Wang 2017 10.1111/jbi.13010
+- Seersholm 2016 10.1038/ncomms13389
+
 
 #### Ancient Metagenome: Anthropogenic
 

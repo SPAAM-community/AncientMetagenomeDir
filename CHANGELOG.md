@@ -98,6 +98,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Pedersen 2016 10.1038/nature19085
 - Graham 2016 10.1073/pnas.1604903113
 - Wang 2017 10.1111/jbi.13010
+- Seersholm 2016 10.1038/ncomms13389
 
 
 #### Ancient Metagenome: Anthropogenic

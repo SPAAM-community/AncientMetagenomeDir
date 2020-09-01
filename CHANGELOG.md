@@ -94,6 +94,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Domain 2020 10.3389/fevo.2020.00218
 - Armbrecht 2020 10.1111/1755-0998.13162
 - Pedersen 2016 10.1038/nature19085
+- Graham 2016 10.1073/pnas.1604903113
+- Wang 2017 10.1111/jbi.13010
+
 
 #### Ancient Metagenome: Anthropogenic
 

@@ -151,6 +151,50 @@ plot_cumulative_timeline <- function(x) {
 
 ```
 
+### Map
+
+```{r}
+stats_map <- function(...){
+
+x <- list(raw_environmental, raw_hostmetagenome, raw_hostsinglegenome)
+
+dat <- lapply(x, FUN = function(y) {
+  select(
+    y,
+    List, sample_name, geo_loc_name, latitude, longitude,
+    publication_year
+  ) %>% distinct()
+}) %>%
+  bind_rows() %>%
+  mutate(List = factor(List, levels = names(colours)))
+
+dat <- dat %>%
+  group_by(List, geo_loc_name, latitude, longitude) %>%
+  summarise(count = n()) %>%
+  mutate(List = factor(List, levels = names(colours)))
+}
+
+
+plot_map <- function(dat){
+  
+  world_map <- map_data("world")
+  
+  ggplot() +
+    geom_polygon(data = world_map, aes(x = long, y = lat, group = group), fill = "white", colour = "grey") +
+    geom_point(data = dat, aes(x = longitude, y = latitude, fill = List, size = count), shape = 21, alpha = 0.5) +
+    scale_fill_brewer(palette ="Set1") +
+    theme_linedraw() +
+    facet_wrap(~List, ncol = 1) +
+    theme_classic() +
+    scale_fill_manual(values = colours, guide = guide_legend(ncol = 1)) +
+    theme(legend.position = "bottom", legend.direction="vertical") +
+    labs(fill = "Sample Type", size = "Sample Count") +
+    xlab("Longitude") +
+    ylab("Latitude")
+  
+}
+```
+
 
 ## Data Loading
 
@@ -245,36 +289,38 @@ ggsave("AncientMetagenomeDir-PublicationSample_Timeline.png",
 
 With known coordinates!
 
-```{r eval = F}
-world_map <- map_data("world")
+```{r, fig.height=7.5, fig.width=5}
+figure_map <- stats_map(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% plot_map
 
-map_hostmetagenome <- raw_hostmetagenome %>% 
-  filter(!is.na(longitude)) %>% 
-  group_by(latitude, longitude, community_type) %>% 
-  summarise(Count = n()) %>%
-  mutate(group = maps::map.where(database = "world", longitude, latitude))
+figure_map
 
-## Find country name in maps::world a site is in based on long/lat
+ggsave("AncientMetagenomeDir-Sample_Map.pdf",
+       figure_map,
+       device = cairo_pdf(),
+       units = "in",
+       width = 1,
+       height = 2,
+       scale = 4
+       )
 
-## Per Lat/Lon  
-ggplot() +
-  geom_polygon(data = world_map, aes(x = long, y = lat, group = group), fill = "white", colour = "grey") +
-  geom_point(data = map_hostmetagenome, aes(x = longitude, y = latitude, fill = community_type, size = Count), shape = 21, alpha = 0.5) +
-  scale_fill_brewer(palette ="Set1") +
-  theme_linedraw()
+ggsave("AncientMetagenomeDir-Sample_Map.png",
+       figure_map,
+       device = "png",
+       units = "in",
+       width = 1,
+       height = 2,
+       scale = 4
+       )
 
-## Country Heatmap
-map_heatmapdata <- map_hostmetagenome %>% 
-  group_by(community_type, group) %>% 
-  summarise(Total = sum(Count))
+```
 
-world2 <-left_join(world, map_heatmapdata, by = c("name" = "group"))
+How many countries does this cover?
 
-ggplot() +
-  geom_polygon(data = world_map, aes(x = long, y = lat, group = group), fill = "white", colour = "grey") +
-  geom_polygon(data = map_heatmapdata, aes(fill = Total)) +
-  scale_fill_brewer(palette ="Set1") +
-  theme_minimal()
-
+```{r}
+stats_map(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% 
+  ungroup() %>%
+  select(geo_loc_name) %>% 
+  distinct() %>% 
+  summarise(n = n())
 ```
 

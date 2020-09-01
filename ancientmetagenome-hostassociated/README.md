@@ -19,9 +19,10 @@ the oral microbiota to be included, otherwise the microbial community should be
 considered a part of the natural decomposition and be placed under the
 [environmental](../ancientmetagenome-environmental/README.md) list).
 
-Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
-reported value'. Text fields (e.g. `geo_loc_name` can be indicated with
-`Unknown`).
+Numeric fields (e.g. latitude), can be filled with `NA` to indicate 'no
+reported value'. Free text fields (e.g. `geo_loc_name`) can be indicated with
+`Unknown`, and restricted cateogory columns sometimes will have an `unknown` 
+option.
 
 All column with 'defined categories' should be validated against
 `assets/enums/<column>.json`. This is to ensure data consistency, e.g. all

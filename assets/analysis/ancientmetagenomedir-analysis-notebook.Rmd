@@ -37,6 +37,21 @@ load_thedir_data <- function(path, name) {
     select(List, everything())
 }
 
+stats_pub_timeline <- function(...){
+  x <- list(...)
+
+  ## Get only relevent columns
+  lapply(x, FUN = function(y) {
+    select(
+      y,
+      List, publication_doi,
+      publication_year
+    ) %>% distinct()
+  }) %>%
+    bind_rows() %>%
+    mutate(List = factor(List, levels = names(colours) ))
+  
+}
 
 plot_pub_timeline <- function(...) {
   ## Takes a list of AncientMetagenomeDir TSVs
@@ -66,6 +81,24 @@ plot_pub_timeline <- function(...) {
     theme_classic() +
     theme(legend.position = "bottom", axis.text.x = element_text(angle = 20)) +
     facet_wrap(~List, ncol = 1)
+}
+
+stats_cumulative_timeline <- function(...) {
+  ## Takes a list of AncientMetagenomeDir TSVs
+  x <- list(...)
+  
+  lapply(x, FUN = function(y) {
+    select(
+      y,
+      List, sample_name, publication_year,
+      publication_year
+    ) %>% distinct()
+    }) %>%
+    bind_rows() %>%
+    mutate(List = factor(List, levels = names(colours) )) %>%
+    group_by(List, publication_year) %>%
+    summarise(count = n ()) %>%
+    mutate(cumulative_sum = cumsum(count))
 }
 
 plot_cumulative_timeline <- function(...) {
@@ -134,11 +167,31 @@ colours <-c(`Host Associated Metagenome` = "#73cff3",
 figure_publication_time <- plot_pub_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental)
 ```
 
+Summary stats
+
+```{r}
+stats_pub_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% 
+  select(publication_doi) %>% 
+  arrange %>% 
+  distinct %>% 
+  summarise(n = n())
+```
+
+
 # Cumulative Samples
 
 ```{r, fig.width=5, fig.height=7}
 figure_cumulative_samples <- plot_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental)
 ```
+
+Summary stats
+
+```{r}
+stats_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>%
+  group_by(List) %>%
+  summarise(total = sum(count))
+```
+
 
 # Timelines Combined
 

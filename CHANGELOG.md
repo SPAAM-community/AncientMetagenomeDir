@@ -30,6 +30,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Ferrari 2018 10.3390/genes9090436
 - McDonough 2018 10.1093/jmammal/gyy080
 - Campana 2014 10.1186/1756-0500-7-111
+- Eerkens 2018 10.1016/j.ijpp.2018.05.001
 
 #### Ancient Single Genome: Host Associated
 
@@ -78,7 +79,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Martin 2013 10.1038/ncomms3172
 - Spyrou 2019 10.1038/s41467-019-12154-0
 - Eerkens 2018 10.1016/j.ijpp.2018.05.001
-
 
 #### Ancient Metagenome: Environmental
 

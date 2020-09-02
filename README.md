@@ -4,7 +4,7 @@
 
 ----
 [![License: CC BY
-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980834.svg)](https://doi.org/10.5281/zenodo.3980834) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg) [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir)
+4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980834.svg)](https://doi.org/10.5281/zenodo.3980834) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg) [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir) [![latest_release](https://img.shields.io/badge/Latest%20Release-v20.09-yellow)](https://github.com/SPAAM-workshop/AncientMetagenomeDir/releases)
 
 
 AncientMetagenomeDir is a community curated resource of lists of all published

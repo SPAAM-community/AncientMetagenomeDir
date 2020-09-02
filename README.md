@@ -41,14 +41,14 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 ## Usage
 
-You can find the TSV table of the metagenome of interest in the zip file under 
+:heavy_check_mark: You can find the TSV table of the metagenome of interest in the zip file under 
 'releases' on the right hand side of this repository.
 
 :warning: the TSV files in the repository represent the cutting-edge version, and
 are subject to change, please use the files in the 'releases' section for when using
 for reproducible science!
 
-For **citations** use the Zenodo DOI listed in the badge at the top of this page. 
+:book: For **citations** use the Zenodo DOI listed in the badge at the top of this page. 
 To cite a specific _release_, click on the Zenodo badge and find the corresponding 
 DOI under the 'Versions' box on the righthand side of the Zenodo webpage.
 

@@ -21,6 +21,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- McDonough 2018 10.1093/jmammal/gyy080
+  - Collapses the multi-sample but same SRS codes into one 'sample'
+  - Authors considered a whole-body speciman as a 'sample' rather than a particular tissue
+
 ## v20.09: Ancient Ksour of Ouadane
 
 ### Added

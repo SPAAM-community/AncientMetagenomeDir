@@ -48,7 +48,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
   - In addition to new samples, includes re-utilised data from Sánchez-Barreiro 2016 10.1111/1755-0998.12610 and Exposito-Alonso 2018 10.1371/journal.pgen.1007155
 - Neukamm 2020 10.1186/s12915-020-00839-8
 - Eerkens 2018 10.1016/j.ijpp.2018.05.001
-
+- Modi 2020 10.1007/s12520-019-00983-5
 
 #### Ancient Single Genome: Host Associated
 

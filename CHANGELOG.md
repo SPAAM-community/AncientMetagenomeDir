@@ -18,6 +18,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Anthropogenic
 
 ### Changed
+- Ardelean 2020: Differentiated samples with identical names
 
 ## v20.09: Ancient Ksour of Ouadane
 

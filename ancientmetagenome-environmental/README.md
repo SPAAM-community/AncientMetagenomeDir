@@ -10,10 +10,9 @@ This list covers metagenomes like:
 - sediments
 - ice cores
 
-Numeric fields (e.g. latitude), can be filled with `NA` to indicate 'no
-reported value'. Free text fields (e.g. `geo_loc_name`) can be indicated with
-`Unknown`, and restricted cateogory columns sometimes will have an `unknown` 
-option.
+Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
+reported value'. Text fields (e.g. `geo_loc_name` can be indicated with
+`Unknown`).
 
 All column with 'defined categories' should be validated against
 `assets/enums/<column>.json`. This is to ensure data consistency, e.g. all Lake
@@ -98,9 +97,24 @@ Sample columns are as follows:
 
 > :warning: Mandatory value
 
+## sedimentary_sequence
+
+- Sediment only
+- Identifier for sequence sample was taken from, e.g. core_3, or zone_a19
+- Typically cores, or quadrant of excavation
+- Missing value: `NA`
+
+## depth
+
+- Sediment only
+- Depth of sample from top of sequence (cm)
+- If reported as a range (e.g. 130-132 cm), take approximate mid-point
+
 ## sample_name
 
-- Unique identifier for that sample as used in publication
+- Unique identifier for that sample as used in the publication
+- If samples are referred to by multiple names, use the most informative
+- If samples cannot be **directly** linked to data files by any names in the publication, generate names in the format e.g. [sequence]\_[depth]\_[original name]
 
 > :warning: Mandatory value
 
@@ -130,6 +144,8 @@ Sample columns are as follows:
   - period of occupation of site
   - via coin or historical records
 
+- Sediment only:
+  - If a layer is not directly dated, 'inferred' ages are allowed if there are at least two direct dates in the relevant sequence
 
 > :warning: Mandatory value
 

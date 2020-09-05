@@ -225,3 +225,8 @@ Spyrou2019	2019	10.1038/s41467-019-12154-0	Nägeligasse, St. Peter and Paul chur
 Spyrou2019	2019	10.1038/s41467-019-12154-0	Nägeligasse, St. Peter and Paul churchyard	46.956	8.365	Switzerland	STN012.A0101	Homo sapiens	400	10.1038/s41467-019-12154-0	bacteria	Yersinia pestis	tooth	chromosome	NA	ENA	raw	ERS3607417
 Spyrou2019	2019	10.1038/s41467-019-12154-0	16 rue des Trente Six Ponts	43.592	1.446	France	TRP002.A0101/02	Homo sapiens	600	10.1038/s41467-019-12154-0	bacteria	Yersinia pestis	tooth	chromosome	NA	ENA	raw	ERS3607426
 Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	16	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	bacteria	Neisseria meningitidis	dental calculus	chromosome	NA	SRA	raw	SRS2006287
+Susat2020	2020	10.1038/s41598-020-71530-9	Mass grave 1, St. Gertrude's Church cemetery, Riga	56.954	24.119	Latvia	G488	Homo sapiens	400	10.1038/s41598-020-71530-9	bacteria	Yersinia pestis	tooth	chromosome	NA	ENA	raw	ERS4266556	
+Susat2020       2020    10.1038/s41598-020-71530-9      Mass grave 1, St. Gertrude's Church cemetery, Riga      56.954  24.119  Latvia	G645	Homo sapiens	400	10.1038/s41598-020-71530-9	bacteria	Yersinia pestis	tooth	chromosome	NA	ENA	raw	ERS4266547
+Susat2020       2020    10.1038/s41598-020-71530-9      Mass grave 2, St. Gertrude's Church cemetery, Riga      56.954  24.119	Latvia	G103	Homo sapiens	400	10.1038/s41598-020-71530-9	bacteria	Yersinia pestis	tooth	chromosome	NA	ENA	raw	ERS4266548
+Susat2020       2020    10.1038/s41598-020-71530-9      Burial pit, St. Gertrude's Church cemetery, Riga	56.954  24.119  Latvia	G701	Homo sapiens	400	10.1038/s41598-020-71530-9	bacteria	Yersinia pestis	tooth	NA	SRA	raw	ERS4266549
+

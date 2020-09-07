@@ -107,6 +107,7 @@ Sample columns are as follows:
 - Sediment only
 - Depth of sample from top of sequence (cm)
 - If reported as a range (e.g. 130-132 cm), take approximate mid-point
+- Use NA if not a sequence (e.g. core)
 
 ## sample_name
 

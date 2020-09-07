@@ -100,7 +100,7 @@ Sample columns are as follows:
 - Sediment only
 - Identifier for sequence sample was taken from, e.g. core_3, or zone_a19
 - Typically cores, or quadrant of excavation
-- Missing value: `NA`
+- Missing value: `Unknown`
 
 ## depth
 

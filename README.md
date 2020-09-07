@@ -4,7 +4,7 @@
 
 ----
 [![License: CC BY
-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980834.svg)](https://doi.org/10.5281/zenodo.3980834) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg) [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir)
+4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg) [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir) [![latest_release](https://img.shields.io/badge/Latest%20Release-v20.09-yellow)](https://github.com/SPAAM-workshop/AncientMetagenomeDir/releases)
 
 
 AncientMetagenomeDir is a community curated resource of lists of all published
@@ -41,15 +41,22 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 ## Usage
 
-Please download the `.tsv` file stored in the metagenome type of interest.
+:heavy_check_mark: You can find the TSV table of the metagenome of interest in the 
+zip file (AncientMetagenomeDir_vXX_XX.zip) under 'releases' on the right hand side of 
+this repository.
 
-For **citations** use the Zenodo DOI listed in the badge at the top of this page. 
-To cite a specific _release_, click on the Zenodo badge and find the corresponding 
-DOI under the 'Versions' box on the righthand side of the Zenodo webpage.
+:warning: the TSV files in the repository represent the cutting-edge version, and
+are subject to change, please use the files in the 'releases' section for when using
+for reproducible science!
+
+:book: For general **citations** use the Zenodo DOI listed in the badge at the top of 
+this page. To cite a specific _release_, click on the 'releases' button and use the DOI 
+in the badge of the given release's description.
 
 > The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore 
 provides no warranty or completeness or accuracy of the data. If in doubt, refer
-to the original publication of a given sample.
+to the original publication of a given sample. Corrections are accepted, and thus later
+versions may have different values.
 
 ## Contributing
 

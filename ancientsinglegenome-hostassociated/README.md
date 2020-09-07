@@ -11,9 +11,10 @@ from (e.g. not just pathogens but also commensals and other types of microbes).
 These entries should represent whole genome-level metagenomes (not amplicon data
 or solely plasmids etc.), however can be derived from enrichment techniques.
 
-Numeric fields (e.g. Sample Age), can be filled with `NA` to indicate 'no
-reported value'. Text fields (e.g. `geo_loc_name` can be indicated with
-`Unknown`).
+Numeric fields (e.g. latitude), can be filled with `NA` to indicate 'no
+reported value'. Free text fields (e.g. `geo_loc_name`) can be indicated with
+`Unknown`, and restricted cateogory columns sometimes will have an `unknown` 
+option.
 
 All column with 'defined categories' should be validated against
 `assets/enums/<column>.json`. This is to ensure data consistency, e.g. all
@@ -173,6 +174,7 @@ Sample columns are as follows:
 
 - Sample type DNA was extracted from
   - e.g. tooth, bone, dental calculus
+- If a single genome is derived from multiple tissue types from the same individual (e.g. bone and soft tissue) then the entry should simply be listed as 'tissue'
 
 > :warning: Partly [MIxS v5](https://gensc.org/mixs/) compliant field, i.e. term
 > from an [ontology](https://www.ebi.ac.uk/ols/index), and ideally either

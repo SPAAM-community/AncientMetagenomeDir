@@ -1,3 +1,5 @@
 .Rhistory
 .vscode
 .Rproj*
+.Rproj.user
+.Rhistory

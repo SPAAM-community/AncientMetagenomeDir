@@ -14,7 +14,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install ancientMetagenomeDirCheck==1.0
+          pip install ancientMetagenomeDirCheck==1.2
       - name: Make validation results directory
         run: mkdir validation/
       - name: Add 'dir check version
@@ -23,17 +23,17 @@ jobs:
       - name: test ancient host-associated metagenome (e.g. microbiomes)
         run: |
           echo -e "# Ancient Metagenome Host Associated\n\`\`\`" >> validation/validation_results.txt 
-          ancientMetagenomeDirCheck ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json >> validation/validation_results.txt
+          ancientMetagenomeDirCheck -a ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
       - name: test ancient single microbial genomes (e.g. pathogens)
         run: |
           echo -e "# Ancient Single Genome Host Associated\n\`\`\`" >> validation/validation_results.txt 
-          ancientMetagenomeDirCheck ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json >> validation/validation_results.txt
+          ancientMetagenomeDirCheck -a ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
       - name: test ancient environmental (e.g. sediment)
         run: |
           echo -e "# Ancient Metagenome Environmental\n\`\`\`" >> validation/validation_results.txt 
-          ancientMetagenomeDirCheck ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json >> validation/validation_results.txt
+          ancientMetagenomeDirCheck -a ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
       - uses: actions/upload-artifact@v1
         if: always()

@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 - Modi 2020 10.1007/s12520-019-00983-5
+- Appelt 2014 10.1128/AEM.03242-13
 
 #### Ancient Single Genome: Host Associated
 

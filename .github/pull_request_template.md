@@ -32,8 +32,9 @@ This is to close <!-- write hashtag and the corresponding issue number here, e.g
 - [ ] Checked samples in this publication are not previously published _data_ (newly re-sequenced metagenomes are OK!)?
 - [ ] Samples are shotgun metagenomes (hostassociated-singlegenome may also contain whole-genome enriched data)?
 - [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)?
-- [ ] (If applicable) Made a separate PR to add new categories to controlled lists (stored unnder `/assets/enums`, e.g. material or archive)? If so: <!-- replace this comment with that PR -->
 - [ ] Changelog is updated to include the publication under 'Added'?
+- [ ] (If applicable) Made a separate PR to add new categories to controlled lists (stored unnder `/assets/enums`, e.g. material or archive)? If so the corresponding PR is here: <!-- replace this comment with that PR -->
+
 
 <details>
   <summary>If you do not know how to check errors in failed validation checks, expand here</summary>

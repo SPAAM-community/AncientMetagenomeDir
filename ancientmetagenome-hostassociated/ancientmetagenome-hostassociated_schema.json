@@ -78,10 +78,11 @@
                     "number",
                     "null"
                 ],
+                "pattern": "^-?[0-9]+\\.[0-9]{0,3}$",
                 "minimum": -90,
                 "maximum": 90,
                 "title": "Latitude",
-                "description": "WGS 84 Latitude Ranges between -90 and 90 (e.g. as used in Google Maps)",
+                "description": "Ranges between -90 and 90",
                 "examples": [
                     51.565
                 ]
@@ -92,10 +93,11 @@
                     "number",
                     "null"
                 ],
+                "pattern": "^-?[0-9]+\\.[0-9]{0,3}$",
                 "minimum": -180,
                 "maximum": 180,
                 "title": "Longitude",
-                "description": "WGS 84 Longitude Ranges between -180 and 180 (e.g. as used in Google Maps)",
+                "description": "Ranges between -180 and 180",
                 "examples": [
                     8.84
                 ]

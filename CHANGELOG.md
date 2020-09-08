@@ -22,6 +22,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 - Ardelean 2020: Differentiated samples with identical names
+- Added regex to restrict Latitude and Longitude to maximum of three decimal places
 
 ## v20.09: Ancient Ksour of Ouadane
 

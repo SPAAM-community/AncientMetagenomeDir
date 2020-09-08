@@ -15,6 +15,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Appelt 2014 10.1128/AEM.03242-13
 
 #### Ancient Single Genome: Host Associated
+- Susat 2020 10.1038/s41598-020-71530-9
 
 #### Ancient Metagenome: Environmental
 
@@ -107,7 +108,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Mendum 2014 10.1186/1471-2164-15-270
 - Neukamm 2020 10.1186/s12915-020-00839-8
 - Eerkens 2018 10.1016/j.ijpp.2018.05.001
-- Susat 20200 0.1038/s41598-020-71530-9
 
 
 #### Ancient Metagenome: Environmental

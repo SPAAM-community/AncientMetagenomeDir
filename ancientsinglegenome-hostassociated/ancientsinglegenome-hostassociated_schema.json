@@ -76,7 +76,7 @@
             "latitude": {
                 "$id": "#/items/properties/latitude",
                 "type": [
-                    "number",
+                    "string",
                     "null"
                 ],
                 "pattern": "^-?[0-9]+\\.[0-9]{0,3}$",
@@ -91,7 +91,7 @@
             "longitude": {
                 "$id": "#/items/properties/longitude",
                 "type": [
-                    "number",
+                    "string",
                     "null"
                 ],
                 "pattern": "^-?[0-9]+\\.[0-9]{0,3}$",

@@ -161,6 +161,19 @@ Sample columns are as follows:
 
 > :warning: Mandatory value
 
+## feature
+
+- Description of the object, site, or immediate environment the sample was obtained from, following [Environment
+  Ontology](https://www.ebi.ac.uk/ols/ontologies/envo
+  - e.g. midden, cave, sea floor
+
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
+> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)  
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
+
+> :warning: Mandatory value  
+
 ## material
 
 - Description of sediment following [Environment

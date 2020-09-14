@@ -167,6 +167,19 @@
                     "10.1038/ng.2906"
                 ]
             },
+            "feature": {
+                "$id": "#/items/properties/feature",
+                "type": "string",
+                "title": "The component of a given site material metagenome is from",
+                "description": "Description of the object, site, or immediate environment the sample was obtained from following ENVO ontology",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/feature.json",
+                "examples": [
+                    "lake",
+                    "cave",
+                    "rock shelter",
+                    "midden"
+                ]
+            },
             "material": {
                 "$id": "#/items/properties/material",
                 "type": "string",

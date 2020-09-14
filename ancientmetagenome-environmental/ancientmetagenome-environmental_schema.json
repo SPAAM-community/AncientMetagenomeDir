@@ -25,6 +25,7 @@
             "sample_age",
             "sample_age_doi",
             "collection_date",
+            "feature",
             "material",
             "archive",
             "archive_accession"

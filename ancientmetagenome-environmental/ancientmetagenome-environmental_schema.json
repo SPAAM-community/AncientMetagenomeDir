@@ -19,10 +19,13 @@
             "latitude",
             "longitude",
             "geo_loc_name",
+            "sequence_name",
+            "depth",
             "sample_name",
             "sample_age",
             "sample_age_doi",
             "collection_date",
+            "feature",
             "material",
             "archive",
             "archive_accession"
@@ -108,6 +111,31 @@
                     "Germany"
                 ]
             },
+            "sequence_name": {
+                "$id": "#/items/properties/sequence_name",
+                "type": "string",
+                "title": "Name of the sedimentary sequence",
+                "description": "For cores or sedimentary sequences only - e.g. core name or excavation quadrant/race",
+                "examples": [
+                    "core_1",
+                    "zone_a19"
+                ]
+            },
+            "depth": {
+                "$id": "#/items/properties/depth",
+                "type": [
+                    "integer",
+                    "null"
+                ],
+                "minimum": 0,
+                "title": "Depth sample taken from",
+                "description": "Depth of sample taken from top of sequence in centimeters. In case of ranges use midpoint",
+                "examples": [
+                    5,
+                    10,
+                    100
+                ]
+            },
             "sample_name": {
                 "$id": "#/items/properties/sample_name",
                 "type": "string",
@@ -138,6 +166,19 @@
                 "description": "A valid DOI code (not as an URL)",
                 "examples": [
                     "10.1038/ng.2906"
+                ]
+            },
+            "feature": {
+                "$id": "#/items/properties/feature",
+                "type": "string",
+                "title": "The component of a given site material metagenome is from",
+                "description": "Description of the object, site, or immediate environment the sample was obtained from following ENVO ontology",
+                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/feature.json",
+                "examples": [
+                    "lake",
+                    "cave",
+                    "rock shelter",
+                    "midden"
                 ]
             },
             "material": {

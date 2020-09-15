@@ -165,7 +165,7 @@ Sample columns are as follows:
 
 - Description of the object, site, or immediate environment the sample was obtained from, following [Environment
   Ontology](https://www.ebi.ac.uk/ols/ontologies/envo)
-  - e.g. midden, cave, ocean, lake, archaeological site
+  - e.g. midden, cave, ocean, lake, archeological site
 
 > :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
 > [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)  

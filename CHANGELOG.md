@@ -19,6 +19,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- Braadbaart 2020 10.1016/j.jasrep.2020.102468
+
 #### Ancient Metagenome: Anthropogenic
 
 ### Changed

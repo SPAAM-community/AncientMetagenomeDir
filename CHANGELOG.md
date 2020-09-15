@@ -19,6 +19,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- Added new metadata columns to improve data reconstructions: sequence_name (e.g. core, transect), depth, feature (e.g. cave, lake) 
 - Braadbaart 2020 10.1016/j.jasrep.2020.102468
 
 #### Ancient Metagenome: Anthropogenic

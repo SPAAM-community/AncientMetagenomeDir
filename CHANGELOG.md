@@ -11,9 +11,15 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Modi 2020 10.1007/s12520-019-00983-5
+- Appelt 2014 10.1128/AEM.03242-13
+
 #### Ancient Single Genome: Host Associated
+- Susat 2020 10.1038/s41598-020-71530-9
 
 #### Ancient Metagenome: Environmental
+
+- Braadbaart 2020 10.1016/j.jasrep.2020.102468
 
 #### Ancient Metagenome: Anthropogenic
 
@@ -49,7 +55,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
   - In addition to new samples, includes re-utilised data from Sánchez-Barreiro 2016 10.1111/1755-0998.12610 and Exposito-Alonso 2018 10.1371/journal.pgen.1007155
 - Neukamm 2020 10.1186/s12915-020-00839-8
 - Eerkens 2018 10.1016/j.ijpp.2018.05.001
-- Modi 2020 10.1007/s12520-019-00983-5
+
 
 #### Ancient Single Genome: Host Associated
 
@@ -136,5 +142,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces
   after investigation from Monica Green
 - Weyrich 2017: Added missing OAGR accession after consultation with authors
+
 
 ### Removed

@@ -10,12 +10,12 @@ This PR is for a
 - [ ] [New Publication(s)](#new-publication)
 - [ ] [Correction](#correction)
 
-For the follow list(s)
+For the following list(s):
 
 - [ ] ancientmetagenome-anthropogenic ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-anthropogenic))
-- [ ] ancientmetagenome-environmental ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-environmental))
-- [ ] ancientmetagenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-hostassociated))
-- [ ] ancientsinglegenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientsinglegenome-hostassociated))
+- [ ] ancientmetagenome-environmental ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-environmental), ask **@thedir-team-dirt** for advice)
+- [ ] ancientmetagenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-hostassociated), ask **@thedir-team-bugparty** for advice)
+- [ ] ancientsinglegenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientsinglegenome-hostassociated), ask **@thedir-team-pathopeeps** for advice)
 
 ## New Publication
 
@@ -32,8 +32,9 @@ This is to close <!-- write hashtag and the corresponding issue number here, e.g
 - [ ] Checked samples in this publication are not previously published _data_ (newly re-sequenced metagenomes are OK!)?
 - [ ] Samples are shotgun metagenomes (hostassociated-singlegenome may also contain whole-genome enriched data)?
 - [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)?
-- [ ] (If applicable) Made a separate PR to add new categories to controlled lists (stored unnder `/assets/enums`, e.g. material or archive)? If so: <!-- replace this comment with that PR -->
 - [ ] Changelog is updated to include the publication under 'Added'?
+- [ ] (If applicable) Made a separate PR to add new categories to controlled lists (stored unnder `/assets/enums`, e.g. material or archive)? If so the corresponding PR is here: <!-- replace this comment with that PR -->
+
 
 <details>
   <summary>If you do not know how to check errors in failed validation checks, expand here</summary>

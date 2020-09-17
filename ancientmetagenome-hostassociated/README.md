@@ -1,6 +1,6 @@
 # AncientMetagenomeDir - Host Associated Metagenome
 
-![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
+![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
 This page describes columns definitions for the host-associated ancient
 metagenome list.
@@ -30,7 +30,7 @@ Dental calculus samples are listed as `dental calculus` (as defined in
 `assets/enums/<column>.json`). This is to ensure data consistency.
 
 If you wish to a new category, please consult with the [SPAAM
-community](spaam-workshop.github.io), and then add it to
+community](spaam-community.github.io), and then add it to
 `assets/enums/<column>.json`.
 
 Sample columns are as follows:
@@ -180,7 +180,7 @@ The type of community from the host's original body the sample is derived from.
 > [UBERON](https://www.ebi.ac.uk/ols/ontologies/uberon) (anatomy) or
 > [ENVO](https://www.ebi.ac.uk/ols/ontologies/envo) (everything else). If you
 > can't find something close enough, please ping
-> @spaam-workshop/ancientmetagenomedir-coreteam
+> @spaam-community/ancientmetagenomedir-coreteam
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 

@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://spaam-workshop.github.io/AncientMetagenomeDir/ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic_schema.json",
+    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic_schema.json",
     "type": "array",
     "title": "JSON schema for AncientMetagenomeDir ancient anthropogenic metagenome data",
     "description": "The JSON schema for AncientMetagenomeDir ancient anthropogenic metagenome data",
@@ -103,7 +103,7 @@
                 "type": "string",
                 "title": "Country name",
                 "description": "Based on modern day definitions, based on INDSC Country list",
-                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/geo_loc_name.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/geo_loc_name.json",
                 "examples": [
                     "Germany"
                 ]
@@ -145,7 +145,7 @@
                 "type": "string",
                 "title": "Type of material metagenome is from",
                 "description": "Sample type DNA was extracted from, derived from ENVO ontology terms ",
-                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/material.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/material.json",
                 "examples": [
                     "pot crust",
                     "parchment",
@@ -170,7 +170,7 @@
                 "type": "string",
                 "title": "Archiving platform",
                 "description": "Name of the nucleotide data archiving platform",
-                "$ref": "https://spaam-workshop.github.io/AncientMetagenomeDir/assets/enums/archive.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/archive.json",
                 "examples": [
                     "ENA"
                 ]

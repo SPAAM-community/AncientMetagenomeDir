@@ -4,7 +4,7 @@
 
 ----
 [![License: CC BY
-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833) ![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg) [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir) [![latest_release](https://img.shields.io/badge/Latest%20Release-v20.09-yellow)](https://github.com/SPAAM-workshop/AncientMetagenomeDir/releases)
+4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833) ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg) [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir) [![latest_release](https://img.shields.io/badge/Latest%20Release-v20.09-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
 
 
 AncientMetagenomeDir is a community curated resource of lists of all published
@@ -21,7 +21,7 @@ explored. Examples for this are (but not limited to) ancient microbiomes (host a
 ancient sedimentary DNA (environmental) and also samples used for ancient pathogen 
 screening (single genomes). See the README of each list for more detailed 
 descriptions of the contents of each list. Further modification and expansion of
-these categories can be proposed to the [SPAAM community](https://spaam-workshop.github.io) 
+these categories can be proposed to the [SPAAM community](https://spaam-community.github.io) 
 for further consideration.
 
 The purpose of this repository is not meant to be a comprehensive set of all
@@ -64,11 +64,11 @@ If you are not familiar with Git(Hub), quick start step-by-step guides can be fo
 the following:
 
 - Adding samples to a list via pull request [here](https://hackmd.io/@jfy133/H19kmDalw#/) or in PDF format
-[here](https://github.com/SPAAM-workshop/AncientMetagenomeDir/raw/master/assets/intro_to_github_and_ancientmetagenomedir.pdf)
-- Performing a pull request _review_ [here](https://hackmd.io/@jfy133/B156Z2mfP) or in PDF format [here](https://github.com/SPAAM-workshop/AncientMetagenomeDir/raw/master/assets/intro_to_ancientmetagenomedir_github_pull_request_review.pdf)
+[here](https://github.com/spaam-community/AncientMetagenomeDir/raw/master/assets/intro_to_github_and_ancientmetagenomedir.pdf)
+- Performing a pull request _review_ [here](https://hackmd.io/@jfy133/B156Z2mfP) or in PDF format [here](https://github.com/spaam-community/AncientMetagenomeDir/raw/master/assets/intro_to_ancientmetagenomedir_github_pull_request_review.pdf)
 
 More detailed versions with more tips and tricks can be seen on our wiki:
-- [Adding samples via pull request](https://github.com/SPAAM-workshop/AncientMetagenomeDir/wiki/Adding-a-Publication:-Step-by-Step-Guide)
+- [Adding samples via pull request](https://github.com/spaam-community/AncientMetagenomeDir/wiki/Adding-a-Publication:-Step-by-Step-Guide)
 
 Samples must be from *published* studies, and should only include *sample* level
 information. Preprints often have not made data avaliable at this point, and we make
@@ -89,12 +89,12 @@ SRA](https://www.ncbi.nlm.nih.gov/sra)).
 Contributing a new publication's sample information consists of the following:
 
 - check under the
-  [issues](https://github.com/SPAAM-workshop/AncientMetagenomeDir/issues) tab if
+  [issues](https://github.com/spaam-community/AncientMetagenomeDir/issues) tab if
   the paper is already listed (if not, make one!)
   - check whether the issue has already been
-    [closed](https://github.com/SPAAM-workshop/AncientMetagenomeDir/issues?q=is%3Aissue+is%3Aclosed)
+    [closed](https://github.com/spaam-community/AncientMetagenomeDir/issues?q=is%3Aissue+is%3Aclosed)
   - if it listed, check to see if there is already a [pull
-    request](https://github.com/SPAAM-workshop/AncientMetagenomeDir/pulls)
+    request](https://github.com/spaam-community/AncientMetagenomeDir/pulls)
     linked to it
 - assign yourself to the issue
 - check if site/samples have been published before (i.e. to ensure the same

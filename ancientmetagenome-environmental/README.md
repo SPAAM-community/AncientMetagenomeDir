@@ -1,6 +1,6 @@
 # AncientMetagenomeDir - Environmental
 
-![check_dataset](https://github.com/spaam-workshop/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
+![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
 This page describes columns definitions for the Environmental metagenome list.
 
@@ -18,7 +18,7 @@ Sediment samples are listed as `lake sediment` (as defined in
 `assets/enums/<column>.json`). This is to ensure data consistency.
 
 If you wish to a new category, please consult with the [SPAAM
-community](spaam-workshop.github.io), and then add it to
+community](spaam-community.github.io), and then add it to
 `assets/enums/<column>.json`.
 
 Sample columns are as follows:

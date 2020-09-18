@@ -8,7 +8,7 @@
 
 
 AncientMetagenomeDir is a community curated resource of lists of all published
-**shotgun**-sequenced ancient metagenome samples. It is primarily meant to act
+**shotgun**-sequenced ancient metagenome or microbial genome-level enriched samples. It is primarily meant to act
 as a reference guide to help point researchers toward any relevent public data
 for comparative analysis. It is hoped it will help researchers track growth and
 development of the field of ancient metagenomics over time.
@@ -52,6 +52,12 @@ for reproducible science!
 :book: For general **citations** use the Zenodo DOI listed in the badge at the top of 
 this page. To cite a specific _release_, click on the 'releases' button and use the DOI 
 in the badge of the given release's description.
+
+A preprint is also avaliable for citation:
+
+**Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir**
+James A. Fellows Yates, Aida Andrades Valtueña, Ashild J. Vågene, Becky Cribdon, Irina M. Velsko, Maxime Borry, Miriam J. Bravo-López, Antonio Fernandez-Guerra, Eleanor J. Green, Shreya L. Ramachandran, Peter D. Heintzman, Maria A. Spyrou, Alexander Hübner, Abigail S. Gancz, Jessica Hider, Aurora F. Allshouse, Christina Warinner
+_bioRxiv 2020.09.02.279570_; doi: https://doi.org/10.1101/2020.09.02.279570
 
 > The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore 
 provides no warranty or completeness or accuracy of the data. If in doubt, refer

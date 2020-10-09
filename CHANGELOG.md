@@ -13,9 +13,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Modi 2020 10.1007/s12520-019-00983-5
 - Appelt 2014 10.1128/AEM.03242-13
+- Eisenhofer 2020 10.1098/rstb.2019.0578
 
 #### Ancient Single Genome: Host Associated
 - Susat 2020 10.1038/s41598-020-71530-9
+- Eisenhofer 2020 10.1098/rstb.2019.0578
 
 #### Ancient Metagenome: Environmental
 

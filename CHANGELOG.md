@@ -19,7 +19,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Single Genome: Host Associated
 - Susat 2020 10.1038/s41598-020-71530-9
 - Eisenhofer 2020 10.1098/rstb.2019.0578
-- Lugli 2017 s40168-016-0221-y
+- Lugli 2017 10.1186/s40168-016-0221-y
 
 #### Ancient Metagenome: Environmental
 

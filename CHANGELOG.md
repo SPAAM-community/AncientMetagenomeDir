@@ -15,7 +15,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Appelt 2014 10.1128/AEM.03242-13
 - Eisenhofer 2020 10.1098/rstb.2019.0578
 - Jacobson 2020 10.1098/rstb.2019.0589
+- Sabin 2020 10.1098/rstb.2019.0576
 - Williams 2020 10.1128/MRA.00850-20
+
 
 #### Ancient Single Genome: Host Associated
 - Susat 2020 10.1038/s41598-020-71530-9
@@ -29,6 +31,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Anthropogenic
 
 ### Changed
+
 - Ardelean 2020: Differentiated samples with identical names
 
 ## v20.09: Ancient Ksour of Ouadane

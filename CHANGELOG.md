@@ -16,6 +16,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Eisenhofer 2020 10.1098/rstb.2019.0578
 - Jacobson 2020 10.1098/rstb.2019.0589
 - Sabin 2020 10.1098/rstb.2019.0576
+- Williams 2020 10.1128/MRA.00850-20
+
 
 #### Ancient Single Genome: Host Associated
 - Susat 2020 10.1038/s41598-020-71530-9

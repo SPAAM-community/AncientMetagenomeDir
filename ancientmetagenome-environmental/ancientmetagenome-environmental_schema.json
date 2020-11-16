@@ -111,6 +111,21 @@
                     "Germany"
                 ]
             },
+            "study_type": {
+                "$id": "#/items/properties/study_type",
+                "type": "string",
+                "title": "Study Type",
+                "description": "Main organism target of original eDNA study",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/study_type.json",
+                "examples": [
+                    "floral",
+                    "faunal",
+                    "microbial",
+                    "floral,faunal,microbial",
+                    "floral,microbial"
+                ]
+            }
+            
             "sequence_name": {
                 "$id": "#/items/properties/sequence_name",
                 "type": "string",

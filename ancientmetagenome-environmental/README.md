@@ -95,11 +95,17 @@ Sample columns are as follows:
 
 > :warning: Mandatory value
 
+## study_type
+
+- The primary 'organism' type that the sequence was originally used to study for.
+- These are generalised categories such as 'floral', or 'faunal', 'microbial',
+  with a combination of those (in that order) also allowed.
+
 ## sedimentary_sequence
 
 - Sediment only
 - Identifier for sequence sample was taken from, e.g. core_3, or zone_a19
-- Typically cores, or quadrant of excavation
+- Typically cores, or quadrant/square of excavation
 - Missing value: `Unknown`
 
 ## depth
@@ -107,7 +113,7 @@ Sample columns are as follows:
 - Sediment only
 - Depth of sample from top of sequence (cm)
 - If reported as a range (e.g. 130-132 cm), take approximate mid-point
-- Use NA if not a sequence (e.g. from an open site)
+- Use NA if not a sequence (e.g. from surface of an open site)
 
 ## sample_name
 

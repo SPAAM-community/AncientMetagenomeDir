@@ -95,11 +95,15 @@ Sample columns are as follows:
 
 > :warning: Mandatory value
 
-## study_type
+## study_primary_focus
 
-- The primary 'organism' type that the sequence was originally used to study for.
+- The primary 'organism' category that the sequences was originally generated for
 - These are generalised categories such as 'floral', or 'faunal', 'microbial',
   with a combination of those (in that order) also allowed.
+
+> :warning: this does NOT necessarily imply that the data can only be used for
+> the same purposes. This column is only to facilitate faster bibliographic
+> review for equivalent dataset generation
 
 ## sedimentary_sequence
 

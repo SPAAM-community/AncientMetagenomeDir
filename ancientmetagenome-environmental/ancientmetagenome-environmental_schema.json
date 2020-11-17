@@ -111,12 +111,12 @@
                     "Germany"
                 ]
             },
-            "study_type": {
-                "$id": "#/items/properties/study_type",
+            "study_primary_focus": {
+                "$id": "#/items/properties/study_primary_focus",
                 "type": "string",
-                "title": "Study Type",
+                "title": "Original study's primary focus",
                 "description": "Main organism target of original eDNA study",
-                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/study_type.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/study_primary_focus.json",
                 "examples": [
                     "floral",
                     "faunal",
@@ -124,8 +124,7 @@
                     "floral,faunal,microbial",
                     "floral,microbial"
                 ]
-            }
-            
+            },
             "sequence_name": {
                 "$id": "#/items/properties/sequence_name",
                 "type": "string",

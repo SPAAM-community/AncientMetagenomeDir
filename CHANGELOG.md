@@ -33,6 +33,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Changed
 
 - Ardelean 2020: Differentiated samples with identical names
+- Ahmed 2018: Updated sample_age and sample_age_doi
+- Graham 2016: Updated sequence_name
+- Wang 2017: Updated sequence_name
+- Pedersen 2016: Updated sequence_name and corrected two typos in depth
 
 ## v20.09: Ancient Ksour of Ouadane
 

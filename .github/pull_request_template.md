@@ -34,7 +34,7 @@ This is to close <!-- REPLACE this comment (including the < > symbols) with a ha
 
 <details>
   <summary>If you do not know how to check errors in failed validation checks, expand here</summary>
-  </details>
+</details>
 
 ## Correction
 

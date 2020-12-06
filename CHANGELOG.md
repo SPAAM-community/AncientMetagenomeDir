@@ -26,6 +26,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Added new metadata columns to improve data reconstructions: sequence_name (e.g. core, transect), depth, feature (e.g. cave, lake), study type.
 - Braadbaart 2020 10.1016/j.jasrep.2020.102468
+- DerSarkissian 2016 10.1111/1755-0998.12679
 
 #### Ancient Metagenome: Anthropogenic
 

@@ -321,37 +321,37 @@ Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France
 Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6344	39400	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637520,ERS3637540
 Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6345	40100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637521,ERS3637541
 Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6346	32100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637522,ERS3637542
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE1_Abalone	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624431
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE2_Abalone	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624432
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE3m_Abalone	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624433
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE3p_Abalone	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624434
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	49.45	-2.59	Guernsey	faunal,microbial	Unknown	NA	gue_Abalone	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624435
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	36	18	Mediterranean Sea	faunal,microbial	Unknown	NA	med_Abalone	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624436
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	43.1	144.8	Japan	faunal,microbial	Unknown	NA	AKKp_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624437
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	33.38	126.55	South Korea	faunal,microbial	Unknown	NA	KOR_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624438
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.58	-4.57	France	faunal,microbial	Unknown	NA	LAN1p_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624439
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.58	-4.57	France	faunal,microbial	Unknown	NA	LAN2p_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624440
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.58	-4.57	France	faunal,microbial	Unknown	NA	LAN3p_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624441
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	34.5	136.5	Japan	faunal,microbial	Unknown	NA	MATp_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624442
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	45.46	12.35	Italy	faunal,microbial	Unknown	NA	MURp_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624443
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.58	-4.57	France	faunal,microbial	Unknown	NA	NEG_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624444
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.58	-4.57	France	faunal,microbial	Unknown	NA	POS_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624445
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	60.65	4.8	Norway	faunal,microbial	Unknown	NA	SELp_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624446
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE1_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624431
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE2_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624432
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE3m_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624433
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE3p_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624434
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	49.45	-2.59	Guernsey	faunal,microbial	Unknown	NA	gue_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624435
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	36	18	Mediterranean Sea	faunal,microbial	Unknown	NA	med_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624436
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	43.1	144.8	Japan	faunal,microbial	Unknown	NA	AKKp_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624437
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	33.38	126.55	South Korea	faunal,microbial	Unknown	NA	KOR_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624438
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.58	-4.57	France	faunal,microbial	Unknown	NA	LAN1p_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624439
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.58	-4.57	France	faunal,microbial	Unknown	NA	LAN2p_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624440
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.58	-4.57	France	faunal,microbial	Unknown	NA	LAN3p_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624441
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	34.5	136.5	Japan	faunal,microbial	Unknown	NA	MATp_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624442
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	45.46	12.35	Italy	faunal,microbial	Unknown	NA	MURp_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624443
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.58	-4.57	France	faunal,microbial	Unknown	NA	NEG_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624444
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.58	-4.57	France	faunal,microbial	Unknown	NA	POS_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624445
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	60.65	4.8	Norway	faunal,microbial	Unknown	NA	SELp_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624446
 DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay1B_Clam	7400	10.1111/1755-0998.12679	archeological site	shell	NA	ENA	ERS1624447
 DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay2B_Clam	7400	10.1111/1755-0998.12679	archeological site	shell	NA	ENA	ERS1624448
 DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay3B_Clam	7400	10.1111/1755-0998.12679	archeological site	shell	NA	ENA	ERS1624449
 DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay4B_Clam	7400	10.1111/1755-0998.12679	archeological site	shell	NA	ENA	ERS1624450
 DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	45.79	-0.95	France	faunal,microbial	Unknown	NA	gripB_Clam	1300	10.1111/1755-0998.12679	archeological site	shell	NA	ENA	ERS1624451
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	45.851	-1.061	France	faunal,microbial	Unknown	NA	lmc1B_Clam	350	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624452
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	45.851	-1.061	France	faunal,microbial	Unknown	NA	lmc2B_Clam	350	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624453
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	45.851	-1.061	France	faunal,microbial	Unknown	NA	lmc3B_Clam	350	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624454
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	56.6	8.4	Denmark	faunal,microbial	Unknown	NA	nis_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624455
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	56.92	8.75	Denmark	faunal,microbial	Unknown	NA	thi_Clam	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624456
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	45.851	-1.061	France	faunal,microbial	Unknown	NA	lmc1B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624452
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	45.851	-1.061	France	faunal,microbial	Unknown	NA	lmc2B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624453
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	45.851	-1.061	France	faunal,microbial	Unknown	NA	lmc3B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624454
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	56.6	8.4	Denmark	faunal,microbial	Unknown	NA	nis_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624455
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	56.92	8.75	Denmark	faunal,microbial	Unknown	NA	thi_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624456
 DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	56.715	10.162	Denmark	faunal,microbial	Unknown	NA	hav_Mussel	7000	10.1111/1755-0998.12679	archeological site	shell	NA	ENA	ERS1624457
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	56.06	12.56	Denmark	faunal,microbial	Unknown	NA	hel_Quahog	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624458
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	NA	NA	Unknown	faunal,microbial	Unknown	NA	quahog2_Quahog	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624459
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	56.06	12.56	Denmark	faunal,microbial	Unknown	NA	hel_Quahog	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624458
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	NA	NA	Unknown	faunal,microbial	Unknown	NA	quahog2_Quahog	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624459
 DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	62.162	-7.165	Faroe Islands	faunal,microbial	Unknown	NA	ves_Quahog	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624460
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE5p_Oyster	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624461
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE5m_Oyster	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624462
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.31	-4.14	France	faunal,microbial	Unknown	NA	LEF-B_Scallop	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624463
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.32	-4.56	France	faunal,microbial	Unknown	NA	ROS-B_Scallop	100	10.1111/1755-0998.12679	Unknown	shell	NA	ENA	ERS1624464
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE5p_Oyster	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624461
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.4	-4.5	France	faunal,microbial	Unknown	NA	BRE5m_Oyster	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624462
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.31	-4.14	France	faunal,microbial	Unknown	NA	LEF-B_Scallop	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624463
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	48.32	-4.56	France	faunal,microbial	Unknown	NA	ROS-B_Scallop	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624464

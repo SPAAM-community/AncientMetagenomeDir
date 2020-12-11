@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     container: rocker/tidyverse
     steps:
-      - name: Checkout code
       - uses: actions/checkout@v2
      
       - name: Generate timeline plots

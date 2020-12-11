@@ -1,0 +1,26 @@
+name: AncientMetagenomeDir Live Status Updates
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    container: rocker/tidyverse
+    steps:
+      - name: Checkout code
+      - uses: actions/checkout@v2
+     
+      - name: Generate timeline plots
+        run: Rscript assets/analysis/plot_timelines.R
+      - name: Generate map plots
+        run: Rscript assets/analysis/plot_maps.R
+      - name: Generate age plots
+        run: Rscript assets/analysis/plot_age.R
+     
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update AncientMetagenomeDir status images"
+          file_pattern: assets/analysis/live/*png

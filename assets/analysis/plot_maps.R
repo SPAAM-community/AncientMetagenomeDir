@@ -13,14 +13,14 @@ data_map <- stats_map(raw_hostmetagenome, raw_hostsinglegenome, raw_environmenta
 
 figure_map <- plot_map(data_map)
 
-ggsave("AncientMetagenomeDir-Sample_Map.pdf",
-       path = "assets/analysis/live/",
-       figure_map,
-       device = cairo_pdf(),
-       units = "in",
-       width = 3.5,
-       height = 7
-)
+# ggsave("AncientMetagenomeDir-Sample_Map.pdf",
+#        path = "assets/analysis/live/",
+#        figure_map,
+#        device = cairo_pdf(),
+#        units = "in",
+#        width = 3.5,
+#        height = 7
+# )
 
 ggsave("AncientMetagenomeDir-Sample_Map.png",
        path = "assets/analysis/live/",

@@ -8,10 +8,9 @@ on:
 jobs:
   live-status-image-update:
     runs-on: ubuntu-latest
-    container: rocker/r-base
     steps:
       - uses: actions/checkout@v2
-
+      - uses: s-weigand/setup-conda@v1
       - name: Install required packages
         run: |
           conda env create --file assets/analysis/analysis_environment.yml

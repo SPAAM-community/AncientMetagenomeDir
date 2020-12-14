@@ -8,23 +8,22 @@ on:
 jobs:
   live-status-image-update:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
     steps:
       - uses: actions/checkout@v2
       - uses: conda-incubator/setup-miniconda@v2
         with:
-          auto-update-conda: true
-          environment-file: assets/analysis/analysis_environment.yml
           activate-environment: ancientmetagenomedir-live-status-update
-      - name: Conda info
-        shell: bash -l {0}
-        run: conda info
-          conda activate 
-      - name: Generate timeline plots
-        run: Rscript assets/analysis/plot_timelines.R ${GITHUB_WORKSPACE}/
+          environment-file: assets/analysis/analysis_environment.yml
+          auto-activate-base: true
+          channels: conda-forge,defaults
       - name: Generate map plots
-        run: Rscript assets/analysis/plot_maps.R ${GITHUB_WORKSPACE}/
-      - name: Generate age plots
-        run: Rscript assets/analysis/plot_ages.R ${GITHUB_WORKSPACE}/
+        run: |
+          Rscript assets/analysis/plot_timelines.R ${GITHUB_WORKSPACE}/
+          Rscript assets/analysis/plot_maps.R ${GITHUB_WORKSPACE}/
+          Rscript assets/analysis/plot_ages.R ${GITHUB_WORKSPACE}/
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Update AncientMetagenomeDir live-status images"

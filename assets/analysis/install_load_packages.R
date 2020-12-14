@@ -5,6 +5,7 @@ install.packages("tidyr", repos='http://cran.rstudio.com/')
 install.packages("dplyr", repos='http://cran.rstudio.com/')
 install.packages("lubridate", repos='http://cran.rstudio.com/')
 install.packages("ggplot2", repos='http://cran.rstudio.com/')
+install.packages("maps", repos="http://cran.rstudio.com/")
 
 library(readr)
 library(tidyr)

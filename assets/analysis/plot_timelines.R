@@ -27,15 +27,15 @@ figure_cumulative_samples <- stats_cumulative_timeline(raw_hostmetagenome, raw_h
 
 print(getwd())
 
-ggsave("AncientMetagenomeDir-Publication_Timeline.pdf",
-       path = out_dir,
-       figure_publication_time,
-       device = cairo_pdf(),
-       units = "in",
-       width = 3.5,
-       height = 4,
-       scale = 2
-)
+# ggsave("AncientMetagenomeDir-Publication_Timeline.pdf",
+#        path = out_dir,
+#        figure_publication_time,
+#        device = cairo_pdf(),
+#        units = "in",
+#        width = 3.5,
+#        height = 4,
+#        scale = 2
+# )
 
 ggsave("AncientMetagenomeDir-Publication_Timeline.png",
        path = out_dir,
@@ -47,15 +47,15 @@ ggsave("AncientMetagenomeDir-Publication_Timeline.png",
        scale = 2
 )
 
-ggsave("AncientMetagenomeDir-Sample_Timeline.pdf",
-       path = out_dir,
-       figure_cumulative_samples,
-       device = cairo_pdf(),
-       units = "in",
-       width = 3.5,
-       height = 4,
-       scale = 2
-)
+# ggsave("AncientMetagenomeDir-Sample_Timeline.pdf",
+#        path = out_dir,
+#        figure_cumulative_samples,
+#        device = cairo_pdf(),
+#        units = "in",
+#        width = 3.5,
+#        height = 4,
+#        scale = 2
+# )
 
 ggsave("AncientMetagenomeDir-Sample_Timeline.png",
        path = out_dir,

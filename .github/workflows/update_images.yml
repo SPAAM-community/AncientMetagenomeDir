@@ -20,7 +20,7 @@ jobs:
       - name: Generate map plots
         run: Rscript assets/analysis/plot_maps.R ${GITHUB_WORKSPACE}/
       - name: Generate age plots
-        run: Rscript assets/analysis/plot_age.R ${GITHUB_WORKSPACE}/
+        run: Rscript assets/analysis/plot_ages.R ${GITHUB_WORKSPACE}/
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:

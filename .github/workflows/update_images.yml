@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  job1:
+  live-status-image-update:
     runs-on: ubuntu-latest
     container: rocker/r-base
     steps:

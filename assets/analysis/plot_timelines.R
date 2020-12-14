@@ -21,6 +21,7 @@ figure_publication_time <- stats_pub_timeline(raw_hostmetagenome, raw_hostsingle
 
 figure_cumulative_samples <- stats_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% plot_cumulative_timeline()
 
+print(pwd())
 
 ggsave("AncientMetagenomeDir-Publication_Timeline.pdf",
        path = "AncientMetagenomeDir/assets/analysis/live",
@@ -31,8 +32,6 @@ ggsave("AncientMetagenomeDir-Publication_Timeline.pdf",
        height = 4,
        scale = 2
 )
-
-pwd()
 
 ggsave("AncientMetagenomeDir-Publication_Timeline.png",
        path = "AncientMetagenomeDir/assets/analysis/live",

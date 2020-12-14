@@ -60,7 +60,6 @@ figure_age_timeline <- ggplot() +
 # )
 
 ggsave("AncientMetagenomeDir-Sample_AgeTimeline.png",
-      path = "AncientMetagenomeDir/assets/analysis/live",
       path = out_dir,
       device = "png",
       units = "in",

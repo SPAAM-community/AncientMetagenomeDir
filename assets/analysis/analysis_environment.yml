@@ -1,0 +1,15 @@
+name: ancientmetagenomedir-live-status-update
+channels:
+  - r
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::r-base=4.0.3
+  - conda-forge::r-readr=1.4.0
+  - conda-forge::r-dplyr=1.0.2
+  - conda-forge::r-ggplot2=3.3.2
+  - conda-forge::r-lubridate=1.7.9.2
+  - conda-forge::r-maps=3.3.0
+  - conda-forge::r-scales=1.1.1
+  - conda-forge::r-tibble=3.0.4
+  - conda-forge::r-tidyr=1.1.2

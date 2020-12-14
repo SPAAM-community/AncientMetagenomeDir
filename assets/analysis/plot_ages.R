@@ -46,17 +46,17 @@ figure_age_timeline <- ggplot() +
   theme(legend.position = "bottom") +
   facet_wrap(~factor(List, levels = names(dir_colours)), ncol = 1)
 
-# ggsave("AncientMetagenomeDir-Sample_AgeTimeline.pdf",
-#        path = "assets/analysis/live",
-#        figure_age_timeline,
-#        device = cairo_pdf(),
-#        units = "in",
-#        width = 7,
-#        height = 7
-# )
+ggsave("AncientMetagenomeDir-Sample_AgeTimeline.pdf",
+       path = "AncientMetagenomeDir/assets/analysis/live",
+       figure_age_timeline,
+       device = cairo_pdf(),
+       units = "in",
+       width = 7,
+       height = 7
+)
 
 ggsave("AncientMetagenomeDir-Sample_AgeTimeline.png",
-       path = "assets/analysis/live",
+       path = "AncientMetagenomeDir/assets/analysis/live",
        figure_age_timeline,
        device = "png",
        units = "in",

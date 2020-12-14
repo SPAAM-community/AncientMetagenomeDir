@@ -1,5 +1,7 @@
 #!/usr/bin/env Rscript
 
+args = commandArgs(trailingOnly=TRUE)
+
 library(readr)
 library(tidyr)
 library(dplyr)
@@ -12,6 +14,8 @@ library(tibble)
 source("assets/analysis/functions.R")
 source("assets/analysis/design_assets.R")
 
+out_dir = paste0(args[1], "assets/analysis/live", sep="/")
+
 raw_hostmetagenome <- load_thedir_data("ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv", "Host Associated Metagenome") 
 raw_hostsinglegenome <- load_thedir_data("ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv", "Host Associated Single Genome") 
 raw_environmental <- load_thedir_data("ancientmetagenome-environmental/ancientmetagenome-environmental.tsv", "Environmental Metagenome") 
@@ -19,8 +23,8 @@ raw_environmental <- load_thedir_data("ancientmetagenome-environmental/ancientme
 
 # Combine data
 dat_hist <- stats_age_timeline(raw_hostmetagenome,
-                               raw_hostsinglegenome,
-                               raw_environmental) #%>%
+                              raw_hostsinglegenome,
+                              raw_environmental) #%>%
 #filter(sample_age < 50000)
 
 # Plot the histograms - generating eachone separately as each need their own 
@@ -47,19 +51,19 @@ figure_age_timeline <- ggplot() +
   facet_wrap(~factor(List, levels = names(dir_colours)), ncol = 1)
 
 ggsave("AncientMetagenomeDir-Sample_AgeTimeline.pdf",
-       path = "AncientMetagenomeDir/assets/analysis/live",
-       figure_age_timeline,
-       device = cairo_pdf(),
-       units = "in",
-       width = 7,
-       height = 7
+      path = out_dir,
+      figure_age_timeline,
+      device = cairo_pdf(),
+      units = "in",
+      width = 7,
+      height = 7
 )
 
 ggsave("AncientMetagenomeDir-Sample_AgeTimeline.png",
-       path = "AncientMetagenomeDir/assets/analysis/live",
-       figure_age_timeline,
-       device = "png",
-       units = "in",
-       width = 7,
-       height = 7
+      path = "AncientMetagenomeDir/assets/analysis/live",
+      path = out_dir,
+      device = "png",
+      units = "in",
+      width = 7,
+      height = 7
 )

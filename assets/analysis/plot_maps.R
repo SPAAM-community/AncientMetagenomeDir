@@ -1,5 +1,7 @@
 #!/usr/bin/env Rscript
 
+args = commandArgs(trailingOnly=TRUE)
+
 library(readr)
 library(tidyr)
 library(dplyr)
@@ -12,6 +14,8 @@ library(tibble)
 source("assets/analysis/functions.R")
 source("assets/analysis/design_assets.R")
 
+out_dir = paste0(args[1], "assets/analysis/live", sep="/")
+
 raw_hostmetagenome <- load_thedir_data("ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv", "Host Associated Metagenome") 
 raw_hostsinglegenome <- load_thedir_data("ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv", "Host Associated Single Genome") 
 raw_environmental <- load_thedir_data("ancientmetagenome-environmental/ancientmetagenome-environmental.tsv", "Environmental Metagenome") 
@@ -22,7 +26,7 @@ data_map <- stats_map(raw_hostmetagenome, raw_hostsinglegenome, raw_environmenta
 figure_map <- plot_map(data_map)
 
 ggsave("AncientMetagenomeDir-Sample_Map.pdf",
-       path = "AncientMetagenomeDir/assets/analysis/live",
+       path = out_dir,
        figure_map,
        device = cairo_pdf(),
        units = "in",
@@ -31,7 +35,7 @@ ggsave("AncientMetagenomeDir-Sample_Map.pdf",
 )
 
 ggsave("AncientMetagenomeDir-Sample_Map.png",
-       path = "AncientMetagenomeDir/assets/analysis/live",
+       path = out_dir,
        figure_map,
        device = "png",
        units = "in",

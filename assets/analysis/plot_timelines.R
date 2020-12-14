@@ -1,5 +1,7 @@
 #!/usr/bin/env Rscript
 
+args = commandArgs(trailingOnly=TRUE)
+
 library(readr)
 library(tidyr)
 library(dplyr)
@@ -11,6 +13,8 @@ library(tibble)
 
 source("assets/analysis/functions.R")
 source("assets/analysis/design_assets.R")
+
+out_dir = paste0(args[1], "assets/analysis/live", sep="/")
 
 raw_hostmetagenome <- load_thedir_data("ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv", "Host Associated Metagenome") 
 raw_hostsinglegenome <- load_thedir_data("ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv", "Host Associated Single Genome") 
@@ -24,7 +28,7 @@ figure_cumulative_samples <- stats_cumulative_timeline(raw_hostmetagenome, raw_h
 print(getwd())
 
 ggsave("AncientMetagenomeDir-Publication_Timeline.pdf",
-       path = "AncientMetagenomeDir/assets/analysis/live",
+       path = out_dir,
        figure_publication_time,
        device = cairo_pdf(),
        units = "in",
@@ -34,7 +38,7 @@ ggsave("AncientMetagenomeDir-Publication_Timeline.pdf",
 )
 
 ggsave("AncientMetagenomeDir-Publication_Timeline.png",
-       path = "AncientMetagenomeDir/assets/analysis/live",
+       path = out_dir,
        figure_publication_time,
        device = "png",
        units = "in",
@@ -44,7 +48,7 @@ ggsave("AncientMetagenomeDir-Publication_Timeline.png",
 )
 
 ggsave("AncientMetagenomeDir-Sample_Timeline.pdf",
-       path = "AncientMetagenomeDir/assets/analysis/live",
+       path = out_dir,
        figure_cumulative_samples,
        device = cairo_pdf(),
        units = "in",
@@ -54,7 +58,7 @@ ggsave("AncientMetagenomeDir-Sample_Timeline.pdf",
 )
 
 ggsave("AncientMetagenomeDir-Sample_Timeline.png",
-       path = "AncientMetagenomeDir/assets/analysis/live",
+       path = out_dir,
        figure_cumulative_samples,
        device = "png",
        units = "in",

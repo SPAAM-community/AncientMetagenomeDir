@@ -1,5 +1,12 @@
-library(tidyverse)
-library(maps)
+#!/usr/bin/env Rscript
+
+library("readr")
+library("tidyr")
+library("dplyr")
+library("ggplot2")
+library("lubridate")
+library("maps")
+library("scales")
 
 source("assets/analysis/functions.R")
 source("assets/analysis/design_assets.R")

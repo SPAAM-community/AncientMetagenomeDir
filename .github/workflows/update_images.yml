@@ -27,3 +27,5 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Update AncientMetagenomeDir live-status images"
+          push_options: --force 
+          token: ${{ secrets.GIT_AUTO_COMMIT_ACTION }}

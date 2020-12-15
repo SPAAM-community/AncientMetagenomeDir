@@ -76,9 +76,11 @@ versions may have different values.
 
 ## Current Status
 
-<p align="center">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Timeline.png" width="50%" height = "50%">
-
+<p float="center">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Timeline.png" width="48%" height = "48%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Publication_Timeline.png" width="48%" height = "48%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_AgeTimeline.png" width="48%" height = "48%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.png" width="24%" height = "24%">
 </p>
 
 ## Contributing

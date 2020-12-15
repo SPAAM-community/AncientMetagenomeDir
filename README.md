@@ -6,7 +6,6 @@
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833) ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg) [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir) [![latest_release](https://img.shields.io/badge/Latest%20Release-v20.09-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
 
-
 AncientMetagenomeDir is a community curated resource of lists of all published
 **shotgun**-sequenced ancient metagenome or microbial genome-level enriched samples. It is primarily meant to act
 as a reference guide to help point researchers toward any relevent public data
@@ -39,6 +38,17 @@ release a citeable DOI. Each release will also include a changelog to record all
 additions and any corrections or modifications. Therefore researchers are free
 to use the information in their own publications, as per the CC-BY 4.0 licence.
 
+<!-- TOC -->
+
+- [Usage](#usage)
+- [Current Status](#current-status)
+- [Contributing](#contributing)
+  - [Own Publications](#own-publications)
+  - [Previous Publications](#previous-publications)
+  - [Guidelines and Conventions](#guidelines-and-conventions)
+
+<!-- /TOC -->
+
 ## Usage
 
 :heavy_check_mark: You can find the TSV table of the metagenome of interest in the 
@@ -63,6 +73,13 @@ _bioRxiv 2020.09.02.279570_; doi: https://doi.org/10.1101/2020.09.02.279570
 provides no warranty or completeness or accuracy of the data. If in doubt, refer
 to the original publication of a given sample. Corrections are accepted, and thus later
 versions may have different values.
+
+## Current Status
+
+<p align="center">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Timeline.png" width="50%" height = "50%">
+
+</p>
 
 ## Contributing
 

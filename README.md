@@ -77,7 +77,8 @@ versions may have different values.
 ## Current Status
 
 <p align="center">
-  <img src="assets/analysis/live/AncientMetagenomeDir-PublicationSample_Timeline.png" width="50%" height = "50%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Timeline.png" width="50%" height = "50%">
+
 </p>
 
 ## Contributing

@@ -43,9 +43,9 @@ ggsave("AncientMetagenomeDir-Publication_Timeline.png",
        figure_publication_time,
        device = "png",
        units = "in",
-       width = 3.5,
-       height = 4,
-       scale = 2
+       width = 5,
+       height = 6,
+       scale = 0.8
 )
 
 # ggsave("AncientMetagenomeDir-Sample_Timeline.pdf",
@@ -63,7 +63,7 @@ ggsave("AncientMetagenomeDir-Sample_Timeline.png",
        figure_cumulative_samples,
        device = "png",
        units = "in",
-       width = 3.5,
-       height = 4,
-       scale = 2
+       width = 5,
+       height = 6,
+       scale = 0.8
 )

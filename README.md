@@ -80,7 +80,7 @@ versions may have different values.
   <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Timeline.png" width="48%" height = "48%">
   <img src="assets/analysis/live/AncientMetagenomeDir-Publication_Timeline.png" width="48%" height = "48%">
   <img src="assets/analysis/live/AncientMetagenomeDir-Sample_AgeTimeline.png" width="48%" height = "48%">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.png" width="24%" height = "24%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.png" width="48%" height = "48%">
 </p>
 
 ## Contributing

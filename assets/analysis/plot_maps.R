@@ -39,6 +39,7 @@ ggsave("AncientMetagenomeDir-Sample_Map.png",
        figure_map,
        device = "png",
        units = "in",
-       width = 3.5,
-       height = 7
+       width = 5,
+       height = 6,
+       scale = 0.8
 )

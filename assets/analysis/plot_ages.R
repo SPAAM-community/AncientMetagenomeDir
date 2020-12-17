@@ -47,7 +47,8 @@ figure_age_timeline <- ggplot() +
   ylab("Samples (n, log-scaled)") +
   xlab("Years before present (log-scaled)")  +
   labs(fill = NULL) +
-  theme(legend.position = "bottom") +
+  theme(legend.position = "none") +
+  ggtitle("Age distribution of samples (Before Present)", subtitle = paste("As of", Sys.Date())) +
   facet_wrap(~factor(List, levels = names(dir_colours)), ncol = 1)
 
 # ggsave("AncientMetagenomeDir-Sample_AgeTimeline.pdf",
@@ -63,6 +64,7 @@ ggsave("AncientMetagenomeDir-Sample_AgeTimeline.png",
       path = out_dir,
       device = "png",
       units = "in",
-      width = 7,
-      height = 7
+      width = 5,
+      height = 6,
+      scale = 0.8
 )

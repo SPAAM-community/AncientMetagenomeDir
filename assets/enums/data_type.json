@@ -17,6 +17,7 @@
     "raw,binned_mag",
     "raw,assembly,binned_cag",
     "raw,binned_cag",
-    "assembly,binned_cag"
+    "assembly,binned_cag",
+    "raw,binned_mag,consensus"
   ]
 }

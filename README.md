@@ -16,11 +16,11 @@ These lists contain information such as publication, sample name, sample type,
 geographic location, dates and DOIs and other accession numbers to **samples**
 in establised sequencing data databases. We define here 'metagenome' in a broad
 sense, primarily focusing any data where the whole DNA content is analysed and
-explored. Examples for this are (but not limited to) ancient microbiomes (host associated metagenome), 
-ancient sedimentary DNA (environmental) and also samples used for ancient pathogen 
-screening (single genomes). See the README of each list for more detailed 
+explored. Examples for this are (but not limited to) ancient microbiomes (host associated metagenome),
+ancient sedimentary DNA (environmental) and also samples used for ancient pathogen
+screening (single genomes). See the README of each list for more detailed
 descriptions of the contents of each list. Further modification and expansion of
-these categories can be proposed to the [SPAAM community](https://spaam-community.github.io) 
+these categories can be proposed to the [SPAAM community](https://spaam-community.github.io)
 for further consideration.
 
 The purpose of this repository is not meant to be a comprehensive set of all
@@ -51,25 +51,25 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 ## Usage
 
-:heavy_check_mark: You can find the TSV table of the metagenome of interest in the 
-zip file (AncientMetagenomeDir_vXX_XX.zip) under 'releases' on the right hand side of 
+:heavy_check_mark: You can find the TSV table of the metagenome of interest in the
+zip file (AncientMetagenomeDir_vXX_XX.zip) under 'releases' on the right hand side of
 this repository.
 
 :warning: the TSV files in the repository represent the cutting-edge version, and
 are subject to change, please use the files in the 'releases' section for when using
 for reproducible science!
 
-:book: For general **citations** use the Zenodo DOI listed in the badge at the top of 
-this page. To cite a specific _release_, click on the 'releases' button and use the DOI 
+:book: For general **citations** use the Zenodo DOI listed in the badge at the top of
+this page. To cite a specific _release_, click on the 'releases' button and use the DOI
 in the badge of the given release's description.
 
-A preprint is also avaliable for citation:
+A preprint is also available for citation:
 
 **Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir**
 James A. Fellows Yates, Aida Andrades Valtueña, Ashild J. Vågene, Becky Cribdon, Irina M. Velsko, Maxime Borry, Miriam J. Bravo-López, Antonio Fernandez-Guerra, Eleanor J. Green, Shreya L. Ramachandran, Peter D. Heintzman, Maria A. Spyrou, Alexander Hübner, Abigail S. Gancz, Jessica Hider, Aurora F. Allshouse, Christina Warinner
-_bioRxiv 2020.09.02.279570_; doi: https://doi.org/10.1101/2020.09.02.279570
+_bioRxiv 2020.09.02.279570_; doi: [https://doi.org/10.1101/2020.09.02.279570](https://doi.org/10.1101/2020.09.02.279570)
 
-> The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore 
+> The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore
 provides no warranty or completeness or accuracy of the data. If in doubt, refer
 to the original publication of a given sample. Corrections are accepted, and thus later
 versions may have different values.
@@ -80,12 +80,14 @@ versions may have different values.
   <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Timeline.png" width="48%" height = "48%">
   <img src="assets/analysis/live/AncientMetagenomeDir-Publication_Timeline.png" width="48%" height = "48%">
   <img src="assets/analysis/live/AncientMetagenomeDir-Sample_AgeTimeline.png" width="48%" height = "48%">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.png" width="24%" height = "24%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.png" width="48%" height = "48%">
 </p>
+
+Vector versions (`.pdf`) of all images are avaliable under `assets/analysis/live`. R code for all plots are freely avaliable for modification in this repository under `assets/analysis/scripts`
 
 ## Contributing
 
-If you are not familiar with Git(Hub), quick start step-by-step guides can be found in 
+If you are not familiar with Git(Hub), quick start step-by-step guides can be found in
 the following:
 
 - Adding samples to a list via pull request [here](https://hackmd.io/@jfy133/H19kmDalw#/) or in PDF format
@@ -93,13 +95,14 @@ the following:
 - Performing a pull request _review_ [here](https://hackmd.io/@jfy133/B156Z2mfP) or in PDF format [here](https://github.com/spaam-community/AncientMetagenomeDir/raw/master/assets/intro_to_ancientmetagenomedir_github_pull_request_review.pdf)
 
 More detailed versions with more tips and tricks can be seen on our wiki:
+
 - [Adding samples via pull request](https://github.com/spaam-community/AncientMetagenomeDir/wiki/Adding-a-Publication:-Step-by-Step-Guide)
 
 Samples must be from *published* studies, and should only include *sample* level
 information. Preprints often have not made data avaliable at this point, and we make
 the **assumption** that peer-review has correctly evaluated any submitted metagenome is
 valid. Included papers should generally have uploaded their own data, however in certain
-cases may see exceptions (such as retrieval of bacterial genomes from off-target reads from 
+cases may see exceptions (such as retrieval of bacterial genomes from off-target reads from
 human population studies). If unsure, please consult the AncientMetagenomeDir community on [slack](https://spaam-community.slack.com/channels/ancientmetagenomedir).
 
 Samples must also have been accessible on public databases (e.g. [EBI

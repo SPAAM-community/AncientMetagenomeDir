@@ -11,7 +11,7 @@ library(maps)
 library(scales)
 library(tibble)
 
-source("assets/analysis/functions.R")
+source("assets/analysis/scripts/functions.R")
 source("assets/analysis/design_assets.R")
 
 out_dir = "assets/analysis/live"
@@ -25,20 +25,22 @@ data_map <- stats_map(raw_hostmetagenome, raw_hostsinglegenome, raw_environmenta
 
 figure_map <- plot_map(data_map)
 
-# ggsave("AncientMetagenomeDir-Sample_Map.pdf",
-#        path = out_dir,
-#        figure_map,
-#        device = cairo_pdf(),
-#        units = "in",
-#        width = 3.5,
-#        height = 7
-# )
+ggsave("AncientMetagenomeDir-Sample_Map.pdf",
+       path = out_dir,
+       plot = figure_map,
+       device = "pdf",
+       units = "in",
+       width = 5,
+       height = 6,
+       scale = 0.8
+)
 
 ggsave("AncientMetagenomeDir-Sample_Map.png",
        path = out_dir,
-       figure_map,
+       plot = figure_map,
        device = "png",
        units = "in",
-       width = 3.5,
-       height = 7
+       width = 5,
+       height = 6,
+       scale = 0.8
 )

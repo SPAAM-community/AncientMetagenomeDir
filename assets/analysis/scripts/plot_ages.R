@@ -11,7 +11,7 @@ library(maps)
 library(scales)
 library(tibble)
 
-source("assets/analysis/functions.R")
+source("assets/analysis/scripts/functions.R")
 source("assets/analysis/design_assets.R")
 
 out_dir = "assets/analysis/live"
@@ -44,25 +44,31 @@ figure_age_timeline <- ggplot() +
   scale_x_reverse(breaks = c(2,3,4,5), labels = scales::comma(c(10^2, 10^3, 10^4, 10^5)), limits = c(5, 2)) +
   theme_classic() +
   scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1, title = ""), breaks = names(dir_colours)) +
-  ylab("Samples (n, log-scaled)") +
-  xlab("Years before present (log-scaled)")  +
   labs(fill = NULL) +
-  theme(legend.position = "bottom") +
+  theme(legend.position = "none") +
+  labs(x = "Samples (n)",
+       y = "Years before present",
+       title = "Age distribution of samples", 
+       subtitle = paste("Updated:", Sys.Date()),
+       caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))) +
   facet_wrap(~factor(List, levels = names(dir_colours)), ncol = 1)
 
-# ggsave("AncientMetagenomeDir-Sample_AgeTimeline.pdf",
-#       path = out_dir,
-#       figure_age_timeline,
-#       device = cairo_pdf(),
-#       units = "in",
-#       width = 7,
-#       height = 7
-# )
+ggsave("AncientMetagenomeDir-Sample_AgeTimeline.pdf",
+       plot = figure_age_timeline,
+       path = out_dir,
+       device = cairo_pdf(),
+       units = "in",
+       width = 5,
+       height = 6,
+       scale = 0.8
+)
 
 ggsave("AncientMetagenomeDir-Sample_AgeTimeline.png",
+      plot = figure_age_timeline,
       path = out_dir,
       device = "png",
       units = "in",
-      width = 7,
-      height = 7
+      width = 5,
+      height = 6,
+      scale = 0.8
 )

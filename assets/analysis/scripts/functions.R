@@ -31,15 +31,17 @@ plot_pub_timeline <- function(dat) {
   ggplot(dat, aes(publication_year, fill = List)) +
     scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1)) +
     scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
-    ylab("Number of publications") +
-    xlab("Publication year") +
     geom_bar(bins = spanning_years$max - spanning_years$min, binwidth = 1) +
     scale_x_continuous(breaks = seq(spanning_years$min, spanning_years$max, 2)) +
     theme_classic() +
     theme(legend.position = "none") +
     facet_wrap(~List, ncol = 1) +
-    ggtitle("Publications per year", subtitle = paste("As of", Sys.Date())) +
-    labs(fill = NULL)
+    labs(title = "Publications per year", 
+        subtitle = paste("Updated:", Sys.Date()),
+        x = "Number of publications",
+        y = "Publication year",
+        fill = NULL,
+        caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir")))
 }
 
 ### Cumulative Samples Timeline
@@ -100,12 +102,14 @@ plot_cumulative_timeline <- function(x) {
     scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
     scale_x_continuous(breaks = seq(spanning_years$min_year, spanning_years$max_year, 2)) +
     theme_classic() +
-    xlab("Publication year") +
-    ylab("Number of samples (cumulative sum)") +
     scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1)) +
     theme(legend.position = "none") +
     facet_wrap(~List, ncol = 1) +
-    ggtitle("Cumulative published samples per year", subtitle = paste("As of", Sys.Date())) +
+    labs(title = "Cumulative published samples per year", 
+         subtitle = paste("Updated:", Sys.Date()),
+            x = "Publication year",
+            y = "Number of samples (cumulative sum)",
+          caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))) +
     labs(fill = NULL)
   
 }
@@ -144,10 +148,13 @@ plot_map <- function(dat){
     theme_classic() +
     scale_fill_manual(values = dir_colours) +
     theme(legend.position = "none") +
-    labs(fill = "Sample Type", size = "Sample Count") +
-    xlab("Longitude") +
-    ylab("Latitude") +
-    ggtitle("Geographic locations of samples", subtitle = paste("As of", Sys.Date())) +
+    labs(title = "Geographic locations of samples", 
+        subtitle = paste("Updated:", Sys.Date()),
+        x = "Longitude",
+        y = "Latitude",
+        fill = "Sample Type", 
+        size = "Sample Count",
+        caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))) +
     guides(fill = FALSE)
   
 }
@@ -178,4 +185,43 @@ reverselog_trans <- function(base = exp(1)) {
             log_breaks(base = base),
             domain = c(1e-100, Inf)
   )
+}
+
+# Plot histograms, with custom binning!
+plot_figure_age_timeline <- function(X, dataset, nclass = "Sturges", log = TRUE, group_order){
+  
+  X <- X %>% filter(List == dataset) %>% ungroup()
+  
+  # We steal the breaks from the base histogram
+  if (log){
+    hist_data <- hist(log10(X$sample_age), plot = FALSE, breaks = nclass)
+    scale_log = scale_x_reverse(breaks = c(2,3,4,5), labels = comma(c(10^2, 10^3, 10^4, 10^5)), limits = c(5, 2))
+  } else {
+    hist_data <- hist(X$sample_age, plot = FALSE, breaks = nclass)
+    scale_log = scale_x_reverse()
+  }
+  
+  # We calculate where we want to have the columns in the plot
+  width <- mean(diff(hist_data$breaks))
+  nudge <- -(width/2)
+  hist_df <- tibble(counts = hist_data$counts, breaks = (hist_data$breaks[1:length(hist_data$breaks)-1]), List = dataset) %>%
+    mutate(width = width, nudge = nudge, 
+           List = factor(List, levels = group_order))
+  
+  # Let's plot
+  plot <- ggplot(hist_df, aes(breaks, counts, fill = List)) +
+    geom_col(color = "black", width = width, position = position_nudge(x = nudge)) +
+    #scale_y_log10() +
+    scale_log +
+    theme_classic(base_size = 8) +
+    scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1, reverse = T)) +
+    labs(x = "Samples (n)",
+         y = "Years before present",
+         title = "Age distribution of samples", 
+         subtitle = paste("Updated:", Sys.Date()),
+         caption =  expression(paste(bold("License: CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir")))) +
+    theme(legend.position = "none",
+          strip.background = element_blank())
+    
+    return(list(plot = plot, data = hist_df))
 }

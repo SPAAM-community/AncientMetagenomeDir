@@ -26,7 +26,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Ferrari 2020 10.1098/rstb.2019.0572
 - Williams 2020 10.1128/MRA.00850-20
 
-
 #### Ancient Metagenome: Environmental
 
 - Added new metadata columns to improve data reconstructions: sequence_name (e.g. core, transect), depth, feature (e.g. cave, lake), study type.
@@ -34,6 +33,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - DerSarkissian 2016 10.1111/1755-0998.12679
 
 #### Ancient Metagenome: Anthropogenic
+
+#### Misc
+
+- Added 'live-status' summary images that are displayed on README and updated on every new submission. 
 
 ### Changed
 

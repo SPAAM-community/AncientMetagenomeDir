@@ -105,7 +105,7 @@ Sample columns are as follows:
 > the same purposes. This column is only to facilitate faster bibliographic
 > review for equivalent dataset generation
 
-## sedimentary_sequence
+## sequence_name
 
 - Sediment only
 - Identifier for sequence sample was taken from, e.g. core_3, or zone_a19

@@ -1,16 +1,16 @@
 project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	study_primary_focus	sequence_name	depth	sample_name	sample_age	sample_age_doi	feature	material	collection_date	archive	archive_accession
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	435	HA1.1	13900	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040659
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	435	HA1.12	13900	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040658
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	416	HA3.1	13200	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040657
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	403	HA4.1	12800	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040656
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	403	HA4.12	12800	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040655
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	393	HA5.1	12500	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040654
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	376	HA6.1	12000	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040653
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	376	HA6.12	12000	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040652
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	365	HA7.1	11600	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040651
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	365	HA7.12	11600	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040650
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	353	HA8.1	11000	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040649
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	353	HA8.12	11000	10.1111/bor.12207	lake	lake sediment	2015	ENA	SRS2040648
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	435	HA1.1	13900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040659
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	435	HA1.12	13900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040658
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	416	HA3.1	13100	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040657
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	403	HA4.1	12900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040656
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	403	HA4.12	12900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040655
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	393	HA5.1	12500	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040654
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	376	HA6.1	12000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040653
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	376	HA6.12	12000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040652
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	365	HA7.1	11600	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040651
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	365	HA7.12	11600	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040650
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	353	HA8.1	11000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040649
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	353	HA8.12	11000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040648
 Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	95	ELF001A_95_S81_ELFM1D1	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605424
 Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	95	ELF001A_95_S81_ELFM2D2	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605425
 Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	95	ELF001A_95_S81_ELFN1D3	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605426
@@ -191,98 +191,98 @@ Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable For
 Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-7	4	DNA-MUB17-2C-7L-SAMPLE48	1300	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416729
 Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-7	44	DNA-MUB17-2C-7L-SAMPLE50	2200	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416730
 Armbrecht2020	2020	10.1111/1755-0998.13162	Maria Island	-42.845	148.24	Tasman Sea	floral,faunal	Unknown	9	20874_MI_8.5-10cm	100	10.1111/1755-0998.13162	ocean	marine sediment	2018	SRA	SRS5214215
-Armbrecht2020	2020	10.1111/1755-0998.13163	Maria Island	-42.845	148.24	Tasman Sea	floral,faunal	Unknown	4	20871_MI_5-6cm	100	10.1111/1755-0998.13163	ocean	marine sediment	2018	SRA	SRS5214220
-Armbrecht2020	2020	10.1111/1755-0998.13164	Maria Island	-42.845	148.24	Tasman Sea	floral,faunal	Unknown	1	20868_MI_0-1.5cm	100	10.1111/1755-0998.13164	ocean	marine sediment	2018	SRA	SRS5214219
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	131	CHL_131_11266	11300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286097
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	132	CHL_132_11317	11300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286098
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	133	CHL_133_11368	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286099
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	134	CHL_134_11420	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286100
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	137	CHL_137_11575	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286101
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	140	CHL_140_11729	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286102
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	145	CHL_145_11982	12000	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286103
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	148	CHL_148_12132	12100	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286104
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	150	CHL_150_12231	12200	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286105
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	151	CHL_151_12280	12300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286106
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	153	CHL_153_12379	12400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286107
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	155	CHL_155_12485	12500	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286108
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	157	CHL_157_12615	12600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286109
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	Unknown	159	CHL_159_12810	12800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286110
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	150	SPL_15_1444	1400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286194
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	550	SPL_55_3112	3100	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286195
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	113	SPL_113_5430	5400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286196
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	153	SPL_153_7001	7000	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286197
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	173	SPL_173_7782	7800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286198
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	191	SPL_191_8967	9000	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286199
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	193	SPL_193_9133	9100	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286200
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	195	SPL_195_9299	9300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286201
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	221	SPL_221_11440	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286202
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	235	SPL_235_11534	11500	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286203
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	253	SPL_253_11630	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286204
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	256	SPL_256_11646	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286205
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	266	SPL_266_11695	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286206
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	271	SPL_271_11714	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286207
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	284	SPL_284_11769	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286208
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	289	SPL_289_11786	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286209
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	294	SPL_294_11806	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286210
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	Unknown	296	SPL_296_11814	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286211
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	481	PH081-PH155_481	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424510
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	579	PH082_579	7300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424543
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	599	PH083_599	7800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424544
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	265	PH116-PH182_265	3400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424546
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	527	PH118-PH146_527	6100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424540
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	619	PH119-PH184_619	8300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424545
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	719	PH120-PH185-PH194_719	10900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424547
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	551	PH121-PH186_551	6600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424542
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	501	PH142_501	5600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424527
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	503	PH143_503	5600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424528
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	493	PH144_493	5500	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424523
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	497	PH145_497	5500	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424525
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	531	PH147_531	6100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424541
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	507	PH148_507	5700	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424530
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	373	PH149_373	4300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424549
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	511	PH150_511	5800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424532
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	679	PH151_679	9800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424548
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	515	PH152_515	5900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424534
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	519	PH153_519	5900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424536
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	523	PH154_523	6000	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424538
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	485	PH156_485	5400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424520
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	489	PH157_489	5400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424522
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	495	PH167_495	5500	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424524
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	505	PH168_505	5700	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424529
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	509	PH169_509	5800	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424531
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	481	PH170_481	5300	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424519
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	517	PH171_517	5900	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424535
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	499	PH172_499	5600	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424526
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	477	PH173_477	5300	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424508
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	525	PH174_525	6000	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424539
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	513	PH175_513	5800	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424533
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	521	PH176_521	6000	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424537
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	477	PH177_477	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424509
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	465	PH178_465	5200	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424505
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	469	PH179_469	5200	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424506
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	461	PH180_461	5100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424550
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	Lake Hill core	473	PH181_473	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424507
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	786	JK143_786	11800	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596540
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	798	JK144_798	11900	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596545
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	810	JK145_810	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596544
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	822	JK146_822	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596546
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	834	JK147_834	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596547
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	846	JK148_846	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596548
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	794	JK219_794	11900	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596549
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	802	JK220_802	12000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596550
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	806	JK221_806	12000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596529
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	814	JK222_814	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596530
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	818	JK223_818	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596531
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	826	JK224_826	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596532
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	830	JK225_830	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596533
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	838	JK226_838	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596535
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	996	PH187_996	13300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596536
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	1000	PH188_1000	13300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596538
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	1046	PH189_1046	13600	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596537
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	1109	PH190_1109	14200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596539
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	1173	PH191_1173	15000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596541
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	1237	PH192_1237	16700	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596542
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	Lake Hill core	1301	PH193_1301	17500	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596543
+Armbrecht2020	2020	10.1111/1755-0998.13162	Maria Island	-42.845	148.24	Tasman Sea	floral,faunal	Unknown	4	20871_MI_5-6cm	100	10.1111/1755-0998.13163	ocean	marine sediment	2018	SRA	SRS5214220
+Armbrecht2020	2020	10.1111/1755-0998.13162	Maria Island	-42.845	148.24	Tasman Sea	floral,faunal	Unknown	1	20868_MI_0-1.5cm	100	10.1111/1755-0998.13164	ocean	marine sediment	2018	SRA	SRS5214219
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	131	CHL_131_11266	11300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286097
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	132	CHL_132_11317	11300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286098
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	133	CHL_133_11368	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286099
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	134	CHL_134_11420	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286100
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	137	CHL_137_11575	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286101
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	140	CHL_140_11729	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286102
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	145	CHL_145_11982	12000	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286103
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	148	CHL_148_12132	12100	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286104
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	150	CHL_150_12231	12200	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286105
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	151	CHL_151_12280	12300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286106
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	153	CHL_153_12379	12400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286107
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	155	CHL_155_12485	12500	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286108
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	157	CHL_157_12615	12600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286109
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	159	CHL_159_12810	12800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286110
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	15	SPL_15_1444	1400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286194
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	55	SPL_55_3112	3100	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286195
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	113	SPL_113_5430	5400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286196
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	153	SPL_153_7001	7000	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286197
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	173	SPL_173_7782	7800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286198
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	191	SPL_191_8967	9000	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286199
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	193	SPL_193_9133	9100	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286200
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	195	SPL_195_9299	9300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286201
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	221	SPL_221_11440	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286202
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	235	SPL_235_11534	11500	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286203
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	253	SPL_253_11630	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286204
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	256	SPL_256_11646	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286205
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	266	SPL_266_11695	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286206
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	271	SPL_271_11714	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286207
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	284	SPL_284_11769	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286208
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	289	SPL_289_11786	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286209
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	294	SPL_294_11806	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286210
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	296	SPL_296_11814	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286211
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	481	PH081-PH155_481	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424510
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	579	PH082_579	7300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424543
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	599	PH083_599	7800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424544
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	265	PH116-PH182_265	3400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424546
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	527	PH118-PH146_527	6100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424540
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	619	PH119-PH184_619	8300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424545
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	719	PH120-PH185-PH194_719	10900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424547
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	551	PH121-PH186_551	6600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424542
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	501	PH142_501	5600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424527
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	503	PH143_503	5600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424528
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	493	PH144_493	5500	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424523
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	497	PH145_497	5500	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424525
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	531	PH147_531	6100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424541
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	507	PH148_507	5700	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424530
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	373	PH149_373	4300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424549
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	511	PH150_511	5800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424532
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	679	PH151_679	9800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424548
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	515	PH152_515	5900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424534
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	519	PH153_519	5900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424536
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	523	PH154_523	6000	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424538
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	485	PH156_485	5400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424520
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	489	PH157_489	5400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424522
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	495	PH167_495	5500	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424524
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	505	PH168_505	5700	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424529
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	509	PH169_509	5800	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424531
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	481	PH170_481	5300	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424519
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	517	PH171_517	5900	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424535
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	499	PH172_499	5600	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424526
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	477	PH173_477	5300	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424508
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	525	PH174_525	6000	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424539
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	513	PH175_513	5800	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424533
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	521	PH176_521	6000	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424537
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	477	PH177_477	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424509
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	465	PH178_465	5200	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424505
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	469	PH179_469	5200	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424506
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	461	PH180_461	5100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424550
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	473	PH181_473	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424507
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	786	JK143_786	11800	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596540
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	798	JK144_798	11900	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596545
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	810	JK145_810	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596544
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	822	JK146_822	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596546
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	834	JK147_834	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596547
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	846	JK148_846	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596548
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	794	JK219_794	11900	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596549
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	802	JK220_802	12000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596550
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	806	JK221_806	12000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596529
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	814	JK222_814	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596530
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	818	JK223_818	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596531
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	826	JK224_826	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596532
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	830	JK225_830	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596533
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	838	JK226_838	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596535
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	996	PH187_996	13300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596536
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1000	PH188_1000	13300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596538
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1046	PH189_1046	13600	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596537
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1109	PH190_1109	14200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596539
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1173	PH191_1173	15000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596541
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1237	PH192_1237	16700	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596542
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1301	PH193_1301	17500	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596543
 Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S1	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280178
 Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S2	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280179
 Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S3	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280180
@@ -321,3 +321,19 @@ Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France
 Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6344	39400	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637520,ERS3637540
 Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6345	40100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637521,ERS3637541
 Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6346	32100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637522,ERS3637542
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Guernsey Island	49.45	-2.59	Guernsey	faunal,microbial	Unknown	NA	gue_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624435
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	36	18	Mediterranean Sea	faunal,microbial	Unknown	NA	med_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624436
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay1B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624447
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay2B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624448
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay3B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624449
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay4B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624450
+DerSarkissian2016	2016	10.1111/1755-0998.12679	La Gripperie‐Saint‐Symphorien	45.79	-0.95	France	faunal,microbial	Unknown	NA	gripB_Clam	1300	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624451
+DerSarkissian2016	2016	10.1111/1755-0998.12679	La Maison Champlain, Brouage	45.85	-1.074	France	faunal,microbial	Unknown	NA	lmc1B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624452
+DerSarkissian2016	2016	10.1111/1755-0998.12679	La Maison Champlain, Brouage	45.85	-1.074	France	faunal,microbial	Unknown	NA	lmc2B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624453
+DerSarkissian2016	2016	10.1111/1755-0998.12679	La Maison Champlain, Brouage	45.85	-1.074	France	faunal,microbial	Unknown	NA	lmc3B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624454
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Nissum Bredning	56.6	8.4	Denmark	faunal,microbial	Unknown	NA	nis_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624455
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Thisted Bredning	56.92	8.75	Denmark	faunal,microbial	Unknown	NA	thi_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624456
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Havnø	56.715	10.162	Denmark	faunal,microbial	Unknown	NA	hav_Mussel	7000	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624457
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Hellebæk	56.06	12.56	Denmark	faunal,microbial	Unknown	NA	hel_Quahog	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624458
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	NA	NA	Unknown	faunal,microbial	Unknown	NA	quahog2_Quahog	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624459
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Vestmanna	62.162	-7.165	Faroe Islands	faunal,microbial	Unknown	NA	ves_Quahog	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624460

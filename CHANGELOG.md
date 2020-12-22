@@ -18,21 +18,34 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Sabin 2020 10.1098/rstb.2019.0576
 - Williams 2020 10.1128/MRA.00850-20
 
-
 #### Ancient Single Genome: Host Associated
 - Susat 2020 10.1038/s41598-020-71530-9
 - Eisenhofer 2020 10.1098/rstb.2019.0578
+- Morozova 2020 10.1098/rstb.2019.0569
+- Schuenemann 2020 10.1371/journal.pntd.0006447
+- Ferrari 2020 10.1098/rstb.2019.0572
+- Williams 2020 10.1128/MRA.00850-20
 
 #### Ancient Metagenome: Environmental
 
 - Added new metadata columns to improve data reconstructions: sequence_name (e.g. core, transect), depth, feature (e.g. cave, lake), study type.
 - Braadbaart 2020 10.1016/j.jasrep.2020.102468
+- DerSarkissian 2016 10.1111/1755-0998.12679
 
 #### Ancient Metagenome: Anthropogenic
+
+#### Misc
+
+- Added 'live-status' summary images that are displayed on README and updated on every new submission. 
 
 ### Changed
 
 - Ardelean 2020: Differentiated samples with identical names
+- Ahmed 2018: Updated sample_age and sample_age_doi
+- Graham 2016: Updated sequence_name
+- Wang 2017: Updated sequence_name
+- Pedersen 2016: Updated sequence_name and corrected two typos in depth
+- Armbrecht 2020: fixed broken DOI due to spreadsheet drag-down error
 
 ## v20.09: Ancient Ksour of Ouadane
 
@@ -63,7 +76,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
   - In addition to new samples, includes re-utilised data from Sánchez-Barreiro 2016 10.1111/1755-0998.12610 and Exposito-Alonso 2018 10.1371/journal.pgen.1007155
 - Neukamm 2020 10.1186/s12915-020-00839-8
 - Eerkens 2018 10.1016/j.ijpp.2018.05.001
-
 
 #### Ancient Single Genome: Host Associated
 
@@ -119,7 +131,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Neukamm 2020 10.1186/s12915-020-00839-8
 - Eerkens 2018 10.1016/j.ijpp.2018.05.001
 
-
 #### Ancient Metagenome: Environmental
 
 - Ahmed 2018 10.1016/j.quascirev.2017.11.037
@@ -133,7 +144,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Graham 2016 10.1073/pnas.1604903113
 - Wang 2017 10.1111/jbi.13010
 - Seersholm 2016 10.1038/ncomms13389
-
 
 #### Ancient Metagenome: Anthropogenic
 
@@ -150,6 +160,5 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces
   after investigation from Monica Green
 - Weyrich 2017: Added missing OAGR accession after consultation with authors
-
 
 ### Removed

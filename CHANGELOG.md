@@ -22,7 +22,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Susat 2020 10.1038/s41598-020-71530-9
 - Eisenhofer 2020 10.1098/rstb.2019.0578
-- Schuenemann 2020 10.1098/rstb.2019.0572
+- Ferrari 2020 10.1098/rstb.2019.0572
 
 #### Ancient Metagenome: Environmental
 

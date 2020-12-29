@@ -25,6 +25,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Schuenemann 2020 10.1371/journal.pntd.0006447
 - Ferrari 2020 10.1098/rstb.2019.0572
 - Williams 2020 10.1128/MRA.00850-20
+- Gelabert 2016 10.1073/pnas.1611017113
 
 #### Ancient Metagenome: Environmental
 

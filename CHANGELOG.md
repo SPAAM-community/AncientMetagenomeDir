@@ -47,6 +47,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Wang 2017: Updated sequence_name
 - Pedersen 2016: Updated sequence_name and corrected two typos in depth
 - Armbrecht 2020: fixed broken DOI due to spreadsheet drag-down error
+- de Dios 2019: Standardised coordinates and location name with Gelabert 2016 for accuracy
+- van Dorp 2020: Standardised coordinates and location name with Gelabert 2016 for accuracy
 
 ## v20.09: Ancient Ksour of Ouadane
 

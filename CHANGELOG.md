@@ -27,6 +27,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Ferrari 2020 10.1098/rstb.2019.0572
 - Williams 2020 10.1128/MRA.00850-20
 - Fotakis 2020 10.1098/rstb.2019.0584
+- Marciniak 2016 10.1016/j.cub.2016.10.016
 
 #### Ancient Metagenome: Environmental
 

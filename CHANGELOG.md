@@ -20,6 +20,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fotakis 2020 10.1098/rstb.2019.0584
 
 #### Ancient Single Genome: Host Associated
+
 - Susat 2020 10.1038/s41598-020-71530-9
 - Eisenhofer 2020 10.1098/rstb.2019.0578
 - Morozova 2020 10.1098/rstb.2019.0569
@@ -53,6 +54,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Armbrecht 2020: fixed broken DOI due to spreadsheet drag-down error
 - de Dios 2019: Standardised coordinates and location name with Gelabert 2016 for accuracy
 - van Dorp 2020: Standardised coordinates and location name with Gelabert 2016 for accuracy
+- Weyrich 2017: Replaced OAGR codes with newly uploaded SRA accession numbers
 
 ## v20.09: Ancient Ksour of Ouadane
 

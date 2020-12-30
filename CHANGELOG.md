@@ -124,6 +124,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Mendum 2014 10.1186/1471-2164-15-270
 - Neukamm 2020 10.1186/s12915-020-00839-8
 - Eerkens 2018 10.1016/j.ijpp.2018.05.001
+- Bravo Lopez 2020 10.1098/rstb.2019.0580 
 
 #### Ancient Metagenome: Environmental
 

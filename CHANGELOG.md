@@ -17,14 +17,18 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Jacobson 2020 10.1098/rstb.2019.0589
 - Sabin 2020 10.1098/rstb.2019.0576
 - Williams 2020 10.1128/MRA.00850-20
+- Fotakis 2020 10.1098/rstb.2019.0584
 
 #### Ancient Single Genome: Host Associated
 - Susat 2020 10.1038/s41598-020-71530-9
 - Eisenhofer 2020 10.1098/rstb.2019.0578
 - Morozova 2020 10.1098/rstb.2019.0569
-- Schuenemann 2020 10.1371/journal.pntd.0006447
+- Schuenemann 2018 10.1371/journal.pntd.0006447
 - Ferrari 2020 10.1098/rstb.2019.0572
 - Williams 2020 10.1128/MRA.00850-20
+- Fotakis 2020 10.1098/rstb.2019.0584
+- Marciniak 2016 10.1016/j.cub.2016.10.016
+- Gelabert 2016 10.1073/pnas.1611017113
 - Taubenberger 2005 10.1038/nature04230
 
 #### Ancient Metagenome: Environmental
@@ -47,6 +51,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Wang 2017: Updated sequence_name
 - Pedersen 2016: Updated sequence_name and corrected two typos in depth
 - Armbrecht 2020: fixed broken DOI due to spreadsheet drag-down error
+- de Dios 2019: Standardised coordinates and location name with Gelabert 2016 for accuracy
+- van Dorp 2020: Standardised coordinates and location name with Gelabert 2016 for accuracy
 
 ## v20.09: Ancient Ksour of Ouadane
 
@@ -161,5 +167,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces
   after investigation from Monica Green
 - Weyrich 2017: Added missing OAGR accession after consultation with authors
+- Maixner2016: corrected singlegenome_domain 
 
 ### Removed

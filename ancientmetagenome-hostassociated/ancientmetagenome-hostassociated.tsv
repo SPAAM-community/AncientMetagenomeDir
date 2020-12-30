@@ -1,26 +1,26 @@
 project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	sample_name	sample_host	sample_age	sample_age_doi	community_type	material	collection_date	archive	archive_accession
 Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	B61	Homo sapiens	900	10.1038/ng.2906	oral	dental calculus	NA	SRA	SRS473742,SRS473743,SRS473744,SRS473745
 Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	G12	Homo sapiens	900	10.1038/ng.2906	oral	dental calculus	NA	SRA	SRS473747,SRS473746,SRS473748,SRS473749,SRS473750
-Weyrich2017	2017	10.1038/nature21674	Gola Forest	7.657	-10.841	Sierra Leone	Chimp	Pan troglodytes	100	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890499
-Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.328	Spain	ElSidron1	Homo sapiens neanderthalensis	49000	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890498
-Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.329	Spain	ElSidron2	Homo sapiens neanderthalensis	49000	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890496
-Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy1	Homo sapiens neanderthalensis	35800	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890491
-Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy2	Homo sapiens neanderthalensis	36000	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890487
-Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG1	Homo sapiens	7600	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890494
-Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG2	Homo sapiens	7600	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890489
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK1	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890488
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK2	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890485
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK3	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890490
-Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan1	Homo sapiens	5000	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890505
-Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan2	Homo sapiens	5000	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890503
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	33.9253	18.4239	South Africa	AfrSF1	Homo sapiens	2300	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890483
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	33.9253	18.4239	South Africa	AfrSF2	Homo sapiens	3800	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890484
-Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbMed1	Homo sapiens	800	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890495
-Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbWar2	Homo sapiens	800	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890492
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	33.9253	18.4239	South Africa	AfrPP2	Homo sapiens	600	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890486
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	33.9253	18.4239	South Africa	AfrPP1	Homo sapiens	600	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890504
-Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev1	Homo sapiens	200	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890501
-Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev2	Homo sapiens	200	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890502
+Weyrich2017	2017	10.1038/nature21674	Gola Forest	7.657	-10.841	Sierra Leone	Chimp / Chimp_12873	Pan troglodytes	100	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890499
+Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.328	Spain	ElSidron1 / ElSidron1_12056	Homo sapiens neanderthalensis	49000	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890498
+Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.329	Spain	ElSidron2 / ElSidron2_12057	Homo sapiens neanderthalensis	49000	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890496
+Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy1 / Spy1_12055	Homo sapiens neanderthalensis	35800	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890491
+Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy2 / SRS7890487	Homo sapiens neanderthalensis	36000	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890487
+Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG1 / 12014_Euro_HG1	Homo sapiens	7600	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890494
+Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG2 / 12017_Euro_HG2	Homo sapiens	7600	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890489
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK1 / 12826_Euro_LBKS1	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890488
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK2 / 12829_Euro_LBKS2	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890485
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK3 / 12824_Euro_LBKS3	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890490
+Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan1 / 11105_AfrSudan1	Homo sapiens	5000	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890505
+Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan2 / 11106_AfrSudan2	Homo sapiens	5000	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890503
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	33.9253	18.4239	South Africa	AfrSF1 / 13209_AfrSF3	Homo sapiens	2300	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890483
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	33.9253	18.4239	South Africa	AfrSF2 / 13210_AfrSF4	Homo sapiens	3800	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890484
+Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbMed1 / JewburyMedieval_8812	Homo sapiens	800	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890495
+Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbWar2 / JewburyMedieval_8824	Homo sapiens	800	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890492
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	33.9253	18.4239	South Africa	AfrPP2 / 13204_AfrPP2	Homo sapiens	600	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890486
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	33.9253	18.4239	South Africa	AfrPP1 / 13213_AfrPP1	Homo sapiens	600	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890504
+Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev1 / 13232_Euro_IndRev2	Homo sapiens	200	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890501
+Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev2 / 13234_Euro_IndRev3	Homo sapiens	200	10.1038/nature21674	oral	dental calculus	NA	SRA	SRS7890502
 Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS01	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985742,ERS2985790,ERS3881508
 Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS02	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985743,ERS2985791,ERS3881509
 Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS03	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985744,ERS2985792,ERS3881510

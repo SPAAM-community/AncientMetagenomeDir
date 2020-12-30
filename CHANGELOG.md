@@ -166,5 +166,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces
   after investigation from Monica Green
 - Weyrich 2017: Added missing OAGR accession after consultation with authors
+- Maixner2016: corrected singlegenome_domain 
 
 ### Removed

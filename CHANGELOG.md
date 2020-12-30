@@ -17,14 +17,16 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Jacobson 2020 10.1098/rstb.2019.0589
 - Sabin 2020 10.1098/rstb.2019.0576
 - Williams 2020 10.1128/MRA.00850-20
+- Fotakis 2020 10.1098/rstb.2019.0584
 
 #### Ancient Single Genome: Host Associated
 - Susat 2020 10.1038/s41598-020-71530-9
 - Eisenhofer 2020 10.1098/rstb.2019.0578
 - Morozova 2020 10.1098/rstb.2019.0569
-- Schuenemann 2020 10.1371/journal.pntd.0006447
+- Schuenemann 2018 10.1371/journal.pntd.0006447
 - Ferrari 2020 10.1098/rstb.2019.0572
 - Williams 2020 10.1128/MRA.00850-20
+- Fotakis 2020 10.1098/rstb.2019.0584
 
 #### Ancient Metagenome: Environmental
 

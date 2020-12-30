@@ -1,0 +1,33 @@
+name: AncientMetagenomeDir Live Status Updates
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  live-status-image-update:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GIT_AUTO_COMMIT_ACTION }}  
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: ancientmetagenomedir-live-status-update
+          environment-file: assets/analysis/analysis_environment.yml
+          auto-activate-base: true
+          channels: conda-forge,defaults
+      - name: Generate map plots
+        run: |
+          Rscript assets/analysis/scripts/plot_timelines.R ${GITHUB_WORKSPACE}/
+          Rscript assets/analysis/scripts/plot_maps.R ${GITHUB_WORKSPACE}/
+          Rscript assets/analysis/scripts/plot_ages.R ${GITHUB_WORKSPACE}/
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[skip ci] Update AncientMetagenomeDir live-status images"
+          push_options: --force 

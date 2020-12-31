@@ -32,6 +32,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Gelabert 2016 10.1073/pnas.1611017113
 - Taubenberger 2005 10.1038/nature04230
 - Lugli 2017 10.1186/s40168-016-0221-y
+- Bravo Lopez 2020 10.1098/rstb.2019.0580 
 
 #### Ancient Metagenome: Environmental
 

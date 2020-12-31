@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
+## v21.03: Torn of Provins [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Metagenome: Environmental
+
+#### Ancient Metagenome: Anthropogenic
+
+### Changed
+
+### Removed
+
 ## v20.12: Ancient City of Nessebar
 
 ### Added
@@ -32,7 +48,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Gelabert 2016 10.1073/pnas.1611017113
 - Taubenberger 2005 10.1038/nature04230
 - Lugli 2017 10.1186/s40168-016-0221-y
-- Bravo Lopez 2020 10.1098/rstb.2019.0580 
+- Bravo Lopez 2020 10.1098/rstb.2019.0580
 
 #### Ancient Metagenome: Environmental
 

@@ -31,15 +31,17 @@ plot_pub_timeline <- function(dat) {
   ggplot(dat, aes(publication_year, fill = List)) +
     scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1)) +
     scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
-    ylab("Number of publications") +
-    xlab("Publication year") +
     geom_bar(bins = spanning_years$max - spanning_years$min, binwidth = 1) +
     scale_x_continuous(breaks = seq(spanning_years$min, spanning_years$max, 2)) +
     theme_classic() +
-    theme(legend.position = "bottom") +
+    theme(legend.position = "none") +
     facet_wrap(~List, ncol = 1) +
-    ggtitle("Publications per year", subtitle = paste("As of", Sys.Date())) +
-    labs(fill = NULL)
+    labs(title = "Publications per year", 
+        subtitle = paste("Updated:", Sys.Date()),
+        x = "Number of publications",
+        y = "Publication year",
+        fill = NULL,
+        caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir")))
 }
 
 ### Cumulative Samples Timeline
@@ -100,12 +102,14 @@ plot_cumulative_timeline <- function(x) {
     scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
     scale_x_continuous(breaks = seq(spanning_years$min_year, spanning_years$max_year, 2)) +
     theme_classic() +
-    xlab("Publication year") +
-    ylab("Number of samples (cumulative sum)") +
     scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1)) +
-    theme(legend.position = "bottom") +
+    theme(legend.position = "none") +
     facet_wrap(~List, ncol = 1) +
-    ggtitle("Cumulative published samples per year", subtitle = paste("As of", Sys.Date())) +
+    labs(title = "Cumulative published samples per year", 
+         subtitle = paste("Updated:", Sys.Date()),
+            x = "Publication year",
+            y = "Number of samples (cumulative sum)",
+          caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))) +
     labs(fill = NULL)
   
 }
@@ -143,11 +147,14 @@ plot_map <- function(dat){
     facet_wrap(~List, ncol = 1) +
     theme_classic() +
     scale_fill_manual(values = dir_colours) +
-    theme(legend.position = "bottom", legend.direction="vertical") +
-    labs(fill = "Sample Type", size = "Sample Count") +
-    xlab("Longitude") +
-    ylab("Latitude") +
-    ggtitle("Geographic locations of samples", subtitle = paste("As of", Sys.Date())) +
+    theme(legend.position = "none") +
+    labs(title = "Geographic locations of samples", 
+        subtitle = paste("Updated:", Sys.Date()),
+        x = "Longitude",
+        y = "Latitude",
+        fill = "Sample Type", 
+        size = "Sample Count",
+        caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))) +
     guides(fill = FALSE)
   
 }
@@ -208,12 +215,13 @@ plot_figure_age_timeline <- function(X, dataset, nclass = "Sturges", log = TRUE,
     scale_log +
     theme_classic(base_size = 8) +
     scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1, reverse = T)) +
-    ylab("Samples (n)") +
-    xlab("Years before present")  +
+    labs(x = "Samples (n)",
+         y = "Years before present",
+         title = "Age distribution of samples", 
+         subtitle = paste("Updated:", Sys.Date()),
+         caption =  expression(paste(bold("License: CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir")))) +
     theme(legend.position = "none",
-          strip.background = element_blank()) +
-    ggtitle("Age distribution of samples (Before Presnet)", subtitle = paste("As of", Sys.Date())) +
+          strip.background = element_blank())
     
-  return(list(plot = plot, data = hist_df))
+    return(list(plot = plot, data = hist_df))
 }
-

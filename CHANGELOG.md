@@ -9,6 +9,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Added
 
+- [348](https://github.com/SPAAM-community/AncientMetagenomeDir/pull/348): Interactive GeoJSON maps rendered with GitHub
+
 #### Ancient Metagenome: Host Associated
 
 #### Ancient Single Genome: Host Associated

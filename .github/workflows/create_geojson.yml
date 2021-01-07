@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  live-status-image-update:
+  live-status-geosjon-update:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     defaults:
@@ -30,5 +30,5 @@ jobs:
           python assets/analysis/scripts/create_geojson.py ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv --geojson assets/analysis/live/ancientsinglegenome-hostassociated.geo.json
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "[skip ci] Update AncientMetagenomeDir live-status images"
+          commit_message: "[skip ci] Update AncientMetagenomeDir geojson"
           push_options: --force 

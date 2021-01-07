@@ -1,4 +1,4 @@
-name: AncientMetagenomeDir Live GeoJSONUpdates
+name: AncientMetagenomeDir GeoJSON updates
 
 on: 
   push:
@@ -22,7 +22,7 @@ jobs:
           environment-file: assets/analysis/geojson_environment.yml
           auto-activate-base: true
           channels: conda-forge,defaults
-      - name: Generate map plots
+      - name: Generate map geojson
         run: |
           python assets/analysis/scripts/create_geojson.py ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic.tsv --geojson assets/analysis/live/ancientmetagenome-anthropogenic.geo.json
           python assets/analysis/scripts/create_geojson.py ancientmetagenome-environmental/ancientmetagenome-environmental.tsv --geojson assets/analysis/live/ancientmetagenome-environmental.geo.json

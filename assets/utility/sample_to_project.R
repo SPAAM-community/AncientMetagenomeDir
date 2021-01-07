@@ -10,17 +10,25 @@ find_project_accession <- function(accession){
   return(secondary_res$STUDY_SET$STUDY$IDENTIFIERS$SECONDARY_ID[[1]])
 }
 
-find_multiple_project_accession <- function(accession_list) {
+find_multiple_project_accession <- function(archive, accession_list) {
+  print(accession_list)
+  
+  if (archive %in% c("SRA", "ENA")) {
   acc_vec <- str_split(accession_list, ",") %>% unlist
   proj_res <- map(acc_vec, find_project_accession) %>% unlist %>% unique
   return(paste0(proj_res, collapse = ","))
+  } else {
+    return("NOT_INDSC")
+  }
 }
 
 #find_project_accession("SRS4625244")
 
+## This workS!!!
 ancient_metagenome <- read_tsv("ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv")
+ancient_metagenome <- mutate(ancient_metagenome, archive_project_accession = map2(archive, archive_accession, find_multiple_project_accession))
 
-ancient_metagenome <- mutate(ancient_metagenome, archive_project_accession = map(archive_accession, find_multiple_project_accession))
+######################### OLD ###############################
 
 ## Multi test
 accession <- paste0(ancient_metagenome$archive_accession[100:104], collapse ="%2C")

@@ -34,11 +34,13 @@ ancient_metagenome <- mutate(ancient_metagenome, archive_project = map2(archive,
 ancient_singlegenome <- read_tsv("ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv")
 ancient_singlegenome <- mutate(ancient_singlegenome, archive_project = map2(archive, archive_accession, find_multiple_project)) %>%
   relocate(archive_project, archive_accession, .after = last_col()) %>%
+  mutate(archive_project = unlist(archive_project)) %>% 
   write_tsv("ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv")
 
 ancient_environmental <- read_tsv("ancientmetagenome-environmental/ancientmetagenome-environmental.tsv")
 ancient_environmental <- mutate(ancient_environmental, archive_project = map2(archive, archive_accession, find_multiple_project)) %>% 
   relocate(archive_project, archive_accession, .after = last_col()) %>%
+  mutate(archive_project = unlist(archive_project)) %>% 
   write_tsv("ancientmetagenome-environmental/ancientmetagenome-environmental.tsv")
 
 

@@ -1,546 +1,546 @@
-project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	sample_name	sample_host	sample_age	sample_age_doi	community_type	material	collection_date	archive	archive_accession
-Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	B61	Homo sapiens	900	10.1038/ng.2906	oral	dental calculus	NA	SRA	SRS473742,SRS473743,SRS473744,SRS473745
-Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	G12	Homo sapiens	900	10.1038/ng.2906	oral	dental calculus	NA	SRA	SRS473747,SRS473746,SRS473748,SRS473749,SRS473750
-Weyrich2017	2017	10.1038/nature21674	Gola Forest	7.657	-10.841	Sierra Leone	Chimp	Pan troglodytes	100	10.1038/nature21674	oral	dental calculus	NA	OAGR	3067,3004
-Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.328	Spain	ElSidron1	Homo sapiens neanderthalensis	49000	10.1038/nature21674	oral	dental calculus	NA	OAGR	3011,2962
-Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.329	Spain	ElSidron2	Homo sapiens neanderthalensis	49000	10.1038/nature21674	oral	dental calculus	NA	OAGR	2990,3014
-Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy1	Homo sapiens neanderthalensis	35800	10.1038/nature21674	oral	dental calculus	NA	OAGR	2952,2953
-Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy2	Homo sapiens neanderthalensis	36000	10.1038/nature21674	oral	dental calculus	NA	OAGR	3034,3035
-Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG1	Homo sapiens	7600	10.1038/nature21674	oral	dental calculus	NA	OAGR	2946,2978
-Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG2	Homo sapiens	7600	10.1038/nature21674	oral	dental calculus	NA	OAGR	2974,3041
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK1	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	OAGR	2955,2956
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK2	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	OAGR	3072,3073
-Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK3	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	OAGR	3080,3071
-Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan1	Homo sapiens	5000	10.1038/nature21674	oral	dental calculus	NA	OAGR	2945,3005
-Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan2	Homo sapiens	5000	10.1038/nature21674	oral	dental calculus	NA	OAGR	3082,3062
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrSF1	Homo sapiens	2300	10.1038/nature21674	oral	dental calculus	NA	OAGR	3068,3069
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrSF2	Homo sapiens	3800	10.1038/nature21674	oral	dental calculus	NA	OAGR	3070,3060
-Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbMed1	Homo sapiens	800	10.1038/nature21674	oral	dental calculus	NA	OAGR	3044,3050
-Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbWar2	Homo sapiens	800	10.1038/nature21674	oral	dental calculus	NA	OAGR	3054,2931
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrPP2	Homo sapiens	600	10.1038/nature21674	oral	dental calculus	NA	OAGR	3076,3077
-Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrPP1	Homo sapiens	600	10.1038/nature21674	oral	dental calculus	NA	OAGR	2992,2993
-Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev1	Homo sapiens	200	10.1038/nature21674	oral	dental calculus	NA	OAGR	3047,2939
-Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev2	Homo sapiens	200	10.1038/nature21674	oral	dental calculus	NA	OAGR	2940,3049
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS01	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985742,ERS2985790,ERS3881508
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS02	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985743,ERS2985791,ERS3881509
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS03	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985744,ERS2985792,ERS3881510
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS04	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985745,ERS2985793,ERS3881511
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS05	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985794,ERS3881512
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS06	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985795,ERS3881513
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS07	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985746,ERS2985796,ERS3881514
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS08	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985747,ERS2985797,ERS3881515
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS09	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985748,ERS2985798,ERS3881516
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS10	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985749,ERS2985799,ERS3881517
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS11	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985750,ERS2985800,ERS3881518
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS12	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985751,ERS2985801,ERS3881519
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS13	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985752,ERS2985802,ERS3881520
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS14	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985753,ERS2985803,ERS3881521
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS15	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985754,ERS2985804,ERS3881522
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS16	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985755,ERS2985805,ERS3881523
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS17	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985756,ERS2985806,ERS3881524
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS18	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985757,ERS2985807,ERS3881525
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS19	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985758,ERS2985808,ERS3881526
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS20	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985759,ERS2985809,ERS3881527
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS21	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985760,ERS2985810,ERS3881528
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS22	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985761,ERS2985811,ERS3881529
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS23	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985762,ERS2985812,ERS3881530
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS24	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985763,ERS2985813,ERS3881531
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS26	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985764,ERS2985814,ERS3881532
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS27	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985765,ERS2985815,ERS3881533
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS28	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985766,ERS2985816,ERS3881534
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS29	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985767,ERS2985817,ERS3881535
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS30	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985768,ERS2985818,ERS3881536
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS31	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985769,ERS2985819,ERS3881537
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS32	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985770,ERS2985820,ERS3881538
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS33	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985771,ERS2985821,ERS3881539
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS34	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985772,ERS2985822,ERS3881540
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS35	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985773,ERS2985823,ERS3881541
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS36	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985774,ERS2985824,ERS3881542
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS37	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985775,ERS2985825,ERS3881543
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS38	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985776,ERS2985826,ERS3881544
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS39	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985777,ERS2985827,ERS3881545
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS40	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985778,ERS2985828,ERS3881546
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS42	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985779,ERS2985829,ERS3881547
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS43	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985780,ERS2985830,ERS3881548
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS44	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985781,ERS2985831,ERS3881549
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS45	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985782,ERS2985832,ERS3881550
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS46	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985783,ERS2985833,ERS3881551
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS47	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985784,ERS2985834,ERS3881552
-Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS48	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	ERS2985785,ERS2985835,ERS3881553
-Jensen2019	2019	10.1038/s41467-019-13549-9	Syltholm	54.66	11.35	Denmark	Syltholm_1	Homo sapiens	5000	10.1038/s41467-019-13549-9	oral	birch pitch	NA	ENA	ERS3337752
-Fagernas2020	2020	10.1016/j.jas.2020.105135	Driffield Terrace	53.951	-1.1	United Kingdom	3DT21	Homo sapiens	1500	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042406,ERS4042407,ERS4042408,ERS4042409
-Fagernas2020	2020	10.1016/j.jas.2020.105135	Wighill	53.91	-1.29	United Kingdom	WG1561	Homo sapiens	700	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042435,ERS4042436,ERS4042437,ERS4042438
-Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 1441-1-1440(044)	Homo sapiens	1100	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042423,ERS4042424,ERS4042425,ERS4042426
-Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 2591-1-2590(159)	Homo sapiens	1100	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042427,ERS4042428,ERS4042429,ERS4042430
-Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 2711-1-2710(171)	Homo sapiens	1000	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042431,ERS4042432,ERS4042433,ERS4042434
-Fagernas2020	2020	10.1016/j.jas.2020.105135	Rupert's Valley	-15.933	-5.75	Saint Helena	SK203	Homo sapiens	100	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	ERS4042419,ERS4042420,ERS4042421,ERS4042422
-Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C214	Homo sapiens	4700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078201
-Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C53	Homo sapiens	4700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078204
-Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F1948	Homo sapiens	800	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078198
-Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F349A	Homo sapiens	800	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078200
-Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H10	Homo sapiens	4400	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078195
-Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H24	Homo sapiens	4400	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078181
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT01	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078183,SRS3078182
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT02	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078176
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT03	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078178
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT04	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078185
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT05	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078115,SRS3078117
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT06	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078111
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT07	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078113
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT08	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078109,SRS3078099
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT09	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078097,SRS3078104
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT10	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078101
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT11	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078105
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT12	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078133
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT13	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078131,SRS3078137
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT14	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078134,SRS3078129
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT15	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078120
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT16	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078122
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT17	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078124
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT18	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078126
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT19	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078118
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT20	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078148
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT21	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078150
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT22	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078151
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT23	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078155
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT24	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078156,SRS3078146
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT25	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078197,SRS3078141
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT26	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078139,SRS3078145
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT27	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078093
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT28	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078091,SRS3078089
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT29	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078087,SRS3078085
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT30	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078193
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT31	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078158,SRS3078147
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT32	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078192,SRS3078187
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT33	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078170
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT34	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078167
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT35	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078165
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT36	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078163,SRS3078172
-Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF217	Homo sapiens	700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078173
-Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF47	Homo sapiens	700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078175
-Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S108	Homo sapiens	300	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078160
-Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S40	Homo sapiens	1400	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078162
-Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S41	Homo sapiens	1400	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078206
-Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S454	Homo sapiens	300	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	SRS3078095
-Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C214	Homo sapiens	4700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078202
-Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C53	Homo sapiens	4700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078203
-Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F1948	Homo sapiens	800	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078196
-Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F349A	Homo sapiens	800	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078161
-Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H10	Homo sapiens	4400	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078189
-Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H24	Homo sapiens	4400	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078180
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT01	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078177
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT02	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078179
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT03	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078184
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT04	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078114
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT05	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078110,SRS3078116
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT06	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078112
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT07	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078108
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT08	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078098,SRS3078100
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT09	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078102,SRS3078103
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT10	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078106
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT11	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078132
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT12	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078130
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT13	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078135,SRS3078136
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT14	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078121,SRS3078128
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT15	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078123
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT16	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078125
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT17	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078127
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT18	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078119
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT20	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078149
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT21	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078152
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT22	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078153
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT23	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078154
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT24	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078143,SRS3078157
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT25	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078140,SRS3078142
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT26	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078144,SRS3078138
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT27	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078094
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT28	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078090,SRS3078092
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT29	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078086,SRS3078088
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT30	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078190
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT31	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078188,SRS3078194
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT32	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078186,SRS3078191
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT33	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078169
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT34	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078168
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT35	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078166
-Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT36	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078164,SRS3078107
-Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF217	Homo sapiens	700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078171
-Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF47	Homo sapiens	700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078174
-Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S108	Homo sapiens	300	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078159
-Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S40	Homo sapiens	1400	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078199
-Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S41	Homo sapiens	1400	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078205
-Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S454	Homo sapiens	300	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	SRS3078096
-Brealey2020	2020	10.1093/molbev/msaa135	Karisimbi	-1.508	29.445	Democratic Republic of the Congo	Gb1	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545903,ERS4545904,ERS4545905
-Brealey2020	2020	10.1093/molbev/msaa135	Lulingu	-2.316	27.549	Democratic Republic of the Congo	Gb2	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545906,ERS4545907,ERS4545908
-Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua2	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545909
-Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua6	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545910
-Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua7	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545911
-Brealey2020	2020	10.1093/molbev/msaa135	Lake Ladoga	61	31.5	Russia	Ua13	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545912
-Brealey2020	2020	10.1093/molbev/msaa135	Dalarna	61.004	14.537	Sweden	Ua14	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545913
-Brealey2020	2020	10.1093/molbev/msaa135	Jämtland	63.399	13.081	Sweden	Ua9	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545914
-Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt1	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545915
-Brealey2020	2020	10.1093/molbev/msaa135	Unknown	NA	NA	Unknown	Rt5	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545916
-Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt7	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545917
-Brealey2020	2020	10.1093/molbev/msaa135	South-west Norway	60	6	Norway	Rt11	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545918
-Brealey2020	2020	10.1093/molbev/msaa135	North-east Greenland	79	-56	Greenland	Rt13	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	ERS4545919
-Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt_tooth	Rangifer tarandus	100	10.1093/molbev/msaa135	skeletal tissue	tooth	NA	ENA	ERS4545920
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	02C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625244
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	04C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625243
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	05C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625242
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	07C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625241
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	13C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625248
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	14C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625247
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	16C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625246
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	17C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625245
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	18C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625250
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	19C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625249
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	20C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625239
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	21C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625238
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	22C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625237
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	24C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625236
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	25C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625235
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	26C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625234
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	27C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625233
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	28C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625232
-Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	29C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	SRS4625240
-Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB01	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887040
-Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB05	Papio anubis	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887041
-Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB06	Papio anubis	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887042
-Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB08	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887043
-Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB09	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887044
-Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB11	Papio sp.	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887045
-Ottoni2019	2019	10.1038/s41598-019-56074-x	Zoological Society of Philadelphia	39.97	-75.19	USA	ANSP11833	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887046
-Ottoni2019	2019	10.1038/s41598-019-56074-x	Zoological Society of Philadelphia	39.97	-75.19	USA	ANSP3271	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	ERS3887047
-Zhou2018	2018	10.1016/j.cub.2018.05.058	St. Olav's Cathedral	63.425	10.392	Norway	SK152	Homo sapiens	800	10.1016/j.cub.2018.05.058	oral	dental calculus	NA	UCPH ERDA	E56xgi8CEl
-Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	213	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	SRS1170472
-Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	306	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	SRS2213343
-Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	308	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	SRS2213341
-Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	309	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	SRS2213347
-Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	403	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	SRS2213345
-Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	406	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	SRS2213344
-Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	702	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	SRS2213350
-Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	312	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	SRS2213346
-Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	307	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	SRS2213342
-Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-217C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	SRS1052916
-Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-47C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	SRS1052918
-Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-47D-SG	Homo sapiens	700	10.1002/ajpa.22960	skeletal tissue	tooth	NA	SRA	SRS1052917
-Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-217D-SG	Homo sapiens	700	10.1002/ajpa.22960	skeletal tissue	tooth	NA	SRA	SRS1052915
-NievesColon2020	2020	10.1093/molbev/msz267	Paso del Indio	18.41	-66.33	USA	PI-420A-C	Homo sapiens	700	10.1093/molbev/msz267	oral	dental calculus	NA	SRA	SRS5211976
-SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	-13.53	-71.96	Peru	FI3	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgs295853
-SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	-13.53	-71.96	Peru	FI12	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgs297488
-SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD22	Homo sapiens	600	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295871
-SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD3	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295859
-SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD14	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295862
-SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD27	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295868
-SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD29	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgs295865
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, content I 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942275,ERS942266
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, content II 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942267,ERS942277
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, surface 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942270,ERS942274,ERS942269
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach antrum, content 1051	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942268,ERS942271
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach antrum, surface 1051	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	ERS942265,ERS942273
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Small intestine 1063	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942272
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Large intestine, upper part I 1036	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942281
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Large intestine, upper part II 1036	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942282
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Large intestine, lower part 225	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	ERS942276
-Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Muscle tissue, Muscle 1 and 2	Homo sapiens	5300	10.1126/science.aad2545	soft tissue	muscle tissue	NA	ENA	ERS942279,ERS942280
-Tett2019	2019	10.1016/j.chom.2019.08.018	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Coprolite 14	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS3348200
-Tett2019	2019	10.1016/j.chom.2019.08.018	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Coprolite 16	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS3348201
-Tett2019	2019	10.1016/j.chom.2019.08.018	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Coprolite 19	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS3348202
-Tett2019	2019	10.1016/j.chom.2019.08.018	Hauslabjoch	46.773	10.837	Italy	Iceman	Homo sapiens	5300	10.1007/978-3-7091-6599-7_7	gut	large intestine	NA	ENA	ERS3348203
-Hagan2019	2019	10.1002/ajpa.23978	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape2	Canis lupus	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS4044029,ERS4044039,ERS4044041,ERS4044043,ERS4044047,ERS4044049,ERS4044052,ERS4044055,ERS4044057,ERS4044058
-Hagan2019	2019	10.1002/ajpa.23978	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape5	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS4044025,ERS4044028,ERS4044033,ERS4044034,ERS4044036,ERS4044038,ERS4044040,ERS4044044,ERS4044046,ERS4044048
-Hagan2019	2019	10.1002/ajpa.23978	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape28	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS4044024,ERS4044027,ERS4044031,ERS4044032,ERS4044035,ERS4044042,ERS4044045,ERS4044051,ERS4044054,ERS4044056
-Rifkin2020	2020	10.1186/s40168-020-00832-x	Bushman Rock Shelter 	-24.74	30.56	South Africa	BRS2	Homo sapiens	500	10.1186/s40168-020-00832-x	gut	palaeofaeces	NA	ENA	SRS4491531
-Rifkin2020	2020	10.1186/s40168-020-00832-x	Bushman Rock Shelter 	-24.74	30.56	South Africa	BRS3	Homo sapiens	500	10.1186/s40168-020-00832-x	gut	palaeofaeces	NA	ENA	SRS4491528
-Rifkin2020	2020	10.1186/s40168-020-00832-x	Bushman Rock Shelter 	-24.74	30.56	South Africa	BRS4	Homo sapiens	500	10.1186/s40168-020-00832-x	gut	palaeofaeces	NA	ENA	SRS4491529
-Borry2020	2020	10.7717/peerj.9001	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape 23	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS4181283
-Borry2020	2020	10.7717/peerj.9001	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape 25	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS4181284
-Borry2020	2020	10.7717/peerj.9001	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape 27	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS4181285
-Borry2020	2020	10.7717/peerj.9001	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape 29	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS4181286
-Borry2020	2020	10.7717/peerj.9001	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape 31	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	ERS4181287
-Borry2020	2020	10.7717/peerj.9001	Yorkshire	53.8	-2.07	United Kingdom	YRK001	Canis lupus	400	10.7717/peerj.9001	gut	palaeofaeces	NA	ENA	ERS4181282
-Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba abdominal oblique muscle	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	muscle tissue	NA	SRA	SRS2390527
-Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba abdominal subcutaneous fat and muscle	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	muscle tissue	NA	SRA	SRS2390528
-Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba cheek fat	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	buccal fat pad	NA	SRA	SRS2390529
-Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba omentum	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	omentum	NA	SRA	SRS2390530
-Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba peritoneum	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	peritoneum	NA	SRA	SRS2390526
-Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba intestinal tissue 1	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	intestine	NA	SRA	SRS2390532
-Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba intestinal tissue 2	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	intestine	NA	SRA	SRS2390531
-Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba caecum	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	caecum	NA	SRA	SRS2390534
-McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga USNM 194319 Bone	Conepatus chinga	100	10.1093/jmammal/gyy080	skeletal tissue	bone	NA	GenBank	SRS3118688
-McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga USNM 194319 Claw	Conepatus chinga	100	10.1093/jmammal/gyy080	soft tissue	keratinous claw	NA	GenBank	SRS3118688
-McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga USNM 194319 Osteocrust	Conepatus chinga	100	10.1093/jmammal/gyy080	soft tissue	muscle tissue	NA	GenBank	SRS3118688
-McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga USNM 194319 Skin	Conepatus chinga	100	10.1093/jmammal/gyy080	soft tissue	skin	NA	GenBank	SRS3118688
-McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Bone	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	skeletal tissue	bone	NA	GenBank	SRS3151295
-McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Claw	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	keratinous claw	NA	GenBank	SRS3151295
-McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Osteocrust	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	muscle tissue	NA	GenBank	SRS3151295
-McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Skin	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	skin	NA	GenBank	SRS3151295
-McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Bone	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	skeletal tissue	bone	NA	GenBank	SRS3118689
-McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Claw	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	keratinous claw	NA	GenBank	SRS3118689
-McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Osteocrust	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	muscle tissue	NA	GenBank	SRS3118689
-McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Skin	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	skin	NA	GenBank	SRS3118689
-Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP4	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	SRS428959
-Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP10	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	SRS428961
-Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP18	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	SRS428962
-Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP37	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	SRS428963
-Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP9	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	SRS428960
-Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP48	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	SRS428964
-Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP02,TP10,TP15,TP26	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	SRS428958
-Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP32,TP42,TP45,TP48	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	SRS428972
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.67	-91.53	USA	BG-102	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3867520
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	25.14	-80.92	USA	BG-13	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882361
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	40.86	-73.87	USA	BG-5	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882362
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	25.14	-80.92	USA	BG-56	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	ENA	ERS3882363
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.2	-86.39	USA	BG-62	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882364
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	25.54	-80.33	USA	BG-68	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882365
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	39.09	-94.58	USA	BG-73	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882366
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	44.27	-68.57	USA	HU-10	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882367
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.55	-71.29	USA	HU-105	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	ENA	ERS3882368
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	46.19	-74.63	USA	HU-146	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882369
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	25.14	-80.92	USA	HU-157	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882370
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	25.78	-80.21	USA	HU-158	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882371
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	45.45	-75.7	USA	HU-178	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882372
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	28.04	-82.3	USA	HU-180	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882373
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	38.99	-95.22	USA	HU-185	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882374
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	30.41	-88.88	USA	HU-196	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	ENA	ERS3882375
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.67	-91.53	USA	HU-203	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882376
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	44.37	-71.61	USA	HU-40	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882377
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	42.24	-70.8	USA	HU-79	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882378
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	42.27	-71.8	USA	HU-99	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	ENA	ERS3882379
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	39.98	-75.16	USA	MB-104	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	ENA	ERS3882380
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.43	-91.04	USA	MB-65	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882381
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	44.29	-69.37	USA	MB-77	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882382
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	28.05	-82.3	USA	MB-86	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882383
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.58	-72.65	USA	MB-87	Ambrosia artemisiifolia	200	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882384
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.22	5.97	Netherlands	NAT-002	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882385
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.22	5.97	Netherlands	NAT-003	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882386
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.22	5.97	Netherlands	NAT-005	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882387
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.25	6.2	Netherlands	NAT-011	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882388
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.25	6.2	Netherlands	NAT-012	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882389
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.25	6.2	Netherlands	NAT-013	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882390
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.25	6.2	Netherlands	NAT-017	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882391
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.22	5.97	Netherlands	NAT-023	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882392
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.22	5.97	Netherlands	NAT-026	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882393
-Bieker2020	2020	10.1111/1755-0998.13174	Unknown	51.98	6.82	Netherlands	NAT-112	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	ERS3882394
-Bieker2020	2020	10.1111/1755-0998.13174	Upper Providence, Delaware County, Pennsylvania	40.1	-75.4	USA	PH-15	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	SRS1631715
-Bieker2020	2020	10.1111/1755-0998.13174	Swarthmore, Delaware County, Pennsylvania	39.9	-75.3	USA	PH-16	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	SRS1631716
-Bieker2020	2020	10.1111/1755-0998.13174	Lansdowne, Delaware County, Pennsylvania	39.9	-75.2	USA	PH-18	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	SRS1631717
-Bieker2020	2020	10.1111/1755-0998.13174	West Philadelphia, Philadelphia	39.9	-75.2	USA	PH-26	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	SRS1631719
-Bieker2020	2020	10.1111/1755-0998.13174	Easton, Philadelphia	40	-75.1	USA	PH-6	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	SRS1631714
-Bieker2020	2020	10.1111/1755-0998.13174	Iowa City, Iowa	41.6	-91.5	USA	USNH-12	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	SRS1631724
-Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-23	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	SRS1631727
-Bieker2020	2020	10.1111/1755-0998.13174	Des Moines, Iowa	41.5	-93.6	USA	USNH-34	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	SRS1631728
-Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-37	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	SRS1631729
-Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-38	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	SRS1631730
-Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-39	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	ERS3882395
-Bieker2020	2018	10.1371/journal.pgen.1007155	Connecticut (in Ohio State University)	41	-72	USA	JK2509	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159299
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	39.688	-82.993	USA	JK2510	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159300
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	41.721	-81.243	USA	JK2511	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159301
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	39.956	-81.953	USA	JK2512	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159302
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	41.102	-81.56	USA	JK2513	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159303
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	39.956	-81.953	USA	JK2514	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159304
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	41.137	-81.863	USA	JK2515	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159305
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	39.5	-82.472	USA	JK2516	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159306
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	40	-82	USA	JK2517	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159307
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	41.867	-80.789	USA	JK2518	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159308
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in University of Connecticut Herbarium)	40	-82	USA	JK2520	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159309
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in University of Connecticut Herbarium)	40	-82	USA	JK2521	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159310
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in University of Connecticut Herbarium)	40	-82	USA	JK2523	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159311
-Bieker2020	2018	10.1371/journal.pgen.1007155	New Jersey (in University of Connecticut Herbarium)	39.856	-74.686	USA	JK2524	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159312
-Bieker2020	2018	10.1371/journal.pgen.1007155	Connecticut (in University of Connecticut Herbarium)	41.224	-73.06	USA	JK2525	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159313
-Bieker2020	2018	10.1371/journal.pgen.1007155	Connecticut (in University of Connecticut Herbarium)	41.666	-73.508	USA	JK2526	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159314
-Bieker2020	2018	10.1371/journal.pgen.1007155	Connecticut (in University of Connecticut Herbarium)	41.509	-72.543	USA	JK2527	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159315
-Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Chicago Field Museum)	41.48	-86.82	USA	JK2529	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159316
-Bieker2020	2018	10.1371/journal.pgen.1007155	Indiana (in Chicago Field Museum)	41.482	-86.822	USA	JK2530	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159317
-Bieker2020	2018	10.1371/journal.pgen.1007155	New Jersey (in Chicago Field Museum)	39.856	-74.686	USA	JK2531	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159318
-Bieker2020	2018	10.1371/journal.pgen.1007155	Utah (In New York Botanical Garden)	40.643	-111.951	USA	JK346	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159319
-Bieker2020	2018	10.1371/journal.pgen.1007155	New York (In New York Botanical Garden)	41.15	-73.766	USA	JK351	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159320
-Bieker2020	2018	10.1371/journal.pgen.1007155	Tennessee (In New York Botanical Garden)	35.99	-83.94	USA	JK355	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159321
-Bieker2020	2018	10.1371/journal.pgen.1007155	Georgia (in New York Botanical Garden)	32	-83	USA	JK356	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159322
-Bieker2020	2018	10.1371/journal.pgen.1007155	District of Columbia (in New York Botanical Garden)	38.906	-77.036	USA	JK362	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159323
-Bieker2020	2018	10.1371/journal.pgen.1007155	New York (In New York Botanical Garden)	43.192	-77.01	USA	JK366	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159324
-Bieker2020	2018	10.1371/journal.pgen.1007155	New Jersey (in New York Botanical Garden)	40.924	-74.075	USA	JK367	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159325
-Bieker2020	2018	10.1371/journal.pgen.1007155	New Jersey (in New York Botanical Garden)	41.122	-74.356	USA	JK372	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159326
-Bieker2020	2018	10.1371/journal.pgen.1007155	New York (In New York Botanical Garden)	39.97	-83.01	USA	JK376	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159327
-Bieker2020	2018	10.1371/journal.pgen.1007155	District of Columbia (in New York Botanical Garden)	38.906	-77.037	USA	JK389	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159328
-Bieker2020	2018	10.1371/journal.pgen.1007155	North Carolina (in New York Botanical Garden)	35	-79	USA	JK393	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159329
-Bieker2020	2018	10.1371/journal.pgen.1007155	District of Columbia (in New York Botanical Garden)	38.906	-77.037	USA	JK395	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159330
-Bieker2020	2018	10.1371/journal.pgen.1007155	Delaware (in New York Botanical Garden)	38.715	-75.631	USA	JK399	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159331
-Bieker2020	2018	10.1371/journal.pgen.1007155	Utah (In New York Botanical Garden)	40.643	-111.967	USA	JK401	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	ERS2159332
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1433	Homo sapiens	2600	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3635916
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1502	Homo sapiens	1700	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	ERS3636029
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1504	Homo sapiens	1600	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636033
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1504	Homo sapiens	1600	10.1038/ncomms15694 	oral	dental calculus	NA	ENA	ERS3636043
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1505	Homo sapiens	1600	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	ERS3636031
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1506	Homo sapiens	1600	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	ERS3636034
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1511	Homo sapiens	1800	10.1186/s12915-020-00839-8	oral	dental calculus	NA	ENA	ERS3636044
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1513	Homo sapiens	2300	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635932
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1515	Homo sapiens	3100	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635931
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1518	Homo sapiens	2900	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635959
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1519	Homo sapiens	4000	10.1186/s12915-020-00839-8	oral	dental calculus	NA	ENA	ERS3636092,ERS3636091,ERS3635912,ERS3636090
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1521	Homo sapiens	2700	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635934
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1526	Homo sapiens	2700	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635939
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1529	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3635985
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1530	Homo sapiens	2600	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635935
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1532	Homo sapiens	2700	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635952
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1533	Homo sapiens	2200	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635997
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1534	Homo sapiens	2800	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635940
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1536	Homo sapiens	1800	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636026
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1537	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3636030
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1538	Homo sapiens	2000	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635990
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1539	Homo sapiens	2800	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635965
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1541	Homo sapiens	2100	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635969
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1543	Homo sapiens	1900	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	ERS3636025,ERS3636093,ERS3636094,ERS3636095,ERS3636096
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1543	Homo sapiens	1900	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	ERS3636018,ERS3636097,ERS3636098,ERS3636099,ERS3636100,ERS3636101
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1545	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3636000
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1546	Homo sapiens	2200	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635991
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1547	Homo sapiens	1800	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636016
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1549	Homo sapiens	2000	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636039
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1550	Homo sapiens	2200	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635982
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1553	Homo sapiens	2700	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635950
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1554	Homo sapiens	2300	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	ERS3635915
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1554	Homo sapiens	2300	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	ERS3635922
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1555	Homo sapiens	1900	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636017
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1556	Homo sapiens	2200	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635979
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1557	Homo sapiens	2100	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	ERS3635970
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1558	Homo sapiens	2100	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	ERS3635971
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1559	Homo sapiens	1900	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	ERS3636036
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1560	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3635978
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1561	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3635988
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1563	Homo sapiens	2100	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635983
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1564	Homo sapiens	2200	10.1371/journal.pone.0060307	oral	tooth	NA	ENA	ERS3635967
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1564	Homo sapiens	2200	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	ERS3635996
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1564	Homo sapiens	2200	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	ERS3635972
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1565	Homo sapiens	2000	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635966
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1566	Homo sapiens	2600	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635919
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1568	Homo sapiens	3300	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635933
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1569	Homo sapiens	2700	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635938
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1570	Homo sapiens	2000	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635980
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1572	Homo sapiens	1800	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636027
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1573	Homo sapiens	1900	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636012
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1573	Homo sapiens	1900	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635984
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1574	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	dental calculus	NA	ENA	ERS3636013
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1576	Homo sapiens	2200	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635981
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1577	Homo sapiens	1900	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636022
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1579	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3635992
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1580	Homo sapiens	2300	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635937
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1582	Homo sapiens	1900	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636024
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1583	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3635989
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1584	Homo sapiens	2700	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635930
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1585	Homo sapiens	2300	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	ERS3635998
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1585	Homo sapiens	2300	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	ERS3635973
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1587	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3635987
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1588	Homo sapiens	2200	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635977
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1590	Homo sapiens	2300	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635926
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1591	Homo sapiens	2700	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635936
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1594	Homo sapiens	2200	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636007
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1594	Homo sapiens	2200	10.1038/ncomms15694 	oral	dental calculus	NA	ENA	ERS3636014,ERS3636102,ERS3636103
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1595	Homo sapiens	2900	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635963
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1596	Homo sapiens	2600	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635955
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1599	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3636006
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1601	Homo sapiens	1900	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636035
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1602	Homo sapiens	2200	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636008
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1603	Homo sapiens	2300	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	ERS3635914
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1604	Homo sapiens	2600	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635921
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1605	Homo sapiens	2600	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635941
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1606	Homo sapiens	2600	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	ERS3635928
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1607	Homo sapiens	1900	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3636032
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1608	Homo sapiens	2700	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	ERS3635951
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1608	Homo sapiens	2700	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	ERS3635923
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1609	Homo sapiens	2600	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635929
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1611	Homo sapiens	1800	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636028
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1612	Homo sapiens	2600	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635948
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1614	Homo sapiens	2600	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635946
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1614	Homo sapiens	2600	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635927
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1615	Homo sapiens	2800	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635943
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1616	Homo sapiens	2900	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635920
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1617	Homo sapiens	3000	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635945
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1618	Homo sapiens	2400	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635944
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1619	Homo sapiens	2700	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635949
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1620	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3635993
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1621	Homo sapiens	2100	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3635994
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1622	Homo sapiens	2800	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	ERS3635953
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1622	Homo sapiens	2800	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	ERS3635924
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1623	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3635995
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1624	Homo sapiens	2000	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636038
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1627	Homo sapiens	2000	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636009
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1627	Homo sapiens	2000	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636010
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1630	Homo sapiens	2200	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635976,ERS3636087,ERS3636088,ERS3636089
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1631	Homo sapiens	1900	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636042
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1633	Homo sapiens	2300	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635964
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1634	Homo sapiens	2400	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635918
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1635	Homo sapiens	1700	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636011
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1636	Homo sapiens	2300	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635962
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1642	Homo sapiens	2300	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635913
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1645	Homo sapiens	2300	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635917
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1647	Homo sapiens	2300	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3635958
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1648	Homo sapiens	2000	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635999
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1648	Homo sapiens	2000	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636002
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1649	Homo sapiens	2800	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635954
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1650	Homo sapiens	2800	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635961
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1651	Homo sapiens	2200	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636005
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1652	Homo sapiens	1900	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636023
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1653	Homo sapiens	2600	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635942
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1654	Homo sapiens	2300	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635960
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1655	Homo sapiens	3100	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635957
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1656	Homo sapiens	2100	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635968
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1658	Homo sapiens	1900	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	ERS3636015
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1660	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3636001
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1665	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	ERS3636040
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1666	Homo sapiens	1900	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3636037
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1667	Homo sapiens	2600	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635947
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1668	Homo sapiens	2200	10.1038/ncomms15694 	skeletal tissue	bone	NA	ENA	ERS3635986
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1668	Homo sapiens	2200	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636003
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1671	Homo sapiens	2100	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636004
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1672	Homo sapiens	1900	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636041
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1673	Homo sapiens	2600	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635956
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3533	Homo sapiens	2600	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635925
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3536	Homo sapiens	2000	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636019
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3544	Homo sapiens	1500	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636020
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3552	Homo sapiens	1600	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3636021
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3578	Homo sapiens	2200	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635974
-Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3610	Homo sapiens	2200	10.1038/ncomms15694 	oral	tooth	NA	ENA	ERS3635975
-Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	16	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	NA	SRA	SRS2006287
-Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	2	Homo sapiens	500	10.1016/j.ijpp.2018.05.001	oral	dental calculus	NA	SRA	SRS2006289
-Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	4	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	NA	SRA	SRS2006288
-Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	15	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	NA	SRA	SRS2006290
-Modi2020	2020	10.1007/s12520-019-00983-5	Porticus Octaviae (Rome)	41.892	12.478	Italy	P.O 108-7	Homo sapiens	900	10.1007/s12520-019-00983-5	oral	dental calculus	2018	SRA	SRS7296485
-Modi2020	2020	10.1007/s12520-019-00983-5	Porticus Octaviae (Rome)	41.892	12.478	Italy	P.O Z. US44	Homo sapiens	900	10.1007/s12520-019-00983-5	oral	dental calculus	2018	SRA	SRS7296487
-Modi2020	2020	10.1007/s12520-019-00983-5	Porticus Octaviae (Rome)	41.892	12.478	Italy	P.O 898-11	Homo sapiens	1000	10.1007/s12520-019-00983-5	oral	dental calculus	2018	SRA	SRS7296488
-Appelt2014	2014	10.1128/AEM.03242-13	Place d'Armes, Namur	50.46	4.86	Belgium	4.453	Homo sapiens	600	10.1128/AEM.03242-13	gut	palaeofaeces	NA	SRA	SRS510175
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18023_Japan_Edo_4	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212663
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18022_Japan_Edo_3	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212662
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18021_Japan_Edo_2	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212661
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18020_Japan_Edo_1	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212660
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Ebishima	38.83	141.18	Japan	A18019_Japan_Jomon_5	Homo sapiens	2700	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212659
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Miyano	39.12	141.81	Japan	A18018_Japan_Jomon_4	Homo sapiens	2700	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212658
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Miyano	39.12	141.81	Japan	A18017_Japan_Jomon_3	Homo sapiens	2700	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212657
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Ikawazu	34.64	137.14	Japan	A18016_Japan_Jomon_2	Homo sapiens	2700	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212656
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18033_Japan_Edo_10	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212655
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18032_Japan_Edo_9	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212654
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18027_Japan_Edo_8	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212652
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18026_Japan_Edo_7	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212651
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18025_Japan_Edo_6	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212650
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.713	139.767	Japan	A18024_Japan_Edo_5	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212649
-Eisenhofer2020	2020	10.1098/rstb.2019.0578	Miyano	39.12	141.81	Japan	A18015_Japan_Jomon_1	Homo sapiens	2700	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	SRS6212648
-Jacobson2020	2020	10.1098/rstb.2019.0586	Chan Chich	17.53	-89.11	Belize	MAWB_15	Homo sapiens	1300	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212796
-Jacobson2020	2020	10.1098/rstb.2019.0587	Chan Chich	17.53	-89.11	Belize	MAWB_12	Homo sapiens	1300	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212795
-Jacobson2020	2020	10.1098/rstb.2019.0588	Chan Chich	17.53	-89.11	Belize	MAWB_11	Homo sapiens	1300	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212794
-Jacobson2020	2020	10.1098/rstb.2019.0589	Chan Chich	17.53	-89.11	Belize	MAWB_10	Homo sapiens	1300	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212793
-Jacobson2020	2020	10.1098/rstb.2019.0590	Chan Chich	17.53	-89.11	Belize	MAWB_6	Homo sapiens	1300	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212792
-Jacobson2020	2020	10.1098/rstb.2019.0591	Chan	17.53	-89.11	Belize	MAWB_5	Homo sapiens	2000	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212791
-Jacobson2020	2020	10.1098/rstb.2019.0592	Chan	17.53	-89.11	Belize	MAWB_3	Homo sapiens	1400	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212790
-Jacobson2020	2020	10.1098/rstb.2019.0593	Perdalba (Sardara)	39.58	8.85	Italy	SA_011	Homo sapiens	3600	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212789
-Jacobson2020	2020	10.1098/rstb.2019.0594	Perdalba (Sardara)	39.58	8.85	Italy	SA_010	Homo sapiens	3600	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212804
-Jacobson2020	2020	10.1098/rstb.2019.0595	Perdalba (Sardara)	39.58	8.85	Italy	SA_009	Homo sapiens	3600	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212803
-Jacobson2020	2020	10.1098/rstb.2019.0596	Capo Pecora (Arbus)	39.448	8.391	Italy	SA_008	Homo sapiens	3400	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212802
-Jacobson2020	2020	10.1098/rstb.2019.0597	Capo Pecora (Arbus)	39.448	8.391	Italy	SA_007	Homo sapiens	3400	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212801
-Jacobson2020	2020	10.1098/rstb.2019.0598	Capo Pecora (Arbus)	39.448	8.391	Italy	SA_006	Homo sapiens	3400	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212800
-Jacobson2020	2020	10.1098/rstb.2019.0599	Capo Pecora (Arbus)	39.448	8.391	Italy	SA_005	Homo sapiens	3400	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212799
-Jacobson2020	2020	10.1098/rstb.2019.0600	Lu Maccioni (Alghero)	40.544	8.321	Italy	SA_004	Homo sapiens	3000	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212798
-Jacobson2020	2020	10.1098/rstb.2019.0601	Lu Maccioni (Alghero)	40.544	8.321	Italy	SA_003	Homo sapiens	3000	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212797
-Jacobson2020	2020	10.1098/rstb.2019.0601	Lu Maccioni (Alghero)	40.544	8.321	Italy	SA_002	Homo sapiens	3000	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212788
-Jacobson2020	2020	10.1098/rstb.2019.0601	Lu Maccioni (Alghero)	40.544	8.321	Italy	SA_001	Homo sapiens	3000	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	SRS7212787
-Sabin2020	2020	10.1098/rstb.2019.0576	Riga	56.94	24.11	Latvia	RGA001	Homo sapiens	600	10.1016/j.jas.2014.05.001	gut	latrine	NA	SRA	SRS7054141
-Sabin2020	2020	10.1098/rstb.2019.0576	Jerusalem	31.77	35.22	West Bank	MAM001	Homo sapiens	600	10.1016/j.ijpp.2015.02.003	gut	latrine	NA	SRA	SRS7054140
-Williams2020	2020	10.1128/MRA.00850-20	Medical Collection, American Museum of Natural History (New York)	40.781	-73.974	USA	AMNH98137_Q01	Homo sapiens	100	10.1128/MRA.00850-20	oral	dental calculus	NA	SRA	SRS6939170
-Williams2020	2020	10.1128/MRA.00850-20	Kodiak Island Collection, National Museum of Natural History (Washington D.C.)	38.891	-77.026	USA	364459	Homo sapiens	100	10.1128/MRA.00850-20	oral	dental calculus	NA	SRA	SRS6939171
+project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	sample_name	sample_host	sample_age	sample_age_doi	community_type	material	collection_date	archive	archive_project	archive_accession
+Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	B61	Homo sapiens	900	10.1038/ng.2906	oral	dental calculus	NA	SRA	PRJNA216965	SRS473742,SRS473743,SRS473744,SRS473745
+Warinner2014	2014	10.1038/ng.2906	Dalheim	51.565	8.84	Germany	G12	Homo sapiens	900	10.1038/ng.2906	oral	dental calculus	NA	SRA	PRJNA216965	SRS473747,SRS473746,SRS473748,SRS473749,SRS473750
+Weyrich2017	2017	10.1038/nature21674	Gola Forest	7.657	-10.841	Sierra Leone	Chimp	Pan troglodytes	100	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3067,3004
+Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.328	Spain	ElSidron1	Homo sapiens neanderthalensis	49000	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3011,2962
+Weyrich2017	2017	10.1038/nature21674	El Sidrón Cave	43.386	-5.329	Spain	ElSidron2	Homo sapiens neanderthalensis	49000	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	2990,3014
+Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy1	Homo sapiens neanderthalensis	35800	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	2952,2953
+Weyrich2017	2017	10.1038/nature21674	Spy Cave	50.48	4.674	Belgium	Spy2	Homo sapiens neanderthalensis	36000	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3034,3035
+Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG1	Homo sapiens	7600	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	2946,2978
+Weyrich2017	2017	10.1038/nature21674	Dudka	53.96	21.86	Poland	EuroHG2	Homo sapiens	7600	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	2974,3041
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK1	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	2955,2956
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK2	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3072,3073
+Weyrich2017	2017	10.1038/nature21674	Stuttgart-Mühlhausen I	48.839	9.227	Germany	EuroLBK3	Homo sapiens	7400	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3080,3071
+Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan1	Homo sapiens	5000	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	2945,3005
+Weyrich2017	2017	10.1038/nature21674	Al Khiday	15.441	32.381	Sudan	Sudan2	Homo sapiens	5000	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3082,3062
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrSF1	Homo sapiens	2300	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3068,3069
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrSF2	Homo sapiens	3800	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3070,3060
+Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbMed1	Homo sapiens	800	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3044,3050
+Weyrich2017	2017	10.1038/nature21674	Jewbury	53.962	-1.075	United Kingdom	UrbWar2	Homo sapiens	800	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3054,2931
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrPP2	Homo sapiens	600	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3076,3077
+Weyrich2017	2017	10.1038/nature21674	Near Cape Town	NA	NA	South Africa	AfrPP1	Homo sapiens	600	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	2992,2993
+Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev1	Homo sapiens	200	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	3047,2939
+Weyrich2017	2017	10.1038/nature21674	Hettstedt Gymnasium	51.646	11.512	Germany	IndRev2	Homo sapiens	200	10.1038/nature21674	oral	dental calculus	NA	OAGR	65	2940,3049
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS01	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985742,ERS2985790,ERS3881508
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS02	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985743,ERS2985791,ERS3881509
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS03	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985744,ERS2985792,ERS3881510
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS04	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985745,ERS2985793,ERS3881511
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS05	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985794,ERS3881512
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS06	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985795,ERS3881513
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS07	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985746,ERS2985796,ERS3881514
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS08	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985747,ERS2985797,ERS3881515
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS09	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985748,ERS2985798,ERS3881516
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS10	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985749,ERS2985799,ERS3881517
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS11	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985750,ERS2985800,ERS3881518
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS12	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985751,ERS2985801,ERS3881519
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS13	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985752,ERS2985802,ERS3881520
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS14	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985753,ERS2985803,ERS3881521
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS15	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985754,ERS2985804,ERS3881522
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS16	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985755,ERS2985805,ERS3881523
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS17	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985756,ERS2985806,ERS3881524
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS18	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985757,ERS2985807,ERS3881525
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS19	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985758,ERS2985808,ERS3881526
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS20	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985759,ERS2985809,ERS3881527
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS21	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985760,ERS2985810,ERS3881528
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS22	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985761,ERS2985811,ERS3881529
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS23	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985762,ERS2985812,ERS3881530
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS24	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985763,ERS2985813,ERS3881531
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS26	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985764,ERS2985814,ERS3881532
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS27	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985765,ERS2985815,ERS3881533
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS28	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985766,ERS2985816,ERS3881534
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS29	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985767,ERS2985817,ERS3881535
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS30	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985768,ERS2985818,ERS3881536
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS31	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985769,ERS2985819,ERS3881537
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS32	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985770,ERS2985820,ERS3881538
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS33	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985771,ERS2985821,ERS3881539
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS34	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985772,ERS2985822,ERS3881540
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS35	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985773,ERS2985823,ERS3881541
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS36	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985774,ERS2985824,ERS3881542
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS37	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985775,ERS2985825,ERS3881543
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS38	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985776,ERS2985826,ERS3881544
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS39	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985777,ERS2985827,ERS3881545
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS40	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985778,ERS2985828,ERS3881546
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS42	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985779,ERS2985829,ERS3881547
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS43	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985780,ERS2985830,ERS3881548
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS44	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985781,ERS2985831,ERS3881549
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS45	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985782,ERS2985832,ERS3881550
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS46	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985783,ERS2985833,ERS3881551
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS47	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985784,ERS2985834,ERS3881552
+Velsko2018	2018	10.1186/s40168-019-0717-3	Radcliffe Infirmary	51.752	-1.257	United Kingdom	CS48	Homo sapiens	200	10.1186/s40168-019-0717-3	oral	dental calculus	NA	ENA	PRJEB30331	ERS2985785,ERS2985835,ERS3881553
+Jensen2019	2019	10.1038/s41467-019-13549-9	Syltholm	54.66	11.35	Denmark	Syltholm_1	Homo sapiens	5000	10.1038/s41467-019-13549-9	oral	birch pitch	NA	ENA	PRJEB30280	ERS3337752
+Fagernas2020	2020	10.1016/j.jas.2020.105135	Driffield Terrace	53.951	-1.1	United Kingdom	3DT21	Homo sapiens	1500	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	PRJEB35483	ERS4042406,ERS4042407,ERS4042408,ERS4042409
+Fagernas2020	2020	10.1016/j.jas.2020.105135	Wighill	53.91	-1.29	United Kingdom	WG1561	Homo sapiens	700	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	PRJEB35483	ERS4042435,ERS4042436,ERS4042437,ERS4042438
+Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 1441-1-1440(044)	Homo sapiens	1100	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	PRJEB35483	ERS4042423,ERS4042424,ERS4042425,ERS4042426
+Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 2591-1-2590(159)	Homo sapiens	1100	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	PRJEB35483	ERS4042427,ERS4042428,ERS4042429,ERS4042430
+Fagernas2020	2020	10.1016/j.jas.2020.105135	San Martín de Dulantzi	42.84	-2.517	Spain	SMD 2711-1-2710(171)	Homo sapiens	1000	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	PRJEB35483	ERS4042431,ERS4042432,ERS4042433,ERS4042434
+Fagernas2020	2020	10.1016/j.jas.2020.105135	Rupert's Valley	-15.933	-5.75	Saint Helena	SK203	Homo sapiens	100	10.1016/j.jas.2020.105135	oral	dental calculus	NA	ENA	PRJEB35483	ERS4042419,ERS4042420,ERS4042421,ERS4042422
+Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C214	Homo sapiens	4700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078201
+Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C53	Homo sapiens	4700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078204
+Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F1948	Homo sapiens	800	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078198
+Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F349A	Homo sapiens	800	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078200
+Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H10	Homo sapiens	4400	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078195
+Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H24	Homo sapiens	4400	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078181
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT01	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078183,SRS3078182
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT02	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078176
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT03	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078178
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT04	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078185
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT05	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078115,SRS3078117
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT06	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078111
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT07	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078113
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT08	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078109,SRS3078099
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT09	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078097,SRS3078104
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT10	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078101
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT11	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078105
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT12	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078133
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT13	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078131,SRS3078137
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT14	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078134,SRS3078129
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT15	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078120
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT16	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078122
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT17	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078124
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT18	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078126
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT19	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078118
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT20	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078148
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT21	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078150
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT22	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078151
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT23	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078155
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT24	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078156,SRS3078146
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT25	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078197,SRS3078141
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT26	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078139,SRS3078145
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT27	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078093
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT28	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078091,SRS3078089
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT29	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078087,SRS3078085
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT30	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078193
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT31	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078158,SRS3078147
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT32	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078192,SRS3078187
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT33	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078170
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT34	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078167
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT35	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078165
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT36	Homo sapiens	1000	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078163,SRS3078172
+Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF217	Homo sapiens	700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078173
+Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF47	Homo sapiens	700	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078175
+Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S108	Homo sapiens	300	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078160
+Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S40	Homo sapiens	1400	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078162
+Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S41	Homo sapiens	1400	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078206
+Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S454	Homo sapiens	300	10.1038/s41598-018-28091-9	oral	dental calculus	NA	SRA	PRJNA445215	SRS3078095
+Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C214	Homo sapiens	4700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078202
+Mann2018	2018	10.1038/s41598-018-28091-9	Camino del Molino	38.102	-1.865	Spain	C53	Homo sapiens	4700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078203
+Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F1948	Homo sapiens	800	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078196
+Mann2018	2018	10.1038/s41598-018-28091-9	Anse a la Gourde	16.254	-61.203	Guadeloupe	F349A	Homo sapiens	800	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078161
+Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H10	Homo sapiens	4400	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078189
+Mann2018	2018	10.1038/s41598-018-28091-9	Khövsgöl	49.66	99.61	Mongolia	H24	Homo sapiens	4400	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078180
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT01	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078177
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT02	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078179
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT03	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078184
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT04	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078114
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT05	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078110,SRS3078116
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT06	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078112
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT07	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078108
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT08	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078098,SRS3078100
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT09	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078102,SRS3078103
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT10	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078106
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT11	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078132
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT12	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078130
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT13	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078135,SRS3078136
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT14	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078121,SRS3078128
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT15	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078123
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT16	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078125
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT17	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078127
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT18	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078119
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT20	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078149
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT21	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078152
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT22	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078153
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT23	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078154
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT24	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078143,SRS3078157
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT25	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078140,SRS3078142
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT26	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078144,SRS3078138
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT27	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078094
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT28	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078090,SRS3078092
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT29	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078086,SRS3078088
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT30	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078190
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT31	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078188,SRS3078194
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT32	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078186,SRS3078191
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT33	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078169
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT34	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078168
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT35	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078166
+Mann2018	2018	10.1038/s41598-018-28091-9	Kilteasheen	54.005	-8.201	Ireland	KT36	Homo sapiens	1000	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078164,SRS3078107
+Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF217	Homo sapiens	700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078171
+Mann2018	2018	10.1038/s41598-018-28091-9	Norris Farms	40.23	-90.143	USA	NF47	Homo sapiens	700	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078174
+Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S108	Homo sapiens	300	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078159
+Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S40	Homo sapiens	1400	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078199
+Mann2018	2018	10.1038/s41598-018-28091-9	Samdzong	29.27	84.03	Nepal	S41	Homo sapiens	1400	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078205
+Mann2018	2018	10.1038/s41598-018-28091-9	Middenbeemster	52.548	4.912	Netherlands	S454	Homo sapiens	300	10.1038/s41598-018-28091-9	skeletal tissue	tooth	NA	SRA	PRJNA445215	SRS3078096
+Brealey2020	2020	10.1093/molbev/msaa135	Karisimbi	-1.508	29.445	Democratic Republic of the Congo	Gb1	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545903,ERS4545904,ERS4545905
+Brealey2020	2020	10.1093/molbev/msaa135	Lulingu	-2.316	27.549	Democratic Republic of the Congo	Gb2	Gorilla beringei	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545906,ERS4545907,ERS4545908
+Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua2	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545909
+Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua6	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545910
+Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua7	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545911
+Brealey2020	2020	10.1093/molbev/msaa135	Lake Ladoga	61	31.5	Russia	Ua13	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545912
+Brealey2020	2020	10.1093/molbev/msaa135	Dalarna	61.004	14.537	Sweden	Ua14	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545913
+Brealey2020	2020	10.1093/molbev/msaa135	Jämtland	63.399	13.081	Sweden	Ua9	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545914
+Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt1	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545915
+Brealey2020	2020	10.1093/molbev/msaa135	Unknown	NA	NA	Unknown	Rt5	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545916
+Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt7	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545917
+Brealey2020	2020	10.1093/molbev/msaa135	South-west Norway	60	6	Norway	Rt11	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545918
+Brealey2020	2020	10.1093/molbev/msaa135	North-east Greenland	79	-56	Greenland	Rt13	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	NA	ENA	PRJEB33363	ERS4545919
+Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt_tooth	Rangifer tarandus	100	10.1093/molbev/msaa135	skeletal tissue	tooth	NA	ENA	PRJEB33363	ERS4545920
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	02C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625244
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	04C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625243
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	05C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625242
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	07C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625241
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	13C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625248
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	14C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625247
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	16C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625246
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	17C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625245
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	18C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625250
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	19C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625249
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	20C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625239
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	21C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625238
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	22C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625237
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	24C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625236
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	25C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625235
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	26C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625234
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	27C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625233
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	28C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625232
+Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	29C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	NA	SRA	PRJNA531027	SRS4625240
+Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB01	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	PRJEB34875	ERS3887040
+Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB05	Papio anubis	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	PRJEB34875	ERS3887041
+Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB06	Papio anubis	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	PRJEB34875	ERS3887042
+Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB08	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	PRJEB34875	ERS3887043
+Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB09	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	PRJEB34875	ERS3887044
+Ottoni2019	2019	10.1038/s41598-019-56074-x	Gabbanat al-Qurud	25.741	32.592	Egypt	BB11	Papio sp.	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	PRJEB34875	ERS3887045
+Ottoni2019	2019	10.1038/s41598-019-56074-x	Zoological Society of Philadelphia	39.97	-75.19	USA	ANSP11833	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	PRJEB34875	ERS3887046
+Ottoni2019	2019	10.1038/s41598-019-56074-x	Zoological Society of Philadelphia	39.97	-75.19	USA	ANSP3271	Papio hamadryas	100	10.1038/s41598-019-56074-x	oral	dental calculus	NA	ENA	PRJEB34875	ERS3887047
+Zhou2018	2018	10.1016/j.cub.2018.05.058	St. Olav's Cathedral	63.425	10.392	Norway	SK152	Homo sapiens	800	10.1016/j.cub.2018.05.058	oral	dental calculus	NA	UCPH ERDA	NA	E56xgi8CEl
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	213	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	PRJNA302605	SRS1170472
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	306	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	PRJNA302605	SRS2213343
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	308	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	PRJNA302605	SRS2213341
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	309	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	PRJNA302605	SRS2213347
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	403	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	PRJNA302605	SRS2213345
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	406	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	tooth	NA	SRA	PRJNA302605	SRS2213344
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	702	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	PRJNA302605	SRS2213350
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	312	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	PRJNA302605	SRS2213346
+Willman2018	2018	10.1371/journal.pone.0196482	Le Mans	48.006	0.199	France	307	Homo sapiens	200	10.1371/journal.pone.0196482	skeletal tissue	bone	NA	SRA	PRJNA302605	SRS2213342
+Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-217C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	PRJNA293758	SRS1052916
+Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-47C-SG	Homo sapiens	700	10.1002/ajpa.22960	oral	dental calculus	NA	SRA	PRJNA293758	SRS1052918
+Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-47D-SG	Homo sapiens	700	10.1002/ajpa.22960	skeletal tissue	tooth	NA	SRA	PRJNA293758	SRS1052917
+Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-217D-SG	Homo sapiens	700	10.1002/ajpa.22960	skeletal tissue	tooth	NA	SRA	PRJNA293758	SRS1052915
+NievesColon2020	2020	10.1093/molbev/msz267	Paso del Indio	18.41	-66.33	USA	PI-420A-C	Homo sapiens	700	10.1093/molbev/msz267	oral	dental calculus	NA	SRA	PRJNA557308	SRS5211976
+SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	-13.53	-71.96	Peru	FI3	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgp13354	mgs295853
+SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	-13.53	-71.96	Peru	FI12	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgp13354	mgs297488
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD22	Homo sapiens	600	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgp13354	mgs295871
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD3	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgp13354	mgs295859
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD14	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgp13354	mgs295862
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD27	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgp13354	mgs295868
+SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD29	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgp13354	mgs295865
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, content I 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	PRJEB11511	ERS942275,ERS942266
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, content II 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	PRJEB11511	ERS942267,ERS942277
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, surface 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	PRJEB11511	ERS942270,ERS942274,ERS942269
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach antrum, content 1051	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	PRJEB11511	ERS942268,ERS942271
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach antrum, surface 1051	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	PRJEB11511	ERS942265,ERS942273
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Small intestine 1063	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	PRJEB11511	ERS942272
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Large intestine, upper part I 1036	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	PRJEB11511	ERS942281
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Large intestine, upper part II 1036	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	PRJEB11511	ERS942282
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Large intestine, lower part 225	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	NA	ENA	PRJEB11511	ERS942276
+Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Muscle tissue, Muscle 1 and 2	Homo sapiens	5300	10.1126/science.aad2545	soft tissue	muscle tissue	NA	ENA	PRJEB11511	ERS942279,ERS942280
+Tett2019	2019	10.1016/j.chom.2019.08.018	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Coprolite 14	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	PRJEB31971	ERS3348200
+Tett2019	2019	10.1016/j.chom.2019.08.018	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Coprolite 16	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	PRJEB31971	ERS3348201
+Tett2019	2019	10.1016/j.chom.2019.08.018	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Coprolite 19	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	PRJEB31971	ERS3348202
+Tett2019	2019	10.1016/j.chom.2019.08.018	Hauslabjoch	46.773	10.837	Italy	Iceman	Homo sapiens	5300	10.1007/978-3-7091-6599-7_7	gut	large intestine	NA	ENA	PRJEB31971	ERS3348203
+Hagan2019	2019	10.1002/ajpa.23978	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape2	Canis lupus	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	PRJEB33577	ERS4044029,ERS4044039,ERS4044041,ERS4044043,ERS4044047,ERS4044049,ERS4044052,ERS4044055,ERS4044057,ERS4044058
+Hagan2019	2019	10.1002/ajpa.23978	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape5	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	PRJEB33577	ERS4044025,ERS4044028,ERS4044033,ERS4044034,ERS4044036,ERS4044038,ERS4044040,ERS4044044,ERS4044046,ERS4044048
+Hagan2019	2019	10.1002/ajpa.23978	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape28	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	PRJEB33577	ERS4044024,ERS4044027,ERS4044031,ERS4044032,ERS4044035,ERS4044042,ERS4044045,ERS4044051,ERS4044054,ERS4044056
+Rifkin2020	2020	10.1186/s40168-020-00832-x	Bushman Rock Shelter	-24.74	30.56	South Africa	BRS2	Homo sapiens	500	10.1186/s40168-020-00832-x	gut	palaeofaeces	NA	ENA	PRJNA527177	SRS4491531
+Rifkin2020	2020	10.1186/s40168-020-00832-x	Bushman Rock Shelter	-24.74	30.56	South Africa	BRS3	Homo sapiens	500	10.1186/s40168-020-00832-x	gut	palaeofaeces	NA	ENA	PRJNA527177	SRS4491528
+Rifkin2020	2020	10.1186/s40168-020-00832-x	Bushman Rock Shelter	-24.74	30.56	South Africa	BRS4	Homo sapiens	500	10.1186/s40168-020-00832-x	gut	palaeofaeces	NA	ENA	PRJNA527177	SRS4491529
+Borry2020	2020	10.7717/peerj.9001	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape 23	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	PRJEB35362	ERS4181283
+Borry2020	2020	10.7717/peerj.9001	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape 25	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	PRJEB35362	ERS4181284
+Borry2020	2020	10.7717/peerj.9001	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape 27	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	PRJEB35362	ERS4181285
+Borry2020	2020	10.7717/peerj.9001	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape 29	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	PRJEB35362	ERS4181286
+Borry2020	2020	10.7717/peerj.9001	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape 31	Homo sapiens	1300	10.2307/277801	gut	palaeofaeces	1960	ENA	PRJEB35362	ERS4181287
+Borry2020	2020	10.7717/peerj.9001	Yorkshire	53.8	-2.07	United Kingdom	YRK001	Canis lupus	400	10.7717/peerj.9001	gut	palaeofaeces	NA	ENA	PRJEB35362	ERS4181282
+Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba abdominal oblique muscle	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	muscle tissue	NA	SRA	PRJNA395646	SRS2390527
+Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba abdominal subcutaneous fat and muscle	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	muscle tissue	NA	SRA	PRJNA395646	SRS2390528
+Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba cheek fat	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	buccal fat pad	NA	SRA	PRJNA395646	SRS2390529
+Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba omentum	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	omentum	NA	SRA	PRJNA395646	SRS2390530
+Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba peritoneum	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	peritoneum	NA	SRA	PRJNA395646	SRS2390526
+Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba intestinal tissue 1	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	intestine	NA	SRA	PRJNA395646	SRS2390532
+Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba intestinal tissue 2	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	intestine	NA	SRA	PRJNA395646	SRS2390531
+Ferrari2018	2018	10.3390/genes9090436	Yuribey River	68.633	71.666	Russia	Lyuba caecum	Mammuthus primigenius	41800	10.3390/genes9090436	soft tissue	caecum	NA	SRA	PRJNA395646	SRS2390534
+McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga USNM 194319 Bone	Conepatus chinga	100	10.1093/jmammal/gyy080	skeletal tissue	bone	NA	SRA	PRJNA438985	SRS3118688
+McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga USNM 194319 Claw	Conepatus chinga	100	10.1093/jmammal/gyy080	soft tissue	keratinous claw	NA	SRA	PRJNA438985	SRS3118688
+McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga USNM 194319 Osteocrust	Conepatus chinga	100	10.1093/jmammal/gyy080	soft tissue	muscle tissue	NA	SRA	PRJNA438985	SRS3118688
+McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga USNM 194319 Skin	Conepatus chinga	100	10.1093/jmammal/gyy080	soft tissue	skin	NA	SRA	PRJNA438985	SRS3118688
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Bone	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	skeletal tissue	bone	NA	SRA	PRJNA438985	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Claw	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	keratinous claw	NA	SRA	PRJNA438985	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Osteocrust	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	muscle tissue	NA	SRA	PRJNA438985	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Skin	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	skin	NA	SRA	PRJNA438985	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Bone	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	skeletal tissue	bone	NA	SRA	PRJNA438985	SRS3118689
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Claw	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	keratinous claw	NA	SRA	PRJNA438985	SRS3118689
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Osteocrust	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	muscle tissue	NA	SRA	PRJNA438985	SRS3118689
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Skin	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	skin	NA	SRA	PRJNA438985	SRS3118689
+Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP4	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	PRJNA205039	SRS428959
+Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP10	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	PRJNA205039	SRS428961
+Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP18	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	PRJNA205039	SRS428962
+Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP37	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	PRJNA205039	SRS428963
+Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP9	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	PRJNA205039	SRS428960
+Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP48	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	PRJNA205039	SRS428964
+Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP02,TP10,TP15,TP26	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	PRJNA205039	SRS428958
+Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP32,TP42,TP45,TP48	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	2006	SRA	PRJNA205039	SRS428972
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.67	-91.53	USA	BG-102	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3867520
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	25.14	-80.92	USA	BG-13	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882361
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	40.86	-73.87	USA	BG-5	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882362
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	25.14	-80.92	USA	BG-56	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882363
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.2	-86.39	USA	BG-62	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882364
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	25.54	-80.33	USA	BG-68	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882365
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	39.09	-94.58	USA	BG-73	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882366
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	44.27	-68.57	USA	HU-10	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882367
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.55	-71.29	USA	HU-105	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882368
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	46.19	-74.63	USA	HU-146	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882369
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	25.14	-80.92	USA	HU-157	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882370
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	25.78	-80.21	USA	HU-158	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882371
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	45.45	-75.7	USA	HU-178	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882372
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	28.04	-82.3	USA	HU-180	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882373
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	38.99	-95.22	USA	HU-185	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882374
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	30.41	-88.88	USA	HU-196	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882375
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.67	-91.53	USA	HU-203	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882376
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	44.37	-71.61	USA	HU-40	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882377
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	42.24	-70.8	USA	HU-79	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882378
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	42.27	-71.8	USA	HU-99	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882379
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	39.98	-75.16	USA	MB-104	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882380
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.43	-91.04	USA	MB-65	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882381
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	44.29	-69.37	USA	MB-77	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882382
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	28.05	-82.3	USA	MB-86	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882383
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	41.58	-72.65	USA	MB-87	Ambrosia artemisiifolia	200	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882384
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.22	5.97	Netherlands	NAT-002	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882385
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.22	5.97	Netherlands	NAT-003	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882386
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.22	5.97	Netherlands	NAT-005	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882387
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.25	6.2	Netherlands	NAT-011	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882388
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.25	6.2	Netherlands	NAT-012	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882389
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.25	6.2	Netherlands	NAT-013	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882390
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.25	6.2	Netherlands	NAT-017	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882391
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.22	5.97	Netherlands	NAT-023	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882392
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	52.22	5.97	Netherlands	NAT-026	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882393
+Bieker2020	2020	10.1111/1755-0998.13174	Unknown	51.98	6.82	Netherlands	NAT-112	Ambrosia artemisiifolia	100	10.1111/1755-0998.13253	plant tissue	leaf	NA	ENA	PRJEB34825	ERS3882394
+Bieker2020	2020	10.1111/1755-0998.13174	Upper Providence, Delaware County, Pennsylvania	40.1	-75.4	USA	PH-15	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	PRJNA339123	SRS1631715
+Bieker2020	2020	10.1111/1755-0998.13174	Swarthmore, Delaware County, Pennsylvania	39.9	-75.3	USA	PH-16	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	PRJNA339123	SRS1631716
+Bieker2020	2020	10.1111/1755-0998.13174	Lansdowne, Delaware County, Pennsylvania	39.9	-75.2	USA	PH-18	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	PRJNA339123	SRS1631717
+Bieker2020	2020	10.1111/1755-0998.13174	West Philadelphia, Philadelphia	39.9	-75.2	USA	PH-26	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	PRJNA339123	SRS1631719
+Bieker2020	2020	10.1111/1755-0998.13174	Easton, Philadelphia	40	-75.1	USA	PH-6	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	PRJNA339123	SRS1631714
+Bieker2020	2020	10.1111/1755-0998.13174	Iowa City, Iowa	41.6	-91.5	USA	USNH-12	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	PRJNA339123	SRS1631724
+Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-23	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	PRJNA339123	SRS1631727
+Bieker2020	2020	10.1111/1755-0998.13174	Des Moines, Iowa	41.5	-93.6	USA	USNH-34	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	PRJNA339123	SRS1631728
+Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-37	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	PRJNA339123	SRS1631729
+Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-38	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	PRJNA339123	SRS1631730
+Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-39	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	NA	SRA	PRJEB34825	ERS3882395
+Bieker2020	2018	10.1371/journal.pgen.1007155	Connecticut (in Ohio State University)	41	-72	USA	JK2509	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159299
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	39.688	-82.993	USA	JK2510	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159300
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	41.721	-81.243	USA	JK2511	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159301
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	39.956	-81.953	USA	JK2512	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159302
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	41.102	-81.56	USA	JK2513	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159303
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	39.956	-81.953	USA	JK2514	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159304
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	41.137	-81.863	USA	JK2515	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159305
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	39.5	-82.472	USA	JK2516	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159306
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	40	-82	USA	JK2517	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159307
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Ohio State University)	41.867	-80.789	USA	JK2518	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159308
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in University of Connecticut Herbarium)	40	-82	USA	JK2520	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159309
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in University of Connecticut Herbarium)	40	-82	USA	JK2521	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159310
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in University of Connecticut Herbarium)	40	-82	USA	JK2523	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159311
+Bieker2020	2018	10.1371/journal.pgen.1007155	New Jersey (in University of Connecticut Herbarium)	39.856	-74.686	USA	JK2524	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159312
+Bieker2020	2018	10.1371/journal.pgen.1007155	Connecticut (in University of Connecticut Herbarium)	41.224	-73.06	USA	JK2525	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159313
+Bieker2020	2018	10.1371/journal.pgen.1007155	Connecticut (in University of Connecticut Herbarium)	41.666	-73.508	USA	JK2526	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159314
+Bieker2020	2018	10.1371/journal.pgen.1007155	Connecticut (in University of Connecticut Herbarium)	41.509	-72.543	USA	JK2527	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159315
+Bieker2020	2018	10.1371/journal.pgen.1007155	Ohio (in Chicago Field Museum)	41.48	-86.82	USA	JK2529	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159316
+Bieker2020	2018	10.1371/journal.pgen.1007155	Indiana (in Chicago Field Museum)	41.482	-86.822	USA	JK2530	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159317
+Bieker2020	2018	10.1371/journal.pgen.1007155	New Jersey (in Chicago Field Museum)	39.856	-74.686	USA	JK2531	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159318
+Bieker2020	2018	10.1371/journal.pgen.1007155	Utah (In New York Botanical Garden)	40.643	-111.951	USA	JK346	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159319
+Bieker2020	2018	10.1371/journal.pgen.1007155	New York (In New York Botanical Garden)	41.15	-73.766	USA	JK351	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159320
+Bieker2020	2018	10.1371/journal.pgen.1007155	Tennessee (In New York Botanical Garden)	35.99	-83.94	USA	JK355	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159321
+Bieker2020	2018	10.1371/journal.pgen.1007155	Georgia (in New York Botanical Garden)	32	-83	USA	JK356	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159322
+Bieker2020	2018	10.1371/journal.pgen.1007155	District of Columbia (in New York Botanical Garden)	38.906	-77.036	USA	JK362	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159323
+Bieker2020	2018	10.1371/journal.pgen.1007155	New York (In New York Botanical Garden)	43.192	-77.01	USA	JK366	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159324
+Bieker2020	2018	10.1371/journal.pgen.1007155	New Jersey (in New York Botanical Garden)	40.924	-74.075	USA	JK367	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159325
+Bieker2020	2018	10.1371/journal.pgen.1007155	New Jersey (in New York Botanical Garden)	41.122	-74.356	USA	JK372	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159326
+Bieker2020	2018	10.1371/journal.pgen.1007155	New York (In New York Botanical Garden)	39.97	-83.01	USA	JK376	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159327
+Bieker2020	2018	10.1371/journal.pgen.1007155	District of Columbia (in New York Botanical Garden)	38.906	-77.037	USA	JK389	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159328
+Bieker2020	2018	10.1371/journal.pgen.1007155	North Carolina (in New York Botanical Garden)	35	-79	USA	JK393	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159329
+Bieker2020	2018	10.1371/journal.pgen.1007155	District of Columbia (in New York Botanical Garden)	38.906	-77.037	USA	JK395	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159330
+Bieker2020	2018	10.1371/journal.pgen.1007155	Delaware (in New York Botanical Garden)	38.715	-75.631	USA	JK399	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159331
+Bieker2020	2018	10.1371/journal.pgen.1007155	Utah (In New York Botanical Garden)	40.643	-111.967	USA	JK401	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	NA	SRA	PRJEB24619	ERS2159332
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1433	Homo sapiens	2600	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3635916
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1502	Homo sapiens	1700	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636029
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1504	Homo sapiens	1600	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636033
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1504	Homo sapiens	1600	10.1038/ncomms15694	oral	dental calculus	NA	ENA	PRJEB33848	ERS3636043
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1505	Homo sapiens	1600	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636031
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1506	Homo sapiens	1600	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636034
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1511	Homo sapiens	1800	10.1186/s12915-020-00839-8	oral	dental calculus	NA	ENA	PRJEB33848	ERS3636044
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1513	Homo sapiens	2300	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635932
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1515	Homo sapiens	3100	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635931
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1518	Homo sapiens	2900	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635959
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1519	Homo sapiens	4000	10.1186/s12915-020-00839-8	oral	dental calculus	NA	ENA	PRJEB33848	ERS3636092,ERS3636091,ERS3635912,ERS3636090
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1521	Homo sapiens	2700	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635934
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1526	Homo sapiens	2700	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635939
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1529	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3635985
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1530	Homo sapiens	2600	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635935
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1532	Homo sapiens	2700	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635952
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1533	Homo sapiens	2200	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635997
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1534	Homo sapiens	2800	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635940
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1536	Homo sapiens	1800	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636026
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1537	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3636030
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1538	Homo sapiens	2000	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635990
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1539	Homo sapiens	2800	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635965
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1541	Homo sapiens	2100	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635969
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1543	Homo sapiens	1900	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636025,ERS3636093,ERS3636094,ERS3636095,ERS3636096
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1543	Homo sapiens	1900	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	PRJEB33848	ERS3636018,ERS3636097,ERS3636098,ERS3636099,ERS3636100,ERS3636101
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1545	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3636000
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1546	Homo sapiens	2200	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635991
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1547	Homo sapiens	1800	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636016
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1549	Homo sapiens	2000	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636039
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1550	Homo sapiens	2200	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635982
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1553	Homo sapiens	2700	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635950
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1554	Homo sapiens	2300	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635915
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1554	Homo sapiens	2300	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	PRJEB33848	ERS3635922
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1555	Homo sapiens	1900	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636017
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1556	Homo sapiens	2200	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635979
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1557	Homo sapiens	2100	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635970
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1558	Homo sapiens	2100	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635971
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1559	Homo sapiens	1900	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636036
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1560	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3635978
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1561	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3635988
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1563	Homo sapiens	2100	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635983
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1564	Homo sapiens	2200	10.1371/journal.pone.0060307	oral	tooth	NA	ENA	PRJEB33848	ERS3635967
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1564	Homo sapiens	2200	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635996
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1564	Homo sapiens	2200	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	PRJEB33848	ERS3635972
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1565	Homo sapiens	2000	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635966
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1566	Homo sapiens	2600	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635919
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1568	Homo sapiens	3300	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635933
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1569	Homo sapiens	2700	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635938
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1570	Homo sapiens	2000	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635980
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1572	Homo sapiens	1800	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636027
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1573	Homo sapiens	1900	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636012
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1573	Homo sapiens	1900	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635984
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1574	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	dental calculus	NA	ENA	PRJEB33848	ERS3636013
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1576	Homo sapiens	2200	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635981
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1577	Homo sapiens	1900	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636022
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1579	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3635992
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1580	Homo sapiens	2300	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635937
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1582	Homo sapiens	1900	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636024
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1583	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3635989
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1584	Homo sapiens	2700	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635930
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1585	Homo sapiens	2300	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635998
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1585	Homo sapiens	2300	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	PRJEB33848	ERS3635973
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1587	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3635987
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1588	Homo sapiens	2200	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635977
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1590	Homo sapiens	2300	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635926
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1591	Homo sapiens	2700	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635936
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1594	Homo sapiens	2200	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636007
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1594	Homo sapiens	2200	10.1038/ncomms15694	oral	dental calculus	NA	ENA	PRJEB33848	ERS3636014,ERS3636102,ERS3636103
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1595	Homo sapiens	2900	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635963
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1596	Homo sapiens	2600	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635955
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1599	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3636006
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1601	Homo sapiens	1900	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636035
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1602	Homo sapiens	2200	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636008
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1603	Homo sapiens	2300	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635914
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1604	Homo sapiens	2600	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635921
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1605	Homo sapiens	2600	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635941
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1606	Homo sapiens	2600	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635928
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1607	Homo sapiens	1900	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3636032
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1608	Homo sapiens	2700	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635951
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1608	Homo sapiens	2700	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	PRJEB33848	ERS3635923
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1609	Homo sapiens	2600	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635929
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1611	Homo sapiens	1800	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636028
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1612	Homo sapiens	2600	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635948
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1614	Homo sapiens	2600	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635946
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1614	Homo sapiens	2600	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635927
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1615	Homo sapiens	2800	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635943
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1616	Homo sapiens	2900	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635920
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1617	Homo sapiens	3000	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635945
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1618	Homo sapiens	2400	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635944
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1619	Homo sapiens	2700	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635949
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1620	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3635993
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1621	Homo sapiens	2100	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3635994
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1622	Homo sapiens	2800	10.1371/journal.pone.0060307	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635953
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1622	Homo sapiens	2800	10.1371/journal.pone.0060307	soft tissue	unknown	NA	ENA	PRJEB33848	ERS3635924
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1623	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3635995
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1624	Homo sapiens	2000	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636038
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1627	Homo sapiens	2000	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636009
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1627	Homo sapiens	2000	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636010
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1630	Homo sapiens	2200	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635976,ERS3636087,ERS3636088,ERS3636089
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1631	Homo sapiens	1900	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636042
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1633	Homo sapiens	2300	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635964
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1634	Homo sapiens	2400	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635918
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1635	Homo sapiens	1700	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636011
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1636	Homo sapiens	2300	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635962
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1642	Homo sapiens	2300	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635913
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1645	Homo sapiens	2300	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635917
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1647	Homo sapiens	2300	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3635958
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1648	Homo sapiens	2000	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635999
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1648	Homo sapiens	2000	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636002
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1649	Homo sapiens	2800	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635954
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1650	Homo sapiens	2800	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635961
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1651	Homo sapiens	2200	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636005
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1652	Homo sapiens	1900	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636023
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1653	Homo sapiens	2600	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635942
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1654	Homo sapiens	2300	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635960
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1655	Homo sapiens	3100	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635957
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1656	Homo sapiens	2100	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635968
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1658	Homo sapiens	1900	10.1186/s12915-020-00839-8	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636015
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1660	Homo sapiens	2200	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3636001
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1665	Homo sapiens	2000	10.1186/s12915-020-00839-8	oral	tooth	NA	ENA	PRJEB33848	ERS3636040
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1666	Homo sapiens	1900	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3636037
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1667	Homo sapiens	2600	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635947
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1668	Homo sapiens	2200	10.1038/ncomms15694	skeletal tissue	bone	NA	ENA	PRJEB33848	ERS3635986
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1668	Homo sapiens	2200	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636003
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1671	Homo sapiens	2100	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636004
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1672	Homo sapiens	1900	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636041
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir1673	Homo sapiens	2600	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635956
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3533	Homo sapiens	2600	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635925
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3536	Homo sapiens	2000	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636019
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3544	Homo sapiens	1500	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636020
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3552	Homo sapiens	1600	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3636021
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3578	Homo sapiens	2200	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635974
+Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3610	Homo sapiens	2200	10.1038/ncomms15694	oral	tooth	NA	ENA	PRJEB33848	ERS3635975
+Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	16	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	NA	SRA	PRJNA377320	SRS2006287
+Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	2	Homo sapiens	500	10.1016/j.ijpp.2018.05.001	oral	dental calculus	NA	SRA	PRJNA377320	SRS2006289
+Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	4	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	NA	SRA	PRJNA377320	SRS2006288
+Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	15	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	NA	SRA	PRJNA377320	SRS2006290
+Modi2020	2020	10.1007/s12520-019-00983-5	Porticus Octaviae (Rome)	41.892	12.478	Italy	P.O 108-7	Homo sapiens	900	10.1007/s12520-019-00983-5	oral	dental calculus	2018	SRA	PRJNA660212	SRS7296485
+Modi2020	2020	10.1007/s12520-019-00983-5	Porticus Octaviae (Rome)	41.892	12.478	Italy	P.O Z. US44	Homo sapiens	900	10.1007/s12520-019-00983-5	oral	dental calculus	2018	SRA	PRJNA660212	SRS7296487
+Modi2020	2020	10.1007/s12520-019-00983-5	Porticus Octaviae (Rome)	41.892	12.478	Italy	P.O 898-11	Homo sapiens	1000	10.1007/s12520-019-00983-5	oral	dental calculus	2018	SRA	PRJNA660212	SRS7296488
+Appelt2014	2014	10.1128/AEM.03242-13	Place d'Armes, Namur	50.46	4.86	Belgium	4.453	Homo sapiens	600	10.1128/AEM.03242-13	gut	palaeofaeces	NA	SRA	PRJNA230469	SRS510175
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18023_Japan_Edo_4	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212663
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18022_Japan_Edo_3	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212662
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18021_Japan_Edo_2	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212661
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18020_Japan_Edo_1	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212660
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Ebishima	38.83	141.18	Japan	A18019_Japan_Jomon_5	Homo sapiens	2700	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212659
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Miyano	39.12	141.81	Japan	A18018_Japan_Jomon_4	Homo sapiens	2700	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212658
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Miyano	39.12	141.81	Japan	A18017_Japan_Jomon_3	Homo sapiens	2700	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212657
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Ikawazu	34.64	137.14	Japan	A18016_Japan_Jomon_2	Homo sapiens	2700	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212656
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18033_Japan_Edo_10	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212655
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18032_Japan_Edo_9	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212654
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18027_Japan_Edo_8	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212652
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18026_Japan_Edo_7	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212651
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.71	139.78	Japan	A18025_Japan_Edo_6	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212650
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Tokyo	35.713	139.767	Japan	A18024_Japan_Edo_5	Homo sapiens	230	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212649
+Eisenhofer2020	2020	10.1098/rstb.2019.0578	Miyano	39.12	141.81	Japan	A18015_Japan_Jomon_1	Homo sapiens	2700	10.1098/rstb.2019.0578	oral	dental calculus	NA	SRA	PRJNA608555	SRS6212648
+Jacobson2020	2020	10.1098/rstb.2019.0586	Chan Chich	17.53	-89.11	Belize	MAWB_15	Homo sapiens	1300	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212796
+Jacobson2020	2020	10.1098/rstb.2019.0587	Chan Chich	17.53	-89.11	Belize	MAWB_12	Homo sapiens	1300	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212795
+Jacobson2020	2020	10.1098/rstb.2019.0588	Chan Chich	17.53	-89.11	Belize	MAWB_11	Homo sapiens	1300	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212794
+Jacobson2020	2020	10.1098/rstb.2019.0589	Chan Chich	17.53	-89.11	Belize	MAWB_10	Homo sapiens	1300	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212793
+Jacobson2020	2020	10.1098/rstb.2019.0590	Chan Chich	17.53	-89.11	Belize	MAWB_6	Homo sapiens	1300	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212792
+Jacobson2020	2020	10.1098/rstb.2019.0591	Chan	17.53	-89.11	Belize	MAWB_5	Homo sapiens	2000	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212791
+Jacobson2020	2020	10.1098/rstb.2019.0592	Chan	17.53	-89.11	Belize	MAWB_3	Homo sapiens	1400	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212790
+Jacobson2020	2020	10.1098/rstb.2019.0593	Perdalba (Sardara)	39.58	8.85	Italy	SA_011	Homo sapiens	3600	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212789
+Jacobson2020	2020	10.1098/rstb.2019.0594	Perdalba (Sardara)	39.58	8.85	Italy	SA_010	Homo sapiens	3600	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212804
+Jacobson2020	2020	10.1098/rstb.2019.0595	Perdalba (Sardara)	39.58	8.85	Italy	SA_009	Homo sapiens	3600	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212803
+Jacobson2020	2020	10.1098/rstb.2019.0596	Capo Pecora (Arbus)	39.448	8.391	Italy	SA_008	Homo sapiens	3400	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212802
+Jacobson2020	2020	10.1098/rstb.2019.0597	Capo Pecora (Arbus)	39.448	8.391	Italy	SA_007	Homo sapiens	3400	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212801
+Jacobson2020	2020	10.1098/rstb.2019.0598	Capo Pecora (Arbus)	39.448	8.391	Italy	SA_006	Homo sapiens	3400	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212800
+Jacobson2020	2020	10.1098/rstb.2019.0599	Capo Pecora (Arbus)	39.448	8.391	Italy	SA_005	Homo sapiens	3400	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212799
+Jacobson2020	2020	10.1098/rstb.2019.0600	Lu Maccioni (Alghero)	40.544	8.321	Italy	SA_004	Homo sapiens	3000	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212798
+Jacobson2020	2020	10.1098/rstb.2019.0601	Lu Maccioni (Alghero)	40.544	8.321	Italy	SA_003	Homo sapiens	3000	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212797
+Jacobson2020	2020	10.1098/rstb.2019.0601	Lu Maccioni (Alghero)	40.544	8.321	Italy	SA_002	Homo sapiens	3000	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212788
+Jacobson2020	2020	10.1098/rstb.2019.0601	Lu Maccioni (Alghero)	40.544	8.321	Italy	SA_001	Homo sapiens	3000	10.1098/rstb.2019.0587	oral	dental calculus	NA	SRA	PRJNA657275	SRS7212787
+Sabin2020	2020	10.1098/rstb.2019.0576	Riga	56.94	24.11	Latvia	RGA001	Homo sapiens	600	10.1016/j.jas.2014.05.001	gut	latrine	NA	SRA	PRJNA640385	SRS7054141
+Sabin2020	2020	10.1098/rstb.2019.0576	Jerusalem	31.77	35.22	West Bank	MAM001	Homo sapiens	600	10.1016/j.ijpp.2015.02.003	gut	latrine	NA	SRA	PRJNA640385	SRS7054140
+Williams2020	2020	10.1128/MRA.00850-20	Medical Collection, American Museum of Natural History (New York)	40.781	-73.974	USA	AMNH98137_Q01	Homo sapiens	100	10.1128/MRA.00850-20	oral	dental calculus	NA	SRA	PRJNA643812	SRS6939170
+Williams2020	2020	10.1128/MRA.00850-20	Kodiak Island Collection, National Museum of Natural History (Washington D.C.)	38.891	-77.026	USA	364459	Homo sapiens	100	10.1128/MRA.00850-20	oral	dental calculus	NA	SRA	PRJNA643812	SRS6939171

@@ -27,6 +27,7 @@
             "collection_date",
             "material",
             "archive",
+            "archive_project",
             "archive_accession"
         ],
         "properties": {
@@ -195,6 +196,16 @@
                 "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/archive.json",
                 "examples": [
                     "ENA"
+                ]
+            },
+            "archive_project": {
+                "$id": "#/items/properties/archive_project",
+                "type": "string",
+                "title": "Archive project accession platform",
+                "description": "Name of the nucleotide data archiving platform",
+                "examples": [
+                    "PRJNA438985",
+                    "mgp13354"
                 ]
             },
             "archive_accession": {

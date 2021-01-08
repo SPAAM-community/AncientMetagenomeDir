@@ -1,5 +1,6 @@
 .Rhistory
 .vscode
-.Rproj*
+*.Rproj*
 .Rproj.user
 .Rhistory
+Rplot001.pdf

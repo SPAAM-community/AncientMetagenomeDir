@@ -237,7 +237,7 @@ Sample columns are as follows:
   - If only lower down accession are available, this is acceptable (e.g. NCBI
     GenBank accessions for consensus)
 
-> :warning: Must follow categories specific in `assets/enums/<column>.json
+> :warning: Must follow categories specific in `assets/enums/<column>.json`
 
 Definitions of possible categories are as follows:
 

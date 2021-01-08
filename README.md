@@ -40,12 +40,12 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 <!-- TOC -->
 
-- [Usage](#usage)
-- [Current Status](#current-status)
-- [Contributing](#contributing)
-  - [Own Publications](#own-publications)
-  - [Previous Publications](#previous-publications)
-  - [Guidelines and Conventions](#guidelines-and-conventions)
+* [Usage](#usage)
+* [Current Status](#current-status)
+* [Contributing](#contributing)
+  * [Own Publications](#own-publications)
+  * [Previous Publications](#previous-publications)
+  * [Guidelines and Conventions](#guidelines-and-conventions)
 
 <!-- /TOC -->
 
@@ -83,7 +83,7 @@ versions may have different values.
   <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.png" width="48%" height = "48%">
 </p>
 
-Vector versions (`.pdf`) of all images are avaliable under `assets/analysis/live`. R code for all plots are freely avaliable for modification in this repository under `assets/analysis/scripts`
+Vector (`.pdf`) versions of all images and interactive maps (`.geo.json`) are available under [`assets/analysis/live`](assets/analysis/live). R code for all plots are freely avaliable for modification in this repository under `assets/analysis/scripts`
 
 ## Contributing
 

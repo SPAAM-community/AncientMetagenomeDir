@@ -1,0 +1,34 @@
+name: AncientMetagenomeDir GeoJSON updates
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  live-status-geosjon-update:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GIT_AUTO_COMMIT_ACTION }}  
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: geojson
+          environment-file: assets/analysis/geojson_environment.yml
+          auto-activate-base: true
+          channels: conda-forge,defaults
+      - name: Generate map geojson
+        run: |
+          python assets/analysis/scripts/create_geojson.py ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic.tsv --geojson assets/analysis/live/ancientmetagenome-anthropogenic.geo.json
+          python assets/analysis/scripts/create_geojson.py ancientmetagenome-environmental/ancientmetagenome-environmental.tsv --geojson assets/analysis/live/ancientmetagenome-environmental.geo.json
+          python assets/analysis/scripts/create_geojson.py ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv --geojson assets/analysis/live/ancientmetagenome-hostassociated.geo.json
+          python assets/analysis/scripts/create_geojson.py ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv --geojson assets/analysis/live/ancientsinglegenome-hostassociated.geo.json
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[skip ci] Update AncientMetagenomeDir geojson"
+          push_options: --force 

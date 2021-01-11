@@ -49,7 +49,6 @@ def convert(anthropogenic, environmental, meta_host, single_host, geojson):
     single_h['dir_type'] = ['Ancient Single-genome - Host-associated']*single_h.shape[0]
 
     df = pd.concat([anthro, envi, meta_h, single_h])
-    print(df)
     colors = pd.DataFrame(['Ancient Metagenome - Anthropogenic',
                             'Ancient Metagenome - Environmental',
                             'Ancient Metagenome - Host-associated',
@@ -59,14 +58,9 @@ def convert(anthropogenic, environmental, meta_host, single_host, geojson):
                             '#009C54',
                             '#25BCF6'],
                             columns = ['dir_type']).reset_index().rename(columns={'index':'marker-color'})
-    print(colors)
     df = df.merge(colors, left_on='dir_type', right_on='dir_type')
-    print(df)
     gdf = geopandas.GeoDataFrame(df, geometry=geopandas.points_from_xy(df.longitude, df.latitude))
     gdf.to_file(geojson, driver='GeoJSON')
-    # except ValueError as e:
-    #     print(e)
-    #     pass
 
 if __name__ == '__main__':
     convert()

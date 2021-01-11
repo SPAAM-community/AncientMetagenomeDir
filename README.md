@@ -42,7 +42,7 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 * [Usage](#usage)
 * [Current Status](#current-status)
-  * [Interactive maps](#interactive-maps)
+  * [Interactive map](#interactive-map)
 * [Contributing](#contributing)
   * [Own Publications](#own-publications)
   * [Previous Publications](#previous-publications)
@@ -84,22 +84,15 @@ versions may have different values.
   <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.png" width="48%" height = "48%">
 </p>
 
-Vector (`.pdf`) versions of all images and interactive maps (`.geo.json`) are available under [`assets/analysis/live`](assets/analysis/live). R code for all plots are freely avaliable for modification in this repository under `assets/analysis/scripts`
+Vector (`.pdf`) versions of all images and interactive map (`.geo.json`) are available under [`assets/analysis/live`](assets/analysis/live). R code for all plots are freely avaliable for modification in this repository under `assets/analysis/scripts`
 
-### Interactive maps
+### Interactive map
 
-- Ancient Metagenome - Environmental
-  
-[ancientmetagenome-environmental](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/analysis/live/ancientmetagenome-environmental.geo.json ':include :type=iframe width=100% height=400px')
-
-- Ancient Metagenome - Host-associated
-  
-[ancientmetagenome-hostassociated](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/analysis/live/ancientmetagenome-hostassociated.geo.json ':include :type=iframe width=100% height=400px')
-
-- Ancient Single Genome - Host-associated
-  
-[ancientsinglegenome-hostassociated](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/analysis/live/ancientsinglegenome-hostassociated.geo.json ':include :type=iframe width=100% height=400px')
-
+[AncientMetagenomeDir](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/analysis/live/ancientmetagenomedir.geo.json ':include :type=iframe width=100% height=400px')  
+**Legend:** Yellow: Anthropogenic Metagenome, 
+Green: Environmental Metagenome, 
+Light Blue: Host Associated Metagenome, 
+Pink: Host Associated Single Genome
 
 ## Contributing
 

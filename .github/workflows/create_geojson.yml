@@ -24,10 +24,11 @@ jobs:
           channels: conda-forge,defaults
       - name: Generate map geojson
         run: |
-          python assets/analysis/scripts/create_geojson.py ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic.tsv --geojson assets/analysis/live/ancientmetagenome-anthropogenic.geo.json
-          python assets/analysis/scripts/create_geojson.py ancientmetagenome-environmental/ancientmetagenome-environmental.tsv --geojson assets/analysis/live/ancientmetagenome-environmental.geo.json
-          python assets/analysis/scripts/create_geojson.py ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv --geojson assets/analysis/live/ancientmetagenome-hostassociated.geo.json
-          python assets/analysis/scripts/create_geojson.py ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv --geojson assets/analysis/live/ancientsinglegenome-hostassociated.geo.json
+          python create_geojson.py --anthropogenic ../../../ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic.tsv \
+          --environmental ../../../ancientmetagenome-environmental/ancientmetagenome-environmental.tsv \
+          --meta_host ../../../ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv \
+          --single_host ../../../ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv \
+          --geojson assets/analysis/live/ancientmetagenomedir.geo.json
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "[skip ci] Update AncientMetagenomeDir geojson"

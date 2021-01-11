@@ -1,6 +1,7 @@
 import geopandas
 import pandas as pd
 import click
+import numpy as np
 
 @click.command()
 @click.option("--anthropogenic",
@@ -38,7 +39,7 @@ def convert(anthropogenic, environmental, meta_host, single_host, geojson):
 
     CSV: path to CSV containing Latitude/Longitude columns
     """
-    # try:
+    sigma = 0.0001
     anthro = pd.read_csv(anthropogenic, sep='\t', decimal=".")
     anthro['dir_type'] = ['Ancient Metagenome - Anthropogenic']*anthro.shape[0]
     envi = pd.read_csv(environmental, sep='\t', decimal=".")
@@ -49,17 +50,20 @@ def convert(anthropogenic, environmental, meta_host, single_host, geojson):
     single_h['dir_type'] = ['Ancient Single-genome - Host-associated']*single_h.shape[0]
 
     df = pd.concat([anthro, envi, meta_h, single_h])
+    df = df.drop_duplicates(df.columns.difference(['dir_type']))
+    df['plot_latitude'] = df['latitude'].apply(lambda x: np.random.normal(x, sigma))
+    df['plot_longitude'] = df['longitude'].apply(lambda x: np.random.normal(x, sigma))
     colors = pd.DataFrame(['Ancient Metagenome - Anthropogenic',
                             'Ancient Metagenome - Environmental',
                             'Ancient Metagenome - Host-associated',
                             'Ancient Single-genome - Host-associated'],
                             ['#E7D400',
-                            '#C22026',
-                            '#009C54',
-                            '#25BCF6'],
+                            '#4AAE72',
+                            '#8AD5F7',
+                            '#D3498E'],
                             columns = ['dir_type']).reset_index().rename(columns={'index':'marker-color'})
     df = df.merge(colors, left_on='dir_type', right_on='dir_type')
-    gdf = geopandas.GeoDataFrame(df, geometry=geopandas.points_from_xy(df.longitude, df.latitude))
+    gdf = geopandas.GeoDataFrame(df, geometry=geopandas.points_from_xy(df.plot_longitude, df.plot_latitude))
     gdf.to_file(geojson, driver='GeoJSON')
 
 if __name__ == '__main__':

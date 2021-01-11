@@ -89,6 +89,7 @@ Vector (`.pdf`) versions of all images and interactive map (`.geo.json`) are ava
 ### Interactive map
 
 [AncientMetagenomeDir](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/analysis/live/ancientmetagenomedir.geo.json ':include :type=iframe width=100% height=400px')  
+
 **Legend:** Yellow: Anthropogenic Metagenome, 
 Green: Environmental Metagenome, 
 Light Blue: Host Associated Metagenome, 

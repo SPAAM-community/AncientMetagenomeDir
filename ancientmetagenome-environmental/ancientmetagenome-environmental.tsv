@@ -1,339 +1,339 @@
-project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	study_primary_focus	sequence_name	depth	sample_name	sample_age	sample_age_doi	feature	material	collection_date	archive	archive_accession
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	435	HA1.1	13900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040659
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	435	HA1.12	13900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040658
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	416	HA3.1	13100	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040657
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	403	HA4.1	12900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040656
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	403	HA4.12	12900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040655
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	393	HA5.1	12500	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040654
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	376	HA6.1	12000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040653
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	376	HA6.12	12000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040652
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	365	HA7.1	11600	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040651
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	365	HA7.12	11600	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040650
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	353	HA8.1	11000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040649
-Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	353	HA8.12	11000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	SRS2040648
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	95	ELF001A_95_S81_ELFM1D1	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605424
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	95	ELF001A_95_S81_ELFM2D2	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605425
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	95	ELF001A_95_S81_ELFN1D3	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605426
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	95	ELF001A_95_S81_ELFN1D4	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605427
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	104	ELF001A_104_S78_ELFM1D1	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605428
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	104	ELF001A_104_S78_ELFM2D2	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605429
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	104	ELF001A_104_S78_ELFN1D3	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605430
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	104	ELF001A_104_S78_ELFN1D4	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605431
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	120	ELF001A_120_D1_ELFN3D1	8100	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605432
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	120	ELF001A_120_D2_ELFN3D2	8100	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605433
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	126	ELF001A_126_E1_ELFN3D1	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605434
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	126	ELF001A_126_E2_ELFN3D2	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605435
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_F1_ELFN3D1	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605436
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_F2_ELFN3D2	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605437
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_S79_ELFM1D1	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605438
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_S79_ELFM2D2	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605439
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_S79_ELFN1D3	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605440
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_S79_ELFN1D4	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605441
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	149	ELF001A_149_G1_ELFN3D1	8100	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605442
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	149	ELF001A_149_G2_ELFN3D2	8100	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605443
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	167	ELF001A_167_S80_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605444
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	167	ELF001A_167_S80_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605445
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	167	ELF001A_167_S80_ELFN1D3	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605446
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	167	ELF001A_167_S80_ELFN1D4	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605447
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	212	ELF001A_212_S75_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605448
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	212	ELF001A_212_S75_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605449
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	212	ELF001A_212_S75_ELFN1D3	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605450
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	212	ELF001A_212_S75_ELFN1D4	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605451
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	247	ELF001A_247_S76_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605452
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	247	ELF001A_247_S76_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605453
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	282	ELF001A_282_S77_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605454
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	282	ELF001A_282_S77_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605455
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	310	ELF001A_310_S73_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605456
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	310	ELF001A_310_S73_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605457
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	348	ELF001A_348_S74_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605458
-Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	348	ELF001A_348_S74_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	ERS3605459
-Rifkin2020	2020	10.1186/s40168-020-00832-x	Bushman Rock Shelter	-24.74	30.56	South Africa	microbial	Block A	110	BRS1	500	10.1186/s40168-020-00832-x	rock shelter	sediment	NA	ENA	SRS4491530
-Rifkin2020	2020	10.1186/s40168-020-00832-x	Bushman Rock Shelter	-24.74	30.56	South Africa	microbial	Block A	110	BRS5	500	10.1186/s40168-020-00832-x	rock shelter	sediment	NA	ENA	SRS4491527
-Borry2020	2020	10.7717/peerj.9001	Derragh	53.757	-7.394	Ireland	microbial	Unknown	NA	DRL001.A	7000	10.7717/peerj.9001	midden	midden	NA	ENA	ERS4181278
-Borry2020	2020	10.7717/peerj.9001	Cabeço das Amoreiras	39.1	-8.71	Portugal	microbial	Unknown	NA	CBA001.A	7300	10.1016/j.quaint.2012.10.049	midden	midden	NA	ENA	ERS4181276
-Borry2020	2020	10.7717/peerj.9001	Binchester Roman Fort	54.676	-1.677	United Kingdom	microbial	Unknown	NA	BRF001.A	1900	10.7717/peerj.9001	midden	midden	NA	ENA	ERS4181275
-Borry2020	2020	10.7717/peerj.9001	Leipzig	51.339	12.373	Germany	microbial	Unknown	NA	LEI010.A	1000	10.7717/peerj.9001	midden	midden	NA	ENA	ERS4181280
-Borry2020	2020	10.7717/peerj.9001	El Collado	38.92	-0.12	Spain	microbial	Unknown	NA	ECO004.D	7500	10.1086/504170	archeological site	sediment	NA	ENA	ERS4181279
-Borry2020	2020	10.7717/peerj.9001	Cingle del Mas Nou	40.45	-0.11	Spain	microbial	Unknown	NA	CMN001.D	7000	10.7717/peerj.9001	archeological site	sediment	NA	ENA	ERS4181277
-Borry2020	2020	10.7717/peerj.9001	Molpir	48.51	17.423	Slovakia	microbial	Unknown	NA	MLP001.A	2300	10.7717/peerj.9001	archeological site	sediment	NA	ENA	ERS4181281
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3799	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600710
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3800	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600711
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3801	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600712
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3802	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600713
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3804	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600714
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3805	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600715
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3806	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600716
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	H18	NA	SP3807	346000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600717
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	H18	NA	SP3808	346000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600718
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	G10	NA	SP3809	550000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600719
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	I8	NA	SP3810	550000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600720
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	I8	NA	SP3811	550000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600721
-Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	E8	NA	SP3812	550000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600722
-Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3843	10000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600723
-Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3844	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600724
-Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3845	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600725
-Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3846	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600726
-Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3847	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600727
-Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3848	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600728
-Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3849	304000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600729
-Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3850	304000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600730
-Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3851	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600731
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3870	14000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600732
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3864	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600733
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3871	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600734
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3863	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600735
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3872	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600736
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP2920	127000	10.1126/science.aam9695	cave	sediment	2011	ENA	ERS1600737
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3862	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600738
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3873	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600739
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3861	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600740
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3874	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600741
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3875	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600742
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP2921	127000	10.1126/science.aam9695	cave	sediment	2011	ENA	ERS1600743
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3860	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600744
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP2922	127000	10.1126/science.aam9695	cave	sediment	2011	ENA	ERS1600745
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3859	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600746
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3858	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600747
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3857	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600748
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3869	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600749
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3856	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600750
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3876	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600751
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3855	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600752
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3854	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600753
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3853	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600754
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3852	240000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600755
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3865	240000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600756
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3866	240000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600757
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3867	240000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600758
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3868	240000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600759
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3823	25000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600760
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3824	40000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600761
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3825	40000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600762
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3826	40000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600763
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3827	40000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600764
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3828	57000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600765
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3829	57000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600766
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3830	57000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600767
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3831	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600768
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3832	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600769
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3833	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600770
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3877	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600771
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3834	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600772
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3835	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600773
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3836	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600774
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3837	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600775
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3838	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600776
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3839	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600777
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3878	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600778
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3879	200000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600779
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3840	200000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600780
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3841	200000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600781
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3842	200000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600782
-Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3880	200000	10.1126/science.aam9695	cave	sediment	2014	ENA	ERS1600783
-Slon2017	2017	10.1126/science.aam9695	Les Cottés	46.69	0.88	France	faunal	Unknown	NA	SP3674	42700	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600784
-Slon2017	2017	10.1126/science.aam9695	Les Cottés	46.69	0.88	France	faunal	Unknown	NA	SP3675	42700	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600785
-Slon2017	2017	10.1126/science.aam9695	Les Cottés	46.69	0.88	France	faunal	Unknown	NA	SP3676	48100	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600786
-Slon2017	2017	10.1126/science.aam9695	Les Cottés	46.69	0.88	France	faunal	Unknown	NA	SP3677	48100	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600787
-Slon2017	2017	10.1126/science.aam9695	Trou Al'Wesse	50.46	5.29	Belgium	faunal	L6D	NA	SP3907	46000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600788
-Slon2017	2017	10.1126/science.aam9695	Trou Al'Wesse	50.46	5.29	Belgium	faunal	L6C	NA	SP3909	46000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600789
-Slon2017	2017	10.1126/science.aam9695	Trou Al'Wesse	50.46	5.29	Belgium	faunal	L6C	NA	SP3908	46000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600790
-Slon2017	2017	10.1126/science.aam9695	Trou Al'Wesse	50.46	5.29	Belgium	faunal	MS5/4	NA	SP3910	46000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600791
-Slon2017	2017	10.1126/science.aam9695	Trou Al'Wesse	50.46	5.29	Belgium	faunal	MS5/4	NA	SP3911	46000	10.1126/science.aam9695	cave	sediment	2015	ENA	ERS1600792
-Slon2017	2017	10.1126/science.aam9695	Vindija Cave	46.302	16.078	Croatia	faunal	Unknown	NA	SP1736	42000	10.1126/science.aam9695	cave	sediment	2007	ENA	ERS1600793
-Slon2017	2017	10.1126/science.aam9695	El Sidrón	43.386	-5.328	Spain	faunal	Unknown	NA	SP3609	48400	10.1126/science.aam9695	cave	sediment	2007	ENA	ERS1600794
-Smith2015	2015	10.1126/science.1261278	Bouldnor Cliff	50.7	-1.5	United Kingdom	floral,faunal	MS-08	1094	S308-1	8000	10.1126/science.1261278	ocean	sediment	NA	ENA	ERS510180
-Smith2015	2015	10.1126/science.1261278	Bouldnor Cliff	50.7	-1.5	United Kingdom	floral,faunal	MS-08	1094	S308-2	8000	10.1126/science.1261278	ocean	sediment	NA	ENA	ERS510181
-Smith2015	2015	10.1126/science.1261278	Bouldnor Cliff	50.7	-1.5	United Kingdom	floral,faunal	MS-08	1094	S308-3	8000	10.1126/science.1261278	ocean	sediment	NA	ENA	ERS510182
-Smith2015	2015	10.1126/science.1261278	Bouldnor Cliff	50.7	-1.5	United Kingdom	floral,faunal	MS-08	1094	S308-4	8000	10.1126/science.1261278	ocean	sediment	NA	ENA	ERS510183
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1204_2017	12000	10.1038/s41586-020-2509-0	cave	sediment	2017	ENA	ERS4921368,ERS4921369,ERS4921370,ERS4921371,ERS4921372,ERS4921373
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1210_2017	15600	10.1038/s41586-020-2509-0	cave	sediment	2017	ENA	ERS4921378,ERS4921379,ERS4921380,ERS4921381,ERS4921382,ERS4921383,ERS4921384
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1212_2017	13900	10.1038/s41586-020-2509-0	cave	sediment	2017	ENA	ERS4921385,ERS4921386,ERS4921387,ERS4921388,ERS4921389,ERS4921390,ERS4921391,ERS4921392
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1218_2017	21000	10.1038/s41586-020-2509-0	cave	sediment	2017	ENA	ERS4921395,ERS4921396,ERS4921397,ERS4921398,ERS4921399
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1201_2019	200	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921365
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1204A_2019	12000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921366
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1204C_2019	12000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921367
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1206_2019	13000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921374
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1207A_2019	13000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921375
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1207C_2019	13000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921376
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1210_2019	15600	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921378,ERS4921379,ERS4921380,ERS4921381,ERS4921382,ERS4921383,ERS4921384
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1212_2019	13900	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921385,ERS4921386,ERS4921387,ERS4921388,ERS4921389,ERS4921390,ERS4921391,ERS4921392
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1217_2019	11600	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921394
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1218_2019	21000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921395,ERS4921396,ERS4921397,ERS4921398,ERS4921399
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1222_2019	26200	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921400
-Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1223_2019	26900	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	ERS4921401
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	4	DNA-MUB17-2D-1L-SAMPLE1	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416709
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	6	DNA-MUB17-2D-1L-SAMPLE2	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416710
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	10	DNA-MUB17-2D-1L-SAMPLE4	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416721
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	16	DNA-MUB17-2D-1L-SAMPLE7	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416732
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	20	DNA-MUB17-2D-1L-SAMPLE9	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416743
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	31	DNA-MUB17-2D-1L-SAMPLE12	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416754
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	41	DNA-MUB17-2D-1L-SAMPLE14	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416757
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	41	DNA-MUB17-2D-1L-SAMPLE16	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416758
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	61	DNA-MUB17-2D-1L-SAMPLE17	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416759
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	71	DNA-MUB17-2D-1L-SAMPLE18	200	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416760
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	79	DNA-MUB17-2D-1L-SAMPLE19	200	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416711
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-2	4	DNA-MUB17-2C-2L-SAMPLE20	200	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416712
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-2	24	DNA-MUB17-2C-2L-SAMPLE22	300	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416713
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-2	55	DNA-MUB17-2C-2L-SAMPLE24	300	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416714
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-2	74	DNA-MUB17-2C-2L-SAMPLE26	400	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416715
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-3	4	DNA-MUB17-2C-3L-SAMPLE28	400	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416716
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-3	44	DNA-MUB17-2C-3L-SAMPLE30	500	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416717
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-3	84	DNA-MUB17-2C-3L-SAMPLE32	600	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416718
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-4	5	DNA-MUB17-2C-4L-SAMPLE33	700	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416719
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-4	45	DNA-MUB17-2C-4L-SAMPLE35	800	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416720
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-4	85	DNA-MUB17-2C-4L-SAMPLE37	900	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416722
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-5	6	DNA-MUB17-2C-5L-SAMPLE38	900	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416723
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-5	46	DNA-MUB17-2C-5L-SAMPLE40	1000	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416724
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-5	84	DNA-MUB17-2C-5L-SAMPLE42	1100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416725
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-6	3	DNA-MUB17-2C-6L-SAMPLE43	1100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416726
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-6	43	DNA-MUB17-2C-6L-SAMPLE45	1200	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416727
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-6	83	DNA-MUB17-2C-6L-SAMPLE47	1300	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416728
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-7	4	DNA-MUB17-2C-7L-SAMPLE48	1300	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416729
-Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-7	44	DNA-MUB17-2C-7L-SAMPLE50	2200	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	SRS5416730
-Armbrecht2020	2020	10.1111/1755-0998.13162	Maria Island	-42.845	148.24	Tasman Sea	floral,faunal	Unknown	9	20874_MI_8.5-10cm	100	10.1111/1755-0998.13162	ocean	marine sediment	2018	SRA	SRS5214215
-Armbrecht2020	2020	10.1111/1755-0998.13162	Maria Island	-42.845	148.24	Tasman Sea	floral,faunal	Unknown	4	20871_MI_5-6cm	100	10.1111/1755-0998.13163	ocean	marine sediment	2018	SRA	SRS5214220
-Armbrecht2020	2020	10.1111/1755-0998.13162	Maria Island	-42.845	148.24	Tasman Sea	floral,faunal	Unknown	1	20868_MI_0-1.5cm	100	10.1111/1755-0998.13164	ocean	marine sediment	2018	SRA	SRS5214219
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	131	CHL_131_11266	11300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286097
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	132	CHL_132_11317	11300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286098
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	133	CHL_133_11368	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286099
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	134	CHL_134_11420	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286100
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	137	CHL_137_11575	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286101
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	140	CHL_140_11729	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286102
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	145	CHL_145_11982	12000	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286103
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	148	CHL_148_12132	12100	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286104
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	150	CHL_150_12231	12200	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286105
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	151	CHL_151_12280	12300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286106
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	153	CHL_153_12379	12400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286107
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	155	CHL_155_12485	12500	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286108
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	157	CHL_157_12615	12600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286109
-Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	159	CHL_159_12810	12800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286110
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	15	SPL_15_1444	1400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286194
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	55	SPL_55_3112	3100	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286195
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	113	SPL_113_5430	5400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286196
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	153	SPL_153_7001	7000	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286197
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	173	SPL_173_7782	7800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286198
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	191	SPL_191_8967	9000	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286199
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	193	SPL_193_9133	9100	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286200
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	195	SPL_195_9299	9300	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286201
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	221	SPL_221_11440	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286202
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	235	SPL_235_11534	11500	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286203
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	253	SPL_253_11630	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286204
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	256	SPL_256_11646	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286205
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	266	SPL_266_11695	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286206
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	271	SPL_271_11714	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286207
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	284	SPL_284_11769	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286208
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	289	SPL_289_11786	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286209
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	294	SPL_294_11806	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286210
-Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	296	SPL_296_11814	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	ERS1286211
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	481	PH081-PH155_481	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424510
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	579	PH082_579	7300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424543
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	599	PH083_599	7800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424544
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	265	PH116-PH182_265	3400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424546
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	527	PH118-PH146_527	6100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424540
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	619	PH119-PH184_619	8300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424545
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	719	PH120-PH185-PH194_719	10900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424547
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	551	PH121-PH186_551	6600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424542
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	501	PH142_501	5600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424527
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	503	PH143_503	5600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424528
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	493	PH144_493	5500	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424523
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	497	PH145_497	5500	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424525
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	531	PH147_531	6100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424541
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	507	PH148_507	5700	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424530
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	373	PH149_373	4300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424549
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	511	PH150_511	5800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424532
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	679	PH151_679	9800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424548
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	515	PH152_515	5900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424534
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	519	PH153_519	5900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424536
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	523	PH154_523	6000	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424538
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	485	PH156_485	5400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424520
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	489	PH157_489	5400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424522
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	495	PH167_495	5500	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424524
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	505	PH168_505	5700	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424529
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	509	PH169_509	5800	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424531
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	481	PH170_481	5300	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424519
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	517	PH171_517	5900	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424535
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	499	PH172_499	5600	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424526
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	477	PH173_477	5300	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424508
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	525	PH174_525	6000	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424539
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	513	PH175_513	5800	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424533
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	521	PH176_521	6000	10.1098/rsos.180145	lake	lake sediment	2014	SRA	SRS1424537
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	477	PH177_477	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424509
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	465	PH178_465	5200	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424505
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	469	PH179_469	5200	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424506
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	461	PH180_461	5100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424550
-Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	473	PH181_473	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	SRS1424507
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	786	JK143_786	11800	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596540
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	798	JK144_798	11900	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596545
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	810	JK145_810	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596544
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	822	JK146_822	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596546
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	834	JK147_834	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596547
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	846	JK148_846	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596548
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	794	JK219_794	11900	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596549
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	802	JK220_802	12000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596550
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	806	JK221_806	12000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596529
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	814	JK222_814	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596530
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	818	JK223_818	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596531
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	826	JK224_826	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596532
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	830	JK225_830	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596533
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	838	JK226_838	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596535
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	996	PH187_996	13300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596536
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1000	PH188_1000	13300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596538
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1046	PH189_1046	13600	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596537
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1109	PH190_1109	14200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596539
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1173	PH191_1173	15000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596541
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1237	PH192_1237	16700	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596542
-Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1301	PH193_1301	17500	10.1111/jbi.13010	lake	lake sediment	2013	SRA	SRS1596543
-Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S1	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280178
-Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S2	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280179
-Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S3	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280180
-Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S4	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280182
-Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S5	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280183
-Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S6	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280186
-Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S7	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280187
-Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S8	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280189
-Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S9	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280190
-Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S10	600	10.1038/ncomms13389	midden	sediment	2013	SRA	ERS1280193
-Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FA1	300	10.1038/ncomms13389	midden	sediment	NA	SRA	ERS1280165
-Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FA2	300	10.1038/ncomms13389	midden	sediment	NA	SRA	ERS1280167
-Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FA3	300	10.1038/ncomms13389	midden	sediment	NA	SRA	ERS1280168
-Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FB2	300	10.1038/ncomms13389	midden	sediment	NA	SRA	ERS1280170
-Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FB3	300	10.1038/ncomms13389	midden	sediment	NA	SRA	ERS1280172
-Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FC	300	10.1038/ncomms13389	midden	sediment	NA	SRA	ERS1280174
-Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FD	300	10.1038/ncomms13389	midden	sediment	NA	SRA	ERS1280176
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA2	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280206
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA3	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280207
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA4	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280209
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA5	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280211
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA6(seq1,seq2)	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280215,ERS1280214
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA7	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280217
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA8(seq1,seq2,seq3)	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280220,ERS1280221,ERS1280222
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QB1	1600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280196
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QB2	1600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280198
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QB3	1600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280200
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QB4	1600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280202
-Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QB5	1600	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280203
-Seersholm2016	2016	10.1038/ncomms13389	Qeqertasussuk	68.593	-51.072	Greenland	floral,faunal	Unknown	NA	QT3(seq1,seq2)	4000	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280227,ERS1280226
-Seersholm2016	2016	10.1038/ncomms13389	Qeqertasussuk	68.593	-51.072	Greenland	floral,faunal	Unknown	NA	QT4	4000	10.1038/ncomms13389	midden	sediment	2009	SRA	ERS1280228
-Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6340	30200	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637516,ERS3637536
-Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6341	32100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637517,ERS3637537
-Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6342	37100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637518,ERS3637538
-Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6343	39100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637519,ERS3637539
-Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6344	39400	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637520,ERS3637540
-Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6345	40100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637521,ERS3637541
-Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6346	32100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	ERS3637522,ERS3637542
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Guernsey Island	49.45	-2.59	Guernsey	faunal,microbial	Unknown	NA	gue_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624435
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	36	18	Mediterranean Sea	faunal,microbial	Unknown	NA	med_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624436
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay1B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624447
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay2B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624448
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay3B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624449
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay4B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624450
-DerSarkissian2016	2016	10.1111/1755-0998.12679	La Gripperie‐Saint‐Symphorien	45.79	-0.95	France	faunal,microbial	Unknown	NA	gripB_Clam	1300	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624451
-DerSarkissian2016	2016	10.1111/1755-0998.12679	La Maison Champlain, Brouage	45.85	-1.074	France	faunal,microbial	Unknown	NA	lmc1B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624452
-DerSarkissian2016	2016	10.1111/1755-0998.12679	La Maison Champlain, Brouage	45.85	-1.074	France	faunal,microbial	Unknown	NA	lmc2B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624453
-DerSarkissian2016	2016	10.1111/1755-0998.12679	La Maison Champlain, Brouage	45.85	-1.074	France	faunal,microbial	Unknown	NA	lmc3B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624454
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Nissum Bredning	56.6	8.4	Denmark	faunal,microbial	Unknown	NA	nis_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624455
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Thisted Bredning	56.92	8.75	Denmark	faunal,microbial	Unknown	NA	thi_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624456
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Havnø	56.715	10.162	Denmark	faunal,microbial	Unknown	NA	hav_Mussel	7000	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624457
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Hellebæk	56.06	12.56	Denmark	faunal,microbial	Unknown	NA	hel_Quahog	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624458
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	NA	NA	Unknown	faunal,microbial	Unknown	NA	quahog2_Quahog	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624459
-DerSarkissian2016	2016	10.1111/1755-0998.12679	Vestmanna	62.162	-7.165	Faroe Islands	faunal,microbial	Unknown	NA	ves_Quahog	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	ERS1624460
+project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	study_primary_focus	sequence_name	depth	sample_name	sample_age	sample_age_doi	feature	material	collection_date	archive	archive_project	archive_accession
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	435	HA1.1	13900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040659
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	435	HA1.12	13900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040658
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	416	HA3.1	13100	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040657
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	403	HA4.1	12900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040656
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	403	HA4.12	12900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040655
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	393	HA5.1	12500	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040654
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	376	HA6.1	12000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040653
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	376	HA6.12	12000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040652
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	365	HA7.1	11600	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040651
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	365	HA7.12	11600	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040650
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	353	HA8.1	11000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040649
+Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	353	HA8.12	11000	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040648
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	95	ELF001A_95_S81_ELFM1D1	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605424
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	95	ELF001A_95_S81_ELFM2D2	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605425
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	95	ELF001A_95_S81_ELFN1D3	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605426
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	95	ELF001A_95_S81_ELFN1D4	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605427
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	104	ELF001A_104_S78_ELFM1D1	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605428
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	104	ELF001A_104_S78_ELFM2D2	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605429
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	104	ELF001A_104_S78_ELFN1D3	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605430
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	104	ELF001A_104_S78_ELFN1D4	6000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605431
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	120	ELF001A_120_D1_ELFN3D1	8100	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605432
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	120	ELF001A_120_D2_ELFN3D2	8100	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605433
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	126	ELF001A_126_E1_ELFN3D1	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605434
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	126	ELF001A_126_E2_ELFN3D2	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605435
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_F1_ELFN3D1	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605436
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_F2_ELFN3D2	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605437
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_S79_ELFM1D1	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605438
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_S79_ELFM2D2	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605439
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_S79_ELFN1D3	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605440
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	138	ELF001A_138_S79_ELFN1D4	8000	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605441
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	149	ELF001A_149_G1_ELFN3D1	8100	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605442
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	149	ELF001A_149_G2_ELFN3D2	8100	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605443
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	167	ELF001A_167_S80_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605444
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	167	ELF001A_167_S80_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605445
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	167	ELF001A_167_S80_ELFN1D3	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605446
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	167	ELF001A_167_S80_ELFN1D4	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605447
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	212	ELF001A_212_S75_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605448
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	212	ELF001A_212_S75_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605449
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	212	ELF001A_212_S75_ELFN1D3	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605450
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	212	ELF001A_212_S75_ELFN1D4	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605451
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	247	ELF001A_247_S76_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605452
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	247	ELF001A_247_S76_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605453
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	282	ELF001A_282_S77_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605454
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	282	ELF001A_282_S77_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605455
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	310	ELF001A_310_S73_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605456
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	310	ELF001A_310_S73_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605457
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	348	ELF001A_348_S74_ELFM1D1	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605458
+Gaffney2020	2020	10.3390/geosciences10070270	Unknown	53.322	1.118	North Sea	floral	ELF001A	348	ELF001A_348_S74_ELFM2D2	9200	10.3390/geosciences10070270	ocean	shallow marine sediment	2016	ENA	PRJEB33717	ERS3605459
+Rifkin2020	2020	10.1186/s40168-020-00832-x	Bushman Rock Shelter	-24.74	30.56	South Africa	microbial	Block A	110	BRS1	500	10.1186/s40168-020-00832-x	rock shelter	sediment	NA	ENA	PRJNA527177	SRS4491530
+Rifkin2020	2020	10.1186/s40168-020-00832-x	Bushman Rock Shelter	-24.74	30.56	South Africa	microbial	Block A	110	BRS5	500	10.1186/s40168-020-00832-x	rock shelter	sediment	NA	ENA	PRJNA527177	SRS4491527
+Borry2020	2020	10.7717/peerj.9001	Derragh	53.757	-7.394	Ireland	microbial	Unknown	NA	DRL001.A	7000	10.7717/peerj.9001	midden	midden	NA	ENA	PRJEB35362	ERS4181278
+Borry2020	2020	10.7717/peerj.9001	Cabeço das Amoreiras	39.1	-8.71	Portugal	microbial	Unknown	NA	CBA001.A	7300	10.1016/j.quaint.2012.10.049	midden	midden	NA	ENA	PRJEB35362	ERS4181276
+Borry2020	2020	10.7717/peerj.9001	Binchester Roman Fort	54.676	-1.677	United Kingdom	microbial	Unknown	NA	BRF001.A	1900	10.7717/peerj.9001	midden	midden	NA	ENA	PRJEB35362	ERS4181275
+Borry2020	2020	10.7717/peerj.9001	Leipzig	51.339	12.373	Germany	microbial	Unknown	NA	LEI010.A	1000	10.7717/peerj.9001	midden	midden	NA	ENA	PRJEB35362	ERS4181280
+Borry2020	2020	10.7717/peerj.9001	El Collado	38.92	-0.12	Spain	microbial	Unknown	NA	ECO004.D	7500	10.1086/504170	archeological site	sediment	NA	ENA	PRJEB35362	ERS4181279
+Borry2020	2020	10.7717/peerj.9001	Cingle del Mas Nou	40.45	-0.11	Spain	microbial	Unknown	NA	CMN001.D	7000	10.7717/peerj.9001	archeological site	sediment	NA	ENA	PRJEB35362	ERS4181277
+Borry2020	2020	10.7717/peerj.9001	Molpir	48.51	17.423	Slovakia	microbial	Unknown	NA	MLP001.A	2300	10.7717/peerj.9001	archeological site	sediment	NA	ENA	PRJEB35362	ERS4181281
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3799	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600710
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3800	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600711
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3801	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600712
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3802	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600713
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3804	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600714
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3805	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600715
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	D19	NA	SP3806	438000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600716
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	H18	NA	SP3807	346000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600717
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	H18	NA	SP3808	346000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600718
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	G10	NA	SP3809	550000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600719
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	I8	NA	SP3810	550000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600720
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	I8	NA	SP3811	550000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600721
+Slon2017	2017	10.1126/science.aam9695	Caune de l'Arago	42.839	2.752	France	faunal	E8	NA	SP3812	550000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600722
+Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3843	10000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600723
+Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3844	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600724
+Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3845	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600725
+Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3846	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600726
+Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3847	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600727
+Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3848	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600728
+Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3849	304000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600729
+Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3850	304000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600730
+Slon2017	2017	10.1126/science.aam9695	Chagyrskaya Cave	51.442	83.155	Russia	faunal	Unknown	NA	SP3851	53000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600731
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3870	14000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600732
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3864	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600733
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3871	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600734
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3863	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600735
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3872	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600736
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP2920	127000	10.1126/science.aam9695	cave	sediment	2011	ENA	PRJEB18629	ERS1600737
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3862	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600738
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3873	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600739
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3861	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600740
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3874	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600741
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3875	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600742
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP2921	127000	10.1126/science.aam9695	cave	sediment	2011	ENA	PRJEB18629	ERS1600743
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3860	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600744
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP2922	127000	10.1126/science.aam9695	cave	sediment	2011	ENA	PRJEB18629	ERS1600745
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3859	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600746
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3858	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600747
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3857	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600748
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3869	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600749
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3856	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600750
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3876	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600751
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3855	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600752
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3854	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600753
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3853	127000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600754
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3852	240000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600755
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3865	240000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600756
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3866	240000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600757
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3867	240000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600758
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3868	240000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600759
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3823	25000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600760
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3824	40000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600761
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3825	40000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600762
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3826	40000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600763
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3827	40000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600764
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3828	57000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600765
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3829	57000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600766
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3830	57000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600767
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3831	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600768
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3832	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600769
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3833	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600770
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3877	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600771
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3834	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600772
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3835	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600773
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3836	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600774
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3837	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600775
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3838	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600776
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3839	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600777
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3878	112500	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600778
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3879	200000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600779
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3840	200000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600780
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3841	200000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600781
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3842	200000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600782
+Slon2017	2017	10.1126/science.aam9695	Denisova Cave	51.397	84.676	Russia	faunal	East Gallery	NA	SP3880	200000	10.1126/science.aam9695	cave	sediment	2014	ENA	PRJEB18629	ERS1600783
+Slon2017	2017	10.1126/science.aam9695	Les Cottés	46.69	0.88	France	faunal	Unknown	NA	SP3674	42700	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600784
+Slon2017	2017	10.1126/science.aam9695	Les Cottés	46.69	0.88	France	faunal	Unknown	NA	SP3675	42700	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600785
+Slon2017	2017	10.1126/science.aam9695	Les Cottés	46.69	0.88	France	faunal	Unknown	NA	SP3676	48100	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600786
+Slon2017	2017	10.1126/science.aam9695	Les Cottés	46.69	0.88	France	faunal	Unknown	NA	SP3677	48100	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600787
+Slon2017	2017	10.1126/science.aam9695	Trou Al'Wesse	50.46	5.29	Belgium	faunal	L6D	NA	SP3907	46000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600788
+Slon2017	2017	10.1126/science.aam9695	Trou Al'Wesse	50.46	5.29	Belgium	faunal	L6C	NA	SP3909	46000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600789
+Slon2017	2017	10.1126/science.aam9695	Trou Al'Wesse	50.46	5.29	Belgium	faunal	L6C	NA	SP3908	46000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600790
+Slon2017	2017	10.1126/science.aam9695	Trou Al'Wesse	50.46	5.29	Belgium	faunal	MS5/4	NA	SP3910	46000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600791
+Slon2017	2017	10.1126/science.aam9695	Trou Al'Wesse	50.46	5.29	Belgium	faunal	MS5/4	NA	SP3911	46000	10.1126/science.aam9695	cave	sediment	2015	ENA	PRJEB18629	ERS1600792
+Slon2017	2017	10.1126/science.aam9695	Vindija Cave	46.302	16.078	Croatia	faunal	Unknown	NA	SP1736	42000	10.1126/science.aam9695	cave	sediment	2007	ENA	PRJEB18629	ERS1600793
+Slon2017	2017	10.1126/science.aam9695	El Sidrón	43.386	-5.328	Spain	faunal	Unknown	NA	SP3609	48400	10.1126/science.aam9695	cave	sediment	2007	ENA	PRJEB18629	ERS1600794
+Smith2015	2015	10.1126/science.1261278	Bouldnor Cliff	50.7	-1.5	United Kingdom	floral,faunal	MS-08	1094	S308-1	8000	10.1126/science.1261278	ocean	sediment	NA	ENA	PRJEB6766	ERS510180
+Smith2015	2015	10.1126/science.1261278	Bouldnor Cliff	50.7	-1.5	United Kingdom	floral,faunal	MS-08	1094	S308-2	8000	10.1126/science.1261278	ocean	sediment	NA	ENA	PRJEB6766	ERS510181
+Smith2015	2015	10.1126/science.1261278	Bouldnor Cliff	50.7	-1.5	United Kingdom	floral,faunal	MS-08	1094	S308-3	8000	10.1126/science.1261278	ocean	sediment	NA	ENA	PRJEB6766	ERS510182
+Smith2015	2015	10.1126/science.1261278	Bouldnor Cliff	50.7	-1.5	United Kingdom	floral,faunal	MS-08	1094	S308-4	8000	10.1126/science.1261278	ocean	sediment	NA	ENA	PRJEB6766	ERS510183
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1204_2017	12000	10.1038/s41586-020-2509-0	cave	sediment	2017	ENA	PRJEB37914	ERS4921368,ERS4921369,ERS4921370,ERS4921371,ERS4921372,ERS4921373
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1210_2017	15600	10.1038/s41586-020-2509-0	cave	sediment	2017	ENA	PRJEB37914	ERS4921378,ERS4921379,ERS4921380,ERS4921381,ERS4921382,ERS4921383,ERS4921384
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1212_2017	13900	10.1038/s41586-020-2509-0	cave	sediment	2017	ENA	PRJEB37914	ERS4921385,ERS4921386,ERS4921387,ERS4921388,ERS4921389,ERS4921390,ERS4921391,ERS4921392
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1218_2017	21000	10.1038/s41586-020-2509-0	cave	sediment	2017	ENA	PRJEB37914	ERS4921395,ERS4921396,ERS4921397,ERS4921398,ERS4921399
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1201_2019	200	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921365
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1204A_2019	12000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921366
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1204C_2019	12000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921367
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1206_2019	13000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921374
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1207A_2019	13000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921375
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1207C_2019	13000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921376
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1210_2019	15600	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921378,ERS4921379,ERS4921380,ERS4921381,ERS4921382,ERS4921383,ERS4921384
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1212_2019	13900	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921385,ERS4921386,ERS4921387,ERS4921388,ERS4921389,ERS4921390,ERS4921391,ERS4921392
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1217_2019	11600	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921394
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1218_2019	21000	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921395,ERS4921396,ERS4921397,ERS4921398,ERS4921399
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1222_2019	26200	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921400
+Ardelean2020	2020	10.1038/s41586-020-2509-0	Chiquihuite Cave	24.62	-101.15	Mexico	floral,faunal	X12	NA	UE1223_2019	26900	10.1038/s41586-020-2509-0	cave	sediment	2019	ENA	PRJEB37914	ERS4921401
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	4	DNA-MUB17-2D-1L-SAMPLE1	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416709
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	6	DNA-MUB17-2D-1L-SAMPLE2	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416710
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	10	DNA-MUB17-2D-1L-SAMPLE4	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416721
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	16	DNA-MUB17-2D-1L-SAMPLE7	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416732
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	20	DNA-MUB17-2D-1L-SAMPLE9	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416743
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	31	DNA-MUB17-2D-1L-SAMPLE12	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416754
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	41	DNA-MUB17-2D-1L-SAMPLE14	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416757
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	41	DNA-MUB17-2D-1L-SAMPLE16	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416758
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	61	DNA-MUB17-2D-1L-SAMPLE17	100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416759
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	71	DNA-MUB17-2D-1L-SAMPLE18	200	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416760
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2D-1	79	DNA-MUB17-2D-1L-SAMPLE19	200	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416711
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-2	4	DNA-MUB17-2C-2L-SAMPLE20	200	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416712
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-2	24	DNA-MUB17-2C-2L-SAMPLE22	300	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416713
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-2	55	DNA-MUB17-2C-2L-SAMPLE24	300	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416714
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-2	74	DNA-MUB17-2C-2L-SAMPLE26	400	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416715
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-3	4	DNA-MUB17-2C-3L-SAMPLE28	400	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416716
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-3	44	DNA-MUB17-2C-3L-SAMPLE30	500	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416717
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-3	84	DNA-MUB17-2C-3L-SAMPLE32	600	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416718
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-4	5	DNA-MUB17-2C-4L-SAMPLE33	700	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416719
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-4	45	DNA-MUB17-2C-4L-SAMPLE35	800	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416720
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-4	85	DNA-MUB17-2C-4L-SAMPLE37	900	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416722
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-5	6	DNA-MUB17-2C-5L-SAMPLE38	900	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416723
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-5	46	DNA-MUB17-2C-5L-SAMPLE40	1000	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416724
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-5	84	DNA-MUB17-2C-5L-SAMPLE42	1100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416725
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-6	3	DNA-MUB17-2C-6L-SAMPLE43	1100	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416726
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-6	43	DNA-MUB17-2C-6L-SAMPLE45	1200	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416727
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-6	83	DNA-MUB17-2C-6L-SAMPLE47	1300	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416728
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-7	4	DNA-MUB17-2C-7L-SAMPLE48	1300	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416729
+Dommain2020	2020	10.3389/fevo.2020.00218	Mubwindi Swamp, Bwindi Impenetrable Forest	-1.07	29.75	Uganda	floral,faunal	MUB17-2C-7	44	DNA-MUB17-2C-7L-SAMPLE50	2200	10.3389/fevo.2020.00218	swamp forest	sediment	2017	SRA	PRJNA573108	SRS5416730
+Armbrecht2020	2020	10.1111/1755-0998.13162	Maria Island	-42.845	148.24	Tasman Sea	floral,faunal	Unknown	9	20874_MI_8.5-10cm	100	10.1111/1755-0998.13162	ocean	marine sediment	2018	SRA	PRJNA558683	SRS5214215
+Armbrecht2020	2020	10.1111/1755-0998.13162	Maria Island	-42.845	148.24	Tasman Sea	floral,faunal	Unknown	4	20871_MI_5-6cm	100	10.1111/1755-0998.13163	ocean	marine sediment	2018	SRA	PRJNA558683	SRS5214220
+Armbrecht2020	2020	10.1111/1755-0998.13162	Maria Island	-42.845	148.24	Tasman Sea	floral,faunal	Unknown	1	20868_MI_0-1.5cm	100	10.1111/1755-0998.13164	ocean	marine sediment	2018	SRA	PRJNA558683	SRS5214219
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	131	CHL_131_11266	11300	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286097
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	132	CHL_132_11317	11300	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286098
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	133	CHL_133_11368	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286099
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	134	CHL_134_11420	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286100
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	137	CHL_137_11575	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286101
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	140	CHL_140_11729	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286102
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	145	CHL_145_11982	12000	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286103
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	148	CHL_148_12132	12100	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286104
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	150	CHL_150_12231	12200	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286105
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	151	CHL_151_12280	12300	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286106
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	153	CHL_153_12379	12400	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286107
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	155	CHL_155_12485	12500	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286108
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	157	CHL_157_12615	12600	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286109
+Pedersen2016	2016	10.1038/nature19085	Charlie Lake	56.33	-120.96	Canada	floral,faunal,microbial	CHL	159	CHL_159_12810	12800	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286110
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	15	SPL_15_1444	1400	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286194
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	55	SPL_55_3112	3100	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286195
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	113	SPL_113_5430	5400	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286196
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	153	SPL_153_7001	7000	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286197
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	173	SPL_173_7782	7800	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286198
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	191	SPL_191_8967	9000	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286199
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	193	SPL_193_9133	9100	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286200
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	195	SPL_195_9299	9300	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286201
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	221	SPL_221_11440	11400	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286202
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	235	SPL_235_11534	11500	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286203
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	253	SPL_253_11630	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286204
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	256	SPL_256_11646	11600	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286205
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	266	SPL_266_11695	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286206
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	271	SPL_271_11714	11700	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286207
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	284	SPL_284_11769	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286208
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	289	SPL_289_11786	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286209
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	294	SPL_294_11806	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286210
+Pedersen2016	2016	10.1038/nature19085	Spring Lake	55.51	-119.58	Canada	floral,faunal,microbial	SPL	296	SPL_296_11814	11800	10.1038/nature19085	lake	lake sediment	NA	ENA	PRJEB14494	ERS1286211
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	481	PH081-PH155_481	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424510
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	579	PH082_579	7300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424543
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	599	PH083_599	7800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424544
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	265	PH116-PH182_265	3400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424546
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	527	PH118-PH146_527	6100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424540
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	619	PH119-PH184_619	8300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424545
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	719	PH120-PH185-PH194_719	10900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424547
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	551	PH121-PH186_551	6600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424542
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	501	PH142_501	5600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424527
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	503	PH143_503	5600	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424528
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	493	PH144_493	5500	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424523
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	497	PH145_497	5500	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424525
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	531	PH147_531	6100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424541
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	507	PH148_507	5700	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424530
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	373	PH149_373	4300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424549
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	511	PH150_511	5800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424532
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	679	PH151_679	9800	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424548
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	515	PH152_515	5900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424534
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	519	PH153_519	5900	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424536
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	523	PH154_523	6000	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424538
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	485	PH156_485	5400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424520
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	489	PH157_489	5400	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424522
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	495	PH167_495	5500	10.1098/rsos.180145	lake	lake sediment	2014	SRA	PRJNA320875	SRS1424524
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	505	PH168_505	5700	10.1098/rsos.180145	lake	lake sediment	2014	SRA	PRJNA320875	SRS1424529
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	509	PH169_509	5800	10.1098/rsos.180145	lake	lake sediment	2014	SRA	PRJNA320875	SRS1424531
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	481	PH170_481	5300	10.1098/rsos.180145	lake	lake sediment	2014	SRA	PRJNA320875	SRS1424519
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	517	PH171_517	5900	10.1098/rsos.180145	lake	lake sediment	2014	SRA	PRJNA320875	SRS1424535
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	499	PH172_499	5600	10.1098/rsos.180145	lake	lake sediment	2014	SRA	PRJNA320875	SRS1424526
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	477	PH173_477	5300	10.1098/rsos.180145	lake	lake sediment	2014	SRA	PRJNA320875	SRS1424508
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	525	PH174_525	6000	10.1098/rsos.180145	lake	lake sediment	2014	SRA	PRJNA320875	SRS1424539
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	513	PH175_513	5800	10.1098/rsos.180145	lake	lake sediment	2014	SRA	PRJNA320875	SRS1424533
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	521	PH176_521	6000	10.1098/rsos.180145	lake	lake sediment	2014	SRA	PRJNA320875	SRS1424537
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	477	PH177_477	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424509
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	465	PH178_465	5200	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424505
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	469	PH179_469	5200	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424506
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	461	PH180_461	5100	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424550
+Graham2016	2016	10.1073/pnas.1604903113	Lake Hill	57.178	-170.248	USA	faunal	LAHI	473	PH181_473	5300	10.1098/rsos.180145	lake	lake sediment	2013	SRA	PRJNA320875	SRS1424507
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	786	JK143_786	11800	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596540
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	798	JK144_798	11900	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596545
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	810	JK145_810	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596544
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	822	JK146_822	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596546
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	834	JK147_834	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596547
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	846	JK148_846	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596548
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	794	JK219_794	11900	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596549
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	802	JK220_802	12000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596550
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	806	JK221_806	12000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596529
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	814	JK222_814	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596530
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	818	JK223_818	12100	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596531
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	826	JK224_826	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596532
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	830	JK225_830	12200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596533
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	838	JK226_838	12300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596535
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	996	PH187_996	13300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596536
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1000	PH188_1000	13300	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596538
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1046	PH189_1046	13600	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596537
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1109	PH190_1109	14200	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596539
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1173	PH191_1173	15000	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596541
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1237	PH192_1237	16700	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596542
+Wang2017	2017	10.1111/jbi.13010	Lake Hill	57.178	-170.248	USA	floral	LAHI	1301	PH193_1301	17500	10.1111/jbi.13010	lake	lake sediment	2013	SRA	PRJNA320875	SRS1596543
+Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S1	600	10.1038/ncomms13389	midden	sediment	2013	SRA	PRJEB13329	ERS1280178
+Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S2	600	10.1038/ncomms13389	midden	sediment	2013	SRA	PRJEB13329	ERS1280179
+Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S3	600	10.1038/ncomms13389	midden	sediment	2013	SRA	PRJEB13329	ERS1280180
+Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S4	600	10.1038/ncomms13389	midden	sediment	2013	SRA	PRJEB13329	ERS1280182
+Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S5	600	10.1038/ncomms13389	midden	sediment	2013	SRA	PRJEB13329	ERS1280183
+Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S6	600	10.1038/ncomms13389	midden	sediment	2013	SRA	PRJEB13329	ERS1280186
+Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S7	600	10.1038/ncomms13389	midden	sediment	2013	SRA	PRJEB13329	ERS1280187
+Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S8	600	10.1038/ncomms13389	midden	sediment	2013	SRA	PRJEB13329	ERS1280189
+Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S9	600	10.1038/ncomms13389	midden	sediment	2013	SRA	PRJEB13329	ERS1280190
+Seersholm2016	2016	10.1038/ncomms13389	Sandnes	64.243	-50.178	Greenland	floral,faunal	Unknown	NA	S10	600	10.1038/ncomms13389	midden	sediment	2013	SRA	PRJEB13329	ERS1280193
+Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FA1	300	10.1038/ncomms13389	midden	sediment	NA	SRA	PRJEB13329	ERS1280165
+Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FA2	300	10.1038/ncomms13389	midden	sediment	NA	SRA	PRJEB13329	ERS1280167
+Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FA3	300	10.1038/ncomms13389	midden	sediment	NA	SRA	PRJEB13329	ERS1280168
+Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FB2	300	10.1038/ncomms13389	midden	sediment	NA	SRA	PRJEB13329	ERS1280170
+Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FB3	300	10.1038/ncomms13389	midden	sediment	NA	SRA	PRJEB13329	ERS1280172
+Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FC	300	10.1038/ncomms13389	midden	sediment	NA	SRA	PRJEB13329	ERS1280174
+Seersholm2016	2016	10.1038/ncomms13389	Fladstrand	74.099	-21.187	Greenland	floral,faunal	Unknown	NA	FD	300	10.1038/ncomms13389	midden	sediment	NA	SRA	PRJEB13329	ERS1280176
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA2	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280206
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA3	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280207
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA4	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280209
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA5	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280211
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA6(seq1,seq2)	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280215,ERS1280214
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA7	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280217
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QA8(seq1,seq2,seq3)	2600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280220,ERS1280221,ERS1280222
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QB1	1600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280196
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QB2	1600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280198
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QB3	1600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280200
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QB4	1600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280202
+Seersholm2016	2016	10.1038/ncomms13389	Qajaa	69.128	-50.702	Greenland	floral,faunal	Unknown	NA	QB5	1600	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280203
+Seersholm2016	2016	10.1038/ncomms13389	Qeqertasussuk	68.593	-51.072	Greenland	floral,faunal	Unknown	NA	QT3(seq1,seq2)	4000	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280227,ERS1280226
+Seersholm2016	2016	10.1038/ncomms13389	Qeqertasussuk	68.593	-51.072	Greenland	floral,faunal	Unknown	NA	QT4	4000	10.1038/ncomms13389	midden	sediment	2009	SRA	PRJEB13329	ERS1280228
+Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6340	30200	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	PRJEB31258	ERS3637516,ERS3637536
+Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6341	32100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	PRJEB31258	ERS3637517,ERS3637537
+Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6342	37100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	PRJEB31258	ERS3637518,ERS3637538
+Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6343	39100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	PRJEB31258	ERS3637519,ERS3637539
+Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6344	39400	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	PRJEB31258	ERS3637520,ERS3637540
+Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6345	40100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	PRJEB31258	ERS3637521,ERS3637541
+Braadbaart2020	2020	10.1016/j.jasrep.2020.102468	Abri Pataud	44.937	1.013	France	faunal	Unknown	NA	SP6346	32100	10.1016/j.jasrep.2020.102468	rock shelter	sediment	NA	ENA	PRJEB31258	ERS3637522,ERS3637542
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Guernsey Island	49.45	-2.59	Guernsey	faunal,microbial	Unknown	NA	gue_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624435
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	36	18	Mediterranean Sea	faunal,microbial	Unknown	NA	med_Abalone	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624436
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay1B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624447
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay2B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624448
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay3B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624449
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Les Châtelliers du Vieil-Auzay	46.44	-0.86	France	faunal,microbial	Unknown	NA	auzay4B_Clam	6000	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624450
+DerSarkissian2016	2016	10.1111/1755-0998.12679	La Gripperie‐Saint‐Symphorien	45.79	-0.95	France	faunal,microbial	Unknown	NA	gripB_Clam	1300	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624451
+DerSarkissian2016	2016	10.1111/1755-0998.12679	La Maison Champlain, Brouage	45.85	-1.074	France	faunal,microbial	Unknown	NA	lmc1B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624452
+DerSarkissian2016	2016	10.1111/1755-0998.12679	La Maison Champlain, Brouage	45.85	-1.074	France	faunal,microbial	Unknown	NA	lmc2B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624453
+DerSarkissian2016	2016	10.1111/1755-0998.12679	La Maison Champlain, Brouage	45.85	-1.074	France	faunal,microbial	Unknown	NA	lmc3B_Clam	350	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624454
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Nissum Bredning	56.6	8.4	Denmark	faunal,microbial	Unknown	NA	nis_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624455
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Thisted Bredning	56.92	8.75	Denmark	faunal,microbial	Unknown	NA	thi_Clam	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624456
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Havnø	56.715	10.162	Denmark	faunal,microbial	Unknown	NA	hav_Mussel	7000	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624457
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Hellebæk	56.06	12.56	Denmark	faunal,microbial	Unknown	NA	hel_Quahog	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624458
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Unknown	NA	NA	Unknown	faunal,microbial	Unknown	NA	quahog2_Quahog	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624459
+DerSarkissian2016	2016	10.1111/1755-0998.12679	Vestmanna	62.162	-7.165	Faroe Islands	faunal,microbial	Unknown	NA	ves_Quahog	100	10.1111/1755-0998.12679	shell	shell	NA	ENA	PRJEB20113	ERS1624460

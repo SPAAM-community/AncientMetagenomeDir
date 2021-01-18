@@ -19,6 +19,7 @@
             "latitude",
             "longitude",
             "geo_loc_name",
+            "study_primary_focus",
             "sequence_name",
             "depth",
             "sample_name",
@@ -237,8 +238,9 @@
                     "string",
                     "null"
                 ],
+                "pattern": "[^ ]*",
                 "title": "Archive accession number",
-                "description": "Samples archive accession numbers, multiple records can be separated with commas",
+                "description": "Samples archive accession numbers, multiple records can be separated with commas. No spaces allowed",
                 "examples": [
                     "SRS473742,SRS473743,SRS473744,SRS473745"
                 ]

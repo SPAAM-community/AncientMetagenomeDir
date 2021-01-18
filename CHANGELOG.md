@@ -19,6 +19,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Anthropogenic
 
+#### Misc
+
+- Added project accession column to all tables to help finding other samples from same project
+
 ### Changed
 
 ### Removed

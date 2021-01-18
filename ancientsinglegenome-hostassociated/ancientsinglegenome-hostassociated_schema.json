@@ -26,8 +26,10 @@
             "singlegenome_domain",
             "singlegenome_species",
             "material",
+            "genome_type",
             "collection_date",
             "archive",
+            "data_type",
             "archive_project",
             "archive_accession"
         ],

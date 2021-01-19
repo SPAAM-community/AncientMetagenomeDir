@@ -9,7 +9,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Added
 
-- [348](https://github.com/SPAAM-community/AncientMetagenomeDir/pull/348): Interactive GeoJSON maps rendered with GitHub
+- [#348](https://github.com/SPAAM-community/AncientMetagenomeDir/pull/348): Interactive GeoJSON maps rendered with GitHub
 - [#349](https://github.com/SPAAM-community/AncientMetagenomeDir/issues/349): No spaces allowed in `archive_accession` column.
 
 #### Ancient Metagenome: Host Associated

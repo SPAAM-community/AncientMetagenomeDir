@@ -26,8 +26,10 @@
             "singlegenome_domain",
             "singlegenome_species",
             "material",
+            "genome_type",
             "collection_date",
             "archive",
+            "data_type",
             "archive_project",
             "archive_accession"
         ],
@@ -233,7 +235,10 @@
             },
             "archive_project": {
                 "$id": "#/items/properties/archive_project",
-                "type": "string",
+                "type": [
+                    "string",
+                    "null"
+                ],
                 "title": "Archive project accession platform",
                 "description": "Name of the nucleotide data archiving platform",
                 "examples": [

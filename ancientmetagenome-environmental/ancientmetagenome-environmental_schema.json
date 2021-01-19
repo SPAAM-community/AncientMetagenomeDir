@@ -235,7 +235,10 @@
             },
             "archive_project": {
                 "$id": "#/items/properties/archive_project",
-                "type": "string",
+                "type": [
+                    "string",
+                    "null"
+                ],
                 "title": "Archive project accession platform",
                 "description": "Name of the nucleotide data archiving platform",
                 "examples": [

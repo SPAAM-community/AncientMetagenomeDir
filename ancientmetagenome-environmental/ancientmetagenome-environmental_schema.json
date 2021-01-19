@@ -249,7 +249,7 @@
                     "string",
                     "null"
                 ],
-                "pattern": "[^ ]*",
+                "pattern": "^[\\S]+$",
                 "title": "Archive accession number",
                 "description": "Samples archive accession numbers, multiple records can be separated with commas. No spaces allowed",
                 "examples": [

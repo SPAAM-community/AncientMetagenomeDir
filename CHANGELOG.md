@@ -17,6 +17,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Philips 2017 10.1186/s12864-020-06810-9
 
 #### Ancient Single Genome: Host Associated
+- Philips 2020 10.1186/s12864-020-06810-9
 
 #### Ancient Metagenome: Environmental
 

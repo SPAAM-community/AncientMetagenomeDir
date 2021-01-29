@@ -60,15 +60,17 @@ this repository.
 are subject to change, please use the files in the 'releases' section for when using
 for reproducible science!
 
+## Citation
+
 :book: For general **citations** use the Zenodo DOI listed in the badge at the top of
 this page. To cite a specific _release_, click on the 'releases' button and use the DOI
 in the badge of the given release's description.
 
-A preprint is also available for citation:
+Alongside the Zenodo ID of the release version, please also cite:
 
-**Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir**
-James A. Fellows Yates, Aida Andrades Valtueña, Ashild J. Vågene, Becky Cribdon, Irina M. Velsko, Maxime Borry, Miriam J. Bravo-López, Antonio Fernandez-Guerra, Eleanor J. Green, Shreya L. Ramachandran, Peter D. Heintzman, Maria A. Spyrou, Alexander Hübner, Abigail S. Gancz, Jessica Hider, Aurora F. Allshouse, Christina Warinner
-_bioRxiv 2020.09.02.279570_; doi: [https://doi.org/10.1101/2020.09.02.279570](https://doi.org/10.1101/2020.09.02.279570)
+Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Velsko, I. M., Borry, M., Bravo-Lopez, M. J., Fernandez-Guerra, A., Green, E. J., Ramachandran, S. L., Heintzman, P. D., Spyrou, M. A., Hübner, A., Gancz, A. S., Hider, J., Allshouse, A. F., Zaro, V., & Warinner, C. (2021). Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir. Scientific Data, 8(1), 31. DOI: [10.1038/s41597-021-00816-y](https://doi.org/10.1038/s41597-021-00816-y)
+
+:warning: you must also cite each paper you use data from, citing AncientMetagenomeDir is not sufficient on it's own!
 
 > The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore
 provides no warranty or completeness or accuracy of the data. If in doubt, refer

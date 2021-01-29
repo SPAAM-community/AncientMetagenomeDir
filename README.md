@@ -60,6 +60,18 @@ this repository.
 are subject to change, please use the files in the 'releases' section for when using
 for reproducible science!
 
+## Quick start guide
+
+How to download an AncientMetagenomeDir list and manipulate it in Excel or other spreadsheet software:
+
+1) Go to list of interest, e.g. [ancientsinglegenome-hostassociated](https://github.com/SPAAM-community/AncientMetagenomeDir/blob/quick-start-guide/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
+2) Click on **Raw** (top right corner)
+3) Go to **File** in menu bar, click **Save Page As**
+4) Choose Format: **tab-separated-values**
+5) Open downloaded .tsv file in Excel, Open Office etc.
+
+:heavy_check_mark: For some software copy>paste of the Raw format directly into a spreadsheet can work, if not, follow instructions above.
+
 ## Citation
 
 :book: For general **citations** use the Zenodo DOI listed in the badge at the top of

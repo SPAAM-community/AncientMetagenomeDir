@@ -13,6 +13,7 @@ for comparative analysis. It is hoped it will help researchers track growth and
 development of the field of ancient metagenomics over time.
 
 <!-- TOC -->
+## Table of Contents
 
 * [Description](#description)
 * [Usage](#usage)
@@ -29,7 +30,7 @@ development of the field of ancient metagenomics over time.
 ## Description
 
 These lists contain information such as publication, sample name, sample type,
-geographic location, dates and DOIs and other accession numbers to **samClick on the following button [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833) ples**
+geographic location, dates and DOIs and other accession numbers to raw data
 in establised sequencing data databases. We define here 'metagenome' in a broad
 sense, primarily focusing any data where the whole DNA content is analysed and
 explored. Examples for this are (but not limited to) ancient microbiomes (host associated metagenome),

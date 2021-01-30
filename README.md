@@ -55,11 +55,11 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 To download the latest _stable_ release of an AncinetMetagenomeDirSample list:
 
-1. Click on the following button [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833) 
+1. Go to the AncientMetagenomeDir [Zenodo repository](https://doi.org/10.5281/zenodo.3980833)
 2. Scroll down the page to the 'Files' section
 3. Press the 'Download' button next to the `.zip` button
 4. Once downloaded, unzip the archive by right-clicking and pressing e.g. decompress or extract
-5. In the extracted folder, change into the sample list of interest, and open the `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R). 
+5. In the extracted folder, change into the sample list of interest, and open the `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R)
 
 To download the _bleeding edge_ AncientMetagenomeDir sample list:
 

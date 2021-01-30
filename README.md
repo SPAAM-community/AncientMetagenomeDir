@@ -12,8 +12,24 @@ as a reference guide to help point researchers toward any relevent public data
 for comparative analysis. It is hoped it will help researchers track growth and
 development of the field of ancient metagenomics over time.
 
+<!-- TOC -->
+
+* [Description](#description)
+* [Usage](#usage)
+* [Citation](#citation)
+* [Current Status](#current-status)
+  * [Interactive map](#interactive-map)
+* [Contributing](#contributing)
+  * [Own Publications](#own-publications)
+  * [Previous Publications](#previous-publications)
+  * [Guidelines and Conventions](#guidelines-and-conventions)
+
+<!-- /TOC -->
+
+## Description
+
 These lists contain information such as publication, sample name, sample type,
-geographic location, dates and DOIs and other accession numbers to **samples**
+geographic location, dates and DOIs and other accession numbers to **samClick on the following button [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833) ples**
 in establised sequencing data databases. We define here 'metagenome' in a broad
 sense, primarily focusing any data where the whole DNA content is analysed and
 explored. Examples for this are (but not limited to) ancient microbiomes (host associated metagenome),
@@ -38,22 +54,9 @@ release a citeable DOI. Each release will also include a changelog to record all
 additions and any corrections or modifications. Therefore researchers are free
 to use the information in their own publications, as per the CC-BY 4.0 licence.
 
-<!-- TOC -->
-
-* [Usage](#usage)
-* [Citation](#citation)
-* [Current Status](#current-status)
-  * [Interactive map](#interactive-map)
-* [Contributing](#contributing)
-  * [Own Publications](#own-publications)
-  * [Previous Publications](#previous-publications)
-  * [Guidelines and Conventions](#guidelines-and-conventions)
-
-<!-- /TOC -->
-
 ## Usage
 
-To download the latest _stable_ release of an AncinetMetagenomeDirSample list:
+To download the latest _stable_ release of an AncientMetagenomeDir sample list:
 
 1. Go to the AncientMetagenomeDir [Zenodo repository](https://doi.org/10.5281/zenodo.3980833)
 2. Scroll down the page to the 'Files' section

@@ -68,9 +68,9 @@ To download the latest _stable_ release of an AncientMetagenomeDir sample list:
 To download the _bleeding edge_ AncientMetagenomeDir sample list:
 
 1. Right click on one of the following URLs:
-    - Ancient single genome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/quick-start-guide/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
-    - Ancient metagenome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/quick-start-guide/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
-    - Ancient metagenome - environmental [Samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/quick-start-guide/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
+    - Ancient single genome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
+    - Ancient metagenome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv)
+    - Ancient metagenome - environmental [Samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-environmental/ancientmetagenome-environmental.tsv)
 2. Press 'Save Link as' and save. The file name should end in `.tsv`.
 3. Open the resulting `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R). 
 

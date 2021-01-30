@@ -41,6 +41,7 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 <!-- TOC -->
 
 * [Usage](#usage)
+* [Citation](#citation)
 * [Current Status](#current-status)
   * [Interactive map](#interactive-map)
 * [Contributing](#contributing)
@@ -52,31 +53,32 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 
 ## Usage
 
-:heavy_check_mark: You can find the TSV table of the metagenome of interest in the
-zip file (AncientMetagenomeDir_vXX_XX.zip) under 'releases' on the right hand side of
-this repository.
+To download the latest _stable_ release of an AncinetMetagenomeDirSample list:
 
-:warning: the TSV files in the repository represent the cutting-edge version, and
-are subject to change, please use the files in the 'releases' section for when using
-for reproducible science!
+1. Click on the following button [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833) 
+2. Scroll down the page to the 'Files' section
+3. Press the 'Download' button next to the `.zip` button
+4. Once downloaded, unzip the archive by right-clicking and pressing e.g. decompress or extract
+5. In the extracted folder, change into the sample list of interest, and open the `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R). 
 
-## Quick start guide
+To download the _bleeding edge_ AncientMetagenomeDir sample list:
 
-How to download an AncientMetagenomeDir list and manipulate it in Excel or other spreadsheet software:
+1. Right click on one of the following URLs:
+    - Ancient single genome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/quick-start-guide/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
+    - Ancient metagenome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/quick-start-guide/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
+    - Ancient metagenome - environmental [Samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/quick-start-guide/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
+2. Press 'Save Link as' and save. The file name should end in `.tsv`.
+3. Open the resulting `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R). 
 
-1) Go to list of interest, e.g. [ancientsinglegenome-hostassociated](https://github.com/SPAAM-community/AncientMetagenomeDir/blob/quick-start-guide/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
-2) Click on **Raw** (top right corner)
-3) Go to **File** in menu bar, click **Save Page As**
-4) Choose Format: **tab-separated-values**
-5) Open downloaded .tsv file in Excel, Open Office etc.
+:warning: the TSV files in the repository represent the cutting-edge version, and are subject to change, please use the files in the 'releases' section for when using for reproducible science!
 
-:heavy_check_mark: For some software copy>paste of the Raw format directly into a spreadsheet can work, if not, follow instructions above.
+:heavy_check_mark: For some spreadsheet software copy>paste of the raw format directly into a spreadsheet of the _contents_ of the links above can work, if not, follow instructions above.
 
 ## Citation
 
-:book: For general **citations** use the Zenodo DOI listed in the badge at the top of
-this page. To cite a specific _release_, click on the 'releases' button and use the DOI
-in the badge of the given release's description.
+:book: For **general** of the project, please use the paper citation below.
+
+For a specific _release_ citation (e.g. the version used for analysis), go to [Releases](https://github.com/SPAAM-community/AncientMetagenomeDir/releases) and use the DOI in the badge of the given release's description, or check the corresponding [Zenodo entry](https://doi.org/10.5281/zenodo.3980833)
 
 Alongside the Zenodo ID of the release version, please also cite:
 

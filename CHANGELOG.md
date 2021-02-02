@@ -28,7 +28,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Added project accession column to all tables to help finding other samples from same project
 
 ### Changed
-
+-  Cutibacterium acnes (deDios2020, 10.1016/j.meegid.2020.104209) changed from eukaryota to bacteria.
 ### Removed
 
 ## v20.12: Ancient City of Nessebar

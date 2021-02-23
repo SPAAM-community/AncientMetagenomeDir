@@ -15,6 +15,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 - Philips 2017 10.1186/s12864-020-06810-9
+- Kazarina 2021 10.3390/genes12020309
 
 #### Ancient Single Genome: Host Associated
 - Philips 2020 10.1186/s12864-020-06810-9

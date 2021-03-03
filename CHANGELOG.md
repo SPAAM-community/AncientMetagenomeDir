@@ -16,6 +16,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Philips 2017 10.1186/s12864-020-06810-9
 - Kazarina 2021 10.3390/genes12020309
+- Seguin-Orlando 2021 10.1016/j.cub.2020.12.015
 
 #### Ancient Single Genome: Host Associated
 

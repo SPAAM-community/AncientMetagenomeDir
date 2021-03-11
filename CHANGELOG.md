@@ -35,7 +35,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Cutibacterium acnes (deDios2020, 10.1016/j.meegid.2020.104209) changed from eukaryota to bacteria.
 - Corrected publication_doi and sample_age_doi for Jacobson2020 (10.1098/rstb.2019.0586)
-- Corrected overwritten new SRA information for Weyrich 2017 ( 10.1038/nature21674)
+- Corrected overwritten new SRA information for Weyrich 2017 (10.1038/nature21674)
+- Corrected date DOI spreadsheetdragging error for Armbrecht 2020 (10.1111/1755-0998.13162)
 
 ### Removed
 

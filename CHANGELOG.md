@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
+## v21.06: Côa Valley and Siega Verde [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated                                        
+
+#### Ancient Single Genome: Host Associated                                     
+
+#### Ancient Metagenome: Environmental                                          
+
+#### Ancient Metagenome: Anthropogenic                                          
+
+#### Misc                                                                       
+
+### Changed                                                                     
+
+### Removed                                                                     
+
 ## v21.03: Town of Provins
 
 ### Added

@@ -3,8 +3,11 @@
 <p/>
 
 ----
-[![License: CC BY
-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833) ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg) [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir) [![latest_release](https://img.shields.io/badge/Latest%20Release-v20.09-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833)
+![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
+[![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir)
+[![latest_release](https://img.shields.io/badge/Latest%20Release-v21.03-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
 
 AncientMetagenomeDir is a community curated resource of lists of all published
 **shotgun**-sequenced ancient metagenome or microbial genome-level enriched samples. It is primarily meant to act
@@ -12,8 +15,25 @@ as a reference guide to help point researchers toward any relevent public data
 for comparative analysis. It is hoped it will help researchers track growth and
 development of the field of ancient metagenomics over time.
 
+<!-- TOC -->
+## Table of Contents
+
+* [Description](#description)
+* [Usage](#usage)
+* [Citation](#citation)
+* [Current Status](#current-status)
+  * [Interactive map](#interactive-map)
+* [Contributing](#contributing)
+  * [Own Publications](#own-publications)
+  * [Previous Publications](#previous-publications)
+  * [Guidelines and Conventions](#guidelines-and-conventions)
+
+<!-- /TOC -->
+
+## Description
+
 These lists contain information such as publication, sample name, sample type,
-geographic location, dates and DOIs and other accession numbers to **samples**
+geographic location, dates and DOIs and other accession numbers to raw data
 in establised sequencing data databases. We define here 'metagenome' in a broad
 sense, primarily focusing any data where the whole DNA content is analysed and
 explored. Examples for this are (but not limited to) ancient microbiomes (host associated metagenome),
@@ -38,36 +58,40 @@ release a citeable DOI. Each release will also include a changelog to record all
 additions and any corrections or modifications. Therefore researchers are free
 to use the information in their own publications, as per the CC-BY 4.0 licence.
 
-<!-- TOC -->
-
-- [Usage](#usage)
-- [Current Status](#current-status)
-- [Contributing](#contributing)
-  - [Own Publications](#own-publications)
-  - [Previous Publications](#previous-publications)
-  - [Guidelines and Conventions](#guidelines-and-conventions)
-
-<!-- /TOC -->
-
 ## Usage
 
-:heavy_check_mark: You can find the TSV table of the metagenome of interest in the
-zip file (AncientMetagenomeDir_vXX_XX.zip) under 'releases' on the right hand side of
-this repository.
+To download the latest _stable_ release of an AncientMetagenomeDir sample list:
 
-:warning: the TSV files in the repository represent the cutting-edge version, and
-are subject to change, please use the files in the 'releases' section for when using
-for reproducible science!
+1. Go to the AncientMetagenomeDir [Zenodo repository](https://doi.org/10.5281/zenodo.3980833)
+2. Scroll down the page to the 'Files' section
+3. Press the 'Download' button next to the `.zip` button
+4. Once downloaded, unzip the archive by right-clicking and pressing e.g. decompress or extract
+5. In the extracted folder, change into the sample list of interest, and open the `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R)
 
-:book: For general **citations** use the Zenodo DOI listed in the badge at the top of
-this page. To cite a specific _release_, click on the 'releases' button and use the DOI
-in the badge of the given release's description.
+To download the _bleeding edge_ AncientMetagenomeDir sample list:
 
-A preprint is also available for citation:
+1. Right click on one of the following URLs:
+    - Ancient single genome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
+    - Ancient metagenome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv)
+    - Ancient metagenome - environmental [Samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-environmental/ancientmetagenome-environmental.tsv)
+2. Press 'Save Link as' and save. The file name should end in `.tsv`.
+3. Open the resulting `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R). 
 
-**Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir**
-James A. Fellows Yates, Aida Andrades Valtueña, Ashild J. Vågene, Becky Cribdon, Irina M. Velsko, Maxime Borry, Miriam J. Bravo-López, Antonio Fernandez-Guerra, Eleanor J. Green, Shreya L. Ramachandran, Peter D. Heintzman, Maria A. Spyrou, Alexander Hübner, Abigail S. Gancz, Jessica Hider, Aurora F. Allshouse, Christina Warinner
-_bioRxiv 2020.09.02.279570_; doi: [https://doi.org/10.1101/2020.09.02.279570](https://doi.org/10.1101/2020.09.02.279570)
+:warning: the TSV files in the repository represent the cutting-edge version, and are subject to change, please use the files in the 'releases' section for when using for reproducible science!
+
+:heavy_check_mark: For some spreadsheet software copy>paste of the raw format directly into a spreadsheet of the _contents_ of the links above can work, if not, follow instructions above.
+
+## Citation
+
+:book: For **general** of the project, please use the paper citation below.
+
+For a specific _release_ citation (e.g. the version used for analysis), go to [Releases](https://github.com/SPAAM-community/AncientMetagenomeDir/releases) and use the DOI in the badge of the given release's description, or check the corresponding [Zenodo entry](https://doi.org/10.5281/zenodo.3980833)
+
+Alongside the Zenodo ID of the release version, please also cite:
+
+Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Velsko, I. M., Borry, M., Bravo-Lopez, M. J., Fernandez-Guerra, A., Green, E. J., Ramachandran, S. L., Heintzman, P. D., Spyrou, M. A., Hübner, A., Gancz, A. S., Hider, J., Allshouse, A. F., Zaro, V., & Warinner, C. (2021). Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir. Scientific Data, 8(1), 31. DOI: [10.1038/s41597-021-00816-y](https://doi.org/10.1038/s41597-021-00816-y)
+
+:warning: you must also cite each paper you use data from, citing AncientMetagenomeDir is not sufficient on it's own!
 
 > The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore
 provides no warranty or completeness or accuracy of the data. If in doubt, refer
@@ -83,7 +107,16 @@ versions may have different values.
   <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.png" width="48%" height = "48%">
 </p>
 
-Vector versions (`.pdf`) of all images are avaliable under `assets/analysis/live`. R code for all plots are freely avaliable for modification in this repository under `assets/analysis/scripts`
+Vector (`.pdf`) versions of all images and interactive map (`.geo.json`) are available under [`assets/analysis/live`](assets/analysis/live). R code for all plots are freely avaliable for modification in this repository under `assets/analysis/scripts`
+
+### Interactive map
+
+[AncientMetagenomeDir](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/analysis/live/ancientmetagenomedir.geo.json ':include :type=iframe width=100% height=400px')  
+
+**Legend:** Yellow: Anthropogenic Metagenome, 
+Green: Environmental Metagenome, 
+Light Blue: Host Associated Metagenome, 
+Pink: Host Associated Single Genome
 
 ## Contributing
 

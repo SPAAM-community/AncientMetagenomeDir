@@ -199,12 +199,24 @@ The type of community from the host's original body the sample is derived from.
 
 ## archive
 
+- The archive the sample's data is stored on.
+  - Should be an established long-term stable archive
+  - Generally set up academic institutions e.g. EBI or Universities (rather than companies, e.g. GitHub)
 - e.g. [ENA](https://www.ebi.ac.uk/ena),
   [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/)
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`  
 
 > :warning: Mandatory value  
+
+## archive_project
+
+- A project level accession code under which all samples of a project are assigned to
+- Specific examples:
+  - Archive: ENA/SRA/DDBJ: should be _primary_ accession code beginning with `PRJ`. [Example](https://www.ebi.ac.uk/ena/browser/view/PRJNA438985).
+  - Archive: MG-RAST: should be accession code beginning with `mgp`. [Example](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp13354).
+
+- Missing value: `NA`
 
 ## archive_accession
 

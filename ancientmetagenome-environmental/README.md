@@ -208,6 +208,15 @@ Sample columns are as follows:
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
+## archive_project
+
+- A project level accession code under which all samples of a project are assigned to
+- Specific examples:
+  - Archive: ENA/SRA/DDBJ: should be _primary_ accession code beginning with `PRJ`. [Example](https://www.ebi.ac.uk/ena/browser/view/PRJNA438985).
+  - Archive: MG-RAST: should be accession code beginning with `mgp`. [Example](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp13354).
+
+- Missing value: `NA`
+
 ## archive
 
 - e.g. [ENA](https://www.ebi.ac.uk/ena),

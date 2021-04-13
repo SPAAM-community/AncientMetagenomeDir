@@ -26,8 +26,11 @@
             "singlegenome_domain",
             "singlegenome_species",
             "material",
+            "genome_type",
             "collection_date",
             "archive",
+            "data_type",
+            "archive_project",
             "archive_accession"
         ],
         "properties": {
@@ -230,14 +233,28 @@
                     "assembly,binned_mag"
                 ]
             },
+            "archive_project": {
+                "$id": "#/items/properties/archive_project",
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "title": "Archive project accession platform",
+                "description": "Name of the nucleotide data archiving platform",
+                "examples": [
+                    "PRJNA438985",
+                    "mgp13354"
+                ]
+            },
             "archive_accession": {
                 "$id": "#/items/properties/archive_accession",
                 "type": [
                     "string",
                     "null"
                 ],
+                "pattern": "^[\\S]+$",
                 "title": "Archive accession number",
-                "description": "Samples archive accession numbers, multiple records can be separated with commas",
+                "description": "Samples archive accession numbers, multiple records can be separated with commas. No spaces allowed",
                 "examples": [
                     "SRS473742,SRS473743,SRS473744,SRS473745"
                 ]

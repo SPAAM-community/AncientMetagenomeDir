@@ -12,9 +12,12 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 - Wibowo 2021 10.1038/s41586-021-03532-0
+
 #### Ancient Single Genome: Host Associated
 
 #### Ancient Metagenome: Environmental
+
+- Wibowo 2021 10.1038/s41586-021-03532-0
 
 #### Ancient Metagenome: Anthropogenic
 

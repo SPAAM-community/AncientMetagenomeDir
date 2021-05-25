@@ -3,11 +3,17 @@
         "Homo sapiens",
         "Homo sapiens neanderthalensis",
         "Pan troglodytes",
+        "Pan troglodytes verus",
+        "Pan troglodytes schweinfurthii",
+        "Pan troglodytes ellioti",
         "Papio hamadryas",
         "Papio anubis",
         "Papio sp.",
         "Pan troglodytes schweinfurthii",
         "Gorilla beringei",
+        "Gorilla beringei beringei",
+        "Gorilla gorilla gorilla",
+        "Gorilla beringei graueri",
         "Ursus arctos",
         "Rangifer tarandus",
         "Canis lupus",
@@ -19,6 +25,8 @@
         "Arabidopsis thaliana",
         "Ambrosia artemisiifolia",
         "Solanum lycopersicum",
-        "Rattus rattus"
+        "Rattus rattus",
+        "Alouatta palliata"
+       
     ]
 }

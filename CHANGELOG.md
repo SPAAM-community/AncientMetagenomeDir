@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 - Wibowo 2021 10.1038/s41586-021-03532-0
+- Fellows Yates 2021 10.1073/pnas.2021655118
 
 #### Ancient Single Genome: Host Associated
 

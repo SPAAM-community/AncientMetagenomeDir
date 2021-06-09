@@ -19,6 +19,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Environmental
 
 - Wibowo 2021 10.1038/s41586-021-03532-0
+- Schulte 2021 10.1111/1755-0998.13311
 - Lammers 2021 10.1038/s42003-021-01710-4
 
 #### Ancient Metagenome: Anthropogenic

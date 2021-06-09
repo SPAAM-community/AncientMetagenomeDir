@@ -19,7 +19,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Environmental
 
 - Wibowo 2021 10.1038/s41586-021-03532-0
-- Added new feature (natural environment)
+- Added new feature (sea coast)
 
 #### Ancient Metagenome: Anthropogenic
 

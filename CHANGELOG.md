@@ -13,6 +13,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Wibowo 2021 10.1038/s41586-021-03532-0
 - Fellows Yates 2021 10.1073/pnas.2021655118
+- Farrer 2021 10.1038/s41598-021-86100-w
 
 #### Ancient Single Genome: Host Associated
 

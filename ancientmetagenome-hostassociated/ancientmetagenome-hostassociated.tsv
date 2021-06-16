@@ -773,6 +773,14 @@ Witt2021	2021	10.1038/s41598-021-82362-6	Janey B. Goode (11S1232), Brooklyn, Ill
 Witt2021	2021	10.1038/s41598-021-82362-6	Janey B. Goode (11S1232), Brooklyn, Illinois	38.65	-90.17	USA	JBG 1131-29 (cop_JBG29)	Canis lupus	850	10.1038/s41598-021-82362-6	gut	palaeofaeces	NA	SRA	PRJNA657304	SRS7205527
 Witt2021	2021	10.1038/s41598-021-82362-6	Janey B. Goode (11S1232), Brooklyn, Illinois	38.65	-90.17	USA	JBG 1045-13 (cop_JBG13)	Canis lupus	850	10.1038/s41598-021-82362-6	gut	palaeofaeces	NA	SRA	PRJNA657304	SRS7205516
 Witt2021	2021	10.1038/s41598-021-82362-6	Janey B. Goode (11S1232), Brooklyn, Illinois	38.65	-90.17	USA	JBG 750-16 (cop_JBG16)	Canis lupus	850	10.1038/s41598-021-82362-6	gut	palaeofaeces	NA	SRA	PRJNA657304	SRS7205515
+Wibowo2021	2021	10.1038/s41586-021-03532-0	Boomerang Shelter	37.5	-109.8	USA	UT30.3	Homo sapiens	1900	10.1038/s41586-021-03532-0	gut	palaeofaeces	NA	SRA	PRJNA561510	SRS5300636
+Wibowo2021	2021	10.1038/s41586-021-03532-0	Boomerang Shelter	37.5	-109.8	USA	UT43.2	Homo sapiens	2000	10.1038/s41586-021-03532-0	gut	palaeofaeces	NA	SRA	PRJNA561510	SRS5300648
+Wibowo2021	2021	10.1038/s41586-021-03532-0	Arid West Cave	37.5	-110	USA	AW107 / AZ107	Homo sapiens	1500	10.1038/s41586-021-03532-0	gut	palaeofaeces	NA	SRA	PRJNA561510	SRS5300659
+Wibowo2021	2021	10.1038/s41586-021-03532-0	Arid West Cave	37.5	-110	USA	AW108 / AZ108	Homo sapiens	1400	10.1038/s41586-021-03532-0	gut	palaeofaeces	NA	SRA	PRJNA561510	SRS5300666
+Wibowo2021	2021	10.1038/s41586-021-03532-0	Arid West Cave	37.5	-110	USA	AW110A/ AZ110A	Homo sapiens	1400	10.1038/s41586-021-03532-0	gut	palaeofaeces	NA	SRA	PRJNA561510	SRS5300667
+Wibowo2021	2021	10.1038/s41586-021-03532-0	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape1	Homo sapiens	1100	10.1038/s41586-021-03532-0	gut	palaeofaeces	NA	SRA	PRJNA561510	SRS5300670
+Wibowo2021	2021	10.1038/s41586-021-03532-0	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape2	Homo sapiens	1200	10.1038/s41586-021-03532-0	gut	palaeofaeces	NA	SRA	PRJNA561510	SRS5300669
+Wibowo2021	2021	10.1038/s41586-021-03532-0	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape3	Homo sapiens	1300	10.1038/s41586-021-03532-0	gut	palaeofaeces	NA	SRA	PRJNA561510	SRS5300638
 FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	85.53	Nicaragua	OME002.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774378
 FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	85.53	Nicaragua	OME003.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774379
 FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	85.53	Nicaragua	OME005.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774380
@@ -866,17 +874,17 @@ FellowsYates2021	2021	10.1073/pnas.2021655118	Dolní Věstonice II	48.883	16.650
 FellowsYates2021	2021	10.1073/pnas.2021655118	Größe Ofnethöhle	48.818	10.45	Germany	OFN001.A	Homo sapiens	9200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774468
 FellowsYates2021	2021	10.1073/pnas.2021655118	Pavlov I	48.873	16.672	Czech Republic	PLV001.A	Homo sapiens	29500	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774469
 FellowsYates2021	2021	10.1073/pnas.2021655118	Grotte de Rigney	47.383	6.166	France	RIG001.A	Homo sapiens	15400	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774470
-FellowsYates2021	2021	10.1073/pnas.2021655118	Essaouira (Mogador)	31.51	-9.76	Morocco	ESA003.A	Homo sapiens	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774471
-FellowsYates2021	2021	10.1073/pnas.2021655118	Essaouira (Mogador)	31.51	-9.76	Morocco	ESA004.A	Homo sapiens	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774472
-FellowsYates2021	2021	10.1073/pnas.2021655118	Essaouira (Mogador)	31.51	-9.76	Morocco	ESA006.A	Homo sapiens	NA	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774473
-FellowsYates2021	2021	10.1073/pnas.2021655118	Essaouira (Mogador)	31.51	-9.76	Morocco	ESA007.A	Homo sapiens	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774474
-FellowsYates2021	2021	10.1073/pnas.2021655118	Essaouira (Mogador)	31.51	-9.76	Morocco	ESA008.A	Homo sapiens	NA	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774475
+FellowsYates2021	2021	10.1073/pnas.2021655118	Essaouira (Mogador)	31.51	-9.76	Morocco	ESA003.A	Homo sapiens	300	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774471
+FellowsYates2021	2021	10.1073/pnas.2021655118	Essaouira (Mogador)	31.51	-9.76	Morocco	ESA004.A	Homo sapiens	300	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774472
+FellowsYates2021	2021	10.1073/pnas.2021655118	Essaouira (Mogador)	31.51	-9.76	Morocco	ESA006.A	Homo sapiens	300	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774473
+FellowsYates2021	2021	10.1073/pnas.2021655118	Essaouira (Mogador)	31.51	-9.76	Morocco	ESA007.A	Homo sapiens	300	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774474
+FellowsYates2021	2021	10.1073/pnas.2021655118	Essaouira (Mogador)	31.51	-9.76	Morocco	ESA008.A	Homo sapiens	300	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774475
 FellowsYates2021	2021	10.1073/pnas.2021655118	Unknown (Basque Pyranees region)	43.04	-2.67	Spain	BSQ001.A	Homo sapiens	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774476
-FellowsYates2021	2021	10.1073/pnas.2021655118	Lisbon Metropolitan Area, Portugal	31.51	-9.76	Portugal	LIS001.A	Homo sapiens	NA	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774477
-FellowsYates2021	2021	10.1073/pnas.2021655118	Lisbon Metropolitan Area, Portugal	31.51	-9.76	Portugal	LIS002.A	Homo sapiens	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774478
-FellowsYates2021	2021	10.1073/pnas.2021655118	Lisbon Metropolitan Area, Portugal	31.51	-9.76	Portugal	LIS003.A	Homo sapiens	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774479
-FellowsYates2021	2021	10.1073/pnas.2021655118	Polyoak	-34.03	18.46	South Africa	PYK001.A	Homo sapiens	NA	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774480
-FellowsYates2021	2021	10.1073/pnas.2021655118	Polyoak	-34.03	18.46	South Africa	PYK002.A	Homo sapiens	NA	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774481
-FellowsYates2021	2021	10.1073/pnas.2021655118	Polyoak	-34.03	18.46	South Africa	PYK003.A	Homo sapiens	NA	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774482
-FellowsYates2021	2021	10.1073/pnas.2021655118	Polyoak	-34.03	18.46	South Africa	PYK004.A	Homo sapiens	NA	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774483
-FellowsYates2021	2021	10.1073/pnas.2021655118	Polyoak	-34.03	18.46	South Africa	PYK005.A	Homo sapiens	NA	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774484
+FellowsYates2021	2021	10.1073/pnas.2021655118	Lisbon Metropolitan Area, Portugal	31.51	-9.76	Portugal	LIS001.A	Homo sapiens	300	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774477
+FellowsYates2021	2021	10.1073/pnas.2021655118	Lisbon Metropolitan Area, Portugal	31.51	-9.76	Portugal	LIS002.A	Homo sapiens	300	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774478
+FellowsYates2021	2021	10.1073/pnas.2021655118	Lisbon Metropolitan Area, Portugal	31.51	-9.76	Portugal	LIS003.A	Homo sapiens	300	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774479
+FellowsYates2021	2021	10.1073/pnas.2021655118	Polyoak	-34.03	18.46	South Africa	PYK001.A	Homo sapiens	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774480
+FellowsYates2021	2021	10.1073/pnas.2021655118	Polyoak	-34.03	18.46	South Africa	PYK002.A	Homo sapiens	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774481
+FellowsYates2021	2021	10.1073/pnas.2021655118	Polyoak	-34.03	18.46	South Africa	PYK003.A	Homo sapiens	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774482
+FellowsYates2021	2021	10.1073/pnas.2021655118	Polyoak	-34.03	18.46	South Africa	PYK004.A	Homo sapiens	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774483
+FellowsYates2021	2021	10.1073/pnas.2021655118	Polyoak	-34.03	18.46	South Africa	PYK005.A	Homo sapiens	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774484

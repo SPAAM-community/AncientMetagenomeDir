@@ -17,6 +17,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Haller 2021 10.1016/j.isci.2021.102419
+
 #### Ancient Metagenome: Environmental
 
 - Wibowo 2021 10.1038/s41586-021-03532-0

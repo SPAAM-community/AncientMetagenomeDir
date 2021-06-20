@@ -44,6 +44,9 @@ sra_exp_fields <- c(
 )
 
 cols_of_interest <- c(
+  "project_name",
+  "project_doi",
+  "publication_doi",
   "secondary_sample_accession",
   "study_accession",
   # "study_title"

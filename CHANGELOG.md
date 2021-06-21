@@ -9,22 +9,33 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Added
 
-#### Ancient Metagenome: Host Associated                                        
+#### Ancient Metagenome: Host Associated
 
+- Wibowo 2021 10.1038/s41586-021-03532-0
 - Fellows Yates 2021 10.1073/pnas.2021655118
+- Farrer 2021 10.1038/s41598-021-86100-w
 
 #### Ancient Single Genome: Host Associated 
 - Seguin-Orlando 2021 10.1016/j.isci.2021.102383
 
-#### Ancient Metagenome: Environmental                                          
 
-#### Ancient Metagenome: Anthropogenic                                          
+- Haller 2021 10.1016/j.isci.2021.102419
 
-#### Misc                                                                       
+#### Ancient Metagenome: Environmental
 
-### Changed                                                                     
+- Wibowo 2021 10.1038/s41586-021-03532-0
+- Schulte 2021 10.1111/1755-0998.13311
+- Lammers 2021 10.1038/s42003-021-01710-4
+- Added new feature (sea coast)
+- Liang 2021 10.1186/s40168-021-01057-2
 
-### Removed                                                                     
+#### Ancient Metagenome: Anthropogenic
+
+#### Misc
+
+### Changed
+
+### Removed
 
 ## v21.03: Town of Provins
 

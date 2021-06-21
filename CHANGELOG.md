@@ -13,7 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Fellows Yates 2021 10.1073/pnas.2021655118
 
-#### Ancient Single Genome: Host Associated                                     
+#### Ancient Single Genome: Host Associated 
+- Seguin-Orlando 2021 10.1016/j.isci.2021.102383
 
 #### Ancient Metagenome: Environmental                                          
 

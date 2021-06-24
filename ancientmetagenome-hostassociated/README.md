@@ -186,16 +186,15 @@ The type of community from the host's original body the sample is derived from.
 
 > :warning: Mandatory value  
 
-## collection_date
+## sampling_date
 
-- Year of collection of (sub-)sample for DNA analysis in YYYY format
+- Year of sampling of (sub-)sample for DNA analysis in YYYY format
   - e.g. not the year blood was drawn from a patient, but rather the year the
     aliquot was taken for DNA extraction from the sample in the museum
     collection, for the current study.
+- Missing value: `NA`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
-
-- Missing value: `NA`
 
 ## archive
 

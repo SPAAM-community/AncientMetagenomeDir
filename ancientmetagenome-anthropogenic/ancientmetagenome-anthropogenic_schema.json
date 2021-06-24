@@ -22,7 +22,7 @@
             "sample_name",
             "sample_age",
             "sample_age_doi",
-            "collection_date",
+            "sampling_date",
             "material",
             "archive",
             "archive_project",
@@ -152,16 +152,16 @@
                     "parchment"
                 ]
             },
-            "collection_date": {
-                "$id": "#/items/properties/collection_date",
+            "sampling_date": {
+                "$id": "#/items/properties/sampling_date",
                 "type": [
                     "integer",
                     "null"
                 ],
                 "minimum": 1700,
                 "maximum": 2100,
-                "title": "Year of sample collection",
-                "description": "Year of sample collection in YYYY format",
+                "title": "Year of sampling event for DNA analysis",
+                "description": "Year of sampling event for DNA analysis in YYYY format",
                 "examples": [
                     2012
                 ]

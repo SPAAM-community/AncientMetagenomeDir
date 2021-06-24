@@ -17,10 +17,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated 
 - Seguin-Orlando 2021 10.1016/j.isci.2021.102383
-
-
 - Haller 2021 10.1016/j.isci.2021.102419
 - Guellil 2020 10.1073/pnas.2009677117
+- Danneels 2021 10.1016/j.cub.2021.03.049
 
 #### Ancient Metagenome: Environmental
 

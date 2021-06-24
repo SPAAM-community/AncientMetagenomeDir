@@ -197,13 +197,12 @@ Sample columns are as follows:
 
 > :warning: Mandatory value  
 
-## collection_date
+## sampling_date
 
-- Year of collection of (sub-)sample for DNA analysis in YYYY format
+- Year of sampling of (sub-)sample for DNA analysis in YYYY format
   - e.g. not the year blood was drawn from a patient, but rather the year the
     aliquot was taken for DNA extraction from the sample in the museum
     collection, for the current study.
-- If sample is from a sediment core, may be later than year of core collection
 - Missing value: `NA`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field

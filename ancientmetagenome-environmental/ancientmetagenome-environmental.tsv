@@ -1,4 +1,4 @@
-project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	study_primary_focus	sequence_name	depth	sample_name	sample_age	sample_age_doi	feature	material	collection_date	archive	archive_project	archive_accession
+project_name	publication_year	publication_doi	site_name	latitude	longitude	geo_loc_name	study_primary_focus	sequence_name	depth	sample_name	sample_age	sample_age_doi	feature	material	sampling_date	archive	archive_project	archive_accession
 Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	435	HA1.1	13900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040659
 Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	435	HA1.12	13900	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040658
 Ahmed2018	2018	10.1016/j.quascirev.2017.11.037	Hässeldala Port	56.16	15.01	Sweden	microbial	Sediment core #7.4	416	HA3.1	13100	10.3389/fevo.2019.00189	lake	lake sediment	2015	ENA	PRJNA378719	SRS2040657

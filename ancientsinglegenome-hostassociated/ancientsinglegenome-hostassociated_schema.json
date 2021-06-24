@@ -27,7 +27,7 @@
             "singlegenome_species",
             "material",
             "genome_type",
-            "collection_date",
+            "sampling_date",
             "archive",
             "data_type",
             "archive_project",
@@ -197,16 +197,16 @@
                     "organelle"
                 ]
             },
-            "collection_date": {
-                "$id": "#/items/properties/collection_date",
+            "sampling_date": {
+                "$id": "#/items/properties/sampling_date",
                 "type": [
                     "integer",
                     "null"
                 ],
                 "minimum": 1700,
                 "maximum": 2100,
-                "title": "Year of sample collection",
-                "description": "Year of sample collection in YYYY format",
+                "title": "Year of sampling event for DNA analysis",
+                "description": "Year of sampling event for DNA analysis in YYYY format",
                 "examples": [
                     2012
                 ]

@@ -36,6 +36,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Changed `collection_date` column to `sampling_date` to clarify this is when drilling, or sub-sampling for DNA analysis was performed
+
 ### Removed
 
 ## v21.03: Town of Provins

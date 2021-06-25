@@ -25,40 +25,20 @@ figure_publication_time <- stats_pub_timeline(raw_hostmetagenome, raw_hostsingle
 
 figure_cumulative_samples <- stats_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% plot_cumulative_timeline()
 
-ggsave("AncientMetagenomeDir-Publication_Timeline.png",
+ggsave("AncientMetagenomeDir-Publication_Timeline.svg",
        path = out_dir,
        plot = figure_publication_time,
-       device = "png",
+       device = "svg",
        units = "in",
        width = 5,
        height = 6,
        scale = 0.8
 )
 
-ggsave("AncientMetagenomeDir-Publication_Timeline.pdf",
-       path = out_dir,
-       plot = figure_publication_time,
-       device = cairo_pdf(),
-       units = "in",
-       width = 5,
-       height = 6,
-       scale = 0.8
-)
-
-ggsave("AncientMetagenomeDir-Sample_Timeline.png",
+ggsave("AncientMetagenomeDir-Sample_Timeline.svg",
        path = out_dir,
        plot = figure_cumulative_samples,
-       device = "png",
-       units = "in",
-       width = 5,
-       height = 6,
-       scale = 0.8
-)
-
-ggsave("AncientMetagenomeDir-Sample_Timeline.pdf",
-       path = out_dir,
-       plot = figure_cumulative_samples,
-       device = cairo_pdf(),
+       device = "svg",
        units = "in",
        width = 5,
        height = 6,

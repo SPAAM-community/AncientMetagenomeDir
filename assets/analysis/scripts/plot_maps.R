@@ -25,20 +25,10 @@ data_map <- stats_map(raw_hostmetagenome, raw_hostsinglegenome, raw_environmenta
 
 figure_map <- plot_map(data_map)
 
-ggsave("AncientMetagenomeDir-Sample_Map.pdf",
+ggsave("AncientMetagenomeDir-Sample_Map.svg",
        path = out_dir,
        plot = figure_map,
-       device = "pdf",
-       units = "in",
-       width = 5,
-       height = 6,
-       scale = 0.8
-)
-
-ggsave("AncientMetagenomeDir-Sample_Map.png",
-       path = out_dir,
-       plot = figure_map,
-       device = "png",
+       device = "svg",
        units = "in",
        width = 5,
        height = 6,

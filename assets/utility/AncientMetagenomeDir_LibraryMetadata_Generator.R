@@ -6,7 +6,7 @@ args <- commandArgs(trailingOnly = TRUE)
 
 input_tab <- args[1]
 verbose <- args[2]
-getwd()
+
 ## Add check of required
 require(tidyverse)
 require(jsonlite)
@@ -16,6 +16,8 @@ require(progress)
 
 source("library_pull_data.R")
 source("library_pull_functions.R")
+
+## TODO: genericise the variable names throughout this script away from hostass
 
 ## Load table -> TEST WHEN DO NOT FILTER TO ENA/SRA
 print("[AncientMetagenomeDir_LibraryMetadata_Generator.R] Only pulling ENA/SRA data!")
@@ -49,6 +51,7 @@ hostass_expacc <- hostass_samacc %>%
   unnest()
 
 ## Select only relevant columns and save
+## TODO BUG `project_name` and `publication_doi` are not saved?
 hostass_expacc %>%
   column_cleanup(cols_of_interest) %>%
   write_tsv(paste0(tools::file_path_sans_ext(input_tab), "_librarymetadata.tsv", collapse = ""))

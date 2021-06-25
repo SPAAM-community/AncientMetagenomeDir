@@ -62,6 +62,11 @@ get_run_from_sample_metadata <- function(accession, v = FALSE) {
     print("[DEBUG] get_run_from_sample_metadata() - querying ENA...")
   }
   query_res <- map(acc_urls, ~ call_ena_home(.x, v = v))
+  
+  if(is.null(query_res[[1]])) {
+    print(paste0("[WARN] following accession had no metadata returned from archive: ", accession, collapse = ""))
+    return(NA)
+  } 
 
   if (v == T) {
     print("[DEBUG] get_run_from_sample_metadata() - converting to table...")

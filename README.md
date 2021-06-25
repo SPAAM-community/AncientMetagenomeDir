@@ -16,17 +16,16 @@ for comparative analysis. It is hoped it will help researchers track growth and
 development of the field of ancient metagenomics over time.
 
 <!-- TOC -->
-## Table of Contents
 
-* [Description](#description)
-* [Usage](#usage)
-* [Citation](#citation)
-* [Current Status](#current-status)
-  * [Interactive map](#interactive-map)
-* [Contributing](#contributing)
-  * [Own Publications](#own-publications)
-  * [Previous Publications](#previous-publications)
-  * [Guidelines and Conventions](#guidelines-and-conventions)
+- [Description](#description)
+- [Usage](#usage)
+- [Citation](#citation)
+- [Current Status](#current-status)
+  - [Interactive map](#interactive-map)
+- [Contributing](#contributing)
+  - [Own Publications](#own-publications)
+  - [Previous Publications](#previous-publications)
+  - [Guidelines and Conventions](#guidelines-and-conventions)
 
 <!-- /TOC -->
 
@@ -101,13 +100,13 @@ versions may have different values.
 ## Current Status
 
 <p float="center">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Timeline.png" width="48%" height = "48%">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Publication_Timeline.png" width="48%" height = "48%">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_AgeTimeline.png" width="48%" height = "48%">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.png" width="48%" height = "48%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Timeline.svg" width="48%" height = "48%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Publication_Timeline.svg" width="48%" height = "48%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_AgeTimeline.svg" width="48%" height = "48%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.svg" width="48%" height = "48%">
 </p>
 
-Vector (`.pdf`) versions of all images and interactive map (`.geo.json`) are available under [`assets/analysis/live`](assets/analysis/live). R code for all plots are freely avaliable for modification in this repository under `assets/analysis/scripts`
+Vector (`.svg`) versions of all images and interactive map (`.geo.json`) are available under [`assets/analysis/live`](assets/analysis/live). R code for all plots are freely available for modification in this repository under `assets/analysis/scripts`
 
 ### Interactive map
 

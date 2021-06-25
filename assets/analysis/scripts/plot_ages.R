@@ -53,22 +53,12 @@ figure_age_timeline <- ggplot() +
        caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))) +
   facet_wrap(~factor(List, levels = names(dir_colours)), ncol = 1)
 
-ggsave("AncientMetagenomeDir-Sample_AgeTimeline.pdf",
+ggsave("AncientMetagenomeDir-Sample_AgeTimeline.svg",
        plot = figure_age_timeline,
        path = out_dir,
-       device = cairo_pdf(),
+       device = "svg",
        units = "in",
        width = 5,
        height = 6,
        scale = 0.8
-)
-
-ggsave("AncientMetagenomeDir-Sample_AgeTimeline.png",
-      plot = figure_age_timeline,
-      path = out_dir,
-      device = "png",
-      units = "in",
-      width = 5,
-      height = 6,
-      scale = 0.8
 )

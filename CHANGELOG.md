@@ -36,6 +36,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Changed
 
 - Changed `collection_date` column to `sampling_date` to clarify this is when drilling, or sub-sampling for DNA analysis was performed
+- Corrected date for GLZ001 from Yu et al. (2020) from 4400 to 4600 based on the re-calibrated reported date in the paper (doi: 10.1016/j.cell.2020.04.037)
 
 ### Removed
 

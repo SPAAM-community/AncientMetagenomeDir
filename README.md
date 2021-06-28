@@ -7,7 +7,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833)
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir)
-[![latest_release](https://img.shields.io/badge/Latest%20Release-v21.03-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
+[![latest_release](https://img.shields.io/badge/Latest%20Release-v21.06-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
 
 AncientMetagenomeDir is a community curated resource of lists of all published
 **shotgun**-sequenced ancient metagenome or microbial genome-level enriched samples. It is primarily meant to act
@@ -16,17 +16,16 @@ for comparative analysis. It is hoped it will help researchers track growth and
 development of the field of ancient metagenomics over time.
 
 <!-- TOC -->
-## Table of Contents
 
-* [Description](#description)
-* [Usage](#usage)
-* [Citation](#citation)
-* [Current Status](#current-status)
-  * [Interactive map](#interactive-map)
-* [Contributing](#contributing)
-  * [Own Publications](#own-publications)
-  * [Previous Publications](#previous-publications)
-  * [Guidelines and Conventions](#guidelines-and-conventions)
+- [Description](#description)
+- [Usage](#usage)
+- [Citation](#citation)
+- [Current Status](#current-status)
+  - [Interactive map](#interactive-map)
+- [Contributing](#contributing)
+  - [Own Publications](#own-publications)
+  - [Previous Publications](#previous-publications)
+  - [Guidelines and Conventions](#guidelines-and-conventions)
 
 <!-- /TOC -->
 
@@ -101,13 +100,13 @@ versions may have different values.
 ## Current Status
 
 <p float="center">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Timeline.png" width="48%" height = "48%">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Publication_Timeline.png" width="48%" height = "48%">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_AgeTimeline.png" width="48%" height = "48%">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.png" width="48%" height = "48%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Timeline.svg" width="48%" height = "48%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Publication_Timeline.svg" width="48%" height = "48%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_AgeTimeline.svg" width="48%" height = "48%">
+  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.svg" width="48%" height = "48%">
 </p>
 
-Vector (`.pdf`) versions of all images and interactive map (`.geo.json`) are available under [`assets/analysis/live`](assets/analysis/live). R code for all plots are freely avaliable for modification in this repository under `assets/analysis/scripts`
+Vector (`.svg`) versions of all images and interactive map (`.geo.json`) are available under [`assets/analysis/live`](assets/analysis/live). R code for all plots are freely available for modification in this repository under `assets/analysis/scripts`
 
 ### Interactive map
 

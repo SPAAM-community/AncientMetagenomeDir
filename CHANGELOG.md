@@ -5,7 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v21.06: Côa Valley and Siega Verde [Unreleased]
+## v21.09: Taputapuātea [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated                                        
+
+#### Ancient Single Genome: Host Associated                                     
+
+#### Ancient Metagenome: Environmental                                          
+
+#### Ancient Metagenome: Anthropogenic                                          
+
+#### Misc
+
+### Changed
+
+### Removed
+
+## v21.06: Côa Valley and Siega Verde
 
 ### Added
 
@@ -13,15 +31,19 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Wibowo 2021 10.1038/s41586-021-03532-0
 - Fellows Yates 2021 10.1073/pnas.2021655118
+- Farrer 2021 10.1038/s41598-021-86100-w
 
-#### Ancient Single Genome: Host Associated
+#### Ancient Single Genome: Host Associated 
+- Seguin-Orlando 2021 10.1016/j.isci.2021.102383
+- Haller 2021 10.1016/j.isci.2021.102419
+- Guellil 2020 10.1073/pnas.2009677117
+- Danneels 2021 10.1016/j.cub.2021.03.049
 
 #### Ancient Metagenome: Environmental
 
 - Wibowo 2021 10.1038/s41586-021-03532-0
 - Schulte 2021 10.1111/1755-0998.13311
 - Lammers 2021 10.1038/s42003-021-01710-4
-- Added new feature (sea coast)
 - Liang 2021 10.1186/s40168-021-01057-2
 
 #### Ancient Metagenome: Anthropogenic
@@ -29,6 +51,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Misc
 
 ### Changed
+
+- Changed `collection_date` column to `sampling_date` to clarify this is when drilling, or sub-sampling for DNA analysis was performed
+- Corrected date for GLZ001 from Yu et al. (2020) from 4400 to 4600 based on the re-calibrated reported date in the paper (doi: 10.1016/j.cell.2020.04.037)
 
 ### Removed
 

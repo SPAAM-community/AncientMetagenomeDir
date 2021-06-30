@@ -1,0 +1,16 @@
+name: New Publication
+description: Template for adding a new paper
+labels: new-publication
+title: author YYYY
+body:
+  - type: textarea
+    id: doi_url
+    attributes: 
+      label: Publication DOI or URL
+      description: The DOI or URL of the publication being proposed to be added
+  - type: textarea
+    id: additional_context
+    attributes: 
+      label: Additional context
+      description: Additional context about the publication, e.g. if unsure whether to be included
+     

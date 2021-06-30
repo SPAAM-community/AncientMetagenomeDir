@@ -78,17 +78,22 @@ get_run_from_sample_metadata <- function(accession, v = FALSE) {
 
 ## Gets experiment metadata from EXPERIMENT accession codes, as some library
 ## metadata is stored at EXPERIMENT level
-get_experiment_metadata <- function(accession, v = FALSE) {
+get_experiment_metadata <- function(accession, expect_cols, v = FALSE) {
   if (v == T) {
     paste0("[DEBUG] get_experiment_metadata() - searching accession:", accession)
   }
+  
+  if (is.na(accession)){
+    return(NA)
+  }
+  
   if (str_sub(1, 3, string = accession) == "ERX") {
     user_fields <- ena_exp_fields
   } else if (str_sub(1, 3, string = accession) == "SRX") {
     user_fields <- sra_exp_fields
   } else {
-    return(NA)
     print(paste0("[ERROR] get_experiment_metadata() - accession starts neither with ERX nor SRX:", accession))
+    return(NA)
     #stop(paste0("[ERROR] get_experiment_metadata() - accession starts neither with ERX nor SRX:", accession))
   }
 
@@ -104,12 +109,11 @@ get_experiment_metadata <- function(accession, v = FALSE) {
     print("[DEBUG] get_experiment_metadata() - Removing nasty experiment attributes")
   }
   
-  
   filtered_results <- map(exp_res$EXPERIMENT_SET, ~ clean_experiment_xml(.x, user_fields, v = v)) %>%
     reduce(bind_rows) %>%
-    select(-contains("EXPERIMENT_LINK"), -contains("EXPERIMENT_ATTRIBUTE"), ) %>%
-    unnest() %>%
-    unnest()
-
+    select(-contains("EXPERIMENT_LINK"), -contains("EXPERIMENT_ATTRIBUTE")) %>%
+    unnest(cols = everything()) %>%
+    unnest(cols = everything())
+  
   return(filtered_results)
 }

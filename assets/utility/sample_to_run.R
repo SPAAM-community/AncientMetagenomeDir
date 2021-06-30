@@ -20,14 +20,20 @@ pb <- progress_bar$new(
 ####### TO FIX ############
 
 get_run_from_sample_metadata <- function(accession, v = FALSE) {
+  
   if (v == T) {
     print(paste("[DEBUG] get_run_from_sample_metadata() - querying accession", accession))
+  }
+  
+  if (is.na(accession)){
+    return(NA)
   }
   
   ## Split anything combined by commas, as api only accepts one at a time
   if (v == T) {
     print("[DEBUG] get_run_from_sample_metadata() - any combined splitting accessions")
   }
+  
   all_accs <- accession %>%
     str_split(",") %>%
     unlist()

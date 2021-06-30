@@ -8,8 +8,11 @@ body:
     attributes: 
       label: Publication DOI or URL
       description: The DOI or URL of the publication being proposed to be added
+    validations:
+      required: true
   - type: markdown
-    value: "Please add relevant label(s) (see menu on the right) indicating which sample-type category the publication is relevent for."    
+    attributes:
+      value: "Please add relevant label(s) (see menu on the right) indicating which sample-type category the publication is relevent for."    
   - type: textarea
     id: additional_context
     attributes: 

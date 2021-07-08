@@ -145,5 +145,7 @@ get_experiment_metadata <- function(exp_accession, v = F){
     select(name, result) %>%
     pivot_wider(names_from = name, values_from = result)
   
+  print(result_tab)
+  
   return(result_tab)
 }

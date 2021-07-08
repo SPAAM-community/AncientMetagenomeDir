@@ -54,10 +54,11 @@ pb <- progress_bar$new(
   clear = FALSE, width = 60
 )
 
-hostass_samacc_exp <- hostass_samacc$experiment_accession %>% 
+## TODO left join converts everything in `.` to NA
+hostass_samacc_exp <- hostass_samacc$experiment_accession %>% head(n = 10) %>% 
   map(~{pb$tick(); get_experiment_metadata(., v=T)}) %>% 
-  bind_rows() %>% 
-  left_join(hostass_samacc, .)
+  bind_rows() 
+  left_join(hostass_samacc %>% head(n= 10), .)
 
 # hostass_expacc <- hostass_samacc %>%
 #   mutate(exp_metadata = map(experiment_accession, ~ {

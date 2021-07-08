@@ -37,18 +37,34 @@ hostass_samacc <- hostass_meta %>%
   })) %>%
   unnest(cols = c(run_metadata))
 
+## initialise empty exp. template
+#exp_cols <- setNames(rep("", length(indsc_exp_fields)), names(indsc_exp_fields))
+#exp_template <- as_tibble(t(exp_cols))[0, ]
+
+exp_template <- indsc_exp_fields %>% enframe
+exp_template_empty <- exp_template %>%
+  select(name) %>%
+  mutate(value = NA) %>%
+  pivot_wider(names_from = name, values_from = value)
+
 ## Get EXPERIMENT metadata using experiment IDs stored in RUN table
 pb <- progress_bar$new(
   total = nrow(hostass_samacc),
   format = "(:spin) Getting experiment metadata [:bar] :percent eta: :eta",
   clear = FALSE, width = 60
 )
-hostass_expacc <- hostass_samacc %>%
-  mutate(exp_metadata = map(experiment_accession, ~ {
-    pb$tick()
-    get_experiment_metadata(.x, v = F)
-  })) %>%
-  unnest()
+
+hostass_samacc_exp <- hostass_samacc$experiment_accession %>% 
+  map(~{pb$tick(); get_experiment_metadata(., v=T)}) %>% 
+  bind_rows() %>% 
+  left_join(hostass_samacc, .)
+
+# hostass_expacc <- hostass_samacc %>%
+#   mutate(exp_metadata = map(experiment_accession, ~ {
+#     pb$tick()
+#     get_experiment_metadata(.x, v = F)
+#   })) %>%
+#   unnest()
 
 ## Select only relevant columns and save
 ## TODO BUG `project_name` and `publication_doi` are not saved?

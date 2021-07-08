@@ -10,38 +10,23 @@ ena_run_fields <- c(
   paste0(collapse = ",")
 
 ## Taken from example ENA experiment file
-ena_exp_fields <- c(
-  experiment_id = "IDENTIFIERS.PRIMARY_ID",
-  submitter_id = "IDENTIFIERS.SUBMITTER_ID",
-  #experiment_title = "TITLE",
-  study_primary_accession = "STUDY_REF.IDENTIFIERS.PRIMARY_ID",
-  library_design_description = "DESIGN.DESIGN_DESCRIPTION",
-  primary_sample_accession = "DESIGN.SAMPLE_DESCRIPTOR.IDENTIFIERS.PRIMARY_ID",
-  secondary_sample_id = "DESIGN.SAMPLE_DESCRIPTOR.IDENTIFIERS.EXTERNAL_ID",
-  #library_name = "DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_NAME",
-  #library_strategy = "DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_STRATEGY",
-  #library_source = "DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_SOURCE",
-  #library_selection = "DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_SELECTION",
-  library_construction_protocol = "DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_CONSTRUCTION_PROTOCOL",
-  sequencing_instrument_model = "PLATFORM.ILLUMINA.INSTRUMENT_MODEL",
-  sequencing_instrument_model = "PLATFORM.ION_TORRENT.INSTRUMENT_MODEL"
-)
-
-## Note study_secondary_accession = "STUDY_REF.IDENTIFIERS.SECONDARY_ID", doesn't exist for SRA?
-sra_exp_fields <- c(
+indsc_exp_fields <- c(
   experiment_id = "IDENTIFIERS.PRIMARY_ID",
   submitter_id = "IDENTIFIERS.SUBMITTER_ID",
   experiment_title = "TITLE",
   study_primary_accession = "STUDY_REF.IDENTIFIERS.PRIMARY_ID",
   library_design_description = "DESIGN.DESIGN_DESCRIPTION",
   primary_sample_accession = "DESIGN.SAMPLE_DESCRIPTOR.IDENTIFIERS.PRIMARY_ID",
+  secondary_sample_id = "DESIGN.SAMPLE_DESCRIPTOR.IDENTIFIERS.EXTERNAL_ID",
   library_name = "DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_NAME",
   library_strategy = "DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_STRATEGY",
   library_source = "DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_SOURCE",
   library_selection = "DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_SELECTION",
-  sequencing_instrument_model = "PLATFORM.ILLUMINA.INSTRUMENT_MODEL",
-  sequencing_instrument_model = "PLATFORM.ION_TORRENT.INSTRUMENT_MODEL"
+  library_construction_protocol = "DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_CONSTRUCTION_PROTOCOL",
+  sequencing_instrument_model_illumina = "PLATFORM.ILLUMINA.INSTRUMENT_MODEL",
+  sequencing_instrument_model_iontorrent = "PLATFORM.ION_TORRENT.INSTRUMENT_MODEL"
 )
+
 
 cols_of_interest <- c(
   "project_name",

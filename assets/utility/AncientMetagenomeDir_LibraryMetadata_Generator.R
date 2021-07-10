@@ -10,6 +10,7 @@ verbose <- args[2]
 ## TESTING ######################
 
 ## TODO: TEST NON-HOSTMETAGENOME
+## TODO: Check all samples have info or at least NA for all columns
 input_tab <- "ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv"
 verbose <- TRUE
 

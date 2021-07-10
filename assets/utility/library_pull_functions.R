@@ -8,28 +8,28 @@ call_ena_home <- function(url, v = FALSE) {
     content(encoding = "UTF-8") # %>% read_tsv
 }
 
-## Drops certain non-tidy entries in an ENA XML and converts to table
-# clean_experiment_xml <- function(x, fields, v = F) {
-#   if (v == T) {
-#     print("[DEBUG] clean_experiment_xml() - Cleaning XML")
-#   }
-#   
-#   results_tab <- x %>%
-#     unlist() %>%
-#     enframe() %>%
-#     pivot_wider(names_from = name, values_from = value, values_fn = list)
-#   
-#   avail_fields <- names(results_tab)
-#   requested_fields <- fields
-#   
-#   ## Get ONLY the correct fields from our database
-#   final_exp_fields <- avail_fields[avail_fields %in% requested_fields]
-#   final_req_fields <- requested_fields[requested_fields %in% final_exp_fields]
-#   
-#   results_tab %>%
-#     select(final_exp_fields) %>%
-#     rename(!!!final_req_fields)
-# }
+# Drops certain non-tidy entries in an ENA XML and converts to table
+clean_experiment_xml <- function(x, fields, v = F) {
+  if (v == T) {
+    print("[DEBUG] clean_experiment_xml() - Cleaning XML")
+  }
+
+  results_tab <- x %>%
+    unlist() %>%
+    enframe() %>%
+    pivot_wider(names_from = name, values_from = value, values_fn = list)
+
+  avail_fields <- names(results_tab)
+  requested_fields <- fields
+
+  ## Get ONLY the correct fields from our database
+  final_exp_fields <- avail_fields[avail_fields %in% requested_fields]
+  final_req_fields <- requested_fields[requested_fields %in% final_exp_fields]
+
+  results_tab %>%
+    select(final_exp_fields) %>%
+    rename(!!!final_req_fields)
+}
 
 column_cleanup <- function(x, fields, v = FALSE) {
   if (v == T) {
@@ -134,18 +134,20 @@ get_experiment_metadata <- function(exp_accession, v = F){
       return(exp_template_empty)
     }
   
+  if (v == T) { print(paste0("[DEBUG] get_experiment_metadata() - starting accession query for:", exp_accession)) }
   exp_res <- paste0("https://www.ebi.ac.uk/ena/browser/api/xml/", paste0(exp_accession, collapse = ","), "?download=false&gzip=false") %>%
     GET(url = .) %>%
     content(encoding = "UTF-8") %>%
     as_list() %>% 
+    pluck("EXPERIMENT_SET", "EXPERIMENT") %>% 
     unlist
   
+  if (v == T) { print(paste0("[DEBUG] get_experiment_metadata() - formatting query result for:", exp_accession)) }
+
   result_tab <- exp_template %>%
-    mutate(result = query_res[paste0("EXPERIMENT.", value)]) %>%
+    mutate(result = exp_res[value]) %>%
     select(name, result) %>%
     pivot_wider(names_from = name, values_from = result)
-  
-  print(result_tab)
   
   return(result_tab)
 }

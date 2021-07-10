@@ -7,6 +7,14 @@ args <- commandArgs(trailingOnly = TRUE)
 input_tab <- args[1]
 verbose <- args[2]
 
+## TESTING ######################
+
+## TODO: TEST NON-HOSTMETAGENOME
+input_tab <- "ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv"
+verbose <- TRUE
+
+#################################
+
 ## Add check of required
 require(tidyverse)
 require(jsonlite)
@@ -17,30 +25,24 @@ require(progress)
 source("library_pull_data.R")
 source("library_pull_functions.R")
 
-## TODO: genericise the variable names throughout this script away from hostass
-
 ## Load table -> TEST WHEN DO NOT FILTER TO ENA/SRA
-print("[AncientMetagenomeDir_LibraryMetadata_Generator.R] Only pulling ENA/SRA data!")
-hostass_meta <- read_tsv(input_tab) %>%
-  filter(archive == "ENA" | archive == "SRA")
+thedir_sampletab <- read_tsv(input_tab)
 
 ## Get RUN metadata
 pb <- progress_bar$new(
-  total = nrow(hostass_meta),
+  total = nrow(thedir_sampletab),
   format = "(:spin) Getting run metadata [:bar] :percent eta: :eta",
   clear = FALSE, width = 60
 )
-hostass_samacc <- hostass_meta %>%
+thedir_runacc <- thedir_sampletab %>%
   mutate(run_metadata = map(archive_accession, ~ {
     pb$tick()
     get_run_from_sample_metadata(.x, v = F)
   })) %>%
   unnest(cols = c(run_metadata))
 
-## initialise empty exp. template
-#exp_cols <- setNames(rep("", length(indsc_exp_fields)), names(indsc_exp_fields))
-#exp_template <- as_tibble(t(exp_cols))[0, ]
-
+## initialise empty exp. template, as inconsistent exp. metadata, so better to
+## propagate known columns of interest and leave everything else as NA
 exp_template <- indsc_exp_fields %>% enframe
 exp_template_empty <- exp_template %>%
   select(name) %>%
@@ -49,26 +51,17 @@ exp_template_empty <- exp_template %>%
 
 ## Get EXPERIMENT metadata using experiment IDs stored in RUN table
 pb <- progress_bar$new(
-  total = nrow(hostass_samacc),
+  total = nrow(thedir_runacc),
   format = "(:spin) Getting experiment metadata [:bar] :percent eta: :eta",
   clear = FALSE, width = 60
 )
-
-## TODO left join converts everything in `.` to NA
-hostass_samacc_exp <- hostass_samacc$experiment_accession %>% head(n = 10) %>% 
-  map(~{pb$tick(); get_experiment_metadata(., v=T)}) %>% 
+thedir_runacc_exp <- thedir_runacc$experiment_accession %>% 
+  map(~{pb$tick(); get_experiment_metadata(., v=F)}) %>% 
   bind_rows() 
-  left_join(hostass_samacc %>% head(n= 10), .)
-
-# hostass_expacc <- hostass_samacc %>%
-#   mutate(exp_metadata = map(experiment_accession, ~ {
-#     pb$tick()
-#     get_experiment_metadata(.x, v = F)
-#   })) %>%
-#   unnest()
-
+  
+thedir_runacc_exp_final <- thedir_runacc_exp %>% left_join(thedir_runacc, .)
+  
 ## Select only relevant columns and save
-## TODO BUG `project_name` and `publication_doi` are not saved?
-hostass_expacc %>%
+thedir_runacc_exp_final %>%
   column_cleanup(cols_of_interest) %>%
   write_tsv(paste0(tools::file_path_sans_ext(input_tab), "_librarymetadata.tsv", collapse = ""))

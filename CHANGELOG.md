@@ -21,6 +21,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Ferrari2020: Corrected typo in accession ERS3935829 
+
 ### Removed
 
 ## v21.06: Côa Valley and Siega Verde

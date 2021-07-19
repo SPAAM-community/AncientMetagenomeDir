@@ -21,6 +21,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Corrected _H. pylori_ having taxonomic domain to bacteria from virus
+
 ### Removed
 
 ## v21.06: Côa Valley and Siega Verde

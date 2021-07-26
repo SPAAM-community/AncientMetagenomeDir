@@ -21,6 +21,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Corrected _H. pylori_ having taxonomic domain to bacteria from virus
 - Ferrari2020: Corrected typo in accession ERS3935829 
 
 ### Removed

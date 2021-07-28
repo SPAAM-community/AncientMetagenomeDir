@@ -38,7 +38,6 @@ column_cleanup <- function(x, fields, v = FALSE) {
   x %>% select(all_of(fields))
 }
 
-
 ## Get RUN metadata from a given ENA accession ID (e.g. ERS123456)
 get_run_from_sample_metadata <- function(accession, v = FALSE) {
   if (v == T) {
@@ -62,11 +61,11 @@ get_run_from_sample_metadata <- function(accession, v = FALSE) {
     print("[DEBUG] get_run_from_sample_metadata() - querying ENA...")
   }
   query_res <- map(acc_urls, ~ call_ena_home(.x, v = v))
-  
-  if(is.null(query_res[[1]])) {
+
+  if (is.null(query_res[[1]])) {
     print(paste0("[WARN] following accession had no metadata returned from archive: ", accession, collapse = ""))
     return(NA)
-  } 
+  }
 
   if (v == T) {
     print("[DEBUG] get_run_from_sample_metadata() - converting to table...")
@@ -76,78 +75,43 @@ get_run_from_sample_metadata <- function(accession, v = FALSE) {
   return(final_tab)
 }
 
-## Gets experiment metadata from EXPERIMENT accession codes, as some library
-## metadata is stored at EXPERIMENT level
-# get_experiment_metadata <- function(accession, expect_cols, v = FALSE) {
-#   if (v == T) {
-#     paste0("[DEBUG] get_experiment_metadata() - searching accession:", accession)
-#   }
-#   
-#   if (is.na(accession)){
-#     return(NA)
-#   }
-#   
-#   if (str_sub(1, 3, string = accession) == "ERX") {
-#     user_fields <- ena_exp_fields
-#   } else if (str_sub(1, 3, string = accession) == "SRX") {
-#     user_fields <- sra_exp_fields
-#   } else {
-#     print(paste0("[ERROR] get_experiment_metadata() - accession starts neither with ERX nor SRX:", accession))
-#     return(NA)
-#     #stop(paste0("[ERROR] get_experiment_metadata() - accession starts neither with ERX nor SRX:", accession))
-#   }
-# 
-#   if (v == TRUE) {
-#     print(paste0("[DEBUG] get_experiment_metadata() - Pulling experiment XML: ", accession))
-#   }
-#   exp_res <- paste0("https://www.ebi.ac.uk/ena/browser/api/xml/", paste0(accession, collapse = ","), "?download=false&gzip=false") %>%
-#     GET(url = .) %>%
-#     content(encoding = "UTF-8") %>%
-#     as_list()
-# 
-#   if (v == TRUE) {
-#     print("[DEBUG] get_experiment_metadata() - Removing nasty experiment attributes")
-#   }
-#   
-#   filtered_results <- map(exp_res$EXPERIMENT_SET, ~ clean_experiment_xml(.x, user_fields, v = v)) %>%
-#     reduce(bind_rows) %>%
-#     select(-contains("EXPERIMENT_LINK"), -contains("EXPERIMENT_ATTRIBUTE")) %>%
-#     unnest(cols = everything()) %>%
-#     unnest(cols = everything())
-#   
-#   return(filtered_results)
-# }
-
-get_experiment_metadata <- function(exp_accession, v = F){
-  
+get_experiment_metadata <- function(exp_accession, v = F) {
   if (v == T) {
     print(paste0("[DEBUG] get_experiment_metadata() - searching experiment ID: ", exp_accession, collapse = " "))
   }
-  
-    if (is.na(exp_accession)){ 
-      if (v == T) { print(paste0("[ERROR] get_experiment_metadata() - accession is missing:", exp_accession)) }
-      return(exp_template_empty)
+
+  if (is.na(exp_accession)) {
+    if (v == T) {
+      print(paste0("[ERROR] get_experiment_metadata() - accession is missing:", exp_accession))
     }
-  
-    if (!str_sub(1, 3, string = exp_accession) %in% c("ERX", "SRX")) {
-      if (v == T) { print(paste0("[ERROR] get_experiment_metadata() - accession starts neither with ERX nor SRX:", exp_accession)) }
-      return(exp_template_empty)
+    return(exp_template_empty)
+  }
+
+  if (!str_sub(1, 3, string = exp_accession) %in% c("ERX", "SRX")) {
+    if (v == T) {
+      print(paste0("[ERROR] get_experiment_metadata() - accession starts neither with ERX nor SRX:", exp_accession))
     }
-  
-  if (v == T) { print(paste0("[DEBUG] get_experiment_metadata() - starting accession query for:", exp_accession)) }
+    return(exp_template_empty)
+  }
+
+  if (v == T) {
+    print(paste0("[DEBUG] get_experiment_metadata() - starting accession query for:", exp_accession))
+  }
   exp_res <- paste0("https://www.ebi.ac.uk/ena/browser/api/xml/", paste0(exp_accession, collapse = ","), "?download=false&gzip=false") %>%
     GET(url = .) %>%
     content(encoding = "UTF-8") %>%
-    as_list() %>% 
-    pluck("EXPERIMENT_SET", "EXPERIMENT") %>% 
-    unlist
-  
-  if (v == T) { print(paste0("[DEBUG] get_experiment_metadata() - formatting query result for:", exp_accession)) }
+    as_list() %>%
+    pluck("EXPERIMENT_SET", "EXPERIMENT") %>%
+    unlist()
+
+  if (v == T) {
+    print(paste0("[DEBUG] get_experiment_metadata() - formatting query result for:", exp_accession))
+  }
 
   result_tab <- exp_template %>%
     mutate(result = exp_res[value]) %>%
     select(name, result) %>%
     pivot_wider(names_from = name, values_from = result)
-  
+
   return(result_tab)
 }

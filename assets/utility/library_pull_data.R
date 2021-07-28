@@ -27,10 +27,13 @@ indsc_exp_fields <- c(
   sequencing_instrument_model_iontorrent = "PLATFORM.ION_TORRENT.INSTRUMENT_MODEL"
 )
 
-
+## Not all columns are useful so we will only select useful ones
 cols_of_interest <- c(
   "project_name",
   "publication_doi",
+  "sample_name",
+  "archive",
+  "archive_accession",
   "secondary_sample_accession",
   "study_accession",
   # "study_title"

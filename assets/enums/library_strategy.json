@@ -1,0 +1,8 @@
+{
+    "enums": [
+        "shotgun",
+        "whole genome enrichment",
+        "whole plasmid enrichment",
+        "depletion"
+    ]
+}

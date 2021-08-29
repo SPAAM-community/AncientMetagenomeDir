@@ -1,9 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json",
+    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json",
     "type": "array",
-    "title": "JSON schema for AncientMetagenomeDir ancient host-associated metagenome data",
-    "description": "The JSON schema for AncientMetagenomeDir ancient host-associated metagenome data data",
+    "title": "JSON schema for AncientMetagenomeDir ancient environmental metagenome data",
+    "description": "The JSON schema for AncientMetagenomeDir ancient environmental metagenome data data",
     "additionalItems": false,
     "items": {
         "$id": "#/items",
@@ -30,7 +30,9 @@
             "library_strategy",
             "read_count",
             "archive_run_accession",
-            "download_links"
+            "download_links",
+            "download_md5s",
+            "download_sizes"
         ],
         "properties": {
             "project_name": {
@@ -272,10 +274,34 @@
                 "type": "string",
                 "pattern": "^[\\S]+$",
                 "title": "Download link to raw data files",
-                "description": "Download link to raw data files. Can be comma separated list for paired end. Link must allow direct download of files via command-line utility e.g. with wget or curl. TODO: improve regex",
+                "description": "Download link to raw data files. Can be semi-colon separated list for paired end. Link must allow direct download of files via command-line utility e.g. with wget or curl. TODO: improve regex",
                 "examples": [
                     "ftp.sra.ebi.ac.uk/vol1/fastq/SRR957/SRR957746/SRR957746.fastq.gz",
                     "ftp.sra.ebi.ac.uk/vol1/fastq/SRR132/022/SRR13263122/SRR13263122_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR132/022/SRR13263122/SRR13263122_2.fastq.gz"
+                ]
+            },
+            "download_md5": {
+                "$id": "#/items/properties/download_md5s",
+                "type": "string",
+                "pattern": "^[\\S]+$",
+                "title": "MD5 checksums of downloads",
+                "description": "MD5 checksums of corresponding download files, to allow data integrity. Can be semi-colon separated list for paired end. TODO: improve regex",
+                "examples": [
+                    "e7b4e225220f2ab653f8738cc048a9cb",
+                    "f6f58de021de3da23c37d1137716da6e;4d98d032afbe0c0a005c1ae993aa2353"
+                ]
+            },	
+            "download_sizes": {
+                "$id": "#/items/properties/download_sizes",
+                "type": [
+                    "integer",
+                    "null"
+                ],
+                "title": "File sizes of downloads",
+                "description": "File sizes of corresponding download files in bytes, to allow calculation of HDD usage. Can be semi-colon separated list for paired end. TODO: improve regex",
+                "examples": [
+                    "126181389",
+                    "614385694;622383780"
                 ]
             }
         }

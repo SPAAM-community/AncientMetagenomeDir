@@ -1,9 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json",
+    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json",
     "type": "array",
-    "title": "JSON schema for AncientMetagenomeDir ancient host-associated metagenome data",
-    "description": "The JSON schema for AncientMetagenomeDir ancient host-associated metagenome data data",
+    "title": "JSON schema for AncientMetagenomeDir ancient host-associated single-genome data",
+    "description": "The JSON schema for AncientMetagenomeDir ancient host-associated single genome data",
     "additionalItems": false,
     "items": {
         "$id": "#/items",
@@ -23,14 +23,16 @@
             "strand_type",
             "library_polymerases",
             "library_treatment",
-            "library_concentration",
             "instrument_model",
             "library_layout",
             "sequencing_cycles",
             "library_strategy",
             "read_count",
             "archive_run_accession",
-            "download_links"
+            "file_type",
+            "download_links",
+            "download_md5s",
+            "download_sizes"
         ],
         "properties": {
             "project_name": {
@@ -170,23 +172,6 @@
                     "full-udg"
                 ]
             },
-            "library_concentration": {
-                "$id": "#/items/properties/library_concentration",
-                "type": [
-                    "integer",
-                    "null"
-                ],
-                "minimum": 0,
-                "title": "Number of pre-amplification DNA copies of library per microlitre",
-                "description": "Number of pre-amplification DNA copies of library per microlitre as measured by qPCR. Can be used for contamination estimation against blanks",
-                "examples": [
-                    "NA",
-                    0,
-                    9064000,
-                    15730000,
-                    1331500000
-                ]
-            },
             "instrument_model": {
                 "$id": "#/items/properties/instrument_model",
                 "type": "string",
@@ -267,6 +252,19 @@
                     "ERR3003661"
                 ]
             },
+            "file_type": {
+                "$id": "#/items/properties/data_type",
+                "type": "string",
+                "title": "Downloadable data type",
+                "description": "Contents of downloadable file. I.e., all, mapped only etc. ",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/file_type.json",
+                "examples": [
+                    "fastq_all",
+                    "fastq_mapped",
+                    "bam_all",
+                    "bam_mapped"
+                ]
+            },
             "download_links": {
                 "$id": "#/items/properties/download_links",
                 "type": "string",
@@ -276,6 +274,30 @@
                 "examples": [
                     "ftp.sra.ebi.ac.uk/vol1/fastq/SRR957/SRR957746/SRR957746.fastq.gz",
                     "ftp.sra.ebi.ac.uk/vol1/fastq/SRR132/022/SRR13263122/SRR13263122_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR132/022/SRR13263122/SRR13263122_2.fastq.gz"
+                ]
+            },
+            "download_md5": {
+                "$id": "#/items/properties/download_md5s",
+                "type": "string",
+                "pattern": "^[\\S]+$",
+                "title": "MD5 checksums of downloads",
+                "description": "MD5 checksums of corresponding download files, to allow data integrity. Can be semi-colon separated list for paired end. TODO: improve regex",
+                "examples": [
+                    "e7b4e225220f2ab653f8738cc048a9cb",
+                    "f6f58de021de3da23c37d1137716da6e;4d98d032afbe0c0a005c1ae993aa2353"
+                ]
+            },	
+            "download_sizes": {
+                "$id": "#/items/properties/download_sizes",
+                "type": [
+                    "integer",
+                    "null"
+                ],
+                "title": "File sizes of downloads",
+                "description": "File sizes of corresponding download files in bytes, to allow calculation of HDD usage. Can be semi-colon separated list for paired end. TODO: improve regex",
+                "examples": [
+                    "126181389",
+                    "614385694;622383780"
                 ]
             }
         }

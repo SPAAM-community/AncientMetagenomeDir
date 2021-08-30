@@ -25,7 +25,6 @@ If you wish to a new category, please make a separate pull-request with your
 modification in the corresponding `assets/enums/<column>.json` file.
 
 Library columns are as follows:
-
 ## project_name
 
 - Must correspond to a `project_name` in the corresponding sample metadata

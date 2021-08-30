@@ -1,17 +1,17 @@
-# AncientMetagenomeDir - Host Associated Metagenome
+# AncientMetagenomeDir - Anthropogenic Metagenome
 
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
-This page describes columns definitions for the host-associated ancient
+This page describes columns definitions for the anthropogenic ancient
 metagenome library metadata list.
 
 This covers libraries generated from metagenomes such as
 
-- oral microbiome (e.g. from dental calculus, teeth)
-- gut microbiome (e.g. from palaeofaeces, intestinal contents of mummies)
-- 'skeletal' metagenomes (i.e. metagenomes derived from skeletal elements not
-  representing original 'microbiomes' of a living individual)
-- 'soft tissue' metagenomes (i.e. from mummified remains
+- artefacts (from pot crusts, parchment etc.)
+- non-host associated microbiome samples (e.g. decomposition communities of
+  museum or herbarium samples)
+- storage environments of samples
+- building environment metagenomes
 
 Numeric fields (e.g. `read_count`), can be filled with `NA` to indicate 'no
 reported value'. Free text fields (e.g. `library_name`) can be indicated with

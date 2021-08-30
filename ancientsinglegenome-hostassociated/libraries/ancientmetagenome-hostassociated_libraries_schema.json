@@ -268,7 +268,7 @@
                 "$id": "#/items/properties/data_type",
                 "type": "string",
                 "title": "Downloadable data type",
-                "description": "Contents of downloadable file. I.e., all, mapped only etc. ",
+                "description": "Contents of downloadable file. I.e., all, mapped only etc.",
                 "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/file_type.json",
                 "examples": [
                     "fastq_all",

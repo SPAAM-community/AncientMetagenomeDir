@@ -1,8 +1,8 @@
-# AncientMetagenomeDir - Environmental
+# AncientMetagenomeDir - Environmental Metagenome
 
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
-This page describes columns definitions for the Environmental metagenome list.
+This page describes columns definitions for the environmental metagenome list.
 
 This list covers metagenomes like:
 

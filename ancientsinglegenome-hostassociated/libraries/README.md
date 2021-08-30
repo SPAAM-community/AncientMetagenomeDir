@@ -1,17 +1,14 @@
-# AncientMetagenomeDir - Host Associated Metagenome
+# AncientMetagenomeDir - Ancient Host Associated Single Genomes
 
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
 This page describes columns definitions for the host-associated ancient
 metagenome library metadata list.
 
-This covers libraries generated from metagenomes such as
-
-- oral microbiome (e.g. from dental calculus, teeth)
-- gut microbiome (e.g. from palaeofaeces, intestinal contents of mummies)
-- 'skeletal' metagenomes (i.e. metagenomes derived from skeletal elements not
-  representing original 'microbiomes' of a living individual)
-- 'soft tissue' metagenomes (i.e. from mummified remains
+This list covers libraries generated aimed at reconstructing single microbial
+genomes  (e.g. not just pathogens but also commensals and other types of
+microbes). These entries should represent whole genome-level metagenomes (not
+amplicon data), however can be derived from enrichment techniques.
 
 Numeric fields (e.g. `read_count`), can be filled with `NA` to indicate 'no
 reported value'. Free text fields (e.g. `library_name`) can be indicated with
@@ -246,6 +243,15 @@ Library columns are as follows:
 - For ENA/SRA: These should be primary accession IDs to keep as close to
   data as possible (i.e. should start with `ERR` or `SRR`).
 - If non-NCBI/ENA, use as close to sequencing run-level as possible.
+
+> :warning: Mandatory value
+
+## file_Type
+
+- Contents of downloadable file
+- Some groups upload only mapped reads to the organism of interest's reference
+  genome. This is specified here alongside the file format (e.g. `fastq_all`, 
+  or `mapped_all`).
 
 > :warning: Mandatory value
 

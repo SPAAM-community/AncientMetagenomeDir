@@ -13,6 +13,7 @@
         "default": {},
         "required": [
             "project_name",
+            "publication_year",
             "publication_doi",
             "sample_name",
             "archive",
@@ -46,6 +47,17 @@
                     "Muhlemann2018",
                     "Muhlemann2018a"
                 ]
+            },
+            "publication_year": {
+                "$id": "#/items/properties/publication_year",
+                "type": "integer",
+                "minimum": 1950,
+                "maximum": 2100,
+                "title": "Year of publication",
+                "description": "Format: YYYY",
+                "examples": [
+                    2014
+                    ]
             },
             "publication_doi": {
                 "$id": "#/items/properties/publication_doi",

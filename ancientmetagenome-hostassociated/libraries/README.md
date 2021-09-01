@@ -224,7 +224,11 @@ Library columns are as follows:
     AncientMetagenomeDir)
   - For single-genomes, this can sometimes be `Target-Capture` when dealing with whole-genome or whole-plasmid enriched samples.
   - Example of an unspecific modern DNA `depletion` protocol is [Weiß et al.
-    (2020) BMC Genomics](https://doi.org/10.1186/s12864-020-06820-7)
+    (2020) BMC Genomics](https://doi.org/10.1186/s12864-020-06820-7).
+- **Important**: check the original publication for the library strategy,
+  researchers sometimes incorrectly specify this on data upload. E.g. `WGA`
+  refers to a specific protocol using certain primers - not just any form of
+  amplification.
 
 > :warning: Mandatory value
 

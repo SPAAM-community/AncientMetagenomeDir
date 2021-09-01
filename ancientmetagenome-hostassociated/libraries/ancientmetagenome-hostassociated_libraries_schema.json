@@ -22,7 +22,7 @@
             "sequencing_center",
             "library_name",
             "strand_type",
-            "library_polymerases",
+            "library_polymerase",
             "library_treatment",
             "library_concentration",
             "instrument_model",
@@ -151,8 +151,8 @@
                     "double"
                 ]
             },
-            "library_polymerases": {
-                "$id": "#/items/properties/library_polymerases",
+            "library_polymerase": {
+                "$id": "#/items/properties/library_polymerase",
                 "type": [
                     "string",
                     "null"

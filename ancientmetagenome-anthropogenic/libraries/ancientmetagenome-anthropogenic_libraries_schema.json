@@ -245,12 +245,13 @@
                 "$id": "#/items/properties/library_strategy",
                 "type": "string",
                 "title": "Type of sequencing library",
-                "description": "Type of sequencing library. Whether shotgun sequenced or enriched using 'capture' protocols and similar.",
+                "description": "Type of sequencing library. Whether shotgun sequenced (WGS) or enriched using 'Target-Capture' protocols and similar.",
                 "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_strategy.json",
                 "examples": [
-                    "shotgun",
-                    "whole genome enrichment",
-                    "depletion"
+                    "WGS",
+                    "Target-Capture",
+                    "depletion",
+                    "Unknown"
                 ]
             },
             "read_count": {

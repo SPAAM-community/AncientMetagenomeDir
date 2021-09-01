@@ -218,10 +218,9 @@ Library columns are as follows:
 
 - How the library was sequenced, i.e. whether shotgun sequenced or enriched or
   depleted using 'capture' protocols and similar.
-  - For most metagenomic samples will be `shotgun` sequenced (due to scope of
+  - For most metagenomic samples will be shotgun (`WGS`) sequenced (due to scope of
     AncientMetagenomeDir)
-  - For single-genomes, this can sometimes be `whole genome enrichment` or
-    `whole plasmid enrichment` when dealing with whole-genome captured samples.
+  - For single-genomes, this can sometimes be `Target-Capture` when dealing with whole-genome or whole-plasmid enriched samples.
   - Example of an unspecific modern DNA `depletion` protocol is [Weiß et al.
     (2020) BMC Genomics](https://doi.org/10.1186/s12864-020-06820-7)
 

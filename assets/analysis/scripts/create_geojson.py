@@ -6,22 +6,22 @@ import numpy as np
 @click.command()
 @click.option("--anthropogenic",
               type=click.Path(exists=True),
-              default='ancientmetagenome-anthropogenic.tsv',
+              default='ancientmetagenome-anthropogenic_samples.tsv',
               show_default=True,
               help='ancientmetagenome-anthropogenic TSV file')
 @click.option("--environmental",
               type=click.Path(exists=True),
-              default='ancientmetagenome-environmental.tsv',
+              default='ancientmetagenome-environmental_samples.tsv',
               show_default=True,
               help='ancientmetagenome-environmental TSV file')
 @click.option("--meta_host",
               type=click.Path(exists=True),
-              default='ancientmetagenome-hostassociated.tsv',
+              default='ancientmetagenome-hostassociated_samples.tsv',
               show_default=True,
               help='ancientmetagenome-hostassociated TSV file')
 @click.option("--single_host",
               type=click.Path(exists=True),
-              default='ancientsinglegenome-hostassociated.tsv',
+              default='ancientsinglegenome-hostassociated_samples.tsv',
               show_default=True,
               help='ancientsinglegenome-hostassociated TSV file')
 @click.option(

@@ -1,15 +1,14 @@
-![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
-
-
 # AncientMetagenomeDir - Ancient Host Associated Single Genomes
+
+![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
 This page describes columns definitions for the host-associated ancient single
 genome list.
 
-This list covers samples from which single microbial genomes have been extracted
-from (e.g. not just pathogens but also commensals and other types of microbes).
-These entries should represent whole genome-level metagenomes (not amplicon data
-or solely plasmids etc.), however can be derived from enrichment techniques.
+This list covers libraries generated aimed at reconstructing single microbial
+genomes  (e.g. not just pathogens but also commensals and other types of
+microbes). These entries should represent whole genome-level metagenomes (not
+amplicon data), however can be derived from enrichment techniques.
 
 Numeric fields (e.g. latitude), can be filled with `NA` to indicate 'no
 reported value'. Free text fields (e.g. `geo_loc_name`) can be indicated with

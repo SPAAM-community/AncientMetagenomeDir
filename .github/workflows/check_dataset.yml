@@ -23,17 +23,17 @@ jobs:
       - name: test ancient host-associated metagenome (e.g. microbiomes)
         run: |
           echo -e "# Ancient Metagenome Host Associated\n\`\`\`" >> validation/validation_results.txt 
-          ancientMetagenomeDirCheck -a ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json >> validation/validation_results.txt
+          ancientMetagenomeDirCheck -a ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
       - name: test ancient single microbial genomes (e.g. pathogens)
         run: |
           echo -e "# Ancient Single Genome Host Associated\n\`\`\`" >> validation/validation_results.txt 
-          ancientMetagenomeDirCheck -a ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json >> validation/validation_results.txt
+          ancientMetagenomeDirCheck -a ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_schema_samples.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
       - name: test ancient environmental (e.g. sediment)
         run: |
           echo -e "# Ancient Metagenome Environmental\n\`\`\`" >> validation/validation_results.txt 
-          ancientMetagenomeDirCheck -a ancientmetagenome-environmental/ancientmetagenome-environmental.tsv ancientmetagenome-environmental/ancientmetagenome-environmental_schema.json >> validation/validation_results.txt
+          ancientMetagenomeDirCheck -a ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples.tsv ancientmetagenome-environmental/samples/ancientmetagenome-environmental_schema_samples.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
       - uses: actions/upload-artifact@v1
         if: always()

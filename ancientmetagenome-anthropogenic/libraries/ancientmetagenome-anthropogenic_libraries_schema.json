@@ -1,0 +1,322 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic_schema.json",
+    "type": "array",
+    "title": "JSON schema for AncientMetagenomeDir ancient anthropogenic data",
+    "description": "The JSON schema for AncientMetagenomeDir ancient anthropogenic metagenome data data",
+    "additionalItems": false,
+    "items": {
+        "$id": "#/items",
+        "type": "object",
+        "title": "The items schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "required": [
+            "project_name",
+            "publication_year",
+            "publication_doi",
+            "sample_name",
+            "archive",
+            "archive_project",
+            "archive_sample_accession",
+            "sequencing_center",
+            "library_name",
+            "strand_type",
+            "library_polymerase",
+            "library_treatment",
+            "library_concentration",
+            "instrument_model",
+            "library_layout",
+            "sequencing_cycles",
+            "library_strategy",
+            "read_count",
+            "archive_run_accession",
+            "download_links",
+            "download_md5s",
+            "download_sizes"
+        ],
+        "properties": {
+            "project_name": {
+                "$id": "#/items/properties/project_name",
+                "type": "string",
+                "title": "AncientMetagenomeDir key of the publication",
+                "description": "Format: surnameYYYY (if duplicate key but different publication, add b,c,d etc. as necessary). Must match a AncientMetagenomeDir samples table entry",
+                "pattern": "^[a-zA-Z]+\\d{4}[b-z]?$",
+                "examples": [
+                    "Warinner2014",
+                    "Muhlemann2018",
+                    "Muhlemann2018a"
+                ]
+            },
+            "publication_year": {
+            "$id": "#/items/properties/publication_year",
+            "type": "integer",
+            "minimum": 1950,
+            "maximum": 2100,
+            "title": "Year of publication",
+            "description": "Format: YYYY",
+            "examples": [
+                2014
+                ]
+            },
+            "publication_doi": {
+                "$id": "#/items/properties/publication_doi",
+                "type": "string",
+                "pattern": "^10.\\d{4,9}\\/[^,]+$",
+                "title": "Digital Object Identifier (DOI) of the publication.",
+                "description": "A valid DOI code (not as an URL). Must match a AncientMetagenomeDir samples table entry",
+                "examples": [
+                    "10.1038/ng.2906"
+                ]
+            },
+            "sample_name": {
+                "$id": "#/items/properties/sample_name",
+                "type": "string",
+                "title": "Name of the sample",
+                "description": "In most cases this should be the name of the host individual. Must match a AncientMetagenomeDir samples table entry",
+                "examples": [
+                    "B61"
+                ]
+            },
+            "archive": {
+                "$id": "#/items/properties/archive",
+                "type": "string",
+                "title": "Archiving platform",
+                "description": "Name of the nucleotide data archiving platform",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/archive.json",
+                "examples": [
+                    "ENA"
+                ]
+            },
+            "archive_project": {
+                "$id": "#/items/properties/archive_project",
+                "type": "string",
+                "title": "Archive project accession platform",
+                "description": "Name of the nucleotide data archiving platform. Must match a AncientMetagenomeDir samples table entry",
+                "examples": [
+                    "PRJNA438985",
+                    "mgp13354"
+                ]
+            },
+            "archive_sample_accession": {
+                "$id": "#/items/properties/archive_sample_accession",
+                "type": "string",
+                "pattern": "^[\\S]+$",
+                "title": "Archive accession number",
+                "description": "Samples archive accession numbers, multiple records can be separated with commas. No spaces allowed. . Must match a AncientMetagenomeDir samples table entry",
+                "examples": [
+                    "SRS473742,SRS473743,SRS473744,SRS473745"
+                ]
+            },
+            "sequencing_center": {
+                "$id": "#/items/properties/sequencing_center",
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "pattern": "^[\\S]+$",
+                "title": "Extraction or sequencing lab name",
+                "description": "Name of sequencing center, institution or lab that generated the data",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/sequencing_center.json",
+                "examples": [
+                    "University of Oklahoma",
+                    "Max Planck Institute for the Science of Human History",
+                    "Uppsala University",
+                    "Sapienza University Of Rome",
+                    "Adelaide Center for Ancient DNA",
+                    "Section for Evolutionary Genomics, The GLOBE Institute"
+                ]
+            },
+            "library_name": {
+                "$id": "#/items/properties/library_name",
+                "type": "string",
+                "pattern": "^[\\S]+$",
+                "title": "Name of the sequencing library",
+                "description": "Name of the sequencing library generated from the sample. Typically matches the corresponding FASTQ file name",
+                "examples": [
+                    "ElSidron1_12056",
+                    "DRT001.A0301",
+                    "L1"
+                ]
+            },
+            "strand_type": {
+                "$id": "#/items/properties/strand_type",
+                "type": "string",
+                "pattern": "^[\\S]+$",
+                "title": "Strandedness of library",
+                "description": "Strandedness of the DNA in the library, i.e. whether single or double stranded.",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/strand_type.json",
+                "examples": [
+                    "single",
+                    "double"
+                ]
+            },
+            "library_polymerase": {
+                "$id": "#/items/properties/library_polymerase",
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "pattern": "^[\\S]+$",
+                "title": "Polymerases used during library construction, indexing and amplification.",
+                "description": "Comma separated list of polymerases used across all stages of library construction. This can indicate whether damaged nucleotides are expected to be visible.",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_polymerase.json",
+                "examples": [
+                    "Bst 2.0 DNA",
+                    "T4 DNA",
+                    "PfuTurbo Cx Hotstart DNA",
+                    "Herculase II Fusion DNA"
+                ]
+            },
+            "library_treatment": {
+                "$id": "#/items/properties/library_treatment",
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "pattern": "^[\\S]+$",
+                "title": "Name of damage-removal treatment",
+                "description": "Name of any established damage-removal treatment that may have been performed.",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_treatment.json",
+                "examples": [
+                    "none",
+                    "half-udg",
+                    "full-udg"
+                ]
+            },
+            "library_concentration": {
+                "$id": "#/items/properties/library_concentration",
+                "type": [
+                    "integer",
+                    "null"
+                ],
+                "minimum": 0,
+                "title": "Number of pre-amplification DNA copies of library per microlitre",
+                "description": "Number of pre-amplification DNA copies of library per microlitre as measured by qPCR. Can be used for contamination estimation against blanks",
+                "examples": [
+                    "NA",
+                    0,
+                    9064000,
+                    15730000,
+                    1331500000
+                ]
+            },
+            "instrument_model": {
+                "$id": "#/items/properties/instrument_model",
+                "type": "string",
+                "title": "Model of sequencing machine",
+                "description": "Model of sequencing machine based on ENA controlled vocabulary (https://www.ebi.ac.uk/ena/portal/api/controlledVocab?field=instrument_model",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/instrument_model.json",
+                "examples": [
+                    "Illumina HiSeq 4000",
+                    "NextSeq 500",
+                    "PacBio RS",
+                    "BGISEQ-500",
+                    "unspecified"
+                ]
+            },
+            "library_layout": {
+                "$id": "#/items/properties/library_layout",
+                "type": "string",
+                "title": "Sequencing layout of library",
+                "description": "Sequencing layout of library, i.e. either single or paired end, based on ENA controlled vocabulary (https://www.ebi.ac.uk/ena/portal/api/controlledVocab?field=library_layout",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_layout.json",
+                "examples": [
+                    "PAIRED",
+                    "SINGLE"
+                ]
+            },
+            "sequencing_cycles": {
+                "$id": "#/items/properties/sequencing_cycles",
+                "type": [
+                    "integer",
+                    "null"
+                ],
+                "title": "Number of sequencing cycles",
+                "description": "Number of sequencing cycles used, i.e. sequencing kit specification of maximum length of reading one strand",
+                "examples": [
+                    "NA",
+                    50,
+                    76,
+                    151
+                ]
+            },
+            "library_strategy": {
+                "$id": "#/items/properties/library_strategy",
+                "type": "string",
+                "title": "Type of sequencing library",
+                "description": "Type of sequencing library. Whether shotgun sequenced (WGS) or enriched using 'Target-Capture' protocols and similar.",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_strategy.json",
+                "examples": [
+                    "WGS",
+                    "Target-Capture",
+                    "depletion",
+                    "Unknown"
+                ]
+            },
+            "read_count": {
+                "$id": "#/items/properties/read_count",
+                "type": [
+                    "integer",
+                    "null"
+                ],
+                "title": "Number of reads or pairs in library",
+                "description": "Number of reads or pairs in library, i.e. how deep sequenced. For paired end, count pairs (should be same number for both directions)",
+                "examples": [
+                    "NA",
+                    10000,
+                    6900000,
+                    123982
+                ]
+            },
+            "archive_run_accession": {
+                "$id": "#/items/properties/archive_run_accession",
+                "type": "string",
+                "pattern": "^[\\S]+$",
+                "title": "Archive run accession number",
+                "description": "Run archive accession numbers, single run accession per line. TODO: improve regex",
+                "examples": [
+                    "SRR13263119",
+                    "SRR13263120",
+                    "ERR3003613",
+                    "ERR3003661"
+                ]
+            },
+            "download_links": {
+                "$id": "#/items/properties/download_links",
+                "type": "string",
+                "pattern": "^[\\S]+$",
+                "title": "Download link to raw data files",
+                "description": "Download link to raw data files. Can be semi-colon separated list for paired end. Link must allow direct download of files via command-line utility e.g. with wget or curl. TODO: improve regex",
+                "examples": [
+                    "ftp.sra.ebi.ac.uk/vol1/fastq/SRR957/SRR957746/SRR957746.fastq.gz",
+                    "ftp.sra.ebi.ac.uk/vol1/fastq/SRR132/022/SRR13263122/SRR13263122_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR132/022/SRR13263122/SRR13263122_2.fastq.gz"
+                ]
+            },
+            "download_md5": {
+                "$id": "#/items/properties/download_md5s",
+                "type": "string",
+                "pattern": "^[\\S]+$",
+                "title": "MD5 checksums of downloads",
+                "description": "MD5 checksums of corresponding download files, to allow data integrity. Can be semi-colon separated list for paired end. TODO: improve regex",
+                "examples": [
+                    "e7b4e225220f2ab653f8738cc048a9cb",
+                    "f6f58de021de3da23c37d1137716da6e;4d98d032afbe0c0a005c1ae993aa2353"
+                ]
+            },	
+            "download_sizes": {
+                "$id": "#/items/properties/download_sizes",
+                "type": [
+                    "integer",
+                    "null"
+                ],
+                "title": "File sizes of downloads",
+                "description": "File sizes of corresponding download files in bytes, to allow calculation of HDD usage. Can be semi-colon separated list for paired end. TODO: improve regex",
+                "examples": [
+                    "126181389",
+                    "614385694;622383780"
+                ]
+            }
+        }
+    }
+}

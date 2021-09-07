@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://jfy133.github.io/AncientMetagenomeDir/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json",
+    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated_schema.json",
     "type": "array",
     "title": "JSON schema for AncientMetagenomeDir ancient host-associated metagenome data",
     "description": "The JSON schema for AncientMetagenomeDir ancient host-associated metagenome data data",
@@ -83,7 +83,7 @@
                 "type": "string",
                 "title": "Archiving platform",
                 "description": "Name of the nucleotide data archiving platform",
-                "$ref": "https://jfy133.github.io/AncientMetagenomeDir/assets/enums/archive.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/archive.json",
                 "examples": [
                     "ENA"
                 ]
@@ -117,7 +117,7 @@
                 "pattern": "^[\\S]+$",
                 "title": "Extraction or sequencing lab name",
                 "description": "Name of sequencing center, institution or lab that generated the data",
-                "$ref": "https://jfy133.github.io/AncientMetagenomeDir/assets/enums/sequencing_center.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/sequencing_center.json",
                 "examples": [
                     "University of Oklahoma",
                     "Max Planck Institute for the Science of Human History",
@@ -145,7 +145,7 @@
                 "pattern": "^[\\S]+$",
                 "title": "Strandedness of library",
                 "description": "Strandedness of the DNA in the library, i.e. whether single or double stranded.",
-                "$ref": "https://jfy133.github.io/AncientMetagenomeDir/assets/enums/strand_type.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/strand_type.json",
                 "examples": [
                     "single",
                     "double"
@@ -156,7 +156,7 @@
                 "type": "enum",
                 "title": "Polymerases used during library construction, indexing and amplification.",
                 "description": "Comma separated list of polymerases used across all stages of library construction. This can indicate whether damaged nucleotides are expected to be visible.",
-                "$ref": "https://jfy133.github.io/AncientMetagenomeDir/assets/enums/library_polymerase.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_polymerase.json",
                 "examples": [
                     "Bst 2.0 DNA",
                     "T4 DNA",
@@ -173,7 +173,7 @@
                 "pattern": "^[\\S]+$",
                 "title": "Name of damage-removal treatment",
                 "description": "Name of any established damage-removal treatment that may have been performed.",
-                "$ref": "https://jfy133.github.io/AncientMetagenomeDir/assets/enums/library_treatment.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_treatment.json",
                 "examples": [
                     "none",
                     "half-udg",
@@ -202,7 +202,7 @@
                 "type": "string",
                 "title": "Model of sequencing machine",
                 "description": "Model of sequencing machine based on ENA controlled vocabulary (https://www.ebi.ac.uk/ena/portal/api/controlledVocab?field=instrument_model",
-                "$ref": "https://jfy133.github.io/AncientMetagenomeDir/assets/enums/instrument_model.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/instrument_model.json",
                 "examples": [
                     "Illumina HiSeq 4000",
                     "NextSeq 500",
@@ -216,7 +216,7 @@
                 "type": "string",
                 "title": "Sequencing layout of library",
                 "description": "Sequencing layout of library, i.e. either single or paired end, based on ENA controlled vocabulary (https://www.ebi.ac.uk/ena/portal/api/controlledVocab?field=library_layout",
-                "$ref": "https://jfy133.github.io/AncientMetagenomeDir/assets/enums/library_layout.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_layout.json",
                 "examples": [
                     "PAIRED",
                     "SINGLE"
@@ -242,7 +242,7 @@
                 "type": "string",
                 "title": "Type of sequencing library",
                 "description": "Type of sequencing library. Whether shotgun sequenced (WGS) or enriched using 'Target-Capture' protocols and similar.",
-                "$ref": "https://jfy133.github.io/AncientMetagenomeDir/assets/enums/library_strategy.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_strategy.json",
                 "examples": [
                     "WGS",
                     "Target-Capture",

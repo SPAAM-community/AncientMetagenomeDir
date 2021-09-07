@@ -177,7 +177,7 @@
                 "pattern": "^[\\S]+$",
                 "title": "Name of damage-removal treatment",
                 "description": "Name of any established damage-removal treatment that may have been performed.",
-                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library-treatment.json",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_treatment.json",
                 "examples": [
                     "none",
                     "half-udg",

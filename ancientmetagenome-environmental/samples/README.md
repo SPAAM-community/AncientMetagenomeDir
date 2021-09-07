@@ -1,21 +1,16 @@
-# AncientMetagenomeDir - Anthropogenic
+# AncientMetagenomeDir - Environmental Metagenome
 
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
-This page describes columns definitions for the Anthropogenic metagenome list.
+This page describes columns definitions for the environmental metagenome list.
 
-This list covers human created or highly-modified metagenomes like:
+This list covers metagenomes like:
 
-- artefacts (from pot crusts, parchment etc.)
-- non-host associated microbiome samples (e.g. decomposition communities of
-  museum or herbarium samples)
-- storage environments of samples
-- building environment metagenomes
+- soil
+- sediments
+- ice cores
 
-Numeric fields (e.g. latitude), can be filled with `NA` to indicate 'no
-reported value'. Free text fields (e.g. `geo_loc_name`) can be indicated with
-`Unknown`, and restricted cateogory columns sometimes will have an `unknown` 
-option.
+Numeric fields (e.g. latitude), can be filled with NA to indicate 'no reported value'. Free text fields (e.g. geo_loc_name) can be indicated with Unknown, and restricted category columns sometimes will have an unknown option.
 
 All column with 'defined categories' should be validated against
 `assets/enums/<column>.json`. This is to ensure data consistency, e.g. all Lake
@@ -60,7 +55,7 @@ Sample columns are as follows:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
- > :warning: Mandatory value
+> :warning: Mandatory value
 
 ## site_name
 
@@ -92,7 +87,7 @@ Sample columns are as follows:
 
 - Based on modern day definitions
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
-- Mandatory value
+- Missing name: `Unknown`
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
 
@@ -100,9 +95,35 @@ Sample columns are as follows:
 
 > :warning: Mandatory value
 
+## study_primary_focus
+
+- The primary 'organism' category that the sequences was originally generated for
+- These are generalised categories such as 'floral', or 'faunal', 'microbial',
+  with a combination of those (in that order) also allowed.
+
+> :warning: this does NOT necessarily imply that the data can only be used for
+> the same purposes. This column is only to facilitate faster bibliographic
+> review for equivalent dataset generation
+
+## sequence_name
+
+- Sediment only
+- Identifier for sequence sample was taken from, e.g. core_3, or zone_a19
+- Typically cores, or quadrant/square of excavation
+- Missing value: `Unknown`
+
+## depth
+
+- Sediment only
+- Depth of sample from top of sequence (cm)
+- If reported as a range (e.g. 130-132 cm), take approximate mid-point
+- Use NA if not a sequence (e.g. from surface of an open site)
+
 ## sample_name
 
-- Unique identifier for that sample as used in publication
+- Unique identifier for that sample as used in the publication
+- If samples are referred to by multiple names, use the most informative
+- If samples cannot be **directly** linked to data files by any names in the publication, generate names in the format e.g. [sequence]\_[depth]\_[original name]
 
 > :warning: Mandatory value
 
@@ -111,7 +132,7 @@ Sample columns are as follows:
 - In Before Present (BP) format i.e. since 1950 AD
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
-
+    
 - Radiocarbon dates
   - Uncalibrated dates are preferred, but if only calibrated reported can be
     used
@@ -121,9 +142,7 @@ Sample columns are as follows:
   - e.g. something only 50 years old would be assigned as 100
   - Therefore the minimum age possible is 100!
 
-- In most cases, report the date in the publication of the given sample, even if
-  the date is from an older publication (we assume the original citation can be
-  found by looking at submitted article). _However_:
+- In most cases, report the date in the publication of the given sample, even if the date is from an older publication (we assume the original citation can be found by looking at submitted article). _However_:
   - If a more recent and accurate date has been published this can be used!
   - Ensure to also update `sample_age_doi`
 
@@ -134,12 +153,14 @@ Sample columns are as follows:
   - period of occupation of site
   - via coin or historical records
 
+- Sediment only:
+  - If a layer is not directly dated, 'inferred' ages are allowed if there are at least two direct dates in the relevant sequence
 
 > :warning: Mandatory value
 
 ## sample_age_doi
 
-- DOI of publication the sample_age date is derived from
+- DOI of publication with date derived from
 - In most cases, please duplicate the DOI of the publication under submission,
   even if the date is from an older publication (we assume the original citation
   can be found by looking at submitted article). _However_:
@@ -150,17 +171,27 @@ Sample columns are as follows:
 
 > :warning: Mandatory value
 
+## feature
+
+- Description of the object, site, or immediate environment the sample was obtained from, following [Environment
+  Ontology](https://www.ebi.ac.uk/ols/ontologies/envo)
+  - e.g. midden, cave, ocean, lake, archeological site
+
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
+> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)  
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
+
+> :warning: Mandatory value  
+
 ## material
 
-- Description of sediment.
-  - e.g. pot crust, parchment, herbarium sample
+- Description of sediment following [Environment
+  Ontology](https://www.ebi.ac.uk/ols/ontologies/envo
+  - e.g. permafrost, lake sediment, peat soil, bone
 
-> :warning: Partly [MIxS v5](https://gensc.org/mixs/) compliant field, i.e. term
-> from an [ontology](https://www.ebi.ac.uk/ols/index), and ideally either
-> [UBERON](https://www.ebi.ac.uk/ols/ontologies/uberon) (anatomy) or
-> [ENVO](https://www.ebi.ac.uk/ols/ontologies/envo) (everything else). If you
-> can't find something close enough, please ping
-> @spaam-community/ancientmetagenomedir-coreteam
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
+> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)  
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
 
@@ -176,15 +207,6 @@ Sample columns are as follows:
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
 
-## archive
-
-- e.g. [ENA](https://www.ebi.ac.uk/ena),
-  [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/)
-
-> :warning: Must follow categories specified in `assets/enums/<column>.json`  
-
-> :warning: Mandatory value
-
 ## archive_project
 
 - A project level accession code under which all samples of a project are assigned to
@@ -193,6 +215,15 @@ Sample columns are as follows:
   - Archive: MG-RAST: should be accession code beginning with `mgp`. [Example](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp13354).
 
 - Missing value: `NA`
+
+## archive
+
+- e.g. [ENA](https://www.ebi.ac.uk/ena),
+  [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/)
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
+
+> :warning: Mandatory value
 
 ## archive_accession
 
@@ -203,7 +234,7 @@ Sample columns are as follows:
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
 
-> :warning: Mandatory value  
+> :warning: Mandatory value
 
 <details>
   <summary>Expand to show location of ERS codes on ENA</summary>

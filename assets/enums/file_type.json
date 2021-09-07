@@ -1,0 +1,10 @@
+{
+  "enum": [
+    "fastq_all",
+    "fastq_mapped",
+    "bam_all",
+    "bam_mapped",
+    "fasta_contigs",
+    "fasta_consensus"
+  ]
+}

@@ -201,6 +201,30 @@
                 "examples": [
                     "SRS473742,SRS473743,SRS473744,SRS473745"
                 ]
+            },
+            "download_md5": {
+                "$id": "#/items/properties/download_md5s",
+                "type": "string",
+                "pattern": "^[\\S]+$",
+                "title": "MD5 checksums of downloads",
+                "description": "MD5 checksums of corresponding download files, to allow data integrity. Can be semi-colon separated list for paired end. TODO: improve regex",
+                "examples": [
+                    "e7b4e225220f2ab653f8738cc048a9cb",
+                    "f6f58de021de3da23c37d1137716da6e;4d98d032afbe0c0a005c1ae993aa2353"
+                ]
+            },	
+            "download_sizes": {
+                "$id": "#/items/properties/download_sizes",
+                "type": [
+                    "integer",
+                    "null"
+                ],
+                "title": "File sizes of downloads",
+                "description": "File sizes of corresponding download files in bytes, to allow calculation of HDD usage. Can be semi-colon separated list for paired end. TODO: improve regex",
+                "examples": [
+                    "126181389",
+                    "614385694;622383780"
+                ]
             }
         }
     }

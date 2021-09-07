@@ -1,0 +1,11 @@
+{
+    "enum": [
+        "University of Oklahoma",
+        "Max Planck Institute for the Science of Human History",
+        "Uppsala University",
+        "Sapienza University Of Rome",
+        "Adelaide Center for Ancient DNA",
+        "Section for Evolutionary Genomics, The GLOBE Institute",
+        "Unknown"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "enums": [
+        "WGS",
+        "Target-Capture",
+        "Depletion",
+        "Unknown"
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "enums": [
+    "enum": [
         "none",
         "half-udg",
         "full-udg"

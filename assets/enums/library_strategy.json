@@ -1,5 +1,5 @@
 {
-    "enums": [
+    "enum": [
         "WGS",
         "Target-Capture",
         "Depletion",

@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated                                        
 
 - Ottoni 2021 10.1073/pnas.2102116118
+- Rampelli 2021b 10.1016/j.isci.2021.102816
 
 #### Ancient Single Genome: Host Associated                                     
 

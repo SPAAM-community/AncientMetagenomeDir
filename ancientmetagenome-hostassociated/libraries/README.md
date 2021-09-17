@@ -139,6 +139,14 @@ Library columns are as follows:
   corresponding ENA or SRA table.
 - Should be the lab ID used at sequencing as referred to in the publication (in
   cases when these differ, list both separated with a `/`).
+- :warning: in some cases sequencing centers will assign different library_ids
+   for libraries sequenced multiple times (e.g. across different machines).
+  - Check a publication's methods and/or supplementary information for whether
+  you should use the common part of two sequence runs as the library id. 
+  - For exampleE.g.,
+  KNP001.A0101 and KNP001.A0101.161208, or PES001.B0101 and PES001.B0103.SG1.1,
+  are both 
+
 
 ## strand_type
 
@@ -184,6 +192,13 @@ Library columns are as follows:
 > `assets/enums/library_treatment.json`
 
 > :warning: Mandatory value
+
+## library_concentration
+
+- The qPCR value of copies per µl of extract of a given library
+  - Be aware of a single library sequenced multiple times. In such cases it is
+    OK to duplicate the value for each library. 
+- If unreported, set as NA
 
 ## instrument_model
 

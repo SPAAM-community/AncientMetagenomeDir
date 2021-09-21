@@ -142,11 +142,10 @@ Library columns are as follows:
 - :warning: in some cases sequencing centers will assign different library_ids
    for libraries sequenced multiple times (e.g. across different machines).
   - Check a publication's methods and/or supplementary information for whether
-  you should use the common part of two sequence runs as the library id. 
+  you should use the common part of two sequence runs as the library id.
   - For exampleE.g.,
   KNP001.A0101 and KNP001.A0101.161208, or PES001.B0101 and PES001.B0103.SG1.1,
-  are both 
-
+  are both
 
 ## strand_type
 
@@ -168,6 +167,11 @@ Library columns are as follows:
 ## library_polymerase
 
 - Name of the polymerase used for library construction.
+- Report only polymerases used up until (and including) pre-indexing library.
+  preparation
+  - I.e., only report polymerases used up until, and including, blunt end repair
+    steps or DNA termini end-repair steps that allows indicies to subsequently.
+    be added to the molecule.
 - Can be comma separated listed if multiple used.
 - Polymerase selection will influence whether damage will be visible enough.
   - This is due to differences between proof-reading and non-proofreading (i.e.
@@ -197,7 +201,7 @@ Library columns are as follows:
 
 - The qPCR value of copies per µl of extract of a given library
   - Be aware of a single library sequenced multiple times. In such cases it is
-    OK to duplicate the value for each library. 
+    OK to duplicate the value for each library.
 - If unreported, set as NA
 
 ## instrument_model
@@ -294,6 +298,6 @@ Library columns are as follows:
 ## download_sizes
 
 - File sizes of corresponding download files in bytes.
-- This can be used to estimated HDD space that will be used after downloaded. 
+- This can be used to estimated HDD space that will be used after downloaded.
 - Can be semi-colon separated list for paired end.
 - Missing value: `NA`

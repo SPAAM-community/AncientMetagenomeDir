@@ -9,18 +9,19 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Added
 
-#### Ancient Metagenome: Host Associated                                        
+#### Ancient Metagenome: Host Associated
 
 - Ottoni 2021 10.1073/pnas.2102116118
 - Rampelli 2021b 10.1016/j.isci.2021.102816
 
-#### Ancient Single Genome: Host Associated                                     
+#### Ancient Single Genome: Host Associated
 
 - Susat 2021 10.1016/j.celrep.2021.109278
+- Guzmán-Solis 2021 10.7554/eLife.68612
 
-#### Ancient Metagenome: Environmental                                          
+#### Ancient Metagenome: Environmental
 
-#### Ancient Metagenome: Anthropogenic                                          
+#### Ancient Metagenome: Anthropogenic
 
 #### Misc
 

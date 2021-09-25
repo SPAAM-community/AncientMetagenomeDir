@@ -17,6 +17,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Single Genome: Host Associated                                     
 
 - Susat 2021 10.1016/j.celrep.2021.109278
+- De Dios 2021 10.1016/j.isci.2021.103021
 
 #### Ancient Metagenome: Environmental                                          
 

@@ -1,23 +1,8 @@
-# AncientMetagenomeDir - Host Associated Metagenome
+# AncientMetagenomeDir Column Specifications
 
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
-This page describes columns definitions for the host-associated ancient
-metagenome list.
-
-This covers samples that contain metagenomes such as
-
-- oral microbiome (e.g. from dental calculus, teeth)
-- gut microbiome (e.g. from palaeofaeces, intestinal contents of mummies)
-- 'skeletal' metagenomes (i.e. metagenomes derived from skeletal elements not
-  representing original 'microbiomes' of a living individual)
-- 'soft tissue' metagenomes (i.e. from mummified remains
-
-Included samples should have evidence of the corresponding original host's
-microbiome as reported in the given paper (e.g. a tooth should have evidence of
-the oral microbiota to be included, otherwise the microbial community should be
-considered a part of the natural decomposition and be placed under the
-[environmental](../ancientmetagenome-environmental/README.md) list).
+This page describes columns definitions for all lists.
 
 Numeric fields (e.g. latitude), can be filled with `NA` to indicate 'no
 reported value'. Free text fields (e.g. `geo_loc_name`) can be indicated with
@@ -52,13 +37,13 @@ Sample columns are as follows:
 
 > :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
 
-> :warning: Mandatory value  
+> :warning: Mandatory value
 
 ## publication_year
 
 - YYYY format
 
-> :warning: Mandatory value  
+> :warning: Mandatory value
 
 ## publication_doi
 
@@ -67,7 +52,7 @@ Sample columns are as follows:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
-> :warning: Mandatory value  
+> :warning: Mandatory value
 
 ## site_name
 
@@ -105,17 +90,47 @@ Sample columns are as follows:
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`  
 
-> :warning: Mandatory value  
+> :warning: Mandatory value
+
+## study_primary_focus
+
+- For environmental metagenome list only
+- The primary 'organism' category that the sequences was originally generated for
+- These are generalised categories such as 'floral', or 'faunal', 'microbial',
+  with a combination of those (in that order) also allowed.
+
+> :warning: this does NOT necessarily imply that the data can only be used for
+> the same purposes. This column is only to facilitate faster bibliographic
+> review for equivalent dataset generation
+
+## sequence_name
+
+- For environmental metagenome list only
+- Sediment only
+- Identifier for sequence sample was taken from, e.g. core_3, or zone_a19
+- Typically cores, or quadrant/square of excavation
+- Missing value: `Unknown`
+
+## depth
+
+- For environmental metagenome list only
+- Sediment only
+- Depth of sample from top of sequence (cm)
+- If reported as a range (e.g. 130-132 cm), take approximate mid-point
+- Use NA if not a sequence (e.g. from surface of an open site)
 
 ## sample_name
 
 - Unique identifier for that sample as used in publication
-  - In most cases this should be the name of the host *individual*
+  - In most cases this should be the name of the host *individual* (for host-associated samples)
+  - If samples are referred to by multiple names, use the most informative
+  - For environmental samples: if samples cannot be **directly** linked to data files by any names in the publication, generate names in the format e.g. [sequence]\_[depth]\_[original_name]
 
 > :warning: Mandatory value  
 
 ## sample_host
 
+- For host-associated metagenome or single-genome lists only.
 - Linnean latin name
 - Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
 
@@ -149,11 +164,14 @@ Sample columns are as follows:
   - period of occupation of site
   - via coin or historical records
 
+- For environmental metagenomes (sediment only):
+  - If a layer is not directly dated, 'inferred' ages are allowed if there are at least two direct dates in the relevant sequence
+
 > :warning: Mandatory value  
 
 ## sample_age_doi
 
-- DOI of publication with date derived from
+- DOI of publication that the sample_age is derived from
 - In most cases, please duplicate the DOI of the publication under submission,
   even if the date is from an older publication (we assume the original citation
   can be found by looking at submitted article). _However_:
@@ -162,18 +180,58 @@ Sample columns are as follows:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
-## community_type
+## feature
 
-The type of community from the host's original body the sample is derived from.
+- For environmental metagenome list only.
+- Description of the object, site, or immediate environment the sample was obtained from, following [Environment
+  Ontology](https://www.ebi.ac.uk/ols/ontologies/envo)
+  - e.g. midden, cave, ocean, lake, archeological site
 
-- e.g. oral, gut
+> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
+> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)  
 
 > :warning: Must follow categories specified in `assets/enums/<column>.json`
+
+> :warning: Mandatory value  
+
+
+## community_type
+
+- For host-associated metagenome list only
+- The type of community from the host's original body the sample is derived from.
+  - e.g. oral, gut
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
+
+
+## pathogen_domain
+
+- For host associated single-genome list only
+- Which domain of life (or equivalent) the species comes from: bacteria, archea,
+  virus, eukaryota
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`
+
+## pathogen_species
+
+- For host associated single-genome list only
+- Linnean latin name
+- Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
+> :warning: Mandatory value  
 
 ## material
 
 - Sample type DNA was extracted from
-  - e.g. denta calculus, palaeofaeces, intestinal, chewing gum
+  - e.g. pot crust, parchment, herbarium sample
+  - e.g. dental calculus, palaeofaeces, intestinal, chewing gum
+  - e.g. permafrost, lake sediment, peat soil, bone
+  - e.g. tooth, bone, dental calculus
+
+- For host-associated single genome list only:
+  - If genome is derived from multiple tissue types from the same individual (e.g. bone and soft tissue) then the entry should simply be listed as 'tissue'
 
 > :warning: Partly [MIxS v5](https://gensc.org/mixs/) compliant field, i.e. term
 > from an [ontology](https://www.ebi.ac.uk/ols/index), and ideally either
@@ -186,6 +244,23 @@ The type of community from the host's original body the sample is derived from.
 
 > :warning: Mandatory value  
 
+## genome_type
+
+- For host-associated single genome list only
+- We are primarily interested in listing reconstructed whole genomes of
+  microbes, however in some cases researchers may only be able to analyse
+  smaller cell components.
+- Specify one of two levels of genome reconstruction
+  - `organelle`: if the study has only published a microbial mitochondrial
+    genome (e.g. for _Plasmodium_ sp.) or a bacterial plasmid sequence
+  - `chromosome`: if the study a published the complete genome (chromosome and
+    plasmid) or just the chromosome
+- In both cases the aim of the study must have been to attempt to reconstruct
+  the _complete_ genome sequence, not gene or single amplicon sequences.
+
+> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+
+> :warning: Mandatory value
 ## sampling_date
 
 - Year of sampling of (sub-)sample for DNA analysis in YYYY format
@@ -207,6 +282,44 @@ The type of community from the host's original body the sample is derived from.
 > :warning: Must follow categories specified in `assets/enums/<column>.json`  
 
 > :warning: Mandatory value  
+
+## data_type
+
+- For host associated single genome list only
+- The type of data available under sample accession
+  - In some cases researchers are unable to upload raw data, or upload a
+    combination of types
+  - This field indicates what type of data are available by the uploaded
+    accession
+  - Can include combinations (in comma separated list), but use single
+    upper-level accessions where possible (e.g. ERS/SRS codes, which can be used
+    when searching on the ENA to direct you to both raw files and genbank
+    entries)
+  - If only lower down accession are available, this is acceptable (e.g. NCBI
+    GenBank accessions for consensus)
+
+> :warning: Must follow categories specific in `assets/enums/<column>.json`
+
+Definitions of possible categories are as follows:
+
+- `raw`: shotgun or whole-genome-enrichment data in FASTQ format without any
+  type of depletion or computational manipulation of read/data composition, with
+  exception of adapters being trimmed (as per ENA submission specifications).
+- `assembly`: anything that is derived of a de-novo assembly process,
+  independent of the completeness.
+- `binned_mag`: a single-taxon assembly (derived from above) based on one or
+  more binned metagenomes that meet certain quality requirements, and can be
+  assumed to represent contigs from one bin of a metagenome.
+- `binned_cag`: reads recruited by ancient co-abundant genes.
+- `reference_aligned:` target reads derived from alignment (mapping) of
+  metagenomic data to a reference sequence. Typically uploaded in BAM format
+  without unmapped reads.
+- `consensus`: Any sequence derived from a consensus calling algorithm applied
+  to `reference_aligned` data (typically a FASTA style file, as can be found on
+  e.g. NCBI GenBank).
+
+For example, if only a consensus is available from GenBank, this can be given
+the archive_accesion as: `MG585269.1`
 
 ## archive_project
 
@@ -232,7 +345,7 @@ The type of community from the host's original body the sample is derived from.
   <summary>Expand to show location of ERS codes on ENA</summary>
   
   ![Location of ERS
-  codes](../assets/images/spaam-AncientMetagenomeDir_ena_ers_location.png)
+  codes](../images/spaam-AncientMetagenomeDir_ena_ers_location.png)
   
   Select the 'secondary_sample_accesion' and 'sample_alias' columns.
 
@@ -241,7 +354,7 @@ The type of community from the host's original body the sample is derived from.
   <summary>Expand to show location of SRS codes on SRA</summary>
 
   ![Location of ERS
-  codes](../assets/images/spaam-AncientMetagenomeDir_sra_srs_location.png)
+  codes](../images/spaam-AncientMetagenomeDir_sra_srs_location.png)
   
   The SRS code is to the left of the SAMEA-like code under the **sample:** field
 

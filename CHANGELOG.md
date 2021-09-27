@@ -18,7 +18,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Susat 2021 10.1016/j.celrep.2021.109278
 
-#### Ancient Metagenome: Environmental                                          
+#### Ancient Metagenome: Environmental
+
+- Moguel 2021 10.1038/s41598-021-92981-8
 
 #### Ancient Metagenome: Anthropogenic                                          
 

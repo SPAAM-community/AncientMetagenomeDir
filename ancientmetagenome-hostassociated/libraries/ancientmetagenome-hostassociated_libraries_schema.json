@@ -153,7 +153,7 @@
             },
             "library_polymerase": {
                 "$id": "#/items/properties/library_polymerase",
-                "type": "enum",
+                "type": "string",
                 "title": "Polymerases used during library construction, indexing and amplification.",
                 "description": "Comma separated list of polymerases used across all stages of library construction. This can indicate whether damaged nucleotides are expected to be visible.",
                 "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_polymerase.json",

@@ -1,17 +1,13 @@
-# AncientMetagenomeDir - Host Associated Metagenome
+# AncientMetagenomeDir - Libraries Column Specifications
 
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
-This page describes columns definitions for the host-associated ancient
-metagenome library metadata list.
+This page describes columns definitions for all library-level lists. Icons indicate columns that are specific to specific columns.
 
-This covers libraries generated from metagenomes such as
-
-- oral microbiome (e.g. from dental calculus, teeth)
-- gut microbiome (e.g. from palaeofaeces, intestinal contents of mummies)
-- 'skeletal' metagenomes (i.e. metagenomes derived from skeletal elements not
-  representing original 'microbiomes' of a living individual)
-- 'soft tissue' metagenomes (i.e. from mummified remains
+- 🏺: anthropogenic ancient metagenomes
+- 🏞: environmental ancient metagenomes
+- 🧫: host-associated ancient metagenomes
+- 🦠: host-associated ancient single genomes
 
 Numeric fields (e.g. `read_count`), can be filled with `NA` to indicate 'no
 reported value'. Free text fields (e.g. `library_name`) can be indicated with
@@ -170,7 +166,7 @@ Library columns are as follows:
 - Report only polymerases used up until (and including) pre-indexing library.
   preparation
   - I.e., only report polymerases used up until, and including, blunt end repair
-    steps or DNA termini end-repair steps that allows indicies to subsequently.
+    steps or DNA termini end-repair steps that allows indices to subsequently.
     be added to the molecule.
 - Can be comma separated listed if multiple used.
 - Polymerase selection will influence whether damage will be visible enough.
@@ -198,6 +194,8 @@ Library columns are as follows:
 > ⚠️ Mandatory value
 
 ## library_concentration
+
+> 🧫 host-associated metagenome list only!
 
 - The qPCR value of copies per µl of extract of a given library
   - Be aware of a single library sequenced multiple times. In such cases it is
@@ -271,6 +269,17 @@ Library columns are as follows:
 
 > ⚠️ Mandatory value
 
+## file_Type
+
+> 🦠 host-associated single genome only!
+
+- Contents of downloadable file
+- Some groups upload only mapped reads to the organism of interest's reference
+  genome. This is specified here alongside the file format (e.g. `fastq_all`,
+  or `mapped_all`).
+
+> ⚠️ Mandatory value
+
 ## download_links
 
 - Download link to raw data files.
@@ -298,6 +307,6 @@ Library columns are as follows:
 ## download_sizes
 
 - File sizes of corresponding download files in bytes.
-- This can be used to estimated HDD space that will be used after downloaded.
+- This can be used to estimated HDD space that will be used after download.
 - Can be semi-colon separated list for paired end.
 - Missing value: `NA`

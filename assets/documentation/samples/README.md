@@ -1,8 +1,8 @@
-# AncientMetagenomeDir Column Specifications
+# AncientMetagenomeDir - Samples Column Specifications
 
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
-This page describes columns definitions for all lists. Icons indicate columns
+This page describes columns definitions for all sample-level lists. Icons indicate columns
 that are specific to specific columns.
 
 - 🏺: anthropogenic ancient metagenomes
@@ -360,7 +360,7 @@ the archive_accesion as: `MG585269.1`
   <summary>Expand to show location of ERS codes on ENA</summary>
   
   ![Location of ERS
-  codes](../../images/spaam-AncientMetagenomeDir_ena_ers_location.png)
+  codes](../images/spaam-AncientMetagenomeDir_ena_ers_location.png)
   
   Select the 'secondary_sample_accesion' and 'sample_alias' columns.
 
@@ -369,7 +369,7 @@ the archive_accesion as: `MG585269.1`
   <summary>Expand to show location of SRS codes on SRA</summary>
 
   ![Location of ERS
-  codes](../../images/spaam-AncientMetagenomeDir_sra_srs_location.png)
+  codes](../images/spaam-AncientMetagenomeDir_sra_srs_location.png)
   
   The SRS code is to the left of the SAMEA-like code under the **sample:** field
 

@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic_schema.json",
+    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic_libraries_schema.json",
     "type": "array",
     "title": "JSON schema for AncientMetagenomeDir ancient anthropogenic data",
     "description": "The JSON schema for AncientMetagenomeDir ancient anthropogenic metagenome data data",
@@ -307,9 +307,10 @@
             "download_sizes": {
                 "$id": "#/items/properties/download_sizes",
                 "type": [
-                    "integer",
+                    "string",
                     "null"
                 ],
+                "pattern": "^[0-9]+;[0-9]+$|^[0-9]+$",
                 "title": "File sizes of downloads",
                 "description": "File sizes of corresponding download files in bytes, to allow calculation of HDD usage. Can be semi-colon separated list for paired end. TODO: improve regex",
                 "examples": [

@@ -2,11 +2,17 @@
 
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
-This page describes columns definitions for all lists.
+This page describes columns definitions for all lists. Icons indicate columns
+that are specific to specific columns.
+
+- 🏺: anthropogenic ancient metagenomes
+- 🏞: environmental ancient metagenomes
+- 🧫: host-associated ancient metagenomes
+- 🦠: host-associated ancient single genomes
 
 Numeric fields (e.g. latitude), can be filled with `NA` to indicate 'no
 reported value'. Free text fields (e.g. `geo_loc_name`) can be indicated with
-`Unknown`, and restricted cateogory columns sometimes will have an `unknown` 
+`Unknown`, and restricted cateogory columns sometimes will have an `unknown`
 option.
 
 All column with 'defined categories' should be validated against
@@ -22,28 +28,28 @@ Sample columns are as follows:
 
 ## project_name
 
-- Format: surnameYYYY (YYYY in numeric format)
+- Format: `SurnameYYYY` (YYYY in numeric format)
 - Due to restrictions in regex (used for validation checks), **punctuation (e.g.
   hyphens or spaces) or characters with accents cannot be used**.
   - Use the non-accented version.
   - If the first author has multiple or hyphenated surnames,  write them all
     together capitalising each surname.
 - If a same author/year combination already exists, please append a single lower
-  case character (b,c,d etc.) to the key. 
+  case character (b,c,d etc.) to the key.
   - The already existing key does not need to be updated. `b` indicates the
     'second' key added.
   - e.g. Muhlemann2018 (original), Muhlemann2018b (first duplicate),
     Muhlemann2018c (second duplicate) etc.
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
+> ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field  
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## publication_year
 
 - YYYY format
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## publication_doi
 
@@ -52,7 +58,7 @@ Sample columns are as follows:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## site_name
 
@@ -86,34 +92,37 @@ Sample columns are as follows:
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
 - Missing name: `Unknown`
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
+> ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field  
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`  
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## study_primary_focus
 
-- For environmental metagenome list only
+> 🏞 environmental ancient metagenome only!
+
 - The primary 'organism' category that the sequences was originally generated for
 - These are generalised categories such as 'floral', or 'faunal', 'microbial',
   with a combination of those (in that order) also allowed.
 
-> :warning: this does NOT necessarily imply that the data can only be used for
+> ⚠️ this does NOT necessarily imply that the data can only be used for
 > the same purposes. This column is only to facilitate faster bibliographic
 > review for equivalent dataset generation
 
 ## sequence_name
 
-- For environmental metagenome list only
-- Sediment only
+> 🏞 environmental ancient metagenome only!
+
+- Sediment cores only
 - Identifier for sequence sample was taken from, e.g. core_3, or zone_a19
 - Typically cores, or quadrant/square of excavation
 - Missing value: `Unknown`
 
 ## depth
 
-- For environmental metagenome list only
+> 🏞 environmental ancient metagenome only!
+
 - Sediment only
 - Depth of sample from top of sequence (cm)
 - If reported as a range (e.g. 130-132 cm), take approximate mid-point
@@ -126,15 +135,16 @@ Sample columns are as follows:
   - If samples are referred to by multiple names, use the most informative
   - For environmental samples: if samples cannot be **directly** linked to data files by any names in the publication, generate names in the format e.g. [sequence]\_[depth]\_[original_name]
 
-> :warning: Mandatory value  
+> ⚠️ Mandatory value  
 
 ## sample_host
 
-- For host-associated metagenome or single-genome lists only.
+> 🧫 host-associated metagenome or 🦠 host-associated single genome only!
+
 - Linnean latin name
 - Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
 ## sample_age
 
@@ -167,7 +177,7 @@ Sample columns are as follows:
 - For environmental metagenomes (sediment only):
   - If a layer is not directly dated, 'inferred' ages are allowed if there are at least two direct dates in the relevant sequence
 
-> :warning: Mandatory value  
+> ⚠️ Mandatory value  
 
 ## sample_age_doi
 
@@ -182,45 +192,47 @@ Sample columns are as follows:
 
 ## feature
 
-- For environmental metagenome list only.
+> 🏞 environmental ancient metagenome only!
+
 - Description of the object, site, or immediate environment the sample was obtained from, following [Environment
   Ontology](https://www.ebi.ac.uk/ols/ontologies/envo)
   - e.g. midden, cave, ocean, lake, archeological site
 
-> :warning: partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
+> ⚠️ partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
 > [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)  
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-> :warning: Mandatory value  
-
+> ⚠️ Mandatory value  
 
 ## community_type
 
-- For host-associated metagenome list only
+> 🧫 host-associated metagenome only!
+
 - The type of community from the host's original body the sample is derived from.
   - e.g. oral, gut
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
-
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
 ## pathogen_domain
 
-- For host associated single-genome list only
+> 🦠 host-associated single genome only!
+
 - Which domain of life (or equivalent) the species comes from: bacteria, archea,
   virus, eukaryota
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
 ## pathogen_species
 
-- For host associated single-genome list only
+> 🦠 host-associated single genome only!
+
 - Linnean latin name
 - Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`  
 
-> :warning: Mandatory value  
+> ⚠️ Mandatory value  
 
 ## material
 
@@ -233,20 +245,21 @@ Sample columns are as follows:
 - For host-associated single genome list only:
   - If genome is derived from multiple tissue types from the same individual (e.g. bone and soft tissue) then the entry should simply be listed as 'tissue'
 
-> :warning: Partly [MIxS v5](https://gensc.org/mixs/) compliant field, i.e. term
+> ⚠️ Partly [MIxS v5](https://gensc.org/mixs/) compliant field, i.e. term
 > from an [ontology](https://www.ebi.ac.uk/ols/index), and ideally either
 > [UBERON](https://www.ebi.ac.uk/ols/ontologies/uberon) (anatomy) or
 > [ENVO](https://www.ebi.ac.uk/ols/ontologies/envo) (everything else). If you
 > can't find something close enough, please ping
 > @spaam-community/ancientmetagenomedir-coreteam
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-> :warning: Mandatory value  
+> ⚠️ Mandatory value  
 
 ## genome_type
 
-- For host-associated single genome list only
+> 🦠 host-associated single genome only!
+
 - We are primarily interested in listing reconstructed whole genomes of
   microbes, however in some cases researchers may only be able to analyse
   smaller cell components.
@@ -258,9 +271,10 @@ Sample columns are as follows:
 - In both cases the aim of the study must have been to attempt to reconstruct
   the _complete_ genome sequence, not gene or single amplicon sequences.
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`  
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
+
 ## sampling_date
 
 - Year of sampling of (sub-)sample for DNA analysis in YYYY format
@@ -269,7 +283,7 @@ Sample columns are as follows:
     collection, for the current study.
 - Missing value: `NA`
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field
+> ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field
 
 ## archive
 
@@ -279,13 +293,14 @@ Sample columns are as follows:
 - e.g. [ENA](https://www.ebi.ac.uk/ena),
   [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/)
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`  
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`  
 
-> :warning: Mandatory value  
+> ⚠️ Mandatory value  
 
 ## data_type
 
-- For host associated single genome list only
+> 🦠 host-associated single genome only!
+
 - The type of data available under sample accession
   - In some cases researchers are unable to upload raw data, or upload a
     combination of types
@@ -298,7 +313,7 @@ Sample columns are as follows:
   - If only lower down accession are available, this is acceptable (e.g. NCBI
     GenBank accessions for consensus)
 
-> :warning: Must follow categories specific in `assets/enums/<column>.json`
+> ⚠️ Must follow categories specific in `assets/enums/<column>.json`
 
 Definitions of possible categories are as follows:
 
@@ -339,13 +354,13 @@ the archive_accesion as: `MG585269.1`
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
 
-> :warning: Mandatory value  
+> ⚠️ Mandatory value  
 
 <details>
   <summary>Expand to show location of ERS codes on ENA</summary>
   
   ![Location of ERS
-  codes](../images/spaam-AncientMetagenomeDir_ena_ers_location.png)
+  codes](../../images/spaam-AncientMetagenomeDir_ena_ers_location.png)
   
   Select the 'secondary_sample_accesion' and 'sample_alias' columns.
 
@@ -354,7 +369,7 @@ the archive_accesion as: `MG585269.1`
   <summary>Expand to show location of SRS codes on SRA</summary>
 
   ![Location of ERS
-  codes](../images/spaam-AncientMetagenomeDir_sra_srs_location.png)
+  codes](../../images/spaam-AncientMetagenomeDir_sra_srs_location.png)
   
   The SRS code is to the left of the SAMEA-like code under the **sample:** field
 

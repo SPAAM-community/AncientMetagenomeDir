@@ -76,7 +76,7 @@ To download the _bleeding edge_ AncientMetagenomeDir sample list:
 2. Press 'Save Link as' and save. The file name should end in `.tsv`.
 3. Open the resulting `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R). 
 
-:warning: the TSV files in the repository represent the cutting-edge version, and are subject to change, please use the files in the 'releases' section for when using for reproducible science!
+⚠️ the TSV files in the repository represent the cutting-edge version, and are subject to change, please use the files in the 'releases' section for when using for reproducible science!
 
 :heavy_check_mark: For some spreadsheet software copy>paste of the raw format directly into a spreadsheet of the _contents_ of the links above can work, if not, follow instructions above.
 
@@ -90,7 +90,7 @@ Alongside the Zenodo ID of the release version, please also cite:
 
 Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Velsko, I. M., Borry, M., Bravo-Lopez, M. J., Fernandez-Guerra, A., Green, E. J., Ramachandran, S. L., Heintzman, P. D., Spyrou, M. A., Hübner, A., Gancz, A. S., Hider, J., Allshouse, A. F., Zaro, V., & Warinner, C. (2021). Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir. Scientific Data, 8(1), 31. DOI: [10.1038/s41597-021-00816-y](https://doi.org/10.1038/s41597-021-00816-y)
 
-:warning: you must also cite each paper you use data from, citing AncientMetagenomeDir is not sufficient on it's own!
+⚠️ you must also cite each paper you use data from, citing AncientMetagenomeDir is not sufficient on it's own!
 
 > The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore
 provides no warranty or completeness or accuracy of the data. If in doubt, refer

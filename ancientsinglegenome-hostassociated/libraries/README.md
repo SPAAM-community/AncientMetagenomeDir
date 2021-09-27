@@ -43,9 +43,9 @@ Library columns are as follows:
   - e.g. Muhlemann2018 (original), Muhlemann2018b (first duplicate),
     Muhlemann2018c (second duplicate) etc.
 
-> :warning: [MIxS v5](https://gensc.org/mixs/) compliant field  
+> ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field  
 
-> :warning: Mandatory value  
+> ⚠️ Mandatory value  
 
 ## publication_year
 
@@ -53,7 +53,7 @@ Library columns are as follows:
   corresponding sample metadata table!  
 - YYYY format.
 
-> :warning: Mandatory value  
+> ⚠️ Mandatory value  
 
 ## publication_doi
 
@@ -64,7 +64,7 @@ Library columns are as follows:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## sample_name
 
@@ -74,7 +74,7 @@ Library columns are as follows:
 - Unique identifier for that sample as used in publication.
   - In most cases this should be the name of the host *individual*.
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## archive
 
@@ -87,9 +87,9 @@ Library columns are as follows:
 - e.g. [ENA](https://www.ebi.ac.uk/ena),
   [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/).
 
-> :warning: Must follow categories specified in `assets/enums/<column>.json`
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-> :warning: Mandatory value  
+> ⚠️ Mandatory value  
 
 ## archive_project
 
@@ -115,7 +115,7 @@ Library columns are as follows:
 - If non-NCBI/ENA, use as close to sample-level as possible.
   - e.g. when different extracts of one sample incorrectly uploaded as samples.
 
-> :warning: Mandatory value  
+> ⚠️ Mandatory value  
 
 ## sequencing_center
 
@@ -124,10 +124,10 @@ Library columns are as follows:
 - Check for existing names in `assets/enums/sequencing_center.json`, and reuse
   existing categories when name is only slightly different.
 
-> :warning: Must follow categories specified in
+> ⚠️ Must follow categories specified in
 > `assets/enums/sequencing_center.json`
 
-> :warning: If unknown and cannot be inferred from the publication, specify
+> ⚠️ If unknown and cannot be inferred from the publication, specify
 > `Unknown`
 
 ## library_name
@@ -150,9 +150,9 @@ Library columns are as follows:
     - [Gansauge et al. (2020) Nature protocols](https://doi.org/10.1038/s41596-020-0338-0).
     - [Troll et al. (2019) BMC Genomics (a.k.a. SRSLY)](https://doi.org/10.1186/.s12864-019-6355-0)
 
-> :warning: Must follow categories specified in `assets/enums/strand_type.json`
+> ⚠️ Must follow categories specified in `assets/enums/strand_type.json`
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## library_polymerase
 
@@ -165,10 +165,10 @@ Library columns are as follows:
     Genetics](https://doi.org/10.1038/ng.2906) SI section 6.2.1 for more
     information.
 
-> :warning: Must follow categories specified in
+> ⚠️ Must follow categories specified in
 > `assets/enums/library_polymerase.json`
 
-> :warning: If unknown and cannot be
+> ⚠️ If unknown and cannot be
 > inferred from the publication, specify `Unknown`
 
 ## library_treatment
@@ -177,10 +177,10 @@ Library columns are as follows:
   - By default assume `none`, unless stated.
   - When performed, typically via partial- or full- USER or UDG  treatment.
   
-> :warning: Must follow categories specified in
+> ⚠️ Must follow categories specified in
 > `assets/enums/library_treatment.json`
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## instrument_model
 
@@ -189,7 +189,7 @@ Library columns are as follows:
 - In most cases for aDNA labs will be some form of Illumina platform.
 - Missing value: `unspecified`
 
-> :warning: Must follow categories specified in
+> ⚠️ Must follow categories specified in
 > `assets/enums/instrument_model.json`
 
 ## library_layout
@@ -198,10 +198,10 @@ Library columns are as follows:
 - Can generally be inferred when there are either one (R1) or two (R2) FASTQ
   files, with otherwise the same file name.
 
-> :warning: Must follow categories specified in
+> ⚠️ Must follow categories specified in
 > `assets/enums/library_layout.json`
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## sequencing_cycles
 
@@ -227,7 +227,7 @@ Library columns are as follows:
   refers to a specific protocol using certain primers - not just any form of
   amplification.
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## read_count
 
@@ -247,16 +247,16 @@ Library columns are as follows:
   data as possible (i.e. should start with `ERR` or `SRR`).
 - If non-NCBI/ENA, use as close to sequencing run-level as possible.
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## file_Type
 
 - Contents of downloadable file
 - Some groups upload only mapped reads to the organism of interest's reference
-  genome. This is specified here alongside the file format (e.g. `fastq_all`, 
+  genome. This is specified here alongside the file format (e.g. `fastq_all`,
   or `mapped_all`).
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## download_links
 
@@ -265,7 +265,7 @@ Library columns are as follows:
 - Can be semi-colon separated list for paired-end sequenced runs.
 - Link must allow direct download of files via command-line utility e.g. with wget or curl. I.e., the link must send you directly to a file, not a gateway page.
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## download_md5s
 
@@ -280,11 +280,11 @@ Library columns are as follows:
 
 - Can be semi-colon separated list for paired end.
 
-> :warning: Mandatory value
+> ⚠️ Mandatory value
 
 ## download_sizes
 
 - File sizes of corresponding download files in bytes.
-- This can be used to estimated HDD space that will be used after downloaded. 
+- This can be used to estimated HDD space that will be used after downloaded.
 - Can be semi-colon separated list for paired end.
 - Missing value: `NA`

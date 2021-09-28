@@ -15,12 +15,13 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Rampelli 2021b 10.1016/j.isci.2021.102816
 - Brealey 2021 10.1016/j.cub.2021.08.010
 
-
 #### Ancient Single Genome: Host Associated
 
 - Susat 2021 10.1016/j.celrep.2021.109278
 
 #### Ancient Metagenome: Environmental
+
+- Moguel 2021 10.1038/s41598-021-92981-8
 
 #### Ancient Metagenome: Anthropogenic
 

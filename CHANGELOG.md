@@ -13,6 +13,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Ottoni 2021 10.1073/pnas.2102116118
 - Rampelli 2021b 10.1016/j.isci.2021.102816
+- Brealey 2021 10.1016/j.cub.2021.08.010
 
 #### Ancient Single Genome: Host Associated
 
@@ -21,6 +22,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- Moguel 2021 10.1038/s41598-021-92981-8
+
 #### Ancient Metagenome: Anthropogenic
 
 #### Misc
@@ -28,7 +31,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Changed
 
 - Corrected _H. pylori_ having taxonomic domain to bacteria from virus
-- Ferrari2020: Corrected typo in accession ERS3935829 
+- Ferrari2020: Corrected typo in accession ERS3935829
 
 ### Removed
 

@@ -18,7 +18,12 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Single Genome: Host Associated
 
 - Susat 2021 10.1016/j.celrep.2021.109278
+- Guzmán-Solis 2021 10.7554/eLife.68612
+
+#### Ancient Metagenome: Environmental
+
 - De Dios 2021 10.1016/j.isci.2021.103021
+- Campos 2021 10.1371/journal.ppat.1009714
 - Wu 2021 10.1371/journal.ppat.1009886
 
 #### Ancient Metagenome: Environmental
@@ -33,6 +38,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Corrected _H. pylori_ having taxonomic domain to bacteria from virus
 - Ferrari2020: Corrected typo in accession ERS3935829
+- BravoLopez2020: Corrected typo in site name Inmaculate Conception > Immaculate Conception
 
 ### Removed
 
@@ -46,7 +52,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fellows Yates 2021 10.1073/pnas.2021655118
 - Farrer 2021 10.1038/s41598-021-86100-w
 
-#### Ancient Single Genome: Host Associated 
+#### Ancient Single Genome: Host Associated
+
 - Seguin-Orlando 2021 10.1016/j.isci.2021.102383
 - Haller 2021 10.1016/j.isci.2021.102419
 - Guellil 2020 10.1073/pnas.2009677117
@@ -148,7 +155,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Misc
 
-- Added 'live-status' summary images that are displayed on README and updated on every new submission. 
+- Added 'live-status' summary images that are displayed on README and updated on every new submission.
 
 ### Changed
 
@@ -275,6 +282,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Bos2011: changed site name for sample ES_6330 (6330) to Abbey St. Mary Graces
   after investigation from Monica Green
 - Weyrich 2017: Added missing OAGR accession after consultation with authors
-- Maixner2016: corrected singlegenome_domain 
+- Maixner2016: corrected singlegenome_domain
 
 ### Removed

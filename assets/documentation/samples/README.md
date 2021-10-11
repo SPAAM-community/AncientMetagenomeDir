@@ -31,7 +31,7 @@ Sample columns are as follows:
 - Format: `SurnameYYYY` (YYYY in numeric format)
 - Due to restrictions in regex (used for validation checks), **punctuation (e.g.
   hyphens or spaces) or characters with accents cannot be used**.
-  - Use the non-accented version.
+  - Use the non-accented version (e.g. ã or ä become a).
   - If the first author has multiple or hyphenated surnames,  write them all
     together capitalising each surname.
 - If a same author/year combination already exists, please append a single lower

@@ -155,11 +155,10 @@
                 "$id": "#/items/properties/library_polymerase",
                 "type": "string",
                 "title": "Polymerases used during library construction, indexing and amplification.",
-                "description": "Comma separated list of polymerases used across all stages of library construction. This can indicate whether damaged nucleotides are expected to be visible.",
-                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_polymerase.json",
+                "description": "Comma separated list of polymerases used across all stages of library construction. Check against: https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_polymerase.json. This can indicate whether damaged nucleotides are expected to be visible.",
                 "examples": [
                     "Bst 2.0 DNA",
-                    "T4 DNA",
+                    "T4 DNA,Bst 2.0 DNA",
                     "PfuTurbo Cx Hotstart DNA",
                     "Herculase II Fusion DNA"
                 ]

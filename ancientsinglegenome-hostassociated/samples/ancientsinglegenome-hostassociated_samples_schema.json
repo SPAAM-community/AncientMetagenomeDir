@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_schema.json",
+    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_samples_schema.json",
     "type": "array",
     "title": "JSON schema for AncientMetagenomeDir single ancient microbial genome data",
     "description": "The JSON schema for AncientMetagenomeDir single ancient microbial genome data",

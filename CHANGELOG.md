@@ -11,6 +11,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Maixner 2021: 10.1016/j.cub.2021.09.031
+
 #### Ancient Single Genome: Host Associated
 
 #### Ancient Metagenome: Environmental

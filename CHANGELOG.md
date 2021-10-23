@@ -24,6 +24,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Susat2021 DOIs (excel dragging error)
 - Kazarina2021 Project/Sample accessions (column flip error)
 - Morozova2020 DOIs (excel dragging error)
+
 ### Removed
 
 ## v21.09: Taputapuātea

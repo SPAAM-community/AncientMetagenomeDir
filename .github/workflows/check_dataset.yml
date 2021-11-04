@@ -40,6 +40,16 @@ jobs:
           echo -e "# Ancient Metagenome Host Associated Libraries\n\`\`\`" >> validation/validation_results.txt 
           ancientMetagenomeDirCheck -a ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries.tsv ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries_schema.json >> validation/validation_results.txt
           echo -e "\`\`\`" >> validation/validation_results.txt
+      - name: LIBRARIES test ancient host-associated single-genomes (e.g. pathogens)
+        run: |
+          echo -e "# Ancient Single Genome Host Associated Libraries\n\`\`\`" >> validation/validation_results.txt 
+          ancientMetagenomeDirCheck -a ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries.tsv ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries_schema.json >> validation/validation_results.txt
+          echo -e "\`\`\`" >> validation/validation_results.txt
+      - name: LIBRARIES test ancient environmental metagenomes (e.g. sedaDNA)
+        run: |
+          echo -e "# Ancient Metagenome Environmental Libraries\n\`\`\`" >> validation/validation_results.txt 
+          ancientMetagenomeDirCheck -a ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries_schema.json >> validation/validation_results.txt
+          echo -e "\`\`\`" >> validation/validation_results.txt
       - uses: actions/upload-artifact@v1
         if: always()
         with:

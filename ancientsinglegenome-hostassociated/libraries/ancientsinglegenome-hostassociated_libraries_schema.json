@@ -299,7 +299,7 @@
                 "$id": "#/items/properties/download_sizes",
                 "type": [
                     "string",
-                    "integer"
+                    "integer",
                     "null"
                 ],
                 "pattern": "^[0-9]+;[0-9]+;[0-9]+$|^[0-9]+;[0-9]+$|^[0-9]+$",

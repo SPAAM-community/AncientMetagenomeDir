@@ -23,7 +23,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Changed
 
 - Fixed Susat2021 DOIs (excel dragging error)
-- Kazarina2021 Project/Sample accessions (column flip error)
+- Kazarina2021 Project/Sample accessions (column switch error)
 - Morozova2020 DOIs (excel dragging error)
 
 ### Removed

@@ -2,6 +2,7 @@
     "enum": [
         "none",
         "half-udg",
-        "full-udg"
+        "full-udg",
+        "unknown"
     ]
 }

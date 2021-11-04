@@ -119,9 +119,10 @@ Library columns are as follows:
 ## sequencing_center
 
 - Name of the sequencing center of the library.
-- Often the institution of the lab is hosted in.
 - Check for existing names in `assets/enums/sequencing_center.json`, and reuse
   existing categories when name is only slightly different.
+- If it is an unidentifiable ID, e.g. begins with `SUB<numbers>`, specify as
+  `Unknown`.
 
 > ⚠️ Must follow categories specified in
 > `assets/enums/sequencing_center.json`
@@ -255,6 +256,8 @@ Library columns are as follows:
   reads in FASTQ fils
 - For paired end libraries, count pairs (should be same number for both
   directions)
+- Use only what is reported on SRA or ENA tables (i.e., what is physically 
+  in the FASTQ files), else use the missing value.
 - Missing value: `NA`
 
 ## archive_run_accession

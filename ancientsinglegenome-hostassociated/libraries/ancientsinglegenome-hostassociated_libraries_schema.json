@@ -276,9 +276,9 @@
             "download_links": {
                 "$id": "#/items/properties/download_links",
                 "type": "string",
-                "pattern": "^[\\S]+$;^[\\S]+;[\\S]+$|^[\\S]+;[\\S]+$|^[\\S]+$",
+                "pattern": "^[\\S]+$",
                 "title": "Download link to raw data files",
-                "description": "Download link to raw data files. Can be semi-colon separated list for paired end. Link must allow direct download of files via command-line utility e.g. with wget or curl. TODO: improve regex",
+                "description": "Download link to raw data files. Can be comma separated list for paired end. Link must allow direct download of files via command-line utility e.g. with wget or curl. TODO: improve regex",
                 "examples": [
                     "ftp.sra.ebi.ac.uk/vol1/fastq/SRR957/SRR957746/SRR957746.fastq.gz",
                     "ftp.sra.ebi.ac.uk/vol1/fastq/SRR132/022/SRR13263122/SRR13263122_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR132/022/SRR13263122/SRR13263122_2.fastq.gz"
@@ -287,7 +287,7 @@
             "download_md5": {
                 "$id": "#/items/properties/download_md5s",
                 "type": "string",
-                "pattern": "^[a-z0-9]+$|^[a-z0-9]+;[a-z0-9]+$|^[a-z0-9]+;[a-z0-9]+;[a-z0-9]+$",
+                "pattern": "^[\\S]+$",
                 "title": "MD5 checksums of downloads",
                 "description": "MD5 checksums of corresponding download files, to allow data integrity. Can be semi-colon separated list for paired end. TODO: improve regex",
                 "examples": [
@@ -301,7 +301,7 @@
                     "string",
                     "null"
                 ],
-                "pattern": "^[0-9]+;[0-9]+;[0-9]+$|^[0-9]+;[0-9]+$|^[0-9]+$",
+                "pattern": "^[0-9]+;[0-9]+$|^[0-9]+$",
                 "title": "File sizes of downloads",
                 "description": "File sizes of corresponding download files in bytes, to allow calculation of HDD usage. Can be semi-colon separated list for paired end. TODO: improve regex",
                 "examples": [

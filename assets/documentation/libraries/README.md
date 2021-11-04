@@ -255,6 +255,8 @@ Library columns are as follows:
   reads in FASTQ fils
 - For paired end libraries, count pairs (should be same number for both
   directions)
+- Use only what is reported on SRA or ENA tables (i.e., what is physically 
+  in the FASTQ files), else use the missing value.
 - Missing value: `NA`
 
 ## archive_run_accession

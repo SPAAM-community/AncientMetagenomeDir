@@ -11,6 +11,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Kazarina 2021b 10.1016/j.jasrep.2021.103213
+
 #### Ancient Single Genome: Host Associated
 
 #### Ancient Metagenome: Environmental

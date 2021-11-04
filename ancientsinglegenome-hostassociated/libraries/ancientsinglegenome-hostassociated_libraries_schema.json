@@ -1,9 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientmetagenome-environmental/ancientmetagenome-environmental_libraries_schema.json",
+    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_libraries_schema.json",
     "type": "array",
-    "title": "JSON schema for AncientMetagenomeDir ancient environmental metagenome data",
-    "description": "The JSON schema for AncientMetagenomeDir ancient environmental metagenome data data",
+    "title": "JSON schema for AncientMetagenomeDir ancient host-associated single-genome data",
+    "description": "The JSON schema for AncientMetagenomeDir ancient host-associated single genome data",
     "additionalItems": false,
     "items": {
         "$id": "#/items",
@@ -24,13 +24,13 @@
             "strand_type",
             "library_polymerase",
             "library_treatment",
-            "library_concentration",
             "instrument_model",
             "library_layout",
             "sequencing_cycles",
             "library_strategy",
             "read_count",
             "archive_run_accession",
+            "file_type",
             "download_links",
             "download_md5s",
             "download_sizes"
@@ -57,7 +57,7 @@
                 "description": "Format: YYYY",
                 "examples": [
                     2014
-                    ]
+                ]
             },
             "publication_doi": {
                 "$id": "#/items/properties/publication_doi",
@@ -179,23 +179,6 @@
                     "full-udg"
                 ]
             },
-            "library_concentration": {
-                "$id": "#/items/properties/library_concentration",
-                "type": [
-                    "integer",
-                    "null"
-                ],
-                "minimum": 0,
-                "title": "Number of pre-amplification DNA copies of library per microlitre",
-                "description": "Number of pre-amplification DNA copies of library per microlitre as measured by qPCR. Can be used for contamination estimation against blanks",
-                "examples": [
-                    "NA",
-                    0,
-                    9064000,
-                    15730000,
-                    1331500000
-                ]
-            },
             "instrument_model": {
                 "$id": "#/items/properties/instrument_model",
                 "type": "string",
@@ -277,12 +260,25 @@
                     "ERR3003661"
                 ]
             },
+            "file_type": {
+                "$id": "#/items/properties/data_type",
+                "type": "string",
+                "title": "Downloadable data type",
+                "description": "Contents of downloadable file. I.e., all, mapped only etc.",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/file_type.json",
+                "examples": [
+                    "fastq_all",
+                    "fastq_mapped",
+                    "bam_all",
+                    "bam_mapped"
+                ]
+            },
             "download_links": {
                 "$id": "#/items/properties/download_links",
                 "type": "string",
                 "pattern": "^[\\S]+$",
                 "title": "Download link to raw data files",
-                "description": "Download link to raw data files. Can be semi-colon separated list for paired end. Link must allow direct download of files via command-line utility e.g. with wget or curl. TODO: improve regex",
+                "description": "Download link to raw data files. Can be comma separated list for paired end. Link must allow direct download of files via command-line utility e.g. with wget or curl. TODO: improve regex",
                 "examples": [
                     "ftp.sra.ebi.ac.uk/vol1/fastq/SRR957/SRR957746/SRR957746.fastq.gz",
                     "ftp.sra.ebi.ac.uk/vol1/fastq/SRR132/022/SRR13263122/SRR13263122_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR132/022/SRR13263122/SRR13263122_2.fastq.gz"

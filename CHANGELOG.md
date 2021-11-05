@@ -16,6 +16,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Guellil 2018 10.1073/pnas.1807266115
+
 #### Ancient Metagenome: Environmental
 
 #### Ancient Metagenome: Anthropogenic

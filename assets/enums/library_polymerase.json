@@ -1,10 +1,11 @@
 {
     "enum": [
-        "Bst 2.0 DNA",
-        "T4 DNA",
         "PfuTurbo Cx Hotstart DNA",
         "Herculase II Fusion DNA",
-        "Klenow Fragment",
+        "PfuTurbo DNA",
+        "Phusion HS II DNA",
+        "Phusion Hot Start High-Fidelity DNA",
+        "Ampli Taq Gold DNA",
         "Unknown"
     ]
 }

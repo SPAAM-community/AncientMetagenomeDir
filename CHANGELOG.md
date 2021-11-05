@@ -27,8 +27,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Changed
 
 - Fixed Susat2021 DOIs (excel dragging error)
-- Kazarina2021 Project/Sample accessions (column flip error)
-- Morozova2020 DOIs (excel dragging error)
+- Fixed Kazarina2021 Project/Sample accessions (column flip error)
+- Fixed Morozova2020 DOIs (excel dragging error)
+- Fixed Bieker2020 DOIs (paper partly reused previous data for new purpose and earlier had the other publication DOI. Now made all DOIs and dates consistent for the publication where metagenomics was performed)
 
 ### Removed
 

@@ -168,6 +168,8 @@ Library columns are as follows:
   - I.e., only report polymerases used after adapter fill in, and during the
     (initial) indexing PCR amplification
 - Can be comma separated listed if multiple used.
+- The name of the polymerase (as in the enum) should be as listed on the 
+  manufacturers website
 - Polymerase selection will influence whether damage will be visible enough.
   - This is due to differences between proof-reading and non-proofreading (i.e.
     damage tolerant) polymerases, due to proof-reading enzymes stalling on

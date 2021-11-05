@@ -136,6 +136,7 @@ Library columns are as follows:
   corresponding ENA or SRA table.
 - Should be the lab ID used at sequencing as referred to in the publication (in
   cases when these differ, list both separated with a `/`).
+- If no library name is reported on the ENA/SRA, list as `unspecified`.
 - Replace any spaces with underscores.
 - ⚠️ in some cases sequencing centers will assign different library_ids
    for libraries sequenced multiple times (e.g. across different machines).

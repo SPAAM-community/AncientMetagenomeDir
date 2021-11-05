@@ -20,6 +20,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Anthropogenic
 
+### Misc
+
+- Added library metadata for FASTQ and BAM level data
+
 ### Changed
 
 - Fixed Susat2021 DOIs (excel dragging error)

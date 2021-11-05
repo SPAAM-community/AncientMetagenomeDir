@@ -186,11 +186,15 @@ Library columns are as follows:
 ## library_treatment
 
 - Type of damage-removal treatment that may have been performed on the libraries.
-  - By default assume `none`, unless stated.
   - When performed, typically via partial- or full- USER or UDG  treatment.
+  - If no treatment performed, indicate as `none`.
+  - If in doubt, or different treated libraries are merged into one FASTQ/BAM file, record as `unknown`.
   
 > ⚠️ Must follow categories specified in
 > `assets/enums/library_treatment.json`
+
+> ⚠️ If unknown and cannot be
+> inferred from the publication, specify `Unknown`
 
 > ⚠️ Mandatory value
 

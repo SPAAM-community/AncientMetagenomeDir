@@ -136,6 +136,7 @@ Library columns are as follows:
   corresponding ENA or SRA table.
 - Should be the lab ID used at sequencing as referred to in the publication (in
   cases when these differ, list both separated with a `/`).
+- Replace any spaces with underscores.
 - ⚠️ in some cases sequencing centers will assign different library_ids
    for libraries sequenced multiple times (e.g. across different machines).
   - Check a publication's methods and/or supplementary information for whether
@@ -163,13 +164,12 @@ Library columns are as follows:
 
 ## library_polymerase
 
-- Name of the polymerase used for library construction.
-- Report only polymerases used up until (and including) pre-indexing library.
-  preparation
-  - I.e., only report polymerases used up until, and including, blunt end repair
-    steps or DNA termini end-repair steps that allows indices to subsequently.
-    be added to the molecule.
+- Name of the polymerase used for indexing amplification
+  - I.e., only report polymerases used after adapter fill in, and during the
+    (initial) indexing PCR amplification
 - Can be comma separated listed if multiple used.
+- The name of the polymerase (as in the enum) should be as listed on the 
+  manufacturers website
 - Polymerase selection will influence whether damage will be visible enough.
   - This is due to differences between proof-reading and non-proofreading (i.e.
     damage tolerant) polymerases, due to proof-reading enzymes stalling on
@@ -186,11 +186,15 @@ Library columns are as follows:
 ## library_treatment
 
 - Type of damage-removal treatment that may have been performed on the libraries.
-  - By default assume `none`, unless stated.
   - When performed, typically via partial- or full- USER or UDG  treatment.
+  - If no treatment performed, indicate as `none`.
+  - If in doubt, or different treated libraries are merged into one FASTQ/BAM file, record as `unknown`.
   
 > ⚠️ Must follow categories specified in
 > `assets/enums/library_treatment.json`
+
+> ⚠️ If unknown and cannot be
+> inferred from the publication, specify `Unknown`
 
 > ⚠️ Mandatory value
 

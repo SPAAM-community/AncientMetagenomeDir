@@ -136,6 +136,7 @@ Library columns are as follows:
   corresponding ENA or SRA table.
 - Should be the lab ID used at sequencing as referred to in the publication (in
   cases when these differ, list both separated with a `/`).
+- If no library name is reported on the ENA/SRA, list as `unspecified`.
 - Replace any spaces with underscores.
 - ⚠️ in some cases sequencing centers will assign different library_ids
    for libraries sequenced multiple times (e.g. across different machines).
@@ -168,6 +169,8 @@ Library columns are as follows:
   - I.e., only report polymerases used after adapter fill in, and during the
     (initial) indexing PCR amplification
 - Can be comma separated listed if multiple used.
+- The name of the polymerase (as in the enum) should be as listed on the 
+  manufacturers website
 - Polymerase selection will influence whether damage will be visible enough.
   - This is due to differences between proof-reading and non-proofreading (i.e.
     damage tolerant) polymerases, due to proof-reading enzymes stalling on

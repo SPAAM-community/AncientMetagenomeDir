@@ -164,13 +164,12 @@ Library columns are as follows:
 
 ## library_polymerase
 
-- Name of the polymerase used for library construction.
-- Report only polymerases used up until (and including) pre-indexing library.
-  preparation
-  - I.e., only report polymerases used up until, and including, blunt end repair
-    steps or DNA termini end-repair steps that allows indices to subsequently.
-    be added to the molecule.
+- Name of the polymerase used for indexing amplification
+  - I.e., only report polymerases used after adapter fill in, and during the
+    (initial) indexing PCR amplification
 - Can be comma separated listed if multiple used.
+- The name of the polymerase (as in the enum) should be as listed on the 
+  manufacturers website
 - Polymerase selection will influence whether damage will be visible enough.
   - This is due to differences between proof-reading and non-proofreading (i.e.
     damage tolerant) polymerases, due to proof-reading enzymes stalling on

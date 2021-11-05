@@ -19,30 +19,30 @@ jobs:
         run: mkdir validation/
       - name: Add 'dir check version
         run: |
-          echo -e "$(ancientMetagenomeDirCheck --version)" >> validation/validation_results.txt
+          echo "$(ancientMetagenomeDirCheck --version)" >> validation/validation_results.txt
       - name: SAMPLES test ancient host-associated metagenome (e.g. microbiomes)
         run: |
-          echo -e "# Ancient Metagenome Host Associated Samples\n
+          echo "# Ancient Metagenome Host Associated Samples" >> validation/validation_results.txt
           ancientMetagenomeDirCheck -v -d -i -m ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples_schema.json >> validation/validation_results.txt
       - name: SAMPLES test ancient single microbial genomes (e.g. pathogens)
         run: |
-          echo -e "# Ancient Single Genome Host Associated Samples\n
+          echo "# Ancient Single Genome Host Associated Samples" >> validation/validation_results.txt
           ancientMetagenomeDirCheck -v -d -i -m ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples_schema.json >> validation/validation_results.txt
       - name: SAMPLES test ancient environmental (e.g. sediment)
         run: |
-          echo -e "# Ancient Metagenome Environmental Samples\n 
+          echo "# Ancient Metagenome Environmental Samples" >> validation/validation_results.txt
           ancientMetagenomeDirCheck -v -d -i -m ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples.tsv ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples_schema.json >> validation/validation_results.txt
       - name: LIBRARIES test ancient host-associated metagenome (e.g. microbiomes)
         run: |
-          echo -e "# Ancient Metagenome Host Associated Libraries\n
+          echo "# Ancient Metagenome Host Associated Libraries" >> validation/validation_results.txt
           ancientMetagenomeDirCheck -v -d -i -m ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries.tsv ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries_schema.json >> validation/validation_results.txt
       - name: LIBRARIES test ancient host-associated single-genomes (e.g. pathogens)
         run: |
-          echo -e "# Ancient Single Genome Host Associated Libraries\n
+          echo "# Ancient Single Genome Host Associated Libraries" >> validation/validation_results.txt
           ancientMetagenomeDirCheck -v -d -i -m ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries.tsv ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries_schema.json >> validation/validation_results.txt
       - name: LIBRARIES test ancient environmental metagenomes (e.g. sedaDNA)
         run: |
-          echo -e "# Ancient Metagenome Environmental Libraries\n
+          echo "# Ancient Metagenome Environmental Libraries" >> validation/validation_results.txt
           ancientMetagenomeDirCheck -v -d -i -m ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries_schema.json >> validation/validation_results.txt
       - uses: actions/upload-artifact@v1
         if: always()

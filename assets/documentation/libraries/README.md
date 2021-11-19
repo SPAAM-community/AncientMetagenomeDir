@@ -118,9 +118,9 @@ Library columns are as follows:
 
 ## sequencing_center
 
-- Name of the sequencing center of the library.
+- Name of the sequencing center of the library as reported in ENA/SRA table
 - Check for existing names in `assets/enums/sequencing_center.json`, and reuse
-  existing categories when name is only slightly different.
+  existing categories when name on ENA/SRA table is only slightly different.
 - If it is an unidentifiable ID, e.g. begins with `SUB<numbers>`, specify as
   `Unknown`.
 

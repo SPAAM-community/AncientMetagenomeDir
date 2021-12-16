@@ -3,6 +3,7 @@
         "WGS",
         "Targeted-Capture",
         "Depletion",
+        "RNA-Seq",
         "Unknown"
     ]
 }

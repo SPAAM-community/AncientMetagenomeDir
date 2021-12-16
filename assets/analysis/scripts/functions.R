@@ -38,8 +38,8 @@ plot_pub_timeline <- function(dat) {
     facet_wrap(~List, ncol = 1) +
     labs(title = "Publications per year", 
         subtitle = paste("Updated:", Sys.Date()),
-        x = "Number of publications",
-        y = "Publication year",
+        x = "Publication year",
+        y = "Number of publications",
         fill = NULL,
         caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir")))
 }

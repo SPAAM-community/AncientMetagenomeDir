@@ -13,6 +13,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Granehäll 2021 10.1186/s40168-021-01132-8
 - Maixner 2021 10.1016/j.cub.2021.09.031
+- McDonough 2018 10.1093/jmammal/gyy080
 
 #### Ancient Single Genome: Host Associated
 

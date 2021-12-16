@@ -118,9 +118,10 @@ Library columns are as follows:
 
 ## sequencing_center
 
-- Name of the sequencing center of the library.
+- Name of the sequencing center of the library **as reported in ENA/SRA table**.
 - Check for existing names in `assets/enums/sequencing_center.json`, and reuse
-  existing categories when name is only slightly different.
+  existing categories when name on ENA/SRA table is only slightly different.
+- If discrepency between the article and the sequencing center, revert to `Unknown`.
 - If it is an unidentifiable ID, e.g. begins with `SUB<numbers>`, specify as
   `Unknown`.
 
@@ -136,13 +137,14 @@ Library columns are as follows:
   corresponding ENA or SRA table.
 - Should be the lab ID used at sequencing as referred to in the publication (in
   cases when these differ, list both separated with a `/`).
+- Can be sometimes inferred from the `Submitted Files` column of the ENA/SRA table
+- If no library name is reported on the ENA/SRA, list as `unspecified`.
 - Replace any spaces with underscores.
 - ⚠️ in some cases sequencing centers will assign different library_ids
    for libraries sequenced multiple times (e.g. across different machines).
   - Check a publication's methods and/or supplementary information for whether
   you should use the common part of two sequence runs as the library id.
-  - For exampleE.g.,
-  KNP001.A0101 and KNP001.A0101.161208, or PES001.B0101 and PES001.B0103.SG1.1,
+  - For example: KNP001.A0101 and KNP001.A0101.161208, or PES001.B0101 and PES001.B0103.SG1.1,
   are both
 
 ## strand_type
@@ -165,9 +167,8 @@ Library columns are as follows:
 ## library_polymerase
 
 - Name of the polymerase used for indexing amplification
-  - I.e., only report polymerases used after adapter fill in, and during the
+  - I.e., only report polymerases used **after** adapter fill in, and during the
     (initial) indexing PCR amplification
-- Can be comma separated listed if multiple used.
 - The name of the polymerase (as in the enum) should be as listed on the 
   manufacturers website
 - Polymerase selection will influence whether damage will be visible enough.
@@ -176,6 +177,10 @@ Library columns are as follows:
     uracils. See [Warinner et al. (2014) Nature
     Genetics](https://doi.org/10.1038/ng.2906) SI section 6.2.1 for more
     information.
+- If not directly specified in the manuscript, it is OK to take this from a 
+  primary source protocol if referenced (e.g. if 'libraries prepared as described in Meyer
+  and Kircher', use polymerase cited there. If you go down a citation chain,
+  'as in X, as in Y, as in Z', specify `Unknown`.
 
 > ⚠️ Must follow categories specified in
 > `assets/enums/library_polymerase.json`

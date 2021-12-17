@@ -118,11 +118,15 @@ Library columns are as follows:
 
 ## sequencing_center
 
-- Name of the sequencing center of the library as reported in ENA/SRA table
+- Name of the sequencing center of the library **as reported in ENA/SRA table**.
 - Check for existing names in `assets/enums/sequencing_center.json`, and reuse
   existing categories when name on ENA/SRA table is only slightly different.
+- If discrepency between the article and the sequencing center, revert to `Unknown`.
 - If it is an unidentifiable ID, e.g. begins with `SUB<numbers>`, specify as
   `Unknown`.
+- If you do find a missing centre name or a `SUB<numbers>` ID you can sometimes 
+  also find the centre name in the summary header information _above_ the ENA 
+  table of the given proejct 
 
 > ⚠️ Must follow categories specified in
 > `assets/enums/sequencing_center.json`
@@ -136,14 +140,14 @@ Library columns are as follows:
   corresponding ENA or SRA table.
 - Should be the lab ID used at sequencing as referred to in the publication (in
   cases when these differ, list both separated with a `/`).
+- Can be sometimes inferred from the `Submitted Files` column of the ENA/SRA table
 - If no library name is reported on the ENA/SRA, list as `unspecified`.
 - Replace any spaces with underscores.
 - ⚠️ in some cases sequencing centers will assign different library_ids
    for libraries sequenced multiple times (e.g. across different machines).
   - Check a publication's methods and/or supplementary information for whether
   you should use the common part of two sequence runs as the library id.
-  - For exampleE.g.,
-  KNP001.A0101 and KNP001.A0101.161208, or PES001.B0101 and PES001.B0103.SG1.1,
+  - For example: KNP001.A0101 and KNP001.A0101.161208, or PES001.B0101 and PES001.B0103.SG1.1,
   are both
 
 ## strand_type
@@ -166,9 +170,8 @@ Library columns are as follows:
 ## library_polymerase
 
 - Name of the polymerase used for indexing amplification
-  - I.e., only report polymerases used after adapter fill in, and during the
+  - I.e., only report polymerases used **after** adapter fill in, and during the
     (initial) indexing PCR amplification
-- Can be comma separated listed if multiple used.
 - The name of the polymerase (as in the enum) should be as listed on the 
   manufacturers website
 - Polymerase selection will influence whether damage will be visible enough.
@@ -177,6 +180,10 @@ Library columns are as follows:
     uracils. See [Warinner et al. (2014) Nature
     Genetics](https://doi.org/10.1038/ng.2906) SI section 6.2.1 for more
     information.
+- If not directly specified in the manuscript, it is OK to take this from a 
+  primary source protocol if referenced (e.g. if 'libraries prepared as described in Meyer
+  and Kircher', use polymerase cited there. If you go down a citation chain,
+  'as in X, as in Y, as in Z', specify `Unknown`.
 
 > ⚠️ Must follow categories specified in
 > `assets/enums/library_polymerase.json`
@@ -189,7 +196,7 @@ Library columns are as follows:
 - Type of damage-removal treatment that may have been performed on the libraries.
   - When performed, typically via partial- or full- USER or UDG  treatment.
   - If no treatment performed, indicate as `none`.
-  - If in doubt, or different treated libraries are merged into one FASTQ/BAM file, record as `unknown`.
+  - If in doubt, or different treated libraries are merged into one FASTQ/BAM file, record as `Unknown`.
   
 > ⚠️ Must follow categories specified in
 > `assets/enums/library_treatment.json`
@@ -206,14 +213,16 @@ Library columns are as follows:
 - The qPCR value of copies per µl of extract of a given library
   - Be aware of a single library sequenced multiple times. In such cases it is
     OK to duplicate the value for each library.
-- If unreported, set as NA
+
+> ⚠️ If not reported in the paper, specify: `NA`
 
 ## instrument_model
 
 - Sequencing machine used for sequencing the library.
 - Follows [ENA categories](https://www.ebi.ac.uk/ena/portal/api/controlledVocab?field=instrument_model).
 - In most cases for aDNA labs will be some form of Illumina platform.
-- Missing value: `unspecified`
+
+> ⚠️ If not described in the ENA table, or there is discrepency with the paper, specify: `unspecified`
 
 > ⚠️ Must follow categories specified in
 > `assets/enums/instrument_model.json`
@@ -231,13 +240,14 @@ Library columns are as follows:
 
 ## sequencing_cycles
 
-- The number of base pairs that the sequencing chemistry consisted of in _one
+- The number of base pairs that the sequencing chemistry consisted of in _one_.
   direction.
 - Often equivalent to the maximum length of unprocessed reads in a FASTQ file.
 - For Illumina,
   [typically](https://support.illumina.com/bulletins/2016/10/how-many-cycles-of-sbs-chemistry-are-in-my-kit.html)
   something like: 50, 75, 100, 150, depending on the machine.
-- Missing value: `NA`
+
+> ⚠️ If not described in the ENA table, or there is discrepency with the paper, specify: `NA`
 
 ## library_strategy
 
@@ -251,7 +261,7 @@ Library columns are as follows:
 - **Important**: check the original publication for the library strategy,
   researchers sometimes incorrectly specify this on data upload. E.g. `WGA`
   refers to a specific protocol using certain primers - not just any form of
-  amplification.
+  amplification. Therefore specify `WGS`.
 
 > ⚠️ Mandatory value
 
@@ -263,7 +273,8 @@ Library columns are as follows:
   directions)
 - Use only what is reported on SRA or ENA tables (i.e., what is physically 
   in the FASTQ files), else use the missing value.
-- Missing value: `NA`
+
+> ⚠️ If not described in the ENA table, specify: `NA`
 
 ## archive_run_accession
 

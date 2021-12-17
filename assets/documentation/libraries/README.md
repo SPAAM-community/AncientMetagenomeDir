@@ -118,11 +118,15 @@ Library columns are as follows:
 
 ## sequencing_center
 
-- Name of the sequencing center of the library **as reported in ENA/SRA table**
+- Name of the sequencing center of the library **as reported in ENA/SRA table**.
 - Check for existing names in `assets/enums/sequencing_center.json`, and reuse
   existing categories when name on ENA/SRA table is only slightly different.
+- If discrepency between the article and the sequencing center, revert to `Unknown`.
 - If it is an unidentifiable ID, e.g. begins with `SUB<numbers>`, specify as
   `Unknown`.
+- If you do find a missing centre name or a `SUB<numbers>` ID you can sometimes 
+  also find the centre name in the summary header information _above_ the ENA 
+  table of the given proejct 
 
 > ⚠️ Must follow categories specified in
 > `assets/enums/sequencing_center.json`
@@ -192,7 +196,7 @@ Library columns are as follows:
 - Type of damage-removal treatment that may have been performed on the libraries.
   - When performed, typically via partial- or full- USER or UDG  treatment.
   - If no treatment performed, indicate as `none`.
-  - If in doubt, or different treated libraries are merged into one FASTQ/BAM file, record as `unknown`.
+  - If in doubt, or different treated libraries are merged into one FASTQ/BAM file, record as `Unknown`.
   
 > ⚠️ Must follow categories specified in
 > `assets/enums/library_treatment.json`
@@ -209,14 +213,16 @@ Library columns are as follows:
 - The qPCR value of copies per µl of extract of a given library
   - Be aware of a single library sequenced multiple times. In such cases it is
     OK to duplicate the value for each library.
-- If unreported, set as NA
+
+> ⚠️ If not reported in the paper, specify: `NA`
 
 ## instrument_model
 
 - Sequencing machine used for sequencing the library.
 - Follows [ENA categories](https://www.ebi.ac.uk/ena/portal/api/controlledVocab?field=instrument_model).
 - In most cases for aDNA labs will be some form of Illumina platform.
-- Missing value: `unspecified`
+
+> ⚠️ If not described in the ENA table, or there is discrepency with the paper, specify: `unspecified`
 
 > ⚠️ Must follow categories specified in
 > `assets/enums/instrument_model.json`
@@ -234,13 +240,14 @@ Library columns are as follows:
 
 ## sequencing_cycles
 
-- The number of base pairs that the sequencing chemistry consisted of in _one
+- The number of base pairs that the sequencing chemistry consisted of in _one_.
   direction.
 - Often equivalent to the maximum length of unprocessed reads in a FASTQ file.
 - For Illumina,
   [typically](https://support.illumina.com/bulletins/2016/10/how-many-cycles-of-sbs-chemistry-are-in-my-kit.html)
   something like: 50, 75, 100, 150, depending on the machine.
-- Missing value: `NA`
+
+> ⚠️ If not described in the ENA table, or there is discrepency with the paper, specify: `NA`
 
 ## library_strategy
 
@@ -254,7 +261,7 @@ Library columns are as follows:
 - **Important**: check the original publication for the library strategy,
   researchers sometimes incorrectly specify this on data upload. E.g. `WGA`
   refers to a specific protocol using certain primers - not just any form of
-  amplification.
+  amplification. Therefore specify `WGS`.
 
 > ⚠️ Mandatory value
 
@@ -266,7 +273,8 @@ Library columns are as follows:
   directions)
 - Use only what is reported on SRA or ENA tables (i.e., what is physically 
   in the FASTQ files), else use the missing value.
-- Missing value: `NA`
+
+> ⚠️ If not described in the ENA table, specify: `NA`
 
 ## archive_run_accession
 

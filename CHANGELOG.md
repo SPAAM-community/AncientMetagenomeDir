@@ -16,7 +16,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
-
 #### Ancient Metagenome: Environmental
 
 #### Ancient Metagenome: Anthropogenic

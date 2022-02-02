@@ -19,6 +19,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Fotakis2020: Updated sample accession
+
 ### Removed
 
 ## v21.09: Taputapuātea

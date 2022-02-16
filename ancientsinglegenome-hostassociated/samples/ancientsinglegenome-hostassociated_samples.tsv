@@ -379,14 +379,14 @@ Kocher2021	2021	10.1126/science.abi5658	Brandýs nad Labem	50.187	14.664	Czech R
 Kocher2021	2021	10.1126/science.abi5658	Boncuklu Hoyuk	37.752	32.865	Turkey	BON020	Homo sapiens	10100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2017	ENA	reference_aligned	PRJEB45699	ERS6597757
 Kocher2021	2021	10.1126/science.abi5658	Bolshoy Oleni Ostrov	69.224	33.485	Russia	BOO006	Homo sapiens	3500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2016	ENA	reference_aligned	PRJEB45699	ERS6597758
 Kocher2021	2021	10.1126/science.abi5658	Bolshoy Oleni Ostrov	69.224	33.485	Russia	BOO008	Homo sapiens	3500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2016	ENA	reference_aligned	PRJEB45699	ERS6597759
-Kocher2021	2021	10.1126/science.abi5658	Berel	49.334	85.787	Kazakhstan	BRE008	Homo sapiens	1700	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597760
-Kocher2021	2021	10.1126/science.abi5658	Berel	49.334	85.787	Kazakhstan	BRE026	Homo sapiens	2300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597761
-Kocher2021	2021	10.1126/science.abi5658	Berel	49.334	85.787	Kazakhstan	BRE028	Homo sapiens	2300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597762
-Kocher2021	2021	10.1126/science.abi5658	Carolinas II	22.985	-81.045	Cuba	CAA002	Homo sapiens	1600	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597763
-Kocher2021	2021	10.1126/science.abi5658	Canimar abajo	24.00	-81.49	Cuba	CAO009	Homo sapiens	1400	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597764
+Kocher2021	2021	10.1126/science.abi5658	Berel	49.343	86.365	Kazakhstan	BRE008	Homo sapiens	1700	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597760
+Kocher2021	2021	10.1126/science.abi5658	Berel	49.343	86.365	Kazakhstan	BRE026	Homo sapiens	2300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597761
+Kocher2021	2021	10.1126/science.abi5658	Berel	49.343	86.365	Kazakhstan	BRE028	Homo sapiens	2300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597762
+Kocher2021	2021	10.1126/science.abi5658	Carolinas II	22.985	-81.462	Cuba	CAA002	Homo sapiens	1600	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597763
+Kocher2021	2021	10.1126/science.abi5658	Canimar abajo	23.038	-81.497	Cuba	CAO009	Homo sapiens	1400	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597764
 Kocher2021	2021	10.1126/science.abi5658	Cueva de Chaves	42.215	-0.139	Spain	CHA003	Homo sapiens	7100	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2017	ENA	reference_aligned	PRJEB45699	ERS6597765
 Kocher2021	2021	10.1126/science.abi5658	Chotìn	47.809	18.224	Slovakia	CHT001	Homo sapiens	2200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597766
-Kocher2021	2021	10.1126/science.abi5658	Cueva de las Lechuzas	38.630	-0.863	Spain	CLL005	Homo sapiens	4900	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2016	ENA	reference_aligned	PRJEB45699	ERS6597767
+Kocher2021	2021	10.1126/science.abi5658	Cueva de las Lechuzas	38.646	-0.893	Spain	CLL005	Homo sapiens	4900	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2016	ENA	reference_aligned	PRJEB45699	ERS6597767
 Kocher2021	2021	10.1126/science.abi5658	Cuncaicha	-15.33	-72.59	Peru	CUN002	Homo sapiens	9100	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2017	ENA	reference_aligned	PRJEB45699	ERS6597768
 Kocher2021	2021	10.1126/science.abi5658	Derenburg	51.87	10.91	Germany	DER027	Homo sapiens	4000	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597769
 Kocher2021	2021	10.1126/science.abi5658	Doggerland	53.00	2.54	Netherlands	DOG007	Homo sapiens	9400	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597770
@@ -434,7 +434,7 @@ Kocher2021	2021	10.1126/science.abi5658	Halberstadt	51.896	11.047	Germany	I2032	
 Kocher2021	2021	10.1126/science.abi5658	İkiztepe	41.614	35.871	Turkey	IKI009	Homo sapiens	5200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2017	ENA	reference_aligned	PRJEB45699	ERS6597812
 Kocher2021	2021	10.1126/science.abi5658	Is Bittuleris	39.868	9.236	Italy	ISB002	Homo sapiens	3700	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597813
 Kocher2021	2021	10.1126/science.abi5658	Jazikovo	57.121	38.152	Russia	JAZ001	Homo sapiens	7300	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597814
-Kocher2021	2021	10.1126/science.abi5658	Karanaevskiy	53.36	55.14	Russia	KAP002	Homo sapiens	3500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2019	ENA	reference_aligned	PRJEB45699	ERS6597815
+Kocher2021	2021	10.1126/science.abi5658	Karanaevskiy	55.639	58.297	Russia	KAP002	Homo sapiens	3500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2019	ENA	reference_aligned	PRJEB45699	ERS6597815
 Kocher2021	2021	10.1126/science.abi5658	Kabardinka	43.826	42.717	Russia	KBD002	Homo sapiens	4100	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2016	ENA	reference_aligned	PRJEB45699	ERS6597816
 Kocher2021	2021	10.1126/science.abi5658	Kudachurt	43.354	43.722	Russia	KDC001	Homo sapiens	3900	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2016	ENA	reference_aligned	PRJEB45699	ERS6597817
 Kocher2021	2021	10.1126/science.abi5658	Kamid el-Loz	33.622	35.823	Lebanon	KEL045	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597818
@@ -477,7 +477,7 @@ Kocher2021	2021	10.1126/science.abi5658	Sedgeford	52.900	0.544	United Kingdom	SE
 Kocher2021	2021	10.1126/science.abi5658	Shagara	55.237	40.100	Russia	SGR003	Homo sapiens	3900	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2017	ENA	reference_aligned	PRJEB45699	ERS6597855
 Kocher2021	2021	10.1126/science.abi5658	Shagara	55.132	40.175	Russia	SGR004	Homo sapiens	5000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2017	ENA	reference_aligned	PRJEB45699	ERS6597856
 Kocher2021	2021	10.1126/science.abi5658	Sheksovo II	56.528	40.179	Russia	SHK001	Homo sapiens	800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597857
-Kocher2021	2021	10.1126/science.abi5658	S'isteridolzu	40.319	9.325	Italy	SID005	Homo sapiens	6100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597858
+Kocher2021	2021	10.1126/science.abi5658	S'isteridolzu	40.624	8.636	Italy	SID005	Homo sapiens	6100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597858
 Kocher2021	2021	10.1126/science.abi5658	Hospital Real de San José de los Naturales	19.43	-99.14	Mexico	SJN005	Homo sapiens	400	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2017	ENA	reference_aligned	PRJEB45699	ERS6597859
 Kocher2021	2021	10.1126/science.abi5658	Hospital Real de San José de los Naturales	19.43	-99.14	Mexico	SJN013	Homo sapiens	500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2017	ENA	reference_aligned	PRJEB45699	ERS6597860
 Kocher2021	2021	10.1126/science.abi5658	Stuttgart-Mühlhausen I	48.840	9.228	Germany	SMH004	Homo sapiens	7200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2016	ENA	reference_aligned	PRJEB45699	ERS6597861
@@ -504,3 +504,4 @@ Kocher2021	2021	10.1126/science.abi5658	Wenigensömmern	51.174	11.136	Germany	WS
 Kocher2021	2021	10.1126/science.abi5658	Wenigensömmern	51.174	11.136	Germany	WSN012	Homo sapiens	4200	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597882
 Kocher2021	2021	10.1126/science.abi5658	Yunatsite	42.23	24.26	Bulgaria	YUN048	Homo sapiens	6500	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	2018	ENA	reference_aligned	PRJEB45699	ERS6597883
 Kocher2021	2021	10.1126/science.abi5658	Zweisimmen Kirchgasse	46.554	7.372	Switzerland	ZWE008	Homo sapiens	600	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	2016	ENA	reference_aligned	PRJEB45699	ERS6597884
+

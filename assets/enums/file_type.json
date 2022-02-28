@@ -2,6 +2,7 @@
   "enum": [
     "fastq_all",
     "fastq_mapped",
+    "fastq_hostremoved",
     "bam_all",
     "bam_mapped",
     "fasta_contigs",

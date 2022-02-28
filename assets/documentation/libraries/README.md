@@ -285,6 +285,7 @@ Library columns are as follows:
 - For ENA/SRA: These should be primary accession IDs to keep as close to
   data as possible (i.e. should start with `ERR` or `SRR`).
 - If non-NCBI/ENA, use as close to sequencing run-level as possible.
+  - For example, use the unique file name (without file suffix).
 
 > ⚠️ Mandatory value
 

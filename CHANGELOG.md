@@ -20,11 +20,16 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Anthropogenic
 
+### Misc
+
+- Added library metadata for FASTQ and BAM level data
+
 ### Changed
 
 - Fixed Susat2021 DOIs (excel dragging error)
-- Kazarina2021 Project/Sample accessions (column flip error)
-- Morozova2020 DOIs (excel dragging error)
+- Fixed Kazarina2021 Project/Sample accessions (column flip error)
+- Fixed Morozova2020 DOIs (excel dragging error)
+- Fixed Bieker2020 DOIs (paper partly reused previous data for new purpose and earlier had the other publication DOI. Now made all DOIs and dates consistent for the publication where metagenomics was performed)
 
 ### Removed
 
@@ -80,6 +85,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Haller 2021 10.1016/j.isci.2021.102419
 - Guellil 2020 10.1073/pnas.2009677117
 - Danneels 2021 10.1016/j.cub.2021.03.049
+- Kocher 2021 10.1126/science.abi5658
 
 #### Ancient Metagenome: Environmental
 

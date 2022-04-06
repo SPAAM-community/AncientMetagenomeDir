@@ -102,7 +102,7 @@ Library columns are as follows:
   - Archive: MG-RAST: should be accession code beginning with `mgp`.
     [Example](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp13354).
 
-- Missing value: `NA`
+- Missing value: `Unknown`
 
 ## archive_sample_accession
 

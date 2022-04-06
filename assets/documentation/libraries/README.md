@@ -113,6 +113,9 @@ Library columns are as follows:
   data as possible (e.g. SRS, ERS, not SAMEA - see below).
 - If non-NCBI/ENA, use as close to sample-level as possible.
   - e.g. when different extracts of one sample incorrectly uploaded as samples.
+  - For GenBank consensus sequences: if the ENA/SRA sample accession ID does 
+    not exist, reuse the GenBank sequence ID for both sample and run accessions.
+    However always where possible prefer ENA/SRA secondary accession IDs.
 
 > ⚠️ Mandatory value  
 

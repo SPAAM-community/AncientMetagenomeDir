@@ -781,11 +781,11 @@ Wibowo2021	2021	10.1038/s41586-021-03532-0	Arid West Cave	37.5	-110	USA	AW110A/ 
 Wibowo2021	2021	10.1038/s41586-021-03532-0	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape1	Homo sapiens	1100	10.1038/s41586-021-03532-0	gut	palaeofaeces	NA	SRA	PRJNA561510	SRS5300670
 Wibowo2021	2021	10.1038/s41586-021-03532-0	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape2	Homo sapiens	1200	10.1038/s41586-021-03532-0	gut	palaeofaeces	NA	SRA	PRJNA561510	SRS5300669
 Wibowo2021	2021	10.1038/s41586-021-03532-0	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape3	Homo sapiens	1300	10.1038/s41586-021-03532-0	gut	palaeofaeces	NA	SRA	PRJNA561510	SRS5300638
-FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	85.53	Nicaragua	OME002.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774378
-FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	85.53	Nicaragua	OME003.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774379
-FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	85.53	Nicaragua	OME005.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774380
-FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	85.53	Nicaragua	OME007.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774381
-FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	85.53	Nicaragua	OME009.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774382
+FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	-85.53	Nicaragua	OME002.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774378
+FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	-85.53	Nicaragua	OME003.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774379
+FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	-85.53	Nicaragua	OME005.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774380
+FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	-85.53	Nicaragua	OME007.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774381
+FellowsYates2021	2021	10.1073/pnas.2021655118	Ometepe Island	11.41	-85.53	Nicaragua	OME009.A	Alouatta palliata	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774382
 FellowsYates2021	2021	10.1073/pnas.2021655118	Mount Karisimbi	-1.5	29.45	Democratic Republic of the Congo	MTK001.A	Gorilla beringei beringei	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774383
 FellowsYates2021	2021	10.1073/pnas.2021655118	Mount Mikeno	-1.46	29.42	Democratic Republic of the Congo	MTM001.A	Gorilla beringei beringei	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774384
 FellowsYates2021	2021	10.1073/pnas.2021655118	Mount Mikeno	-1.46	29.42	Democratic Republic of the Congo	MTM002.A	Gorilla beringei beringei	200	10.1073/pnas.2021655118	oral	dental calculus	NA	ENA	PRJEB34569	ERS3774385

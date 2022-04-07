@@ -21,6 +21,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- FellowsYates2021: Corrected typo in longitude 85.53 > -85.53
+
 ### Removed
 
 ## v21.09: Taputapuātea

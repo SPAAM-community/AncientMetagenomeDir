@@ -170,6 +170,8 @@ Library columns are as follows:
 
 > ⚠️ Must follow categories specified in `assets/enums/strand_type.json`
 
+> ⚠️ If unknown and cannot be inferred from the publication, specify `unknown`
+
 > ⚠️ Mandatory value
 
 ## library_polymerase

@@ -13,6 +13,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Granehäll 2021 10.1186/s40168-021-01132-8
 - Maixner 2021 10.1016/j.cub.2021.09.031
+- Kazarina 2021b 10.1016/j.jasrep.2021.103213
 
 #### Ancient Single Genome: Host Associated
 
@@ -20,11 +21,19 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Anthropogenic
 
+### Misc
+
+- Added library metadata for FASTQ and BAM level data
+
 ### Changed
 
 - Fixed Susat2021 DOIs (excel dragging error)
-- Kazarina2021 Project/Sample accessions (column flip error)
-- Morozova2020 DOIs (excel dragging error)
+- Fixed Kazarina2021 Project/Sample accessions (column flip error)
+- Fixed Morozova2020 DOIs (excel dragging error)
+- Fixed Bieker2020 DOIs (paper partly reused previous data for new purpose and earlier had the other publication DOI. Now made all DOIs and dates consistent for the publication where metagenomics was performed)
+- Fixed Muhlemann2018 Project ID (now available)
+- FellowsYates2021: Corrected typo in longitude 85.53 > -85.53
+- Fixed Velsko2018 -> Velsko2019 (wrong publication year)
 
 ### Removed
 
@@ -80,6 +89,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Haller 2021 10.1016/j.isci.2021.102419
 - Guellil 2020 10.1073/pnas.2009677117
 - Danneels 2021 10.1016/j.cub.2021.03.049
+- Kocher 2021 10.1126/science.abi5658
 
 #### Ancient Metagenome: Environmental
 

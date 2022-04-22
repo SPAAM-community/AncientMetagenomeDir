@@ -34,6 +34,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Muhlemann2018 Project ID (now available)
 - FellowsYates2021: Corrected typo in longitude 85.53 > -85.53
 - Fixed Velsko2018 -> Velsko2019 (wrong publication year)
+- Fixed Schuenemann2011 Put the accession ID of the full plasmid sequence not partial
 
 ### Removed
 

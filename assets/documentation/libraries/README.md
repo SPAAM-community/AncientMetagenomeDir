@@ -77,14 +77,16 @@ Library columns are as follows:
 
 ## archive
 
-- Must correspond to the `archive` of the publication in the corresponding
-  sample metadata table!  
+- In most cases should correspond to the `archive` of the publication in the 
+  corresponding sample metadata table!  
 - The archive the library's data is stored on.
   - Should be an established long-term stable archive.
   - Generally set up academic institutions e.g. EBI or Universities (rather than
     companies, e.g. GitHub).
 - e.g. [ENA](https://www.ebi.ac.uk/ena),
   [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/).
+- In some cases this will vary, for example if there IS an ERS code, however
+  only consensus sequences are uploaded
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
@@ -102,7 +104,7 @@ Library columns are as follows:
   - Archive: MG-RAST: should be accession code beginning with `mgp`.
     [Example](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp13354).
 
-- Missing value: `NA`
+- Missing value: `Unknown`
 
 ## archive_sample_accession
 
@@ -113,6 +115,9 @@ Library columns are as follows:
   data as possible (e.g. SRS, ERS, not SAMEA - see below).
 - If non-NCBI/ENA, use as close to sample-level as possible.
   - e.g. when different extracts of one sample incorrectly uploaded as samples.
+  - For GenBank consensus sequences: if the ENA/SRA sample accession ID does 
+    not exist, reuse the GenBank sequence ID for both sample and run accessions.
+    However always where possible prefer ENA/SRA secondary accession IDs.
 
 > ⚠️ Mandatory value  
 
@@ -124,6 +129,9 @@ Library columns are as follows:
 - If discrepency between the article and the sequencing center, revert to `Unknown`.
 - If it is an unidentifiable ID, e.g. begins with `SUB<numbers>`, specify as
   `Unknown`.
+- If you do find a missing centre name or a `SUB<numbers>` ID you can sometimes 
+  also find the centre name in the summary header information _above_ the ENA 
+  table of the given proejct 
 
 > ⚠️ Must follow categories specified in
 > `assets/enums/sequencing_center.json`
@@ -162,6 +170,8 @@ Library columns are as follows:
 
 > ⚠️ Must follow categories specified in `assets/enums/strand_type.json`
 
+> ⚠️ If unknown and cannot be inferred from the publication, specify `unknown`
+
 > ⚠️ Mandatory value
 
 ## library_polymerase
@@ -193,7 +203,7 @@ Library columns are as follows:
 - Type of damage-removal treatment that may have been performed on the libraries.
   - When performed, typically via partial- or full- USER or UDG  treatment.
   - If no treatment performed, indicate as `none`.
-  - If in doubt, or different treated libraries are merged into one FASTQ/BAM file, record as `unknown`.
+  - If in doubt, or different treated libraries are merged into one FASTQ/BAM file, record as `Unknown`.
   
 > ⚠️ Must follow categories specified in
 > `assets/enums/library_treatment.json`
@@ -210,14 +220,16 @@ Library columns are as follows:
 - The qPCR value of copies per µl of extract of a given library
   - Be aware of a single library sequenced multiple times. In such cases it is
     OK to duplicate the value for each library.
-- If unreported, set as NA
+
+> ⚠️ If not reported in the paper, specify: `NA`
 
 ## instrument_model
 
 - Sequencing machine used for sequencing the library.
 - Follows [ENA categories](https://www.ebi.ac.uk/ena/portal/api/controlledVocab?field=instrument_model).
 - In most cases for aDNA labs will be some form of Illumina platform.
-- Missing value: `unspecified`
+
+> ⚠️ If not described in the ENA table, or there is discrepency with the paper, specify: `unspecified`
 
 > ⚠️ Must follow categories specified in
 > `assets/enums/instrument_model.json`
@@ -235,13 +247,14 @@ Library columns are as follows:
 
 ## sequencing_cycles
 
-- The number of base pairs that the sequencing chemistry consisted of in _one
+- The number of base pairs that the sequencing chemistry consisted of in _one_.
   direction.
 - Often equivalent to the maximum length of unprocessed reads in a FASTQ file.
 - For Illumina,
   [typically](https://support.illumina.com/bulletins/2016/10/how-many-cycles-of-sbs-chemistry-are-in-my-kit.html)
   something like: 50, 75, 100, 150, depending on the machine.
-- Missing value: `NA`
+
+> ⚠️ If not described in the ENA table, or there is discrepency with the paper, specify: `NA`
 
 ## library_strategy
 
@@ -255,7 +268,7 @@ Library columns are as follows:
 - **Important**: check the original publication for the library strategy,
   researchers sometimes incorrectly specify this on data upload. E.g. `WGA`
   refers to a specific protocol using certain primers - not just any form of
-  amplification.
+  amplification. Therefore specify `WGS`.
 
 > ⚠️ Mandatory value
 
@@ -267,7 +280,8 @@ Library columns are as follows:
   directions)
 - Use only what is reported on SRA or ENA tables (i.e., what is physically 
   in the FASTQ files), else use the missing value.
-- Missing value: `NA`
+
+> ⚠️ If not described in the ENA table, specify: `NA`
 
 ## archive_run_accession
 
@@ -278,6 +292,7 @@ Library columns are as follows:
 - For ENA/SRA: These should be primary accession IDs to keep as close to
   data as possible (i.e. should start with `ERR` or `SRR`).
 - If non-NCBI/ENA, use as close to sequencing run-level as possible.
+  - For example, use the unique file name (without file suffix).
 
 > ⚠️ Mandatory value
 

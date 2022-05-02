@@ -6,6 +6,7 @@
     "bam_all",
     "bam_mapped",
     "fasta_contigs",
-    "fasta_consensus"
+    "fasta_consensus",
+    "fasta_mapped"
   ]
 }

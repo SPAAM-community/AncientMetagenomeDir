@@ -40,6 +40,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Removed
 
+- Removed samples of SantiagoRodriguez2016 and SantiagoRodridguez2016 as raw data is no longer publically accessible on MG-RAST
+
 ## v21.09: Taputapuātea
 
 ### Added

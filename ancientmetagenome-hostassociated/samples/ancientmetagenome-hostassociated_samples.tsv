@@ -225,13 +225,6 @@ Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-47C-SG	Homo s
 Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-47D-SG	Homo sapiens	700	10.1002/ajpa.22960	skeletal tissue	tooth	NA	SRA	PRJNA293758	SRS1052917
 Ozga2016	2016	10.1002/ajpa.22960	Norris Farms	40.23	-90.143	USA	NF-217D-SG	Homo sapiens	700	10.1002/ajpa.22960	skeletal tissue	tooth	NA	SRA	PRJNA293758	SRS1052915
 NievesColon2020	2020	10.1093/molbev/msz267	Paso del Indio	18.41	-66.33	USA	PI-420A-C	Homo sapiens	700	10.1093/molbev/msz267	oral	dental calculus	NA	SRA	PRJNA557308	SRS5211976
-SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	-13.53	-71.96	Peru	FI3	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgp13354	mgs295853
-SantiagoRodriguez2016	2016	10.1093/femsec/fiw182	Cuzco	-13.53	-71.96	Peru	FI12	Homo sapiens	600	10.1093/femsec/fiw182	gut	intestine	NA	MG-RAST	mgp13354	mgs297488
-SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD22	Homo sapiens	600	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgp13354	mgs295871
-SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD3	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgp13354	mgs295859
-SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD14	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgp13354	mgs295862
-SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD27	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgp13354	mgs295868
-SantiagoRodriguez2017	2017	10.3390/genes8110310	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD29	Homo sapiens	500	10.3390/genes8110310	gut	intestine	NA	MG-RAST	mgp13354	mgs295865
 Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, content I 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	PRJEB11511	ERS942275,ERS942266
 Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, content II 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	PRJEB11511	ERS942267,ERS942277
 Maixner2016	2016	10.1126/science.aad2545	Hauslabjoch	46.773	10.837	Italy	Iceman Stomach corpus, surface 1054	Homo sapiens	5300	10.1126/science.aad2545	gut	digestive tract contents	2010	ENA	PRJEB11511	ERS942270,ERS942274,ERS942269

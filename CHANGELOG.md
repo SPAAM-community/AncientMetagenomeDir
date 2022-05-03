@@ -35,11 +35,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed FellowsYates2021 corrected typo in longitude 85.53 > -85.53
 - Fixed Velsko2018 -> Velsko2019 (wrong publication year)
 - Fixed Schuenemann2011 Put the accession ID of the full plasmid sequence not partial
-- Removed Mendum2014 sample SK27 due to TreeBASE repository not being accessible any more
 - Fixed Martin2013 corrected archive name (incorrectly reported in publication)
 
 ### Removed
 
+- Removed Mendum2014 sample SK27 due to TreeBASE repository not being accessible any more
 - Removed samples of SantiagoRodriguez2016 and SantiagoRodridguez2016 as raw data is no longer publically accessible on MG-RAST
 
 ## v21.09: Taputapuātea

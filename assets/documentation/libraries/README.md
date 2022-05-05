@@ -77,14 +77,16 @@ Library columns are as follows:
 
 ## archive
 
-- Must correspond to the `archive` of the publication in the corresponding
-  sample metadata table!  
+- In most cases should correspond to the `archive` of the publication in the 
+  corresponding sample metadata table!  
 - The archive the library's data is stored on.
   - Should be an established long-term stable archive.
   - Generally set up academic institutions e.g. EBI or Universities (rather than
     companies, e.g. GitHub).
 - e.g. [ENA](https://www.ebi.ac.uk/ena),
   [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/).
+- In some cases this will vary, for example if there IS an ERS code, however
+  only consensus sequences are uploaded
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
@@ -167,6 +169,8 @@ Library columns are as follows:
     - [Troll et al. (2019) BMC Genomics (a.k.a. SRSLY)](https://doi.org/10.1186/.s12864-019-6355-0)
 
 > ⚠️ Must follow categories specified in `assets/enums/strand_type.json`
+
+> ⚠️ If unknown and cannot be inferred from the publication, specify `unknown`
 
 > ⚠️ Mandatory value
 

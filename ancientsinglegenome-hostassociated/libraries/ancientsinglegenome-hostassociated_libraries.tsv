@@ -1524,3 +1524,143 @@ Muhlemann2018b	2018	10.1073/pnas.1804921115	VK143	GitHub	acorg/parvo-2018	VK143	
 Muhlemann2018b	2018	10.1073/pnas.1804921115	VK154	GitHub	acorg/parvo-2018	VK154	Unknown	unspecified	double	AmpliTaq Gold DNA	unknown	Illumina HiSeq 2500	SINGLE	NA	WGS	NA	VK154-combined	fasta_mapped	https://raw.githubusercontent.com/acorg/parvo-2018/2404df9c9403fee2a7547ffe3ed697c0d072e28a/reads/combined/VK154-combined.fasta	d305c6ab14b58a5cac78311378cc2994	280817
 Muhlemann2018b	2018	10.1073/pnas.1804921115	VK477	GitHub	acorg/parvo-2018	VK477	Unknown	unspecified	double	AmpliTaq Gold DNA	unknown	Illumina HiSeq 2500	SINGLE	NA	WGS	NA	VK477-combined	fasta_mapped	https://raw.githubusercontent.com/acorg/parvo-2018/2404df9c9403fee2a7547ffe3ed697c0d072e28a/reads/combined/VK477-combined.fasta	847d8acbf85793026b8f241d27693c32	610366
 Muhlemann2018b	2018	10.1073/pnas.1804921115	VK6	GitHub	acorg/parvo-2018	VK6	Unknown	unspecified	double	AmpliTaq Gold DNA	unknown	Illumina HiSeq 2500	SINGLE	NA	WGS	NA	VK6-combined	fasta_mapped	https://raw.githubusercontent.com/acorg/parvo-2018/2404df9c9403fee2a7547ffe3ed697c0d072e28a/reads/combined/VK6-combined.fasta	5d4bb520173e0692b0e1232b7775853c	845688
+Kocher2021	2021	10.1126/science.abi5658	Alto de Rodilla	42.4	-3.5	Spain	ADR001	Homo sapiens	7100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Akbeit	48.9	74.8	Kazakhstan	AKB003	Homo sapiens	2600	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Alalakh	36.2	36.4	Turkey	ALA098	Homo sapiens	3600	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Alalakh	36.2	36.4	Turkey	ALA110	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Kaps	40.9	43.7	Armenia	ARM001	Homo sapiens	5400	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Kaps	40.9	43.7	Armenia	ARM0023	Homo sapiens	5100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Arslantepe	38.4	38.4	Turkey	ART005	Homo sapiens	5700	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Arslantepe	38.4	38.4	Turkey	ART024	Homo sapiens	5400	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Brandýs nad Labem	50.2	14.7	Czech Republic	BNL005	Homo sapiens	4100	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Boncuklu Hoyuk	37.8	32.9	Turkey	BON020	Homo sapiens	10000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Bolshoy Oleni Ostrov	69.2	33.5	Russia	BOO006	Homo sapiens	3500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Bolshoy Oleni Ostrov	69.2	33.5	Russia	BOO008	Homo sapiens	3500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Berel	49.3	85.8	Kazakhstan	BRE008	Homo sapiens	2300	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Berel	49.3	85.8	Kazakhstan	BRE026	Homo sapiens	2300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Berel	49.3	85.8	Kazakhstan	BRE028	Homo sapiens	2300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Carolinas II	23.0	-81.0	Cuba	CAA002	Homo sapiens	2300	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Canimar abajo	24.0	-81.5	Cuba	CAO009	Homo sapiens	2600	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Cueva de Chaves	42.2	-0.1	Spain	CHA003	Homo sapiens	9700	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Chotìn	47.8	18.2	Slovakia	CHT001	Homo sapiens	2100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Cueva de las Lechuzas	38.6	-0.9	Spain	CLL005	Homo sapiens	4800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Cuncaicha	-15.3	-72.6	Peru	CUN002	Homo sapiens	9000	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Derenburg	51.9	10.9	Germany	DER027	Homo sapiens	3900	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Doggerland	53.0	2.5	Netherlands	DOG007	Homo sapiens	9400	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Els Trocs	42.5	0.5	Spain	ELT005	Homo sapiens	7200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Els Trocs	42.5	0.5	Spain	ELT006	Homo sapiens	5800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Gougenheim	48.7	7.6	France	GGN005	Homo sapiens	5600	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Gurgy Les Noisats	47.9	3.6	France	GRG001	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Gurgy Les Noisats	47.9	3.6	France	GRG036	Homo sapiens	6700	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Halberstadt	51.9	11.0	Germany	HAL05	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Halberstadt	51.9	11.0	Germany	HAL15	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Hostivice-Palouky	50.1	14.3	Czech Republic	HOP004	Homo sapiens	4200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Ölsund, Hälsingland	61.6	16.4	Sweden	HSL001	Homo sapiens	4300	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Vegachayoq Moqo, Huari	-13.1	-74.2	Peru	HUA056	Homo sapiens	3300	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Vegachayoq Moqo, Huari	-13.1	-74.2	Peru	HUA063	Homo sapiens	3300	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Yuzhny Oleni Ostrov	61.7	35.7	Russia	I0061	Homo sapiens	8200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Halberstadt	51.9	11.0	Germany	I0100	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Esperstedt	51.9	11.0	Germany	I0104	Homo sapiens	4400	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Rothenschirmbach	51.5	11.5	Germany	I0111	Homo sapiens	4300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Hinxton	52.1	0.2	United Kingdom	I0157	Homo sapiens	2700	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Hinxton	52.1	0.2	United Kingdom	I0161	Homo sapiens	2700	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Oberwiederstedt-Schrammhoehe	51.7	11.5	Germany	I0162	Homo sapiens	6300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Oberwiederstedt-Schrammhoehe	51.7	11.5	Germany	I0163	Homo sapiens	6300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Latsch, Vinschgau	46.6	10.9	Italy	I0216	Homo sapiens	2600	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Latsch, Vinschgau	46.6	10.9	Italy	I0217	Homo sapiens	2600	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Els Trocs	42.5	0.5	Spain	I0411	Homo sapiens	7100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Arroyal I	42.4	-3.8	Spain	I0461	Homo sapiens	4300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Salzmuende	51.5	11.8	Germany	I0551	Homo sapiens	5100	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Salzmuende	51.5	11.8	Germany	I0554	Homo sapiens	5100	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Yunatsite	42.2	24.3	Bulgaria	I0784	Homo sapiens	6200	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Karsdorf	51.3	11.7	Germany	I0795	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Karsdorf	51.3	11.7	Germany	I0796	Homo sapiens	7100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Karsdorf	51.3	11.7	Germany	I0797	Homo sapiens	7100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Salzmuende	51.5	11.8	Germany	I0798	Homo sapiens	5100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Semikarakorsk, Donskoy	47.2	39.7	Russia	I0960	Homo sapiens	2600	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Huaca Pucllana	-12.1	-77.0	Peru	I0972	Homo sapiens	3200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Samtavro	41.9	44.7	Georgia	I1321	Homo sapiens	2000	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Verchnyaya Koban, North Ossetia	42.9	44.5	Russia	I1344	Homo sapiens	3200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Halberstadt	51.9	11.0	Germany	I2005	Homo sapiens	7100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Halberstadt	51.9	11.0	Germany	I2006	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Halberstadt	51.9	11.0	Germany	I2017	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Halberstadt	51.9	11.0	Germany	I2020	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Halberstadt	51.9	11.0	Germany	I2027	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Halberstadt	51.9	11.0	Germany	I2031	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Halberstadt	51.9	11.0	Germany	I2032	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	İkiztepe	41.6	35.9	Turkey	IKI009	Homo sapiens	5200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Is Bittuleris	39.9	9.2	Italy	ISB002	Homo sapiens	3600	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Jazikovo	57.1	38.2	Russia	JAZ001	Homo sapiens	7200	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Karanaevskiy	53.4	55.1	Russia	KAP002	Homo sapiens	4900	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Karsdorf	51.3	11.7	Germany	Karsdorf	Homo sapiens	7000	10.1126/science.abi5658	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Kabardinka	43.8	42.7	Russia	KBD002	Homo sapiens	4000	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Kudachurt	43.4	43.7	Russia	KDC001	Homo sapiens	5700	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Kamid el-Loz	33.6	35.8	Lebanon	KEL045	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Kilteasheen	54.0	-8.2	Ireland	KIL044	Homo sapiens	3100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Kleinaitingen	48.2	10.8	Germany	KLE031	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Krakauer Berg	51.8	11.7	Germany	KRA001	Homo sapiens	3200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Krakauer Berg	51.8	11.7	Germany	KRA010	Homo sapiens	3300	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Kuelap	-6.4	-77.9	Peru	KUE033	Homo sapiens	3300	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Khvalynsk	52.5	48.1	Russia	KVK001	Homo sapiens	10200	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Leubingen	51.2	11.2	Germany	LEU065	Homo sapiens	4000	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Loschbour rock shelter	49.8	6.2	Luxembourg	Loschbour	Homo sapiens	8000	10.1126/science.abi5658	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Machu Picchu	-13.2	-72.5	Peru	MAP007	Homo sapiens	3400	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Mayachnyiy bugor	47.1	47.2	Russia	MAY017	Homo sapiens	3300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Mikulovice	50.0	15.8	Czech Republic	MIB003	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Mikulovice	50.0	15.8	Czech Republic	MIB011	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Mikulovice	50.0	15.8	Czech Republic	MIB040	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Mikulovice	50.0	15.8	Czech Republic	MIB041	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Mikulovice	50.0	15.8	Czech Republic	MIS002	Homo sapiens	3900	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Maryinskaya 5	43.9	43.5	Russia	MK5004	Homo sapiens	5100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Maryinskaya 5	43.9	43.5	Russia	MK5009	Homo sapiens	4700	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Mikulovice	50.0	15.8	Czech Republic	MKL025	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Malaya Ryazan'	53.2	49.3	Russia	MLR005	Homo sapiens	3200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Minino II	59.4	39.4	Russia	MN2003	Homo sapiens	10500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Kanaljorden, Motala	58.5	15.0	Sweden	MOT001	Homo sapiens	7700	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Malonne petit Ry	50.5	4.9	Belgium	MPR001	Homo sapiens	10500	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Murzihinskiy II tomb	55.7	51.6	Russia	MUR007	Homo sapiens	6400	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Nevinnomyskiy 3	44.7	41.9	Russia	NV3001	Homo sapiens	4000	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Oakington	52.3	0.1	United Kingdom	OAI017	Homo sapiens	2500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Oberottmarshausen	48.2	10.9	Germany	OOH025	Homo sapiens	3600	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Orenburg	51.0	55.0	Russia	ORE002	Homo sapiens	2500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Prague 8 - Ďáblice	50.1	14.5	Czech Republic	PDA001	Homo sapiens	4000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Prague 8 - Ďáblice	50.1	14.5	Czech Republic	PDA003	Homo sapiens	4100	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Pendimoun	43.8	7.5	France	PEN003	Homo sapiens	7400	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Petersberg medieval cemetery	51.6	12.0	Germany	Petersberg	Homo sapiens	3000	10.1126/science.abi5658	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Purun Llacta de Soloco	-6.3	-77.7	Peru	PLS004	Homo sapiens	3500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Peñón de la Zorra	38.6	-0.9	Spain	PLZ001	Homo sapiens	3600	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Quedlinburg	51.8	11.2	Germany	QUE004	Homo sapiens	4200	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Regensburg Minoritenweg	49.0	12.1	Germany	RMI002	Homo sapiens	3300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Serra Crabiles (Sennori)	40.8	8.6	Italy	SEC006	Homo sapiens	4300	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Sedgeford	52.9	0.5	United Kingdom	SED009	Homo sapiens	2700	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Shagara	55.1	40.2	Russia	SGR003	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Shagara	55.1	40.2	Russia	SGR004	Homo sapiens	4900	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Sheksovo II	56.5	40.2	Russia	SHK001	Homo sapiens	3100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	S'isteridolzu	40.3	9.3	Italy	SID005	Homo sapiens	6000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Hospital Real de San José de los Naturales	19.4	-99.1	Mexico	SJN005	Homo sapiens	3500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Hospital Real de San José de los Naturales	19.4	-99.1	Mexico	SJN013	Homo sapiens	3400	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Stuttgart-Mühlhausen I	48.8	9.2	Germany	SMH004	Homo sapiens	7100	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Sorsum grave gallery	52.2	10.0	Germany	Sorsum	Homo sapiens	5200	10.1126/science.abi5658	virus	Hepatitis B virus	unknown	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	St. Rombout's churchyard	51.0	4.5	Belgium	STR144	Homo sapiens	3500	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Su Asedazzu	39.4	9.1	Italy	SUA002	Homo sapiens	4000	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Su Asedazzu	39.4	9.1	Italy	SUA007	Homo sapiens	3900	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Trinitapoli	41.1	16.9	Italy	TRI011	Homo sapiens	3300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Tutkaul	38.3	69.3	Tajikistan	TTK002	Homo sapiens	8200	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Yuzhny Oleni Ostrov	61.9	35.3	Russia	UOO011	Homo sapiens	8000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Yuzhny Oleni Ostrov	61.9	35.3	Russia	UOO024	Homo sapiens	8000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Yuzhny Oleni Ostrov	61.9	35.3	Russia	UOO033	Homo sapiens	8000	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Grotta dell'Uzzo	38.1	12.8	Italy	UZZ061	Homo sapiens	6700	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Grotta dell'Uzzo	38.1	12.8	Italy	UZZ075	Homo sapiens	7200	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Grotta dell'Uzzo	38.1	12.8	Italy	UZZ081	Homo sapiens	8600	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Grotta dell'Uzzo	38.1	12.8	Italy	UZZ099	Homo sapiens	5900	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Varna	43.2	27.9	Bulgaria	VAR021	Homo sapiens	6400	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Vliněves	50.4	14.4	Czech Republic	VLI016	Homo sapiens	4300	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Vliněves	50.4	14.4	Czech Republic	VLI060	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Vertaizon	45.8	3.3	France	VTZ008	Homo sapiens	6300	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Vertaizon	45.8	3.3	France	VTZ011	Homo sapiens	6600	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Wehringen-Hochfeld	48.2	10.8	Germany	WEH008	Homo sapiens	3900	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Wehringen-Hochfeld	48.2	10.8	Germany	WEH009	Homo sapiens	3800	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Wenigensömmern	51.2	11.1	Germany	WSN010	Homo sapiens	4100	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Wenigensömmern	51.2	11.1	Germany	WSN012	Homo sapiens	4100	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Yunatsite	42.2	24.3	Bulgaria	YUN048	Homo sapiens	6400	10.1126/science.abi5658	virus	Hepatitis B virus	bone	chromosome	NA	ENA	raw	PRJEB45699	ERP129839
+Kocher2021	2021	10.1126/science.abi5658	Zweisimmen Kirchgasse	46.6	7.4	Switzerland	ZWE008	Homo sapiens	3300	10.1126/science.abi5658	virus	Hepatitis B virus	tooth	chromosome	NA	ENA	raw	PRJEB45699	ERP129839

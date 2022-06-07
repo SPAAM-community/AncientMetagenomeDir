@@ -17,6 +17,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Granehäll 2021 10.1186/s40168-021-01132-8
+
 #### Ancient Metagenome: Environmental
 
 #### Ancient Metagenome: Anthropogenic

@@ -17,6 +17,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Rascovan 2019 10.1016/j.cell.2018.11.005
+
 #### Ancient Metagenome: Environmental
 
 #### Ancient Metagenome: Anthropogenic

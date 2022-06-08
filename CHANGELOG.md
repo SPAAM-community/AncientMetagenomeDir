@@ -13,8 +13,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Granehäll 2021 10.1186/s40168-021-01132-8
 - Maixner 2021 10.1016/j.cub.2021.09.031
+- Kazarina 2021b 10.1016/j.jasrep.2021.103213
 
 #### Ancient Single Genome: Host Associated
+
+- Rascovan 2019 10.1016/j.cell.2018.11.005
 
 #### Ancient Metagenome: Environmental
 
@@ -30,8 +33,16 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Kazarina2021 Project/Sample accessions (column flip error)
 - Fixed Morozova2020 DOIs (excel dragging error)
 - Fixed Bieker2020 DOIs (paper partly reused previous data for new purpose and earlier had the other publication DOI. Now made all DOIs and dates consistent for the publication where metagenomics was performed)
+- Fixed Muhlemann2018 Project ID (now available)
+- Fixed FellowsYates2021 corrected typo in longitude 85.53 > -85.53
+- Fixed Velsko2018 -> Velsko2019 (wrong publication year)
+- Fixed Schuenemann2011 Put the accession ID of the full plasmid sequence not partial
+- Fixed Martin2013 corrected archive name (incorrectly reported in publication)
 
 ### Removed
+
+- Removed Mendum2014 sample SK27 due to TreeBASE repository not being accessible any more
+- Removed samples of SantiagoRodriguez2016 and SantiagoRodridguez2016 as raw data is no longer publically accessible on MG-RAST
 
 ## v21.09: Taputapuātea
 

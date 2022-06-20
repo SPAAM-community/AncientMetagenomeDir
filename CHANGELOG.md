@@ -14,8 +14,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Granehäll 2021 10.1186/s40168-021-01132-8
 - Maixner 2021 10.1016/j.cub.2021.09.031
 - Kazarina 2021b 10.1016/j.jasrep.2021.103213
+- Andrades Valtueña 2022 10.1073/pnas.2116722119
 
 #### Ancient Single Genome: Host Associated
+
+- Rascovan 2019 10.1016/j.cell.2018.11.005
 
 #### Ancient Metagenome: Environmental
 

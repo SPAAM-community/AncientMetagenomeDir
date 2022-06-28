@@ -42,6 +42,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Schuenemann2011 Put the accession ID of the full plasmid sequence not partial
 - Fixed Martin2013 corrected archive name (incorrectly reported in publication)
 - Fixed Seersholm2016 archive ENA (from incorrectly specified as SRA)
+- Corrected Vagene2018 polymerase typo
 
 ### Removed
 

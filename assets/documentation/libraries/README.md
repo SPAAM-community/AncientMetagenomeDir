@@ -286,7 +286,7 @@ Library columns are as follows:
 
 ## archive_data_accession
 
-- Should be a single `run` accession ID for each library.
+- Should be a single `run` or genome-level consensus sequence accession ID for each library.
   - A library may have multiple accessions, in which case specify one line per
     run accession and duplicate metadata accordingly (updating `library_name`
     and other metadata where necessary)

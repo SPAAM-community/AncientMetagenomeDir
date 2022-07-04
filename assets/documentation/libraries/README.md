@@ -28,12 +28,12 @@ Library columns are as follows:
 ## project_name
 
 - Must correspond to a `project_name` in the corresponding sample metadata
-  table!  
+  table!
 - Format: surnameYYYY (YYYY in numeric format)
 - Due to restrictions in regex (used for validation checks), **punctuation (e.g.
   hyphens or spaces) or characters with accents cannot be used**.
   - Use the non-accented version.
-  - If the first author has multiple or hyphenated surnames,  write them all
+  - If the first author has multiple or hyphenated surnames, write them all
     together capitalising each surname.
 - If a same author/year combination already exists, please append a single lower
   case character (b,c,d etc.) to the key.
@@ -42,22 +42,22 @@ Library columns are as follows:
   - e.g. Muhlemann2018 (original), Muhlemann2018b (first duplicate),
     Muhlemann2018c (second duplicate) etc.
 
-> ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field  
+> ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field
 
-> ⚠️ Mandatory value  
+> ⚠️ Mandatory value
 
 ## publication_year
 
 - Must correspond to the `publication_year` of the publication in the
-  corresponding sample metadata table!  
+  corresponding sample metadata table!
 - YYYY format.
 
-> ⚠️ Mandatory value  
+> ⚠️ Mandatory value
 
-## publication_doi
+## data_publication_doi
 
 - Must correspond to the `publication_doi` of the publication in the
-  corresponding sample metadata table!  
+  corresponding sample metadata table!
 - Publication DOI.
 - Or library permalink:
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
@@ -71,14 +71,14 @@ Library columns are as follows:
   sample metadata table, but CAN be different when mismatches occur (e.g.
   collection ID vs publication ID).
 - Unique identifier for that sample as used in publication.
-  - In most cases this should be the name of the host *individual*.
+  - In most cases this should be the name of the host _individual_.
 
 > ⚠️ Mandatory value
 
 ## archive
 
-- In most cases should correspond to the `archive` of the publication in the 
-  corresponding sample metadata table!  
+- In most cases should correspond to the `archive` of the publication in the
+  corresponding sample metadata table!
 - The archive the library's data is stored on.
   - Should be an established long-term stable archive.
   - Generally set up academic institutions e.g. EBI or Universities (rather than
@@ -90,7 +90,7 @@ Library columns are as follows:
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-> ⚠️ Mandatory value  
+> ⚠️ Mandatory value
 
 ## archive_project
 
@@ -99,6 +99,7 @@ Library columns are as follows:
 - A project level accession code under which all libraries of a project are
   assigned to.
 - Specific examples:
+
   - Archive: ENA/SRA/DDBJ: should be _primary_ accession code beginning with
     `PRJ`. [Example](https://www.ebi.ac.uk/ena/browser/view/PRJNA438985).
   - Archive: MG-RAST: should be accession code beginning with `mgp`.
@@ -115,29 +116,11 @@ Library columns are as follows:
   data as possible (e.g. SRS, ERS, not SAMEA - see below).
 - If non-NCBI/ENA, use as close to sample-level as possible.
   - e.g. when different extracts of one sample incorrectly uploaded as samples.
-  - For GenBank consensus sequences: if the ENA/SRA sample accession ID does 
+  - For GenBank consensus sequences: if the ENA/SRA sample accession ID does
     not exist, reuse the GenBank sequence ID for both sample and run accessions.
     However always where possible prefer ENA/SRA secondary accession IDs.
 
-> ⚠️ Mandatory value  
-
-## sequencing_center
-
-- Name of the sequencing center of the library **as reported in ENA/SRA table**.
-- Check for existing names in `assets/enums/sequencing_center.json`, and reuse
-  existing categories when name on ENA/SRA table is only slightly different.
-- If discrepency between the article and the sequencing center, revert to `Unknown`.
-- If it is an unidentifiable ID, e.g. begins with `SUB<numbers>`, specify as
-  `Unknown`.
-- If you do find a missing centre name or a `SUB<numbers>` ID you can sometimes 
-  also find the centre name in the summary header information _above_ the ENA 
-  table of the given proejct 
-
-> ⚠️ Must follow categories specified in
-> `assets/enums/sequencing_center.json`
-
-> ⚠️ If unknown and cannot be inferred from the publication, specify
-> `Unknown`
+> ⚠️ Mandatory value
 
 ## library_name
 
@@ -149,11 +132,11 @@ Library columns are as follows:
 - If no library name is reported on the ENA/SRA, list as `unspecified`.
 - Replace any spaces with underscores.
 - ⚠️ in some cases sequencing centers will assign different library_ids
-   for libraries sequenced multiple times (e.g. across different machines).
+  for libraries sequenced multiple times (e.g. across different machines).
   - Check a publication's methods and/or supplementary information for whether
-  you should use the common part of two sequence runs as the library id.
+    you should use the common part of two sequence runs as the library id.
   - For example: KNP001.A0101 and KNP001.A0101.161208, or PES001.B0101 and PES001.B0103.SG1.1,
-  are both
+    are both
 
 ## strand_type
 
@@ -179,7 +162,7 @@ Library columns are as follows:
 - Name of the polymerase used for indexing amplification
   - I.e., only report polymerases used **after** adapter fill in, and during the
     (initial) indexing PCR amplification
-- The name of the polymerase (as in the enum) should be as listed on the 
+- The name of the polymerase (as in the enum) should be as listed on the
   manufacturers website
 - Polymerase selection will influence whether damage will be visible enough.
   - This is due to differences between proof-reading and non-proofreading (i.e.
@@ -187,7 +170,7 @@ Library columns are as follows:
     uracils. See [Warinner et al. (2014) Nature
     Genetics](https://doi.org/10.1038/ng.2906) SI section 6.2.1 for more
     information.
-- If not directly specified in the manuscript, it is OK to take this from a 
+- If not directly specified in the manuscript, it is OK to take this from a
   primary source protocol if referenced (e.g. if 'libraries prepared as described in Meyer
   and Kircher', use polymerase cited there. If you go down a citation chain,
   'as in X, as in Y, as in Z', specify `Unknown`.
@@ -201,10 +184,10 @@ Library columns are as follows:
 ## library_treatment
 
 - Type of damage-removal treatment that may have been performed on the libraries.
-  - When performed, typically via partial- or full- USER or UDG  treatment.
+  - When performed, typically via partial- or full- USER or UDG treatment.
   - If no treatment performed, indicate as `none`.
   - If in doubt, or different treated libraries are merged into one FASTQ/BAM file, record as `Unknown`.
-  
+
 > ⚠️ Must follow categories specified in
 > `assets/enums/library_treatment.json`
 
@@ -245,17 +228,6 @@ Library columns are as follows:
 
 > ⚠️ Mandatory value
 
-## sequencing_cycles
-
-- The number of base pairs that the sequencing chemistry consisted of in _one_.
-  direction.
-- Often equivalent to the maximum length of unprocessed reads in a FASTQ file.
-- For Illumina,
-  [typically](https://support.illumina.com/bulletins/2016/10/how-many-cycles-of-sbs-chemistry-are-in-my-kit.html)
-  something like: 50, 75, 100, 150, depending on the machine.
-
-> ⚠️ If not described in the ENA table, or there is discrepency with the paper, specify: `NA`
-
 ## library_strategy
 
 - How the library was sequenced, i.e. whether shotgun sequenced or enriched or
@@ -278,14 +250,14 @@ Library columns are as follows:
   reads in FASTQ fils
 - For paired end libraries, count pairs (should be same number for both
   directions)
-- Use only what is reported on SRA or ENA tables (i.e., what is physically 
+- Use only what is reported on SRA or ENA tables (i.e., what is physically
   in the FASTQ files), else use the missing value.
 
 > ⚠️ If not described in the ENA table, specify: `NA`
 
-## archive_run_accession
+## archive_data_accession
 
-- Should be a single `run` accession ID for each library.
+- Should be a single `run` or genome-level consensus sequence accession ID for each library.
   - A library may have multiple accessions, in which case specify one line per
     run accession and duplicate metadata accordingly (updating `library_name`
     and other metadata where necessary)
@@ -321,11 +293,12 @@ Library columns are as follows:
 - MD5 checksums of corresponding download files,
 - This allows you to check for data integrity of downloaded files by comparing
   the checksum of your file with the one on the server they were downloaded from
+
   - For Linux or OSX, can be generated with
 
-      ```bash
-      md5sum <file>.fastq.gz
-      ```
+    ```bash
+    md5sum <file>.fastq.gz
+    ```
 
 - Can be semi-colon separated list for paired end.
 

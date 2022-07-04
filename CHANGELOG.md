@@ -14,13 +14,13 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Granehäll 2021 10.1186/s40168-021-01132-8
 - Maixner 2021 10.1016/j.cub.2021.09.031
 - Kazarina 2021b 10.1016/j.jasrep.2021.103213
-- Andrades Valtueña 2022 10.1073/pnas.2116722119
 
 #### Ancient Single Genome: Host Associated
 
-- Rascovan 2019 10.1016/j.cell.2018.11.005
 - Granehäll 2021 10.1186/s40168-021-01132-8
 - Pfrengle 2021 10.1186/s12915-021-01120-2
+- Kocher 2021 10.1126/science.abi5658
+- Andrades Valtueña 2022 10.1073/pnas.2116722119
 
 #### Ancient Metagenome: Environmental
 
@@ -32,6 +32,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Removed 'sampling date' columns from host-associated metagenome and single-genome sample tables as this is almost never reported
 - Fixed Susat2021 DOIs (excel dragging error)
 - Fixed Kazarina2021 Project/Sample accessions (column flip error)
 - Fixed Morozova2020 DOIs (excel dragging error)
@@ -43,6 +44,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Martin2013 corrected archive name (incorrectly reported in publication)
 - Fixed Seersholm2016 archive ENA (from incorrectly specified as SRA)
 - Fixed Vagene2018 polymerase typo
+- Fixed Eisenhofer2020 date rounding error (originally added 230 rather than 200)
+- Fixed typo in BravoLopez2020 site name (Inmaculate -> Immaculate)
 
 ### Removed
 

@@ -32,6 +32,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Removed 'sampling date' columns from host-associated metagenome and single-genome sample tables as this is almost never reported
 - Fixed Susat2021 DOIs (excel dragging error)
 - Fixed Kazarina2021 Project/Sample accessions (column flip error)
 - Fixed Morozova2020 DOIs (excel dragging error)

@@ -1,264 +1,190 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_samples_schema.json",
-    "type": "array",
-    "title": "JSON schema for AncientMetagenomeDir single ancient microbial genome data",
-    "description": "The JSON schema for AncientMetagenomeDir single ancient microbial genome data",
-    "additionalItems": false,
-    "items": {
-        "$id": "#/items",
-        "type": "object",
-        "title": "The items schema",
-        "description": "An explanation about the purpose of this instance.",
-        "default": {},
-        "required": [
-            "project_name",
-            "publication_year",
-            "publication_doi",
-            "site_name",
-            "latitude",
-            "longitude",
-            "geo_loc_name",
-            "sample_name",
-            "sample_host",
-            "sample_age",
-            "sample_age_doi",
-            "singlegenome_domain",
-            "singlegenome_species",
-            "material",
-            "genome_type",
-            "sampling_date",
-            "archive",
-            "data_type",
-            "archive_project",
-            "archive_accession"
-        ],
-        "properties": {
-            "project_name": {
-                "$id": "#/items/properties/project_name",
-                "type": "string",
-                "title": "AncientMetagenomeDir key of the publication",
-                "description": "Format: surnameYYYY (if duplicate key but different publication, add b,c,d etc. as necessary)",
-                "pattern": "^[a-zA-Z]+\\d{4}[b-z]?$",
-                "examples": [
-                    "Warinner2014",
-                    "Muhlemann2018",
-                    "Muhlemann2018a"
-                ]
-            },
-            "publication_year": {
-                "$id": "#/items/properties/publication_year",
-                "type": "integer",
-                "minimum": 1950,
-                "maximum": 2100,
-                "title": "Year of publication",
-                "description": "Format: YYYY",
-                "examples": [
-                    2014
-                ]
-            },
-            "publication_doi": {
-                "$id": "#/items/properties/publication_doi",
-                "type": "string",
-                "pattern": "^10.\\d{4,9}\\/[^,]+$",
-                "title": "Digital Object Identifier (DOI) of the publication",
-                "description": "A valid DOI code (not as an URL)",
-                "examples": [
-                    "10.1038/ng.2906"
-                ]
-            },
-            "site_name": {
-                "$id": "#/items/properties/site_name",
-                "type": "string",
-                "title": "The site_name schema",
-                "description": "Name of the site as reported in the publication",
-                "examples": [
-                    "Dalheim"
-                ]
-            },
-            "latitude": {
-                "$id": "#/items/properties/latitude",
-                "type": [
-                    "number",
-                    "null"
-                ],
-                "minimum": -90,
-                "maximum": 90,
-                "title": "Latitude",
-                "description": "WGS 84 Latitude Ranges between -90 and 90 (e.g. as used in Google Maps)",
-                "examples": [
-                    51.565
-                ]
-            },
-            "longitude": {
-                "$id": "#/items/properties/longitude",
-                "type": [
-                    "number",
-                    "null"
-                ],
-                "minimum": -180,
-                "maximum": 180,
-                "title": "Longitude",
-                "description": "WGS 84 Longitude Ranges between -180 and 180 (e.g. as used in Google Maps)",
-                "examples": [
-                    8.84
-                ]
-            },
-            "geo_loc_name": {
-                "$id": "#/items/properties/geo_loc_name",
-                "type": "string",
-                "title": "Country name",
-                "description": "Based on modern day definitions, based on INDSC Country list",
-                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/geo_loc_name.json",
-                "examples": [
-                    "Germany"
-                ]
-            },
-            "sample_name": {
-                "$id": "#/items/properties/sample_name",
-                "type": "string",
-                "title": "Name of the sample",
-                "description": "In most cases this should be the name of the host individual",
-                "examples": [
-                    "B61"
-                ]
-            },
-            "sample_host": {
-                "$id": "#/items/properties/sample_host",
-                "type": "string",
-                "title": "Latin name of the host species",
-                "description": "Linnean latin name, follows NCBI taxonomy where possible",
-                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/sample_host.json",
-                "examples": [
-                    "Homo sapiens"
-                ]
-            },
-            "sample_age": {
-                "$id": "#/items/properties/sample_age",
-                "type": "integer",
-                "minimum": 100,
-                "title": "Age of the sample, BP",
-                "description": "Age of the sample in year before present (BP 1950), to the closest century",
-                "examples": [
-                    900
-                ]
-            },
-            "sample_age_doi": {
-                "$id": "#/items/properties/sample_age_doi",
-                "type": [
-                    "string",
-                    "null"
-                ],
-                "pattern": "^10.\\d{4,9}\\/[^,]+$",
-                "title": "Digital Object Identifier (DOI) of the sample dating publication",
-                "description": "A valid DOI code (not as an URL)",
-                "examples": [
-                    "10.1038/ng.2906"
-                ]
-            },
-            "singlegenome_domain": {
-                "$id": "#/items/properties/singlegenome_domain",
-                "type": "string",
-                "title": "Domain of the microbial species",
-                "description": "Taxonomic domain (or equvilient) that the the microbial species is derived from",
-                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/singlegenome_domain.json",
-                "examples": [
-                    "bacteria"
-                ]
-            },
-            "singlegenome_species": {
-                "$id": "#/items/properties/singlegenome_species",
-                "type": "string",
-                "title": "Latin name of the microbiome species",
-                "description": "Linnean latin name, follows NCBI taxonomy where possible",
-                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/singlegenome_species.json",
-                "examples": [
-                    "Homo sapiens"
-                ]
-            },
-            "material": {
-                "$id": "#/items/properties/material",
-                "type": "string",
-                "title": "Type of microbiome material",
-                "description": "Sample type DNA was extracted from ",
-                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/material.json",
-                "examples": [
-                    "dental calculus"
-                ]
-            },
-            "genome_type": {
-                "$id": "#items/properties/genome_type",
-                "type": "string",
-                "title": "Genome Type Reconstructed",
-                "description": "Type of genome reconstructed from data including other genome components",
-                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/genome_type.json",
-                "examples": [
-                    "chromosome",
-                    "organelle"
-                ]
-            },
-            "sampling_date": {
-                "$id": "#/items/properties/sampling_date",
-                "type": [
-                    "integer",
-                    "null"
-                ],
-                "minimum": 1700,
-                "maximum": 2100,
-                "title": "Year of sampling event for DNA analysis",
-                "description": "Year of sampling event for DNA analysis in YYYY format",
-                "examples": [
-                    2012
-                ]
-            },
-            "archive": {
-                "$id": "#/items/properties/archive",
-                "type": "string",
-                "title": "Archiving platform",
-                "description": "Name of the nucleotide data archiving platform",
-                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/archive.json",
-                "examples": [
-                    "ENA"
-                ]
-            },
-            "data_type": {
-                "$id": "#items/properties/data_type",
-                "type": "string",
-                "title": "Avaliable data types",
-                "description": "Types of accessible data via accession",
-                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/data_type.json",
-                "examples": [
-                    "raw",
-                    "consensus",
-                    "assembly,binned_mag"
-                ]
-            },
-            "archive_project": {
-                "$id": "#/items/properties/archive_project",
-                "type": [
-                    "string",
-                    "null"
-                ],
-                "title": "Archive project accession platform",
-                "description": "Name of the nucleotide data archiving platform",
-                "examples": [
-                    "PRJNA438985",
-                    "mgp13354"
-                ]
-            },
-            "archive_accession": {
-                "$id": "#/items/properties/archive_accession",
-                "type": [
-                    "string",
-                    "null"
-                ],
-                "pattern": "^[\\S]+$",
-                "title": "Archive accession number",
-                "description": "Samples archive accession numbers, multiple records can be separated with commas. No spaces allowed",
-                "examples": [
-                    "SRS473742,SRS473743,SRS473744,SRS473745"
-                ]
-            }
-        }
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_samples_schema.json",
+  "type": "array",
+  "title": "JSON schema for AncientMetagenomeDir single ancient microbial genome data",
+  "description": "The JSON schema for AncientMetagenomeDir single ancient microbial genome data",
+  "additionalItems": false,
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The items schema",
+    "description": "An explanation about the purpose of this instance.",
+    "default": {},
+    "required": [
+      "project_name",
+      "publication_year",
+      "publication_doi",
+      "site_name",
+      "latitude",
+      "longitude",
+      "geo_loc_name",
+      "sample_name",
+      "sample_host",
+      "sample_age",
+      "sample_age_doi",
+      "singlegenome_domain",
+      "singlegenome_species",
+      "material",
+      "genome_type",
+      "archive",
+      "data_type",
+      "archive_project",
+      "archive_accession"
+    ],
+    "properties": {
+      "project_name": {
+        "$id": "#/items/properties/project_name",
+        "type": "string",
+        "title": "AncientMetagenomeDir key of the publication",
+        "description": "Format: surnameYYYY (if duplicate key but different publication, add b,c,d etc. as necessary)",
+        "pattern": "^[a-zA-Z]+\\d{4}[b-z]?$",
+        "examples": ["Warinner2014", "Muhlemann2018", "Muhlemann2018a"]
+      },
+      "publication_year": {
+        "$id": "#/items/properties/publication_year",
+        "type": "integer",
+        "minimum": 1950,
+        "maximum": 2100,
+        "title": "Year of publication",
+        "description": "Format: YYYY",
+        "examples": [2014]
+      },
+      "publication_doi": {
+        "$id": "#/items/properties/publication_doi",
+        "type": "string",
+        "pattern": "^10.\\d{4,9}\\/[^,]+$",
+        "title": "Digital Object Identifier (DOI) of the publication",
+        "description": "A valid DOI code (not as an URL)",
+        "examples": ["10.1038/ng.2906"]
+      },
+      "site_name": {
+        "$id": "#/items/properties/site_name",
+        "type": "string",
+        "title": "The site_name schema",
+        "description": "Name of the site as reported in the publication",
+        "examples": ["Dalheim"]
+      },
+      "latitude": {
+        "$id": "#/items/properties/latitude",
+        "type": ["number", "null"],
+        "minimum": -90,
+        "maximum": 90,
+        "title": "Latitude",
+        "description": "WGS 84 Latitude Ranges between -90 and 90 (e.g. as used in Google Maps)",
+        "examples": [51.565]
+      },
+      "longitude": {
+        "$id": "#/items/properties/longitude",
+        "type": ["number", "null"],
+        "minimum": -180,
+        "maximum": 180,
+        "title": "Longitude",
+        "description": "WGS 84 Longitude Ranges between -180 and 180 (e.g. as used in Google Maps)",
+        "examples": [8.84]
+      },
+      "geo_loc_name": {
+        "$id": "#/items/properties/geo_loc_name",
+        "type": "string",
+        "title": "Country name",
+        "description": "Based on modern day definitions, based on INDSC Country list",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/geo_loc_name.json",
+        "examples": ["Germany"]
+      },
+      "sample_name": {
+        "$id": "#/items/properties/sample_name",
+        "type": "string",
+        "title": "Name of the sample",
+        "description": "In most cases this should be the name of the host individual",
+        "examples": ["B61"]
+      },
+      "sample_host": {
+        "$id": "#/items/properties/sample_host",
+        "type": "string",
+        "title": "Latin name of the host species",
+        "description": "Linnean latin name, follows NCBI taxonomy where possible",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/sample_host.json",
+        "examples": ["Homo sapiens"]
+      },
+      "sample_age": {
+        "$id": "#/items/properties/sample_age",
+        "type": "integer",
+        "minimum": 100,
+        "title": "Age of the sample, BP",
+        "description": "Age of the sample in year before present (BP 1950), to the closest century",
+        "examples": [900]
+      },
+      "sample_age_doi": {
+        "$id": "#/items/properties/sample_age_doi",
+        "type": ["string", "null"],
+        "pattern": "^10.\\d{4,9}\\/[^,]+$",
+        "title": "Digital Object Identifier (DOI) of the sample dating publication",
+        "description": "A valid DOI code (not as an URL)",
+        "examples": ["10.1038/ng.2906"]
+      },
+      "singlegenome_domain": {
+        "$id": "#/items/properties/singlegenome_domain",
+        "type": "string",
+        "title": "Domain of the microbial species",
+        "description": "Taxonomic domain (or equvilient) that the the microbial species is derived from",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/singlegenome_domain.json",
+        "examples": ["bacteria"]
+      },
+      "singlegenome_species": {
+        "$id": "#/items/properties/singlegenome_species",
+        "type": "string",
+        "title": "Latin name of the microbiome species",
+        "description": "Linnean latin name, follows NCBI taxonomy where possible",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/singlegenome_species.json",
+        "examples": ["Homo sapiens"]
+      },
+      "material": {
+        "$id": "#/items/properties/material",
+        "type": "string",
+        "title": "Type of microbiome material",
+        "description": "Sample type DNA was extracted from ",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/material.json",
+        "examples": ["dental calculus"]
+      },
+      "genome_type": {
+        "$id": "#items/properties/genome_type",
+        "type": "string",
+        "title": "Genome Type Reconstructed",
+        "description": "Type of genome reconstructed from data including other genome components",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/genome_type.json",
+        "examples": ["chromosome", "organelle"]
+      },
+      "archive": {
+        "$id": "#/items/properties/archive",
+        "type": "string",
+        "title": "Archiving platform",
+        "description": "Name of the nucleotide data archiving platform",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/archive.json",
+        "examples": ["ENA"]
+      },
+      "data_type": {
+        "$id": "#items/properties/data_type",
+        "type": "string",
+        "title": "Avaliable data types",
+        "description": "Types of accessible data via accession",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/data_type.json",
+        "examples": ["raw", "consensus", "assembly,binned_mag"]
+      },
+      "archive_project": {
+        "$id": "#/items/properties/archive_project",
+        "type": ["string", "null"],
+        "title": "Archive project accession platform",
+        "description": "Name of the nucleotide data archiving platform",
+        "examples": ["PRJNA438985", "mgp13354"]
+      },
+      "archive_accession": {
+        "$id": "#/items/properties/archive_accession",
+        "type": ["string", "null"],
+        "pattern": "^[\\S]+$",
+        "title": "Archive accession number",
+        "description": "Samples archive accession numbers, multiple records can be separated with commas. No spaces allowed",
+        "examples": ["SRS473742,SRS473743,SRS473744,SRS473745"]
+      }
     }
+  }
 }

@@ -2,7 +2,8 @@
 <img src="assets/images/spaam-AncientMetagenomeDir_socialmedia.png" width=50% >
 <p/>
 
-----
+---
+
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833)
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
@@ -21,11 +22,11 @@ development of the field of ancient metagenomics over time.
 - [Usage](#usage)
 - [Citation](#citation)
 - [Current Status](#current-status)
-  - [Interactive map](#interactive-map)
+	- [Interactive map](#interactive-map)
 - [Contributing](#contributing)
-  - [Own Publications](#own-publications)
-  - [Previous Publications](#previous-publications)
-  - [Guidelines and Conventions](#guidelines-and-conventions)
+	- [Own Publications](#own-publications)
+	- [Previous Publications](#previous-publications)
+	- [Guidelines and Conventions](#guidelines-and-conventions)
 
 <!-- /TOC -->
 
@@ -70,15 +71,15 @@ To download the latest _stable_ release of an AncientMetagenomeDir sample list:
 To download the _bleeding edge_ AncientMetagenomeDir sample list:
 
 1. Right click on one of the following URLs:
-    - Ancient single genome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
-    - Ancient metagenome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv)
-    - Ancient metagenome - environmental [Samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-environmental/ancientmetagenome-environmental.tsv)
+   - Ancient single genome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv)
+   - Ancient metagenome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv)
+   - Ancient metagenome - environmental [Samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-environmental/ancientmetagenome-environmental.tsv)
 2. Press 'Save Link as' and save. The file name should end in `.tsv`.
-3. Open the resulting `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R). 
+3. Open the resulting `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R).
 
 ⚠️ the TSV files in the repository represent the cutting-edge version, and are subject to change, please use the files in the 'releases' section for when using for reproducible science!
 
-:heavy_check_mark: For some spreadsheet software copy>paste of the raw format directly into a spreadsheet of the _contents_ of the links above can work, if not, follow instructions above.
+:heavy*check_mark: For some spreadsheet software copy>paste of the raw format directly into a spreadsheet of the \_contents* of the links above can work, if not, follow instructions above.
 
 ## Citation
 
@@ -93,9 +94,9 @@ Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Vels
 ⚠️ you must also cite each paper you use data from, citing AncientMetagenomeDir is not sufficient on it's own!
 
 > The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore
-provides no warranty or completeness or accuracy of the data. If in doubt, refer
-to the original publication of a given sample. Corrections are accepted, and thus later
-versions may have different values.
+> provides no warranty or completeness or accuracy of the data. If in doubt, refer
+> to the original publication of a given sample. Corrections are accepted, and thus later
+> versions may have different values.
 
 ## Current Status
 
@@ -110,11 +111,11 @@ Vector (`.svg`) versions of all images and interactive map (`.geo.json`) are ava
 
 ### Interactive map
 
-[AncientMetagenomeDir](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/analysis/live/ancientmetagenomedir.geo.json ':include :type=iframe width=100% height=400px')  
+[AncientMetagenomeDir](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/analysis/live/ancientmetagenomedir.geo.json ":include :type=iframe width=100% height=400px")
 
-**Legend:** Yellow: Anthropogenic Metagenome, 
-Green: Environmental Metagenome, 
-Light Blue: Host Associated Metagenome, 
+**Legend:**
+Green: Environmental Metagenome,
+Light Blue: Host Associated Metagenome,
 Pink: Host Associated Single Genome
 
 ## Contributing
@@ -123,14 +124,14 @@ If you are not familiar with Git(Hub), quick start step-by-step guides can be fo
 the following:
 
 - Adding samples to a list via pull request [here](https://hackmd.io/@jfy133/H19kmDalw#/) or in PDF format
-[here](https://github.com/spaam-community/AncientMetagenomeDir/raw/master/assets/intro_to_github_and_ancientmetagenomedir.pdf)
+  [here](https://github.com/spaam-community/AncientMetagenomeDir/raw/master/assets/intro_to_github_and_ancientmetagenomedir.pdf)
 - Performing a pull request _review_ [here](https://hackmd.io/@jfy133/B156Z2mfP) or in PDF format [here](https://github.com/spaam-community/AncientMetagenomeDir/raw/master/assets/intro_to_ancientmetagenomedir_github_pull_request_review.pdf)
 
 More detailed versions with more tips and tricks can be seen on our wiki:
 
 - [Adding samples via pull request](https://github.com/spaam-community/AncientMetagenomeDir/wiki/Adding-a-Publication:-Step-by-Step-Guide)
 
-Samples must be from *published* studies, and should only include *sample* level
+Samples must be from _published_ studies, and should only include _sample_ level
 information. Preprints often have not made data avaliable at this point, and we make
 the **assumption** that peer-review has correctly evaluated any submitted metagenome is
 valid. Included papers should generally have uploaded their own data, however in certain
@@ -141,7 +142,7 @@ Samples must also have been accessible on public databases (e.g. [EBI
 ENA](https://www.ebi.ac.uk/ena) or [NCBI
 SRA](https://www.ncbi.nlm.nih.gov/sra)).
 
-> Important: we do not currently record *sequencing data* information, due to
+> Important: we do not currently record _sequencing data_ information, due to
 > different uploading strategies by different groups.
 
 ### Own Publications

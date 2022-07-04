@@ -5,7 +5,6 @@
 This page describes columns definitions for all sample-level lists. Icons indicate columns
 that are specific to specific columns.
 
-- 🏺: anthropogenic ancient metagenomes
 - 🏞: environmental ancient metagenomes
 - 🧫: host-associated ancient metagenomes
 - 🦠: host-associated ancient single genomes
@@ -32,7 +31,7 @@ Sample columns are as follows:
 - Due to restrictions in regex (used for validation checks), **punctuation (e.g.
   hyphens or spaces) or characters with accents cannot be used**.
   - Use the non-accented version (e.g. ã or ä become a).
-  - If the first author has multiple or hyphenated surnames,  write them all
+  - If the first author has multiple or hyphenated surnames, write them all
     together capitalising each surname.
 - If a same author/year combination already exists, please append a single lower
   case character (b,c,d etc.) to the key.
@@ -41,7 +40,7 @@ Sample columns are as follows:
   - e.g. Muhlemann2018 (original), Muhlemann2018b (first duplicate),
     Muhlemann2018c (second duplicate) etc.
 
-> ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field  
+> ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field
 
 > ⚠️ Mandatory value
 
@@ -92,9 +91,9 @@ Sample columns are as follows:
 - Must be based on [INDSC Country list](http://www.insdc.org/country.html)
 - Missing name: `Unknown`
 
-> ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field  
+> ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field
 
-> ⚠️ Must follow categories specified in `assets/enums/<column>.json`  
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
 > ⚠️ Mandatory value
 
@@ -131,11 +130,11 @@ Sample columns are as follows:
 ## sample_name
 
 - Unique identifier for that sample as used in publication
-  - In most cases this should be the name of the host *individual* (for host-associated samples)
+  - In most cases this should be the name of the host _individual_ (for host-associated samples)
   - If samples are referred to by multiple names, use the most informative
   - For environmental samples: if samples cannot be **directly** linked to data files by any names in the publication, generate names in the format e.g. [sequence]\_[depth]\_[original_name]
 
-> ⚠️ Mandatory value  
+> ⚠️ Mandatory value
 
 ## sample_host
 
@@ -149,14 +148,17 @@ Sample columns are as follows:
 ## sample_age
 
 - In Before Present (BP) format i.e. since 1950 AD
+
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
 
 - Radiocarbon dates
+
   - Uncalibrated dates are preferred, but if only calibrated reported can be
     used
 
 - Single date rounded to nearest century (i.e. end in '00')
+
   - For samples more recent than 1850, the age should be assigned as 100
   - e.g. something only 50 years old would be assigned as 100
   - Therefore the minimum age possible is 100!
@@ -164,12 +166,14 @@ Sample columns are as follows:
 - In most cases, report the date in the publication of the given sample, even if
   the date is from an older publication (we assume the original citation can be
   found by looking at submitted article). _However_:
+
   - If a more recent and accurate date has been published this can be used!
   - Ensure to also update `sample_age_doi`
 
 - If date _ranges_ reported, take approximate mid-point
 - Dates for specific individual preferred.
 - Proxy dates are allowed. e.g.
+
   - from other individuals in stratum/burial
   - period of occupation of site
   - via coin or historical records
@@ -177,7 +181,7 @@ Sample columns are as follows:
 - For environmental metagenomes (sediment only):
   - If a layer is not directly dated, 'inferred' ages are allowed if there are at least two direct dates in the relevant sequence
 
-> ⚠️ Mandatory value  
+> ⚠️ Mandatory value
 
 ## sample_age_doi
 
@@ -199,11 +203,11 @@ Sample columns are as follows:
   - e.g. midden, cave, ocean, lake, archeological site
 
 > ⚠️ partly [MIxS v5](https://gensc.org/mixs/) compliant field, following
-> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)  
+> [Environment Ontology](http://www.environmentontology.org/Browse-EnvO)
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-> ⚠️ Mandatory value  
+> ⚠️ Mandatory value
 
 ## community_type
 
@@ -230,13 +234,14 @@ Sample columns are as follows:
 - Linnean latin name
 - Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
 
-> ⚠️ Must follow categories specified in `assets/enums/<column>.json`  
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-> ⚠️ Mandatory value  
+> ⚠️ Mandatory value
 
 ## material
 
 - Sample type DNA was extracted from
+
   - e.g. pot crust, parchment, herbarium sample
   - e.g. dental calculus, palaeofaeces, intestinal, chewing gum
   - e.g. permafrost, lake sediment, peat soil, bone
@@ -254,7 +259,7 @@ Sample columns are as follows:
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-> ⚠️ Mandatory value  
+> ⚠️ Mandatory value
 
 ## genome_type
 
@@ -271,7 +276,7 @@ Sample columns are as follows:
 - In both cases the aim of the study must have been to attempt to reconstruct
   the _complete_ genome sequence, not gene or single amplicon sequences.
 
-> ⚠️ Must follow categories specified in `assets/enums/<column>.json`  
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
 > ⚠️ Mandatory value
 
@@ -293,9 +298,9 @@ Sample columns are as follows:
 - e.g. [ENA](https://www.ebi.ac.uk/ena),
   [SRA](https://www.ncbi.nlm.nih.gov/sra), [OAGR](https://www.oagr.org/)
 
-> ⚠️ Must follow categories specified in `assets/enums/<column>.json`  
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-> ⚠️ Mandatory value  
+> ⚠️ Mandatory value
 
 ## data_type
 
@@ -340,6 +345,7 @@ the archive_accesion as: `MG585269.1`
 
 - A project level accession code under which all samples of a project are assigned to
 - Specific examples:
+
   - Archive: ENA/SRA/DDBJ: should be _primary_ accession code beginning with `PRJ`. [Example](https://www.ebi.ac.uk/ena/browser/view/PRJNA438985).
   - Archive: MG-RAST: should be accession code beginning with `mgp`. [Example](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp13354).
 
@@ -347,14 +353,14 @@ the archive_accesion as: `MG585269.1`
 
 ## archive_accession
 
-- Of *sample*, where possible
+- Of _sample_, where possible
 - For ENA/SRA: These should be **secondary** accession IDs to keep as close to
   data as possible (e.g. SRS, ERS, not SAMEA - see below)
 - If non-NCBI/ENA, use as close to sample-level as possible
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
 
-> ⚠️ Mandatory value  
+> ⚠️ Mandatory value
 
 <details>
   <summary>Expand to show location of ERS codes on ENA</summary>
@@ -368,9 +374,9 @@ the archive_accesion as: `MG585269.1`
 <details>
   <summary>Expand to show location of SRS codes on SRA</summary>
 
-  ![Location of ERS
+![Location of ERS
   codes](../images/spaam-AncientMetagenomeDir_sra_srs_location.png)
-  
-  The SRS code is to the left of the SAMEA-like code under the **sample:** field
+
+The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 </details>

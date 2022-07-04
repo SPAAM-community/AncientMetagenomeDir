@@ -1,7 +1,3 @@
 {
-    "enums": [
-        "none",
-        "half-udg",
-        "full-udg"
-    ]
+  "enum": ["none", "half-udg", "full-udg", "unknown"]
 }

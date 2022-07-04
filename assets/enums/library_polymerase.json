@@ -1,11 +1,20 @@
 {
-    "enums": [
-        "Bst 2.0 DNA",
-        "T4 DNA",
-        "PfuTurbo Cx Hotstart DNA",
-        "Herculase II Fusion DNA",
-        "Phusion Hot Start High-Fidelity DNA",
-        "HotStarTaq DNA Polymerase",
-        "Unknown"
-    ]
+  "enum": [
+    "PfuTurbo DNA",
+    "PfuTurbo Cx Hotstart DNA",
+    "Herculase II Fusion DNA",
+    "Phusion HS II DNA",
+    "Phusion Hot Start High-Fidelity DNA",
+    "Phusion U Hot Start DNA",
+    "AmpliTaq Gold DNA",
+    "KAPA HiFi Uracil+",
+    "KAPA HiFi HotStart DNA",
+    "Platinum Taq DNA-Polymerase High Fidelity",
+    "Q5 High-Fidelity DNA",
+    "AccuPrime Pfx DNA",
+    "HotStarTaq DNA Polymerase",
+    "Q5 Hot Start High-Fidelity DNA",
+    "HGS Taq Diamond",
+    "Unknown"
+  ]
 }

@@ -22,11 +22,11 @@ development of the field of ancient metagenomics over time.
 - [Usage](#usage)
 - [Citation](#citation)
 - [Current Status](#current-status)
-	- [Interactive map](#interactive-map)
+  - [Interactive map](#interactive-map)
 - [Contributing](#contributing)
-	- [Own Publications](#own-publications)
-	- [Previous Publications](#previous-publications)
-	- [Guidelines and Conventions](#guidelines-and-conventions)
+  - [Own Publications](#own-publications)
+  - [Previous Publications](#previous-publications)
+  - [Guidelines and Conventions](#guidelines-and-conventions)
 
 <!-- /TOC -->
 
@@ -38,7 +38,9 @@ in establised sequencing data databases. We define here 'metagenome' in a broad
 sense, primarily focusing any data where the whole DNA content is analysed and
 explored. Examples for this are (but not limited to) ancient microbiomes (host associated metagenome),
 ancient sedimentary DNA (environmental) and also samples used for ancient pathogen
-screening (single genomes). See the README of each list for more detailed
+screening (single genomes).
+
+See the README of each list for more detailed
 descriptions of the contents of each list. Further modification and expansion of
 these categories can be proposed to the [SPAAM community](https://spaam-community.github.io)
 for further consideration.
@@ -57,6 +59,11 @@ Finally, we aim to make releases of this at regular intervals, and assign each
 release a citeable DOI. Each release will also include a changelog to record all
 additions and any corrections or modifications. Therefore researchers are free
 to use the information in their own publications, as per the CC-BY 4.0 licence.
+
+> 🛈 A table for ancient anthropogenic metagenomes was
+> included up until release v21.09 (Taputapuātea). However this was dropped in release
+> "Pyu Cities" due to lack of interest from the community. It may be reinstated in
+> the future.
 
 ## Usage
 

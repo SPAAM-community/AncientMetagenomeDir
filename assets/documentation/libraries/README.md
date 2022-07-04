@@ -246,17 +246,6 @@ Library columns are as follows:
 
 > ⚠️ Mandatory value
 
-## sequencing_cycles
-
-- The number of base pairs that the sequencing chemistry consisted of in _one_.
-  direction.
-- Often equivalent to the maximum length of unprocessed reads in a FASTQ file.
-- For Illumina,
-  [typically](https://support.illumina.com/bulletins/2016/10/how-many-cycles-of-sbs-chemistry-are-in-my-kit.html)
-  something like: 50, 75, 100, 150, depending on the machine.
-
-> ⚠️ If not described in the ENA table, or there is discrepency with the paper, specify: `NA`
-
 ## library_strategy
 
 - How the library was sequenced, i.e. whether shotgun sequenced or enriched or

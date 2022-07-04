@@ -26,7 +26,6 @@
       "library_treatment",
       "instrument_model",
       "library_layout",
-      "sequencing_cycles",
       "library_strategy",
       "read_count",
       "archive_data_accession",
@@ -167,13 +166,6 @@
         "description": "Sequencing layout of library, i.e. either single or paired end, based on ENA controlled vocabulary (https://www.ebi.ac.uk/ena/portal/api/controlledVocab?field=library_layout",
         "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_layout.json",
         "examples": ["PAIRED", "SINGLE"]
-      },
-      "sequencing_cycles": {
-        "$id": "#/items/properties/sequencing_cycles",
-        "type": ["integer", "null"],
-        "title": "Number of sequencing cycles",
-        "description": "Number of sequencing cycles used, i.e. sequencing kit specification of maximum length of reading one strand",
-        "examples": ["NA", 50, 76, 151]
       },
       "library_strategy": {
         "$id": "#/items/properties/library_strategy",

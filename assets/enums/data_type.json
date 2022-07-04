@@ -6,6 +6,7 @@
     "binned_cag",
     "reference_aligned",
     "consensus",
+    "consensus,assembly",
     "raw,reference_aligned",
     "raw,reference_aligned,consensus",
     "raw,consensus",

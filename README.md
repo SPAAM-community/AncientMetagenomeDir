@@ -7,7 +7,9 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833)
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir)
-[![latest_release](https://img.shields.io/badge/Latest%20Release-v21.06-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
+[![latest_release](https://img.shields.io/badge/Latest%20Release-v21.09-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
+
+> ⚠️ 21.12 release is current delayed while extension to library metadata is carried out. 
 
 AncientMetagenomeDir is a community curated resource of lists of all published
 **shotgun**-sequenced ancient metagenome or microbial genome-level enriched samples. It is primarily meant to act
@@ -21,11 +23,11 @@ development of the field of ancient metagenomics over time.
 - [Usage](#usage)
 - [Citation](#citation)
 - [Current Status](#current-status)
-  - [Interactive map](#interactive-map)
+	- [Interactive map](#interactive-map)
 - [Contributing](#contributing)
-  - [Own Publications](#own-publications)
-  - [Previous Publications](#previous-publications)
-  - [Guidelines and Conventions](#guidelines-and-conventions)
+	- [Own Publications](#own-publications)
+	- [Previous Publications](#previous-publications)
+	- [Guidelines and Conventions](#guidelines-and-conventions)
 
 <!-- /TOC -->
 

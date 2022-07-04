@@ -19,7 +19,6 @@
       "archive",
       "archive_project",
       "archive_sample_accession",
-      "sequencing_center",
       "library_name",
       "strand_type",
       "library_polymerase",
@@ -89,22 +88,6 @@
         "title": "Archive accession number",
         "description": "Samples archive accession numbers, multiple records can be separated with commas. No spaces allowed. . Must match a AncientMetagenomeDir samples table entry",
         "examples": ["SRS473742,SRS473743,SRS473744,SRS473745"]
-      },
-      "sequencing_center": {
-        "$id": "#/items/properties/sequencing_center",
-        "type": ["string", "null"],
-        "pattern": "^[\\S]+$",
-        "title": "Extraction or sequencing lab name",
-        "description": "Name of sequencing center, institution or lab that generated the data",
-        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/sequencing_center.json",
-        "examples": [
-          "University of Oklahoma",
-          "Max Planck Institute for the Science of Human History",
-          "Uppsala University",
-          "Sapienza University Of Rome",
-          "Adelaide Center for Ancient DNA",
-          "Section for Evolutionary Genomics, The GLOBE Institute"
-        ]
       },
       "library_name": {
         "$id": "#/items/properties/library_name",

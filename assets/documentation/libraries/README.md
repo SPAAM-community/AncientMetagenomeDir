@@ -122,24 +122,6 @@ Library columns are as follows:
 
 > ⚠️ Mandatory value
 
-## sequencing_center
-
-- Name of the sequencing center of the library **as reported in ENA/SRA table**.
-- Check for existing names in `assets/enums/sequencing_center.json`, and reuse
-  existing categories when name on ENA/SRA table is only slightly different.
-- If discrepency between the article and the sequencing center, revert to `Unknown`.
-- If it is an unidentifiable ID, e.g. begins with `SUB<numbers>`, specify as
-  `Unknown`.
-- If you do find a missing centre name or a `SUB<numbers>` ID you can sometimes
-  also find the centre name in the summary header information _above_ the ENA
-  table of the given proejct
-
-> ⚠️ Must follow categories specified in
-> `assets/enums/sequencing_center.json`
-
-> ⚠️ If unknown and cannot be inferred from the publication, specify
-> `Unknown`
-
 ## library_name
 
 - In most cases this should be the name of the sequencing lab's library as listed on the

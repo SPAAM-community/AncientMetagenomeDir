@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/images/spaam-AncientMetagenomeDir_socialmedia.png" width=50% >
+<img src="assets/images/logos/spaam-AncientMetagenomeDir_socialmedia.png" width=50% >
 <p/>
 
 ---
@@ -24,11 +24,11 @@ development of the field of ancient metagenomics over time.
 - [Usage](#usage)
 - [Citation](#citation)
 - [Current Status](#current-status)
-  - [Interactive map](#interactive-map)
+	- [Interactive map](#interactive-map)
 - [Contributing](#contributing)
-  - [Own Publications](#own-publications)
-  - [Previous Publications](#previous-publications)
-  - [Guidelines and Conventions](#guidelines-and-conventions)
+	- [Own Publications](#own-publications)
+	- [Previous Publications](#previous-publications)
+	- [Guidelines and Conventions](#guidelines-and-conventions)
 
 <!-- /TOC -->
 

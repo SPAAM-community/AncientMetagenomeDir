@@ -14,7 +14,7 @@ library(tibble)
 source("assets/analysis/functions.R")
 source("assets/analysis/design_assets.R")
 
-out_dir = "assets/analysis/live"
+out_dir = "assets/images/figures"
 
 raw_hostmetagenome <- load_thedir_data("ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv", "Host Associated Metagenome") 
 raw_hostsinglegenome <- load_thedir_data("ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv", "Host Associated Single Genome") 

@@ -4,7 +4,6 @@
 
 This page describes columns definitions for all library-level lists. Icons indicate columns that are specific to specific columns.
 
-- 🏺: anthropogenic ancient metagenomes
 - 🏞: environmental ancient metagenomes
 - 🧫: host-associated ancient metagenomes
 - 🦠: host-associated ancient single genomes

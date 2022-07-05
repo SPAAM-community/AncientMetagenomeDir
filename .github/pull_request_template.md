@@ -7,7 +7,6 @@ This PR is for a
 
 For the following list(s):
 
-- [ ] ancientmetagenome-anthropogenic ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-anthropogenic))
 - [ ] ancientmetagenome-environmental ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-environmental), ask **@thedir-team-dirt** for advice)
 - [ ] ancientmetagenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-hostassociated), ask **@thedir-team-bugparty** for advice)
 - [ ] ancientsinglegenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientsinglegenome-hostassociated), ask **@thedir-team-pathopeeps** for advice)
@@ -43,14 +42,12 @@ This PR is for
 - [ ] ancientmetagenome-hostassociated
 - [ ] ancientsinglegenome-hostassociated
 - [ ] ancientmetagenome-environmental
-- [ ] ancientmetagenome-anthropogenic
 
 ### Reference
 
 This pull request is to correct samples from the following publication(s): <!-- REPLACE this comment (including < >  symbols) with the publication being corrected -->
 
 This is to close <!-- REPLACE this comment (including the < > symbols) with a hashtag and the corresponding issue number here, e.g. #10 -->
-
 
 ### Description
 

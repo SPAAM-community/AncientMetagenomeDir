@@ -26,6 +26,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Anthropogenic
 
+- Due to the lack of community interest, this table has now been deprecated and will not be included in future releases of AncientMetagenomeDir. However it will be reinstated in the future if interest returns.
+
 ### Misc
 
 - Added library metadata for FASTQ and BAM level data

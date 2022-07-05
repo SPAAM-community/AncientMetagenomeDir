@@ -5,7 +5,6 @@
 This page describes columns definitions for all sample-level lists. Icons indicate columns
 that are specific to specific columns.
 
-- 🏺: anthropogenic ancient metagenomes
 - 🏞: environmental ancient metagenomes
 - 🧫: host-associated ancient metagenomes
 - e🦠: host-associated ancient single genomes
@@ -243,7 +242,6 @@ Sample columns are as follows:
 
 - Sample type DNA was extracted from
 
-  - e.g. pot crust, parchment, herbarium sample
   - e.g. dental calculus, palaeofaeces, intestinal, chewing gum
   - e.g. permafrost, lake sediment, peat soil, bone
   - e.g. tooth, bone, dental calculus

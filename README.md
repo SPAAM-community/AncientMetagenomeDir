@@ -88,7 +88,7 @@ To download the _bleeding edge_ AncientMetagenomeDir sample list:
 
 ⚠️ the TSV files in the repository represent the cutting-edge version, and are subject to change, please use the files in the 'releases' section for when using for reproducible science!
 
-:heavy*check_mark: For some spreadsheet software copy>paste of the raw format directly into a spreadsheet of the \_contents* of the links above can work, if not, follow instructions above.
+:heavy_check_mark: For some spreadsheet software copy>paste of the raw format directly into a spreadsheet of the _contents_ of the links above can work, if not, follow instructions above.
 
 ## Citation
 

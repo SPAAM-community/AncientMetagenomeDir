@@ -53,7 +53,7 @@ Library columns are as follows:
 
 > ⚠️ Mandatory value
 
-## publication_doi
+## data_publication_doi
 
 - Must correspond to the `publication_doi` of the publication in the
   corresponding sample metadata table!
@@ -120,24 +120,6 @@ Library columns are as follows:
     However always where possible prefer ENA/SRA secondary accession IDs.
 
 > ⚠️ Mandatory value
-
-## sequencing_center
-
-- Name of the sequencing center of the library **as reported in ENA/SRA table**.
-- Check for existing names in `assets/enums/sequencing_center.json`, and reuse
-  existing categories when name on ENA/SRA table is only slightly different.
-- If discrepency between the article and the sequencing center, revert to `Unknown`.
-- If it is an unidentifiable ID, e.g. begins with `SUB<numbers>`, specify as
-  `Unknown`.
-- If you do find a missing centre name or a `SUB<numbers>` ID you can sometimes
-  also find the centre name in the summary header information _above_ the ENA
-  table of the given proejct
-
-> ⚠️ Must follow categories specified in
-> `assets/enums/sequencing_center.json`
-
-> ⚠️ If unknown and cannot be inferred from the publication, specify
-> `Unknown`
 
 ## library_name
 
@@ -245,17 +227,6 @@ Library columns are as follows:
 
 > ⚠️ Mandatory value
 
-## sequencing_cycles
-
-- The number of base pairs that the sequencing chemistry consisted of in _one_.
-  direction.
-- Often equivalent to the maximum length of unprocessed reads in a FASTQ file.
-- For Illumina,
-  [typically](https://support.illumina.com/bulletins/2016/10/how-many-cycles-of-sbs-chemistry-are-in-my-kit.html)
-  something like: 50, 75, 100, 150, depending on the machine.
-
-> ⚠️ If not described in the ENA table, or there is discrepency with the paper, specify: `NA`
-
 ## library_strategy
 
 - How the library was sequenced, i.e. whether shotgun sequenced or enriched or
@@ -283,9 +254,9 @@ Library columns are as follows:
 
 > ⚠️ If not described in the ENA table, specify: `NA`
 
-## archive_run_accession
+## archive_data_accession
 
-- Should be a single `run` accession ID for each library.
+- Should be a single `run` or genome-level consensus sequence accession ID for each library.
   - A library may have multiple accessions, in which case specify one line per
     run accession and duplicate metadata accordingly (updating `library_name`
     and other metadata where necessary)

@@ -7,7 +7,7 @@ that are specific to specific columns.
 
 - 🏞: environmental ancient metagenomes
 - 🧫: host-associated ancient metagenomes
-- 🦠: host-associated ancient single genomes
+- e🦠: host-associated ancient single genomes
 
 Numeric fields (e.g. latitude), can be filled with `NA` to indicate 'no
 reported value'. Free text fields (e.g. `geo_loc_name`) can be indicated with
@@ -282,10 +282,9 @@ Sample columns are as follows:
 
 ## sampling_date
 
+> 🏞 environmental metagenome only!
+
 - Year of sampling of (sub-)sample for DNA analysis in YYYY format
-  - e.g. not the year blood was drawn from a patient, but rather the year the
-    aliquot was taken for DNA extraction from the sample in the museum
-    collection, for the current study.
 - Missing value: `NA`
 
 > ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field

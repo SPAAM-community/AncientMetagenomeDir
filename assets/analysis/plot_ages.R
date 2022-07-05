@@ -11,7 +11,7 @@ library(maps)
 library(scales)
 library(tibble)
 
-source("assets/analysis/scripts/functions.R")
+source("assets/analysis/functions.R")
 source("assets/analysis/design_assets.R")
 
 out_dir = "assets/analysis/live"

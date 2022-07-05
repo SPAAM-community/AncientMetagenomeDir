@@ -242,7 +242,6 @@ Sample columns are as follows:
 
 - Sample type DNA was extracted from
 
-  - e.g. pot crust, parchment, herbarium sample
   - e.g. dental calculus, palaeofaeces, intestinal, chewing gum
   - e.g. permafrost, lake sediment, peat soil, bone
   - e.g. tooth, bone, dental calculus

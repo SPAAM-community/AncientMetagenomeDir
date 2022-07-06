@@ -22,7 +22,7 @@ raw_environmental <- load_thedir_data("ancientmetagenome-environmental/samples/a
 
 figure_publication_time <- stats_pub_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% plot_pub_timeline()
 
-figure_cumulative_samples <- stats_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% plot_cumulative_timeline()
+figure_cumulative_samples <- stats_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% plot_cumulative_timeline("samples")
 
 ggsave("AncientMetagenomeDir-Publication_Timeline.svg",
        path = out_dir,

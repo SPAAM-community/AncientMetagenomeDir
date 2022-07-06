@@ -1,4 +1,8 @@
-### Loading
+
+
+####################################################################################################
+## DATA                                                                                           ##
+####################################################################################################
 
 ## Load and standardise date across tables
 load_thedir_data <- function(path, name) {
@@ -6,6 +10,10 @@ load_thedir_data <- function(path, name) {
     mutate(List = name) %>%
     select(List, everything())
 }
+
+####################################################################################################
+## SAMPLES                                                                                        ##
+####################################################################################################
 
 ### Publication Timeline
 
@@ -37,11 +45,11 @@ plot_pub_timeline <- function(dat) {
     theme(legend.position = "none") +
     facet_wrap(~List, ncol = 1) +
     labs(title = "Publications per year", 
-        subtitle = paste("Updated:", Sys.Date()),
-        x = "Publication year",
-        y = "Number of publications",
-        fill = NULL,
-        caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir")))
+         subtitle = paste("Updated:", Sys.Date()),
+         x = "Publication year",
+         y = "Number of publications",
+         fill = NULL,
+         caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir")))
 }
 
 ### Cumulative Samples Timeline
@@ -92,7 +100,7 @@ stats_cumulative_timeline <- function(...) {
     mutate(cumulative_sum = cumsum(count))
 }
 
-plot_cumulative_timeline <- function(x) {
+plot_cumulative_timeline <- function(x, type) {
   
   spanning_years <- list(min_year = min(x$publication_year), max_year = max(x$publication_year))
   
@@ -103,13 +111,13 @@ plot_cumulative_timeline <- function(x) {
     scale_x_continuous(breaks = seq(spanning_years$min_year, spanning_years$max_year, 2)) +
     theme_classic() +
     scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1)) +
-    theme(legend.position = "none") +
+    theme(legend.position = "none", axis.text.x = element_text(angle = 45, hjust = 1)) +
     facet_wrap(~List, ncol = 1) +
-    labs(title = "Cumulative published samples per year", 
+    labs(title = paste0("Published ", type, " per year"), 
          subtitle = paste("Updated:", Sys.Date()),
-            x = "Publication year",
-            y = "Number of samples (cumulative sum)",
-          caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))) +
+         x = "Publication year",
+         y = paste("Number of ", type, " (cumulative sum)"),
+         caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))) +
     labs(fill = NULL)
   
 }
@@ -149,12 +157,12 @@ plot_map <- function(dat){
     scale_fill_manual(values = dir_colours) +
     theme(legend.position = "none") +
     labs(title = "Geographic locations of samples", 
-        subtitle = paste("Updated:", Sys.Date()),
-        x = "Longitude",
-        y = "Latitude",
-        fill = "Sample Type", 
-        size = "Sample Count",
-        caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))) +
+         subtitle = paste("Updated:", Sys.Date()),
+         x = "Longitude",
+         y = "Latitude",
+         fill = "Sample Type", 
+         size = "Sample Count",
+         caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))) +
     guides(fill = FALSE)
   
 }
@@ -222,6 +230,228 @@ plot_figure_age_timeline <- function(X, dataset, nclass = "Sturges", log = TRUE,
          caption =  expression(paste(bold("License: CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir")))) +
     theme(legend.position = "none",
           strip.background = element_blank())
-    
-    return(list(plot = plot, data = hist_df))
+  
+  return(list(plot = plot, data = hist_df))
 }
+
+####################################################################################################
+## LIBRARIES                                                                                      ##
+####################################################################################################
+
+
+## Timelines (Ungrouped)
+stats_cumulative_timeline_libs <- function(...) {
+  ## Takes a list of AncientMetagenomeDir TSVs
+  x <- list(...)
+  
+  ## Get only relevent columns
+  dat <- lapply(x, FUN = function(y) {
+    select(
+      y,
+      List, library_name, publication_year,
+      publication_year,
+    ) %>% distinct()
+  }) %>%
+    bind_rows() %>%
+    mutate(List = factor(List, levels = names(dir_colours)))
+  
+  spanning_years <- dat %>%
+    ungroup() %>%
+    summarise(min = min(publication_year), max = max(publication_year))
+  
+  ## Make fake base table to ensure all years for all lists
+  ## Currently manually defined
+  base_table <- list(
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1)
+  )
+  
+  names(base_table) <- levels(dat$List)
+  
+  base_table <- base_table %>%
+    enframe(name = "List", value = "publication_year") %>%
+    unnest(publication_year)
+  
+  dat <- dat %>%
+    group_by(List, publication_year) %>%
+    summarise(count = n())
+  
+  dat %>%
+    right_join(base_table, by = c("List", "publication_year")) %>%
+    replace_na(list(count = 0)) %>%
+    arrange(List, publication_year) %>%
+    mutate(List = factor(List, levels = names(dir_colours))) %>%
+    group_by(List) %>%
+    mutate(cumulative_sum = cumsum(count))
+}
+stats_cumulative_timeline_reads <- function(...) {
+  ## Takes a list of AncientMetagenomeDir TSVs
+  x <- list(...)
+  
+  ## Get only relevent columns
+  dat <- lapply(x, FUN = function(y) {
+    select(
+      y,
+      List, library_name, publication_year,
+      publication_year, read_count
+    )
+  }) %>%
+    bind_rows() %>%
+    mutate(List = factor(List, levels = names(dir_colours)))
+  
+  spanning_years <- dat %>%
+    ungroup() %>%
+    summarise(min = min(publication_year), max = max(publication_year))
+  
+  ## Make fake base table to ensure all years for all lists
+  ## Currently manually defined
+  base_table <- list(
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1)
+  )
+  
+  names(base_table) <- levels(dat$List)
+  
+  base_table <- base_table %>%
+    enframe(name = "List", value = "publication_year") %>%
+    unnest(publication_year)
+  
+  dat <- dat %>%
+    group_by(List, publication_year) %>%
+    summarise(total_reads = sum(read_count))
+  
+  dat %>%
+    right_join(base_table, by = c("List", "publication_year")) %>%
+    arrange(List, publication_year) %>%
+    mutate(List = factor(List, levels = names(dir_colours))) %>%
+    group_by(List) %>%
+    replace_na(list(total_reads = 0)) %>%
+    mutate(cumulative_sum = cumsum(total_reads))
+}
+plot_cumulative_timeline_libreads <- function(x, type) {
+  spanning_years <- list(min_year = min(x$publication_year), max_year = max(x$publication_year))
+  
+  ## Get range so we plot x-axis nicely
+  ggplot(x, aes(publication_year, cumulative_sum, fill = List)) +
+    geom_bar(stat = "identity") +
+    scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
+    scale_x_continuous(breaks = seq(spanning_years$min_year, spanning_years$max_year, 2)) +
+    theme_classic() +
+    theme(legend.position = "none", axis.text.x = element_text(angle = 45, hjust = 1)) +
+    facet_wrap(~List, ncol = 1) +
+    scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1)) +
+    labs(
+      title = paste0("Published ", type, " per year"),
+      subtitle = paste0("Updated: ", Sys.Date()),
+      x = "Publication year",
+      y = paste("Number of ", type, " (cumulative sum)"),
+      caption = expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))
+    ) +
+    labs(fill = NULL)
+}
+
+## Timelines (Grouped)
+stats_cumulative_timeline_libs_grouped <- function(..., group, unspecified) {
+  ## Takes a list of AncientMetagenomeDir TSVs
+  x <- list(...)
+  
+  ## Get only relevent columns
+  dat <- lapply(x, FUN = function(y) {
+    select(
+      y,
+      List, library_name, publication_year,
+      publication_year, {{ group }}
+    )
+  }) %>%
+    bind_rows() %>%
+    mutate(List = factor(List, levels = names(dir_colours)))
+  
+  spanning_years <- dat %>%
+    ungroup() %>%
+    summarise(min = min(publication_year), max = max(publication_year))
+  
+  ## Make fake base table to ensure all years for all lists
+  ## Currently manually defined
+  base_table <- list(
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1)
+  )
+  
+  names(base_table) <- levels(dat$List)
+  
+  base_table <- base_table %>%
+    enframe(name = "List", value = "publication_year") %>%
+    unnest(publication_year)
+  
+  dat <- dat %>%
+    group_by(List, publication_year, {{ group }}) %>%
+    summarise(total_libs = n()) %>%
+    rename(group = {{ group }})
+  
+  groups <- dat %>%
+    pull(group) %>%
+    unique()
+  
+  dat %>%
+    right_join(base_table, by = c("List", "publication_year")) %>%
+    arrange(List, publication_year) %>%
+    mutate(
+      List = factor(List, levels = names(dir_colours)),
+      group = factor(group, levels = groups)
+    ) %>%
+    group_by(List, group) %>%
+    replace_na(list(
+      total_libs = 0,
+      group = {{ unspecified }}
+    )) %>%
+    mutate(cumulative_sum = cumsum(total_libs))
+}
+plot_cumulative_timeline_libs_grouped <- function(x, type, grouptype) {
+  spanning_years <- list(min_year = min(x$publication_year), max_year = max(x$publication_year))
+  
+  ## Get range so we plot x-axis nicely
+  ggplot(x, aes(publication_year, cumulative_sum, fill = group)) +
+    geom_bar(stat = "identity") +
+    scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
+    scale_x_continuous(breaks = seq(spanning_years$min_year, spanning_years$max_year, 2)) +
+    theme_classic() +
+    theme(legend.position = "bottom") +
+    facet_wrap(~List, ncol = 1) +
+    scale_fill_manual(values = paletteer_d("ggthemes::Tableau_20")) +
+    labs(
+      title = paste0("Published ", type, " per year"),
+      subtitle = paste0("Grouped by ", grouptype, ". Updated: ", Sys.Date()),
+      x = "Publication year",
+      y = paste("Number of ", type, " (cumulative sum)"),
+      caption = expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))
+    ) +
+    labs(fill = NULL)
+}
+
+# Utility
+save_figure <- function(name, outdir, figure){
+  ggsave(name,
+         path = outdir,
+         plot = figure,
+         device = "svg",
+         units = "in",
+         width = 5,
+         height = 6,
+         scale = 0.8
+  )
+}
+save_figure_wide <- function(name, outdir, figure){
+  ggsave(name,
+         path = outdir,
+         plot = figure,
+         device = "svg",
+         units = "in",
+         width = 12,
+         height = 12,
+         scale = 0.8
+  )
+}
+

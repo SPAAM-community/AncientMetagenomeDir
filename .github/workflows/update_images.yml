@@ -27,6 +27,7 @@ jobs:
           Rscript assets/analysis/plot_timelines.R ${GITHUB_WORKSPACE}/
           Rscript assets/analysis/plot_maps.R ${GITHUB_WORKSPACE}/
           Rscript assets/analysis/plot_ages.R ${GITHUB_WORKSPACE}/
+          Rscript assets/analysis/plot_timelines_libraries.R ${GITHUB_WORKSPACE}/
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "[skip ci] Update AncientMetagenomeDir live-status images"

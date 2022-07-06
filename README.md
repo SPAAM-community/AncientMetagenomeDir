@@ -114,6 +114,8 @@ Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Vels
   <img src="assets/images/figures/AncientMetagenomeDir-Publication_Timeline.svg" width="48%" height = "48%">
   <img src="assets/images/figures/AncientMetagenomeDir-Sample_AgeTimeline.svg" width="48%" height = "48%">
   <img src="assets/images/figures/AncientMetagenomeDir-Sample_Map.svg" width="48%" height = "48%">
+  <img src="assets/images/figures/AncientMetagenomeDir-Library_Timeline_Libraries.svg" width="48%" height = "48%">
+  <img src="assets/images/figures/AncientMetagenomeDir-Library_Timeline_Reads.svg" width="48%" height = "48%">
 </p>
 
 Vector (`.svg`) versions of all images and interactive map (`.geo.json`) are available under [`assets/images/figures`](assets/images/figures). R code for all plots are freely available for modification in this repository under `assets/analysis/`

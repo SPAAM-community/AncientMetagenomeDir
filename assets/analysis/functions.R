@@ -363,7 +363,7 @@ stats_cumulative_timeline_libs_grouped <- function(..., group, unspecified) {
       y,
       List, library_name, publication_year,
       publication_year, {{ group }}
-    )
+    ) %>% distinct()
   }) %>%
     bind_rows() %>%
     mutate(List = factor(List, levels = names(dir_colours)))
@@ -394,6 +394,8 @@ stats_cumulative_timeline_libs_grouped <- function(..., group, unspecified) {
   groups <- dat %>%
     pull(group) %>%
     unique()
+  ## Push the 'unknown' to the end for factor setting
+  groups <- c(unspecified,groups[-match(unspecified, groups)])
   
   dat %>%
     right_join(base_table, by = c("List", "publication_year")) %>%

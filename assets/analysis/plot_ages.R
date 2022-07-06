@@ -45,8 +45,8 @@ figure_age_timeline <- ggplot() +
   scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1, title = ""), breaks = names(dir_colours)) +
   labs(fill = NULL) +
   theme(legend.position = "none") +
-  labs(x = "Samples (n)",
-       y = "Years before present",
+  labs(y = "Samples (n)",
+       x = "Years before present",
        title = "Age distribution of samples", 
        subtitle = paste("Updated:", Sys.Date()),
        caption =  expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))) +

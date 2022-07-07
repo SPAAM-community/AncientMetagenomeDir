@@ -47,7 +47,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Seersholm2016 archive ENA (from incorrectly specified as SRA)
 - Fixed Vagene2018 polymerase typo
 - Fixed Eisenhofer2020 date rounding error (originally added 230 rather than 200)
-- Fixed typo in BravoLopez2020 site name (Inmaculate -> Immaculate)
+- Fixed BravoLopez2020 typo in site name (Inmaculate -> Immaculate)
 
 ### Removed
 

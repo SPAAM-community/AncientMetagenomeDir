@@ -48,6 +48,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Vagene2018 polymerase typo
 - Fixed Eisenhofer2020 date rounding error (originally added 230 rather than 200)
 - Fixed typo in BravoLopez2020 site name (Inmaculate -> Immaculate)
+- Fixed Campos2021 sample accession column had run accession
 
 ### Removed
 

@@ -48,6 +48,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Vagene2018 polymerase typo
 - Fixed Eisenhofer2020 date rounding error (originally added 230 rather than 200)
 - Fixed typo in BravoLopez2020 site name (Inmaculate -> Immaculate)
+- Fixed Willmann2018 project_name (originally missing the second 'n')
 
 ### Removed
 
@@ -324,7 +325,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Ottoni 2019: Fixed duplicate SRA codes
 - de-Dios 202: Added sample data
 - Schuenemann 2018: dates corrected calculating based on 1950
-- Willman2018: re-list the community_type of tooth samples as skeletal tissue
+- Willmann2018: re-list the community_type of tooth samples as skeletal tissue
 - Brealey2020: re-list the community_type of tooth samples as skeletal tissue
 - Maixner2016: collapsed _H. pylori_ genome samples into one
 - Bos2016: Corrected site name

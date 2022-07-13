@@ -53,6 +53,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Removed Mendum2014 sample SK27 due to TreeBASE repository not being accessible any more
 - Removed SantiagoRodriguez2016 and SantiagoRodridguez2016 samples as raw data is no longer publically accessible on MG-RAST
+- Removed Braadbaart2020 as uploaded data was not shotgun data as required for inclusion in environmental table
 - Removed Worobey2016 samples SF74 and SF73 as not in final consensus sequences
 
 ## v21.09: Taputapuātea

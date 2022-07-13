@@ -48,6 +48,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Vagene2018 polymerase typo
 - Fixed Eisenhofer2020 date rounding error (originally added 230 rather than 200)
 - Fixed typo in BravoLopez2020 site name (Inmaculate -> Immaculate)
+- Fixed Willmann2018 project_name (originally missing the second 'n')
+- Fixed DeDios2020, DeDios2019, DeDios2021 project_names (originally had lowercase leading d)
 
 ### Removed
 
@@ -160,7 +162,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
-- Cutibacterium acnes (deDios2020, 10.1016/j.meegid.2020.104209) changed from eukaryota to bacteria.
+- Cutibacterium acnes (DeDios2020, 10.1016/j.meegid.2020.104209) changed from eukaryota to bacteria.
 - Corrected publication_doi and sample_age_doi for Jacobson2020 (10.1098/rstb.2019.0586)
 - Corrected overwritten new SRA information for Weyrich 2017 (10.1038/nature21674)
 - Corrected date DOI spreadsheetdragging error for Armbrecht 2020 (10.1111/1755-0998.13162)
@@ -290,7 +292,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Worobey 2016 10.1038/nature19827
 - Kerudin 2019 10.1016/j.jas.2019.105035
 - Schuenemann 2011 10.1073/pnas.1105107108
-- deDios 2019 10.1099/mgen.0.000289
+- DeDios 2019 10.1099/mgen.0.000289
 - Duggan 2020 10.1186/s13059-020-02079-z
 - Namouchi 2018 10.1073/pnas.1812865115
 - Spyrou 2016 10.1016/j.chom.2016.05.012
@@ -326,7 +328,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Ottoni 2019: Fixed duplicate SRA codes
 - de-Dios 202: Added sample data
 - Schuenemann 2018: dates corrected calculating based on 1950
-- Willman2018: re-list the community_type of tooth samples as skeletal tissue
+- Willmann2018: re-list the community_type of tooth samples as skeletal tissue
 - Brealey2020: re-list the community_type of tooth samples as skeletal tissue
 - Maixner2016: collapsed _H. pylori_ genome samples into one
 - Bos2016: Corrected site name

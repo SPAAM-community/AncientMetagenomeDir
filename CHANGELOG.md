@@ -51,6 +51,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Willmann2018 project_name (originally missing the second 'n')
 - Fixed DeDios2020, DeDios2019, DeDios2021 project_names (originally had lowercase leading d)
 - Fixed Campos2021 sample accession column had run accession
+- Fixed Philips2017 fixed incorrect DOI (from later publication that reused same data)
 
 ### Removed
 

@@ -47,11 +47,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Seersholm2016 archive ENA (from incorrectly specified as SRA)
 - Fixed Vagene2018 polymerase typo
 - Fixed Eisenhofer2020 date rounding error (originally added 230 rather than 200)
-
 - Fixed BravoLopez2020 typo in site name (Inmaculate -> Immaculate)
 - Fixed Willmann2018 project_name (originally missing the second 'n')
 - Fixed DeDios2020, DeDios2019, DeDios2021 project_names (originally had lowercase leading d)
-
+- Fixed Campos2021 sample accession column had run accession
 
 ### Removed
 

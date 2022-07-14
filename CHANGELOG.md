@@ -21,6 +21,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Pfrengle 2021 10.1186/s12915-021-01120-2
 - Kocher 2021 10.1126/science.abi5658
 - Andrades Valtueña 2022 10.1073/pnas.2116722119
+- Long 2022 10.1038/s42003-022-03527-1
 
 #### Ancient Metagenome: Environmental
 
@@ -53,7 +54,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Campos2021 sample accession column had run accession
 - Fixed Philips2017 fixed incorrect DOI (from later publication that reused same data)
 - Fixed missing sample accession code to Bieker2020 (due to later reqsequencing and non-reused SRS/ERS code)
-
 
 ### Removed
 

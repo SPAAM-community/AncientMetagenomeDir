@@ -356,8 +356,8 @@ plot_cumulative_timeline_libreads <- function(x, type) {
 stats_cumulative_timeline_libs_grouped <- function(..., group, unspecified) {
   ## Takes a list of AncientMetagenomeDir TSVs
   x <- list(...)
-  
-  ## Get only relevent columns
+
+    ## Get only relevent columns
   dat <- lapply(x, FUN = function(y) {
     select(
       y,
@@ -367,11 +367,12 @@ stats_cumulative_timeline_libs_grouped <- function(..., group, unspecified) {
   }) %>%
     bind_rows() %>%
     mutate(List = factor(List, levels = names(dir_colours)))
-  
+
+  ## extract year limits for a base table 
   spanning_years <- dat %>%
     ungroup() %>%
     summarise(min = min(publication_year), max = max(publication_year))
-  
+
   ## Make fake base table to ensure all years for all lists
   ## Currently manually defined
   base_table <- list(
@@ -379,38 +380,59 @@ stats_cumulative_timeline_libs_grouped <- function(..., group, unspecified) {
     seq(spanning_years$min, spanning_years$max, 1),
     seq(spanning_years$min, spanning_years$max, 1)
   )
-  
+
   names(base_table) <- levels(dat$List)
   
   base_table <- base_table %>%
     enframe(name = "List", value = "publication_year") %>%
     unnest(publication_year)
   
+  ## Also add the groups to the base table
+  categories <- dat %>% pull({{group}}) %>% unique %>% enframe %>% rename(group = value) %>% select(group)
+  base_table <- base_table %>% full_join(categories, by = character())
+  
+  ## Calculations
   dat <- dat %>%
     group_by(List, publication_year, {{ group }}) %>%
     summarise(total_libs = n()) %>%
     rename(group = {{ group }})
-  
+
+  ## Get a list of al groups to make a factor for downstream, push the 'unknown' to the end for factor setting
   groups <- dat %>%
     pull(group) %>%
     unique()
-  ## Push the 'unknown' to the end for factor setting
-  groups <- c(unspecified,groups[-match(unspecified, groups)])
   
-  dat %>%
-    right_join(base_table, by = c("List", "publication_year")) %>%
+  if ( unspecified %in% groups ) {
+    groups <- c(unspecified,groups[-match(unspecified, groups)])
+  } else {
+    print("WARN: unspecified parameter not found in categories. Will not be pushed to end of legend.")
+  }
+
+  ## Bind tables together and calculate cumulative sum
+  dat <- dat %>%
+    full_join(base_table, by = c("List", "publication_year", "group")) %>%
     arrange(List, publication_year) %>%
     mutate(
       List = factor(List, levels = names(dir_colours)),
       group = factor(group, levels = groups)
     ) %>%
-    group_by(List, group) %>%
-    replace_na(list(
+    group_by(List, group)
+  
+  if ( unspecified %in% groups ) {
+    dat %>% replace_na(list(
       total_libs = 0,
       group = {{ unspecified }}
     )) %>%
-    mutate(cumulative_sum = cumsum(total_libs))
+      mutate(cumulative_sum = cumsum(total_libs))
+  } else {
+    dat %>% replace_na(list(
+      total_libs = 0
+    )) %>%
+      mutate(cumulative_sum = cumsum(total_libs))
+  }
+
 }
+
 plot_cumulative_timeline_libs_grouped <- function(x, type, grouptype) {
   spanning_years <- list(min_year = min(x$publication_year), max_year = max(x$publication_year))
   
@@ -434,22 +456,22 @@ plot_cumulative_timeline_libs_grouped <- function(x, type, grouptype) {
 }
 
 # Utility
-save_figure <- function(name, outdir, figure){
+save_figure <- function(name, outdir, figure, format){
   ggsave(name,
          path = outdir,
          plot = figure,
-         device = "svg",
+         device = format,
          units = "in",
          width = 5,
          height = 6,
          scale = 0.8
   )
 }
-save_figure_wide <- function(name, outdir, figure){
+save_figure_wide <- function(name, outdir, figure, format){
   ggsave(name,
          path = outdir,
          plot = figure,
-         device = "svg",
+         device = format,
          units = "in",
          width = 12,
          height = 12,

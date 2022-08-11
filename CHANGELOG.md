@@ -9,6 +9,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Added
 
+- Extended repository to include library level metadata for all existing samples
+
 #### Ancient Metagenome: Host Associated
 
 - Granehäll 2021 10.1186/s40168-021-01132-8

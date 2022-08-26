@@ -60,6 +60,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Wagner2014 incorrect archive in the samples tsv
 - Fixed DeDios2020 sample_name from Jean-Paul Marat to Marat to make it consistent with the libraries uploaded in the ENA 
 - Changed sample name for Zhou2018 to a clearer one based on the file name rather than just the project_archive ID
+- Fixed Smith2015 sample name (replace _ with -)
 
 ### Removed
 

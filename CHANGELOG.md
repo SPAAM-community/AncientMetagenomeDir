@@ -62,6 +62,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Eerkens2018 sample name from an individual name to the specific calculus sample name 
 - Changed sample name for Zhou2018 to a clearer one based on the file name rather than just the project_archive ID
 - Fixed Campos2021 sample_name to HERB_1937 to make it consistent with the libraries uploaded in the ENA
+- Fixed Borry2020 sample_name to match archaeological ID from paper (as opposed to laboratory ID which was in sample.tsv table)
 
 
 ### Removed

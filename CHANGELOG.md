@@ -63,6 +63,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Changed sample name for Zhou2018 to a clearer one based on the file name rather than just the project_archive ID
 - Fixed Campos2021 sample_name to HERB_1937 to make it consistent with the libraries uploaded in the ENA
 - Fixed Borry2020 sample_name to match archaeological ID from paper (as opposed to laboratory ID which was in sample.tsv table)
+- Fixed Velsko2019 accidental inclusion of old sample accessions to keep 'correct' sample accession of correct data
 - Removed Schulte2021 sample accessions of targeted capture libraries (which were different from the shotgun libraries)
 
 ### Removed

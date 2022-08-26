@@ -65,6 +65,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Borry2020 sample_name to match archaeological ID from paper (as opposed to laboratory ID which was in sample.tsv table)
 - Fixed Velsko2019 accidental inclusion of old sample accessions to keep 'correct' sample accession of correct data
 - Removed Schulte2021 sample accessions of targeted capture libraries (which were different from the shotgun libraries)
+- Fixed Zhou2018 in ancientsinglegenome-hostassociated archive_project and archive_accession to be more explicit as of which files have been use to reconstruct the genome
 
 ### Removed
 

@@ -347,7 +347,7 @@ the archive_accesion as: `MG585269.1`
   - Archive: ENA/SRA/DDBJ: should be _primary_ accession code beginning with `PRJ`. [Example](https://www.ebi.ac.uk/ena/browser/view/PRJNA438985).
   - Archive: MG-RAST: should be accession code beginning with `mgp`. [Example](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp13354).
 
-- Missing value: `NA`
+- Missing value: `Unknown`
 
 ## archive_accession
 

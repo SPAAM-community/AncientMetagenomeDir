@@ -33,6 +33,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Misc
 
 - Added library metadata for FASTQ and BAM level data
+- Changed the missing value from `NA` to `Unknown` for archive_project for the samples tsv
 
 ### Changed
 

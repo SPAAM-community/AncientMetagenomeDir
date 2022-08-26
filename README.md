@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/images/spaam-AncientMetagenomeDir_socialmedia.png" width=50% >
+<img src="assets/images/logos/spaam-AncientMetagenomeDir_socialmedia.png" width=50% >
 <p/>
 
 ---
@@ -10,7 +10,7 @@
 [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir)
 [![latest_release](https://img.shields.io/badge/Latest%20Release-v21.09-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
 
-> ⚠️ 21.12 release is current delayed while extension to library metadata is carried out. 
+> ⚠️ 21.12 release is current delayed while extension to library metadata is carried out.
 
 AncientMetagenomeDir is a community curated resource of lists of all published
 **shotgun**-sequenced ancient metagenome or microbial genome-level enriched samples. It is primarily meant to act
@@ -110,17 +110,19 @@ Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Vels
 ## Current Status
 
 <p float="center">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Timeline.svg" width="48%" height = "48%">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Publication_Timeline.svg" width="48%" height = "48%">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_AgeTimeline.svg" width="48%" height = "48%">
-  <img src="assets/analysis/live/AncientMetagenomeDir-Sample_Map.svg" width="48%" height = "48%">
+  <img src="assets/images/figures/AncientMetagenomeDir-Sample_Timeline.svg" width="48%" height = "48%">
+  <img src="assets/images/figures/AncientMetagenomeDir-Publication_Timeline.svg" width="48%" height = "48%">
+  <img src="assets/images/figures/AncientMetagenomeDir-Sample_AgeTimeline.svg" width="48%" height = "48%">
+  <img src="assets/images/figures/AncientMetagenomeDir-Sample_Map.svg" width="48%" height = "48%">
+  <img src="assets/images/figures/AncientMetagenomeDir-Library_Timeline_Libraries.svg" width="48%" height = "48%">
+  <img src="assets/images/figures/AncientMetagenomeDir-Library_Timeline_Reads.svg" width="48%" height = "48%">
 </p>
 
-Vector (`.svg`) versions of all images and interactive map (`.geo.json`) are available under [`assets/analysis/live`](assets/analysis/live). R code for all plots are freely available for modification in this repository under `assets/analysis/scripts`
+Vector (`.svg`) versions of all images and interactive map (`.geo.json`) are available under [`assets/images/figures`](assets/images/figures). R code for all plots are freely available for modification in this repository under `assets/analysis/`
 
 ### Interactive map
 
-[AncientMetagenomeDir](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/analysis/live/ancientmetagenomedir.geo.json ":include :type=iframe width=100% height=400px")
+[AncientMetagenomeDir](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/images/figures/ancientmetagenomedir.geo.json ":include :type=iframe width=100% height=400px")
 
 **Legend:**
 Green: Environmental Metagenome,

@@ -66,9 +66,8 @@ Library columns are as follows:
 
 ## sample_name
 
-- Should correspond to the `sample_name` of the publication in the corresponding
-  sample metadata table, but CAN be different when mismatches occur (e.g.
-  collection ID vs publication ID).
+- Must correspond to the `sample_name` of the publication in the corresponding
+  sample metadata table.
 - Unique identifier for that sample as used in publication.
   - In most cases this should be the name of the host _individual_.
 
@@ -118,6 +117,7 @@ Library columns are as follows:
   - For GenBank consensus sequences: if the ENA/SRA sample accession ID does
     not exist, reuse the GenBank sequence ID for both sample and run accessions.
     However always where possible prefer ENA/SRA secondary accession IDs.
+  - For for Dryad/Figshare, use the numeric ID after 'file_steam' in the per-file download URL
 
 > ⚠️ Mandatory value
 

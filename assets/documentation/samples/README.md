@@ -147,6 +147,9 @@ Sample columns are as follows:
 
 ## sample_age
 
+> ⚠️ if a sample has no age, and cannot be inferred (sediment only) it cannot
+> be included in AncientMetagenomeDir!
+
 - In Before Present (BP) format i.e. since 1950 AD
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
@@ -164,7 +167,7 @@ Sample columns are as follows:
   - Ensure to also update `sample_age_doi`
 - If date _ranges_ reported, take approximate mid-point
 - Dates for specific individual preferred.
-- Proxy dates are allowed. e.g.
+- Proxy dates are allowed e.g.
   - from other individuals in stratum/burial
   - period of occupation of site
   - via coin or historical records

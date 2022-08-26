@@ -2,7 +2,7 @@
 library(argparser)
 library(tidyverse)
 
-parser <- argparser::arg_parser( 'Outputs list of project_names with incosistencies',
+parser <- argparser::arg_parser('Outputs list of project_names with incosistencies',
                                  name = 'prerelease-validation-manual.R')
 
 parser <- add_argument(parser, 'samplesTable',
@@ -15,7 +15,8 @@ parser <- add_argument(parser, 'libraryTable',
                        help='Path to the libraries.tsv')
 parser <- add_argument(parser, 'outputTable',
                        type='character',
-                       nargs=1)
+                       nargs=1,
+                       help='Path, including the name, to the output file')
 
 argv <- parse_args(parser)
 

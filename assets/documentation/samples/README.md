@@ -148,36 +148,26 @@ Sample columns are as follows:
 ## sample_age
 
 - In Before Present (BP) format i.e. since 1950 AD
-
   - When in doubt:
     [https://nikhausmann.shinyapps.io/BP_to_BC_and_more/](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/)
-
 - Radiocarbon dates
-
   - Uncalibrated dates are preferred, but if only calibrated reported can be
     used
-
 - Single date rounded to nearest century (i.e. end in '00')
-
   - For samples more recent than 1850, the age should be assigned as 100
   - e.g. something only 50 years old would be assigned as 100
   - Therefore the minimum age possible is 100!
-
 - In most cases, report the date in the publication of the given sample, even if
   the date is from an older publication (we assume the original citation can be
   found by looking at submitted article). _However_:
-
   - If a more recent and accurate date has been published this can be used!
   - Ensure to also update `sample_age_doi`
-
 - If date _ranges_ reported, take approximate mid-point
 - Dates for specific individual preferred.
 - Proxy dates are allowed. e.g.
-
   - from other individuals in stratum/burial
   - period of occupation of site
   - via coin or historical records
-
 - For environmental metagenomes (sediment only):
   - If a layer is not directly dated, 'inferred' ages are allowed if there are at least two direct dates in the relevant sequence
 

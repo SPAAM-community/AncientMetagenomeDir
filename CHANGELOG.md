@@ -55,8 +55,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed DeDios2020, DeDios2019, DeDios2021 project_names (originally had lowercase leading d)
 - Fixed Campos2021 sample accession column had run accession
 - Fixed Philips2017 fixed incorrect DOI (from later publication that reused same data)
-- Fixed missing sample accession code to Bieker2020 (due to later reqsequencing and non-reused SRS/ERS code)
-- Fixed Spyrou2019 incorrect archive project code in the libraries tsv
+- Fixed missing sample accession code to Bieker2020 (due to later re-sequencing and non-reused SRS/ERS code)
 - Change archive_project from NA to Unknown for Taubenberger2005, PattersonRoss2018, Worobey2016
 - Fixed Wagner2014 incorrect archive in the samples tsv
 

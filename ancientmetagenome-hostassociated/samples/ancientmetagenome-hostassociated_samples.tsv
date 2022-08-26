@@ -492,10 +492,10 @@ Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abu
 Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3552	Homo sapiens	1600	10.1038/ncomms15694	oral	tooth	ENA	PRJEB33848	ERS3636021
 Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3578	Homo sapiens	2200	10.1038/ncomms15694	oral	tooth	ENA	PRJEB33848	ERS3635974
 Neukamm2020	2020	10.1186/s12915-020-00839-8	Abusir el-Meleq	29.24	31.1	Egypt	Abusir3610	Homo sapiens	2200	10.1038/ncomms15694	oral	tooth	ENA	PRJEB33848	ERS3635975
-Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	16	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	SRA	PRJNA377320	SRS2006287
-Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	2	Homo sapiens	500	10.1016/j.ijpp.2018.05.001	oral	dental calculus	SRA	PRJNA377320	SRS2006289
-Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	4	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	SRA	PRJNA377320	SRS2006288
-Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	15	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	SRA	PRJNA377320	SRS2006290
+Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	RN4-Calculus	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	SRA	PRJNA377320	SRS2006287
+Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	RN1-Calculus	Homo sapiens	500	10.1016/j.ijpp.2018.05.001	oral	dental calculus	SRA	PRJNA377320	SRS2006289
+Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	RN2-Calculus	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	SRA	PRJNA377320	SRS2006288
+Eerkens2018	2018	10.1016/j.ijpp.2018.05.001	CA-SCL-919, Santa Clara County	37.3	-121.8	USA	RN3-Caluclus	Homo sapiens	400	10.1016/j.ijpp.2018.05.001	oral	dental calculus	SRA	PRJNA377320	SRS2006290
 Modi2020	2020	10.1007/s12520-019-00983-5	Porticus Octaviae (Rome)	41.892	12.478	Italy	P.O 108-7	Homo sapiens	900	10.1007/s12520-019-00983-5	oral	dental calculus	SRA	PRJNA660212	SRS7296485
 Modi2020	2020	10.1007/s12520-019-00983-5	Porticus Octaviae (Rome)	41.892	12.478	Italy	P.O Z. US44	Homo sapiens	900	10.1007/s12520-019-00983-5	oral	dental calculus	SRA	PRJNA660212	SRS7296487
 Modi2020	2020	10.1007/s12520-019-00983-5	Porticus Octaviae (Rome)	41.892	12.478	Italy	P.O 898-11	Homo sapiens	1000	10.1007/s12520-019-00983-5	oral	dental calculus	SRA	PRJNA660212	SRS7296488

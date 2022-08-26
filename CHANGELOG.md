@@ -59,12 +59,15 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Changed archive_project from NA to Unknown for Taubenberger2005, PattersonRoss2018, Worobey2016
 - Fixed Wagner2014 incorrect archive in the samples tsv
 - Fixed DeDios2020 sample_name from Jean-Paul Marat to Marat to make it consistent with the libraries uploaded in the ENA
-- Fixed Eerkens2018 sample name from an individual name to the specific calculus sample name 
+- Fixed Eerkens2018 sample name from an individual name to the specific calculus sample name
 - Changed sample name for Zhou2018 to a clearer one based on the file name rather than just the project_archive ID
 - Fixed Campos2021 sample_name to HERB_1937 to make it consistent with the libraries uploaded in the ENA
 - Fixed Borry2020 sample_name to match archaeological ID from paper (as opposed to laboratory ID which was in sample.tsv table)
-
-
+- Fixed Velsko2019 accidental inclusion of old sample accessions to keep 'correct' sample accession of correct data
+- Removed Schulte2021 sample accessions of targeted capture libraries (which were different from the shotgun libraries)
+- Fixed Liang2021 sample names to be more specific to allow association with library names
+- Fixed GuzmanSolis2021 archive_project and archive_accession to include the Dryad doi and the specific ids from the download links
+- Fixed Zhou2018 in ancientsinglegenome-hostassociated archive_project and archive_accession to be more explicit as of which files have been use to reconstruct the genome
 
 ### Removed
 

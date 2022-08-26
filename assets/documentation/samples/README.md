@@ -346,6 +346,7 @@ the archive_accesion as: `MG585269.1`
 
   - Archive: ENA/SRA/DDBJ: should be _primary_ accession code beginning with `PRJ`. [Example](https://www.ebi.ac.uk/ena/browser/view/PRJNA438985).
   - Archive: MG-RAST: should be accession code beginning with `mgp`. [Example](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp13354).
+  - Archive: Dryad/FIGSHARE etc.: use the dataset's overall DOI as archive project accession.
 
 - Missing value: `Unknown`
 
@@ -355,6 +356,7 @@ the archive_accesion as: `MG585269.1`
 - For ENA/SRA: These should be **secondary** accession IDs to keep as close to
   data as possible (e.g. SRS, ERS, not SAMEA - see below)
 - If non-NCBI/ENA, use as close to sample-level as possible
+  - e.g. for Dryad/Figshare, use the numeric ID after 'file_steam' in the per-file download URL
 - Multiple can be separated with commas
   - e.g. when different extracts of one sample incorrectly uploaded as samples
 

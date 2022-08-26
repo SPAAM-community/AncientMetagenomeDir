@@ -60,7 +60,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Campos2021 sample accession column had run accession
 - Fixed Philips2017 fixed incorrect DOI (from later publication that reused same data)
 - Fixed Wagner2014 incorrect archive in the samples tsv
-- Changed sample name for Zhou2018 to a clearer one based on the file name rather than just the project_archive ID
 - Fixed Eerkens2018 sample name from an individual name to the specific calculus sample name
 - Fixed Zhou2018 by switching sample name to a clearer one based on the file name rather than just the project_archive ID
 - Fixed Zhou2018 in ancientsinglegenome-hostassociated archive_project and archive_accession to be more explicit as of which files have been use to reconstruct the genome

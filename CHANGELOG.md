@@ -65,6 +65,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Borry2020 sample_name to match archaeological ID from paper (as opposed to laboratory ID which was in sample.tsv table)
 - Fixed Velsko2019 accidental inclusion of old sample accessions to keep 'correct' sample accession of correct data
 - Removed Schulte2021 sample accessions of targeted capture libraries (which were different from the shotgun libraries)
+- Fixed GuzmanSolis2021 archive_project and archive_accession to include the Dryad doi and the specific ids from the download links
 
 ### Removed
 

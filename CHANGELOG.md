@@ -65,6 +65,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Borry2020 sample_name to match archaeological ID from paper (as opposed to laboratory ID which was in sample.tsv table)
 
 
+
 ### Removed
 
 - Removed Mendum2014 sample SK27 due to TreeBASE repository not being accessible any more

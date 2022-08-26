@@ -67,6 +67,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Removed Schulte2021 sample accessions of targeted capture libraries (which were different from the shotgun libraries)
 - Fixed Liang2021 sample names to be more specific to allow association with library names
 - Fixed GuzmanSolis2021 archive_project and archive_accession to include the Dryad doi and the specific ids from the download links
+- Fixed Zhou2018 in ancientsinglegenome-hostassociated archive_project and archive_accession to be more explicit as of which files have been use to reconstruct the genome
 
 ### Removed
 

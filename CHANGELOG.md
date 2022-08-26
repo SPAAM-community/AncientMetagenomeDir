@@ -26,8 +26,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
-- Fixed Moguel2021 sample names to match those used in the publication instead of ENA
-
 #### Ancient Metagenome: Anthropogenic
 
 - Due to the lack of community interest, this table has now been deprecated and will not be included in future releases of AncientMetagenomeDir. However it will be reinstated in the future if interest returns.

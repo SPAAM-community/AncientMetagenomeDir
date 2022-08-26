@@ -58,8 +58,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed missing sample accession code to Bieker2020 (due to later re-sequencing and non-reused SRS/ERS code)
 - Change archive_project from NA to Unknown for Taubenberger2005, PattersonRoss2018, Worobey2016
 - Fixed Wagner2014 incorrect archive in the samples tsv
-- Fixed DeDios2020 sample_name from Jean-Paul Marat to Marat to make it consistent with the libraries uploaded in the ENA 
-
+- Fixed DeDios2020 sample_name from Jean-Paul Marat to Marat to make it consistent with the libraries uploaded in the ENA
+- Fixed Eerkens2018 sample name from an individual name to the specific calculus sample name
 
 ### Removed
 

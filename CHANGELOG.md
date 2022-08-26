@@ -38,13 +38,16 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Changed
 
 - Removed 'sampling date' columns from host-associated metagenome and single-genome sample tables as this is almost never reported
+- Changed archive_project from NA to Unknown for Taubenberger2005, PattersonRoss2018, Worobey2016
 - Fixed Susat2021 DOIs (excel dragging error)
 - Fixed Kazarina2021 Project/Sample accessions (column flip error)
 - Fixed Morozova2020 DOIs (excel dragging error)
 - Fixed Bieker2020 DOIs (paper partly reused previous data for new purpose and earlier had the other publication DOI. Now made all DOIs and dates consistent for the publication where metagenomics was performed)
+- Fixed Bieker2020 sample USNH-39 into two separate 'artifical samples' due to upload of two libraries to two difference archives.
+- Fixed Bieker2020 missing sample accession codes (due to later re-sequencing and non-reused SRS/ERS code)
 - Fixed Muhlemann2018 Project ID (now available)
 - Fixed FellowsYates2021 corrected typo in longitude 85.53 > -85.53
-- Fixed Velsko2018 -> Velsko2019 (wrong publication year)
+- Fixed Velsko2018 project name to Velsko2019 (wrong publication year)
 - Fixed Schuenemann2011 Put the accession ID of the full plasmid sequence not partial
 - Fixed Martin2013 corrected archive name (incorrectly reported in publication)
 - Fixed Seersholm2016 archive ENA (from incorrectly specified as SRA)
@@ -53,21 +56,18 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed BravoLopez2020 typo in site name (Inmaculate -> Immaculate)
 - Fixed Willmann2018 project_name (originally missing the second 'n')
 - Fixed DeDios2020, DeDios2019, DeDios2021 project_names (originally had lowercase leading d)
+- Fixed DeDios2020 sample_name from Jean-Paul Marat to Marat to make it consistent with the libraries uploaded in the ENA
 - Fixed Campos2021 sample accession column had run accession
 - Fixed Philips2017 fixed incorrect DOI (from later publication that reused same data)
-- Fixed missing sample accession code to Bieker2020 (due to later re-sequencing and non-reused SRS/ERS code)
-- Changed archive_project from NA to Unknown for Taubenberger2005, PattersonRoss2018, Worobey2016
 - Fixed Wagner2014 incorrect archive in the samples tsv
-- Fixed DeDios2020 sample_name from Jean-Paul Marat to Marat to make it consistent with the libraries uploaded in the ENA
 - Fixed Eerkens2018 sample name from an individual name to the specific calculus sample name
-- Changed sample name for Zhou2018 to a clearer one based on the file name rather than just the project_archive ID
+- Fixed Zhou2018 by switching sample name to a clearer one based on the file name rather than just the project_archive ID
+- Fixed Zhou2018 in ancientsinglegenome-hostassociated archive_project and archive_accession to be more explicit as of which files have been use to reconstruct the genome
 - Fixed Campos2021 sample_name to HERB_1937 to make it consistent with the libraries uploaded in the ENA
 - Fixed Borry2020 sample_name to match archaeological ID from paper (as opposed to laboratory ID which was in sample.tsv table)
 - Fixed Velsko2019 accidental inclusion of old sample accessions to keep 'correct' sample accession of correct data
-- Removed Schulte2021 sample accessions of targeted capture libraries (which were different from the shotgun libraries)
 - Fixed Liang2021 sample names to be more specific to allow association with library names
 - Fixed GuzmanSolis2021 archive_project and archive_accession to include the Dryad doi and the specific ids from the download links
-- Fixed Zhou2018 in ancientsinglegenome-hostassociated archive_project and archive_accession to be more explicit as of which files have been use to reconstruct the genome
 
 ### Removed
 
@@ -75,6 +75,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Removed SantiagoRodriguez2016 and SantiagoRodridguez2016 samples as raw data is no longer publically accessible on MG-RAST
 - Removed Braadbaart2020 as uploaded data was not shotgun data as required for inclusion in environmental table
 - Removed Worobey2016 samples SF74 and SF73 as not in final consensus sequences
+- Removed Schulte2021 sample accessions of targeted capture libraries (which were different from the shotgun libraries)
 
 ## v21.09: Taputapuātea
 

@@ -12,6 +12,7 @@ lsin <- read_tsv("ancientsinglegenome-hostassociated/libraries/ancientsinglegeno
 ### SRS IDS ###
 ###############
 
+
 senv_acc <- senv$archive_accession %>% strsplit(",") %>% unlist
 shos_acc <- shos$archive_accession %>% strsplit(",") %>% unlist
 ssin_acc <- ssin$archive_accession %>% strsplit(",") %>% unlist

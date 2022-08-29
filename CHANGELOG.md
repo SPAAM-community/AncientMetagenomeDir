@@ -73,10 +73,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Removed
 
 - Removed Mendum2014 sample SK27 due to TreeBASE repository not being accessible any more
-- Removed SantiagoRodriguez2016 and SantiagoRodridguez2016 samples as raw data is no longer publically accessible on MG-RAST
+- Removed SantiagoRodriguez2016 and SantiagoRodridguez2016 samples as raw data is no longer publicly accessible on MG-RAST
 - Removed Braadbaart2020 as uploaded data was not shotgun data as required for inclusion in environmental table
 - Removed Worobey2016 samples SF74 and SF73 as not in final consensus sequences
 - Removed Schulte2021 sample accessions of targeted capture libraries (which were different from the shotgun libraries)
+- Removed Schuenemann2018 libraries (Jørgen_*) that were originally published in tandem with and already included in KrauseKyora2018b
 
 ## v21.09: Taputapuātea
 

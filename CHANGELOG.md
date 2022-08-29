@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v22.09: Pyu Ancient Cities [Unreleased]
+## v22.08: Pyu Ancient Cities
 
 ### Added
 
@@ -34,10 +34,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Added library metadata for FASTQ and BAM level data
 - Changed the missing value from `NA` to `Unknown` for archive_project for the samples tsv
+- Removed 'sampling date' columns from host-associated metagenome and single-genome sample tables as this is almost never reported
 
 ### Changed
 
-- Removed 'sampling date' columns from host-associated metagenome and single-genome sample tables as this is almost never reported
 - Changed archive_project from NA to Unknown for Taubenberger2005, PattersonRoss2018, Worobey2016
 - Fixed Susat2021 DOIs (excel dragging error)
 - Fixed Kazarina2021 Project/Sample accessions (column flip error)

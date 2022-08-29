@@ -111,7 +111,7 @@ plot_cumulative_timeline <- function(x, type) {
     scale_x_continuous(breaks = seq(spanning_years$min_year, spanning_years$max_year, 2)) +
     theme_classic() +
     scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1)) +
-    theme(legend.position = "none", axis.text.x = element_text(angle = 45, hjust = 1)) +
+    theme(legend.position = "none") +
     facet_wrap(~List, ncol = 1) +
     labs(title = paste0("Published ", type, " per year"), 
          subtitle = paste("Updated:", Sys.Date()),
@@ -330,16 +330,17 @@ stats_cumulative_timeline_reads <- function(...) {
     replace_na(list(total_reads = 0)) %>%
     mutate(cumulative_sum = cumsum(total_reads))
 }
+
 plot_cumulative_timeline_libreads <- function(x, type) {
   spanning_years <- list(min_year = min(x$publication_year), max_year = max(x$publication_year))
   
   ## Get range so we plot x-axis nicely
   ggplot(x, aes(publication_year, cumulative_sum, fill = List)) +
     geom_bar(stat = "identity") +
-    scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
+    scale_y_continuous(labels = if ( max(x$cumulative_sum) > 1000000 ) { label_number(suffix = "B", scale = 1e-9) } else { scales::number_format(accuracy = 1)} ) +
     scale_x_continuous(breaks = seq(spanning_years$min_year, spanning_years$max_year, 2)) +
     theme_classic() +
-    theme(legend.position = "none", axis.text.x = element_text(angle = 45, hjust = 1)) +
+    theme(legend.position = "none") +
     facet_wrap(~List, ncol = 1) +
     scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1)) +
     labs(
@@ -447,12 +448,36 @@ plot_cumulative_timeline_libs_grouped <- function(x, type, grouptype) {
     scale_fill_manual(values = paletteer_d("ggthemes::Tableau_20")) +
     labs(
       title = paste0("Published ", type, " per year"),
-      subtitle = paste0("Grouped by ", grouptype, ". Updated: ", Sys.Date()),
+      subtitle = paste0("Grouping: ", grouptype, ". Updated: ", Sys.Date()),
       x = "Publication year",
       y = paste("Number of ", type, " (cumulative sum)"),
       caption = expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))
     ) +
-    labs(fill = NULL)
+    labs(fill = NULL) +
+    guides(fill=guide_legend(ncol=2))
+}
+
+plot_cumulative_timeline_libs_grouped_line <- function(x, type, grouptype) {
+  spanning_years <- list(min_year = min(x$publication_year), max_year = max(x$publication_year))
+  
+  ## Get range so we plot x-axis nicely
+  ggplot(x, aes(publication_year, cumulative_sum, colour = group)) +
+    geom_line(stat = "identity", size = 1.1) +
+    scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
+    scale_x_continuous(breaks = seq(spanning_years$min_year, spanning_years$max_year, 2)) +
+    theme_classic() +
+    theme(legend.position = "bottom") +
+    facet_wrap(~List, ncol = 1) +
+    scale_colour_manual(values = paletteer_d("ggthemes::Tableau_20")) +
+    labs(
+      title = paste0("Published ", type, " per year"),
+      subtitle = paste0("Grouping: ", grouptype, ". Updated: ", Sys.Date()),
+      x = "Publication year",
+      y = paste("Number of ", type, " (cumulative sum)"),
+      caption = expression(paste(bold("License: "), "CC-BY 4.0. ", bold("Source: "), "AncientMetagenomeDir"))
+    ) +
+    guides(colour=guide_legend(ncol=3)) +
+    labs(colour = NULL)
 }
 
 # Utility
@@ -467,13 +492,13 @@ save_figure <- function(name, outdir, figure, format){
          scale = 0.8
   )
 }
-save_figure_wide <- function(name, outdir, figure, format){
+save_figure_biglegend <- function(name, outdir, figure, format){
   ggsave(name,
          path = outdir,
          plot = figure,
          device = format,
          units = "in",
-         width = 12,
+         width = 10,
          height = 12,
          scale = 0.8
   )

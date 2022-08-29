@@ -69,6 +69,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Liang2021 sample names to be more specific to allow association with library names
 - Fixed GuzmanSolis2021 archive_project and archive_accession to include the Dryad doi and the specific ids from the download links
 - Fixed Ardelean2020 sample_name incorrect in samples tsv, replaced with sample_name from libraries tsv
+- Fixed Typo in Morozova2020 - Azov37 -> Axov38
 
 ### Removed
 

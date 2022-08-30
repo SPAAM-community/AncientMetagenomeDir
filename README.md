@@ -113,13 +113,18 @@ Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Vels
 
 ## Current Status
 
+### Samples
+
 <p float="center">
-  <p><h3>Samples</h3></p>
   <img src="assets/images/figures/AncientMetagenomeDir-Sample_Timeline.svg" width="48%" height = "48%">
   <img src="assets/images/figures/AncientMetagenomeDir-Publication_Timeline.svg" width="48%" height = "48%">
   <img src="assets/images/figures/AncientMetagenomeDir-Sample_AgeTimeline.svg" width="48%" height = "48%">
   <img src="assets/images/figures/AncientMetagenomeDir-Sample_Map.svg" width="48%" height = "48%">
-  <p><h3>Libraries</h3></p>
+</p>
+
+### Libraries
+
+<p float="center">
   <img src="assets/images/figures/AncientMetagenomeDir-Library_Timeline_Libraries.svg" width="48%" height = "48%">
   <img src="assets/images/figures/AncientMetagenomeDir-Library_Timeline_Reads.svg" width="48%" height = "48%">
 </p>

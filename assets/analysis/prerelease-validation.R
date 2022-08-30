@@ -9,7 +9,7 @@ lhos <- read_tsv("ancientmetagenome-hostassociated/libraries/ancientmetagenome-h
 lsin <- read_tsv("ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries.tsv")
 
 ###############################
-## mismatch between tables? ###
+## archive_accession mismatch between tables? ###
 ###############################
 
 senv_acc <- senv$archive_accession %>% strsplit(",") %>% unlist
@@ -33,6 +33,32 @@ setdiff(lsin_acc, ssin_acc)
 one <- c(1,2,3)
 two <- c(2,3,4)
 
+###############################
+## DOI mismatch between tables? ###
+###############################
+
+senv_doi <- senv$publication_doi %>% strsplit(",") %>% unlist
+shos_doi <- shos$publication_doi %>% strsplit(",") %>% unlist
+ssin_doi <- ssin$publication_doi %>% strsplit(",") %>% unlist
+
+lenv_doi <- lenv$data_publication_doi %>% strsplit(",") %>% unlist
+lhos_doi <- lhos$data_publication_doi %>% strsplit(",") %>% unlist
+lsin_doi <- lsin$data_publication_doi %>% strsplit(",") %>% unlist
+
+## Archive accession in sample, not library (missing)
+setdiff(senv_doi, lenv_doi)
+setdiff(shos_doi, lhos_doi)
+setdiff(ssin_doi, lsin_doi)
+
+## Archive accession in library, not sample (unexpected extra)
+setdiff(lenv_doi, senv_doi)
+setdiff(lhos_doi, shos_doi)
+setdiff(lsin_doi, ssin_doi)
+
+one <- c(1,2,3)
+two <- c(2,3,4)
+
+
 ####################################
 ## archive_accession duplicates? ###
 ####################################
@@ -45,7 +71,7 @@ senv_dups <- senv$archive_accession %>% str_split(",") %>% unlist %>% enframe(va
 shos_dups <- shos$archive_accession %>% str_split(",") %>% unlist %>% enframe(value = "archive_accession") %>% group_by(archive_accession) %>% summarise(n = n()) %>% arrange(desc(n)) %>% filter(n > 1) %>% print(n = 1000)
 
 ## Exception allowed: Schuenemann2018/KrauseKyora2018b [resequencing], Krause-Kyora/Lugli [reanalysis], DeDios2020 [multi-species], Devault2017 [multi-species]
-## Can exclude: c("ERS942272,ERS942281,ERS942282,ERS4278128,ERS4278129,ERS4278130,ERS5071796,ERS942276,SRS1779840,SRS1779841,SRS1779844,SRS1779846")
+## Can exclude: c("ERS942272,ERS942281,ERS942282,ERS4278128,ERS4278129,ERS4278130,ERS942276,SRS1779840,SRS1779841,SRS1779844,SRS1779846")
 ssin_dups <- ssin$archive_accession %>% str_split(",") %>% unlist %>% enframe(value = "archive_accession") %>% group_by(archive_accession) %>% summarise(n = n()) %>% arrange(desc(n)) %>% filter(n > 1) %>% print(n = 1000)
 
 ## RUNs - expect one per accession
@@ -57,6 +83,6 @@ lhos_dups <- lhos$archive_data_accession %>% str_split(",") %>% unlist %>% enfra
 lsin_dups <- lsin$archive_data_accession %>% str_split(",") %>% unlist %>% enframe(value = "archive_accession") %>% group_by(archive_accession) %>% summarise(n = n()) %>% arrange(desc(n)) %>% filter(n > 1) %>% print(n = 1000)
 
 ### PULLER
-filter(ssin, archive_data_accession %in% lsin_dups$archive_accession)
-paste(ssin_dups$archive_accession,sep=",")
+##filter(ssin, archive_data_accession %in% lsin_dups$archive_accession)
+##paste(ssin_dups$archive_accession,sep=",")
 ####

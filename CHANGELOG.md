@@ -51,7 +51,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Schuenemann2011 Put the accession ID of the full plasmid sequence not partial
 - Fixed Martin2013 corrected archive name (incorrectly reported in publication)
 - Fixed Seersholm2016 archive ENA (from incorrectly specified as SRA)
-- Fixed Vagene2018 polymerase typo
 - Fixed Eisenhofer2020 date rounding error (originally added 230 rather than 200)
 - Fixed BravoLopez2020 typo in site name (Inmaculate -> Immaculate)
 - Fixed Willmann2018 project_name (originally missing the second 'n')

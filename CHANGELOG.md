@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v22.08: Pyu Ancient Cities
+## v22.09: Pyu Ancient Cities
 
 ### Added
 
@@ -79,7 +79,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Removed Braadbaart2020 as uploaded data was not shotgun data as required for inclusion in environmental table
 - Removed Worobey2016 samples SF74 and SF73 as not in final consensus sequences
 - Removed Schulte2021 sample accessions of targeted capture libraries (which were different from the shotgun libraries)
-- Removed Schuenemann2018 libraries (Jørgen_*) that were originally published in tandem with and already included in KrauseKyora2018b
+- Removed Schuenemann2018 libraries (Jørgen\_\*) that were originally published in tandem with and already included in KrauseKyora2018b
 
 ## v21.09: Taputapuātea
 

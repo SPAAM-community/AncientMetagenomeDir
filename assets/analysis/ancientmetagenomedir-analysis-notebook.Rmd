@@ -1,6 +1,8 @@
 ---
 title: "AncientMetagenomeDir - Analysis"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 # Introduction
@@ -268,11 +270,9 @@ We will load and analyse each list separately, as they contain slightly differen
 metadata depending on context.
 
 ```{r}
-
-raw_hostmetagenome <- load_thedir_data("https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/v20.09.1/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv", "Host Associated Metagenome") 
-raw_hostsinglegenome <- load_thedir_data("https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/v20.09.1/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv", "Host Associated Single Genome") 
-raw_environmental <- load_thedir_data("https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/v20.09.1/ancientmetagenome-environmental/ancientmetagenome-environmental.tsv", "Environmental Metagenome") 
-#raw_anthropogenic <- load_thedir_data("../../ancientmetagenome-anthropogenic/ancientmetagenome-anthropogenic.tsv", "Anthropogenic Metagenome") 
+raw_hostmetagenome <- load_thedir_data("https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/v21.09/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv", "Host Associated Metagenome") 
+raw_hostsinglegenome <- load_thedir_data("https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/v21.09/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated.tsv", "Host Associated Single Genome") 
+raw_environmental <- load_thedir_data("https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/v21.09/ancientmetagenome-environmental/ancientmetagenome-environmental.tsv", "Environmental Metagenome") 
 ```
 
 ## Design Assets
@@ -281,8 +281,6 @@ raw_environmental <- load_thedir_data("https://raw.githubusercontent.com/SPAAM-w
 dir_colours <- c(`Host Associated Metagenome` = "#73cff3",
             `Host Associated Single Genome` = "#d74182",
             `Environmental Metagenome` = "#2da46a")
-
-notused_colours <- c(`Anthropogenic Metagenome` = "#d74182")
 
 ```
 

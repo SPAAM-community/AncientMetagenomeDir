@@ -1,9 +1,3 @@
 {
-    "enum": [
-        "WGS",
-        "Targeted-Capture",
-        "Depletion",
-        "RNA-Seq",
-        "Unknown"
-    ]
+  "enum": ["WGS", "Targeted-Capture", "Depletion", "RNA-Seq", "Unknown"]
 }

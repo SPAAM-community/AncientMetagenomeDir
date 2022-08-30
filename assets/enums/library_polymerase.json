@@ -1,21 +1,21 @@
 {
-    "enum": [
-        "PfuTurbo DNA",
-        "PfuTurbo Cx Hotstart DNA",
-        "Herculase II Fusion DNA",
-        "Phusion HS II DNA",
-        "Phusion Hot Start High-Fidelity DNA",
-        "Phusion U Hot Start DNA",
-        "AmpliTaq Gold DNA",
-        "KAPA HiFi Uracil+",
-        "KAPA HiFi HotStart DNA",
-        "Platinum Taq DNA-Polymerase High Fidelity",
-        "Q5 High-Fidelity DNA",
-        "AccuPrime Pfx DNA",
-        "HotStarTaq DNA Polymerase",
-        "Q5 Hot Start High-Fidelity DNA",
-        "HGS Taq Diamond",
-        "Unknown",
-        "KAPA SYBR FAST DNA"
-    ]
+  "enum": [
+    "PfuTurbo DNA",
+    "PfuTurbo Cx Hotstart DNA",
+    "Herculase II Fusion DNA",
+    "Phusion HS II DNA",
+    "Phusion Hot Start High-Fidelity DNA",
+    "Phusion U Hot Start DNA",
+    "AmpliTaq Gold DNA",
+    "KAPA HiFi Uracil+",
+    "KAPA HiFi HotStart DNA",
+    "Platinum Taq DNA-Polymerase High Fidelity",
+    "Q5 High-Fidelity DNA",
+    "AccuPrime Pfx DNA",
+    "HotStarTaq DNA Polymerase",
+    "Q5 Hot Start High-Fidelity DNA",
+    "HGS Taq Diamond",
+    "Unknown",
+    "KAPA SYBR FAST DNA"
+  ]
 }

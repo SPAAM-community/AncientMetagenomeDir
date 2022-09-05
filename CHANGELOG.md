@@ -9,10 +9,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Added
 
-### single-genome asscociated 
-
-### Added
-
 #### Ancient Metagenome: Host Associated
 
 #### Ancient Single Genome: Host Associated

@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v22.08: Pyu Ancient Cities
+## v22.09: Pyu Ancient Cities
 
 ### Added
 
@@ -69,6 +69,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Liang2021 sample names to be more specific to allow association with library names
 - Fixed GuzmanSolis2021 archive_project and archive_accession to include the Dryad doi and the specific ids from the download links
 - Fixed Ardelean2020 sample_name incorrect in samples tsv, replaced with sample_name from libraries tsv
+- Fixed Morozova2020 typo in - Azov37 -> Axov38
+- Fixed Morozova2020 accidental ERS code duplication across two samples
 
 ### Removed
 
@@ -77,7 +79,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Removed Braadbaart2020 as uploaded data was not shotgun data as required for inclusion in environmental table
 - Removed Worobey2016 samples SF74 and SF73 as not in final consensus sequences
 - Removed Schulte2021 sample accessions of targeted capture libraries (which were different from the shotgun libraries)
-- Removed Schuenemann2018 libraries (Jørgen_*) that were originally published in tandem with and already included in KrauseKyora2018b
+- Removed Schuenemann2018 libraries (Jørgen\_\*) that were originally published in tandem with and already included in KrauseKyora2018b
 
 ## v21.09: Taputapuātea
 

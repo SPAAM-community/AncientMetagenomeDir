@@ -42,7 +42,7 @@ def convert(environmental, meta_host, single_host, geojson):
     single_h = pd.read_csv(single_host, sep='\t', decimal=".")
     single_h['dir_type'] = ['Ancient Single-genome - Host-associated']*single_h.shape[0]
 
-    df = pd.concat([anthro, envi, meta_h, single_h])
+    df = pd.concat([envi, meta_h, single_h])
     df = df.drop_duplicates(df.columns.difference(['dir_type']))
     df['plot_latitude'] = df['latitude'].apply(lambda x: np.random.normal(x, sigma))
     df['plot_longitude'] = df['longitude'].apply(lambda x: np.random.normal(x, sigma))

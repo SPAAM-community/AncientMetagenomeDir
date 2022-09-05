@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
+## v22.12: Joya de Cerén [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Metagenome: Environmental
+
+#### Ancient Metagenome: Anthropogenic
+
+### Changed
+
+### Removed
+
+## v22.09.2: Pyu Ancient Cities
+
+Correction: Correct release ZIP upload
+
 ## v22.09: Pyu Ancient Cities
 
 ### Added
@@ -51,7 +71,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Fixed Schuenemann2011 Put the accession ID of the full plasmid sequence not partial
 - Fixed Martin2013 corrected archive name (incorrectly reported in publication)
 - Fixed Seersholm2016 archive ENA (from incorrectly specified as SRA)
-- Fixed Vagene2018 polymerase typo
 - Fixed Eisenhofer2020 date rounding error (originally added 230 rather than 200)
 - Fixed BravoLopez2020 typo in site name (Inmaculate -> Immaculate)
 - Fixed Willmann2018 project_name (originally missing the second 'n')

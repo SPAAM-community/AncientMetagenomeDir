@@ -17,6 +17,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Jäger 2022 10.1016/j.tube.2022.102181
+
 #### Ancient Metagenome: Environmental
 
 #### Ancient Metagenome: Anthropogenic

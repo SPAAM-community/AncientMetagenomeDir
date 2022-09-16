@@ -11,7 +11,7 @@
 [![latest_release](https://img.shields.io/badge/Latest%20Release-v22.09-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
 
 AncientMetagenomeDir is a community curated resource of lists of all published
-**shotgun**-sequenced ancient metagenome or microbial genome-level enriched samples.
+**shotgun**-sequenced ancient metagenome or microbial genome-level enriched samples and libraries.
 
 It is primarily meant to act
 as a reference guide to help point researchers toward any relevant public data
@@ -42,6 +42,8 @@ We define here 'metagenome' in a broad sense, primarily focusing any data where 
 explored. Examples for this are (but not limited to) ancient microbiomes (host associated metagenome),
 ancient sedimentary DNA (environmental) and also samples used for ancient pathogen
 screening (single genomes).
+
+The lists also contain metadata about all sequencing libraries generated from the corresponding samples.
 
 See the README of each list for more detailed
 descriptions of the contents of each list. Further modification and expansion of

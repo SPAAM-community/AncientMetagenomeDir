@@ -5,9 +5,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v21.12: Pyu Ancient Cities [Unreleased]
+## v22.12: Joya de Cerén [Unreleased]
 
 ### Added
+
+#### Ancient Metagenome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+- Jäger 2022 10.1016/j.tube.2022.102181
+
+#### Ancient Metagenome: Environmental
+
+#### Ancient Metagenome: Anthropogenic
+
+### Changed
+
+### Removed
+
+## v22.09.2: Pyu Ancient Cities
+
+Correction: Correct release ZIP upload
+
+## v22.09: Pyu Ancient Cities
+
+### Added
+
+- Extended repository to include library level metadata for all existing samples
 
 #### Ancient Metagenome: Host Associated
 
@@ -32,35 +56,52 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Misc
 
 - Added library metadata for FASTQ and BAM level data
+- Changed the missing value from `NA` to `Unknown` for archive_project for the samples tsv
+- Removed 'sampling date' columns from host-associated metagenome and single-genome sample tables as this is almost never reported
 
 ### Changed
 
-- Removed 'sampling date' columns from host-associated metagenome and single-genome sample tables as this is almost never reported
+- Changed archive_project from NA to Unknown for Taubenberger2005, PattersonRoss2018, Worobey2016
 - Fixed Susat2021 DOIs (excel dragging error)
 - Fixed Kazarina2021 Project/Sample accessions (column flip error)
 - Fixed Morozova2020 DOIs (excel dragging error)
 - Fixed Bieker2020 DOIs (paper partly reused previous data for new purpose and earlier had the other publication DOI. Now made all DOIs and dates consistent for the publication where metagenomics was performed)
+- Fixed Bieker2020 sample USNH-39 into two separate 'artifical samples' due to upload of two libraries to two difference archives.
+- Fixed Bieker2020 missing sample accession codes (due to later re-sequencing and non-reused SRS/ERS code)
 - Fixed Muhlemann2018 Project ID (now available)
 - Fixed FellowsYates2021 corrected typo in longitude 85.53 > -85.53
-- Fixed Velsko2018 -> Velsko2019 (wrong publication year)
+- Fixed Velsko2018 project name to Velsko2019 (wrong publication year)
 - Fixed Schuenemann2011 Put the accession ID of the full plasmid sequence not partial
 - Fixed Martin2013 corrected archive name (incorrectly reported in publication)
 - Fixed Seersholm2016 archive ENA (from incorrectly specified as SRA)
-- Fixed Vagene2018 polymerase typo
 - Fixed Eisenhofer2020 date rounding error (originally added 230 rather than 200)
 - Fixed BravoLopez2020 typo in site name (Inmaculate -> Immaculate)
 - Fixed Willmann2018 project_name (originally missing the second 'n')
 - Fixed DeDios2020, DeDios2019, DeDios2021 project_names (originally had lowercase leading d)
+- Fixed DeDios2020 sample_name from Jean-Paul Marat to Marat to make it consistent with the libraries uploaded in the ENA
 - Fixed Campos2021 sample accession column had run accession
 - Fixed Philips2017 fixed incorrect DOI (from later publication that reused same data)
-- Fixed missing sample accession code to Bieker2020 (due to later reqsequencing and non-reused SRS/ERS code)
+- Fixed Wagner2014 incorrect archive in the samples tsv
+- Fixed Eerkens2018 sample name from an individual name to the specific calculus sample name
+- Fixed Zhou2018 by switching sample name to a clearer one based on the file name rather than just the project_archive ID
+- Fixed Zhou2018 in ancientsinglegenome-hostassociated archive_project and archive_accession to be more explicit as of which files have been use to reconstruct the genome
+- Fixed Campos2021 sample_name to HERB_1937 to make it consistent with the libraries uploaded in the ENA
+- Fixed Borry2020 sample_name to match archaeological ID from paper (as opposed to laboratory ID which was in sample.tsv table)
+- Fixed Velsko2019 accidental inclusion of old sample accessions to keep 'correct' sample accession of correct data
+- Fixed Liang2021 sample names to be more specific to allow association with library names
+- Fixed GuzmanSolis2021 archive_project and archive_accession to include the Dryad doi and the specific ids from the download links
+- Fixed Ardelean2020 sample_name incorrect in samples tsv, replaced with sample_name from libraries tsv
+- Fixed Morozova2020 typo in - Azov37 -> Axov38
+- Fixed Morozova2020 accidental ERS code duplication across two samples
 
 ### Removed
 
 - Removed Mendum2014 sample SK27 due to TreeBASE repository not being accessible any more
-- Removed SantiagoRodriguez2016 and SantiagoRodridguez2016 samples as raw data is no longer publically accessible on MG-RAST
+- Removed SantiagoRodriguez2016 and SantiagoRodridguez2016 samples as raw data is no longer publicly accessible on MG-RAST
 - Removed Braadbaart2020 as uploaded data was not shotgun data as required for inclusion in environmental table
 - Removed Worobey2016 samples SF74 and SF73 as not in final consensus sequences
+- Removed Schulte2021 sample accessions of targeted capture libraries (which were different from the shotgun libraries)
+- Removed Schuenemann2018 libraries (Jørgen\_\*) that were originally published in tandem with and already included in KrauseKyora2018b
 
 ## v21.09: Taputapuātea
 

@@ -24,11 +24,11 @@ jobs:
           channels: conda-forge,defaults
       - name: Generate map geojson
         run: |
-          python assets/analysis/scripts/create_geojson.py \
+          python assets/analysis/create_geojson.py \
           --environmental ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples.tsv \
           --meta_host ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv \
           --single_host ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv \
-          --geojson assets/analysis/live/ancientmetagenomedir.geo.json
+          --geojson assets/images/figures/ancientmetagenomedir.geo.json
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "[skip ci] Update AncientMetagenomeDir geojson"

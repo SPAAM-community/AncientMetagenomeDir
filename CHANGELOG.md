@@ -17,6 +17,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- Modi 2021 10.1016/j.quaint.2021.12.003
+
 #### Ancient Metagenome: Anthropogenic
 
 ### Changed

@@ -11,6 +11,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Fagernäs 2022 10.1093/femsmc/xtac006
+
 #### Ancient Single Genome: Host Associated
 
 - Jäger 2022 10.1016/j.tube.2022.102181

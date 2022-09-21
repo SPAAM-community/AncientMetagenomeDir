@@ -11,15 +11,13 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Modi 2021 10.1016/j.quaint.2021.12.003
+
 #### Ancient Single Genome: Host Associated
 
 - Jäger 2022 10.1016/j.tube.2022.102181
 
 #### Ancient Metagenome: Environmental
-
-- Modi 2021 10.1016/j.quaint.2021.12.003
-
-#### Ancient Metagenome: Anthropogenic
 
 ### Changed
 

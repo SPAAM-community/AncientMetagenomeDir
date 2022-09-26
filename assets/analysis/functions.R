@@ -468,7 +468,7 @@ plot_cumulative_timeline_libs_grouped_line <- function(x, type, grouptype) {
     theme_classic() +
     theme(legend.position = "bottom") +
     facet_wrap(~List, ncol = 1) +
-    scale_colour_manual(values = paletteer_d("ggthemes::Tableau_20")) +
+    scale_colour_manual(values = paletteer_d("khroma::discrete_rainbow")) +
     labs(
       title = paste0("Published ", type, " per year"),
       subtitle = paste0("Grouping: ", grouptype, ". Updated: ", Sys.Date()),

@@ -17,7 +17,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Jäger 2022 10.1016/j.tube.2022.102181
 - Rieux 2021 10.1038/s41598-021-00518-w
+- Guellil 2021 10.1038/s41598- 021- 98214-2
 - Guellil 2022 10.1186/s13059-021-02580-z
+
 
 #### Ancient Metagenome: Environmental
 

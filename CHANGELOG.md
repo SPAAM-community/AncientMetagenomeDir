@@ -20,6 +20,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Guellil 2021 10.1038/s41598- 021- 98214-2
 - Guellil 2022 10.1186/s13059-021-02580-z
 - Spyrou 2022 10.1038/s41586-022-04800-3
+- Neumann 2022 10.1016/j.cub.2022.06.094
 
 #### Ancient Metagenome: Environmental
 

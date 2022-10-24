@@ -1,11 +1,11 @@
 {
   "enum": [
-      "floral",
       "faunal",
+      "floral",
       "microbial",
-      "floral,faunal",
+      "faunal,floral",
       "floral,microbial",
       "faunal,microbial",
-      "floral,faunal,microbial"
+      "faunal,floral,microbial"
   ]
 }

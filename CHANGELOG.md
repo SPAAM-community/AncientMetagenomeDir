@@ -24,6 +24,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- Courtin 2022 10.1002/edn3.336
+
 ### Changed
 
 ### Removed

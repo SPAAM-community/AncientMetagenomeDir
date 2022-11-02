@@ -24,6 +24,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- Gelabert 2021 10.1016/j.cub.2021.06.023
+
 ### Changed
 
 ### Removed

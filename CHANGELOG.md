@@ -24,6 +24,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- Iwańska 2022 10.1038/s41598-022-12761-w
+
 ### Changed
 
 ### Removed

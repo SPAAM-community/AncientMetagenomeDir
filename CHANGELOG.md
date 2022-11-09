@@ -26,6 +26,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Fixed Morozova 2020 material type from skull to bone to represent actual extraction 'tissue type'
+
 ### Removed
 
 ## v22.09.2: Pyu Ancient Cities

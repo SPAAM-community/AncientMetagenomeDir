@@ -55,12 +55,12 @@
 <rect x='256.82' y='175.04' width='14.68' height='31.90' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
 <rect x='242.14' y='183.67' width='14.68' height='23.28' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
 <rect x='227.46' y='188.82' width='14.68' height='18.12' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
-<rect x='212.77' y='162.56' width='14.68' height='44.39' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
-<rect x='198.09' y='178.01' width='14.68' height='28.94' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
+<rect x='212.77' y='162.37' width='14.68' height='44.57' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
+<rect x='198.09' y='177.45' width='14.68' height='29.50' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
 <rect x='183.41' y='177.72' width='14.68' height='29.22' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
 <rect x='168.72' y='188.38' width='14.68' height='18.57' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
 <rect x='154.04' y='174.28' width='14.68' height='32.67' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
-<rect x='139.36' y='174.78' width='14.68' height='32.16' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
+<rect x='139.36' y='173.78' width='14.68' height='33.17' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
 <rect x='124.67' y='180.37' width='14.68' height='26.57' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
 <rect x='109.99' y='198.84' width='14.68' height='8.10' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
 </g>
@@ -161,7 +161,7 @@
 <polyline points='37.50,237.79 40.24,237.79 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <text x='161.38' y='322.01' text-anchor='middle' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='113.23px' lengthAdjust='spacingAndGlyphs'>Years before present</text>
 <text transform='translate(13.50,177.10) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='66.03px' lengthAdjust='spacingAndGlyphs'>Samples (n)</text>
-<text x='40.24' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='117.95px' lengthAdjust='spacingAndGlyphs'>Updated: 2022-10-21</text>
+<text x='40.24' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='117.95px' lengthAdjust='spacingAndGlyphs'>Updated: 2022-11-10</text>
 <text x='40.24' y='15.10' style='font-size: 13.20px; font-family: Liberation Sans;' textLength='180.78px' lengthAdjust='spacingAndGlyphs'>Age distribution of samples</text>
 <text x='45.55' y='336.46' style='font-size: 8.80px; font-weight: bold; font-family: Liberation Sans;' textLength='43.86px' lengthAdjust='spacingAndGlyphs'>License: </text>
 <text x='89.40' y='336.46' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='48.43px' lengthAdjust='spacingAndGlyphs'>CC-BY 4.0. </text>

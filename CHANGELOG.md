@@ -22,6 +22,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Spyrou 2022 10.1038/s41586-022-04800-3
 - Neumann 2022 10.1016/j.cub.2022.06.094
 - Vågene 2022 10.1038/s41467-022-28562-8
+- Austin 2022 10.1038/s42003-022-03890-z
 
 #### Ancient Metagenome: Environmental
 

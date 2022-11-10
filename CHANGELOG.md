@@ -24,11 +24,13 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Vågene 2022 10.1038/s41467-022-28562-8
 - Austin 2022 10.1038/s42003-022-03890-z
 - Guellil 2022 10.1126/sciadv.abo4435
-
+- Long 2022 10.1038/s42003-022-03527-1
 
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+- Syncronised site location name of PattersonRoss2018 with Long2022 
 
 ### Removed
 

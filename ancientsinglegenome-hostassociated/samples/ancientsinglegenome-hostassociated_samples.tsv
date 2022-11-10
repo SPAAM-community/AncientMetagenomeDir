@@ -126,7 +126,7 @@ Bos2016	2016	10.7554/eLife.12994.001	l'Observance	43.301	5.367	France	OBS110	Hom
 Bos2016	2016	10.7554/eLife.12994.001	l'Observance	43.301	5.367	France	OBS116	Homo sapiens	200	10.7554/eLife.12994.001	bacteria	Yersinia pestis	tooth	chromosome	ENA	raw	PRJEB12163	ERS1020862
 Bos2016	2016	10.7554/eLife.12994.001	l'Observance	43.301	5.367	France	OBS124	Homo sapiens	200	10.7554/eLife.12994.001	bacteria	Yersinia pestis	tooth	chromosome	ENA	raw	PRJEB12163	ERS1020863
 Bos2016	2016	10.7554/eLife.12994.001	l'Observance	43.301	5.367	France	OBS137	Homo sapiens	200	10.7554/eLife.12994.001	bacteria	Yersinia pestis	tooth	chromosome	ENA	raw	PRJEB12163	ERS1020864
-PattersonRoss2018	2018	10.1371/journal.ppat.1006750	Sacristy of the Basilica of St. Domenico Maggiore	40.848	14.254	Italy	NASD24	Homo sapiens	400	10.1371/journal.ppat.1006750	virus	Hepatitis B virus	tissue	chromosome	GenBank	consensus	Unknown	MG585269
+PattersonRoss2018	2018	10.1371/journal.ppat.1006750	Basilica of St. Domenico Maggiore, Naples	40.848	14.254	Italy	NASD24	Homo sapiens	400	10.1371/journal.ppat.1006750	virus	Hepatitis B virus	tissue	chromosome	GenBank	consensus	Unknown	MG585269
 Vagene2018	2018	10.1038/s41559-017-0446-6	Teposcolula-Yucundaa	17.499	-97.467	Mexico	Tepos_10	Homo sapiens	400	10.1038/s41559-017-0446-6	bacteria	Salmonella enterica	tooth	chromosome	ENA	raw	PRJEB23438	ERS2020211
 Vagene2018	2018	10.1038/s41559-017-0446-6	Teposcolula-Yucundaa	17.499	-97.467	Mexico	Tepos_11	Homo sapiens	400	10.1038/s41559-017-0446-6	bacteria	Salmonella enterica	tooth	chromosome	ENA	raw	PRJEB23438	ERS2020212
 Vagene2018	2018	10.1038/s41559-017-0446-6	Teposcolula-Yucundaa	17.499	-97.467	Mexico	Tepos_14	Homo sapiens	400	10.1038/s41559-017-0446-6	bacteria	Salmonella enterica	tooth	chromosome	ENA	raw	PRJEB23438	ERS2020215
@@ -552,3 +552,5 @@ Guellil2022b	2022	10.1126/sciadv.abo4435	Edix Hill, Cambridgeshire	52.136	-0.011
 Austin2022	2022	10.1038/s42003-022-03890-z	City Hospital #2, St. Louis, Missouri	38.632	-90.222	USA	St.LI	Homo sapiens	100	10.1038/s42003-022-03890-z	bacteria	Klebsiella pneumoniae	dental calculus	chromosome	SRA	raw	PRJNA851947	SRS13524932
 Austin2022	2022	10.1038/s42003-022-03890-z	City Hospital #2, St. Louis, Missouri	38.632	-90.222	USA	St.LI	Homo sapiens	100	10.1038/s42003-022-03890-z	bacteria	Acinetobacter nosocomialis	dental calculus	chromosome	SRA	raw	PRJNA851947	SRS13524932
 Austin2022	2022	10.1038/s42003-022-03890-z	City Hospital #2, St. Louis, Missouri	38.632	-90.222	USA	St.LI	Homo sapiens	100	10.1038/s42003-022-03890-z	bacteria	Acinetobacter junii	dental calculus	chromosome	SRA	raw	PRJNA851947	SRS13524932
+Long2022	2022	10.1038/s42003-022-03527-1	Basilica of St. Domenico Maggiore, Naples	40.848	14.254	Italy	NASD1	Homo sapiens	400	10.1038/s42003-022-03527-1	bacteria	Escherichia coli	calcified nodule	chromosome	SRA	raw	PRJNA810725	SRS12115743
+

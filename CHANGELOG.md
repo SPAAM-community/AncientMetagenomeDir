@@ -26,10 +26,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Guellil 2022 10.1126/sciadv.abo4435
 - Long 2022 10.1038/s42003-022-03527-1
 
-
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+- Syncronised site location name of PattersonRoss2018 with Long2022 
 
 ### Removed
 
@@ -55,7 +56,6 @@ Correction: Correct release ZIP upload
 - Pfrengle 2021 10.1186/s12915-021-01120-2
 - Kocher 2021 10.1126/science.abi5658
 - Andrades Valtueña 2022 10.1073/pnas.2116722119
-- Long 2022 10.1038/s42003-022-03527-1
 
 #### Ancient Metagenome: Environmental
 

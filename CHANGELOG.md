@@ -28,6 +28,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- Moore 2020 10.1002/ece3.6082
+
 ### Changed
 
 - Syncronised site location name of PattersonRoss2018 with Long2022 

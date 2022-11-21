@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 - Modi 2021 10.1016/j.quaint.2021.12.003
+- Scorrano 2022 10.1038/s42003-022-04190-2
 
 #### Ancient Single Genome: Host Associated
 

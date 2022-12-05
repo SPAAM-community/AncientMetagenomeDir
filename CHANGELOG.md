@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 - Modi 2021 10.1016/j.quaint.2021.12.003
+- Scorrano 2022 10.1038/s42003-022-04190-2
 
 #### Ancient Single Genome: Host Associated
 
@@ -30,6 +31,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Armbrecht 2022 10.1038/s41467-022-33494-4
 - Courtin 2022 10.1002/edn3.336
+- Iwańska 2022 10.1038/s41598-022-12761-w
 - Gelabert 2021 10.1016/j.cub.2021.06.023
 
 ### Changed

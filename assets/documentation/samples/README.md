@@ -136,6 +136,8 @@ Sample columns are as follows:
 
 > ⚠️ Mandatory value
 
+> ⚠️ Extraction and/or library blanks should NOT be included in the table!
+
 ## sample_host
 
 > 🧫 host-associated metagenome or 🦠 host-associated single genome only!

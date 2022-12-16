@@ -13,7 +13,7 @@ jobs:
       run:
         shell: bash -l {0}
     steps:
-      - uses: actions/checkout@v2.3.4
+      - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_ACTIONS_COMMIT_ACTION }}
       - uses: conda-incubator/setup-miniconda@v2

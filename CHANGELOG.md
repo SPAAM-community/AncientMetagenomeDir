@@ -32,6 +32,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Armbrecht 2022 10.1038/s41467-022-33494-4
 - Courtin 2022 10.1002/edn3.336
 - Iwańska 2022 10.1038/s41598-022-12761-w
+- Gelabert 2021 10.1016/j.cub.2021.06.023
+- Moore 2020 10.1002/ece3.6082
 
 ### Changed
 

@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v22.12: Joya de Cerén [Unreleased]
+## v22.12: Joya de Cerén
 
 ### Added
 
@@ -33,13 +33,13 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Armbrecht 2022 10.1038/s41467-022-33494-4
 - Courtin 2022 10.1002/edn3.336
 - Iwańska 2022 10.1038/s41598-022-12761-w
-- Perez 2022 10.3390/microorganisms10081623
 - Gelabert 2021 10.1016/j.cub.2021.06.023
 - Moore 2020 10.1002/ece3.6082
+- Perez 2022 10.3390/microorganisms10081623
 
 ### Changed
 
-- Synchronised site location name of PattersonRoss2018 with Long2022 
+- Synchronised site location name of PattersonRoss2018 with Long2022
 
 ### Removed
 

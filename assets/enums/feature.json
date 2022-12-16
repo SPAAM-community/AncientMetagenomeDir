@@ -1,0 +1,14 @@
+{
+  "enum": [
+    "lake",
+    "cave",
+    "archeological site",
+    "midden",
+    "swamp forest",
+    "ocean",
+    "thermokarst",
+    "rock shelter",
+    "shell",
+    "sea coast"
+  ]
+}

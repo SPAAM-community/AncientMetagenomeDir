@@ -471,3 +471,15 @@ Perez2022	2022	10.3390/microorganisms10081623	Lirima hydrothermal system	-19,851
 Perez2022	2022	10.3390/microorganisms10081623	Lirima hydrothermal system	-19,851	-68,906	Chile	microbial,floral,microbial	Unknown	50	S2	500	10.3390/microorganisms10081623	hydrothermal field	soil	NA	SRA	PRJNA794308	SRS11699679,SRS11699680,SRS11699678,SRS11699677,SRS11699676
 Perez2022	2022	10.3390/microorganisms10081623	Lirima hydrothermal system	-19,854	-68,888	Chile	microbial,floral,microbial	Unknown	110	S3	1100	10.3390/microorganisms10081623	hydrothermal field	soil	NA	SRA	PRJNA794308	SRS11699658,SRS11699656,SRS11699657,SRS11699655,SRS11699653
 Perez2022	2022	10.3390/microorganisms10081623	Salar de Huasco wetlands	-20,287	-68,888	Chile	microbial,floral,microbial	Unknown	80	S4	800	10.3390/microorganisms10081623	wetland area	soil	NA	SRA	PRJNA794308	SRS11699664,SRS11699662,SRS11699660,SRS11699661,SRS11699659
+Gelabert2021	2021	10.1016/j.cub.2021.06.023	Satsurblia Cave	42.389	42.606	Georgia	faunal	B	NA	SAT16 LS29	25000	10.1371/journal.pone.0111271	cave	sediment	2016	ENA	PRJEB41420	ERS6590040
+Moore2020	2020	10.1002/ece3.6082	City of Rocks National Reserve	42.07	-113.70	USA	faunal,floral	Unknown	NA	FRT504-1-6-19	300	10.1002/ece3.6082	midden	midden	NA	SRA	PRJNA488629	SRS3730742
+Moore2020	2020	10.1002/ece3.6082	City of Rocks National Reserve	42.07	-113.70	USA	faunal,floral	Unknown	NA	FRT511A-2-6-19	2900	10.1002/ece3.6082	midden	midden	NA	SRA	PRJNA488629	SRS3730743
+Moore2020	2020	10.1002/ece3.6082	City of Rocks National Reserve	42.07	-113.70	USA	faunal,floral	Unknown	NA	PPC524-1-6-19	3100	10.1002/ece3.6082	midden	midden	NA	SRA	PRJNA488629	SRS3730737
+Moore2020	2020	10.1002/ece3.6082	City of Rocks National Reserve	42.07	-113.70	USA	faunal,floral	Unknown	NA	PPC529-PrA	3300	10.1002/ece3.6082	midden	midden	NA	SRA	PRJNA488629	SRS3730740
+Moore2020	2020	10.1002/ece3.6082	City of Rocks National Reserve	42.07	-113.70	USA	faunal,floral	Unknown	NA	PPC529-UnA	3300	10.1002/ece3.6082	midden	midden	NA	SRA	PRJNA488629	SRS3730736
+Moore2020	2020	10.1002/ece3.6082	City of Rocks National Reserve	42.07	-113.70	USA	faunal,floral	Unknown	NA	PPC529-UnB	3300	10.1002/ece3.6082	midden	midden	NA	SRA	PRJNA488629	SRS3730741
+Moore2020	2020	10.1002/ece3.6082	City of Rocks National Reserve	42.07	-113.70	USA	faunal,floral	Unknown	NA	TS211F-2Pr	28500	10.1002/ece3.6082	midden	midden	NA	SRA	PRJNA488629	SRS3730735
+Moore2020	2020	10.1002/ece3.6082	City of Rocks National Reserve	42.07	-113.70	USA	faunal,floral	Unknown	NA	TS211F-4-6-7	28500	10.1002/ece3.6082	midden	midden	NA	SRA	PRJNA488629	SRS3730734
+Moore2020	2020	10.1002/ece3.6082	City of Rocks National Reserve	42.07	-113.70	USA	faunal,floral	Unknown	NA	TS211F-Un	28500	10.1002/ece3.6082	midden	midden	NA	SRA	PRJNA488629	SRS3730739
+Moore2020	2020	10.1002/ece3.6082	City of Rocks National Reserve	42.07	-113.70	USA	faunal,floral	Unknown	NA	TS211A-2-6-19	31800	10.1002/ece3.6082	midden	midden	NA	SRA	PRJNA488629	SRS3730738
+Moore2020	2020	10.1002/ece3.6082	Guadalupe Canyon	32.15	-115.78	Mexico	faunal,floral	Unknown	NA	GC100B	3600	10.1016/j.jaridenv.2019.02.002	midden	midden	NA	SRA	PRJNA488629	SRS3730744

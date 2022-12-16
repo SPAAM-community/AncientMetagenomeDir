@@ -137,6 +137,8 @@ Library columns are as follows:
   - For example: KNP001.A0101 and KNP001.A0101.161208, or PES001.B0101 and PES001.B0103.SG1.1,
     are both
 
+> ⚠️ Extraction and/or library blanks should NOT be included in the table!
+
 ## strand_type
 
 - Specify the strandedness of the library constructed for sequencing.

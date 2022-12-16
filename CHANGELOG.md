@@ -27,12 +27,14 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Austin 2022 10.1038/s42003-022-03890-z
 - Guellil 2022 10.1126/sciadv.abo4435
 - Long 2022 10.1038/s42003-022-03527-1
+- Quagliariello 2022 10.1038/s41467-022-34416-0
 
 #### Ancient Metagenome: Environmental
 
 - Armbrecht 2022 10.1038/s41467-022-33494-4
 - Courtin 2022 10.1002/edn3.336
 - Iwańska 2022 10.1038/s41598-022-12761-w
+- Perez 2022 10.3390/microorganisms10081623
 - Gelabert 2021 10.1016/j.cub.2021.06.023
 - Moore 2020 10.1002/ece3.6082
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 library(argparser)
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 
 parser <- argparser::arg_parser('Outputs list of project_names with incosistencies',
                                  name = 'prerelease-validation-manual.R')
@@ -22,8 +22,9 @@ argv <- parse_args(parser)
 
 samples <- read.delim(argv$samplesTable, sep = "\t")
 libraries <- read.delim(argv$libraryTable, sep = "\t")
-allCombined <- samples %>% full_join(libraries)
+allCombined <- samples %>% full_join(libraries, by = c("project_name", "publication_year", "sample_name", "archive", "archive_project"))
 write_tsv(allCombined, file = argv$outputTable)
 publication_doi_na <- allCombined %>% filter(is.na(publication_doi))
-unique(publication_doi_na$project_name)
-
+cat("\n")
+cat("POSSIBLE PROBLEMS FOR:", paste0(unique(publication_doi_na$project_name), sep = ","), "\n")
+cat("\n")

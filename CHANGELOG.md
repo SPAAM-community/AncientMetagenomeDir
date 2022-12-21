@@ -25,33 +25,33 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
-- Modi 2021 10.1016/j.quaint.2021.12.003
-- Scorrano 2022 10.1038/s42003-022-04190-2
-- Fagernäs 2022 10.1093/femsmc/xtac006
-- Velsko 2022 10.1093/pnasnexus/pgac148
+- Modi 2021 10.1016/j.quaint.2021.12.003 (added by @jfy133)
+- Scorrano 2022 10.1038/s42003-022-04190-2 (added by @ktozdogan)
+- Fagernäs 2022 10.1093/femsmc/xtac006 (added by @jfy133)
+- Velsko 2022 10.1093/pnasnexus/pgac148 (added by @bbartholdy)
 
 #### Ancient Single Genome: Host Associated
 
-- Jäger 2022 10.1016/j.tube.2022.102181
-- Rieux 2021 10.1038/s41598-021-00518-w
-- Guellil 2021 10.1038/s41598- 021- 98214-2
-- Guellil 2022 10.1186/s13059-021-02580-z
-- Spyrou 2022 10.1038/s41586-022-04800-3
-- Neumann 2022 10.1016/j.cub.2022.06.094
-- Vågene 2022 10.1038/s41467-022-28562-8
-- Austin 2022 10.1038/s42003-022-03890-z
-- Guellil 2022 10.1126/sciadv.abo4435
-- Long 2022 10.1038/s42003-022-03527-1
-- Quagliariello 2022 10.1038/s41467-022-34416-0
+- Jäger 2022 10.1016/j.tube.2022.102181 (added by @DianaSpurite)
+- Rieux 2021 10.1038/s41598-021-00518-w (added by @DianaSpurite)
+- Guellil 2021 10.1038/s41598- 021- 98214-2 (added by @DianaSpurite)
+- Guellil 2022 10.1186/s13059-021-02580-z (added by @DianaSpurite)
+- Spyrou 2022 10.1038/s41586-022-04800-3 (added by @DianaSpurite)
+- Neumann 2022 10.1016/j.cub.2022.06.094 (added by @DianaSpurite)
+- Vågene 2022 10.1038/s41467-022-28562-8 (added by @DianaSpurite)
+- Austin 2022 10.1038/s42003-022-03890-z (added by @DianaSpurite)
+- Guellil 2022 10.1126/sciadv.abo4435 (added by @DianaSpurite)
+- Long 2022 10.1038/s42003-022-03527-1 (added by @jfy133 )
+- Quagliariello 2022 10.1038/s41467-022-34416-0 (added by @DianaSpurite)
 
 #### Ancient Metagenome: Environmental
 
-- Armbrecht 2022 10.1038/s41467-022-33494-4
-- Courtin 2022 10.1002/edn3.336
-- Iwańska 2022 10.1038/s41598-022-12761-w
-- Gelabert 2021 10.1016/j.cub.2021.06.023
-- Moore 2020 10.1002/ece3.6082
-- Perez 2022 10.3390/microorganisms10081623
+- Armbrecht 2022 10.1038/s41467-022-33494-4 (added by @ilight1542)
+- Courtin 2022 10.1002/edn3.336 (added by @ktozdogan)
+- Iwańska 2022 10.1038/s41598-022-12761-w (added by @ktozdogan)
+- Gelabert 2021 10.1016/j.cub.2021.06.023 (added by @ktozdogan)
+- Moore 2020 10.1002/ece3.6082 (added by @ktozdogan)
+- Perez 2022 10.3390/microorganisms10081623 (added by @Darcy220606)
 
 ### Changed
 

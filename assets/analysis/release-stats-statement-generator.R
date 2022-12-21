@@ -2,7 +2,7 @@ suppressPackageStartupMessages(library(tidyverse))
 
 previous_tag <- "v22.09"
 release_tag <- "master"
-new_release <- "v22.10"
+new_release <- "v22.12"
 
 ## SAMPLES
 
@@ -50,8 +50,8 @@ tot_single_libraries <- nrow(new_single_libraries)
 
 ## STATEMENTS
 
-cat("\nRelease ", new_release, 
-       " includes ", adds_pubs_samples, " new publications, representing", 
+cat("\nRelease", new_release, 
+       "includes", adds_pubs_samples, "new publications, representing", 
        adds_microb_samples, "new ancient host-associated metagenome samples,", 
        adds_single_samples, "new ancient microbial genomes, and", 
        adds_env_samples, "new ancient environmental samples.",
@@ -59,7 +59,7 @@ cat("\nRelease ", new_release,
        tot_pubs_samples, " publications,",
        tot_microb_samples,  "ancient host-associated metagenome samples,", 
        tot_single_samples,  "ancient microbial genomes, and", 
-       tot_env_samples,  "ancient environmental samples\n\nFurthemermore, this release adds",
+       tot_env_samples,  "ancient environmental samples\n\nFurthermore, this release adds",
        adds_microb_libraries, "new ancient host-associated metagenome libraries,", 
        adds_single_libraries, "new ancient microbial genome libraries, and", 
        adds_env_libraries, "new ancient environmental libraries.",

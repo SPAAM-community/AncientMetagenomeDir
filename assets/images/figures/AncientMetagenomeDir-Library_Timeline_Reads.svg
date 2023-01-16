@@ -196,7 +196,7 @@
 <polyline points='46.33,235.96 49.07,235.96 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <text x='165.80' y='322.01' text-anchor='middle' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='88.41px' lengthAdjust='spacingAndGlyphs'>Publication year</text>
 <text transform='translate(13.50,177.10) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='199.43px' lengthAdjust='spacingAndGlyphs'>Number of  reads  (cumulative sum)</text>
-<text x='49.07' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='117.95px' lengthAdjust='spacingAndGlyphs'>Updated: 2023-01-09</text>
+<text x='49.07' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='117.95px' lengthAdjust='spacingAndGlyphs'>Updated: 2023-01-16</text>
 <text x='49.07' y='15.10' style='font-size: 13.20px; font-family: Liberation Sans;' textLength='163.99px' lengthAdjust='spacingAndGlyphs'>Published reads per year</text>
 <text x='45.55' y='336.46' style='font-size: 8.80px; font-weight: bold; font-family: Liberation Sans;' textLength='43.86px' lengthAdjust='spacingAndGlyphs'>License: </text>
 <text x='89.40' y='336.46' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='48.43px' lengthAdjust='spacingAndGlyphs'>CC-BY 4.0. </text>

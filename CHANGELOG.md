@@ -17,6 +17,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Fixed md5sum hash error of a Ozga2019 sample
 - Fixed md5sum hash error of a Granehall2021 sample
 
 ### Removed

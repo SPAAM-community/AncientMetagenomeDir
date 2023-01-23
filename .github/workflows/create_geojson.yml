@@ -18,7 +18,7 @@ jobs:
           token: ${{ secrets.GH_ACTIONS_COMMIT_ACTION }}
       - uses: conda-incubator/setup-miniconda@v2
         with:
-          mamba-version: "*"
+          miniforge-variant: Mambaforge
           activate-environment: geojson
           environment-file: assets/analysis/geojson_environment.yml
           auto-activate-base: true

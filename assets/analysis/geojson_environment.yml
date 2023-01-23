@@ -6,4 +6,4 @@ dependencies:
   - click
   - geopandas
   - pandas
-  - python=
+  - python

@@ -11,6 +11,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Moraitou 2022 10.1093/molbev/msac263 (added by @alexhbnr)
 - Quagliariello 2022 10.1038/s41467-022-34416-0 (added by @alexhbnr)
 
 #### Ancient Single Genome: Host Associated

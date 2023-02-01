@@ -21,6 +21,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Fixed md5sum hash error of a Ozga2019 sample
 - Fixed md5sum hash error of a Granehall2021 sample
+- Replace URLs of Velsko2022 with the ones from the column "fastq_ftp" instead of the column "submitted_ftp" from ENA
 
 ### Removed
 

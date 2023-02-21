@@ -155,7 +155,7 @@ the following:
 
 More detailed versions with more tips and tricks can be seen on our wiki:
 
-- [Adding samples via pull request](https://github.com/spaam-community/AncientMetagenomeDir/wiki/Adding-a-Publication:-Step-by-Step-Guide)
+- [Adding samples via pull request](https://github.com/SPAAM-community/AncientMetagenomeDir/wiki/Adding-a-Publication:-Step-by-Step-Guide-(Samples))
 
 Samples must be from _published_ studies, and should only include _sample_ level
 information. Preprints often have not made data avaliable at this point, and we make

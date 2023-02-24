@@ -24,13 +24,13 @@ development of the field of ancient metagenomics over time.
 - [Usage](#usage)
 - [Citation](#citation)
 - [Current Status](#current-status)
-    - [Samples](#samples)
-    - [Libraries](#libraries)
-    - [Interactive samples map](#interactive-samples-map)
+  - [Samples](#samples)
+  - [Libraries](#libraries)
+  - [Interactive samples map](#interactive-samples-map)
 - [Contributing](#contributing)
-    - [Contributing your own Publications](#contributing-your-own-publications)
-    - [Contributing previously published publications](#contributing-previously-published-publications)
-    - [Guidelines and Conventions](#guidelines-and-conventions)
+  - [Contributing your own Publications](#contributing-your-own-publications)
+  - [Contributing previously published publications](#contributing-previously-published-publications)
+  - [Guidelines and Conventions](#guidelines-and-conventions)
 
 <!-- /TOC -->
 
@@ -133,11 +133,11 @@ Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Vels
   <img src="assets/images/figures/AncientMetagenomeDir-Library_Timeline_Reads.svg" width="48%" height = "48%">
 </p>
 
-Vector (`.svg`) versions of all images and interactive map (`.geo.json`) are available under [`assets/images/figures`](assets/images/figures). R code for all plots are freely available for modification in this repository under `assets/analysis/`
+Vector (`.svg`) versions of all images and interactive map (`.geojson`) are available under [`assets/images/figures`](assets/images/figures). R code for all plots are freely available for modification in this repository under `assets/analysis/`
 
 ### Interactive samples map
 
-[AncientMetagenomeDir](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/images/figures/ancientmetagenomedir.geo.json ":include :type=iframe width=100% height=400px")
+[AncientMetagenomeDir](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/images/figures/ancientmetagenomedir.geojson ":include :type=iframe width=100% height=400px")
 
 **Legend:**
 Green: Environmental Metagenome,
@@ -155,7 +155,7 @@ the following:
 
 More detailed versions with more tips and tricks can be seen on our wiki:
 
-- [Adding samples via pull request](https://github.com/SPAAM-community/AncientMetagenomeDir/wiki/Adding-a-Publication:-Step-by-Step-Guide-(Samples))
+- [Adding samples via pull request](<https://github.com/SPAAM-community/AncientMetagenomeDir/wiki/Adding-a-Publication:-Step-by-Step-Guide-(Samples)>)
 
 Samples must be from _published_ studies, and should only include _sample_ level
 information. Preprints often have not made data avaliable at this point, and we make

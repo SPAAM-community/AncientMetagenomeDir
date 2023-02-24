@@ -30,7 +30,7 @@ jobs:
           --environmental ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples.tsv \
           --meta_host ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv \
           --single_host ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv \
-          --geojson assets/images/figures/ancientmetagenomedir.geo.json
+          --geojson assets/images/figures/ancientmetagenomedir.geojson
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "[skip ci] Update AncientMetagenomeDir geojson"

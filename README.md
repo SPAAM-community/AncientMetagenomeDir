@@ -137,9 +137,9 @@ Vector (`.svg`) versions of all images and interactive map (`.geojson`) are avai
 
 ### Interactive samples map
 
-<iframe height='220' width='400' frameborder='0' src='https://viewscreen.githubusercontent.com/view/geojson?url=https%3a%2f%2fraw.githubusercontent.com%2fSPAAM-community%2fAncientMetagenomeDir%2fmaster%2fassets%2fimages%2ffigures%2fancientmetagenomedir.geojson' title='ancientmetagenomedir.geojson'></iframe>
+[AncientMetagenomeDir](https://viewscreen.githubusercontent.com/view/geojson?url=https%3a%2f%2fraw.githubusercontent.com%2fSPAAM-community%2fAncientMetagenomeDir%2fmaster%2fassets%2fimages%2ffigures%2fancientmetagenomedir.geojson ":include :type=iframe width=100% height=400px")
 
-(Viewable on the [AncientMetagenomeDir Website](https://spaam-community.github.io/AncientMetagenomeDir/#/))
+(Viewable on the [AncientMetagenomeDir Website](https://spaam-community.github.io/AncientMetagenomeDir/#/) or [here](https://viewscreen.githubusercontent.com/view/geojson?url=https%3a%2f%2fraw.githubusercontent.com%2fSPAAM-community%2fAncientMetagenomeDir%2fmaster%2fassets%2fimages%2ffigures%2fancientmetagenomedir.geojson))
 
 **Legend:**
 Green: Environmental Metagenome,

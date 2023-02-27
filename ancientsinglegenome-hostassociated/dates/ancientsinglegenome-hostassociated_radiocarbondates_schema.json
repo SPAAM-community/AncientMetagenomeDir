@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_radiocarbondates_schema.json",
+  "type": "array",
+  "title": "JSON schema for AncientMetagenomeDir ancient host-associated single-genome C14 data",
+  "description": "The JSON schema for AncientMetagenomeDir ancient host-associated radiocarbon date (C14) information",
+  "additionalItems": false,
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The items schema",
+    "description": "An explanation about the purpose of this instance.",
+    "default": {},
+    "required": [
+      "project_name",
+      "publication_year",
+      "data_publication_doi",
+      "sample_name",
+      "archive_project",
+      "archive_sample_accession"
+    ],
+    "properties": {
+      "project_name": {
+        "$id": "#/items/properties/project_name",
+        "type": "string",
+        "title": "AncientMetagenomeDir key of the publication",
+        "description": "Format: surnameYYYY (if duplicate key but different publication, add b,c,d etc. as necessary). Must match a AncientMetagenomeDir samples table entry",
+        "pattern": "^[a-zA-Z]+\\d{4}[b-z]?$",
+        "examples": ["Warinner2014", "Muhlemann2018", "Muhlemann2018a"]
+      },
+      "publication_year": {
+        "$id": "#/items/properties/publication_year",
+        "type": "integer",
+        "minimum": 1950,
+        "maximum": 2100,
+        "title": "Year of publication",
+        "description": "Format: YYYY",
+        "examples": [2014]
+      },
+      "data_publication_doi": {
+        "$id": "#/items/properties/data_publication_doi",
+        "type": "string",
+        "pattern": "^10.\\d{4,9}\\/[^,]+$",
+        "title": "Digital Object Identifier (DOI) of the publication.",
+        "description": "A valid DOI code (not as an URL). Must match a AncientMetagenomeDir samples table entry",
+        "examples": ["10.1038/ng.2906"]
+      },
+      "sample_name": {
+        "$id": "#/items/properties/sample_name",
+        "type": "string",
+        "title": "Name of the sample",
+        "description": "In most cases this should be the name of the host individual. Must match a AncientMetagenomeDir samples table entry",
+        "examples": ["B61"]
+      },
+      "archive_project": {
+        "$id": "#/items/properties/archive_project",
+        "type": "string",
+        "title": "Archive project accession platform",
+        "description": "Name of the nucleotide data archiving platform. Must match a AncientMetagenomeDir samples table entry",
+        "examples": ["PRJNA438985", "mgp13354"]
+      },
+      "archive_sample_accession": {
+        "$id": "#/items/properties/archive_sample_accession",
+        "type": "string",
+        "pattern": "^[\\S]+$",
+        "title": "Archive accession number",
+        "description": "Samples archive accession numbers, multiple records can be separated with commas. No spaces allowed. . Must match a AncientMetagenomeDir samples table entry",
+        "examples": ["SRS473742,SRS473743,SRS473744,SRS473745"]
+      },
+      "date_information_present": {},
+      "date_is_radiocarbon": {},
+      "multiple_dates": {},
+      "reference_location": {},
+      "reference_citation_depth": {},
+      "primary_secondary_reference_citation_doi": {},
+      "direct_dating": {},
+      "radiocarbon_lab_code": {},
+      "spectrometry_type": {},
+      "sample_material": {},
+      "delta_13c": {},
+      "uncalibrated_date ": {},
+      "uncalibrated_uncertainty_plus_minus": {},
+      "calibration_reported": {},
+      "calibration_curve": {},
+      "calibration_software": {},
+      "calibration_software_version": {},
+      "calibrated_range_lower": {},
+      "calibrated_range_upper": {},
+      "calibrated_range_median": {},
+      "calibrated_range_suffix": {},
+      "reservoir_offset_mentioned": {},
+      "reservoir_offset_applied": {},
+      "reservoir_offset_reported": {}
+    }
+  }
+}

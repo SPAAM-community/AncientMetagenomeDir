@@ -67,15 +67,84 @@
         "description": "Samples archive accession numbers, multiple records can be separated with commas. No spaces allowed. . Must match a AncientMetagenomeDir samples table entry",
         "examples": ["SRS473742,SRS473743,SRS473744,SRS473745"]
       },
-      "date_information_present": {},
-      "date_is_radiocarbon": {},
-      "multiple_dates": {},
-      "reference_location": {},
-      "reference_citation_depth": {},
-      "primary_secondary_reference_citation_doi": {},
-      "direct_dating": {},
-      "radiocarbon_lab_code": {},
-      "spectrometry_type": {},
+      "date_information_present": {
+        "$id": "#/items/properties/date_information_present",
+        "type": "boolean",
+        "title": "Is Date Information Present?",
+        "description": "Whether a sample has a specific year-date reported (e.g. 1245, not 15th Century or similar), If false, all other downstream fields should be set to NA",
+        "examples": ["true", "false"]
+      },
+      "date_is_radiocarbon": {
+        "$id": "#/items/properties/date_is_radiocarbon",
+        "type": "string",
+        "title": "Is Date Radiocarbon?",
+        "enum": ["true", "false", "NA", "NR"],
+        "description": "Whether a sample has a specific year-date reported (e.g. 1245, not 15th Century or similar), If false, all other downstream fields should be set to NA",
+        "examples": ["true", "false"]
+      },
+      "multiple_dates": {
+        "$id": "#/items/properties/multiple_dates",
+        "type": "string",
+        "title": "Multiple Direct Dates Present?",
+        "enum": ["true", "false", "NA"],
+        "description": "Whether multiple (direct) dates are present for this sample; if so make multiple rows for the sample with one date per row.",
+        "examples": ["true", "false", "NA"]
+      },
+      "reference_location": {
+        "$id": "#/items/properties/reference_location",
+        "type": "string",
+        "title": "Location of Reference to Date",
+        "enum": ["main text", "supplement text", "supplement table"],
+        "description": "First place where the precise-radiocarbon date was recorded in the primary citation publication (i.e, the publication in ancientMetagenomeDir). main text > supplementary text > supplmentary table.",
+        "examples": ["main text", "supplement text", "supplement table", "NA"]
+      },
+      "reference_citation_depth": {
+        "$id": "#/items/properties/reference_citation_depth",
+        "type": "string",
+        "title": "Reference Citation Depth?",
+        "enum": ["main text", "supplement text", "supplement table"],
+        "description": "First place where the precise-radiocarbon date was recorded in the primary citation publication (i.e, the publication in ancientMetagenomeDir). main text > supplementary text > supplmentary table.",
+        "examples": ["1", "2", "3", "9", "NA"]
+      },
+      "primary_secondary_reference_citation_doi": {
+        "$id": "#/items/properties/primary_secondary_reference_citation_doi",
+        "type": "string",
+        "pattern": "^10.\\d{4,9}\\/[^,]+$",
+        "title": "Digital Object Identifier (DOI) of the publication that the date was originally reported.",
+        "description": "DOI of the primary or secondary reference (i.e. the DOI of the publication in which the date was original reported)",
+        "examples": ["10.1038/ng.2906"]
+      },
+      "direct_dating": {
+        "$id": "#/items/properties/direct_dating",
+        "type": "string",
+        "title": "Date Directly from Sample?",
+        "enum": ["true", "false", "NA"],
+        "description": "Whether the date of the ancient metagenomic sample was directly from the same skeleton (or similar), or whether inferred from other samples in the same context",
+        "examples": ["true", "false", "NA"]
+      },
+      "radiocarbon_lab_code": {
+        "$id": "#/items/properties/radiocarbon_lab_sample_id",
+        "type": "string",
+        "title": "Radiocarbon Lab Sample ID",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_lab_code.json",
+        "description": "Lab code of the date, from https://radiocarbon.webhost.uits.arizona.edu/laboratories from Labs-2023_02_17.pdf. NA is no date available, NR is date available but no lab code",
+        "examples": ["OxA", "ANAS", "Beta", "NR", "NA"]
+      },
+      "radiocarbon_lab_sample_id": {
+        "$id": "#/items/properties/radiocarbon_lab_sample_id",
+        "type": "integer",
+        "title": "Radiocarbon Lab Sample ID",
+        "description": "C14 sample code of the radiocarbon date from the lab",
+        "examples": ["12355", "44034"]
+      },
+      "spectrometry_type": {
+        "$id": "#/items/properties/radiocarbon_lab_sample_id",
+        "type": "string",
+        "title": "Radiocarbon Lab Sample ID",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_lab_code.json",
+        "description": "Lab code of the date, from https://radiocarbon.webhost.uits.arizona.edu/laboratories from Labs-2023_02_17.pdf. NA is no date available, NR is date available but no lab code",
+        "examples": ["AMS", "IMRS", "NR" "NA"]
+      },
       "sample_material": {},
       "delta_13c": {},
       "uncalibrated_date ": {},

@@ -143,7 +143,7 @@
         "title": "Radiocarbon Lab Sample ID",
         "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_lab_code.json",
         "description": "Lab code of the date, from https://radiocarbon.webhost.uits.arizona.edu/laboratories from Labs-2023_02_17.pdf. NA is no date available, NR is date available but no lab code",
-        "examples": ["AMS", "IMRS", "NR" "NA"]
+        "examples": ["AMS", "IMRS", "NR", "NA"]
       },
       "sample_material": {},
       "delta_13c": {},

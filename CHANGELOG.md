@@ -16,6 +16,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Braun 2020 10.3390/microorganisms8020298 (added by @jfy133)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

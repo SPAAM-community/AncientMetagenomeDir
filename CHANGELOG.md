@@ -30,6 +30,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Removed
 
+### Misc
+
+- Split `download_sizes` column into three separate columns to ensure single-data type pre column.
+
 ## v22.12: Joya de Cerén
 
 ### Added

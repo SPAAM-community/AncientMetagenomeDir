@@ -303,9 +303,23 @@ Library columns are as follows:
 
 > ⚠️ Mandatory value
 
-## download_sizes
+## download_sizes_1
 
-- File sizes of corresponding download files in bytes.
+- File size of first file (typically R1) in bytes.
+- In the case of paired-end, or paired-end plus singleton data, this is the FIRST number in the comma separated list from the ENA
 - This can be used to estimated HDD space that will be used after download.
 - Can be semi-colon separated list for paired end.
+
+## download_sizes_2
+
+- File sizes of corresponding download files in bytes.
+- In the case of paired-end, or paired-end plus singleton data, this is the SECOND number in the comma separated list from the ENA
+- This can be used to estimated HDD space that will be used after download.
+- Missing value: `NA`
+
+## download_sizes_3
+
+- File sizes of corresponding download files in bytes.
+- Rarely used, only in the case of paired-end plus singleton data, this is the THIRD number in the comma separated list from the ENA
+- This can be used to estimated HDD space that will be used after download.
 - Missing value: `NA`

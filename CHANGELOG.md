@@ -17,7 +17,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
-- Kjaer	2022	10.1038/s41586-022-05453-y (added by @ktozdogan)
+- Kjaer 2022 10.1038/s41586-022-05453-y (added by @ktozdogan)
 
 ### Changed
 

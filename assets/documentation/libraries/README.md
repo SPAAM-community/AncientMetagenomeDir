@@ -315,11 +315,11 @@ Library columns are as follows:
 - File sizes of corresponding download files in bytes.
 - In the case of paired-end, or paired-end plus singleton data, this is the SECOND number in the comma separated list from the ENA
 - This can be used to estimated HDD space that will be used after download.
-- Missing value: `NA`
+- Missing value: `null`
 
 ## download_sizes_3
 
 - File sizes of corresponding download files in bytes.
 - Rarely used, only in the case of paired-end plus singleton data, this is the THIRD number in the comma separated list from the ENA
 - This can be used to estimated HDD space that will be used after download.
-- Missing value: `NA`
+- Missing value: `null`

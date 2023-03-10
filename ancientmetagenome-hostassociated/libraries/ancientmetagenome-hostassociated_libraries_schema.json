@@ -31,7 +31,9 @@
       "archive_data_accession",
       "download_links",
       "download_md5s",
-      "download_sizes"
+      "download_sizes_1",
+      "download_sizes_2",
+      "download_sizes_3"
     ],
     "properties": {
       "project_name": {
@@ -203,13 +205,26 @@
           "f6f58de021de3da23c37d1137716da6e;4d98d032afbe0c0a005c1ae993aa2353"
         ]
       },
-      "download_sizes": {
-        "$id": "#/items/properties/download_sizes",
-        "type": ["string", "integer", "null"],
-        "pattern": "^[0-9]+;[0-9]+;[0-9]+$|^[0-9]+;[0-9]+$|^[0-9]+$",
-        "title": "File sizes of downloads",
-        "description": "File sizes of corresponding download files in bytes, to allow calculation of HDD usage. Can be semi-colon separated list for paired end. TODO: improve regex",
-        "examples": ["126181389", "614385694;622383780"]
+      "download_sizes_1": {
+        "$id": "#/items/properties/download_sizes_1",
+        "type": ["integer"],
+        "title": "First file size of downloads",
+        "description": "File size of corresponding first download file in bytes, to allow calculation of HDD usage.",
+        "examples": ["126181389", "614385694"]
+      },
+      "download_sizes_2": {
+        "$id": "#/items/properties/download_sizes_2",
+        "type": ["integer", "null"],
+        "title": "Second file size of downloads",
+        "description": "File size of corresponding second download file in bytes, to allow calculation of HDD usage. Typically R2 for paired-end data.",
+        "examples": ["126181389", "614385694", "NA"]
+      },
+      "download_sizes_3": {
+        "$id": "#/items/properties/download_sizes_3",
+        "type": ["integer", "null"],
+        "title": "Third file size of downloads",
+        "description": "File size of corresponding third download file in bytes, to allow calculation of HDD usage. Typically singletons for paired-end data.",
+        "examples": ["126181389", "614385694", "NA"]
       }
     }
   }

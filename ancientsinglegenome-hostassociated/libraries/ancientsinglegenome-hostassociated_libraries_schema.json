@@ -217,14 +217,14 @@
         "type": ["integer", "null"],
         "title": "Second file size of downloads",
         "description": "File size of corresponding second download file in bytes, to allow calculation of HDD usage. Typically R2 for paired-end data.",
-        "examples": ["126181389", "614385694", "NA"]
+        "examples": ["126181389", "614385694", "null"]
       },
       "download_sizes_3": {
         "$id": "#/items/properties/download_sizes_3",
         "type": ["integer", "null"],
         "title": "Third file size of downloads",
         "description": "File size of corresponding third download file in bytes, to allow calculation of HDD usage. Typically singletons for paired-end data.",
-        "examples": ["126181389", "614385694", "NA"]
+        "examples": ["126181389", "614385694", "null"]
       }
     }
   }

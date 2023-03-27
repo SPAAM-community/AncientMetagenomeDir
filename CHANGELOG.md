@@ -17,6 +17,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Single Genome: Host Associated
 
 - Braun 2020 10.3390/microorganisms8020298 (added by @jfy133)
+- Quagliariello 2022 10.1038/s41467-022-34416-0 (added by @DianaSpurite)
+- Bonczarowska 2022 10.1186/s13059-022-02806-8 (added by @DianaSpurite)
+- Eaton 2023 10.1016/j.cub.2023.01.064 (added by @DianaSpurite)
+- Rifkin 2023 10.1038/s42003-023-04582-y (added by @mibr30)
 
 #### Ancient Metagenome: Environmental
 
@@ -53,9 +57,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Austin 2022 10.1038/s42003-022-03890-z (added by @DianaSpurite)
 - Guellil 2022 10.1126/sciadv.abo4435 (added by @DianaSpurite)
 - Long 2022 10.1038/s42003-022-03527-1 (added by @jfy133 )
-- Quagliariello 2022 10.1038/s41467-022-34416-0 (added by @DianaSpurite)
-- Bonczarowska 2022 10.1186/s13059-022-02806-8 (added by @DianaSpurite)
-- Eaton 2023 10.1016/j.cub.2023.01.064 (added by @DianaSpurite)
 
 #### Ancient Metagenome: Environmental
 

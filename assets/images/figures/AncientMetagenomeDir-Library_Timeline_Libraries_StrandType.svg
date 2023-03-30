@@ -215,9 +215,9 @@
 <rect x='250.51' y='225.75' width='10.13' height='11.26' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
 <rect x='250.51' y='237.01' width='10.13' height='2.46' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #F28E2B;' />
 <rect x='250.51' y='225.75' width='10.13' height='0.00' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
+<rect x='261.76' y='225.47' width='10.13' height='0.28' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
 <rect x='261.76' y='225.75' width='10.13' height='11.26' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
 <rect x='261.76' y='237.01' width='10.13' height='2.46' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #F28E2B;' />
-<rect x='261.76' y='225.75' width='10.13' height='0.00' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
 </g>
 <g clip-path='url(#cpMC4wMHwyODguMDB8MC4wMHwzNDUuNjA=)'>
 </g>
@@ -310,7 +310,7 @@
 <text x='132.56' y='296.11' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='39.97px' lengthAdjust='spacingAndGlyphs'>unknown</text>
 <text x='132.56' y='313.39' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='30.00px' lengthAdjust='spacingAndGlyphs'>double</text>
 <text x='200.77' y='296.11' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='26.06px' lengthAdjust='spacingAndGlyphs'>single</text>
-<text x='48.63' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='245.99px' lengthAdjust='spacingAndGlyphs'>Grouping: strand type. Updated: 2023-03-29</text>
+<text x='48.63' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='245.99px' lengthAdjust='spacingAndGlyphs'>Grouping: strand type. Updated: 2023-03-30</text>
 <text x='48.63' y='15.10' style='font-size: 13.20px; font-family: Liberation Sans;' textLength='180.69px' lengthAdjust='spacingAndGlyphs'>Published libraries per year</text>
 <text x='45.55' y='336.46' style='font-size: 8.80px; font-weight: bold; font-family: Liberation Sans;' textLength='43.86px' lengthAdjust='spacingAndGlyphs'>License: </text>
 <text x='89.40' y='336.46' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='48.43px' lengthAdjust='spacingAndGlyphs'>CC-BY 4.0. </text>

@@ -13,6 +13,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Moraitou 2022 10.1093/molbev/msac263 (added by @alexhbnr)
 - Quagliariello 2022 10.1038/s41467-022-34416-0 (added by @alexhbnr)
+- Sarhan 2023 10.1186/s12915-022-01509-7 (added by @msabrysarhan)
 
 #### Ancient Single Genome: Host Associated
 
@@ -21,6 +22,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Bonczarowska 2022 10.1186/s13059-022-02806-8 (added by @DianaSpurite)
 - Eaton 2023 10.1016/j.cub.2023.01.064 (added by @DianaSpurite)
 - Rifkin 2023 10.1038/s42003-023-04582-y (added by @mibr30)
+- Sarhan 2023 10.1186/s12915-022-01509-7 (added by @msabrysarhan)
 
 #### Ancient Metagenome: Environmental
 

@@ -138,24 +138,91 @@
         "examples": ["12355", "44034"]
       },
       "spectrometry_type": {
-        "$id": "#/items/properties/radiocarbon_lab_sample_id",
+        "$id": "#/items/properties/spectrometry_type",
         "type": "string",
         "title": "Radiocarbon Lab Sample ID",
         "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_lab_code.json",
         "description": "Lab code of the date, from https://radiocarbon.webhost.uits.arizona.edu/laboratories from Labs-2023_02_17.pdf. NA is no date available, NR is date available but no lab code",
         "examples": ["AMS", "IMRS", "NR", "NA"]
       },
-      "sample_material": {},
-      "delta_13c": {},
-      "uncalibrated_date ": {},
-      "uncalibrated_uncertainty_plus_minus": {},
-      "calibration_reported": {},
-      "calibration_curve": {},
-      "calibration_software": {},
-      "calibration_software_version": {},
-      "calibrated_range_lower": {},
-      "calibrated_range_upper": {},
-      "calibrated_range_median": {},
+      "material": {
+        "$id": "#/items/properties/material",
+        "type": "string",
+        "title": "Sample Material Used For Dating",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/material.json",
+        "description": "Sample material used for extraction of e.g. collagen for generating the radiocarbon date",
+        "examples": ["both", "enamel"]
+      },
+      "delta_13c": {
+        "$id": "#/items/properties/delta_13c",
+        "type": "number",
+        "title": "δ13C value",
+        "description": "The δ13C value of the dating in ppm (‰)",
+        "examples": [-20.5, -17.6]
+      },
+      "uncalibrated_date ": {
+        "$id": "#/items/properties/delta_13c",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 50000,
+        "title": "Uncalibrated Date Year",
+        "description": "The uncalibrated date in calendar year date Before Present notation",
+        "examples": [934, 3960, 13000]
+      },
+      "uncalibrated_uncertainty_plus_minus": {
+        "$id": "#/items/properties/uncalibrated_uncertainty_plus_minus",
+        "type": "integer",
+        "title": "Uncalibrated Date Year Uncertainty",
+        "description": "Uncertainty value around uncalibrated date in calendar year date Before Present notation, typically indicated by ±",
+        "examples": [32, 5, 150]
+      },
+      "calibration_reported": {
+        "$id": "#/items/properties/calibration_reported",
+        "type": "boolean",
+        "title": "Is Calibration Reported?",
+        "description": "Whether the date has additionally been calibrated.",
+        "examples": ["true", "false"]
+      },
+      "calibration_curve": {
+        "$id": "#/items/properties/calibration_curve",
+        "enum": ["IntCal20", "CalPal2007_HULU", "SHCal20","Marine20", "NR"],
+        "title": "Calibration Curve",
+        "description": "The tree-ring calibration curve used for calibration.",
+      },
+      "calibration_software": {
+        "$id": "#/items/properties/calibration_software",
+        "enum": ["OxCal", "CalPal", "NR"],
+        "title": "Calibration Software",
+        "description": "Software used for radiocarbon calibration."
+      },
+      "calibration_software_version": {
+        "$id": "#/items/properties/calibration_software_version",
+        "type": "string",
+        "title": "Calibration Software",
+        "description": "Which version of the calibration software used, (set NR if not reported)",
+        "examples": ["v1.20", "0.35", "NR"]
+      },
+      "calibrated_range_lower": {
+        "$id": "#/items/properties/calibrated_range_lower",
+        "type": "integer",
+        "title": "Lower Date of Calibrated Date Range",
+        "description": "The lower range of the calibrated date",
+        "examples": ["1450"]
+      },
+      "calibrated_range_upper": {
+        "$id": "#/items/properties/calibrated_range_upper",
+        "type": "integer",
+        "title": "Upper Date of Calibrated Date Range",
+        "description": "The upper range of the calibrated date",
+        "examples": ["1450"]
+      },
+      "calibrated_range_median": {
+        "$id": "#/items/properties/calibrated_range_median",
+        "type": "integer",
+        "title": "Median Date of Calibrated Date Range",
+        "description": "The upper range of the calibrated date",
+        "examples": ["1450"]
+      },
       "calibrated_range_suffix": {},
       "reservoir_offset_mentioned": {},
       "reservoir_offset_applied": {},

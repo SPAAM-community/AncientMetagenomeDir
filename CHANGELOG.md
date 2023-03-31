@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
+## v23.06: Aachen Cathedral [unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+### Changed
+
+### Removed
+
 ## v23.03.0: Rocky Necropolis of Pantalica
 
 ### Added

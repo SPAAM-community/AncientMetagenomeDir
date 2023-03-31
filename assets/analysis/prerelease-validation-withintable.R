@@ -103,9 +103,9 @@ shos_dups <-
   print(n = 1000)
 
 ## Exception allowed: Schuenemann2018/KrauseKyora2018b [resequencing], Krause-Kyora/Lugli [reanalysis], 
-## DeDios2020 [multi-species], Devault2017 [multi-species], Austin2022 [multi species], 
-## Guellil2022 [Multispecies]
-ssin_dup_exceptions <-c("ERS942272","ERS942281","ERS942282","ERS4278128","ERS4278129","ERS4278130","ERS942276","SRS1779840","SRS1779841","SRS1779844","SRS1779846", "SRS13524932", "ERS8968539")
+## DeDios2020 [multi-species], Devault2017 [multi-species], Austin2022 [multi-species], 
+## Guellil2022 [multi-species], Bonczarowska2022 [multi-species]
+ssin_dup_exceptions <-c("ERS942272","ERS942281","ERS942282","ERS4278128","ERS4278129","ERS4278130","ERS942276","SRS1779840","SRS1779841","SRS1779844","SRS1779846", "SRS13524932", "ERS8968539", "ERS9069041", "ERS9069042")
 
 ssin_dups <-
   ssin$archive_accession %>% 

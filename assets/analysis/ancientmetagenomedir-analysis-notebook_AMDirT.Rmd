@@ -1,0 +1,530 @@
+---
+title: "AncientMetagenomeDir - Analysis"
+output:
+  html_document:
+    df_print: paged
+---
+
+# Introduction
+
+AncientMetagenomeDir is a repository listing published ancient metagenome (and 
+related) samples. It contains critical metadata for ancient metagenome studies, 
+and acts as a 'sign post' towards important data to help facilitate more robust
+and efficient comparative data.
+
+This page provides summary statistics of the current status of the directory.
+
+# Libraries and Versions
+
+```{r}
+library(tidyverse)
+library(scales)
+library(lubridate)
+library(maps)
+library(patchwork)
+sessionInfo()
+```
+
+# Preparation
+
+## Functions
+
+We will prepare some custom functions
+
+
+### Loading
+
+```{r}
+## Load and standardise date across tables
+load_thedir_data <- function(path, name) {
+  read_tsv(path, col_types = cols()) %>%
+    mutate(List = name) %>%
+    select(List, everything())
+}
+
+data_version <- "23.03.0"
+
+```
+
+### Publication Timeline
+
+```{r}
+
+stats_pub_timeline <- function(...) {
+  x <- list(...)
+
+  ## Get only relevent columns
+  lapply(x, FUN = function(y) {
+    select(
+      y,
+      List, publication_doi,
+      publication_year
+    ) %>% distinct()
+  }) %>%
+    bind_rows() %>%
+    mutate(List = factor(List, levels = names(dir_colours)))
+}
+
+plot_pub_timeline <- function(dat) {
+  ## Get range so we plot x-axis nicely
+  spanning_years <- dat %>% summarise(min = min(publication_year), max = max(publication_year))
+
+  ggplot(dat, aes(publication_year, fill = List)) +
+    scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1)) +
+    scale_y_continuous(labels = scales::number_format(accuracy = 1)) +
+    ylab("Number of publications") +
+    xlab("Publication year") +
+    geom_bar(bins = spanning_years$max - spanning_years$min, binwidth = 1) +
+    scale_x_continuous(breaks = seq(spanning_years$min, spanning_years$max, 3)) +
+    theme_classic() +
+    theme(legend.position = "none") +
+    facet_wrap(~List, ncol = 1) +
+    labs(fill = NULL)
+}
+```
+
+### Cumulative Samples Timeline
+
+```{r}
+stats_cumulative_timeline <- function(...) {
+  ## Takes a list of AncientMetagenomeDir TSVs
+  x <- list(...)
+
+  ## Get only relevent columns
+  dat <- lapply(x, FUN = function(y) {
+    select(
+      y,
+      List, project_name, sample_name, publication_year,
+      publication_year
+    ) %>% distinct()
+  }) %>%
+    bind_rows() %>%
+    mutate(List = factor(List, levels = names(dir_colours)))
+
+  spanning_years <- dat %>%
+    ungroup() %>%
+    summarise(min = min(publication_year), max = max(publication_year))
+
+  ## Make fake base table to ensure all years for all lists
+  ## Currently manually defined
+  base_table <- list(
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1)
+  )
+
+  names(base_table) <- levels(dat$List)
+
+  base_table <- base_table %>%
+    enframe(name = "List", value = "publication_year") %>%
+    unnest(publication_year)
+
+  dat <- dat %>%
+    group_by(List, publication_year) %>%
+    summarise(count = n())
+
+  dat %>%
+    right_join(base_table, by = c("List", "publication_year")) %>%
+    replace_na(list(count = 0)) %>%
+    arrange(List, publication_year) %>%
+    mutate(List = factor(List, levels = names(dir_colours))) %>%
+    group_by(List) %>%
+    mutate(cumulative_sum = cumsum(count))
+}
+
+
+plot_cumulative_timeline <- function(x) {
+  
+  spanning_years <- list(min_year = min(x$publication_year), max_year = max(x$publication_year))
+
+  ## Get range so we plot x-axis nicely
+  ggplot(x, aes(publication_year, cumulative_sum, fill = List)) +
+    geom_bar(stat = "identity") +
+    scale_y_continuous(labels = scales::number_format(accuracy = 1), limits = c(0,2500)) +
+    scale_x_continuous(breaks = seq(spanning_years$min_year, spanning_years$max_year, 3)) +
+    theme_classic() +
+    xlab("Publication year") +
+    ylab("Number of samples (cumulative sum)") +
+    scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1)) +
+    theme(legend.position = "bottom") +
+    facet_wrap(~List, ncol = 1) +
+    labs(fill = NULL)
+  
+}
+
+
+```
+
+### Cumulative Libraries Timeline
+
+```{r}
+stats_cumulative_timeline_libs <- function(...) {
+  ## Takes a list of AncientMetagenomeDir TSVs
+  x <- list(...)
+
+  ## Get only relevent columns
+  dat <- lapply(x, FUN = function(y) {
+    select(
+      y,
+      List, project_name, archive_data_accession, publication_year,
+      publication_year
+    ) %>% distinct()
+  }) %>%
+    bind_rows() %>%
+    mutate(List = factor(List, levels = names(dir_colours)))
+
+  spanning_years <- dat %>%
+    ungroup() %>%
+    summarise(min = min(publication_year), max = max(publication_year))
+
+  ## Make fake base table to ensure all years for all lists
+  ## Currently manually defined
+  base_table <- list(
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1),
+    seq(spanning_years$min, spanning_years$max, 1)
+  )
+
+  names(base_table) <- levels(dat$List)
+
+  base_table <- base_table %>%
+    enframe(name = "List", value = "publication_year") %>%
+    unnest(publication_year)
+
+  dat <- dat %>%
+    group_by(List, publication_year) %>%
+    summarise(count = n())
+
+  dat %>%
+    right_join(base_table, by = c("List", "publication_year")) %>%
+    replace_na(list(count = 0)) %>%
+    arrange(List, publication_year) %>%
+    mutate(List = factor(List, levels = names(dir_colours))) %>%
+    group_by(List) %>%
+    mutate(cumulative_sum = cumsum(count))
+}
+
+
+plot_cumulative_timeline_libs <- function(x) {
+  
+  spanning_years <- list(min_year = min(x$publication_year), max_year = max(x$publication_year))
+
+  ## Get range so we plot x-axis nicely
+  ggplot(x, aes(publication_year, cumulative_sum, fill = List)) +
+    geom_bar(stat = "identity") +
+    scale_y_continuous(labels = scales::number_format(accuracy = 1), limits = c(0,2500)) +
+    scale_x_continuous(breaks = seq(spanning_years$min_year, spanning_years$max_year, 3)) +
+    theme_classic() +
+    xlab("Publication year") +
+    ylab("Number of sequencing accessions (cumulative sum)") +
+    scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1)) +
+    theme(legend.position = "none") +
+    facet_wrap(~List, ncol = 1) +
+    labs(fill = NULL)
+  
+}
+
+
+```
+
+
+### Map
+
+```{r}
+stats_map <- function(...){
+
+x <- list(raw_environmental, raw_hostmetagenome, raw_hostsinglegenome)
+
+dat <- lapply(x, FUN = function(y) {
+  select(
+    y,
+    List, sample_name, geo_loc_name, latitude, longitude,
+    publication_year
+  ) %>% distinct()
+}) %>%
+  bind_rows() %>%
+  mutate(List = factor(List, levels = names(dir_colours)))
+
+dat <- dat %>%
+  group_by(List, geo_loc_name, latitude, longitude) %>%
+  summarise(count = n()) %>%
+  mutate(List = factor(List, levels = names(dir_colours)))
+}
+
+
+plot_map <- function(dat){
+  
+  world_map <- map_data("world")
+  
+  ggplot() +
+    geom_polygon(data = world_map, aes(x = long, y = lat, group = group), fill = "white", colour = "grey", size = 0.3) +
+    geom_point(data = dat, aes(x = longitude, y = latitude, fill = List, size = count), shape = 21, alpha = 0.5) +
+    theme_linedraw() +
+    facet_wrap(~List, ncol = 1) +
+    theme_classic() +
+    scale_fill_manual(values = dir_colours) +
+    theme(legend.position = "bottom", legend.direction="vertical") +
+    labs(fill = "Sample Type", size = "Sample Count") +
+    xlab("Longitude") +
+    ylab("Latitude") +
+    guides(fill = FALSE)
+  
+}
+```
+
+### Age Timeline
+
+```{r}
+stats_age_timeline <- function(...){
+  x <- list(...)
+  
+  dat <- lapply(x, FUN = function(y) {
+    select(
+      y,
+      List, sample_name, geo_loc_name, latitude, longitude, sample_age, publication_year
+    ) %>%
+      distinct()
+  }) %>%
+    bind_rows() %>%
+    mutate(List = factor(List, levels = names(dir_colours)))
+  
+  return(dat)
+}
+
+# from https://stackoverflow.com/a/11054781
+reverselog_trans <- function(base = exp(1)) {
+  trans <- function(x) -log(x, base)
+  inv <- function(x) base^(-x)
+  trans_new(paste0("reverselog-", format(base)), trans, inv,
+            log_breaks(base = base),
+            domain = c(1e-100, Inf)
+  )
+}
+
+# Plot histograms, with custom binning!
+plot_figure_age_timeline <- function(X, dataset, nclass = "Sturges", log = TRUE, group_order){
+  
+  X <- X %>% filter(List == dataset) %>% ungroup()
+  
+  # We steal the breaks from the base histogram
+  if (log) {
+    hist_data <- hist(log10(X$sample_age), plot = FALSE, breaks = nclass)
+    scale_log = scale_x_reverse(breaks = c(2,3,4,5), labels = comma(c(10^2, 10^3, 10^4, 10^5)), limits = c(5, 2))
+  } else {
+    hist_data <- hist(X$sample_age, plot = FALSE, breaks = nclass)
+    scale_log = scale_x_reverse()
+  }
+  
+  # We calculate where we want to have the columns in the plot
+  width <- mean(diff(hist_data$breaks))
+  nudge <- -(width/2)
+  hist_df <- tibble(counts = hist_data$counts, breaks = (hist_data$breaks[1:length(hist_data$breaks) - 1]), List = dataset) %>%
+    mutate(width = width, nudge = nudge, 
+           List = factor(List, levels = group_order))
+  
+  # Let's plot
+  plot <- ggplot(hist_df, aes(breaks, counts, fill = List)) +
+    geom_col(color = "black", width = width, position = position_nudge(x = nudge)) +
+    #scale_y_log10() +
+    scale_log +
+    theme_classic(base_size = 8) +
+    scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1, reverse = T)) +
+    ylab("Samples (n)") +
+    xlab("Years before present")  +
+    theme(legend.position = "none",
+          strip.background = element_blank())
+  return(list(plot = plot, data = hist_df))
+}
+
+```
+
+
+## Data Loading
+
+We will load and analyse each list separately, as they contain slightly different
+metadata depending on context.
+
+```{r}
+raw_hostmetagenome <- load_thedir_data(paste0("https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/v", data_version,"/ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv", sep = ""), "Host Associated Metagenome")
+raw_hostsinglegenome <- load_thedir_data(paste0("https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/v", data_version,"/ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv", sep = ""), "Host Associated Single Genome") 
+raw_environmental <- load_thedir_data(paste0("https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/v", data_version,"/ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples.tsv", sep = ""), "Environmental Metagenome")
+
+raw_hostmetagenome_libs <- load_thedir_data(paste0("https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/v", data_version,"/ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries.tsv", sep = ""), "Host Associated Metagenome")
+raw_hostsinglegenome_libs <- load_thedir_data(paste0("https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/v", data_version,"/ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries.tsv", sep = ""), "Host Associated Single Genome") 
+raw_environmental_libs <- load_thedir_data(paste0("https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/v", data_version,"/ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv", sep = ""), "Environmental Metagenome")
+```
+
+## Design Assets
+
+```{r}
+dir_colours <- c(`Host Associated Metagenome` = "#73cff3",
+            `Host Associated Single Genome` = "#d74182",
+            `Environmental Metagenome` = "#2da46a")
+
+```
+
+
+# Publication Timelines
+
+```{r, fig.width=5, fig.height=7}
+figure_publication_time <- stats_pub_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% plot_pub_timeline()
+
+figure_publication_time
+```
+
+Summary stats
+
+```{r}
+stats_pub_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% 
+  select(publication_doi) %>% 
+  arrange %>% 
+  distinct %>% 
+  summarise(n = n())
+```
+
+
+# Cumulative Samples
+
+```{r, fig.width=5, fig.height=7}
+
+figure_cumulative_samples <- stats_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% plot_cumulative_timeline()
+
+figure_cumulative_samples
+```
+
+Summary stats
+
+```{r}
+stats_cumulative_timeline(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>%
+  group_by(List) %>%
+  summarise(total = sum(count))
+```
+
+# Cumulative Libraries
+
+```{r, fig.width=5, fig.height=7}
+
+figure_cumulative_libs <- stats_cumulative_timeline_libs(raw_hostmetagenome_libs, raw_hostsinglegenome_libs, raw_environmental_libs) %>% plot_cumulative_timeline_libs()
+
+figure_cumulative_libs
+```
+
+Summary stats
+
+```{r}
+stats_cumulative_timeline(raw_hostmetagenome_libs, raw_hostsinglegenome_libs, raw_environmental_libs) %>%
+  group_by(List) %>%
+  summarise(total = sum(count))
+```
+
+# Timelines Combined
+
+```{r fig.height=7, fig.width=8}
+figure_timelines <- figure_publication_time + figure_cumulative_samples + figure_cumulative_libs + plot_layout(ncol = 3) + plot_annotation(tag_levels = 'a')
+
+figure_timelines
+
+ggsave("AncientMetagenomeDir-PublicationSample_Timeline.pdf",
+       figure_timelines,
+       device = cairo_pdf(),
+       units = "in",
+       width = 8,
+       height = 4,
+       scale = 1.5
+       )
+
+ggsave("AncientMetagenomeDir-PublicationSample_Timeline.png",
+       figure_timelines,
+       device = "png",
+       units = "in",
+       width = 8,
+       height = 4,
+       scale = 1.5
+       )
+```
+
+
+
+# Geographic Spread
+
+With known coordinates!
+
+```{r, fig.height=7.5, fig.width=5}
+data_map <- stats_map(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental)
+
+figure_map <- plot_map(data_map)
+
+figure_map
+
+```
+
+How many countries does this cover?
+
+```{r}
+stats_map(raw_hostmetagenome, raw_hostsinglegenome, raw_environmental) %>% 
+  ungroup() %>%
+  select(geo_loc_name) %>% 
+  distinct() %>% 
+  summarise(n = n())
+```
+
+# Age Timeline
+
+```{r}
+# Combine data
+dat_hist <- stats_age_timeline(raw_hostmetagenome,
+                               raw_hostsinglegenome,
+                               raw_environmental) #%>%
+  #filter(sample_age < 50000)
+
+# Plot the histograms - generating eachone separately as each need their own 
+## custom binning mechanism to ensure readable plots
+nclass <- "FD"
+p1 <- plot_figure_age_timeline(dat_hist, dataset = "Host Associated Metagenome", nclass = nclass, log = TRUE, group_order = names(dir_colours))
+p2 <- plot_figure_age_timeline(dat_hist, dataset = "Host Associated Single Genome", nclass = nclass, log = TRUE, group_order = names(dir_colours))
+p3 <- plot_figure_age_timeline(dat_hist, dataset = "Environmental Metagenome", nclass = nclass, log = TRUE, group_order = names(dir_colours))
+
+# Combine the histograms
+figure_age_timeline <- ggplot() +
+  geom_bar(stat = "identity", data = p1$data, aes(breaks, counts, fill = List),width = unique(p1$data$width), position = position_nudge(x = unique(p1$data$nudge))) +
+  geom_bar(stat = "identity", data = p2$data, aes(breaks, counts, fill = List), width = unique(p2$data$width), position = position_nudge(x = unique(p2$data$nudge))) +
+  geom_bar(stat = "identity", data = p3$data, aes(breaks, counts, fill = List), width = unique(p3$data$width), position = position_nudge(x = unique(p3$data$nudge))) +
+  # scale_x_reverse() +
+  scale_y_sqrt() +
+  scale_x_reverse(breaks = c(2,3,4,5), labels = scales::comma(c(10^2, 10^3, 10^4, 10^5)), limits = c(5, 2)) +
+  theme_classic() +
+  scale_fill_manual(values = dir_colours, guide = guide_legend(ncol = 1, title = ""), breaks = names(dir_colours)) +
+  ylab("Samples (n)") +
+  xlab("Years before present")  +
+  labs(fill = NULL) +
+  theme(legend.position = "bottom") +
+  facet_wrap(~factor(List, levels = names(dir_colours)), ncol = 1)
+
+figure_age_timeline
+```
+
+# Time and Space Combined
+
+```{r, fig.height=7, fig.width=7}
+figure_map_age <- figure_map + figure_age_timeline + plot_annotation(tag_levels = "a")
+
+figure_map_age
+
+ggsave("AncientMetagenomeDir-Sample_Map_AgeTimeline.pdf",
+       figure_map_age,
+       device = cairo_pdf(),
+       units = "in",
+       width = 7,
+       height = 7
+       )
+
+ggsave("AncientMetagenomeDir-Sample_Map_AgeTimeline.png",
+       figure_map_age,
+       device = "png",
+       units = "in",
+       width = 7,
+       height = 7
+       )
+```
+
+

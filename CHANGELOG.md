@@ -11,6 +11,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Kimsis 2023 10.1111/1758-2229.13157 (added by @maxibor)
+
 #### Ancient Single Genome: Host Associated
 
 #### Ancient Single Genome: Host Associated

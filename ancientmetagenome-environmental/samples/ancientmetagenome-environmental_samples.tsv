@@ -535,12 +535,12 @@ Nwosu2023	2023	10.1038/s42003-023-04430-z	Tiefer See	53.592	12.529	Germany	micro
 Nwosu2023	2023	10.1038/s42003-023-04430-z	Tiefer See	53.592	12.529	Germany	microbial	TSK19_H	747	H4_50-51	5100	10.1177/0959683616660173	lake	lake sediment	2019	ENA	PRJEB51951	ERS11453816
 Nwosu2023	2023	10.1038/s42003-023-04430-z	Tiefer See	53.592	12.529	Germany	microbial	TSK19_H	927	H5_20-21	7500	10.1177/0959683616660173	lake	lake sediment	2019	ENA	PRJEB51951	ERS11453817
 Nwosu2023	2023	10.1038/s42003-023-04430-z	Tiefer See	53.592	12.529	Germany	microbial	TSK19_H	1126	H6_15-16	11300	10.1177/0959683616660173	lake	lake sediment	2019	ENA	PRJEB51951	ERS11453818
-Rigou2022	2022	10.1093/femsml/uqac003	Stanchikovsky Yar	68.370	161.415	Russia	microbial	unknown	3000	BGG_BOSW	35000	10.1093/femsml/uqac003	lake	soil	2012	ENA	PRJEB47746	ERS7649017
-Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Alas landscape	61.761	130.475	Russia	microbial	unknown	1600	BGG_MOSDA	48500	10.1594/PANGAEA.904738	lake	soil	2015	ENA	PRJEB47746	ERS7649023
-Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Alas landscape	61.760	130.474	Russia	microbial	unknown	1100	BGG_POSDC	36000	10.1093/femsml/uqac003	lake	soil	2015	ENA	PRJEB47746	ERS7649026
-Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Alas landscape	61.760	130.474	Russia	microbial	unknown	1600	BGG_KOSDC	49000	10.1093/femsml/uqac003	lake	soil	2015	ENA	PRJEB47746	ERS7649021
-Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Alas landscape	61.765	130.465	Russia	microbial	unknown	1200	BGG_LOSDA	28000	10.1093/femsml/uqac003	alas	soil	2015	ENA	PRJEB47746	ERS7649022
-Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Alas landscape	61.761	130.475	Russia	microbial	unknown	600	BGG_QOSDA	100	10.1594/PANGAEA.904738	lake	soil	2015	ENA	PRJEB47746	ERS7649027
-Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Alas landscape	61.765	130.465	Russia	microbial	unknown	1900	BGG_ROSDA	42000	10.1093/femsml/uqac003	alas	soil	2015	ENA	PRJEB47746	ERS7649028
-Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Alas landscape	61.765	130.465	Russia	microbial	unknown	1600	BGG_NOSDA	45000	10.1093/femsml/uqac003	alas	soil	2015	ENA	PRJEB47746	ERS7649024
-Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Alas landscape	61.761	130.475	Russia	microbial	unknown	1900	BGG_OOSDC	40000	10.1594/PANGAEA.904738	lake	soil	2015	ENA	PRJEB47746	ERS7649025
+Rigou2022	2022	10.1093/femsml/uqac003	Stanchikovsky Yar	68.370	161.415	Russia	microbial	unknown	3000	BGG_BOSW	35000	10.1093/femsml/uqac003	thermokarst	permafrost	2012	ENA	PRJEB47746	ERS7649017
+Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Yedoma lake	61.761	130.475	Russia	microbial	unknown	1600	BGG_MOSDA	48500	10.1093/femsml/uqac003	thermokarst	permafrost	2015	ENA	PRJEB47746	ERS7649023
+Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Yedoma	61.760	130.474	Russia	microbial	unknown	1100	BGG_POSDC	36000	10.1093/femsml/uqac003	thermokarst	permafrost	2015	ENA	PRJEB47746	ERS7649026
+Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Yedoma	61.760	130.474	Russia	microbial	unknown	1600	BGG_KOSDC	49000	10.1093/femsml/uqac003	thermokarst	permafrost	2015	ENA	PRJEB47746	ERS7649021
+Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Alas	61.765	130.465	Russia	microbial	unknown	1200	BGG_LOSDA	28000	10.1093/femsml/uqac003	thermokarst	permafrost	2015	ENA	PRJEB47746	ERS7649022
+Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Yedoma lake	61.761	130.475	Russia	microbial	unknown	600	BGG_QOSDA	100	10.1093/femsml/uqac003	thermokarst	permafrost	2015	ENA	PRJEB47746	ERS7649027
+Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Alas	61.765	130.465	Russia	microbial	unknown	1900	BGG_ROSDA	42000	10.1093/femsml/uqac003	thermokarst	permafrost	2015	ENA	PRJEB47746	ERS7649028
+Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Alas	61.765	130.465	Russia	microbial	unknown	1600	BGG_NOSDA	45000	10.1093/femsml/uqac003	thermokarst	permafrost	2015	ENA	PRJEB47746	ERS7649024
+Rigou2022	2022	10.1093/femsml/uqac003	Yukechi Yedoma lake	61.761	130.475	Russia	microbial	unknown	1900	BGG_OOSDC	40000	10.1093/femsml/uqac003	thermokarst	permafrost	2015	ENA	PRJEB47746	ERS7649025

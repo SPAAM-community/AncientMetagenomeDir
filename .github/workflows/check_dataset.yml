@@ -26,32 +26,32 @@ jobs:
         if: always()
         run: |
           echo "# Ancient Metagenome Host Associated Samples" >> validation/validation_results.txt
-          AMDirT validate -s -d -c -i -m --multi_values archive_accession ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples_schema.json 2>&1 | grep -v streamlit >> validation/validation_results.txt
+          AMDirT validate -s -d -c -i -m --multi_values archive_accession ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples_schema.json |& grep -v streamlit >> validation/validation_results.txt
       - name: SAMPLES test ancient single microbial genomes (e.g. pathogens)
         if: always()
         run: |
           echo "# Ancient Single Genome Host Associated Samples" >> validation/validation_results.txt
-          AMDirT validate -s -d -c -i -m --multi_values archive_accession ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples_schema.json 2>&1 | grep -v streamlit >> validation/validation_results.txt
+          AMDirT validate -s -d -c -i -m --multi_values archive_accession ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples_schema.json |& grep -v streamlit >> validation/validation_results.txt
       - name: SAMPLES test ancient environmental (e.g. sediment)
         if: always()
         run: |
           echo "# Ancient Metagenome Environmental Samples" >> validation/validation_results.txt
-          AMDirT validate -s -d -c -i -m --multi_values archive_accession ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples.tsv ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples_schema.json 2>&1 | grep -v streamlit >> validation/validation_results.txt
+          AMDirT validate -s -d -c -i -m --multi_values archive_accession ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples.tsv ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples_schema.json |& grep -v streamlit >> validation/validation_results.txt
       - name: LIBRARIES test ancient host-associated metagenome (e.g. microbiomes)
         if: always()
         run: |
           echo "# Ancient Metagenome Host Associated Libraries" >> validation/validation_results.txt
-          AMDirT validate -s -d -c -m ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries.tsv ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries_schema.json 2>&1 | grep -v streamlit >> validation/validation_results.txt
+          AMDirT validate -s -d -c -m ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries.tsv ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries_schema.json |& grep -v streamlit >> validation/validation_results.txt
       - name: LIBRARIES test ancient host-associated single-genomes (e.g. pathogens)
         if: always()
         run: |
           echo "# Ancient Single Genome Host Associated Libraries" >> validation/validation_results.txt
-          AMDirT validate -s -d -c -m ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries.tsv ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries_schema.json 2>&1 | grep -v streamlit >> validation/validation_results.txt
+          AMDirT validate -s -d -c -m ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries.tsv ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries_schema.json |& grep -v streamlit >> validation/validation_results.txt
       - name: LIBRARIES test ancient environmental metagenomes (e.g. sedaDNA)
         if: always()
         run: |
           echo "# Ancient Metagenome Environmental Libraries" >> validation/validation_results.txt
-          AMDirT validate -s -d -c -m ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries_schema.json 2>&1 | grep -v streamlit >> validation/validation_results.txt
+          AMDirT validate -s -d -c -m ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries_schema.json |& grep -v streamlit >> validation/validation_results.txt
       - uses: actions/upload-artifact@v3
         if: always()
         with:

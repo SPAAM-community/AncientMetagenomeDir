@@ -16,7 +16,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
-#### Ancient Single Genome: Host Associated
+#### Ancient Metagenome: Environmental
+
+- Rigou 2022 10.1093/femsml/uqac003 (added by @schummax, @tomrichtermeier, @Frederik-Lutz, and @alexhbnr)
 
 ### Changed
 

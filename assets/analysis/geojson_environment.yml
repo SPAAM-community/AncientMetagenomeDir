@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - click=7.1.2
-  - geopandas=0.8.1
-  - pandas=1.2.0
-  - python=3.9.0
+  - click
+  - geopandas
+  - pandas
+  - python

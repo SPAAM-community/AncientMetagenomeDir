@@ -307,5 +307,5 @@ Library columns are as follows:
 
 - File sizes of corresponding download files in bytes.
 - This can be used to estimated HDD space that will be used after download.
-- Can be semi-colon separated list for paired end.
-- Missing value: `NA`
+- Can be semi-colon separated list for paired-end data, and in some cases paired-end with singletons.
+- > ⚠️ Mandatory value

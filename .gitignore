@@ -8,3 +8,4 @@ playground/
 .~lock*
 AncientMetagenomeDir-v*.zip
 AncientMetagenomeDir_v*.zip
+conflicts.csv

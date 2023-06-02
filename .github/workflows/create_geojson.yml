@@ -13,22 +13,24 @@ jobs:
       run:
         shell: bash -l {0}
     steps:
-      - uses: actions/checkout@v2.3.4
+      - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_ACTIONS_COMMIT_ACTION }}
       - uses: conda-incubator/setup-miniconda@v2
         with:
+          miniforge-variant: Mambaforge
           activate-environment: geojson
           environment-file: assets/analysis/geojson_environment.yml
           auto-activate-base: true
           channels: conda-forge,defaults
+          use-mamba: true
       - name: Generate map geojson
         run: |
           python assets/analysis/create_geojson.py \
           --environmental ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples.tsv \
           --meta_host ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv \
           --single_host ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv \
-          --geojson assets/images/figures/ancientmetagenomedir.geo.json
+          --geojson assets/images/figures/ancientmetagenomedir.geojson
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "[skip ci] Update AncientMetagenomeDir geojson"

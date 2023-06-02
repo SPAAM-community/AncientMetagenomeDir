@@ -174,14 +174,14 @@ Brealey2020	2020	10.1093/molbev/msaa135	Lulingu	-2.316	27.549	Democratic Republi
 Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua2	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545909
 Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua6	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545910
 Brealey2020	2020	10.1093/molbev/msaa135	Kamchatka	56.21	159.346	Russia	Ua7	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545911
-Brealey2020	2020	10.1093/molbev/msaa135	Lake Ladoga	61	31.5	Russia	Ua13	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545912
+Brealey2020	2020	10.1093/molbev/msaa135	Lake Ladoga	61.0	31.5	Russia	Ua13	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545912
 Brealey2020	2020	10.1093/molbev/msaa135	Dalarna	61.004	14.537	Sweden	Ua14	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545913
 Brealey2020	2020	10.1093/molbev/msaa135	Jämtland	63.399	13.081	Sweden	Ua9	Ursus arctos	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545914
 Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt1	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545915
 Brealey2020	2020	10.1093/molbev/msaa135	Unknown	NA	NA	Unknown	Rt5	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545916
 Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt7	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545917
-Brealey2020	2020	10.1093/molbev/msaa135	South-west Norway	60	6	Norway	Rt11	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545918
-Brealey2020	2020	10.1093/molbev/msaa135	North-east Greenland	79	-56	Greenland	Rt13	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545919
+Brealey2020	2020	10.1093/molbev/msaa135	South-west Norway	60.0	6.0	Norway	Rt11	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545918
+Brealey2020	2020	10.1093/molbev/msaa135	North-east Greenland	79.0	-56.0	Greenland	Rt13	Rangifer tarandus	100	10.1093/molbev/msaa135	oral	dental calculus	ENA	PRJEB33363	ERS4545919
 Brealey2020	2020	10.1093/molbev/msaa135	Spitsbergen	78.899	18.016	Norway	Rt_tooth	Rangifer tarandus	100	10.1093/molbev/msaa135	skeletal tissue	tooth	ENA	PRJEB33363	ERS4545920
 Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	02C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	SRA	PRJNA531027	SRS4625244
 Ozga2019	2019	10.1038/s41598-019-53802-1	Gombe National Park	-4.69	29.62	Tanzania	04C	Pan troglodytes schweinfurthii	100	10.1038/s41598-019-53802-1	oral	dental calculus	SRA	PRJNA531027	SRS4625243
@@ -263,14 +263,14 @@ McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoq
 McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga USNM 194319 Claw	Conepatus chinga	100	10.1093/jmammal/gyy080	soft tissue	keratinous claw	SRA	PRJNA438985	SRS3118688
 McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga USNM 194319 Osteocrust	Conepatus chinga	100	10.1093/jmammal/gyy080	soft tissue	muscle tissue	SRA	PRJNA438985	SRS3118688
 McDonough2018	2018	10.1093/jmammal/gyy080	Peru: Cusco; Occobamba Valley, Tocopoqueu	-13.47	-73.56	Peru	Conepatus chinga USNM 194319 Skin	Conepatus chinga	100	10.1093/jmammal/gyy080	soft tissue	skin	SRA	PRJNA438985	SRS3118688
-McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Bone	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	skeletal tissue	bone	SRA	PRJNA438985	SRS3151295
-McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Claw	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	keratinous claw	SRA	PRJNA438985	SRS3151295
-McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Osteocrust	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	muscle tissue	SRA	PRJNA438985	SRS3151295
-McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S 	1	37	Kenya	Gerbilliscus boehmi, USNM 162251 Skin	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	skin	SRA	PRJNA438985	SRS3151295
-McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Bone	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	skeletal tissue	bone	SRA	PRJNA438985	SRS3118689
-McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Claw	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	keratinous claw	SRA	PRJNA438985	SRS3118689
-McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Osteocrust	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	muscle tissue	SRA	PRJNA438985	SRS3118689
-McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe 	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Skin	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	skin	SRA	PRJNA438985	SRS3118689
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S	1.0	37.0	Kenya	Gerbilliscus boehmi, USNM 162251 Bone	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	skeletal tissue	bone	SRA	PRJNA438985	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S	1.0	37.0	Kenya	Gerbilliscus boehmi, USNM 162251 Claw	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	keratinous claw	SRA	PRJNA438985	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S	1.0	37.0	Kenya	Gerbilliscus boehmi, USNM 162251 Osteocrust	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	muscle tissue	SRA	PRJNA438985	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Kenya: N’Guasso Njiro River, S	1.0	37.0	Kenya	Gerbilliscus boehmi, USNM 162251 Skin	Gerbilliscus boehmi	100	10.1093/jmammal/gyy080	soft tissue	skin	SRA	PRJNA438985	SRS3151295
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Bone	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	skeletal tissue	bone	SRA	PRJNA438985	SRS3118689
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Claw	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	keratinous claw	SRA	PRJNA438985	SRS3118689
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Osteocrust	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	muscle tissue	SRA	PRJNA438985	SRS3118689
+McDonough2018	2018	10.1093/jmammal/gyy080	Indonesia: Celebes Island, Gimpoe	-2.06	120.37	Indonesia	Strigocuscus celebensis USNM 219469 Skin	Strigocuscus celebensis	100	10.1093/jmammal/gyy080	soft tissue	skin	SRA	PRJNA438985	SRS3118689
 Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP4	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	SRA	PRJNA205039	SRS428959
 Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP10	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	SRA	PRJNA205039	SRS428961
 Campana2014	2014	10.1186/1756-0500-7-111	Teposcolula Yucundaa	17.49	-97.46	Mexico	TP18	Homo sapiens	400	10.7183/1045-6635.23.4.467	skeletal tissue	bone	SRA	PRJNA205039	SRS428962
@@ -318,15 +318,15 @@ Bieker2020	2020	10.1111/1755-0998.13174	Upper Providence, Delaware County, Penns
 Bieker2020	2020	10.1111/1755-0998.13174	Swarthmore, Delaware County, Pennsylvania	39.9	-75.3	USA	PH-16	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631716
 Bieker2020	2020	10.1111/1755-0998.13174	Lansdowne, Delaware County, Pennsylvania	39.9	-75.2	USA	PH-18	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631717
 Bieker2020	2020	10.1111/1755-0998.13174	West Philadelphia, Philadelphia	39.9	-75.2	USA	PH-26	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631719
-Bieker2020	2020	10.1111/1755-0998.13174	Easton, Philadelphia	40	-75.1	USA	PH-6	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631714
+Bieker2020	2020	10.1111/1755-0998.13174	Easton, Philadelphia	40.0	-75.1	USA	PH-6	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631714
 Bieker2020	2020	10.1111/1755-0998.13174	Iowa City, Iowa	41.6	-91.5	USA	USNH-12	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631724
-Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-23	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631727
+Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42.0	-93.6	USA	USNH-23	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631727
 Bieker2020	2020	10.1111/1755-0998.13174	Des Moines, Iowa	41.5	-93.6	USA	USNH-34	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631728
-Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-37	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631729
-Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-38	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631730
-Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-39_ENA	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	ENA	PRJEB34825	ERS3882395
-Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42	-93.6	USA	USNH-39_SRA	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631732
-Bieker2020	2020	10.1111/1755-0998.13174	Connecticut (in Ohio State University)	41	-72	USA	JK2509	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159299
+Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42.0	-93.6	USA	USNH-37	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631729
+Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42.0	-93.6	USA	USNH-38	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631730
+Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42.0	-93.6	USA	USNH-39_ENA	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	ENA	PRJEB34825	ERS3882395
+Bieker2020	2020	10.1111/1755-0998.13174	Ames, Iowa	42.0	-93.6	USA	USNH-39_SRA	Ambrosia artemisiifolia	100	10.1111/1755-0998.12610	plant tissue	leaf	SRA	PRJNA339123	SRS1631732
+Bieker2020	2020	10.1111/1755-0998.13174	Connecticut (in Ohio State University)	41.0	-72.0	USA	JK2509	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159299
 Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in Ohio State University)	39.688	-82.993	USA	JK2510	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159300
 Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in Ohio State University)	41.721	-81.243	USA	JK2511	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159301
 Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in Ohio State University)	39.956	-81.953	USA	JK2512	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159302
@@ -334,11 +334,11 @@ Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in Ohio State University)	41.102	-
 Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in Ohio State University)	39.956	-81.953	USA	JK2514	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159304
 Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in Ohio State University)	41.137	-81.863	USA	JK2515	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159305
 Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in Ohio State University)	39.5	-82.472	USA	JK2516	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159306
-Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in Ohio State University)	40	-82	USA	JK2517	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159307
+Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in Ohio State University)	40.0	-82.0	USA	JK2517	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159307
 Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in Ohio State University)	41.867	-80.789	USA	JK2518	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159308
-Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in University of Connecticut Herbarium)	40	-82	USA	JK2520	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159309
-Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in University of Connecticut Herbarium)	40	-82	USA	JK2521	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159310
-Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in University of Connecticut Herbarium)	40	-82	USA	JK2523	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159311
+Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in University of Connecticut Herbarium)	40.0	-82.0	USA	JK2520	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159309
+Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in University of Connecticut Herbarium)	40.0	-82.0	USA	JK2521	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159310
+Bieker2020	2020	10.1111/1755-0998.13174	Ohio (in University of Connecticut Herbarium)	40.0	-82.0	USA	JK2523	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159311
 Bieker2020	2020	10.1111/1755-0998.13174	New Jersey (in University of Connecticut Herbarium)	39.856	-74.686	USA	JK2524	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159312
 Bieker2020	2020	10.1111/1755-0998.13174	Connecticut (in University of Connecticut Herbarium)	41.224	-73.06	USA	JK2525	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159313
 Bieker2020	2020	10.1111/1755-0998.13174	Connecticut (in University of Connecticut Herbarium)	41.666	-73.508	USA	JK2526	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159314
@@ -349,14 +349,14 @@ Bieker2020	2020	10.1111/1755-0998.13174	New Jersey (in Chicago Field Museum)	39.
 Bieker2020	2020	10.1111/1755-0998.13174	Utah (In New York Botanical Garden)	40.643	-111.951	USA	JK346	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159319
 Bieker2020	2020	10.1111/1755-0998.13174	New York (In New York Botanical Garden)	41.15	-73.766	USA	JK351	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159320
 Bieker2020	2020	10.1111/1755-0998.13174	Tennessee (In New York Botanical Garden)	35.99	-83.94	USA	JK355	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159321
-Bieker2020	2020	10.1111/1755-0998.13174	Georgia (in New York Botanical Garden)	32	-83	USA	JK356	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159322
+Bieker2020	2020	10.1111/1755-0998.13174	Georgia (in New York Botanical Garden)	32.0	-83.0	USA	JK356	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159322
 Bieker2020	2020	10.1111/1755-0998.13174	District of Columbia (in New York Botanical Garden)	38.906	-77.036	USA	JK362	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159323
 Bieker2020	2020	10.1111/1755-0998.13174	New York (In New York Botanical Garden)	43.192	-77.01	USA	JK366	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159324
 Bieker2020	2020	10.1111/1755-0998.13174	New Jersey (in New York Botanical Garden)	40.924	-74.075	USA	JK367	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159325
 Bieker2020	2020	10.1111/1755-0998.13174	New Jersey (in New York Botanical Garden)	41.122	-74.356	USA	JK372	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159326
 Bieker2020	2020	10.1111/1755-0998.13174	New York (In New York Botanical Garden)	39.97	-83.01	USA	JK376	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159327
 Bieker2020	2020	10.1111/1755-0998.13174	District of Columbia (in New York Botanical Garden)	38.906	-77.037	USA	JK389	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159328
-Bieker2020	2020	10.1111/1755-0998.13174	North Carolina (in New York Botanical Garden)	35	-79	USA	JK393	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159329
+Bieker2020	2020	10.1111/1755-0998.13174	North Carolina (in New York Botanical Garden)	35.0	-79.0	USA	JK393	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159329
 Bieker2020	2020	10.1111/1755-0998.13174	District of Columbia (in New York Botanical Garden)	38.906	-77.037	USA	JK395	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159330
 Bieker2020	2020	10.1111/1755-0998.13174	Delaware (in New York Botanical Garden)	38.715	-75.631	USA	JK399	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159331
 Bieker2020	2020	10.1111/1755-0998.13174	Utah (In New York Botanical Garden)	40.643	-111.967	USA	JK401	Arabidopsis thaliana	100	10.1371/journal.pgen.1007155	plant tissue	leaf	SRA	PRJEB24619	ERS2159332
@@ -733,17 +733,17 @@ SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Grotte des Tortues, les Monges	
 SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Grotte des Tortues, les Monges	43.149	3.06	France	TORTD	Homo sapiens	4400	10.1016/j.cub.2020.12.015	skeletal tissue	bone	ENA	PRJEB41240	ERS5359144
 SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Grotte des Tortues, les Monges	43.149	3.06	France	TORTE	Homo sapiens	4000	10.1016/j.cub.2020.12.015	skeletal tissue	bone	ENA	PRJEB41240	ERS5359145
 SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Grotte des Tortues, les Monges	43.149	3.06	France	TORTF	Homo sapiens	3600	10.1016/j.cub.2020.12.015	skeletal tissue	bone	ENA	PRJEB41240	ERS5359146
-SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I 	48.858	3.996	France	1H04	Homo sapiens	4400	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359126
-SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I 	48.858	3.996	France	1H06	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359127
-SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I 	48.858	3.996	France	1H07	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359128
-SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I 	48.858	3.996	France	1H13	Homo sapiens	4400	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359129
-SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I 	48.858	3.996	France	1H14	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359130
-SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I 	48.858	3.996	France	2H06	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359131
-SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée II 	48.858	3.995	France	2H07	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359132
-SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée II 	48.858	3.995	France	2H10	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359133
-SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée II 	48.858	3.995	France	2H11	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359134
-SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée II 	48.858	3.995	France	2H17	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359135
-SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée II 	48.858	3.995	France	2HxC5x196x1131	Homo sapiens	4500	10.1016/j.cub.2020.12.015	skeletal tissue	bone	ENA	PRJEB41240	ERS5359136
+SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I	48.858	3.996	France	1H04	Homo sapiens	4400	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359126
+SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I	48.858	3.996	France	1H06	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359127
+SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I	48.858	3.996	France	1H07	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359128
+SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I	48.858	3.996	France	1H13	Homo sapiens	4400	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359129
+SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I	48.858	3.996	France	1H14	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359130
+SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée I	48.858	3.996	France	2H06	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359131
+SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée II	48.858	3.995	France	2H07	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359132
+SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée II	48.858	3.995	France	2H10	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359133
+SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée II	48.858	3.995	France	2H11	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359134
+SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée II	48.858	3.995	France	2H17	Homo sapiens	4500	10.1016/j.cub.2020.12.015	oral	tooth	ENA	PRJEB41240	ERS5359135
+SeguinOrlando2021	2021	10.1016/j.cub.2020.12.015	Mont-Aimé hypogée II	48.858	3.995	France	2HxC5x196x1131	Homo sapiens	4500	10.1016/j.cub.2020.12.015	skeletal tissue	bone	ENA	PRJEB41240	ERS5359136
 Rampelli2021	2021	10.1038/s42003-021-01689-y	El Salt	38.687	-0.508	Spain	ES1	Homo sapiens neanderthalensis	52300	10.1038/s42003-021-01689-y	gut	sediment	ENA	PRJEB41665	ERS5428032
 Rampelli2021	2021	10.1038/s42003-021-01689-y	El Salt	38.687	-0.508	Spain	ES2	Homo sapiens neanderthalensis	52300	10.1038/s42003-021-01689-y	gut	sediment	ENA	PRJEB41665	ERS5428033
 Rampelli2021	2021	10.1038/s42003-021-01689-y	El Salt	38.687	-0.508	Spain	ES3	Homo sapiens neanderthalensis	52300	10.1038/s42003-021-01689-y	gut	sediment	ENA	PRJEB41665	ERS5428034
@@ -769,9 +769,9 @@ Witt2021	2021	10.1038/s41598-021-82362-6	Janey B. Goode (11S1232), Brooklyn, Ill
 Witt2021	2021	10.1038/s41598-021-82362-6	Janey B. Goode (11S1232), Brooklyn, Illinois	38.65	-90.17	USA	JBG 750-16 (cop_JBG16)	Canis lupus	850	10.1038/s41598-021-82362-6	gut	palaeofaeces	SRA	PRJNA657304	SRS7205515
 Wibowo2021	2021	10.1038/s41586-021-03532-0	Boomerang Shelter	37.5	-109.8	USA	UT30.3	Homo sapiens	1900	10.1038/s41586-021-03532-0	gut	palaeofaeces	SRA	PRJNA561510	SRS5300636
 Wibowo2021	2021	10.1038/s41586-021-03532-0	Boomerang Shelter	37.5	-109.8	USA	UT43.2	Homo sapiens	2000	10.1038/s41586-021-03532-0	gut	palaeofaeces	SRA	PRJNA561510	SRS5300648
-Wibowo2021	2021	10.1038/s41586-021-03532-0	Arid West Cave	37.5	-110	USA	AW107 / AZ107	Homo sapiens	1500	10.1038/s41586-021-03532-0	gut	palaeofaeces	SRA	PRJNA561510	SRS5300659
-Wibowo2021	2021	10.1038/s41586-021-03532-0	Arid West Cave	37.5	-110	USA	AW108 / AZ108	Homo sapiens	1400	10.1038/s41586-021-03532-0	gut	palaeofaeces	SRA	PRJNA561510	SRS5300666
-Wibowo2021	2021	10.1038/s41586-021-03532-0	Arid West Cave	37.5	-110	USA	AW110A/ AZ110A	Homo sapiens	1400	10.1038/s41586-021-03532-0	gut	palaeofaeces	SRA	PRJNA561510	SRS5300667
+Wibowo2021	2021	10.1038/s41586-021-03532-0	Arid West Cave	37.5	-110.0	USA	AW107 / AZ107	Homo sapiens	1500	10.1038/s41586-021-03532-0	gut	palaeofaeces	SRA	PRJNA561510	SRS5300659
+Wibowo2021	2021	10.1038/s41586-021-03532-0	Arid West Cave	37.5	-110.0	USA	AW108 / AZ108	Homo sapiens	1400	10.1038/s41586-021-03532-0	gut	palaeofaeces	SRA	PRJNA561510	SRS5300666
+Wibowo2021	2021	10.1038/s41586-021-03532-0	Arid West Cave	37.5	-110.0	USA	AW110A/ AZ110A	Homo sapiens	1400	10.1038/s41586-021-03532-0	gut	palaeofaeces	SRA	PRJNA561510	SRS5300667
 Wibowo2021	2021	10.1038/s41586-021-03532-0	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape1	Homo sapiens	1100	10.1038/s41586-021-03532-0	gut	palaeofaeces	SRA	PRJNA561510	SRS5300670
 Wibowo2021	2021	10.1038/s41586-021-03532-0	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape2	Homo sapiens	1200	10.1038/s41586-021-03532-0	gut	palaeofaeces	SRA	PRJNA561510	SRS5300669
 Wibowo2021	2021	10.1038/s41586-021-03532-0	Cueva de los Muertos Chiquitos (Zape)	25.771	-105.786	Mexico	Zape3	Homo sapiens	1300	10.1038/s41586-021-03532-0	gut	palaeofaeces	SRA	PRJNA561510	SRS5300638
@@ -835,8 +835,8 @@ FellowsYates2021	2021	10.1073/pnas.2021655118	Fumane Cave	45.591	10.905	Italy	FU
 FellowsYates2021	2021	10.1073/pnas.2021655118	Fumane Cave	45.591	10.905	Italy	FUM003.A	Homo sapiens neanderthalensis	48000	10.1073/pnas.2021655118	oral	dental calculus	ENA	PRJEB34569	ERS3774435
 FellowsYates2021	2021	10.1073/pnas.2021655118	De Nadale Cave	45.442	11.518	Italy	GDN001.A	Homo sapiens neanderthalensis	70000	10.1073/pnas.2021655118	oral	dental calculus	ENA	PRJEB34569	ERS3774436
 FellowsYates2021	2021	10.1073/pnas.2021655118	De Nadale Cave	45.442	11.518	Italy	GDN001.B	Homo sapiens neanderthalensis	70000	10.1073/pnas.2021655118	oral	dental calculus	ENA	PRJEB34569	ERS3774437
-FellowsYates2021	2021	10.1073/pnas.2021655118	Goyet, Troisième caverne	50.433	5	Belgium	GOY005.A	Homo sapiens neanderthalensis	42800	10.1073/pnas.2021655118	oral	dental calculus	ENA	PRJEB34569	ERS3774438
-FellowsYates2021	2021	10.1073/pnas.2021655118	Goyet, Troisième caverne	50.433	5	Belgium	GOY006.A	Homo sapiens neanderthalensis	42800	10.1073/pnas.2021655118	oral	dental calculus	ENA	PRJEB34569	ERS3774439
+FellowsYates2021	2021	10.1073/pnas.2021655118	Goyet, Troisième caverne	50.433	5.0	Belgium	GOY005.A	Homo sapiens neanderthalensis	42800	10.1073/pnas.2021655118	oral	dental calculus	ENA	PRJEB34569	ERS3774438
+FellowsYates2021	2021	10.1073/pnas.2021655118	Goyet, Troisième caverne	50.433	5.0	Belgium	GOY006.A	Homo sapiens neanderthalensis	42800	10.1073/pnas.2021655118	oral	dental calculus	ENA	PRJEB34569	ERS3774439
 FellowsYates2021	2021	10.1073/pnas.2021655118	La Güelga	43.314	-5.066	Spain	GUE001.A	Homo sapiens neanderthalensis	44000	10.1073/pnas.2021655118	oral	dental calculus	ENA	PRJEB34569	ERS3774440
 FellowsYates2021	2021	10.1073/pnas.2021655118	Pesturina Cave	43.166	21.9	Serbia	PES001.B	Homo sapiens neanderthalensis	102000	10.1073/pnas.2021655118	oral	dental calculus	ENA	PRJEB34569	ERS3774441
 FellowsYates2021	2021	10.1073/pnas.2021655118	Sima de las Palomas del Cabezo Gordo	37.743	-0.953	Spain	SPM001.A	Homo sapiens neanderthalensis	55000	10.1073/pnas.2021655118	oral	dental calculus	ENA	PRJEB34569	ERS3774442
@@ -936,27 +936,27 @@ Ottoni2021	2021	10.1073/pnas.2102116118	Lepenski Vir	44.557	22.026	Serbia	LV32a	
 Ottoni2021	2021	10.1073/pnas.2102116118	Lepenski Vir	44.557	22.026	Serbia	LV50	Homo sapiens	9500	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256690
 Ottoni2021	2021	10.1073/pnas.2102116118	Lepenski Vir	44.557	22.026	Serbia	LV8	Homo sapiens	7100	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256686
 Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.5	22.416	Serbia	PAD12	Homo sapiens	7500	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256692
-Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22	Serbia	PAD16	Homo sapiens	9300	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256693
-Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22	Serbia	PAD18B	Homo sapiens	9700	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256711
-Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22	Serbia	PAD20	Homo sapiens	7500	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256694
-Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22	Serbia	PAD25	Homo sapiens	7500	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256695
-Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22	Serbia	PAD26	Homo sapiens	7500	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256696
-Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22	Serbia	PAD30	Homo sapiens	8800	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256697
-Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22	Serbia	PAD9	Homo sapiens	9900	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256691
+Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22.0	Serbia	PAD16	Homo sapiens	9300	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256693
+Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22.0	Serbia	PAD18B	Homo sapiens	9700	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256711
+Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22.0	Serbia	PAD20	Homo sapiens	7500	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256694
+Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22.0	Serbia	PAD25	Homo sapiens	7500	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256695
+Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22.0	Serbia	PAD26	Homo sapiens	7500	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256696
+Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22.0	Serbia	PAD30	Homo sapiens	8800	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256697
+Ottoni2021	2021	10.1073/pnas.2102116118	Padina	44.6	22.0	Serbia	PAD9	Homo sapiens	9900	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256691
 Ottoni2021	2021	10.1073/pnas.2102116118	Schela Cladovi	44.62	22.61	Romania	SC13	Homo sapiens	7400	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256713
 Ottoni2021	2021	10.1073/pnas.2102116118	Schela Cladovi	44.62	22.61	Romania	SC2	Homo sapiens	7400	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256712
-Ottoni2021	2021	10.1073/pnas.2102116118	Vlakno	44	15.05	Croatia	VK1	Homo sapiens	9500	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256707
+Ottoni2021	2021	10.1073/pnas.2102116118	Vlakno	44.0	15.05	Croatia	VK1	Homo sapiens	9500	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256707
 Ottoni2021	2021	10.1073/pnas.2102116118	Vlasac	44.53	22.05	Serbia	VL43	Homo sapiens	7600	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256701
 Ottoni2021	2021	10.1073/pnas.2102116118	Vlasac	44.53	22.05	Serbia	VL44	Homo sapiens	7600	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256698
 Ottoni2021	2021	10.1073/pnas.2102116118	Vlasac	44.53	22.05	Serbia	VL45	Homo sapiens	8100	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256702
 Ottoni2021	2021	10.1073/pnas.2102116118	Vlasac	44.53	22.05	Serbia	VL48	Homo sapiens	7600	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256703
 Ottoni2021	2021	10.1073/pnas.2102116118	Vlasac	44.53	22.05	Serbia	VL70	Homo sapiens	7600	10.1073/pnas.2102116118	oral	dental calculus	ENA	PRJEB44313	ERS6256704
-Rampelli2021b	2021	10.1016/j.isci.2021.102816	Solarolo 	44.35	11.84	Italy	Solarolo (13 samples)	Canis lupus	3500	10.1016/j.isci.2021.102816	gut	palaeofaeces	ENA	PRJEB44685	ERS6346372
+Rampelli2021b	2021	10.1016/j.isci.2021.102816	Solarolo	44.35	11.84	Italy	Solarolo (13 samples)	Canis lupus	3500	10.1016/j.isci.2021.102816	gut	palaeofaeces	ENA	PRJEB44685	ERS6346372
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Östbodarna	62.731	15.319	Sweden	Ua011	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955104
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Avaträsk	64.339	16.283	Sweden	Ua012	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955105
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Espnäset - Skalsberget	NA	NA	Sweden	Ua020	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955161
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Gäddede, Gussvattnet	64.447	14.316551	Sweden	Ua021	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955106
-Brealey2021	2021	10.1016/j.cub.2021.08.010	Arjeplog	67	21	Sweden	Ua022	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955107
+Brealey2021	2021	10.1016/j.cub.2021.08.010	Arjeplog	67.0	21.0	Sweden	Ua022	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955107
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Stensele	65.066	17.156	Sweden	Ua023	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955108
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Dalarna	60.6	14.5	Sweden	Ua024	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955109
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Navarnäsberget	NA	NA	Sweden	Ua026	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955162
@@ -968,7 +968,7 @@ Brealey2021	2021	10.1016/j.cub.2021.08.010	Förikalven	62.075	13.818	Sweden	Ua03
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Storejen, 5km E	NA	NA	Sweden	Ua035	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955167
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Hede	62.418	13.511	Sweden	Ua036	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955111
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Stortjärnhållan	NA	NA	Sweden	Ua037	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955168
-Brealey2021	2021	10.1016/j.cub.2021.08.010	Lule Lappmark	67	21.5	Sweden	Ua038	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955112
+Brealey2021	2021	10.1016/j.cub.2021.08.010	Lule Lappmark	67.0	21.5	Sweden	Ua038	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955112
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Rautojaure	67.416	20.015	Sweden	Ua040	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955113
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Röström	NA	NA	Sweden	Ua042	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955169
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Linsäll 30 km NW,Lillhärdal	62.161	13.883	Sweden	Ua043	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955114
@@ -977,12 +977,12 @@ Brealey2021	2021	10.1016/j.cub.2021.08.010	Lövviksberget	64.115	16.203	Sweden	U
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Murjek	66.482	20.881	Sweden	Ua046	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955117
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Norra Skärvången	63.812	14.381	Sweden	Ua049	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955118
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Svenstavik	62.767	14.436	Sweden	Ua050	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955119
-Brealey2021	2021	10.1016/j.cub.2021.08.010	Dalarna	60.6	15	Sweden	Ua052	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955120
+Brealey2021	2021	10.1016/j.cub.2021.08.010	Dalarna	60.6	15.0	Sweden	Ua052	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955120
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Harrsjön	NA	NA	Sweden	Ua053	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955170
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Tjäderbrännan	NA	NA	Sweden	Ua054	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955171
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Gravberget	NA	NA	Sweden	Ua055	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955172
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Lillhärdal, Olingskog, 15km W	61.676	14.006	Sweden	Ua057	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955121
-Brealey2021	2021	10.1016/j.cub.2021.08.010	Lule Lappmark	67	22	Sweden	Ua060	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955122
+Brealey2021	2021	10.1016/j.cub.2021.08.010	Lule Lappmark	67.0	22.0	Sweden	Ua060	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955122
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Lövviksberget	NA	NA	Sweden	Ua061	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955173
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Kåbdalis, 5 km South of	66.153	19.998	Sweden	Ua062	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955123
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Pajala,60 km N,Parkajoki	NA	NA	Sweden	Ua063	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955174
@@ -1016,7 +1016,7 @@ Brealey2021	2021	10.1016/j.cub.2021.08.010	Kangos, Hukanmaa	67.579	22.755	Sweden
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Ljusdal. Hennan-Ramsjö, jvg	62.022	15.896	Sweden	Ua105	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955143
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Gällivare, Lina älv	67.272	20.216	Sweden	Ua106	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955144
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Gimo, Malsättra	60.088	18.386	Sweden	Ua107	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955145
-Brealey2021	2021	10.1016/j.cub.2021.08.010	Lule Lappmark	67	22.5	Sweden	Ua108	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955146
+Brealey2021	2021	10.1016/j.cub.2021.08.010	Lule Lappmark	67.0	22.5	Sweden	Ua108	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955146
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Älvsbyn, Laduberg	65.715	21.094	Sweden	Ua112	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955147
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Dalstuga	61.025	15.636	Sweden	Ua117	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955148
 Brealey2021	2021	10.1016/j.cub.2021.08.010	Tandsjöborg	61.706	14.718	Sweden	Ua119	Ursus arctos	100	10.1016/j.cub.2021.08.010	oral	dental calculus	ENA	PRJEB42014	ERS6955149
@@ -1035,8 +1035,8 @@ Granehall2021	2021	10.1186/s40168-021-01132-8	Adige valley (Trentino), La Vela	4
 Granehall2021	2021	10.1186/s40168-021-01132-8	Adige valley (Trentino), Solteri	46.09	11.12	Italy	2082	Homo sapiens	4800	10.1016/j.quaint.2013.07.052	oral	dental calculus	ENA	PRJEB43389	ERS6205385
 Granehall2021	2021	10.1186/s40168-021-01132-8	Adige valley (Trentino), Solteri	46.09	11.12	Italy	2083	Homo sapiens	4800	10.1016/j.quaint.2013.07.052	oral	dental calculus	ENA	PRJEB43389	ERS6205386
 Granehall2021	2021	10.1186/s40168-021-01132-8	Adige valley (Trentino), Solteri	46.09	11.12	Italy	2084	Homo sapiens	4800	10.1016/j.quaint.2013.07.052	oral	dental calculus	ENA	PRJEB43389	ERS6205387
-Granehall2021	2021	10.1186/s40168-021-01132-8	Adige valley (Trentino), Romagnano Loc. III	46	11.09	Italy	2086	Homo sapiens	3900	10.1016/j.quaint.2013.07.052	oral	dental calculus	ENA	PRJEB43389	ERS6205388
-Granehall2021	2021	10.1186/s40168-021-01132-8	Adige valley (Trentino), Romagnano Loc. III	46	11.09	Italy	2087	Homo sapiens	3900	10.1016/j.quaint.2013.07.052	oral	dental calculus	ENA	PRJEB43389	ERS6205389
+Granehall2021	2021	10.1186/s40168-021-01132-8	Adige valley (Trentino), Romagnano Loc. III	46.0	11.09	Italy	2086	Homo sapiens	3900	10.1016/j.quaint.2013.07.052	oral	dental calculus	ENA	PRJEB43389	ERS6205388
+Granehall2021	2021	10.1186/s40168-021-01132-8	Adige valley (Trentino), Romagnano Loc. III	46.0	11.09	Italy	2087	Homo sapiens	3900	10.1016/j.quaint.2013.07.052	oral	dental calculus	ENA	PRJEB43389	ERS6205389
 Granehall2021	2021	10.1186/s40168-021-01132-8	Adige valley (Trentino), Appiano San Paolo Castelvecchio/Eppan St. Paul Altenburg	46.471	11.267	Italy	2089	Homo sapiens	1300	10.1016/j.quaint.2013.07.052	oral	dental calculus	ENA	PRJEB43389	ERS6205390
 Granehall2021	2021	10.1186/s40168-021-01132-8	Adige valley (Trentino), Montagna Pinzano/Montan Pinzon	46.32	11.29	Italy	2090	Homo sapiens	1300	10.1016/j.quaint.2013.07.052	oral	dental calculus	ENA	PRJEB43389	ERS6205391
 Granehall2021	2021	10.1186/s40168-021-01132-8	Adige valley (Trentino), Terlano/Terlan	46.53	11.26	Italy	2091	Homo sapiens	1300	10.1016/j.quaint.2013.07.052	oral	dental calculus	ENA	PRJEB43389	ERS6205392
@@ -1066,6 +1066,338 @@ Modi2021	2021	10.1016/j.quaint.2021.12.003	Ponte San Pietro (Ischia di Castro)	4
 Modi2021	2021	10.1016/j.quaint.2021.12.003	Ponte San Pietro (Ischia di Castro)	42.527	11.601	Italy	PsP_6408	Homo sapiens	3400	10.1016/j.quaint.2021.12.003	oral	dental calculus	SRA	PRJNA739881	SRS9263822
 Modi2021	2021	10.1016/j.quaint.2021.12.003	Ponte San Pietro (Ischia di Castro)	42.527	11.601	Italy	PsP_6407	Homo sapiens	3400	10.1016/j.quaint.2021.12.003	oral	dental calculus	SRA	PRJNA739881	SRS9263817
 Modi2021	2021	10.1016/j.quaint.2021.12.003	Ponte San Pietro (Ischia di Castro)	42.527	11.601	Italy	PsP_6405	Homo sapiens	3400	10.1016/j.quaint.2021.12.003	oral	dental calculus	SRA	PRJNA739881	SRS9263816
+Scorrano2022	2022	10.1038/s42003-022-04190-2	San Teodoro Cave	38.049	14.591	Italy	San Teodoro 3	Homo sapiens	14900	10.1038/s42003-022-04190-2	oral	dental calculus	ENA	PRJEB55789	ERS13439323
+Scorrano2022	2022	10.1038/s42003-022-04190-2	San Teodoro Cave	38.049	14.591	Italy	San Teodoro 5	Homo sapiens	14900	10.1038/s42003-022-04190-2	oral	dental calculus	ENA	PRJEB55789	ERS13439324
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM041.G	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636085
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM041.K	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636086
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM041.U	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636087
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM041.V	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636088
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM041.Y	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636089
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM042.C	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636090
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM042.E	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636091
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM042.G	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636092
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM042.H	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636093
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM042.M	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636094
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM042.P	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636095
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM042.Q	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636096
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM042.U	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636097
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM042.W	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636098
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM043.L	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636099
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM043.P	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636100
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM043.T	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636101
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM043.U	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636102
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM043.X	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636103
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM043.Y	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636104
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM045.F	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636105
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM045.G	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636106
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM045.H	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636107
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM045.I	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636108
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM045.L	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636109
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM045.M	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636110
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM045.Q	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636111
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM045.R	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636112
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM045.S	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636113
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM046.A	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636115
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM046.B	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636116
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM046.F	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636117
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM046.G	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636118
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM046.H	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636119
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM046.N	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636120
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM046.Q	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636121
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM046.V	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636122
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM046.Y	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636123
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM047.B	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636124
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM047.E	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636125
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM047.H	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636126
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM047.S	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636127
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM047.V	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636128
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.A	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636130
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.D	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636131
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.E	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636132
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.F	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636133
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.I	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636134
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.K	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636135
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.N	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636136
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.O	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636137
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.P	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636138
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.Q	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636139
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.S	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636140
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.V	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636141
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.W	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636142
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM048.Z	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636143
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM049.A	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636144
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM049.D	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636145
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM049.E	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636146
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM049.F	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636147
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM049.I	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636148
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM049.K	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636149
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM049.M	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636150
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM049.P	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636151
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM049.S	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636152
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM049.W	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636153
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM050.L	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636154
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM050.V	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636155
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM050.X	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636156
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM050.Z	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636157
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM051.A	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636158
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM051.D	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636159
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM051.G	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636160
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM051.I	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636161
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM051.M	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636162
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM051.R	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636163
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM051.S	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636164
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM051.U	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636165
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM051.V	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636166
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM051.Z	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636167
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM052.F	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636168
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM052.I	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636169
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM052.J	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636170
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM052.K	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636171
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM052.M	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636172
+Fagernas2022	2022	10.1093/femsmc/xtac006	Camino del Molino	38.102	-1.865	Spain	CDM052.N	Homo sapiens	4700	10.1093/femsmc/xtac006	oral	dental calculus	ENA	PRJEB46022	ERS6636173
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Convento de los Mercedarios de Burtzeña	43.182	-2.573	Spain	CMB001	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702721
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Convento de los Mercedarios de Burtzeña	43.182	-2.573	Spain	CMB002	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702722
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Convento de los Mercedarios de Burtzeña	43.182	-2.573	Spain	CMB003	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702723
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Convento de los Mercedarios de Burtzeña	43.182	-2.573	Spain	CMB004	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702724
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Convento de los Mercedarios de Burtzeña	43.182	-2.573	Spain	CMB005	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702725
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Convento de los Mercedarios de Burtzeña	43.182	-2.573	Spain	CMB006	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702726
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Convento de los Mercedarios de Burtzeña	43.182	-2.573	Spain	CMB007	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702727
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Convento de los Mercedarios de Burtzeña	43.182	-2.573	Spain	CMB008	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702728
+Velsko2022	2022	10.1093/pnasnexus/pgac148	El Raval	38.247	-0.808	Spain	ELR003	Homo sapiens	500	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702729
+Velsko2022	2022	10.1093/pnasnexus/pgac148	El Raval	38.247	-0.808	Spain	ELR004	Homo sapiens	500	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702730
+Velsko2022	2022	10.1093/pnasnexus/pgac148	El Raval	38.247	-0.808	Spain	ELR006	Homo sapiens	500	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702731
+Velsko2022	2022	10.1093/pnasnexus/pgac148	El Raval	38.247	-0.808	Spain	ELR008	Homo sapiens	500	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702732
+Velsko2022	2022	10.1093/pnasnexus/pgac148	El Raval	38.247	-0.808	Spain	ELR010	Homo sapiens	500	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702733
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Iglesia de la Virgen de la Estrella	38.696	-2.862	Spain	IVE002	Homo sapiens	900	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702734
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Iglesia de la Virgen de la Estrella	38.696	-2.862	Spain	IVE003	Homo sapiens	900	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702735
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Iglesia de la Virgen de la Estrella	38.696	-2.862	Spain	IVE005	Homo sapiens	900	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702736,ERS11702737
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Iglesia de la Virgen de la Estrella	38.696	-2.862	Spain	IVE007	Homo sapiens	900	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702738
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID022	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702739
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID023	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702740
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID024	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702741
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID025	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702742
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID026	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702743
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID027	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702744
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID028	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702745
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID029	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702746
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID030	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702747
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID031	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702748
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID032	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702749
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID033	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702750
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID034	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702751
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID035	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702752
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID036	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702753
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID037	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702754
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID038	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702755
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID039	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702756
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID040	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702757
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID041	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702758
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID042	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702759
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID043	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702760
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID044	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702761
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID045	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702762
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID046	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702763
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID047	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702764
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID048	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702765
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID049	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702766
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID050	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702767
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID051	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702768
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID052	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702769
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID053	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702770
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID054	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702771
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID055	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702772
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID056	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702773
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID057	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702774
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID058	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702775
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID059	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702776
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID060	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702777
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID061	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702778
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID062	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702779
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID063	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702780
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID064	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702781
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID065	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702782
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID066	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702783
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID067	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702784
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID068	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702785,ERS11702786
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID070	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702787
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID071	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702788
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID072	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702789
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID073	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702790
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID074	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702791
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID075	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702792
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID076	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702793
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID077	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702794
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID078	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702795
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID079	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702796
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID080	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702797
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID081	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702798
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID082	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702799
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID083	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702800
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID084	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702801
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID085	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702802
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID086	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702803
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID087	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702804
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID088	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702805
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID089	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702806
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID090	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702807
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID091	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702808
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID092	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702809
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID093	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702810
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID094	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702811
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID097	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702812
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID101	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702813
+Velsko2022	2022	10.1093/pnasnexus/pgac148	Middenbeemster	52.548	4.914	Netherlands	MID102	Homo sapiens	200	10.1093/pnasnexus/pgac148	oral	dental calculus	ENA	PRJEB52394	ERS11702814
+Moraitou2022	2022	10.1093/molbev/msac263	Ogowe	-1.04	10.03	Gabon	G0008	Gorilla gorilla gorilla	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656250
+Moraitou2022	2022	10.1093/molbev/msac263	Tshela	-4.59	12.56	Democratic Republic of the Congo	G0034	Gorilla gorilla gorilla	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656270
+Moraitou2022	2022	10.1093/molbev/msac263	N'Dongo	-2.2	13.4	Gabon	G0005	Gorilla gorilla gorilla	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656248
+Moraitou2022	2022	10.1093/molbev/msac263	ΝΑ	1.56	12.85	Cameroon	G0007	Gorilla gorilla gorilla	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656249
+Moraitou2022	2022	10.1093/molbev/msac263	Onkimoyos 8 km	2.47	12.08	Cameroon	G0026	Gorilla gorilla gorilla	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656264
+Moraitou2022	2022	10.1093/molbev/msac263	Zoulabot	3.17	14.02	Cameroon	G0012	Gorilla gorilla gorilla	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656254
+Moraitou2022	2022	10.1093/molbev/msac263	Moboe	3.15	13.0	Cameroon	G0036	Gorilla gorilla gorilla	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656271
+Moraitou2022	2022	10.1093/molbev/msac263	Foret de Maniema	-3.07	26.04	Democratic Republic of the Congo	G0028	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656265
+Moraitou2022	2022	10.1093/molbev/msac263	Bitule	-0.56	27.03	Democratic Republic of the Congo	G0020	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656262
+Moraitou2022	2022	10.1093/molbev/msac263	Kato	-2.21	27.38	Democratic Republic of the Congo	G0001	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656246
+Moraitou2022	2022	10.1093/molbev/msac263	Walikale	-1.0	28.0	Democratic Republic of the Congo	G0014	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656256
+Moraitou2022	2022	10.1093/molbev/msac263	Shabunda	-2.42	27.2	Democratic Republic of the Congo	G0017	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656259
+Moraitou2022	2022	10.1093/molbev/msac263	Shabunda	-2.42	27.2	Democratic Republic of the Congo	G0033	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656269
+Moraitou2022	2022	10.1093/molbev/msac263	Baraka Sibatwa forest	-4.05	29.05	Democratic Republic of the Congo	G0016	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656258
+Moraitou2022	2022	10.1093/molbev/msac263	Baraka Sibatwa forest	-4.05	29.05	Democratic Republic of the Congo	G0019	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656261
+Moraitou2022	2022	10.1093/molbev/msac263	Baraka Sibatwa forest	-4.05	29.05	Democratic Republic of the Congo	G0031	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656268
+Moraitou2022	2022	10.1093/molbev/msac263	Ibatsero	-0.06	29.16	Democratic Republic of the Congo	G0011	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656253
+Moraitou2022	2022	10.1093/molbev/msac263	Ibatsero	-0.06	29.16	Democratic Republic of the Congo	G0013	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656255
+Moraitou2022	2022	10.1093/molbev/msac263	Lubero	-0.09	29.13	Democratic Republic of the Congo	G0018	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656260
+Moraitou2022	2022	10.1093/molbev/msac263	Baraka Sibatwa forest	-4.05	29.05	Democratic Republic of the Congo	G0009	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656251
+Moraitou2022	2022	10.1093/molbev/msac263	Virunga Massif	-1.46	29.42	Democratic Republic of the Congo	G0021	Gorilla beringei beringei	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656263
+Moraitou2022	2022	10.1093/molbev/msac263	N'Counda	-1.3	15.3	Republic of the Congo	G0015	Gorilla gorilla gorilla	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656257
+Moraitou2022	2022	10.1093/molbev/msac263	Mang	3.12	14.05	Cameroon	G0029	Gorilla gorilla gorilla	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656266
+Moraitou2022	2022	10.1093/molbev/msac263	Ibatsero	-0.06	29.16	Democratic Republic of the Congo	G0004	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656247
+Moraitou2022	2022	10.1093/molbev/msac263	Baraka Sibatwa forest	-4.05	29.05	Democratic Republic of the Congo	G0010	Gorilla beringei graueri	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656252
+Moraitou2022	2022	10.1093/molbev/msac263	Virunga Massif	-1.5	29.43	Democratic Republic of the Congo	G0030	Gorilla beringei beringei	100	10.1093/molbev/msac263	oral	dental calculus	ENA	PRJEB49638	ERS9656267
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Biccari, Apulia	41.21	16.06	Italy	BIC.T2	Homo sapiens	6900	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653536
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Deliceto, Apulia	41.13	15.23	Italy	DEL77	Homo sapiens	4900	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653603
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Fermo, Marche	43.16	13.71	Italy	Fer.T64	Homo sapiens	4300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653612
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Fermo, Marche	43.16	13.71	Italy	Fer.T65	Homo sapiens	4300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653613
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Fermo, Marche	43.16	13.71	Italy	Fer.T67	Homo sapiens	4300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653541
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Fermo, Marche	43.16	13.71	Italy	Fer.T69	Homo sapiens	4300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653539
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Fermo, Marche	43.16	13.71	Italy	Fer.T75	Homo sapiens	4300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653538
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Foggia, Apulia	41.46	15.55	Italy	Gil12	Homo sapiens	6100	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653542
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Gricignano, Campania	40.98	14.23	Italy	GR.T12	Homo sapiens	4100	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653543
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Gricignano, Campania	40.98	14.23	Italy	GR.T15A	Homo sapiens	4100	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653544
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Gricignano, Campania	40.98	14.23	Italy	GR.T16	Homo sapiens	4100	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653545
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Gricignano, Campania	40.98	14.23	Italy	GR.T34a	Homo sapiens	4100	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653547
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Gricignano, Campania	40.98	14.23	Italy	GR.T34b	Homo sapiens	4100	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653546
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Gricignano, Campania	40.98	14.23	Italy	GR.T8	Homo sapiens	4100	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653549
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Recanati-Cava Kock, Marche	43.36	13.51	Italy	Kock	Homo sapiens	5000	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653550
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Masseria Candelaro, Apulia	41.38	15.55	Italy	CND40_IDA	Homo sapiens	6700	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653537
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Masseria Candelaro, Apulia	41.38	15.55	Italy	CND40_IDB	Homo sapiens	7300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653548
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Masseria Candelaro, Apulia	41.38	15.55	Italy	CND43	Homo sapiens	7300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653559
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Masseria Candelaro, Apulia	41.38	15.55	Italy	CND86	Homo sapiens	7300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653570
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Masseria Candelaro, Apulia	41.38	15.55	Italy	CND91	Homo sapiens	6600	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653581
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Masseria Candelaro, Apulia	41.38	15.55	Italy	CND92	Homo sapiens	7300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653592
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Masseria Candelaro, Apulia	41.38	15.55	Italy	FFB4A	Homo sapiens	7300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653540
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Melfi, Basilicata	40.99	15.64	Italy	MELT1	Homo sapiens	4800	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653551
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Melfi, Basilicata	40.99	15.64	Italy	MELT2	Homo sapiens	4800	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653552
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Melfi, Basilicata	40.99	15.64	Italy	MELT3	Homo sapiens	4800	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653553
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Paglicci, Apulia	41.67	15.58	Italy	PA.12	Homo sapiens	24800	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653563
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Paglicci, Apulia	41.67	15.58	Italy	PA.133	Homo sapiens	33000	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653565
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Paglicci, Apulia	41.67	15.58	Italy	PA.14 B	Homo sapiens	21300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653566
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Paglicci, Apulia	41.67	15.58	Italy	PA.140	Homo sapiens	15500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653567
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Paglicci, Apulia	41.67	15.58	Italy	PA.150	Homo sapiens	15500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653568
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Paglicci, Apulia	41.67	15.58	Italy	PA.157	Homo sapiens	15500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653569
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Paglicci, Apulia	41.67	15.58	Italy	PA.25	Homo sapiens	23470	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653571
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Paglicci, Apulia	41.67	15.58	Italy	PA.38	Homo sapiens	15500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653572
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Paglicci, Apulia	41.67	15.58	Italy	PA.39	Homo sapiens	15500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653574
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Palagiano, Apulia	40.58	17.03	Italy	P.T10.1	Homo sapiens	6500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653554
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Palagiano, Apulia	40.58	17.03	Italy	P.T10.10	Homo sapiens	6500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653555
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Palagiano, Apulia	40.58	17.03	Italy	P.T10.45	Homo sapiens	6500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653556
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Palagiano, Apulia	40.58	17.03	Italy	P.T10.65	Homo sapiens	6500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653557
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Palagiano, Apulia	40.58	17.03	Italy	P.T10.8	Homo sapiens	6500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653558
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Palagiano, Apulia	40.58	17.03	Italy	P.T3N	Homo sapiens	6500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653560
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Palagiano, Apulia	40.58	17.03	Italy	P.T3S	Homo sapiens	6500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653561
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Palagiano, Apulia	40.58	17.03	Italy	P.T7c	Homo sapiens	5700	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653562
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Palagiano, Apulia	40.58	17.03	Italy	P.T8.2	Homo sapiens	5500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653564
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Passo di Corvo, Apulia	41.55	15.61	Italy	PC-T10Bis	Homo sapiens	6200	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653573
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Passo di Corvo, Apulia	41.55	15.61	Italy	PC-T11	Homo sapiens	6200	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653575
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Passo di Corvo, Apulia	41.55	15.61	Italy	PC-T12	Homo sapiens	6200	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653576
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Passo di Corvo, Apulia	41.55	15.61	Italy	PC-T3	Homo sapiens	6200	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653577
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Passo di Corvo, Apulia	41.55	15.61	Italy	PC-T5	Homo sapiens	6200	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653578
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Passo di Corvo, Apulia	41.55	15.61	Italy	PC-T9	Homo sapiens	6200	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653579
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Portonovo, Marche	43.56	13.59	Italy	US1034	Homo sapiens	6500	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653606
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Portonovo, Marche	43.56	13.59	Italy	US1054	Homo sapiens	6100	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653607
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Portonovo, Marche	43.56	13.59	Italy	US1056_I	Homo sapiens	6100	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653610
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Portonovo, Marche	43.56	13.59	Italy	US1056_II	Homo sapiens	6100	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653608
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD304	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653580
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD346	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653583
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD35	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653582
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD359	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653584
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD360	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653585
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD41	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653586
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD527	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653587
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD613	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653589
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD618	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653590
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD625	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653588
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD628	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653591
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD687	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653593
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD688	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653594
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD688.17	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653595
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD688.24	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653596
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD691.A	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653597
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD691.B	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653598
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Ripatetta, Apulia	41.3	15.2	Italy	Rip.USD697	Homo sapiens	6300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653599
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Bandita San Pantaleo,Tarquinia, Latium	42.25	11.75	Italy	Tar.T67	Homo sapiens	4600	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653600
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Bandita San Pantaleo,Tarquinia, Latium	42.25	11.75	Italy	Tar.T68	Homo sapiens	4600	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653601
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Bandita San Pantaleo,Tarquinia, Latium	42.25	11.75	Italy	Tar.T71	Homo sapiens	4600	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653602
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Troia, Apulia	41.22	15.18	Italy	TR175	Homo sapiens	5300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653604
+Quagliariello2022	2022	10.1038/s41467-022-34416-0	Troia, Apulia	41.22	15.18	Italy	TR177	Homo sapiens	5300	10.1038/s41467-022-34416-0	oral	dental calculus	SRA	PRJNA791766	SRS11653605
+Sarhan2023	2023	10.1186/s12915-022-01509-7	Barfüsserkirche/Franciscan church of Basel	47.554	7.589	Switzerland	2077	Homo sapiens	200	10.1186/s12915-022-01509-7	oral	tooth	ENA	PRJEB44723	ERS6377567
+Sarhan2023	2023	10.1186/s12915-022-01509-7	Barfüsserkirche/Franciscan church of Basel	47.554	7.589	Switzerland	2132	Homo sapiens	200	10.1186/s12915-022-01509-7	soft tissue	stomach	ENA	PRJEB44723	ERS10216481
+Sarhan2023	2023	10.1186/s12915-022-01509-7	Barfüsserkirche/Franciscan church of Basel	47.554	7.589	Switzerland	2133	Homo sapiens	200	10.1186/s12915-022-01509-7	soft tissue	intestine	ENA	PRJEB44723	ERS10216482
+Sarhan2023	2023	10.1186/s12915-022-01509-7	Barfüsserkirche/Franciscan church of Basel	47.554	7.589	Switzerland	3041	Homo sapiens	200	10.1186/s12915-022-01509-7	skeletal tissue	skull	ENA	PRJEB44723	ERS10216484
+Sarhan2023	2023	10.1186/s12915-022-01509-7	Barfüsserkirche/Franciscan church of Basel	47.554	7.589	Switzerland	3042	Homo sapiens	200	10.1186/s12915-022-01509-7	soft tissue	lung	ENA	PRJEB44723	ERS10216485
+Sarhan2023	2023	10.1186/s12915-022-01509-7	Barfüsserkirche/Franciscan church of Basel	47.554	7.589	Switzerland	3043	Homo sapiens	200	10.1186/s12915-022-01509-7	soft tissue	liver	ENA	PRJEB44723	ERS10216486
+Sarhan2023	2023	10.1186/s12915-022-01509-7	Barfüsserkirche/Franciscan church of Basel	47.554	7.589	Switzerland	3044	Homo sapiens	200	10.1186/s12915-022-01509-7	soft tissue	dura mater	ENA	PRJEB44723	ERS10216487
+Sarhan2023	2023	10.1186/s12915-022-01509-7	Barfüsserkirche/Franciscan church of Basel	47.554	7.589	Switzerland	3045	Homo sapiens	200	10.1186/s12915-022-01509-7	soft tissue	brain	ENA	PRJEB44723	ERS10216488
+Kimsis2023	2023	10.1111/1758-2229.13157	Lejasbiteni	56.606	25.285	Latvia	LZP5.2T	Homo sapiens	1100	10.1111/1758-2229.13157	oral	tooth	ENA	PRJEB56776	ERS13577724
+Kimsis2023	2023	10.1111/1758-2229.13157	Lejasbiteni	56.606	25.285	Latvia	LZP10T	Homo sapiens	1100	10.1111/1758-2229.13157	oral	tooth	ENA	PRJEB56776	ERS13577725
+Kimsis2023	2023	10.1111/1758-2229.13157	Lejasbiteni	56.606	25.285	Latvia	LZP11.4K	Homo sapiens	1100	10.1111/1758-2229.13157	skeletal tissue	bone	ENA	PRJEB56776	ERS13577726
+Kimsis2023	2023	10.1111/1758-2229.13157	Cunkani-Drengeri	56.41	24.20	Latvia	LZP13.4K	Homo sapiens	1100	10.1111/1758-2229.13157	skeletal tissue	bone	ENA	PRJEB56776	ERS13577727
+Kimsis2023	2023	10.1111/1758-2229.13157	Lejasbiteni	56.606	25.285	Latvia	LZP18T	Homo sapiens	1100	10.1111/1758-2229.13157	oral	tooth	ENA	PRJEB56776	ERS13577728
+Kimsis2023	2023	10.1111/1758-2229.13157	Lejasbiteni	56.606	25.285	Latvia	LZP19.4K	Homo sapiens	1100	10.1111/1758-2229.13157	skeletal tissue	bone	ENA	PRJEB56776	ERS13577729
+Kimsis2023	2023	10.1111/1758-2229.13157	Lejasbiteni	56.606	25.285	Latvia	LZP20K	Homo sapiens	1100	10.1111/1758-2229.13157	skeletal tissue	bone	ENA	PRJEB56776	ERS13577730
+Kimsis2023	2023	10.1111/1758-2229.13157	Cunkani-Drengeri	56.41	24.20	Latvia	LZP22K	Homo sapiens	1100	10.1111/1758-2229.13157	skeletal tissue	bone	ENA	PRJEB56776	ERS13577731
+Kimsis2023	2023	10.1111/1758-2229.13157	Cunkani-Drengeri	56.41	24.20	Latvia	LZP25K	Homo sapiens	1100	10.1111/1758-2229.13157	skeletal tissue	bone	ENA	PRJEB56776	ERS13577732
+Kimsis2023	2023	10.1111/1758-2229.13157	Cunkani-Drengeri	56.41	24.20	Latvia	LZP26T	Homo sapiens	1100	10.1111/1758-2229.13157	oral	tooth	ENA	PRJEB56776	ERS13577733
+Kimsis2023	2023	10.1111/1758-2229.13157	Cunkani-Drengeri	56.41	24.20	Latvia	LZP27T	Homo sapiens	1100	10.1111/1758-2229.13157	oral	tooth	ENA	PRJEB56776	ERS13577734
+Kimsis2023	2023	10.1111/1758-2229.13157	Lejasbiteni	56.606	25.285	Latvia	LZP31T	Homo sapiens	1100	10.1111/1758-2229.13157	oral	tooth	ENA	PRJEB56776	ERS13577735
+Kimsis2023	2023	10.1111/1758-2229.13157	Lejasbiteni	56.606	25.285	Latvia	LZP36T	Homo sapiens	1100	10.1111/1758-2229.13157	oral	tooth	ENA	PRJEB56776	ERS13577736
+Kimsis2023	2023	10.1111/1758-2229.13157	Lejasbiteni	56.606	25.285	Latvia	LZP38T	Homo sapiens	1100	10.1111/1758-2229.13157	oral	tooth	ENA	PRJEB56776	ERS13577737
+Kimsis2023	2023	10.1111/1758-2229.13157	Cunkani-Drengeri	56.41	24.20	Latvia	LZP40T	Homo sapiens	1100	10.1111/1758-2229.13157	oral	tooth	ENA	PRJEB56776	ERS13577738
+Honap2023	2023	10.1002/ajpa.24735	Hubbard Site	NA	NA	USA	WAMP02	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300786
+Honap2023	2023	10.1002/ajpa.24735	Austin Site	NA	NA	USA	WAMP03	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300787
+Honap2023	2023	10.1002/ajpa.24735	Patton Site	NA	NA	USA	WAMP04	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300798
+Honap2023	2023	10.1002/ajpa.24735	Takoah Site	NA	NA	USA	WAMP05	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300805
+Honap2023	2023	10.1002/ajpa.24735	Thelma Wilson Site	NA	NA	USA	WAMP06	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300806
+Honap2023	2023	10.1002/ajpa.24735	Linville 2 Site	NA	NA	USA	WAMP07	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300807
+Honap2023	2023	10.1002/ajpa.24735	McLemore Site	NA	NA	USA	WAMP09	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300808
+Honap2023	2023	10.1002/ajpa.24735	McLemore Site	NA	NA	USA	WAMP10	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300809
+Honap2023	2023	10.1002/ajpa.24735	McLemore Site	NA	NA	USA	WAMP11	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300810
+Honap2023	2023	10.1002/ajpa.24735	Selzer site	NA	NA	USA	WAMP33	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300803
+Honap2023	2023	10.1002/ajpa.24735	Franklin Cordell Site	NA	NA	USA	WAMP27	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300801
+Honap2023	2023	10.1002/ajpa.24735	Cotter-Hutson Site	NA	NA	USA	WAMP25	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300799
+Honap2023	2023	10.1002/ajpa.24735	Grant Site	NA	NA	USA	WAMP24	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300797
+Honap2023	2023	10.1002/ajpa.24735	Converse Site	NA	NA	USA	WAMP29	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300802
+Honap2023	2023	10.1002/ajpa.24735	Franklin Cordell Site	NA	NA	USA	WAMP26	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300800
+Honap2023	2023	10.1002/ajpa.24735	Grant Site	NA	NA	USA	WAMP23	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300796
+Honap2023	2023	10.1002/ajpa.24735	Grant Site	NA	NA	USA	WAMP22	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300795
+Honap2023	2023	10.1002/ajpa.24735	Arrington Site	NA	NA	USA	WAMP19	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300792
+Honap2023	2023	10.1002/ajpa.24735	Hinz Site	NA	NA	USA	WAMP12	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300811
+Honap2023	2023	10.1002/ajpa.24735	Grant Site	NA	NA	USA	WAMP21	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300794
+Honap2023	2023	10.1002/ajpa.24735	Grant Site	NA	NA	USA	WAMP20	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300793
+Honap2023	2023	10.1002/ajpa.24735	Goodman 1 Site	NA	NA	USA	WAMP15	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300790
+Honap2023	2023	10.1002/ajpa.24735	Sanders Site	NA	NA	USA	WAMP14	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300789
+Honap2023	2023	10.1002/ajpa.24735	Horne 1 Site	NA	NA	USA	WAMP13	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300788
+Honap2023	2023	10.1002/ajpa.24735	WRP 9 Site	NA	NA	USA	WAMP18	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300791
+Honap2023	2023	10.1002/ajpa.24735	Selzer site	NA	NA	USA	WAMP34	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300804
 White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.72	Kazakhstan	B2_B1	Homo sapiens	200	10.3390/biology10121324	bacteria	Tannerella forsythia	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769379
 White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.72	Kazakhstan	B2_B3	Homo sapiens	200	10.3390/biology10121324	bacteria	Tannerella forsythia	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769380
 White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.72	Kazakhstan	B2_B5	Homo sapiens	200	10.3390/biology10121324	bacteria	Tannerella forsythia	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769381

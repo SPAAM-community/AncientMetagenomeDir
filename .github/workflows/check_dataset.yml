@@ -1,13 +1,15 @@
 name: check_dataset
 # This workflow is triggered on pushes and PRs to the repository.
-on: [pull_request]
+on:
+  pull_request:
+    branches: [master]
 
 jobs:
   ancientMetagenomeDirCheck:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: "3.9"
           architecture: "x64"
@@ -44,12 +46,12 @@ jobs:
         run: |
           echo "# Ancient Metagenome Environmental Libraries" >> validation/validation_results.txt
           ancientMetagenomeDirCheck -v -d -m ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries_schema.json >> validation/validation_results.txt
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v3
         if: always()
         with:
           name: results
           path: validation/validation_results.txt
-      - uses: actions/download-artifact@v1
+      - uses: actions/download-artifact@v3
         if: always()
         with:
           name: results

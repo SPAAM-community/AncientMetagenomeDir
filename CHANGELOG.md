@@ -5,30 +5,91 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v22.12: Joya de Cerén [Unreleased]
+## v23.06: Aachen Cathedral [unreleased]
 
 ### Added
 
 #### Ancient Metagenome: Host Associated
 
-- Modi 2021 10.1016/j.quaint.2021.12.003
+- Kimsis 2023 10.1111/1758-2229.13157 (added by @maxibor)
+- Honap 2023 10.1002/ajpa.24735 (added by @schummax/ @tomrichtermeier/ @Frederik-Lutz)
 
 #### Ancient Single Genome: Host Associated
 
-- Jäger 2022 10.1016/j.tube.2022.102181
-- Rieux 2021 10.1038/s41598-021-00518-w
-- Guellil 2021 10.1038/s41598- 021- 98214-2
-- Guellil 2022 10.1186/s13059-021-02580-z
-- Spyrou 2022 10.1038/s41586-022-04800-3
-- Neumann 2022 10.1016/j.cub.2022.06.094
-- Vågene 2022 10.1038/s41467-022-28562-8
-- Austin 2022 10.1038/s42003-022-03890-z
 - White 2021 10.3390/biology10121324
 
+### Changed
+
+### Removed
+
+## v23.03.0: Rocky Necropolis of Pantalica
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Moraitou 2022 10.1093/molbev/msac263 (added by @alexhbnr)
+- Quagliariello 2022 10.1038/s41467-022-34416-0 (added by @alexhbnr)
+- Sarhan 2023 10.1186/s12915-022-01509-7 (added by @msabrysarhan)
+
+#### Ancient Single Genome: Host Associated
+
+- Braun 2020 10.3390/microorganisms8020298 (added by @jfy133)
+- Quagliariello 2022 10.1038/s41467-022-34416-0 (added by @DianaSpurite)
+- Bonczarowska 2022 10.1186/s13059-022-02806-8 (added by @DianaSpurite)
+- Eaton 2023 10.1016/j.cub.2023.01.064 (added by @DianaSpurite)
+- Rifkin 2023 10.1038/s42003-023-04582-y (added by @mibr30)
+- Sarhan 2023 10.1186/s12915-022-01509-7 (added by @msabrysarhan)
 
 #### Ancient Metagenome: Environmental
 
+- Kjaer 2022 10.1038/s41586-022-05453-y (added by @ktozdogan)
+- Nwosu 2023,10.1038/s42003-023-04430-z (added by @ktozdogan)
+
 ### Changed
+
+- Fixed md5sum hash error of a Ozga2019 sample
+- Fixed md5sum hash error of a Granehall2021 sample
+- Replace URLs of Velsko2022 with the ones from the column "fastq_ftp" instead of the column "submitted_ftp" from ENA
+
+### Removed
+
+## v22.12: Joya de Cerén
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Modi 2021 10.1016/j.quaint.2021.12.003 (added by @jfy133)
+- Scorrano 2022 10.1038/s42003-022-04190-2 (added by @ktozdogan)
+- Fagernäs 2022 10.1093/femsmc/xtac006 (added by @jfy133)
+- Velsko 2022 10.1093/pnasnexus/pgac148 (added by @bbartholdy)
+
+#### Ancient Single Genome: Host Associated
+
+- Jäger 2022 10.1016/j.tube.2022.102181 (added by @DianaSpurite)
+- Rieux 2021 10.1038/s41598-021-00518-w (added by @DianaSpurite)
+- Guellil 2021 10.1038/s41598- 021- 98214-2 (added by @DianaSpurite)
+- Guellil 2022 10.1186/s13059-021-02580-z (added by @DianaSpurite)
+- Spyrou 2022 10.1038/s41586-022-04800-3 (added by @DianaSpurite)
+- Neumann 2022 10.1016/j.cub.2022.06.094 (added by @DianaSpurite)
+- Vågene 2022 10.1038/s41467-022-28562-8 (added by @DianaSpurite)
+- Austin 2022 10.1038/s42003-022-03890-z (added by @DianaSpurite)
+- Guellil 2022 10.1126/sciadv.abo4435 (added by @DianaSpurite)
+- Long 2022 10.1038/s42003-022-03527-1 (added by @jfy133 )
+
+#### Ancient Metagenome: Environmental
+
+- Armbrecht 2022 10.1038/s41467-022-33494-4 (added by @ilight1542)
+- Courtin 2022 10.1002/edn3.336 (added by @ktozdogan)
+- Iwańska 2022 10.1038/s41598-022-12761-w (added by @ktozdogan)
+- Gelabert 2021 10.1016/j.cub.2021.06.023 (added by @ktozdogan)
+- Moore 2020 10.1002/ece3.6082 (added by @ktozdogan)
+- Perez 2022 10.3390/microorganisms10081623 (added by @Darcy220606)
+
+### Changed
+
+- Synchronised site location name of PattersonRoss2018 with Long2022
 
 ### Removed
 

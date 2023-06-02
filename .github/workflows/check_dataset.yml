@@ -25,7 +25,7 @@ jobs:
       - name: SAMPLES test ancient host-associated metagenome (e.g. microbiomes)
         if: always()
         run: |
-          echo "# Ancient Metagenome Host Associated" >> validation/validation_results_raw.txt
+          echo "# Samples" >> validation/validation_results_raw.txt
           echo "## Ancient Metagenome Host Associated" >> validation/validation_results_raw.txt
           AMDirT validate -s -d -c -i -m --multi_values archive_accession ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples_schema.json &>> validation/validation_results_raw.txt
       - name: SAMPLES test ancient single microbial genomes (e.g. pathogens)

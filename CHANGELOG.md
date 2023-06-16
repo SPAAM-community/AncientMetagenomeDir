@@ -18,6 +18,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - White 2021 10.3390/biology10121324
 
+#### Ancient Metagenome: Environmental
+
+- Rigou 2022 10.1093/femsml/uqac003 (added by @schummax, @tomrichtermeier, @Frederik-Lutz, and @alexhbnr)
+
 ### Changed
 
 ### Removed

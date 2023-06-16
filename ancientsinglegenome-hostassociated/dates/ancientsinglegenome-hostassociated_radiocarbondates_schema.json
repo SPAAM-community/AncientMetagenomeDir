@@ -157,8 +157,8 @@
         "$id": "#/items/properties/delta_13c",
         "type": "number",
         "title": "δ13C value",
-        "description": "The δ13C value of the dating in ppm (‰)",
-        "examples": [-20.5, -17.6]
+        "description": "The δ13C value of the dating in ppm (‰). Not reported should be represented as -99999",
+        "examples": [-20.5, -17.6, -99999]
       },
       "uncalibrated_date ": {
         "$id": "#/items/properties/delta_13c",
@@ -185,12 +185,14 @@
       },
       "calibration_curve": {
         "$id": "#/items/properties/calibration_curve",
-        "enum": ["IntCal20", "CalPal2007_HULU", "SHCal20","Marine20", "NR"],
+        "type": "string",
+        "enum": ["IntCal20", "CalPal2007_HULU", "SHCal20", "Marine20", "NR"],
         "title": "Calibration Curve",
-        "description": "The tree-ring calibration curve used for calibration.",
+        "description": "The tree-ring calibration curve used for calibration."
       },
       "calibration_software": {
         "$id": "#/items/properties/calibration_software",
+        "type": "string",
         "enum": ["OxCal", "CalPal", "NR"],
         "title": "Calibration Software",
         "description": "Software used for radiocarbon calibration."
@@ -207,7 +209,7 @@
         "type": "integer",
         "title": "Lower Date of Calibrated Date Range",
         "description": "The lower range of the calibrated date",
-        "examples": ["1450"]
+        "examples": ["1650"]
       },
       "calibrated_range_upper": {
         "$id": "#/items/properties/calibrated_range_upper",
@@ -220,13 +222,38 @@
         "$id": "#/items/properties/calibrated_range_median",
         "type": "integer",
         "title": "Median Date of Calibrated Date Range",
-        "description": "The upper range of the calibrated date",
-        "examples": ["1450"]
+        "description": "The median date of the calibrated date range",
+        "examples": ["1550"]
       },
-      "calibrated_range_suffix": {},
-      "reservoir_offset_mentioned": {},
-      "reservoir_offset_applied": {},
-      "reservoir_offset_reported": {}
+      "calibrated_range_suffix": {
+        "$id": "#/items/properties/calibrated_range_suffix",
+        "type": "string",
+        "enum": ["cal AD", "cal BC", "cal CE", "cal BCE", "cal BP"],
+        "title": "Suffix of the calibrated date range",
+        "description": "The suffix of the calibrated date range",
+        "examples": ["cal BP"]
+      },
+      "reservoir_offset_mentioned": {
+        "$id": "#/items/properties/reservoir_offset_mentioned",
+        "type": "boolean",
+        "title": "Is Reservoir Offset Mentioned?",
+        "description": "If radiocarbon C14 reservoir offset mentioned in any form. False here corresponds to not recorded (NR)",
+        "examples": ["true", "false"]
+      },
+      "reservoir_offset_applied": {
+        "$id": "#/items/properties/reservoir_offset_applied",
+        "type": "boolean",
+        "title": "Is Reservoir Offset Applied?",
+        "description": "If an offset correction or recalibration has been reported to have been applied ",
+        "examples": ["true", "false"]
+      },
+      "reservoir_offset_reported": {
+        "$id": "#/items/properties/reservoir_offset_reported",
+        "type": "integer",
+        "title": "Reservoir Offset Reported",
+        "description": "If the actual value of the offset has been reported (set NR if applied but actual value of offset not reported)",
+        "examples": [250, 400]
+      }
     }
   }
 }

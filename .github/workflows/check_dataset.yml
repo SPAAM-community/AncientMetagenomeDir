@@ -54,6 +54,12 @@ jobs:
         run: |
           echo "## Ancient Metagenome Environmental" >> validation/validation_results_raw.txt
           AMDirT validate -s -d -c -m ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries_schema.json &>> validation/validation_results_raw.txt
+          - name: C14 DATES test ancient single genomes (e.g. pathogens)
+        if: always()
+        run: |
+          echo "# C14 Dates" >> validation/validation_results_raw.txt
+          echo "## Ancient Single Genome Host Associated" >> validation/validation_results_raw.txt
+          AMDirT validate -s -d -c -m ancientsinglegenome-hostassociated/dates/ancientsinglegenome-hostassociated_dates.tsv ancientsinglegenome-hostassociated/dates/ancientsinglegenome-hostassociated_dates_schema.json &>>  validation/validation_results_raw.txt
       - name: cleanup validation results from streamlit warnings
         if: always()
         run: |

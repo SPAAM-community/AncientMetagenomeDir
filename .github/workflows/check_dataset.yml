@@ -59,7 +59,7 @@ jobs:
         run: |
           echo "# Radiocarbon Dates" >> validation/validation_results_raw.txt
           echo "## Ancient Single Genome Host Associated" >> validation/validation_results_raw.txt
-          AMDirT validate -s -d -c -m /home/james/git/jfy133/AncientMetagenomeDir/ancientsinglegenome-hostassociated/radiocarbondates/ancientsinglegenome-hostassociated_radiocarbondates.tsv ancientsinglegenome-hostassociated/radiocarbondates/ancientsinglegenome-hostassociated_radiocarbondates_schema.json &>>  validation/validation_results_raw.txt
+          AMDirT validate -s -d -c -m ancientsinglegenome-hostassociated/radiocarbondates/ancientsinglegenome-hostassociated_radiocarbondates.tsv ancientsinglegenome-hostassociated/radiocarbondates/ancientsinglegenome-hostassociated_radiocarbondates_schema.json &>>  validation/validation_results_raw.txt
       - name: cleanup validation results from streamlit warnings
         if: always()
         run: |

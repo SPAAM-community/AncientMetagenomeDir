@@ -54,7 +54,7 @@ jobs:
         run: |
           echo "## Ancient Metagenome Environmental" >> validation/validation_results_raw.txt
           AMDirT validate -s -d -c -m ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries_schema.json &>> validation/validation_results_raw.txt
-          - name: C14 DATES test ancient single genomes (e.g. pathogens)
+      - name: C14 DATES test ancient single genomes (e.g. pathogens)
         if: always()
         run: |
           echo "# C14 Dates" >> validation/validation_results_raw.txt
@@ -63,7 +63,7 @@ jobs:
       - name: cleanup validation results from streamlit warnings
         if: always()
         run: |
-            grep -v streamlit validation/validation_results_raw.txt > validation/validation_results.txt
+          grep -v streamlit validation/validation_results_raw.txt > validation/validation_results.txt
       - uses: actions/upload-artifact@v3
         if: always()
         with:

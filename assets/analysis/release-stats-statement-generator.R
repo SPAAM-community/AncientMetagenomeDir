@@ -1,8 +1,8 @@
 suppressPackageStartupMessages(library(tidyverse))
 
-previous_tag <- "v22.09"
+previous_tag <- "v22.12.0"
 release_tag <- "master"
-new_release <- "v22.12"
+new_release <- "v23.03.0"
 
 ## SAMPLES
 
@@ -56,7 +56,7 @@ cat("\nRelease", new_release,
        adds_single_samples, "new ancient microbial genomes, and", 
        adds_env_samples, "new ancient environmental samples.",
        "This brings the repository to a total of", 
-       tot_pubs_samples, " publications,",
+       tot_pubs_samples, "publications,",
        tot_microb_samples,  "ancient host-associated metagenome samples,", 
        tot_single_samples,  "ancient microbial genomes, and", 
        tot_env_samples,  "ancient environmental samples\n\nFurthermore, this release adds",

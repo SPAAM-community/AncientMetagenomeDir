@@ -39,6 +39,11 @@
         "latrine",
         "skull",
         "shell",
-        "skin of leg"
+        "skin of leg",
+        "strand of hair",
+        "brain",
+        "dura mater",
+        "stomach",
+        "lung"
     ]
 }

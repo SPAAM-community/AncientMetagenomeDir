@@ -5,7 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v23.03: Rocky Necropolis of Pantalica [unreleased]
+## v23.06: Aachen Cathedral [unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Kimsis 2023 10.1111/1758-2229.13157 (added by @maxibor)
+- Honap 2023 10.1002/ajpa.24735 (added by @schummax/ @tomrichtermeier/ @Frederik-Lutz)
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Metagenome: Environmental
+
+- Rigou 2022 10.1093/femsml/uqac003 (added by @schummax, @tomrichtermeier, @Frederik-Lutz, and @alexhbnr)
+
+### Changed
+
+### Removed
+
+## v23.03.0: Rocky Necropolis of Pantalica
 
 ### Added
 
@@ -13,10 +32,21 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Moraitou 2022 10.1093/molbev/msac263 (added by @alexhbnr)
 - Quagliariello 2022 10.1038/s41467-022-34416-0 (added by @alexhbnr)
+- Sarhan 2023 10.1186/s12915-022-01509-7 (added by @msabrysarhan)
 
 #### Ancient Single Genome: Host Associated
 
+- Braun 2020 10.3390/microorganisms8020298 (added by @jfy133)
+- Quagliariello 2022 10.1038/s41467-022-34416-0 (added by @DianaSpurite)
+- Bonczarowska 2022 10.1186/s13059-022-02806-8 (added by @DianaSpurite)
+- Eaton 2023 10.1016/j.cub.2023.01.064 (added by @DianaSpurite)
+- Rifkin 2023 10.1038/s42003-023-04582-y (added by @mibr30)
+- Sarhan 2023 10.1186/s12915-022-01509-7 (added by @msabrysarhan)
+
 #### Ancient Metagenome: Environmental
+
+- Kjaer 2022 10.1038/s41586-022-05453-y (added by @ktozdogan)
+- Nwosu 2023,10.1038/s42003-023-04430-z (added by @ktozdogan)
 
 ### Changed
 
@@ -49,8 +79,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Austin 2022 10.1038/s42003-022-03890-z (added by @DianaSpurite)
 - Guellil 2022 10.1126/sciadv.abo4435 (added by @DianaSpurite)
 - Long 2022 10.1038/s42003-022-03527-1 (added by @jfy133 )
-- Quagliariello 2022 10.1038/s41467-022-34416-0 (added by @DianaSpurite)
-- Bonczarowska 2022 10.1186/s13059-022-02806-8 (added by @DianaSpurite)
 
 #### Ancient Metagenome: Environmental
 

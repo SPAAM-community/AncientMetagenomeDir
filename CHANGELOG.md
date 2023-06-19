@@ -44,6 +44,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Eaton 2023 10.1016/j.cub.2023.01.064 (added by @DianaSpurite)
 - Rifkin 2023 10.1038/s42003-023-04582-y (added by @mibr30)
 - Sarhan 2023 10.1186/s12915-022-01509-7 (added by @msabrysarhan)
+- White 2021 10.3390/biology10121324 (added by @DianaSpurite)
 
 #### Ancient Metagenome: Environmental
 
@@ -80,7 +81,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Vågene 2022 10.1038/s41467-022-28562-8 (added by @DianaSpurite)
 - Austin 2022 10.1038/s42003-022-03890-z (added by @DianaSpurite)
 - Guellil 2022 10.1126/sciadv.abo4435 (added by @DianaSpurite)
-- Long 2022 10.1038/s42003-022-03527-1 (added by @jfy133 )
+- Long 2022 10.1038/s42003-022-03527-1 (added by @jfy133)
 
 #### Ancient Metagenome: Environmental
 

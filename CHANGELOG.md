@@ -21,6 +21,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Environmental
 
 - Rigou 2022 10.1093/femsml/uqac003 (added by @schummax, @tomrichtermeier, @Frederik-Lutz, and @alexhbnr)
+- Armbrecht 2021, 10.1038/s43705-021-00070-8 (added by @ktozdogan)
 
 ### Changed
 

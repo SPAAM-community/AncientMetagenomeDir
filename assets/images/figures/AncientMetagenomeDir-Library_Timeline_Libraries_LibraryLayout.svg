@@ -111,8 +111,8 @@
 <rect x='239.26' y='167.93' width='10.13' height='13.47' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
 <rect x='250.51' y='148.39' width='10.13' height='18.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
 <rect x='250.51' y='167.25' width='10.13' height='14.16' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
-<rect x='261.76' y='146.21' width='10.13' height='21.00' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
-<rect x='261.76' y='167.22' width='10.13' height='14.19' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
+<rect x='261.76' y='145.55' width='10.13' height='21.00' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
+<rect x='261.76' y='166.56' width='10.13' height='14.85' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
 </g>
 <g clip-path='url(#cpMC4wMHwyODguMDB8MC4wMHwzNDUuNjA=)'>
 </g>
@@ -155,11 +155,11 @@
 <rect x='216.76' y='250.44' width='10.13' height='4.26' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
 <rect x='228.01' y='247.50' width='10.13' height='6.16' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
 <rect x='228.01' y='253.66' width='10.13' height='2.83' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
-<rect x='239.26' y='246.21' width='10.13' height='7.04' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
+<rect x='239.26' y='246.07' width='10.13' height='7.18' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
 <rect x='239.26' y='253.24' width='10.13' height='3.24' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
-<rect x='250.51' y='241.72' width='10.13' height='11.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
+<rect x='250.51' y='241.59' width='10.13' height='11.66' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
 <rect x='250.51' y='253.24' width='10.13' height='3.24' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
-<rect x='261.76' y='241.42' width='10.13' height='11.82' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
+<rect x='261.76' y='241.23' width='10.13' height='12.01' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
 <rect x='261.76' y='253.24' width='10.13' height='3.24' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
 </g>
 <g clip-path='url(#cpMC4wMHwyODguMDB8MC4wMHwzNDUuNjA=)'>
@@ -251,7 +251,7 @@
 <rect x='171.65' y='302.25' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
 <text x='133.66' y='313.39' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='31.80px' lengthAdjust='spacingAndGlyphs'>PAIRED</text>
 <text x='193.70' y='313.39' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='32.04px' lengthAdjust='spacingAndGlyphs'>SINGLE</text>
-<text x='48.63' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='237.08px' lengthAdjust='spacingAndGlyphs'>Grouping: lib. layout. Updated: 2023-06-02</text>
+<text x='48.63' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='237.08px' lengthAdjust='spacingAndGlyphs'>Grouping: lib. layout. Updated: 2023-06-27</text>
 <text x='48.63' y='15.10' style='font-size: 13.20px; font-family: Liberation Sans;' textLength='180.69px' lengthAdjust='spacingAndGlyphs'>Published libraries per year</text>
 <text x='45.55' y='336.46' style='font-size: 8.80px; font-weight: bold; font-family: Liberation Sans;' textLength='43.86px' lengthAdjust='spacingAndGlyphs'>License: </text>
 <text x='89.40' y='336.46' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='48.43px' lengthAdjust='spacingAndGlyphs'>CC-BY 4.0. </text>

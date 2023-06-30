@@ -77,7 +77,7 @@
 <rect x='198.09' y='272.44' width='36.71' height='22.65' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #2DA46A;' />
 <rect x='161.38' y='268.29' width='36.71' height='26.80' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #2DA46A;' />
 <rect x='124.67' y='253.67' width='36.71' height='41.42' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #2DA46A;' />
-<rect x='87.97' y='255.30' width='36.71' height='39.79' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #2DA46A;' />
+<rect x='87.97' y='254.21' width='36.71' height='40.88' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #2DA46A;' />
 <rect x='51.26' y='266.18' width='36.71' height='28.91' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #2DA46A;' />
 </g>
 <g clip-path='url(#cpMC4wMHwyODguMDB8MC4wMHwzNDUuNjA=)'>
@@ -158,7 +158,7 @@
 <polyline points='37.50,234.55 40.24,234.55 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <text x='161.38' y='322.01' text-anchor='middle' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='113.23px' lengthAdjust='spacingAndGlyphs'>Years before present</text>
 <text transform='translate(13.50,177.10) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='66.03px' lengthAdjust='spacingAndGlyphs'>Samples (n)</text>
-<text x='40.24' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='117.95px' lengthAdjust='spacingAndGlyphs'>Updated: 2023-06-27</text>
+<text x='40.24' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='117.95px' lengthAdjust='spacingAndGlyphs'>Updated: 2023-06-30</text>
 <text x='40.24' y='15.10' style='font-size: 13.20px; font-family: Liberation Sans;' textLength='180.78px' lengthAdjust='spacingAndGlyphs'>Age distribution of samples</text>
 <text x='45.55' y='336.46' style='font-size: 8.80px; font-weight: bold; font-family: Liberation Sans;' textLength='43.86px' lengthAdjust='spacingAndGlyphs'>License: </text>
 <text x='89.40' y='336.46' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='48.43px' lengthAdjust='spacingAndGlyphs'>CC-BY 4.0. </text>

@@ -23,9 +23,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Rigou 2022 10.1093/femsml/uqac003 (added by @schummax, @tomrichtermeier, @Frederik-Lutz, and @alexhbnr)
 - Armbrecht 2021, 10.1038/s43705-021-00070-8 (added by @ktozdogan)
-- Zimmermann 2023 10.1038/s41467-023-36845-x (added by @ktozdogan)
 - Vassallo 2023 10.1128/spectrum.04374-22 (added by @jfy133)
 - Klapper 2023 10.1126/science.adf5300 (added by @alexhbnr)
+- Zimmermann 2023 10.1038/s41467-023-36845-x (added by @ktozdogan)
 
 ### Changed
 

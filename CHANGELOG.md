@@ -32,6 +32,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Single Genome: Host Associated
 
 - Swali 2023 10.1038/s41467-023-38393-w (added by @DianaSpurite)
+- Neumann 2023 austriaca.at/bronzezeit-pest-in-drasenhofen (added by @DianaSpurite)
 
 #### Ancient Metagenome: Environmental
 

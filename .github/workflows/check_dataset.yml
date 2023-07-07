@@ -17,6 +17,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install amdirt==1.4.6
+          pip install jsonschema==14.17.0
       - name: Make validation results directory
         run: mkdir validation/
       - name: Add AMDirT validate version
@@ -57,7 +58,7 @@ jobs:
       - name: cleanup validation results from streamlit warnings
         if: always()
         run: |
-            grep -v streamlit validation/validation_results_raw.txt > validation/validation_results.txt
+          grep -v streamlit validation/validation_results_raw.txt > validation/validation_results.txt
       - uses: actions/upload-artifact@v3
         if: always()
         with:

@@ -93,6 +93,7 @@ setdiff(shos_doi, lhos_doi)
 setdiff(ssin_doi, lsin_doi)
 
 ## Archive accession in library, not sample (unexpected extra)
+## Exception allowed: 10.1126/science.adf5300 (Klapper2023 reseq of FellowsYates2021 so no new samples)
 setdiff(lenv_doi, senv_doi)
 setdiff(lhos_doi, shos_doi)
 setdiff(lsin_doi, ssin_doi)
@@ -131,6 +132,7 @@ shos_dups <-
 ## Guellil2022 [multi-species], Bonczarowska2022 [multi-species]
 ## SeguinOrlando2021, Clavel2023 [sample re-use/reqseuqencing]
 ssin_dup_exceptions <- c("ERS942272", "ERS942281", "ERS942282", "ERS4278128", "ERS4278129", "ERS4278130", "ERS942276", "SRS1779840", "SRS1779841", "SRS1779844", "SRS1779846", "SRS13524932", "ERS8968539", "ERS9069041", "ERS9069042", "ERS5823072", "ERS5823096")
+
 
 ssin_dups <-
   ssin$archive_accession %>%

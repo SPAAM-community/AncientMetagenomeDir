@@ -5,7 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v23.06: Aachen Cathedral [unreleased]
+## v23.09: Historic Centre of Cienfuegos [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+### Removed
+
+## v23.06: Aachen Cathedral
 
 ### Added
 
@@ -13,6 +27,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Kimsis 2023 10.1111/1758-2229.13157 (added by @maxibor)
 - Honap 2023 10.1002/ajpa.24735 (added by @schummax/ @tomrichtermeier/ @Frederik-Lutz)
+- Klapper 2023 10.1126/science.adf5300 (added by @alexhbnr)
 
 #### Ancient Single Genome: Host Associated
 
@@ -24,6 +39,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Rigou 2022 10.1093/femsml/uqac003 (added by @schummax, @tomrichtermeier, @Frederik-Lutz, and @alexhbnr)
 - Armbrecht 2021, 10.1038/s43705-021-00070-8 (added by @ktozdogan)
 - Vassallo 2023 10.1128/spectrum.04374-22 (added by @jfy133)
+- Klapper 2023 10.1126/science.adf5300 (added by @alexhbnr)
+- Zimmermann 2023 10.1038/s41467-023-36845-x (added by @ktozdogan)
 
 ### Changed
 

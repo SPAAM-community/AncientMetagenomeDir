@@ -27,6 +27,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Refined geographic coordinates of SeguinOrlando2021 based same site in Clavel 2023
+
 ### Removed
 
 ## v23.03.0: Rocky Necropolis of Pantalica

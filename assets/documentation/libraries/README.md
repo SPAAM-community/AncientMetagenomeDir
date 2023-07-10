@@ -267,7 +267,7 @@ Library columns are as follows:
 
 > ⚠️ Mandatory value
 
-## file_Type
+## file_type
 
 > 🦠 host-associated single genome only!
 

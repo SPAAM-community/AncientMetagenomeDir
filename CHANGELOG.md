@@ -32,6 +32,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Single Genome: Host Associated
 
 - Swali 2023 10.1038/s41467-023-38393-w (added by @DianaSpurite)
+- Parker2023 10.1371/journal.ppat.1011404 (added by @DianaSpurite)
 
 #### Ancient Metagenome: Environmental
 

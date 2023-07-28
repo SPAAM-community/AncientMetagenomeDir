@@ -13,6 +13,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Clavel 2023 10.1016/j.isci.2023.106787 (added by @DianaSpurite)
+- Neumann 2023 10.1553/archaeologia107 (added by @DianaSpurite)
+- Bonczarowska 2023  10.1098/rspb.2023.0622 (added by @DianaSpurite)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed
@@ -32,6 +36,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Single Genome: Host Associated
 
 - Swali 2023 10.1038/s41467-023-38393-w (added by @DianaSpurite)
+- Clavel 2023 10.1016/j.isci.2023.106787 (added by @DianaSpurite)
+- Neumann 2023 10.1553/archaeologia107 (added by @DianaSpurite)
 - Parker2023 10.1371/journal.ppat.1011404 (added by @DianaSpurite)
 
 #### Ancient Metagenome: Environmental
@@ -43,6 +49,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Zimmermann 2023 10.1038/s41467-023-36845-x (added by @ktozdogan)
 
 ### Changed
+
+- Refined geographic coordinates of SeguinOrlando2021 based same site in Clavel 2023
 
 ### Removed
 

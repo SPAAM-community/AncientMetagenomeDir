@@ -58,7 +58,7 @@ jobs:
       - name: cleanup validation results from streamlit warnings
         if: always()
         run: |
-            grep -v streamlit validation/validation_results_raw.txt > validation/validation_results.txt
+          grep -v streamlit validation/validation_results_raw.txt > validation/validation_results.txt
       - uses: actions/upload-artifact@v3
         if: always()
         with:

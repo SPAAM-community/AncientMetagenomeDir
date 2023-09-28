@@ -11,6 +11,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Fontani 2023 10.1038/s41598-023-39250-y (added by @darcy220606)
+
 #### Ancient Single Genome: Host Associated
 
 - Clavel 2023 10.1016/j.isci.2023.106787 (added by @DianaSpurite)

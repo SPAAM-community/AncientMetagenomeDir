@@ -19,7 +19,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Neumann 2023 10.1553/archaeologia107 (added by @DianaSpurite)
 - Bonczarowska 2023  10.1098/rspb.2023.0622 (added by @DianaSpurite)
 - Long 2023 10.1371/journal.ppat.1011538 (added by @DianaSpurite)
-- Caruana 2023 10.1007/s13313-023-00936-6 (added by @DianaSpurite)
+- Hodgkins 2023 10.1007/s13313-023-00936-6 (added by @DianaSpurite)
 
 #### Ancient Metagenome: Environmental
 

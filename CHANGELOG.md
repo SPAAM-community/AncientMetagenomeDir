@@ -15,7 +15,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
-- Clavel 2023 10.1016/j.isci.2023.106787 (added by @DianaSpurite)
+- Clavel 2023 10.1016/j.isci.2023.106787 (added by @DianaSpurite/ @theHatIsBack)
 - Neumann 2023 10.1553/archaeologia107 (added by @DianaSpurite)
 - Bonczarowska 2023  10.1098/rspb.2023.0622 (added by @DianaSpurite)
 - Long 2023 10.1371/journal.ppat.1011538 (added by @DianaSpurite)

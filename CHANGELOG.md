@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v23.09: Historic Centre of Cienfuegos [Unreleased]
+## v23.09: Historic Centre of Cienfuegos
 
 ### Added
 
@@ -20,7 +20,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Long 2023 10.1371/journal.ppat.1011538 (added by @DianaSpurite)
 - Campos 2023 10.1038/s41467-023-39950-z (added by @DianaSpurite)
 - Parker2023 10.1371/journal.ppat.1011404 (added by @DianaSpurite)
-- Clavel 2023 10.1016/j.isci.2023.106787 (added by @DianaSpurite/ @theHatIsBack)
+- Clavel 2023 10.1016/j.isci.2023.106787 (added by @DianaSpurite/@theHatIsBack)
 
 #### Ancient Metagenome: Environmental
 

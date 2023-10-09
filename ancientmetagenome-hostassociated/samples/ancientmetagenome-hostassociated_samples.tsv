@@ -1400,3 +1400,14 @@ Honap2023	2023	10.1002/ajpa.24735	WRP 9 Site	NA	NA	USA	WAMP18	Homo sapiens	700	1
 Honap2023	2023	10.1002/ajpa.24735	Selzer site	NA	NA	USA	WAMP34	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300804
 Fontani2023	2023	10.1038/s41598-023-39250-y	Grotta di Pietra Sant’Angelo (San Lorenzo Bellizzi)	39.89	16.33	Italy	SLBT	Homo sapiens	6100	10.1038/s41598-023-39250-y	oral	dental calculus	ENA	PRJEB58818	ERS14581258
 Fontani2023	2023	10.1038/s41598-023-39250-y	Grotta di Pietra Sant’Angelo (San Lorenzo Bellizzi)	39.89	16.33	Italy	SLB	Homo sapiens	6100	10.1038/s41598-023-39250-y	oral	tooth	ENA	PRJEB58818	ERS14410560
+Madison2023	2023	10.1371/journal.pone.0291540	Chemung	42.416	-88.664	USA	2194	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960479	
+Madison2023	2023	10.1371/journal.pone.0291540	Lake Pistakee	42.385	-88.208	USA	1700	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960402
+Madison2023	2023	10.1371/journal.pone.0291540	Beaver Dam	43.463	-88.853	USA	1489	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960503
+Madison2023	2023	10.1371/journal.pone.0291540	Marengo, Kishwaukee Riv.	42.25	-88.606	USA	1151	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS13029051
+Madison2023	2023	10.1371/journal.pone.0291540	Beaver Dam	43.463	-88.853	USA	1490	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS13029045
+Madison2023	2023	10.1371/journal.pone.0291540	Beaver Dam	43.463	-88.853	USA	1491	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS13029056
+Madison2023	2023	10.1371/journal.pone.0291540	Buffalo Slough	44.433	-91.787	USA	14914	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS13029062
+Madison2023	2023	10.1371/journal.pone.0291540	Pell lake	42.541	-88.358	USA	2564	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS13029052
+Madison2023	2023	10.1371/journal.pone.0291540	Harrison township	42.38392	-89.194	USA	3007	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS13029053
+Madison2023	2023	10.1371/journal.pone.0291540	Bluff Creek	42.799	-88.682	USA	4572	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960447
+Madison2023	2023	10.1371/journal.pone.0291540	Antioch	42.477	-88.095	USA	7405	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS13029047

@@ -11,6 +11,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Madison 2023 10.1371/journal.pone.0291540 (added by @DianaSpurite)
+
 #### Ancient Single Genome: Host Associated
 
 - Hodgkins 2023 10.1007/s13313-023-00936-6 (added by @DianaSpurite and @iseultj)

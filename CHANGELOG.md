@@ -5,7 +5,47 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v23.06: Aachen Cathedral [unreleased]
+## v23.12: Cathedral, Alcázar and Archivo de Indias [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Madison 2023 10.1371/journal.pone.0291540 (added by @DianaSpurite)
+
+#### Ancient Single Genome: Host Associated
+
+- White 2021 10.3390/biology10121324
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+### Removed
+
+## v23.09: Historic Centre of Cienfuegos
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Fontani 2023 10.1038/s41598-023-39250-y (added by @darcy220606)
+
+#### Ancient Single Genome: Host Associated
+
+- Neumann 2023 10.1553/archaeologia107 (added by @DianaSpurite)
+- Bonczarowska 2023 10.1098/rspb.2023.0622 (added by @DianaSpurite)
+- Long 2023 10.1371/journal.ppat.1011538 (added by @DianaSpurite)
+- Campos 2023 10.1038/s41467-023-39950-z (added by @DianaSpurite)
+- Parker2023 10.1371/journal.ppat.1011404 (added by @DianaSpurite)
+- Clavel 2023 10.1016/j.isci.2023.106787 (added by @DianaSpurite/@theHatIsBack)
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+### Removed
+
+## v23.06: Aachen Cathedral
 
 ### Added
 
@@ -13,16 +53,25 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Kimsis 2023 10.1111/1758-2229.13157 (added by @maxibor)
 - Honap 2023 10.1002/ajpa.24735 (added by @schummax/ @tomrichtermeier/ @Frederik-Lutz)
+- Klapper 2023 10.1126/science.adf5300 (added by @alexhbnr)
 
 #### Ancient Single Genome: Host Associated
 
-- White 2021 10.3390/biology10121324
+- Swali 2023 10.1038/s41467-023-38393-w (added by @DianaSpurite)
+- Clavel 2023 10.1016/j.isci.2023.106787 (added by @DianaSpurite)
+- Neumann 2023 10.1553/archaeologia107 (added by @DianaSpurite)
 
 #### Ancient Metagenome: Environmental
 
 - Rigou 2022 10.1093/femsml/uqac003 (added by @schummax, @tomrichtermeier, @Frederik-Lutz, and @alexhbnr)
+- Armbrecht 2021, 10.1038/s43705-021-00070-8 (added by @ktozdogan)
+- Vassallo 2023 10.1128/spectrum.04374-22 (added by @jfy133)
+- Klapper 2023 10.1126/science.adf5300 (added by @alexhbnr)
+- Zimmermann 2023 10.1038/s41467-023-36845-x (added by @ktozdogan)
 
 ### Changed
+
+- Refined geographic coordinates of SeguinOrlando2021 based same site in Clavel 2023
 
 ### Removed
 

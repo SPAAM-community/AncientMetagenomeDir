@@ -12,10 +12,11 @@
     "Platinum Taq DNA-Polymerase High Fidelity",
     "Q5 High-Fidelity DNA",
     "AccuPrime Pfx DNA",
-    "HotStarTaq DNA Polymerase",
     "Q5 Hot Start High-Fidelity DNA",
     "HGS Taq Diamond",
     "Unknown",
-    "KAPA SYBR FAST DNA"
+    "KAPA SYBR FAST DNA",
+    "AccuPrime Taq DNA",
+    "HotStarTaq DNA"
   ]
 }

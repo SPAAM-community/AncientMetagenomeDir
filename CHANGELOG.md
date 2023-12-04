@@ -15,9 +15,13 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Hodgkins 2023 10.1007/s13313-023-00936-6 (added by @DianaSpurite and @iseultj)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+- Fix coordinate of sample SK8 in Schuenemann 2013 10.1126/science.1238286 (@DianaSpurite and @marcel-keller)
 
 ### Removed
 

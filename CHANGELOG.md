@@ -21,6 +21,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Fix coordinate of sample SK8 in Schuenemann 2013 10.1126/science.1238286 (@DianaSpurite and @marcel-keller)
+
 ### Removed
 
 ## v23.09: Historic Centre of Cienfuegos

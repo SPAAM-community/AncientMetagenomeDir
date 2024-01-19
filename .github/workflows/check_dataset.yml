@@ -71,8 +71,8 @@ jobs:
       - name: comment PR
         if: always()
         uses: mshick/add-pr-comment@v2
-        refresh-message-position: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           message-path: validation/validation_results.txt
+          refresh-message-position: true

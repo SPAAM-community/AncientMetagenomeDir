@@ -19,6 +19,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- Pérez 2023 10.1111/fwb.14182 (added by @ktozdogan)
+
 ### Changed
 
 - Fix coordinate of sample SK8 in Schuenemann 2013 10.1126/science.1238286 (@DianaSpurite and @marcel-keller)

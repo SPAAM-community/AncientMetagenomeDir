@@ -70,8 +70,8 @@ jobs:
           name: results
       - name: comment PR
         if: always()
-        uses: machine-learning-apps/pr-comment@1.0.0
+        uses: mshick/add-pr-comment@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          path: validation/validation_results.txt
+          message-path: validation/validation_results.txt

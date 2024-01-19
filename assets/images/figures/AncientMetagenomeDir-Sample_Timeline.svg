@@ -74,7 +74,7 @@
 <rect x='228.01' y='193.03' width='10.13' height='13.92' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
 <rect x='239.26' y='184.28' width='10.13' height='22.66' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
 <rect x='250.51' y='182.33' width='10.13' height='24.61' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
-<rect x='261.76' y='179.99' width='10.13' height='26.95' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
+<rect x='261.76' y='178.31' width='10.13' height='28.63' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #D74182;' />
 </g>
 <g clip-path='url(#cpMC4wMHwyODguMDB8MC4wMHwzNDUuNjA=)'>
 </g>
@@ -103,7 +103,7 @@
 <rect x='228.01' y='279.36' width='10.13' height='15.73' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #2DA46A;' />
 <rect x='239.26' y='277.46' width='10.13' height='17.63' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #2DA46A;' />
 <rect x='250.51' y='271.28' width='10.13' height='23.81' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #2DA46A;' />
-<rect x='261.76' y='269.38' width='10.13' height='25.71' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #2DA46A;' />
+<rect x='261.76' y='269.20' width='10.13' height='25.89' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #2DA46A;' />
 </g>
 <g clip-path='url(#cpMC4wMHwyODguMDB8MC4wMHwzNDUuNjA=)'>
 </g>
@@ -183,7 +183,7 @@
 <polyline points='45.89,250.91 48.63,250.91 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <text x='165.58' y='322.01' text-anchor='middle' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='88.41px' lengthAdjust='spacingAndGlyphs'>Publication year</text>
 <text transform='translate(13.50,177.10) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='214.66px' lengthAdjust='spacingAndGlyphs'>Number of  samples  (cumulative sum)</text>
-<text x='48.63' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='117.95px' lengthAdjust='spacingAndGlyphs'>Updated: 2023-12-01</text>
+<text x='48.63' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='117.95px' lengthAdjust='spacingAndGlyphs'>Updated: 2024-01-19</text>
 <text x='48.63' y='15.10' style='font-size: 13.20px; font-family: Liberation Sans;' textLength='182.24px' lengthAdjust='spacingAndGlyphs'>Published samples per year</text>
 <text x='45.55' y='336.46' style='font-size: 8.80px; font-weight: bold; font-family: Liberation Sans;' textLength='43.86px' lengthAdjust='spacingAndGlyphs'>License: </text>
 <text x='89.40' y='336.46' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='48.43px' lengthAdjust='spacingAndGlyphs'>CC-BY 4.0. </text>

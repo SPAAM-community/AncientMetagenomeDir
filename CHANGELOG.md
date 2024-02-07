@@ -11,6 +11,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Nishimura 2024 10.1371/journal.pone.0295924 (added by @alexhbnr)
+
 #### Ancient Single Genome: Host Associated
 
 #### Ancient Metagenome: Environmental

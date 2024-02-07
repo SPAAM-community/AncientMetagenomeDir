@@ -8,6 +8,7 @@
         "GenBank",
         "Dryad",
         "Zenodo",
-        "GitHub"
+        "GitHub",
+        "DDBJ",
     ]
 }

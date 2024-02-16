@@ -10,7 +10,7 @@ jobs:
     if: >
         contains(github.event.comment.html_url, '/pull/') &&
         contains(github.event.comment.body, '@spaam-bot please autofill') &&
-        github.repository == 'spaam-community/AncientMetagenomeDir'
+        github.repository == 'SPAAM-community/AncientMetagenomeDir'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

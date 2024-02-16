@@ -1,0 +1,49 @@
+name: check_dataset
+# This workflow is triggered on pushes and PRs to the repository.
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  AMDirT:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+    name: check_dataset
+    # This workflow is triggered on pushes and PRs to the repository.
+    on:
+      pull_request:
+        branches: [master]
+
+    jobs:
+      Autofill:
+        if: >
+            contains(github.event.comment.html_url, '/pull/') &&
+            contains(github.event.comment.body, '@spaam-bot please autofill') &&
+            github.repository == 'spaam-community/AncientMetagenomeDir'
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v4
+          - uses: actions/setup-python@v4
+            with:
+              python-version: "3.9"
+              architecture: "x64"
+          - name: Install dependencies
+            run: |
+              python -m pip install --upgrade pip
+              pip install amdirt==1.5.0
+              pip install jsonschema==4.17.0
+          
+           # indication that the autofill is being attempted
+          - name: React on comment
+            uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4
+            with:
+              comment-id: ${{ github.event.comment.id }}
+              reactions: eyes
+
+          - name: Post PR comment
+            uses: marocchino/sticky-pull-request-comment@v2
+            with:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              number: ${{ steps.pr_number.outputs.pr_number }}
+              message: "Success!"

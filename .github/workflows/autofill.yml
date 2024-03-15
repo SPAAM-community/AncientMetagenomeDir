@@ -38,12 +38,11 @@ jobs:
           pip install jsonschema==4.17.0
 
       # Post results
-      - uses: jwalton/gh-find-current-pr@v1
-        id: finder
-
-      - name: Post PR comment
-        uses: marocchino/sticky-pull-request-comment@v2
-        with:
+      - name: comment PR
+        if: always()
+        uses: mshick/add-pr-comment@v2
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ steps.finder.outputs.pr }}
+        with:
           message: "Success"
+          refresh-message-position: true

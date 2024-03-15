@@ -4,7 +4,7 @@ on:
     types: [created]
 
 jobs:
-  deploy:
+  Autofill:
     # Only run if comment is on a PR with the main repo, and if it contains the magic keywords
     if: >
       contains(github.event.comment.html_url, '/pull/') &&
@@ -36,5 +36,4 @@ jobs:
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ steps.pr_number.outputs.pr_number }}
           message: "Success!"

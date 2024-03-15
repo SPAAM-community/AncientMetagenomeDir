@@ -44,5 +44,5 @@ jobs:
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ PR_NUMBER}}
+          number: ${{ PR_NUMBER }}
           message: "Success"

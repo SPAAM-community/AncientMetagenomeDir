@@ -1,0 +1,21 @@
+name: Prepare autofilled template for library metadata
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  deploy:
+    # Only run if comment is on a PR with the main repo, and if it contains the magic keywords
+    if: >
+      contains(github.event.comment.html_url, '/pull/') &&
+      startsWith(github.event.comment.body, '@spaam-bot please autofill') &&
+      github.repository == 'SPAAM-community/AncientMetagenomeDir'
+    runs-on: ubuntu-latest
+    steps:
+      # indication that the process has started
+      - name: React on comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          comment-id: ${{ github.event.comment.id }}
+          reactions: eyes
+          token: ${{ secrets.GITHUB_TOKEN }}

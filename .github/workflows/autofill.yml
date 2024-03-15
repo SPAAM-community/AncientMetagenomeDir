@@ -1,39 +1,21 @@
-name: autofill
-# This workflow is triggered on pushes and PRs to the repository.
+name: Prepare autofilled template for library metadata
 on:
   issue_comment:
     types: [created]
 
 jobs:
-  Autofill:
+  deploy:
+    # Only run if comment is on a PR with the main repo, and if it contains the magic keywords
     if: >
-        contains(github.event.comment.html_url, '/pull/') &&
-        contains(github.event.comment.body, '@spaam-bot please autofill') &&
-        github.repository == 'SPAAM-community/AncientMetagenomeDir'
+      contains(github.event.comment.html_url, '/pull/') &&
+      startsWith(github.event.comment.body, '@spaam-bot please autofill') &&
+      github.repository == 'SPAAM-community/AncientMetagenomeDir'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.9"
-          architecture: "x64"
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install amdirt==1.5.0
-          pip install jsonschema==4.17.0
-      
-        # indication that the autofill is being attempted
+      # indication that the process has started
       - name: React on comment
-        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4
+        uses: peter-evans/create-or-update-comment@v2
         with:
           comment-id: ${{ github.event.comment.id }}
           reactions: eyes
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Post PR comment
-        uses: marocchino/sticky-pull-request-comment@v2
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ steps.pr_number.outputs.pr_number }}
-          message: "Success!"

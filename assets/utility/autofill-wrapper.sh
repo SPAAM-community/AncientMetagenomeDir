@@ -18,7 +18,7 @@ usage() {
     exit 1
 }
 
-/workspace/AncientMetagenomeDir//samples/ancientmetagenome-hostassociated_samples.tsv
+
 
 valid_tables=("ancientmetagenome-hostassociated" "ancientmetagenome-environmental" "ancientsinglegenome-hostassociated")
 verbose=false
@@ -35,8 +35,9 @@ while getopts t:p:v flag; do
     esac
 done
 
-echo $verbose
-
+if [[ $OPTIND -eq 1 ]]; then 
+    usage
+fi
 
 if ! [[ "${valid_tables[*]}" =~ $table_name ]]; then
     echo "ERROR: $table_name not valid! Please check input to -t"
@@ -61,8 +62,8 @@ if [ ${#hits} -eq 0 ]; then
 fi
 
 if ${verbose}; then
-    echo "[LOG]" RUNNING: AMDirT autofill -n "$table_name" "$hits" -l TEMPLATE_"$project_name"_"$table_name"_libraries.tsv
+    echo "[LOG]" RUNNING: AMDirT autofill -n "$table_name" $hits -l TEMPLATE_"$project_name"_"$table_name"_libraries.tsv
     echo ""
 fi
 
-AMDirT autofill -n "$table_name" "$hits" -l TEMPLATE_"$project_name"_"$table_name"_libraries.tsv
+AMDirT autofill -n "$table_name" $hits -l TEMPLATE_"$project_name"_"$table_name"_libraries.tsv

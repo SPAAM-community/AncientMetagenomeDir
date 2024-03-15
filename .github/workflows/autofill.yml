@@ -36,13 +36,12 @@ jobs:
           pip install jsonschema==4.17.0
 
       # Post results
-      - name: Get PR number
-        id: pr_number
-        run: echo "pr_number=$(cat linting-logs/PR_number.txt)" >> $GITHUB_OUTPUT
+      - uses: jwalton/gh-find-current-pr@v1
+        id: finder
 
       - name: Post PR comment
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ PR_NUMBER }}
+          number: ${{ steps.finder.outputs.pr }}
           message: "Success"

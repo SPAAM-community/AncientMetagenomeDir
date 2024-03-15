@@ -12,10 +12,31 @@ jobs:
       github.repository == 'SPAAM-community/AncientMetagenomeDir'
     runs-on: ubuntu-latest
     steps:
-      # indication that the process has started
+      - uses: actions/checkout@v4
+      
+      # indication that the autofill is being attempted
       - name: React on comment
-        uses: peter-evans/create-or-update-comment@v2
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4
         with:
           comment-id: ${{ github.event.comment.id }}
           reactions: eyes
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # install AMDirT
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+          architecture: "x64"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install amdirt==1.5.0
+          pip install jsonschema==4.17.0
+      
+      # Post results
+      - name: Post PR comment
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ steps.pr_number.outputs.pr_number }}
+          message: "Success!"

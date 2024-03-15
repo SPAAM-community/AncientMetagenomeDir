@@ -36,9 +36,11 @@ jobs:
           pip install jsonschema==4.17.0
 
       # Post results
-      - name: Post PR comment
-        uses: marocchino/sticky-pull-request-comment@v2
-        with:
+      - name: comment PR
+        if: always()
+        uses: mshick/add-pr-comment@v2
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ github.event.number }}
+        with:
           message: "Success"
+          refresh-message-position: true

@@ -11,6 +11,10 @@ jobs:
       startsWith(github.event.comment.body, '@spaam-bot please autofill') &&
       github.repository == 'SPAAM-community/AncientMetagenomeDir'
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    env:
+      PR_NUMBER: ${{ github.event.number }}    
     steps:
       # indication that the process has started
       - name: React on comment
@@ -40,5 +44,5 @@ jobs:
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ steps.pr_number.outputs.pr_number }}
+          number: ${{ PR_NUMBER}}
           message: "Success"

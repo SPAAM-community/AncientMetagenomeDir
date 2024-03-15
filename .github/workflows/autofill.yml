@@ -11,6 +11,10 @@ jobs:
       startsWith(github.event.comment.body, '@spaam-bot please autofill') &&
       github.repository == 'SPAAM-community/AncientMetagenomeDir'
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    env:
+      PR_NUMBER: ${{ github.event.number }}    
     steps:
       - uses: actions/checkout@v4
       
@@ -32,10 +36,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install amdirt==1.5.0
           pip install jsonschema==4.17.0
-      
+
       # Post results
+      - name: Get PR number
+        id: pr_number
+        run: echo "pr_number=$(cat linting-logs/PR_number.txt)" >> $GITHUB_OUTPUT
+
       - name: Post PR comment
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          message: "Success!"
+          number: ${{ PR_NUMBER }}
+          message: "Success"

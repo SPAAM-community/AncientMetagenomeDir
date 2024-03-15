@@ -4,7 +4,6 @@ on:
   pull_request:
     branches: [master]
 
-
 jobs:
   Autofill:
     if: >
@@ -30,6 +29,7 @@ jobs:
         with:
           comment-id: ${{ github.event.comment.id }}
           reactions: eyes
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Post PR comment
         uses: marocchino/sticky-pull-request-comment@v2

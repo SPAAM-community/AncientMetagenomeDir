@@ -1,8 +1,8 @@
 name: autofill
 # This workflow is triggered on pushes and PRs to the repository.
 on:
-  pull_request:
-    branches: [master]
+  issue_comment:
+    types: [created]
 
 jobs:
   Autofill:

@@ -77,3 +77,5 @@ jobs:
             > [!WARNING]
             > Always check accuracy of pre-filled columns before adding to the library table!
           refresh-message-position: true
+          message-failure: |
+            Something went wrong 😢, please report on the #ancientmetagenomedir team on the [SPAAM slack](https://www.spaam-community.org/about/).

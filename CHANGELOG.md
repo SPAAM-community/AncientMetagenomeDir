@@ -5,17 +5,43 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v23.12: Cathedral, Alcázar and Archivo de Indias [Unreleased]
+## v24.03: Monticello and the University of Virginia in Charlottesville [Unreleased]
 
 ### Added
 
 #### Ancient Metagenome: Host Associated
 
+- Nishimura 2024 10.1371/journal.pone.0295924 (added by @alexhbnr)
+
 #### Ancient Single Genome: Host Associated
+
+- Majander 2024 10.1038/s41586-023-06965-x (added by @ilight1542)
+
+#### Ancient Metagenome: Environmental
+    
+### Changed
+
+### Removed
+
+## v23.12: Cathedral, Alcázar and Archivo de Indias
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Madison 2023 10.1371/journal.pone.0291540 (added by @DianaSpurite)
+
+#### Ancient Single Genome: Host Associated
+
+- Hodgkins 2023 10.1007/s13313-023-00936-6 (added by @DianaSpurite and @iseultj)
 
 #### Ancient Metagenome: Environmental
 
+- Pérez 2023 10.1111/fwb.14182 (added by @ktozdogan)
+
 ### Changed
+
+- Fix coordinate of sample SK8 in Schuenemann 2013 10.1126/science.1238286 (@DianaSpurite and @marcel-keller)
 
 ### Removed
 

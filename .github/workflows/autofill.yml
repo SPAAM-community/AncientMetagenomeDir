@@ -80,5 +80,7 @@ jobs:
             > Always check accuracy of pre-filled columns before adding to the library table!
           refresh-message-position: true
           message-failure: |
-            Something went wrong 😢, please report on the #ancientmetagenomedir channel on the [SPAAM slack](https://www.spaam-community.org/about/).
-            Please report the following URL: https://github.com/SPAAM-community/AncientMetagenomeDir/actions/runs/${{ github.run_id }}
+            ### Something went wrong 😢 
+            Please check your previous request (correct table, project ID)
+            Otherwise please report on the #ancientmetagenomedir channel on the [SPAAM slack](https://www.spaam-community.org/about/).
+            Include the following URL: https://github.com/SPAAM-community/AncientMetagenomeDir/actions/runs/${{ github.run_id }}

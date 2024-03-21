@@ -14,10 +14,10 @@ jobs:
     permissions:
       pull-requests: write
     env:
-      PR_NUMBER: ${{ github.event.number }}    
+      PR_NUMBER: ${{ github.event.number }}
     steps:
       - uses: actions/checkout@v4
-      
+
       # indication that the autofill is being attempted
       - name: React on comment
         uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4
@@ -37,6 +37,18 @@ jobs:
           pip install amdirt==1.5.0
           pip install jsonschema==4.17.0
 
+      # Run the autofill script
+      - name: run autofill
+        run: |
+          table=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 4)
+          project=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 5)
+          assets/utility/autofill-wrapper.sh -t $table -p $project
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: libraries_template.tsv
+          path: TEMPLATE_*libraries.tsv
+
       # Post results
       - name: comment PR
         if: always()
@@ -44,5 +56,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          message: "Success"
+          message: "Download your autofilled library file from: ${{ steps.artifact-upload-step.outputs.artifact-url }}"
           refresh-message-position: true

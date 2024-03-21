@@ -60,7 +60,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           message: |
-            ### Autofill success! 🎉
+            <h1>
+              <picture>
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SPAAM-community/AMDirT/blob/master/assets/logo_rectangular_dark.png?raw=true">
+                <img width=30% alt="nf-core/taxprofiler" src="https://github.com/SPAAM-community/AMDirT/blob/master/assets/logo_rectangular.png?raw=true">
+              </picture>
+            </h1>
+            ### AMDirT Autofill success! 🎉
             Download the attempted autofilled library file by pressing [this link](${{ steps.artifact-upload-step.outputs.artifact-url }}).
 
             You can now fill in the remainder of the columns, and append to the end of the corresponding library file.

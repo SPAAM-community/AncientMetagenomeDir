@@ -57,5 +57,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          message: "Download your autofilled library file from: ${{ steps.artifact-upload-step.outputs.artifact-url }}"
+          message: |
+            ### Autofill success! 🎉
+            Download the attempted autofilled library file by pressing this link: ${{ steps.artifact-upload-step.outputs.artifact-url }}.
+
+            You can now fill in the remainder of the columns, and append to the end of the corresponding library file.
+            Please remember this service attempts to pull relevant metadata from the ENA, but metadata is not always correct!
+
+            > [!WARNING]
+            > Always check accuracy of pre-filled columns before adding to the library table!
           refresh-message-position: true

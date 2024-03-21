@@ -42,13 +42,15 @@ jobs:
         run: |
           table=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 4)
           project=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 5)
-          bash assets/utility/autofill-wrapper.sh -t $table -p $project
+          bash assets/utility/autofill-wrapper.sh -t $table -p $project 2>&1 | tee autofill-log.txt
 
       - uses: actions/upload-artifact@v4
         id: artifact-upload-step
         with:
-          name: libraries_template.tsv
-          path: TEMPLATE_*libraries.tsv
+          name: autofill-results
+          path: |
+            TEMPLATE_*libraries.tsv
+            autofill-log.txt
 
       # Post results
       - name: comment PR

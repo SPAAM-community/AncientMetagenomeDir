@@ -42,7 +42,7 @@ jobs:
         run: |
           table=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 4)
           project=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 5)
-          assets/utility/autofill-wrapper.sh -t $table -p $project
+          bash assets/utility/autofill-wrapper.sh -t $table -p $project
 
       - uses: actions/upload-artifact@v4
         with:

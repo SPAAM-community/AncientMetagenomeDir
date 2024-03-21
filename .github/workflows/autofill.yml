@@ -45,6 +45,7 @@ jobs:
           bash assets/utility/autofill-wrapper.sh -t $table -p $project
 
       - uses: actions/upload-artifact@v4
+        id: artifact-upload-step
         with:
           name: libraries_template.tsv
           path: TEMPLATE_*libraries.tsv

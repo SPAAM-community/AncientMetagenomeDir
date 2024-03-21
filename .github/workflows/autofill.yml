@@ -1,0 +1,60 @@
+name: Prepare autofilled template for library metadata
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  Autofill:
+    # Only run if comment is on a PR with the main repo, and if it contains the magic keywords
+    if: >
+      contains(github.event.comment.html_url, '/pull/') &&
+      startsWith(github.event.comment.body, '@spaam-bot please autofill') &&
+      github.repository == 'SPAAM-community/AncientMetagenomeDir'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    env:
+      PR_NUMBER: ${{ github.event.number }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # indication that the autofill is being attempted
+      - name: React on comment
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4
+        with:
+          comment-id: ${{ github.event.comment.id }}
+          reactions: eyes
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # install AMDirT
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+          architecture: "x64"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install amdirt==1.5.0
+          pip install jsonschema==4.17.0
+
+      # Run the autofill script
+      - name: run autofill
+        run: |
+          table=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 4)
+          project=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 5)
+          assets/utility/autofill-wrapper.sh -t $table -p $project
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: libraries_template.tsv
+          path: TEMPLATE_*libraries.tsv
+
+      # Post results
+      - name: comment PR
+        if: always()
+        uses: mshick/add-pr-comment@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          message: "Download your autofilled library file from: ${{ steps.artifact-upload-step.outputs.artifact-url }}"
+          refresh-message-position: true

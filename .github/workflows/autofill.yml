@@ -80,6 +80,6 @@ jobs:
           refresh-message-position: true
           message-failure: |
             ### Something went wrong 😢 
-            Please check your previous request (correct table, project ID)
+            Please check your previous request (correct table, project ID etc.), request should be `@spaam-bot please autofill <table> <project_id>`.
             Otherwise please report on the #ancientmetagenomedir channel on the [SPAAM slack](https://www.spaam-community.org/about/).
             Include the following URL: https://github.com/SPAAM-community/AncientMetagenomeDir/actions/runs/${{ github.run_id }}

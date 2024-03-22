@@ -11,6 +11,7 @@ jobs:
       startsWith(github.event.comment.body, '@spaam-bot please autofill') &&
       github.repository == 'SPAAM-community/AncientMetagenomeDir'
     runs-on: ubuntu-latest
+    continue-on-error: true
     permissions:
       pull-requests: write
     env:
@@ -53,39 +54,16 @@ jobs:
             TEMPLATE_*libraries.tsv
             autofill-log.txt
 
+      # Prepare the results
+      - name: prepare results
+        run: |
+          bash assets/utility/autofill-report.sh -l autofill-log.txt -i ${{ github.run_id }} -u ${{ steps.artifact-upload-step.outputs.artifact-url }}
+
       # Post results
-      - name: comment PR
+      - name: comment PR success
         if: always()
         uses: mshick/add-pr-comment@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          message: |
-            <h1>
-              <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SPAAM-community/AMDirT/blob/master/assets/logo_rectangular_dark.png?raw=true">
-                <img width=30% alt="nf-core/taxprofiler" src="https://github.com/SPAAM-community/AMDirT/blob/master/assets/logo_rectangular.png?raw=true">
-              </picture>
-            </h1>
-
-            ### Autofill success! 🎉
-
-            Download the attempted autofilled library file by pressing [this link](${{ steps.artifact-upload-step.outputs.artifact-url }}).
-
-            You can now fill in the remainder of the columns, and append to the end of the corresponding library file.
-            Please remember this service attempts to pull relevant metadata from the ENA, but metadata is not always correct!
-
-            > [!WARNING]
-            > Always check accuracy of pre-filled columns before adding to the library table!
-          refresh-message-position: true
-          message-failure: |
-            ### Something went wrong 😢 
-            Please check your previous request (correct table, project ID etc.).
-
-            Request should be:
-            `@spaam-bot please autofill <table> <project_id>`.
-
-            Where `table` corresponds to an AncientMetagenomeDir, and `project_id` corresponds to the `project_id` you have added in your samples table (requires exact match!)
-
-            Otherwise please report on the #ancientmetagenomedir channel on the [SPAAM slack](https://www.spaam-community.org/about/).
-            Include the following URL: https://github.com/SPAAM-community/AncientMetagenomeDir/actions/runs/${{ github.run_id }}
+          message-path: autofill-report.md

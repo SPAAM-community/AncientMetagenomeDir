@@ -60,7 +60,7 @@ if ${verbose}; then
 fi
 
 if [ ${#hits} -eq 0 ]; then
-    echo "ERROR: Project name or sample accessions were not found in table. Please check project name input (-p)."
+    echo "ERROR: Project name or sample accessions were not found in table. Please check correct table name (-t) and/or project name input (-p)."
     exit 1
 fi
 

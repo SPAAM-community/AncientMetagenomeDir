@@ -66,3 +66,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           message-path: autofill-report.md
+          refresh-message-position: true

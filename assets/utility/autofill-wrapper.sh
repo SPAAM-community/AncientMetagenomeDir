@@ -19,7 +19,7 @@
 ##
 ## Copyright 2024 James Fellows Yates on behalf of the SPAAM community under MIT license
 usage() {
-    echo "Usage: $0 [-t <ancientmetagenome-hostassociated|ancientmetagenome-environmental|ancientsinglegenome-hostassociated>] [-p <project_name>]" 1>&2
+    echo "Usage: $0 [-t <ancientmetagenome-hostassociated|ancientmetagenome-environmental|ancientsinglegenome-hostassociated>] [-p <project_name>] -v" 1>&2
     exit 1
 }
 

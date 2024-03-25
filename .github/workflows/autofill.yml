@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ## from: https://github.com/actions/checkout/issues/331
-          ref: ${{ github.event_name == 'issue_comment' && format('refs/pull/{0}/head', github.event.issue.number) || '' }}
+          ref: ${{ github.event_name == 'issue_comment' && format('refs/pull/{0}/head', github.event.issue.number) }}
 
       # indication that the autofill is being attempted
       - name: React on comment
@@ -54,7 +54,7 @@ jobs:
         run: |
           table=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 4)
           project=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 5)
-          bash assets/utility/autofill-wrapper.sh -t $table -p $project 2>&1 | tee autofill-log.txt
+          bash assets/utility/autofill-wrapper.sh -v -t $table -p $project 2>&1 | tee autofill-log.txt
 
       - uses: actions/upload-artifact@v4
         id: artifact-upload-step

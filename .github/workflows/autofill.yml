@@ -19,8 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
-          fetch-depth: 0
+          ## from: https://github.com/actions/checkout/issues/331
+          ref: ${{ github.event_name == 'issue_comment' && format('refs/pull/{0}/head', github.event.issue.number) || '' }}
 
       # indication that the autofill is being attempted
       - name: React on comment

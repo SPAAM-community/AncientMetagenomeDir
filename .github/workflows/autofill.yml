@@ -18,6 +18,9 @@ jobs:
       PR_NUMBER: ${{ github.event.number }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ## from: https://github.com/actions/checkout/issues/331
+          ref: ${{ github.event_name == 'issue_comment' && format('refs/pull/{0}/head', github.event.issue.number) }}
 
       # indication that the autofill is being attempted
       - name: React on comment
@@ -38,12 +41,19 @@ jobs:
           pip install amdirt==1.5.0
           pip install jsonschema==4.17.0
 
+      # Get context of PR...
+      - name: get context
+        run: |
+          echo "${{ github.head_ref }}"
+          echo "${{ github.event.number }}"
+          tail ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv
+          git --no-pager log --oneline | head
+
       # Run the autofill script
       - name: run autofill
         run: |
           table=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 4)
           project=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 5)
-          set -o pipefail
           bash assets/utility/autofill-wrapper.sh -t $table -p $project 2>&1 | tee autofill-log.txt
 
       - uses: actions/upload-artifact@v4
@@ -67,3 +77,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           message-path: autofill-report.md
+          refresh-message-position: true
+
+      # indication that the autofill attempt was completed
+      - name: React on succesful comment
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4
+        with:
+          comment-id: ${{ github.event.comment.id }}
+          reactions: +1
+          token: ${{ secrets.GITHUB_TOKEN }}

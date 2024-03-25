@@ -19,7 +19,7 @@
 ##
 ## Copyright 2024 James Fellows Yates on behalf of the SPAAM community under MIT license
 usage() {
-    echo "Usage: $0 [-t <ancientmetagenome-hostassociated|ancientmetagenome-environmental|ancientsinglegenome-hostassociated>] [-p <project_name>]" 1>&2
+    echo "Usage: $0 [-t <ancientmetagenome-hostassociated|ancientmetagenome-environmental|ancientsinglegenome-hostassociated>] [-p <project_name>] -v" 1>&2
     exit 1
 }
 
@@ -60,7 +60,7 @@ if ${verbose}; then
 fi
 
 if [ ${#hits} -eq 0 ]; then
-    echo "ERROR: Project name or sample accessions were not found in table. Please check project name input (-p)."
+    echo "ERROR: Project name or sample accessions were not found in table. Please check correct table name (-t) and/or project name input (-p)."
     exit 1
 fi
 

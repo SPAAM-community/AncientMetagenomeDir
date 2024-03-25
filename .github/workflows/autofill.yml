@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
 
       # indication that the autofill is being attempted
@@ -44,7 +44,8 @@ jobs:
       # Get context of PR...
       - name: get context
         run: |
-          cat ${{ github.head_ref }}
+          echo "${{ github.head_ref }}""
+          echo "${{ github.event.number }}"
           tail ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv
           git --no-pager log --oneline | head
 

@@ -38,6 +38,12 @@ jobs:
           pip install amdirt==1.5.0
           pip install jsonschema==4.17.0
 
+      # Get context of PR...
+      - name: get context
+        run: |
+          tail ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv
+          git --no-pager log --oneline | head
+
       # Run the autofill script
       - name: run autofill
         run: |

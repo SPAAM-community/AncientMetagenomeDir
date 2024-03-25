@@ -70,7 +70,7 @@ Please check your previous request (correct table, project ID etc.).
 
 Autofill log:
 
-$(cat $log | sed 's/^/>/g;s/�\[32m//g;s/�\[0m//g')
+$(cat $log | sed 's/^/>/g;s/\[32m//g;s/\[0m//g')
 
 Note request should be in format:
 \`@spaam-bot please autofill <table> <project_id>\`

@@ -65,7 +65,7 @@
 <rect x='240.90' y='96.35' width='9.62' height='9.97' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
 <rect x='251.59' y='61.73' width='9.62' height='34.17' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
 <rect x='251.59' y='95.90' width='9.62' height='10.43' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
-<rect x='262.27' y='61.63' width='9.62' height='34.27' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
+<rect x='262.27' y='60.80' width='9.62' height='35.10' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #4E79A7;' />
 <rect x='262.27' y='95.90' width='9.62' height='10.43' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
 </g>
 <g clip-path='url(#cpMC4wMHwyODguMDB8MC4wMHwzNDUuNjA=)'>
@@ -257,7 +257,7 @@
 <rect x='171.65' y='302.25' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A0CBE8;' />
 <text x='133.66' y='313.39' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='31.80px' lengthAdjust='spacingAndGlyphs'>PAIRED</text>
 <text x='193.70' y='313.39' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='32.04px' lengthAdjust='spacingAndGlyphs'>SINGLE</text>
-<text x='48.63' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='237.08px' lengthAdjust='spacingAndGlyphs'>Grouping: lib. layout. Updated: 2024-03-25</text>
+<text x='48.63' y='31.34' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='237.08px' lengthAdjust='spacingAndGlyphs'>Grouping: lib. layout. Updated: 2024-03-26</text>
 <text x='48.63' y='15.10' style='font-size: 13.20px; font-family: Liberation Sans;' textLength='180.69px' lengthAdjust='spacingAndGlyphs'>Published libraries per year</text>
 <text x='45.55' y='336.46' style='font-size: 8.80px; font-weight: bold; font-family: Liberation Sans;' textLength='43.86px' lengthAdjust='spacingAndGlyphs'>License: </text>
 <text x='89.40' y='336.46' style='font-size: 8.80px; font-family: Liberation Sans;' textLength='48.43px' lengthAdjust='spacingAndGlyphs'>CC-BY 4.0. </text>

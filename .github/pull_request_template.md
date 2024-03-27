@@ -13,7 +13,18 @@ For the following list(s):
 
 This is to close <!-- REPLACE this comment (including the < > symbols) with a hashtag and the corresponding issue number here, e.g. #10 -->
 
-### Checklist (New publications)
+### PR Workflow
+
+1. Open this PR with sample metadata on the samples metadata sheet (:tada: you're already here!)
+2. Wait for checks for sample metdata to pass
+3. (If checks fail) make corrections, and push changes to this branch (no need to open a new PR!)
+4. (Once passed) comment on this PR `@spaam-bot please autofill <table_name> <project_id>` to get a half-filled template! (may take a minute or so to get the comment with the file)
+5. Fill in the template, and **verify** autofilled data correct!
+6. Once filled in, append(!) the new rows from the TEMPLATE file to the end of the corresponding library metadata file, and update this PR
+7. Wait for checks for library metadata to pass
+8. Request review!
+
+### Pre-review checklist (new publications)
 
 - [ ] Publication is published
   - Preprints currently not accepted?

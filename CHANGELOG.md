@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 - Nishimura 2024 10.1371/journal.pone.0295924 (added by @alexhbnr)
+- Kirdok 2023 10.1038/s41598-023-48762-6 (added by @annaewhite)
 - Fiorin 2024 10.1038/s41598-024-52422-8 (added by @jfy133)
 
 #### Ancient Single Genome: Host Associated

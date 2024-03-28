@@ -11,8 +11,6 @@ For the following list(s):
 - [ ] ancientmetagenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientmetagenome-hostassociated))
 - [ ] ancientsinglegenome-hostassociated ([README](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/ancientsinglegenome-hostassociated))
 
-### Publication Information
-
 This is to close <!-- REPLACE this comment (including the < > symbols) with a hashtag and the corresponding issue number here, e.g. #10 -->
 
 ### PR Workflow
@@ -36,7 +34,8 @@ This is to close <!-- REPLACE this comment (including the < > symbols) with a ha
 - [ ] Samples are shotgun metagenomes and not amplicon data
   - Note: hostassociated-singlegenome may also contain whole-genome enriched data
 - [ ] Checked the list follows conventions as described in the corresponding sample type's README file (e.g. using ERS/SRS accession codes for ENA/SRA)?
-- [ ] Library metadata has been added
+- [ ] **Once sample table validation completed** Library metadata has been added
+  - Use `@spaam-bot please autofill <table_name> <project_id>` to get a half-filled template! May take a minute or so to get the comment with the file
+  - Fill in template, and **verify** autofill data correct!
+  - Once filled in, append(!) the new rows to the end of the corresponding library metadata file
 - [ ] Changelog is updated to include the publication under 'Added'?
-- [ ] Pull request has passed validation checks (see automated comment from `github-bot`)?
-- [ ] (If applicable) Made a separate PR to add new categories to controlled lists (stored under `/assets/enums`, e.g. material or archive)? If so the corresponding PR is here: <!-- REPLACE this comment  (including the < > symbols) with that PR -->

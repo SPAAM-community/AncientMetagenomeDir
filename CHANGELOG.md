@@ -20,6 +20,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Majander 2024 10.1038/s41586-023-06965-x (added by @ilight1542)
 
 #### Ancient Metagenome: Environmental
+- Buchwald 2024 10.1093/ismejo/wrad006 (added by @darcy220606)
     
 ### Changed
 

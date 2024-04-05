@@ -17,9 +17,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Single Genome: Host Associated
 
 - Majander 2024 10.1038/s41586-023-06965-x (added by @ilight1542)
+- Rozwalak 2024 10.1038/s41467-023-44370-0 (added by @rozwalak)
 
 #### Ancient Metagenome: Environmental
-    
+
 ### Changed
 
 ### Removed

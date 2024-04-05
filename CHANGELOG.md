@@ -14,10 +14,12 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Nishimura 2024 10.1371/journal.pone.0295924 (added by @alexhbnr)
 - Kirdok 2023 10.1038/s41598-023-48762-6 (added by @annaewhite)
 - Fiorin 2024 10.1038/s41598-024-52422-8 (added by @jfy133)
+- Jackson 2024 10.1093/molbev/msae017(added by @iseultj)
 
 #### Ancient Single Genome: Host Associated
 
 - Majander 2024 10.1038/s41586-023-06965-x (added by @ilight1542)
+- Jackson 2024 10.1093/molbev/msae017(added by @iseultj)
 
 #### Ancient Metagenome: Environmental
     

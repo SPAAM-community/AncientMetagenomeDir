@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v24.03: Monticello and the University of Virginia in Charlottesville [Unreleased]
+## v24.03: Monticello
 
 ### Added
 
@@ -26,7 +26,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Buchwald 2024 10.1093/ismejo/wrad006 (added by @darcy220606)
 - Murchie 2023 10.1038/s41467-021-27439-6 (added by @ktozdogan)
-    
+
 ### Changed
 
 ### Removed

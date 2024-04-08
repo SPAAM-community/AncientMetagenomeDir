@@ -58,6 +58,8 @@ tot_single_libraries <- nrow(new_single_libraries)
 
 ## STATEMENTS
 
+cat("\n\n###### RELEASE ANNOUNCEMENT #######\n\n")
+
 cat(
        "\nRelease", new_release,
        "includes", adds_pubs_samples, "new publications, representing",
@@ -76,4 +78,44 @@ cat(
        tot_microb_libraries, "ancient host-associated metagenome libraries,",
        tot_single_libraries, "ancient microbial genomes libraries, and",
        tot_env_libraries, "ancient environmental libraries.\n\n"
+)
+
+## TWITTER
+cat("\n\n###### TWITTER #######\n\n")
+
+
+cat(
+       "\n🚨  New release of #AncientMetagenomeDir! (", new_release, ", <NAME GOES HERE>)\n",
+       "https://github.com/SPAAM-community/AncientMetagenomeDir/releases/tag/", new_release, "\n",
+       "It is a community resource of #metadata of >2K shotgun-sequenced #AncientMetagenome or ancient microbial genome enriched samples & >5K libraries. Stats below (🧵 1/4)\n\n",
+       "\n📈 Release ", new_release, ": \n",
+       "📚 ", tot_pubs_samples, " (+", adds_pubs_samples, ") publications\n",
+       "🧬 ", tot_microb_samples, " (+", adds_microb_samples, ") ancient host-associated metagenome samples\n",
+       "🦠 ", tot_single_samples, " (+", adds_single_samples, ") ancient microbial genomes\n",
+       "🌅 ", tot_env_samples, " (+", adds_env_samples, ") ancient environmental samples\n(🧵 2/4)\n\n",
+       "\n📈 More stats\n",
+       "🧬 ", tot_microb_libraries, " (+", adds_microb_libraries, ") ancient host-associated metagenome libraries\n",
+       "🦠 ", tot_single_libraries, " (+", adds_single_libraries, ") ancient microbial genome libraries\n",
+       "🌅 ", tot_env_libraries, " (+", adds_env_libraries, ") ancient environmental libraries\n(🧵 3/4)\n\n",
+       "\nMany thanks to <PEOPLE GO HERE>(🧵 4/4)\n",
+       sep = ""
+)
+
+cat("\n\n###### MASTODON #######\n\n")
+
+cat(
+       "\n🚨  New release of AncientMetagenomeDir! (", new_release, ", <NAME GOES HERE>)\n",
+       "https://github.com/SPAAM-community/AncientMetagenomeDir/releases/tag/", new_release, "\n",
+       "It is a community resource of #metadata of >2K shotgun-sequenced #AncientMetagenome or ancient microbial genome enriched samples & >5K libraries. Stats below: \n",
+       "\n📈 Release ", new_release, ": \n",
+       "📚 ", tot_pubs_samples, " (+", adds_pubs_samples, ") publications\n",
+       "🧬 ", tot_microb_samples, " (+", adds_microb_samples, ") ancient host-associated metagenome samples\n",
+       "🦠 ", tot_single_samples, " (+", adds_single_samples, ") ancient microbial genomes\n",
+       "🌅 ", tot_env_samples, " (+", adds_env_samples, ") ancient environmental samples\n\n#AncientDNA #palaeogenomics #aDNA #metagenomics(🧵 1/2)\n\n",
+       "\n📈 More stats\n",
+       "🧬 ", tot_microb_libraries, " (+", adds_microb_libraries, ") ancient host-associated metagenome libraries\n",
+       "🦠 ", tot_single_libraries, " (+", adds_single_libraries, ") ancient microbial genome libraries\n",
+       "🌅 ", tot_env_libraries, " (+", adds_env_libraries, ") ancient environmental libraries\n",
+       "\nMany thanks to <PEOPLE GO HERE>(🧵 2/2)\n",
+       sep = ""
 )

@@ -159,7 +159,8 @@ ssin_dups <-
   filter(!archive_accession %in% ssin_dup_exceptions) %>%
   print(n = 1000)
 
-## RUNs - expect one per accessionc
+## TEST: runs - expect one per accession: if no errors should result in A tibble 0 x 2
+
 lenv_dups <-
   lenv$archive_data_accession %>%
   str_split(",") %>%
@@ -182,7 +183,7 @@ lhos_dups <-
   filter(n > 1) %>%
   print(n = 1000)
 
-## Exception allowed: Krause-Kyora/Lugli [reanalysis]
+## Single genome exception allowed: Krause-Kyora/Lugli [reanalysis]
 ## Can exclude: c("ERR1094784","ERR1094793","ERR1094794","ERR4624258")
 lsin_dup_exceptions <- c("ERR1094784", "ERR1094793", "ERR1094794", "ERR4624258", "ERR1193532", "ERR1193537", "ERR1368878", "ERR2112574", "ERR2112575", "ERR2112576", "ERR2112577", "ERR2112578", "ERR2204611", "ERR2204612", "ERR2204613", "ERR2204614", "ERR2204644", "ERR2862150", "ERR2862151", "ERR3841646", "ERR3841647", "ERR651004", "SRR1238558", "SRR1238559")
 

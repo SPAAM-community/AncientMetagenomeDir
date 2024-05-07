@@ -666,7 +666,7 @@ Rozwalak2024	2024	10.1038/s41467-023-44370-0	Cueva de los Muertos Chiquitos (Zap
 Jackson2024	2024	10.1093/molbev/msae017	Killuragh	52.6	-8.33	Ireland	KGH2-F	Homo sapiens	3800	10.1093/molbev/msae017	bacteria	Tannerella forsythia	tooth	chromosome	ENA	raw,reference_aligned	PRJEB64128	ERS15977755
 Jackson2024	2024	10.1093/molbev/msae017	Killuragh	52.6	-8.33	Ireland	KGH2-B	Homo sapiens	3800	10.1093/molbev/msae017	bacteria	Streptococcus mutans	tooth	chromosome	ENA	raw,reference_aligned	PRJEB64128	ERS15977754
 Jackson2024	2024	10.1093/molbev/msae017	Killuragh	52.6	-8.33	Ireland	KGH1-E	Homo sapiens	3800	10.1093/molbev/msae017	bacteria	Tannerella forsythia	tooth	chromosome	ENA	raw,reference_aligned	PRJEB64128	ERS15977753
-Sun2024	2024	10.1038/s41467-024-47358-6	QuanErGou	43.65	92.16	China	XBQM86	Homo sapiens	2900	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	Pars petrosa	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135916
+Sun2024	2024	10.1038/s41467-024-47358-6	QuanErGou	43.65	92.16	China	XBQM86	Homo sapiens	2900	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	bone	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135916
 Sun2024	2024	10.1038/s41467-024-47358-6	Tsagaan Del	45.79	112.96	Mongolia	MY19	Homo sapiens	700	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135917
 Sun2024	2024	10.1038/s41467-024-47358-6	XiHe	39.07	115.93	China	XHM12	Homo sapiens	2400	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135918
 Sun2024	2024	10.1038/s41467-024-47358-6	XiHe	39.07	115.93	China	XHM16	Homo sapiens	2400	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135919
@@ -678,7 +678,7 @@ Sun2024	2024	10.1038/s41467-024-47358-6	Bayanbulag	42.37	105.21	Mongolia	AT7	Hom
 Sun2024	2024	10.1038/s41467-024-47358-6	Bayanbulag	42.37	105.21	Mongolia	AT19	Homo sapiens	2200	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135925
 Sun2024	2024	10.1038/s41467-024-47358-6	Bayanbulag	42.37	105.21	Mongolia	AT24	Homo sapiens	2200	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135926
 Sun2024	2024	10.1038/s41467-024-47358-6	TaoJiaZhai	36.9	101.66	China	TJZM25-2	Homo sapiens	1765	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135927
-Sun2024	2024	10.1038/s41467-024-47358-6	QuanErGou	43.65	92.16	China	XBQM47	Homo sapiens	2900	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	Pars petrosa	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135928
+Sun2024	2024	10.1038/s41467-024-47358-6	QuanErGou	43.65	92.16	China	XBQM47	Homo sapiens	2900	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	bone	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135928
 Sun2024	2024	10.1038/s41467-024-47358-6	Derestuj	50.6	106.12	Russia	XN12	Homo sapiens	2100	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135929
 Sun2024	2024	10.1038/s41467-024-47358-6	XingFuLinDai	34.35	108.95	China	XFLDM173	Homo sapiens	800	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135930
 Sun2024	2024	10.1038/s41467-024-47358-6	LongTouShan	43.07	118.48	China	91KLH18	Homo sapiens	2700	10.1038/s41467-020-16557-2	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135931
@@ -698,5 +698,5 @@ Sun2024	2024	10.1038/s41467-024-47358-6	Tsagaan Del	45.79	112.96	Mongolia	MY17	H
 Sun2024	2024	10.1038/s41467-024-47358-6	QiLangShan	41.06	113.01	China	ZQM16	Homo sapiens	1600	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135941
 Sun2024	2024	10.1038/s41467-024-47358-6	QuanErGou	43.65	92.16	China	XBQM20	Homo sapiens	2900	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135942
 Sun2024	2024	10.1038/s41467-024-47358-6	QuanErGou	43.65	92.16	China	XBQM46	Homo sapiens	2900	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135943
-Sun2024	2024	10.1038/s41467-024-47358-6	QuanErGou	43.65	92.16	China	XBQM125	Homo sapiens	2900	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	Pars petrosa	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135944
+Sun2024	2024	10.1038/s41467-024-47358-6	QuanErGou	43.65	92.16	China	XBQM125	Homo sapiens	2900	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	bone	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135944
 Sun2024	2024	10.1038/s41467-024-47358-6	BeiFang	37.13	81.61	China	11KBM13	Homo sapiens	3400	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135945

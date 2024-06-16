@@ -10,6 +10,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
+- Wright 2024 10.1016/j.jasrep.2024.104510 (added by @biancamariabonucci)
 
 #### Ancient Single Genome: Host Associated
 

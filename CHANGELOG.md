@@ -13,6 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Urban 2024 10.1016/j.cub.2024.04.006 (added by @aidaanva)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

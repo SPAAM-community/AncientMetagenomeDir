@@ -19,6 +19,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- Liu 2024 10.1126/sciadv.adn8490 (added by @rozwalak)
+
 ### Changed
 
 ### Removed

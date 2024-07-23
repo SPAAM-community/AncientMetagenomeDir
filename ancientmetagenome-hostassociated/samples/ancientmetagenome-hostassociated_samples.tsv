@@ -1398,3 +1398,35 @@ Honap2023	2023	10.1002/ajpa.24735	Sanders Site	NA	NA	USA	WAMP14	Homo sapiens	700
 Honap2023	2023	10.1002/ajpa.24735	Horne 1 Site	NA	NA	USA	WAMP13	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300788
 Honap2023	2023	10.1002/ajpa.24735	WRP 9 Site	NA	NA	USA	WAMP18	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300791
 Honap2023	2023	10.1002/ajpa.24735	Selzer site	NA	NA	USA	WAMP34	Homo sapiens	700	10.1002/ajpa.24735	oral	dental calculus	ENA	PRJNA885571	SRS15300804
+Fontani2023	2023	10.1038/s41598-023-39250-y	Grotta di Pietra Sant’Angelo (San Lorenzo Bellizzi)	39.89	16.33	Italy	SLBT	Homo sapiens	6100	10.1038/s41598-023-39250-y	oral	dental calculus	ENA	PRJEB58818	ERS14581258
+Fontani2023	2023	10.1038/s41598-023-39250-y	Grotta di Pietra Sant’Angelo (San Lorenzo Bellizzi)	39.89	16.33	Italy	SLB	Homo sapiens	6100	10.1038/s41598-023-39250-y	oral	tooth	ENA	PRJEB58818	ERS14410560
+Madison2023	2023	10.1371/journal.pone.0291540	Antioch	42.478	-88.096	USA	7405	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960478
+Madison2023	2023	10.1371/journal.pone.0291540	Beaver Dam	43.464	-88.853	USA	1489	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960503
+Madison2023	2023	10.1371/journal.pone.0291540	Beaver Dam	43.464	-88.853	USA	1490	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960473
+Madison2023	2023	10.1371/journal.pone.0291540	Beaver Dam	43.464	-88.853	USA	1491	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960459
+Madison2023	2023	10.1371/journal.pone.0291540	Bluff Creek	42.799	-88.682	USA	4572	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960447
+Madison2023	2023	10.1371/journal.pone.0291540	Buffalo Slough	44.433	-91.787	USA	14914	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960422
+Madison2023	2023	10.1371/journal.pone.0291540	Chemung	42.416	-88.665	USA	2194	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960479
+Madison2023	2023	10.1371/journal.pone.0291540	Harrison township	42.384	-89.194	USA	3007	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960492
+Madison2023	2023	10.1371/journal.pone.0291540	Lake Pistakee	42.386	-88.209	USA	1700	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960402
+Madison2023	2023	10.1371/journal.pone.0291540	Marengo, Kishwaukee Riv.	42.250	-88.606	USA	1151	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960469
+Madison2023	2023	10.1371/journal.pone.0291540	Pell lake	42.541	-88.358	USA	2564	Lithobates pipiens	100	10.1371/journal.pone.0291540	gut	intestine	SRA	PRJNA836960	SRS12960506
+Nishimura2024	2024	10.1371/journal.pone.0295924	Torihama	35.557	135.898	Japan	TH62	Homo sapiens	6400	10.1371/journal.pone.0295924	gut	palaeofaeces	DDBJ	PRJDB15258	DRS361428
+Nishimura2024	2024	10.1371/journal.pone.0295924	Torihama	35.557	135.898	Japan	TH58	Homo sapiens	6400	10.1371/journal.pone.0295924	gut	palaeofaeces	DDBJ	PRJDB15258	DRS361172
+Nishimura2024	2024	10.1371/journal.pone.0295924	Torihama	35.557	135.898	Japan	TH74	Homo sapiens	6400	10.1371/journal.pone.0295924	gut	palaeofaeces	DDBJ	PRJDB15258	DRS361450
+Nishimura2024	2024	10.1371/journal.pone.0295924	Torihama	35.557	135.898	Japan	TH55	Homo sapiens	6400	10.1371/journal.pone.0295924	gut	palaeofaeces	DDBJ	PRJDB15258	DRS361563
+Kirdok2024	2024	10.1038/s41598-023-48762-6	Huseby Klev	58.16	11.48	Sweden	ble004	Homo sapiens	9700	10.1038/s41598-023-48762-6	oral	birch pitch	SRA	PRJNA994900	SRS18297824
+Kirdok2024	2024	10.1038/s41598-023-48762-6	Huseby Klev	58.16	11.48	Sweden	ble007	Homo sapiens	9700	10.1038/s41598-023-48762-6	oral	birch pitch	SRA	PRJNA994900	SRS18297825
+Kirdok2024	2024	10.1038/s41598-023-48762-6	Huseby Klev	58.16	11.48	Sweden	ble008	Homo sapiens	9700	10.1038/s41598-023-48762-6	oral	birch pitch	SRA	PRJNA994900	SRS18297826
+Fiorin2024	2024	10.1038/s41598-024-52422-8	St Leonard's Leper Hospital	52.576	-0.254	United Kingdom	P18	Homo sapiens	900	10.5284/1046113	oral	dental calculus	ENA	PRJEB67363	ERS16464521
+Fiorin2024	2024	10.1038/s41598-024-52422-8	St Leonard's Leper Hospital	52.576	-0.254	United Kingdom	P68	Homo sapiens	900	10.5284/1046113	oral	dental calculus	ENA	PRJEB67363	ERS16464520
+Fiorin2024	2024	10.1038/s41598-024-52422-8	St Leonard's Leper Hospital	52.576	-0.254	United Kingdom	P45	Homo sapiens	900	10.5284/1046113	oral	dental calculus	ENA	PRJEB67363	ERS16464519
+Fiorin2024	2024	10.1038/s41598-024-52422-8	St Leonard's Leper Hospital	52.576	-0.254	United Kingdom	P112	Homo sapiens	900	10.5284/1046113	oral	dental calculus	ENA	PRJEB67363	ERS16464522
+Jackson2024	2024	10.1093/molbev/msae017	Killuragh	52.6	-8.33	Ireland	KGH2-F	Homo sapiens	3800	10.1093/molbev/msae017	oral	tooth	ENA	PRJEB64128	ERS15977755
+Jackson2024	2024	10.1093/molbev/msae017	Killuragh	52.6	-8.33	Ireland	KGH2-B	Homo sapiens	3800	10.1093/molbev/msae017	oral	tooth	ENA	PRJEB64128	ERS15977754
+Jackson2024	2024	10.1093/molbev/msae017	Killuragh	52.6	-8.33	Ireland	KGH1-E	Homo sapiens	3800	10.1093/molbev/msae017	oral	tooth	ENA	PRJEB64128	ERS15977753
+Jackson2024	2024	10.1093/molbev/msae017	Killuragh	52.6	-8.33	Ireland	KGH1-A	Homo sapiens	3800	10.1093/molbev/msae017	oral	tooth	ENA	PRJEB64128	ERS15977752
+Wright2024	2024	10.1016/j.jasrep.2024.104510	Histria	44.55	28.78	Romania	ROM_5C	Homo sapiens	1600	10.1016/j.jasrep.2024.104510	oral	dental calculus	SRA	PRJNA704183	SRS8307107
+Wright2024	2024	10.1016/j.jasrep.2024.104510	Histria	44.55	28.78	Romania	ROM_5D	Homo sapiens	1600	10.1016/j.jasrep.2024.104510	oral	dentine	SRA	PRJNA704183	SRS8307108
+Wright2024	2024	10.1016/j.jasrep.2024.104510	Histria	44.55	28.78	Romania	ROM_10D	Homo sapiens	1600	10.1016/j.jasrep.2024.104510	oral	dentine	SRA	PRJNA704183	SRS8307110
+Wright2024	2024	10.1016/j.jasrep.2024.104510	Histria	44.55	28.78	Romania	ROM_9C	Homo sapiens	1600	10.1016/j.jasrep.2024.104510	oral	dental calculus	SRA	PRJNA704183	SRS8307109

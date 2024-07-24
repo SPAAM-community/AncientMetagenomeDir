@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install amdirt==1.6.1
+          pip install amdirt==1.6.2
           pip install jsonschema==4.17.0
       - name: Make validation results directory
         run: mkdir validation/
@@ -55,6 +55,12 @@ jobs:
         run: |
           echo "## Ancient Metagenome Environmental" >> validation/validation_results_raw.txt
           AMDirT validate -s -d -c -m ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries_schema.json &>> validation/validation_results_raw.txt
+      - name: RADIOCARBON DATES test ancient single genomes (e.g. pathogens)
+        if: always()
+        run: |
+          echo "# Radiocarbon Dates" >> validation/validation_results_raw.txt
+          echo "## Ancient Single Genome Host Associated" >> validation/validation_results_raw.txt
+          AMDirT validate -s -d -c -m ancientsinglegenome-hostassociated/radiocarbondates/ancientsinglegenome-hostassociated_radiocarbondates.tsv ancientsinglegenome-hostassociated/radiocarbondates/ancientsinglegenome-hostassociated_radiocarbondates_schema.json &>>  validation/validation_results_raw.txt
       - name: cleanup validation results from streamlit warnings
         if: always()
         run: |

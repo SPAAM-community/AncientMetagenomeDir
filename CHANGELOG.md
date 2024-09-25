@@ -5,7 +5,69 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v23.12: Cathedral, Alcázar and Archivo de Indias [Unreleased]
+## v24.09: Medieval Town of Toruń [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+### Removed
+
+## v24.06: Su Nuraxi di Barumini
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Wright 2024 10.1016/j.jasrep.2024.104510 (added by @biancamariabonucci)
+
+#### Ancient Single Genome: Host Associated
+
+- Sun 2024 10.1038/s41467-024-47358-6 (added by @aidaanva)
+- Urban 2024 10.1016/j.cub.2024.04.006 (added by @aidaanva)
+- Lebrasseur 2024 10.1093/ve/vead087(added by @YuejiaoHuang)
+
+#### Ancient Metagenome: Environmental
+
+- Liu 2024 10.1126/sciadv.adn8490 (added by @rozwalak)
+
+### Changed
+
+### Removed
+
+## v24.03: Monticello
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Nishimura 2024 10.1371/journal.pone.0295924 (added by @alexhbnr)
+- Kirdok 2023 10.1038/s41598-023-48762-6 (added by @annaewhite)
+- Fiorin 2024 10.1038/s41598-024-52422-8 (added by @jfy133)
+- Jackson 2024 10.1093/molbev/msae017(added by @iseultj)
+
+#### Ancient Single Genome: Host Associated
+
+- Majander 2024 10.1038/s41586-023-06965-x (added by @ilight1542)
+- Rozwalak 2024 10.1038/s41467-023-44370-0 (added by @rozwalak)
+- Jackson 2024 10.1093/molbev/msae017(added by @iseultj)
+
+#### Ancient Metagenome: Environmental
+
+- Buchwald 2024 10.1093/ismejo/wrad006 (added by @darcy220606)
+- Murchie 2023 10.1038/s41467-021-27439-6 (added by @ktozdogan)
+
+### Changed
+
+### Removed
+
+## v23.12: Cathedral, Alcázar and Archivo de Indias
 
 ### Added
 
@@ -15,10 +77,19 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+<<<<<<< HEAD
 - White 2021 10.3390/biology10121324
+=======
+- Hodgkins 2023 10.1007/s13313-023-00936-6 (added by @DianaSpurite and @iseultj)
+
+>>>>>>> master
 #### Ancient Metagenome: Environmental
 
+- Pérez 2023 10.1111/fwb.14182 (added by @ktozdogan)
+
 ### Changed
+
+- Fix coordinate of sample SK8 in Schuenemann 2013 10.1126/science.1238286 (@DianaSpurite and @marcel-keller)
 
 ### Removed
 

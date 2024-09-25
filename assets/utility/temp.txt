@@ -1,0 +1,12 @@
+
+
+    [LOG] RUNNING: grep Fiorin2024 ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv | rev | cut -f 1 | rev | tr '\n' ' '
+
+[LOG] RUNNING: 48 -eq 0
+
+[LOG] RUNNING: AMDirT autofill -n ancientmetagenome-hostassociated ERS16464521 ERS16464520 ERS16464519 ERS16464522 -l TEMPLATE_Fiorin2024_ancientmetagenome-hostassociated_libraries.tsv
+
+�[32mAMDirT [INFO]: ancientmetagenome-hostassociated_libraries.tsv is valid�[0m
+�[32mAMDirT [INFO]: ENA API is up�[0m
+�[32mAMDirT [INFO]: Found 4 libraries�[0m
+�[32mAMDirT [INFO]: Writing libraries metadata to TEMPLATE_Fiorin2024_ancientmetagenome-hostassociated_libraries.tsv�[0m

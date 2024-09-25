@@ -5,10 +5,11 @@
 ---
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833)
+[![Cite us!](https://img.shields.io/badge/Published-Scientific%20Data-green)](https://doi.org/10.1038%2Fs41597-021-00816-y)
+[![Release DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833)
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir)
-[![latest_release](https://img.shields.io/badge/Latest%20Release-v23.09.0-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
+[![latest_release](https://img.shields.io/badge/Latest%20Release-v24.06.0-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
 
 AncientMetagenomeDir is a community curated resource of lists of all published
 **shotgun**-sequenced ancient metagenome or microbial genome-level enriched samples and libraries.
@@ -148,16 +149,15 @@ Pink: Host Associated Single Genome
 
 ## Contributing
 
+<p align="center">
+<img src="assets/images/documentation/spaam-AncientMetagenomeDir_workflow.png" width=50% >
+<p/>
+
 If you are not familiar with Git(Hub), quick start step-by-step guides can be found in
-the following:
+the following (note these may be out of date):
 
-- Adding samples to a list via pull request [here](https://hackmd.io/@jfy133/H19kmDalw#/) or in PDF format
-  [here](https://github.com/spaam-community/AncientMetagenomeDir/raw/master/assets/intro_to_github_and_ancientmetagenomedir.pdf)
+- [Adding samples and libraries via pull request](https://github.com/SPAAM-community/AncientMetagenomeDir/wiki/Adding-metadata:-step-by-step-guide)
 - Performing a pull request _review_ [here](https://hackmd.io/@jfy133/B156Z2mfP) or in PDF format [here](https://github.com/spaam-community/AncientMetagenomeDir/raw/master/assets/intro_to_ancientmetagenomedir_github_pull_request_review.pdf)
-
-More detailed versions with more tips and tricks can be seen on our wiki:
-
-- [Adding samples via pull request](<https://github.com/SPAAM-community/AncientMetagenomeDir/wiki/Adding-a-Publication:-Step-by-Step-Guide-(Samples)>)
 
 Samples must be from _published_ studies, and should only include _sample_ level
 information. Preprints often have not made data avaliable at this point, and we make

@@ -1,0 +1,88 @@
+name: Prepare autofilled template for library metadata
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  Autofill:
+    # Only run if comment is on a PR with the main repo, and if it contains the magic keywords
+    if: >
+      contains(github.event.comment.html_url, '/pull/') &&
+      startsWith(github.event.comment.body, '@spaam-bot please autofill') &&
+      github.repository == 'SPAAM-community/AncientMetagenomeDir'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    permissions:
+      pull-requests: write
+    env:
+      PR_NUMBER: ${{ github.event.number }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ## from: https://github.com/actions/checkout/issues/331
+          ref: ${{ github.event_name == 'issue_comment' && format('refs/pull/{0}/head', github.event.issue.number) }}
+
+      # indication that the autofill is being attempted
+      - name: React on comment
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4
+        with:
+          comment-id: ${{ github.event.comment.id }}
+          reactions: eyes
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # install AMDirT
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+          architecture: "x64"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install amdirt==1.6.1
+          pip install jsonschema==4.17.0
+
+      # Get context of PR...
+      - name: get context
+        run: |
+          echo "${{ github.head_ref }}"
+          echo "${{ github.event.number }}"
+          tail ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv
+          git --no-pager log --oneline | head
+
+      # Run the autofill script
+      - name: run autofill
+        run: |
+          table=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 4)
+          project=$(echo "${{github.event.comment.body}}" | cut -d ' ' -f 5)
+          bash assets/utility/autofill-wrapper.sh -t $table -p $project 2>&1 | tee autofill-log.txt
+
+      - uses: actions/upload-artifact@v4
+        id: artifact-upload-step
+        with:
+          name: autofill-results
+          path: |
+            TEMPLATE_*libraries.tsv
+            autofill-log.txt
+
+      # Prepare the results
+      - name: prepare results
+        run: |
+          bash assets/utility/autofill-report.sh -l autofill-log.txt -i ${{ github.run_id }} -u ${{ steps.artifact-upload-step.outputs.artifact-url }}
+
+      # Post results
+      - name: comment PR success
+        if: always()
+        uses: mshick/add-pr-comment@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          message-path: autofill-report.md
+          refresh-message-position: true
+
+      # indication that the autofill attempt was completed
+      - name: React on succesful comment
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4
+        with:
+          comment-id: ${{ github.event.comment.id }}
+          reactions: +1
+          token: ${{ secrets.GITHUB_TOKEN }}

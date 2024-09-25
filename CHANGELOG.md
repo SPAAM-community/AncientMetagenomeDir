@@ -13,6 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- White 2021 10.3390/biology10121324 (added by @DianaSpurite, @jfy133, and @alexhbnr)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed
@@ -77,9 +79,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
-<<<<<<< HEAD
-- White 2021 10.3390/biology10121324
-=======
 - Hodgkins 2023 10.1007/s13313-023-00936-6 (added by @DianaSpurite and @iseultj)
 
 >>>>>>> master

@@ -32,6 +32,7 @@ development of the field of ancient metagenomics over time.
   - [Contributing your own Publications](#contributing-your-own-publications)
   - [Contributing previously published publications](#contributing-previously-published-publications)
   - [Guidelines and Conventions](#guidelines-and-conventions)
+- [Core Team](#core-team)
 
 <!-- /TOC -->
 
@@ -224,6 +225,13 @@ record and format information. Adherence to these guidelines is enforced by
 'pull request' review by members of the SPAAM community and other contributors.
 Furthermore, each category of metagenome will have their own 'special' fields,
 which will be defined in each specific context.
+
+## Core Team
+The Core Team of AncientMetagenomeDir is responsible for the mantainance of the repository,
+the organisation of training and hackathons events, as well as lead initiatives to improve 
+AncientMetagenomeDir.
+The current members of the Core Team are: @alexhbnr, @jfy133, @DianaSpurite, @YuejiaoHuang, @biancamariabonucci, @rozwalak, @ and @aidaanva
+
 
 [![License: CC BY
 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)

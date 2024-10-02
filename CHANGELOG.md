@@ -15,6 +15,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- White 2021 10.3390/biology10121324 (added by @DianaSpurite, @jfy133, and @alexhbnr)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed
@@ -198,7 +200,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Vågene 2022 10.1038/s41467-022-28562-8 (added by @DianaSpurite)
 - Austin 2022 10.1038/s42003-022-03890-z (added by @DianaSpurite)
 - Guellil 2022 10.1126/sciadv.abo4435 (added by @DianaSpurite)
-- Long 2022 10.1038/s42003-022-03527-1 (added by @jfy133 )
+- Long 2022 10.1038/s42003-022-03527-1 (added by @jfy133)
 
 #### Ancient Metagenome: Environmental
 

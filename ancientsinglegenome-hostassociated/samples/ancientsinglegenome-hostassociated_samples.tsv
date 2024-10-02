@@ -705,3 +705,15 @@ Sun2024	2024	10.1038/s41467-024-47358-6	QuanErGou	43.65	92.16	China	XBQM46	Homo 
 Sun2024	2024	10.1038/s41467-024-47358-6	QuanErGou	43.65	92.16	China	XBQM125	Homo sapiens	2900	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	bone	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135944
 Sun2024	2024	10.1038/s41467-024-47358-6	BeiFang	37.13	81.61	China	11KBM13	Homo sapiens	3400	10.1038/s41467-024-47358-6	virus	Hepatitis B virus	tooth	chromosome	GSA	reference_aligned	PRJCA020853	SAMC3135945
 Lebrasseur2024	2024	10.1093/ve/vead087	Kamennyi Ambar 5	52.833	60.367	Russia	UR17x29	Equus caballus	3800	10.1038/s41586-021-04018-9	virus	Equid herpesvirus 4	bone	chromosome	ENA	raw	PRJEB44430	ERS7256200
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B3	Homo sapiens	200	10.3390/biology10121324	bacteria	Tannerella forsythia	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769380
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B5	Homo sapiens	200	10.3390/biology10121324	bacteria	Tannerella forsythia	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769381
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B6	Homo sapiens	200	10.3390/biology10121324	bacteria	Tannerella forsythia	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769382
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B7	Homo sapiens	200	10.3390/biology10121324	bacteria	Tannerella forsythia	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769383
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B3	Homo sapiens	200	10.3390/biology10121324	bacteria	Treponema denticola	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769380
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B5	Homo sapiens	200	10.3390/biology10121324	bacteria	Treponema denticola	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769381
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B6	Homo sapiens	200	10.3390/biology10121324	bacteria	Treponema denticola	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769382
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B7	Homo sapiens	200	10.3390/biology10121324	bacteria	Treponema denticola	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769383
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B3	Homo sapiens	200	10.3390/biology10121324	bacteria	Porphyromonas gingivalis	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769380
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B5	Homo sapiens	200	10.3390/biology10121324	bacteria	Porphyromonas gingivalis	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769381
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B6	Homo sapiens	200	10.3390/biology10121324	bacteria	Porphyromonas gingivalis	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769382
+White2021	2021	10.3390/biology10121324	Kuygenzhar	51.103	71.720	Kazakhstan	B2_B7	Homo sapiens	200	10.3390/biology10121324	bacteria	Porphyromonas gingivalis	tooth	chromosome	ENA	raw	PRJEB49091	ERS9769383

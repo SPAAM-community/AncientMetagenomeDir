@@ -81,7 +81,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Hodgkins 2023 10.1007/s13313-023-00936-6 (added by @DianaSpurite and @iseultj)
 
->>>>>>> master
 #### Ancient Metagenome: Environmental
 
 - Pérez 2023 10.1111/fwb.14182 (added by @ktozdogan)
@@ -163,7 +162,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Eaton 2023 10.1016/j.cub.2023.01.064 (added by @DianaSpurite)
 - Rifkin 2023 10.1038/s42003-023-04582-y (added by @mibr30)
 - Sarhan 2023 10.1186/s12915-022-01509-7 (added by @msabrysarhan)
-- White 2021 10.3390/biology10121324 (added by @DianaSpurite)
 
 #### Ancient Metagenome: Environmental
 

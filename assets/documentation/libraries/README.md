@@ -42,7 +42,7 @@ Library columns are as follows:
     Muhlemann2018c (second duplicate) etc.
 - If the authors re-used data from previously published studies that have not
   been added to AncientMetagenomeDir, please use the project name of the current
-  study for all samples.
+  study where metagenomics or microbial genomic analysis has been performed for all samples.
 
 > ⚠️ [MIxS v5](https://gensc.org/mixs/) compliant field
 

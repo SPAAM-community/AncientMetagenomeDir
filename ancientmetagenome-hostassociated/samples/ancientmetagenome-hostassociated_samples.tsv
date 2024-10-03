@@ -1497,15 +1497,15 @@ Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M4_P	Homo sap
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M5_T	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485705
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M7_P	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485709
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M8_P	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485712
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V10_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485718
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V11_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485719
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V1_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485721
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V1_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485722
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V2_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485724
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V4_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485727
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V6_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485732
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V7_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485734
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V9_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485738
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V10_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485718
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V11_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485719
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V1_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485721
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V1_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485722
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V2_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485724
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V4_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485727
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V6_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485732
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V7_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485734
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V9_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485738
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M10_S	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485689
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M1_P	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485691
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M1_T	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485693
@@ -1513,14 +1513,14 @@ Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M5_S	Homo sap
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M6_T	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485708
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M8_T	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485714
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M9_P	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485715
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V2_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485723
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V3_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485726
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V4_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485728
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V5_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485729
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V6_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485731
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V7_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485733
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V8_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485735
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V8_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485736
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V2_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485723
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V3_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485726
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V4_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485728
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V5_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485729
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V6_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485731
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V7_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485733
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V8_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485735
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V8_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485736
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M1_S	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485692
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M2_S	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485695
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M3_P	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485697
@@ -1534,8 +1534,8 @@ Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M7_S	Homo sap
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M7_T	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485711
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M8_S	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485713
 Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	55	10	Denmark	M9_T	Homo sapiens	200	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485716
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V10_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485717
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V11_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485720
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V3_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485725
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V5_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485730
-Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	England	V9_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485737
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V10_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485717
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V11_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485720
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V3_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485725
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V5_T	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	tooth	ENA	PRJEB18722	ERS1485730
+Hansen2017	2017	10.1371/journal.pone.0170940	Unknown	53	2	United Kingdom	V9_P	Homo sapiens	1000	10.1371/journal.pone.0170940	skeletal tissue	bone	ENA	PRJEB18722	ERS1485737

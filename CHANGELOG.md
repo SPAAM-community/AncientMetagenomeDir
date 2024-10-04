@@ -12,7 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 - Austin 2024 10.1038/s41598-024-64818-7 (added by @alexhbnr and @jfy133)
-- Bozzi 2024 10.1038/s41598-023-40246-x (added by @DavideBozzi and @alexhbn)
+- Bozzi 2024 10.1038/s41598-023-40246-x (added by @DavideBozzi and @alexhbnr)
 
 #### Ancient Single Genome: Host Associated
 

@@ -17,6 +17,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Single Genome: Host Associated
 
 - White 2021 10.3390/biology10121324 (added by @DianaSpurite, @jfy133, and @alexhbnr)
+- Fiddaman 2023 10.1126/science.adg2238 (added by @aidaanva)
 
 #### Ancient Metagenome: Environmental
 

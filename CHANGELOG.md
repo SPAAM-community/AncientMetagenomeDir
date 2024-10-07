@@ -23,6 +23,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Update the data_publication_doi of Lebrasseur 2024 10.1093/ve/vead087 (@alexhbnr)
+
 ### Removed
 
 ## v24.06: Su Nuraxi di Barumini
@@ -37,7 +39,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Sun 2024 10.1038/s41467-024-47358-6 (added by @aidaanva)
 - Urban 2024 10.1016/j.cub.2024.04.006 (added by @aidaanva)
-- Lebrasseur 2024 10.1093/ve/vead087(added by @YuejiaoHuang)
+- Lebrasseur 2024 10.1093/ve/vead087 (added by @YuejiaoHuang)
 
 #### Ancient Metagenome: Environmental
 

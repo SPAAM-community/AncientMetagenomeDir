@@ -19,9 +19,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - White 2021 10.3390/biology10121324 (added by @DianaSpurite, @jfy133, and @alexhbnr)
 
 #### Ancient Metagenome: Environmental
-- Added: Zampirolo 2024 10.1016/j.cub.2024.08.047 (added by @GiuliaZ538)
+- Zampirolo 2024 10.1016/j.cub.2024.08.047 (added by @GiuliaZ538)
 
 ### Changed
+
+- Liu 2024 10.1126/sciadv.adn8490
 
 ### Removed
 
@@ -41,7 +43,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
-- Liu 2024 10.1126/sciadv.adn8490 (added by @rozwalak)
+- Fix archive sample accession codes for Liu 2024 10.1126/sciadv.adn8490 (@alexhbnr)
 
 ### Changed
 

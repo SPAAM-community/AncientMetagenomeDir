@@ -17,6 +17,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Single Genome: Host Associated
 
 - White 2021 10.3390/biology10121324 (added by @DianaSpurite, @jfy133, and @alexhbnr)
+- Susat 2024 10.1038/s42003-024-06676-7 (added by @MagdalenaHC)
 
 #### Ancient Metagenome: Environmental
 - Added: Zampirolo 2024 10.1016/j.cub.2024.08.047 (added by @GiuliaZ538)

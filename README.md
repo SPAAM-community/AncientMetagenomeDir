@@ -231,14 +231,14 @@ The Core Team of AncientMetagenomeDir is responsible for the mantainance of the 
 the organisation of training and hackathons events, as well as lead initiatives to improve 
 AncientMetagenomeDir.
 The current members of the Core Team are: 
-- Alex Hübner [@alexhbnr](https://github.com/alexhbnr)
-- James Fellows Yates [@jfy133](https://github.com/jfy133)
-- Diana Spurite [@DianaSpurite](https://github.com/DianaSpurite)
-- Yuejiao Huang [@YuejiaoHuang](https://github.com/YuejiaoHuang)
-- Bianca Maria Bonucci [@biancamariabonucci](https://github.com/biancamariabonucci)
-- Piotr Rozwalak [@rozwalak](https://github.com/rozwalak)
-- Bjørn Peare Bartholdy [@bbartholdy](https://github.com/bbartholdy )
-- Aida Andrades Valtueña [@aidaanva](https://github.com/aidaanva)
+- Alex Hübner ([@alexhbnr](https://github.com/alexhbnr))
+- James Fellows Yates ([@jfy133](https://github.com/jfy133))
+- Diana Spurite ([@DianaSpurite](https://github.com/DianaSpurite))
+- Yuejiao Huang ([@YuejiaoHuang](https://github.com/YuejiaoHuang))
+- Bianca Maria Bonucci ([@biancamariabonucci](https://github.com/biancamariabonucci))
+- Piotr Rozwalak ([@rozwalak](https://github.com/rozwalak))
+- Bjørn Peare Bartholdy ([@bbartholdy](https://github.com/bbartholdy))
+- Aida Andrades Valtueña ([@aidaanva](https://github.com/aidaanva))
 
 
 [![License: CC BY

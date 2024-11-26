@@ -1,8 +1,10 @@
+# Adding samples to AncientMetagenomeDir
+
 Originally written by Eleanor Green (@eg715), with contributions from the SPAAM Community.
 
 ---
 
-# Introduction
+## Introduction
 
 The AncientMetagenomeDir is a project led by the [SPAAM community](https://spaam-workshop.github.io/#/). The Directory is accessed via [Github](https://github.com/SPAAM-workshop/AncientMetagenomeDir). This document is to serve as a guide to contributing new publications to the Directory. To follow these instructions you will need:
 
@@ -11,7 +13,7 @@ The AncientMetagenomeDir is a project led by the [SPAAM community](https://spaam
 * Be a member of the SPAAM-workshop organization
   * Contact any of the maintainers on the SPAAM slack (#ancientmetagenomedir) to be added. 
 
-## Slides
+### Slides
 
 > [!WARNING]  
 > The presentation may be out of date
@@ -22,7 +24,7 @@ The slides linked below were created by James Fellows Yates. All the content in 
 
 ***
 
-# Selecting and assigning publications
+## Selecting and assigning publications
 
 Samples to be added to the AncientMetagenomeDir must be from published studies, and entries should only include sample level information. Preprints often have not made data available and we make the assumption that peer-review has correctly evaluated any submitted metagenome as valid. Samples must also be accessible on public databases (e.g. EBI ENA or NCBI SRA).
 If would like to contribute already published work by others, rather than your own papers, there is a list of published works which are yet to be added to the AncientMetagenomeDir under the [Issues tab](https://github.com/SPAAM-workshop/AncientMetagenomeDir/issues). If the publication is not yet there (either under open or close issues), feel free to make an issue, so the community can evaluate if the publication is valid for inclusion.
@@ -35,9 +37,9 @@ Once a publication is approved, and you've selected a publication you would like
 
 ***
 
-# Preparation
+## Preparation
 
-## Making a new branch
+### Making a new branch
 
 To begin the process, make a branch that is identical to the <ins>master branch</ins>, which you will edit without impacting the <ins>master branch</ins> (for an explanation of branches, see the slides linked above). To make a new branch go to the [<> Code tab](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master). Click on the <ins>master</ins> button and type in the <ins>Find or create a branch…</ins> bar. Here you can check the paper doesn’t already have a branch (if it does, you need to contact the assignee and check they are happy to collaborate with you), and create a new one for the paper. For example, below I am creating a branch called <ins>Ferrari_2018</ins>, where I will add the metadata from [Ferrari et al. 2018](https://www.mdpi.com/2073-4425/9/9/436):
 
@@ -45,7 +47,7 @@ To begin the process, make a branch that is identical to the <ins>master branch<
 <img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/2.png" width=75%>
 </p>
 
-## Excel/Spreadsheet set up
+### Excel/Spreadsheet set up
 
 Now you have made the branch make sure you are in it by checking what is written in the grey box at the top of the page.
 
@@ -82,14 +84,14 @@ Paste this line into your preferred spreadsheet tool (Microsoft Excel, LibreOffi
 </p>
 
 ***
-# Collect metadata
+## Collect metadata
 
 If you haven’t already, go to the publication you are working on and have a quick read through, pull up the supplementary data etc. 
 When filling in the data, each sample from the publication will get a new row.
 
 For guidance on what information to add to each column see the <ins>README.md</ins> for a handy guide (each list, e.g. ancientmetagenome-hostassociated has its own <ins>README.md</ins>, so make sure you’re checking the right one). 
 
-## Some tips
+### Some tips
 
 * Do not add spaces at the beginning or end of data entries, for example the "geo_loc_name" column is checked against a predetermined list of countries, so if you type “Netherlands ” rather than just “Netherlands” they’ll be an issue as it won’t match. 
   * To check the columns that must match a predetermined list see [AncientMetagenomeDir/assets/enums/](https://github.com/SPAAM-workshop/AncientMetagenomeDir/tree/master/assets/enums)
@@ -128,7 +130,7 @@ Now all your data is added, your sheet should look something like this:
 
 ***
 
-# Upload metadata 
+## Upload metadata 
 
 Upload the data you have recorded to Github by navigating to correct <ins>.tsv</ins> in the branch you created. Here, click the <ins>edit</ins> icon (as above) and simply copy the rows from your Excel and paste into the <ins>.tsv</ins> (don't copy the header row!). Here I have added Ziesemer2015 entries to the bottom of the <ins>ancientmetagenome-hostassociated.tsv</ins>:
 
@@ -136,7 +138,7 @@ Upload the data you have recorded to Github by navigating to correct <ins>.tsv</
 <img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/11.png" width=75%>
 </p>
 
-## Commit changes 
+### Commit changes 
 
 You then need to commit your changes, to do this use the commit box at the bottom of the edited <ins>.tsv</ins>, add some kind of title to the top smaller box (the lead author and date is probably the most sensible choice), you can also add additional comments if you want to. For example, maybe you are only committing half the samples at this point. Below I had encountered duplicated samples which I have flagged in this comments box:
 
@@ -150,7 +152,7 @@ Click the green <ins>Commit changes</ins> button. You will then appear as a cont
 <img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/13.png" width=40%>
 </p>
 
-## Update Change log
+### Update Change log
 
 To keep track of which publications are included in particular releases of AncientMetagenomeDir. we are keeping a change log. To update the <ins>CHANGELOG.md</ins>, navigate back to your branch (not the master branch!) and click on the <ins>CHANGELOG.md</ins>: 
 
@@ -176,7 +178,7 @@ Commit this change just as you did above:
 <img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/17.png" width=75%>
 </p>
 
-## Update enumns
+### Update enumns
 
 If you are recording a species, or material that has not been recorded before, you will need to add it to the predetermined list. To do this you will need to create a new branch just for the additional enums. As before, create a new branch from the Master branch, navigate to <ins>AncientMetagenomeDir/assets/enums</ins> and add to the necessary list (see a list's README for specifications). Edit the list in the same way that you edited the <ins>CHANGELOG.md</ins> with the name of the new “thing” (species, material, etc.). 
 
@@ -184,7 +186,7 @@ If you're not sure whether you need to update a list, don't worry - you will be 
 
 ***
 
-# Making a pull request 
+## Making a pull request 
 
 So that your additions can be reviewed and merged with the main <ins>.tsv</ins> file, you need to make a pull request (sometimes called PR). If you have just committed, when you go to the <ins>pull requests</ins> tab you will see a banner detailing your branch, click <ins>Compare & pull request</ins>. You also need make a pull request for the branch you made to update the enums (if applicable). 
 
@@ -206,7 +208,7 @@ In the checklist, there will also be the option to tell the reviewer you need ne
 
 Click <ins>Create pull request</ins>
 
-## Pull request automatic checks
+### Pull request automatic checks
 
 When you have made the pull request, automatic checks take place against <ins>AncientMetagenomeDir/assets/enums/</ins>, you can see the results of these checks at the bottom of your given PR page or you can go back to the <ins>Pull requests</ins> tab to check on their status. 
 
@@ -224,7 +226,7 @@ Here’s the <ins>Pull requests</ins> tab:
 
 You can see in the screenshot above that Ziesemer 2015 has a little red cross by its side. This means the checks have failed. Duggan2016 below, has a little green tick - the tests have passed. 
 
-## Identifying problems and fixing failed checks
+### Identifying problems and fixing failed checks
 
 So what do you do when you have a little red cross?
 
@@ -253,13 +255,13 @@ Ask on the SPAAM slack #ancientmetagenomedir channel if you have any difficultie
 
 ***
 
-# Add library metadata
+## Add library metadata
 
 Once you have passing tests for sample metadata, it's time to add metadata for library-level type of data.
 
 The good news, is this is normally much more straight forward than getting archaeological information, but also the SPAAM community provides additional tooling to make this is a much nicer experience.
 
-## Preparation
+### Preparation
 
 During this tutorial we will be modifying a library-level metadata table. This is stored in the `library` folder of the corresponding AncientMetagenomeDir section (i.e., microbiomes, microbial genomes, or environmental DNA). Have this table open, and copy and paste the **entire** table into your preferred spreadsheet tool (as with the sample metadata instructions).
 
@@ -270,7 +272,7 @@ In addition, we recommend to have open (if not already):
 - The [ENA](https://www.ebi.ac.uk/ena/browser) or [SRA](https://www.ncbi.nlm.nih.gov/Traces/study/) run browsers, already with the corresponding project/study accession number added
 - The corresponding README for the library metadata table
 
-## Semi-Automated
+### Semi-Automated
 
 Once your sample-level metadata is validated, you can request a semi-pre-filled file that has most of the library metadata you need already prepared for you!
 
@@ -300,7 +302,7 @@ Open the `TEMPLATE_` file in your preferred spreadsheet manager, and start filli
 > [!IMPORTANT]
 > It is also critical to **verify** that the pre-filled columns are _also_ correct! In some cases the information on the ENA will be _incorrect_ (e.g. very often the Instrument Platform column!)
 
-## Manual
+### Manual
 
 In some cases, the semi-automated library level table metadata scraping will fail, in this case we need to pull the metadata of the libraries and sequencing files ourselves.
 
@@ -313,7 +315,7 @@ In some cases, the semi-automated library level table metadata scraping will fai
   - You will have to extract the information manually from the paper itself, like for sample metadata information (open the library metadata table, copy the header in a separate file, fill in the rows, copy the new rows back to the metadata table etc.)
   - However, just like with sample metadata, we use the READMEs and JSON enums files to define specifications, so follow these for guidance
 
-# Additional Metadata
+## Additional Metadata
 
 In the AncientMetagenomeDir library-level table, there are columns that do not exist in the auto-generated table. 
 
@@ -324,7 +326,7 @@ In other cases, such as for finding information about `strand_type` or `library_
 
 In both cases, make sure to check the guidelines in the README and, if applicable, the corresponding column's [`enum`](https://github.com/SPAAM-community/AncientMetagenomeDir/tree/master/assets/enums) file.
 
-# Submitting the library table
+## Submitting the library table
 
 Once your library metadata is ready, go to your PR, open the corresponding file on your branch.
 
@@ -332,7 +334,7 @@ Append your new metadata to the end of the library metadata, and make a commit (
 
 Once again your Pull Request will go through automated checks, and leave you comment if there is something wrong. Once you've got all green ticks, you can continue to human review!
 
-# Request reviewers
+## Request reviewers
 
 The final step is to request reviewers, click on your pull request and then click the little cog next to <ins>Reviewers</ins> on the right hand banner. To find reviewers, post a message in the slack group and find a willing volunteer! To add reviewers simply click their names in the drop down box shown below. If in doubt, ask on the SPAAM slack #ancientmetagenomedir channel.
 
@@ -340,7 +342,7 @@ The final step is to request reviewers, click on your pull request and then clic
 <img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/27.png" width=75%>
 </p>
 
-## Making reviewer requested changes
+### Making reviewer requested changes
 
 The reviewers will cross-reference the data is correct, will make comments on your data and add suggestions for changes if needed, you can see how this looks here:
 

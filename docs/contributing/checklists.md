@@ -1,4 +1,6 @@
-### Contributing your own Publications
+# Contribution checklists
+
+## Contributing your own Publications
 
 Contributing a new publication's sample information consists of the following:
 
@@ -31,7 +33,7 @@ All contributions are attributed through Git's in-built recording of the author
 of each commit and pull request. These will be displayed publically in the
 future.
 
-### Contributing previously published publications
+## Contributing previously published publications
 
 In addition to researchers adding their own publications, we will also maintain
 lists of published but not-yet-added studies using github issues.

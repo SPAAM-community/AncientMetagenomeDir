@@ -1,3 +1,5 @@
+# Release name list
+
 In addition to numeric names based on [Calendar Versioning](https://calver.org), it can useful to have catchy 'names' for each release.
 
 Keeping with the 'ancient' theme, we decided to use the Unesco World Heritage list of cultural sites. This list was downloaded from [here](https://whc.unesco.org/en/list/) in XLS format on 2020-08-26. This was then loaded into a GoogleDrive Spreadsheet, and filtered to just Cultural sites (and Mixed with Cultural). A new column was added and a number assigned to each site with the `=rand()` function. This was then reorded in ascending order, and assigned an AncientMetagenomeDir release number.

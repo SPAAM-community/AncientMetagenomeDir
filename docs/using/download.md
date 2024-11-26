@@ -1,4 +1,6 @@
-## Usage
+# Downloading AncientMetagenomeDir
+
+## Release
 
 To download the latest _stable_ release of an AncientMetagenomeDir sample list:
 
@@ -7,6 +9,8 @@ To download the latest _stable_ release of an AncientMetagenomeDir sample list:
 3. Press the 'Download' button next to the `.zip` button
 4. Once downloaded, unzip the archive by right-clicking and pressing e.g. decompress or extract
 5. In the extracted folder, change into the sample list of interest, and open the `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R)
+
+## Current
 
 To download the _bleeding edge_ AncientMetagenomeDir sample list:
 

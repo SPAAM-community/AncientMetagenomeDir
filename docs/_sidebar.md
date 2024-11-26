@@ -4,7 +4,7 @@
   + [How-Tos](docs/using/)
     * [Usage](docs/using/download.md)
 - [Contributing to AncientMetagenomeDir](docs/contributing/)
-  + [Tutorials]()
+  + [Tutorials](docs/contributing/)
     * [Adding samples](docs/contributing/adding-metadata.md)
     * [Reviewing a pull request](docs/contributing/reviewing-pr.md)
   + [How-Tos](docs/contributing/)

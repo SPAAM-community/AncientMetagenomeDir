@@ -7,8 +7,8 @@
 If you are not familiar with Git(Hub), quick start step-by-step guides can be found in
 the following (note these may be out of date):
 
-- [Adding samples and libraries via pull request](https://github.com/SPAAM-community/AncientMetagenomeDir/wiki/Adding-metadata:-step-by-step-guide)
-- Performing a pull request _review_ [here](https://hackmd.io/@jfy133/B156Z2mfP) or in PDF format [here](https://github.com/spaam-community/AncientMetagenomeDir/raw/master/assets/intro_to_ancientmetagenomedir_github_pull_request_review.pdf)
+- [Adding samples and libraries via pull request](docs/contributing/adding-metadata.md)
+- Performing a pull request _review_ [guide](docs/contributing/reviewing-pr.md), [slides](https://hackmd.io/@jfy133/B156Z2mfP) or in [PDF format](https://github.com/spaam-community/AncientMetagenomeDir/raw/master/assets/tutorials/presentations/intro_to_ancientmetagenomedir_github_pull_request_review.pdf)
 
 Samples must be from _published_ studies, and should only include _sample_ level
 information. Preprints often have not made data avaliable at this point, and we make

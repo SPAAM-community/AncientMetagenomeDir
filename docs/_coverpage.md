@@ -9,5 +9,5 @@
 [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir)
 [![latest_release](https://img.shields.io/badge/Latest%20Release-v24.09.0-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
 
-AncientMetagenomeDir is a community curated resource of lists of all published
+AncientMetagenomeDir is a community curated resource containing standardised metadata for published
 **shotgun**-sequenced ancient metagenome or microbial genome-level enriched samples and libraries.

@@ -21,17 +21,18 @@ development of the field of ancient metagenomics over time.
 
 <!-- TOC -->
 
-- [Description](#description)
-- [Citation](#citation)
-- [Current Status](#current-status)
+- [What](#what)
   - [Samples](#samples)
   - [Libraries](#libraries)
   - [Interactive samples map](#interactive-samples-map)
+- [Who](#who)
+- [How](#how)
+  - [Citation](#citation)
 - [Core Team](#core-team)
 
 <!-- /TOC -->
 
-## Description
+## What
 
 These lists contain information of ancient metagenomic samples such as publication, sample name, sample type,
 geographic location, dates and DOIs and other accession numbers to raw data
@@ -70,25 +71,6 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 > the future.
 
 
-## Citation
-
-📖 For **general** use of the project, please use the publication citation below.
-
-For a specific _release_ citation (e.g. the version used for analysis), go to [Releases](https://github.com/SPAAM-community/AncientMetagenomeDir/releases) and use the DOI in the badge of the given release's description, or check the corresponding [Zenodo entry](https://doi.org/10.5281/zenodo.3980833)
-
-Alongside the Zenodo ID of the release version, please also cite:
-
-Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Velsko, I. M., Borry, M., Bravo-Lopez, M. J., Fernandez-Guerra, A., Green, E. J., Ramachandran, S. L., Heintzman, P. D., Spyrou, M. A., Hübner, A., Gancz, A. S., Hider, J., Allshouse, A. F., Zaro, V., & Warinner, C. (2021). Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir. Scientific Data, 8(1), 31. DOI: [10.1038/s41597-021-00816-y](https://doi.org/10.1038/s41597-021-00816-y)
-
-⚠️ You must also cite each paper you use data from, citing AncientMetagenomeDir is not sufficient on it's own!
-
-> ℹ️ The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore
-> provides no warranty or completeness or accuracy of the data. If in doubt, refer
-> to the original publication of a given sample. Corrections are accepted, and thus later
-> versions may have different values.
-
-## Current Status
-
 ### Samples
 
 <p float="center">
@@ -119,13 +101,36 @@ Light Blue: Host Associated Metagenome,
 Pink: Host Associated Single Genome
 
 
-### Guidelines and Conventions
+## Who
 
-To ensure efficient and consistent searching, we include guidelines on how to
-record and format information. Adherence to these guidelines is enforced by
-'pull request' review by members of the SPAAM community and other contributors.
-Furthermore, each category of metagenome will have their own 'special' fields,
-which will be defined in each specific context.
+This is a community project open to anyone. If you would like to get involved, you can
+join our community on [archaeo.social](https://matrix.to/#/#ancientmetagenomedir:matrix.org).
+A guide to join can be found [here](https://www.isbarch.org/chat).
+
+
+## How
+
+Guides on how to use AncientMetagenomeDir can be found [here](docs/using/).
+
+Guides on how to contribute to AncientMetagenomeDir can be found [here](docs/contributing/).
+
+### Citation
+
+📖 For **general** use of the project, please use the publication citation below.
+
+For a specific _release_ citation (e.g. the version used for analysis), go to [Releases](https://github.com/SPAAM-community/AncientMetagenomeDir/releases) and use the DOI in the badge of the given release's description, or check the corresponding [Zenodo entry](https://doi.org/10.5281/zenodo.3980833)
+
+Alongside the Zenodo ID of the release version, please also cite:
+
+Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Velsko, I. M., Borry, M., Bravo-Lopez, M. J., Fernandez-Guerra, A., Green, E. J., Ramachandran, S. L., Heintzman, P. D., Spyrou, M. A., Hübner, A., Gancz, A. S., Hider, J., Allshouse, A. F., Zaro, V., & Warinner, C. (2021). Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir. Scientific Data, 8(1), 31. DOI: [10.1038/s41597-021-00816-y](https://doi.org/10.1038/s41597-021-00816-y)
+
+⚠️ You must also cite each paper you use data from, citing AncientMetagenomeDir is not sufficient on it's own!
+
+> ℹ️ The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore
+> provides no warranty or completeness or accuracy of the data. If in doubt, refer
+> to the original publication of a given sample. Corrections are accepted, and thus later
+> versions may have different values.
+
 
 ## Core Team
 The Core Team of AncientMetagenomeDir is responsible for the mantainance of the repository,

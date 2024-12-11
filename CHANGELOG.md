@@ -13,11 +13,13 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Susat 2024 10.1038/s42003-024-06676-7 (added by @MagdalenaHC)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed
 
--  Bonczarowska2023: Fixed library type (actually half-UDG, despite paper reporting non-UDG) 10.1098/rspb.2023.0622 (fixed by @marcel-keller)
+- Bonczarowska2023: Fixed library type (actually half-UDG, despite paper reporting non-UDG) 10.1098/rspb.2023.0622 (fixed by @marcel-keller)
 
 ### Removed
 
@@ -33,7 +35,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Single Genome: Host Associated
 
 - White 2021 10.3390/biology10121324 (added by @DianaSpurite, @jfy133, and @alexhbnr)
-- Susat 2024 10.1038/s42003-024-06676-7 (added by @MagdalenaHC)
 
 #### Ancient Metagenome: Environmental
 

@@ -5,7 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v24.09: Medieval Town of Toruń [Unreleased]
+## v24.12: Old Town of Corfu [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+-  Bonczarowska2023: Fixed library type (actually half-UDG, despite paper reporting non-UDG) 10.1098/rspb.2023.0622 (fixed by @marcel-keller)
+
+### Removed
+
+## v24.09: Medieval Town of Toruń
 
 ### Added
 
@@ -20,9 +36,13 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Susat 2024 10.1038/s42003-024-06676-7 (added by @MagdalenaHC)
 
 #### Ancient Metagenome: Environmental
-- Added: Zampirolo 2024 10.1016/j.cub.2024.08.047 (added by @GiuliaZ538)
+
+- Zampirolo 2024 10.1016/j.cub.2024.08.047 (added by @GiuliaZ538)
 
 ### Changed
+
+- Fix archive sample accession codes for Liu 2024 10.1126/sciadv.adn8490 (@alexhbnr)
+- Update the data_publication_doi of Lebrasseur 2024 10.1093/ve/vead087 (@alexhbnr)
 
 ### Removed
 
@@ -38,7 +58,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Sun 2024 10.1038/s41467-024-47358-6 (added by @aidaanva)
 - Urban 2024 10.1016/j.cub.2024.04.006 (added by @aidaanva)
-- Lebrasseur 2024 10.1093/ve/vead087(added by @YuejiaoHuang)
+- Lebrasseur 2024 10.1093/ve/vead087 (added by @YuejiaoHuang)
 
 #### Ancient Metagenome: Environmental
 

@@ -17,6 +17,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+-  Bonczarowska2023: Fixed library type (actually half-UDG, despite paper reporting non-UDG) 10.1098/rspb.2023.0622 (fixed by @marcel-keller)
+
 ### Removed
 
 ## v24.09: Medieval Town of Toruń

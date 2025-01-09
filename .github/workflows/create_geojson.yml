@@ -1,9 +1,8 @@
 name: AncientMetagenomeDir GeoJSON updates
 
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [published]
 
 jobs:
   live-status-geosjon-update:

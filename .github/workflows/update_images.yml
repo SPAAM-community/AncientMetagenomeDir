@@ -1,9 +1,8 @@
 name: AncientMetagenomeDir Live Status Updates
 
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [published]
 
 jobs:
   live-status-image-update:

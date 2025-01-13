@@ -163,7 +163,7 @@
             },
             "sample_age": {
                 "$id": "#/items/properties/sample_age",
-                "type": "integer",
+                "type": ["integer", "null"],
                 "title": "Age of the sample, BP",
                 "minimum": 100,
                 "description": "Age of the sample in year before present (BP 1950), to the closest century",

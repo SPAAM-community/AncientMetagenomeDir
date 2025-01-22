@@ -62,25 +62,25 @@ If you’re not sure you can check this by looking at the labels assigned on the
 When in the correct directory, select the <ins>.tsv</ins> file for this category. Below you can see that I am in the Ziesemer-2015 branch and I am looking at the <ins>.tsv</ins> file for the ancientmetagenome-hostassociated category:
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/4.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/4.png" width=75%>
 </p>
 
 Click the little pencil icon at the top of the <ins>.tsv</ins>, when you hover over the right icon it will say <ins>Edit this file</ins>: 
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/5.png" width=75%"
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/5.png" width=75%"
 </p>
 
 This will open up the <ins>.tsv</ins> table in its raw form, copy the first line (make sure you copy all of the first line - scroll right!). 
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/6.png" width=75%"
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/6.png" width=75%"
 </p>
 
 Paste this line into your preferred spreadsheet tool (Microsoft Excel, LibreOffice Calc, Google Sheets etc.) , this is where we will record all the information for easier copying. In most spreadsheet otols you can then resize the columns and freeze the top row etc. - Whatever makes it easier to work. Then start adding the data entries.
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/7.png" width=75%"
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/7.png" width=75%"
 </p>
 
 ***
@@ -100,7 +100,7 @@ For guidance on what information to add to each column see the <ins>README.md</i
   * If there is a map of the site in the paper, try and approximate on Google maps (latitude, longitude): 
 
     <p align=center>
-    <img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/8.png" width=50%>
+    <img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/8.png" width=50%>
     </p>
 
   * If the site name is a local town, or the described site location is near a local town click in the middle of that area and only record the latitude and longitude to 2 decimal places (we usually ask for 3 decimal places when location is well described). If only a very rough location is described or indicated on a map (e.g. a region), put the midpoint and use 2 decimal places
@@ -125,7 +125,7 @@ _Some time later..._
 Now all your data is added, your sheet should look something like this: 
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/10.png" wdith=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/10.png" wdith=75%>
 </p>
 
 ***
@@ -135,7 +135,7 @@ Now all your data is added, your sheet should look something like this:
 Upload the data you have recorded to Github by navigating to correct <ins>.tsv</ins> in the branch you created. Here, click the <ins>edit</ins> icon (as above) and simply copy the rows from your Excel and paste into the <ins>.tsv</ins> (don't copy the header row!). Here I have added Ziesemer2015 entries to the bottom of the <ins>ancientmetagenome-hostassociated.tsv</ins>:
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/11.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/11.png" width=75%>
 </p>
 
 ### Commit changes 
@@ -143,13 +143,13 @@ Upload the data you have recorded to Github by navigating to correct <ins>.tsv</
 You then need to commit your changes, to do this use the commit box at the bottom of the edited <ins>.tsv</ins>, add some kind of title to the top smaller box (the lead author and date is probably the most sensible choice), you can also add additional comments if you want to. For example, maybe you are only committing half the samples at this point. Below I had encountered duplicated samples which I have flagged in this comments box:
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/12.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/12.png" width=75%>
 </p>
 
 Click the green <ins>Commit changes</ins> button. You will then appear as a contributor at the top of the page (mini yay :tada: )
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/13.png" width=40%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/13.png" width=40%>
 </p>
 
 ### Update Change log
@@ -157,25 +157,25 @@ Click the green <ins>Commit changes</ins> button. You will then appear as a cont
 To keep track of which publications are included in particular releases of AncientMetagenomeDir. we are keeping a change log. To update the <ins>CHANGELOG.md</ins>, navigate back to your branch (not the master branch!) and click on the <ins>CHANGELOG.md</ins>: 
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/14.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/14.png" width=75%>
 </p>
 
 As before, click the little pencil to <ins>edit</ins> this file: 
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/15.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/15.png" width=75%>
 <p>
 
 Add the details of the publication you are working on to the bottom of the row of the given list, following the same format as above. You need to include the first author surname, date and the DOI: 
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/16a.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/16a.png" width=75%>
 </p>
 
 Commit this change just as you did above:
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/17.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/17.png" width=75%>
 </p>
 
 ### Update enumns
@@ -191,7 +191,7 @@ If you're not sure whether you need to update a list, don't worry - you will be 
 So that your additions can be reviewed and merged with the main <ins>.tsv</ins> file, you need to make a pull request (sometimes called PR). If you have just committed, when you go to the <ins>pull requests</ins> tab you will see a banner detailing your branch, click <ins>Compare & pull request</ins>. You also need make a pull request for the branch you made to update the enums (if applicable). 
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/18.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/18.png" width=75%>
 </p>
 
 Then you will need to fill out a short form saying what you have done and summarising what information you are adding. Just put an x in between the correct square brackets (make sure there is no space: [x] and not [x ], or you can also tick the boxes by clicking after opening).
@@ -199,7 +199,7 @@ Then you will need to fill out a short form saying what you have done and summar
 Also look out for markdown comments that ask you to replace comments with some information e.g. to post the number of the proposed publication issue ID. Markdown comments look like this `<!-- SOME COMMENT -->`.
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/19a.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/19a.png" width=75%>
 </p>
 
 Only fill the boxes _before/until_ the <ins>Correction</ins> header, this bit is only if you're making a correction to a previously submitted and merged publication. 
@@ -215,13 +215,13 @@ When you have made the pull request, automatic checks take place against <ins>An
 Here’s the bottom of the pull request: 
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/20.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/20.png" width=75%>
 <p>
 
 Here’s the <ins>Pull requests</ins> tab: 
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/21.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/21.png" width=75%>
 <p>
 
 You can see in the screenshot above that Ziesemer 2015 has a little red cross by its side. This means the checks have failed. Duggan2016 below, has a little green tick - the tests have passed. 
@@ -233,7 +233,7 @@ So what do you do when you have a little red cross?
 To view the error (and then hopefully fix it) click on your branch under the <ins>Pull request</ins> tab. Scroll down to under the PR form you filled in, here you will see comments from the <ins>github-actions</ins> bot detailing your error:
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/22a.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/22a.png" width=75%>
 </p>
 
 Here you can see the specific line the error appears on and what is wrong. In the example above ‘skull‘ and 'Rattus rattus' are not recognised terms. This is because they are not listed in AncientMetagenomeDir/assets/enums/. When my enums branch is merged this won't be a problem. See [above](#update-enumns) for instructions on how to update the enum.
@@ -242,13 +242,13 @@ Another common mistake made in the main TSV is leaving a space at the end of a c
 If you have an orange dot, it means the checks are running:
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/25.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/25.png" width=75%>
 </p>
 
 After the checks, if you get another red cross, repeat the steps listed in <ins>"Identifying problems and fixing failed checks”</ins> , until you get a green tick to say you have passed all the checks: 
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/26.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/26.png" width=75%>
 </p>
 
 Ask on the SPAAM slack #ancientmetagenomedir channel if you have any difficulties.
@@ -339,7 +339,7 @@ Once again your Pull Request will go through automated checks, and leave you com
 The final step is to request reviewers, click on your pull request and then click the little cog next to <ins>Reviewers</ins> on the right hand banner. To find reviewers, post a message in the slack group and find a willing volunteer! To add reviewers simply click their names in the drop down box shown below. If in doubt, ask on the SPAAM slack #ancientmetagenomedir channel.
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/27.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/27.png" width=75%>
 </p>
 
 ### Making reviewer requested changes
@@ -347,7 +347,7 @@ The final step is to request reviewers, click on your pull request and then clic
 The reviewers will cross-reference the data is correct, will make comments on your data and add suggestions for changes if needed, you can see how this looks here:
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/28.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/28.png" width=75%>
 </p>
 
 Edit the <ins>.tsv</ins> file and commit the requested changes. 
@@ -355,19 +355,19 @@ Edit the <ins>.tsv</ins> file and commit the requested changes.
 When these changes have been approved ,and checks have passed for a final time, you can merge the pull request! To do this scroll down to the bottom of the <ins>Pull request</ins> tab and click <ins>Merge pull request</ins>.
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/29.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/29.png" width=75%>
 </p>
 
 Confirm the merge:
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/30.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/30.png" width=75%>
 </p>
 
 When prompted then you can delete the branch you have been working on as all the information has been added nicely to the <ins>master branch</ins>.
 
 <p align=center>
-<img src="https://github.com/SPAAM-workshop/AncientMetagenomeDir/blob/master/assets/tutorials/step_by_step/31.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/31.png" width=75%>
 </p>
 
 Annndddd that's it! You made it!!! :tada: :star_struck: :star:

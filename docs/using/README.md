@@ -1,3 +1,5 @@
 # Using AncientMetagenomeDir
 
-:construction: **Under construction** :construction:
+Guides for using AncientMetagenomeDir:
+
+- [Downloading AncientMetagenomeDir](docs/using/download.md)

@@ -1,6 +1,6 @@
 - [Home](/)
 - [Using AncientMetagenomeDir](docs/using/)
-  + [Tutorials](docs/using/)
+  <!--+ [Tutorials](docs/using/)-->
   + [How-Tos](docs/using/)
     * [Usage](docs/using/download.md)
 - [Contributing to AncientMetagenomeDir](docs/contributing/)

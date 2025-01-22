@@ -1,7 +1,7 @@
 # Contributing to AncientMetagenomeDir
 
 <p align="center">
-<img src="/assets/images/documentation/spaam-AncientMetagenomeDir_workflow.png" width=50% >
+<img src="../../assets/images/documentation/spaam-AncientMetagenomeDir_workflow.png" width=50% >
 <p/>
 
 If you are not familiar with Git(Hub), quick start step-by-step guides can be found in

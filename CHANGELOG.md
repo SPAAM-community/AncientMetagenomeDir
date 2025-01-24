@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v24.09: Medieval Town of Toruń [Unreleased]
+## v25.03: Historic Centre of Cordoba [Unreleased]
 
 ### Added
 
@@ -16,6 +16,49 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+### Removed
+
+## v24.12: Old Town of Corfu
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+- Fiddaman 2023 10.1126/science.adg2238 (added by @aidaanva)
+- Susat 2024 10.1038/s42003-024-06676-7 (added by @MagdalenaHC)
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+- Bonczarowska2023: Fixed library type (actually half-UDG, despite paper reporting non-UDG) 10.1098/rspb.2023.0622 (fixed by @marcel-keller)
+
+### Removed
+
+## v24.09: Medieval Town of Toruń
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Austin 2024 10.1038/s41598-024-64818-7 (added by @alexhbnr and @jfy133)
+- Bozzi 2024 10.1038/s41598-023-40246-x (added by @DavideBozzi and @alexhbnr)
+
+#### Ancient Single Genome: Host Associated
+
+- White 2021 10.3390/biology10121324 (added by @DianaSpurite, @jfy133, and @alexhbnr)
+
+#### Ancient Metagenome: Environmental
+
+- Zampirolo 2024 10.1016/j.cub.2024.08.047 (added by @GiuliaZ538)
+
+### Changed
+
+- Fix archive sample accession codes for Liu 2024 10.1126/sciadv.adn8490 (@alexhbnr)
+- Update the data_publication_doi of Lebrasseur 2024 10.1093/ve/vead087 (@alexhbnr)
 
 ### Removed
 
@@ -31,7 +74,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Sun 2024 10.1038/s41467-024-47358-6 (added by @aidaanva)
 - Urban 2024 10.1016/j.cub.2024.04.006 (added by @aidaanva)
-- Lebrasseur 2024 10.1093/ve/vead087(added by @YuejiaoHuang)
+- Lebrasseur 2024 10.1093/ve/vead087 (added by @YuejiaoHuang)
 
 #### Ancient Metagenome: Environmental
 
@@ -196,7 +239,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Vågene 2022 10.1038/s41467-022-28562-8 (added by @DianaSpurite)
 - Austin 2022 10.1038/s42003-022-03890-z (added by @DianaSpurite)
 - Guellil 2022 10.1126/sciadv.abo4435 (added by @DianaSpurite)
-- Long 2022 10.1038/s42003-022-03527-1 (added by @jfy133 )
+- Long 2022 10.1038/s42003-022-03527-1 (added by @jfy133)
 
 #### Ancient Metagenome: Environmental
 

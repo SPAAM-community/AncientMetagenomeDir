@@ -1,7 +1,7 @@
 name: check_dataset
 # This workflow is triggered on pushes and PRs to the repository.
 on:
-  pull_request_target:
+  pull_request:
     branches: [master]
 
 jobs:

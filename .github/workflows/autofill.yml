@@ -30,7 +30,7 @@ jobs:
           reactions: eyes
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # install AMDirT
+      # install amdirt
       - uses: actions/setup-python@v4
         with:
           python-version: "3.9"

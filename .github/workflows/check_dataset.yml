@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  AMDirT:
+  amdirt:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,47 +20,47 @@ jobs:
           pip install jsonschema==4.17.0
       - name: Make validation results directory
         run: mkdir validation/
-      - name: Add AMDirT validate version
+      - name: Add amdirt validate version
         run: |
-          echo "$(AMDirT --version)" > validation/validation_results_raw.txt
+          echo "$(amdirt --version)" > validation/validation_results_raw.txt
       - name: SAMPLES test ancient host-associated metagenome (e.g. microbiomes)
         if: always()
         run: |
           echo "# Samples" >> validation/validation_results_raw.txt
           echo "## Ancient Metagenome Host Associated" >> validation/validation_results_raw.txt
-          AMDirT validate -s -d -c -i -m --multi_values archive_accession ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples_schema.json &>> validation/validation_results_raw.txt
+          amdirt validate -s -d -c -i -m --multi_values archive_accession ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples_schema.json &>> validation/validation_results_raw.txt
       - name: SAMPLES test ancient single microbial genomes (e.g. pathogens)
         if: always()
         run: |
           echo "## Ancient Single Genome Host Associated" >> validation/validation_results_raw.txt
-          AMDirT validate -s -d -c -i -m --multi_values archive_accession ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples_schema.json &>> validation/validation_results_raw.txt
+          amdirt validate -s -d -c -i -m --multi_values archive_accession ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples_schema.json &>> validation/validation_results_raw.txt
       - name: SAMPLES test ancient environmental (e.g. sediment)
         if: always()
         run: |
           echo "## Ancient Metagenome Environmental" >> validation/validation_results_raw.txt
-          AMDirT validate -s -d -c -i -m --multi_values archive_accession ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples.tsv ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples_schema.json &>> validation/validation_results_raw.txt
+          amdirt validate -s -d -c -i -m --multi_values archive_accession ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples.tsv ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples_schema.json &>> validation/validation_results_raw.txt
       - name: LIBRARIES test ancient host-associated metagenome (e.g. microbiomes)
         if: always()
         run: |
           echo "# Libraries" >> validation/validation_results_raw.txt
           echo "## Ancient Metagenome Host Associated" >> validation/validation_results_raw.txt
-          AMDirT validate -s -d -c -m ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries.tsv ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries_schema.json &>> validation/validation_results_raw.txt
+          amdirt validate -s -d -c -m ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries.tsv ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries_schema.json &>> validation/validation_results_raw.txt
       - name: LIBRARIES test ancient host-associated single-genomes (e.g. pathogens)
         if: always()
         run: |
           echo "## Ancient Single Genome Host Associated" >> validation/validation_results_raw.txt
-          AMDirT validate -s -d -c -m ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries.tsv ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries_schema.json &>>  validation/validation_results_raw.txt
+          amdirt validate -s -d -c -m ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries.tsv ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries_schema.json &>>  validation/validation_results_raw.txt
       - name: LIBRARIES test ancient environmental metagenomes (e.g. sedaDNA)
         if: always()
         run: |
           echo "## Ancient Metagenome Environmental" >> validation/validation_results_raw.txt
-          AMDirT validate -s -d -c -m ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries_schema.json &>> validation/validation_results_raw.txt
+          amdirt validate -s -d -c -m ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries_schema.json &>> validation/validation_results_raw.txt
       - name: RADIOCARBON DATES test ancient single genomes (e.g. pathogens)
         if: always()
         run: |
           echo "# Radiocarbon Dates" >> validation/validation_results_raw.txt
           echo "## Ancient Single Genome Host Associated" >> validation/validation_results_raw.txt
-          AMDirT validate -s -d -c -m ancientsinglegenome-hostassociated/radiocarbondates/ancientsinglegenome-hostassociated_radiocarbondates.tsv ancientsinglegenome-hostassociated/radiocarbondates/ancientsinglegenome-hostassociated_radiocarbondates_schema.json &>>  validation/validation_results_raw.txt
+          amdirt validate -s -d -c -m ancientsinglegenome-hostassociated/radiocarbondates/ancientsinglegenome-hostassociated_radiocarbondates.tsv ancientsinglegenome-hostassociated/radiocarbondates/ancientsinglegenome-hostassociated_radiocarbondates_schema.json &>>  validation/validation_results_raw.txt
       - name: cleanup validation results from streamlit warnings
         if: always()
         run: |

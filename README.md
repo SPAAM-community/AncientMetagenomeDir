@@ -9,7 +9,7 @@
 [![Release DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3980833.svg)](https://doi.org/10.5281/zenodo.3980833)
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 [![Joins us on Slack](https://img.shields.io/badge/slack-ancientmetagenomedir-blueviolet)](https://spaam-community.slack.com/channels/ancientmetagenomedir)
-[![latest_release](https://img.shields.io/badge/Latest%20Release-v24.06.0-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
+[![latest_release](https://img.shields.io/badge/Latest%20Release-v24.12.0-yellow)](https://github.com/spaam-community/AncientMetagenomeDir/releases)
 
 AncientMetagenomeDir is a community curated resource of lists of all published
 **shotgun**-sequenced ancient metagenome or microbial genome-level enriched samples and libraries.
@@ -32,6 +32,7 @@ development of the field of ancient metagenomics over time.
   - [Contributing your own Publications](#contributing-your-own-publications)
   - [Contributing previously published publications](#contributing-previously-published-publications)
   - [Guidelines and Conventions](#guidelines-and-conventions)
+- [Core Team](#core-team)
 
 <!-- /TOC -->
 
@@ -224,6 +225,21 @@ record and format information. Adherence to these guidelines is enforced by
 'pull request' review by members of the SPAAM community and other contributors.
 Furthermore, each category of metagenome will have their own 'special' fields,
 which will be defined in each specific context.
+
+## Core Team
+The Core Team of AncientMetagenomeDir is responsible for the mantainance of the repository,
+the organisation of training and hackathons events, as well as lead initiatives to improve 
+AncientMetagenomeDir.
+The current members of the Core Team are: 
+- Alex Hübner ([@alexhbnr](https://github.com/alexhbnr))
+- James Fellows Yates ([@jfy133](https://github.com/jfy133))
+- Diana Spurite ([@DianaSpurite](https://github.com/DianaSpurite))
+- Yuejiao Huang ([@YuejiaoHuang](https://github.com/YuejiaoHuang))
+- Bianca Maria Bonucci ([@biancamariabonucci](https://github.com/biancamariabonucci))
+- Piotr Rozwalak ([@rozwalak](https://github.com/rozwalak))
+- Bjørn Peare Bartholdy ([@bbartholdy](https://github.com/bbartholdy))
+- Aida Andrades Valtueña ([@aidaanva](https://github.com/aidaanva))
+
 
 [![License: CC BY
 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)

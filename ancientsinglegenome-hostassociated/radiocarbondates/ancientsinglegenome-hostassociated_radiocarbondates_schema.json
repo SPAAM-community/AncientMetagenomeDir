@@ -162,16 +162,16 @@
         "$id": "#/items/properties/radiocarbon_lab_sample_id",
         "type": "string",
         "title": "Radiocarbon Lab Sample ID",
-        "examples": ["OxA", "ANAS", "Beta", "NR", "NA"],
         "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_lab_code.json",
-        "description": "Lab code of the date, from https://radiocarbon.webhost.uits.arizona.edu/laboratories from Labs-2023_02_17.pdf. NA is no date available, NR is date available but no lab code"
+        "description": "Lab code of the date, from https://radiocarbon.webhost.uits.arizona.edu/laboratories from Labs-2023_02_17.pdf. NA is no date available, NR is date available but no lab code",
+        "examples": ["OxA", "ANAS", "Beta", "NR", "NA"]
       },
       "radiocarbon_lab_sample_id": {
         "$id": "#/items/properties/radiocarbon_lab_sample_id",
-        "type": ["integer", "null"],
+        "type": "integer",
         "title": "Radiocarbon Lab Sample ID",
         "description": "C14 sample code of the radiocarbon date from the lab",
-        "examples": [12355, 44034, "NA"]
+        "examples": ["12355", "44034"]
       },
       "spectrometry_type": {
         "$id": "#/items/properties/spectrometry_type",
@@ -197,7 +197,7 @@
         "examples": ["bone", "enamel"]
       },
       "uncalibrated_date ": {
-        "$id": "#/items/properties/uncalibrated_date",
+        "$id": "#/items/properties/delta_13c",
         "type": ["integer", "null"],
         "minimum": 0,
         "maximum": 50000,

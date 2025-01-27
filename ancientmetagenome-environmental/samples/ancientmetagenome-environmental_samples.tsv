@@ -661,43 +661,54 @@ Murchie2023	2023	10.1002/edn3.493	Upper Goldbottom	63.90	-138.99	Canada	faunal,f
 Murchie2023	2023	10.1002/edn3.493	Lucky Lady II	63.76	-138.89	Canada	faunal,floral,microbial	SET-272	270	LLII-12-84-3	13300	10.1038/s41467-021-27439-6	archeological site	permafrost	NA	ENA	PRJNA1004851	SRS18592488
 Murchie2023	2023	10.1002/edn3.493	Lucky Lady II	63.76	-138.89	Canada	faunal,floral,microbial	SET-274	137	LLII 12-217-8	15500	10.1038/s41467-021-27439-6	archeological site	permafrost	NA	ENA	PRJNA1004851	SRS18592492
 Murchie2023	2023	10.1002/edn3.493	Bear Creek	64.02	-139.24	Canada	faunal,floral,microbial	SET-279	50	BC 4-2B	30000	10.1038/s41467-021-27439-6	archeological site	permafrost	NA	ENA	PRJNA1004851	SRS18592498
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	1786	ESL001	17700	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499307,ERS18499308
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	1718	ESL003	17400	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499309,ERS18499310
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	1640	ESL007	17000	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499311
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	1558	ESL008	16600	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499312
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	1492	ESL009	16300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499313
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	1414	ESL012	15900	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499316
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	1324	ESL015	15500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499317,ERS18499318
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	1244	ESL018	15100	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499319
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	1158	ESL021	14700	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499322
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	1028	ESL026	14100	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499324,ERS18499323
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	970	ESL028	13500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499325
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	958	ESL029	13300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499326
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	930	ESL032	12600	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499328
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	912	ESL034	12200	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499329,ERS18499330
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	892	ESL036	11700	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499332
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	872	ESL038	11200	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499333,ERS18499334
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	846	ESL041	10300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499336,ERS18499337
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	798	ESL043	9300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499338
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	786	ESL044	9000	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499340
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	724	ESL046	8200	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499342,ERS18499341
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	638	ESL048	7600	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499343,ERS18499344
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	592	ESL051	7200	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499346,ERS18499347
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	516	ESL053	6800	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499348
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	492	ESL055	6600	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499349
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	444	ESL057	6200	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499351
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	406	ESL058	5500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499352
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	382	ESL061	5000	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499354
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	366	ESL063	4700	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499355
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	348	ESL065	4300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499357
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	306	ESL068	3500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499358
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	290	ESL069	3100	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499359
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	236	ESL071	2500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499361
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	198	ESL072	2300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499363
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	140	ESL073	1900	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499364
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	124	ESL074	1600	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499365
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	84	ESL075	1100	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499366
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	68	ESL076	900	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499367
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	58	ESL077	700	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499368
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	38	ESL078	500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499369
-Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.10	99.75	China	faunal,floral,microbial	04_NC	14	ESL079	100	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499370
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	1786	ESL001	17700	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499307,ERS18499308
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	1718	ESL003	17400	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499309,ERS18499310
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	1640	ESL007	17000	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499311
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	1558	ESL008	16600	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499312
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	1492	ESL009	16300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499313
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	1414	ESL012	15900	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499316
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	1324	ESL015	15500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499317,ERS18499318
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	1244	ESL018	15100	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499319
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	1158	ESL021	14700	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499321,ERS18499322
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	1028	ESL026	14100	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499324,ERS18499323
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	970	ESL028	13500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499325
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	958	ESL029	13300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499326
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	930	ESL032	12600	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499327,ERS18499328
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	912	ESL034	12200	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499329,ERS18499330
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	892	ESL036	11700	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499332,ERS18499331
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	872	ESL038	11200	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499333,ERS18499334
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	846	ESL041	10300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499336,ERS18499337
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	798	ESL043	9300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499338
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	786	ESL044	9000	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499340,ERS18499339
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	724	ESL046	8200	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499342,ERS18499341
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	638	ESL048	7600	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499344,ERS18499343
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	592	ESL051	7200	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499346,ERS18499347
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	516	ESL053	6800	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499348
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	492	ESL055	6600	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499349
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	444	ESL057	6200	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499350,ERS18499351
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	406	ESL058	5500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499352
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	382	ESL061	5000	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499354
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	366	ESL063	4700	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499355
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	348	ESL065	4300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499357,ERS18499356
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	306	ESL068	3500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499358
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	290	ESL069	3100	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499359
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	236	ESL071	2500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499361
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	198	ESL072	2300	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499362,ERS18499363
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	140	ESL073	1900	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499364
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	124	ESL074	1600	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499365
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	84	ESL075	1100	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499366
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	68	ESL076	900	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499367
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	58	ESL077	700	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499368
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	38	ESL078	500	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499369
+Liu2024	2024	10.1126/sciadv.adn8490	Lake Naleng 	31.1	99.75	China	faunal,floral,microbial	04_NC	14	ESL079	100	10.1007/s00334-009-0219-5	lake	lake sediment	2021	ENA	PRJEB74036	ERS18499370
+Zampirolo2024	2024	10.1016/j.cub.2024.08.047	Velký Mamut'ák	50.518	15.071	Czechia	faunal,floral,microbial	North Wall excavation trench	18	VM2	800	10.1016/j.cub.2024.08.047	rock shelter	sediment	2019	ENA	PRJEB59830	ERS14617135
+Zampirolo2024	2024	10.1016/j.cub.2024.08.047	Velký Mamut'ák	50.518	15.071	Czechia	faunal,floral,microbial	North Wall excavation trench	26	VM3	800	10.1016/j.cub.2024.08.047	rock shelter	sediment	2019	ENA	PRJEB59830	ERS14617136
+Zampirolo2024	2024	10.1016/j.cub.2024.08.047	Velký Mamut'ák	50.518	15.071	Czechia	faunal,floral,microbial	North Wall excavation trench	64	VM11	3000	10.1016/j.cub.2024.08.047	rock shelter	sediment	2019	ENA	PRJEB59830	ERS14617137
+Zampirolo2024	2024	10.1016/j.cub.2024.08.047	Velký Mamut'ák	50.518	15.071	Czechia	faunal,floral,microbial	North Wall excavation trench	107	VM14	3900	10.1016/j.cub.2024.08.047	rock shelter	sediment	2019	ENA	PRJEB59830	ERS14617138
+Zampirolo2024	2024	10.1016/j.cub.2024.08.047	Velký Mamut'ák	50.518	15.071	Czechia	faunal,floral,microbial	North Wall excavation trench	116	VM15	4100	10.1016/j.cub.2024.08.047	rock shelter	sediment	2019	ENA	PRJEB59830	ERS14617139
+Zampirolo2024	2024	10.1016/j.cub.2024.08.047	Velký Mamut'ák	50.518	15.071	Czechia	faunal,floral,microbial	North Wall excavation trench	134	VM17	5300	10.1016/j.cub.2024.08.047	rock shelter	sediment	2019	ENA	PRJEB59830	ERS14617140
+Zampirolo2024	2024	10.1016/j.cub.2024.08.047	Velký Mamut'ák	50.518	15.071	Czechia	faunal,floral,microbial	North Wall excavation trench	151	VM19	6100	10.1016/j.cub.2024.08.047	rock shelter	sediment	2019	ENA	PRJEB59830	ERS14617141
+Zampirolo2024	2024	10.1016/j.cub.2024.08.047	Velký Mamut'ák	50.518	15.071	Czechia	faunal,floral,microbial	North Wall excavation trench	185	VM22	6800	10.1016/j.cub.2024.08.047	rock shelter	sediment	2019	ENA	PRJEB59830	ERS14617142
+Zampirolo2024	2024	10.1016/j.cub.2024.08.047	Velký Mamut'ák	50.518	15.071	Czechia	faunal,floral,microbial	North Wall excavation trench	196	VM24	7000	10.1016/j.cub.2024.08.047	rock shelter	sediment	2019	ENA	PRJEB59830	ERS14617143
+Zampirolo2024	2024	10.1016/j.cub.2024.08.047	Velký Mamut'ák	50.518	15.071	Czechia	faunal,floral,microbial	North Wall excavation trench	222	VM26	9600	10.1016/j.cub.2024.08.047	rock shelter	sediment	2019	ENA	PRJEB59830	ERS14617144
+Zampirolo2024	2024	10.1016/j.cub.2024.08.047	Velký Mamut'ák	50.518	15.071	Czechia	faunal,floral,microbial	North Wall excavation trench	236	VM28	9800	10.1016/j.cub.2024.08.047	rock shelter	sediment	2019	ENA	PRJEB59830	ERS14617145

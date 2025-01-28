@@ -1,0 +1,10 @@
+{
+    "enum": [
+        "cal AD", 
+        "cal BC", 
+        "cal CE", 
+        "cal BCE", 
+        "cal BP", 
+        "NA"
+    ]
+}

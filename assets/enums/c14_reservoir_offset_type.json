@@ -1,0 +1,8 @@
+{
+    "enum":[
+        "MARINE", 
+        "FRESHWATER", 
+        "NR", 
+        "NA"
+    ]
+}

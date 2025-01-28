@@ -114,15 +114,15 @@
         "$id": "#/items/properties/date_is_radiocarbon",
         "type": "string",
         "title": "Is Date Radiocarbon?",
-        "enums": ["true", "false", "NA", "NR"],
+        "pattern": "TRUE|FALSE|NA|NR",
         "description": "Whether a sample has a specific year-date reported (e.g. 1245, not 15th Century or similar), If false, all other downstream fields should be set to NA",
-        "examples": ["true", "false"]
+        "examples": ["TRUE", "FALSE", "NR", "NA"]
       },
       "multiple_dates": {
         "$id": "#/items/properties/multiple_dates",
         "type": "string",
         "title": "Multiple Direct Dates Present?",
-        "enums": ["true", "false", "NA"],
+        "pattern": "TRUE|FALSE|NA",
         "description": "Whether multiple (direct) dates are present for this sample; if so make multiple rows for the sample with one date per row.",
         "examples": ["true", "false", "NA"]
       },
@@ -130,7 +130,7 @@
         "$id": "#/items/properties/reference_location",
         "type": "string",
         "title": "Location of Reference to Date",
-        "enums": ["main text", "supplement text", "supplement table"],
+        "pattern": "main text|supplement text|supplement table|NA",
         "description": "First place where the precise-radiocarbon date was recorded in the primary citation publication (i.e, the publication in ancientMetagenomeDir). main text > supplementary text > supplmentary table.",
         "examples": ["main text", "supplement text", "supplement table", "NA"]
       },
@@ -138,25 +138,25 @@
         "$id": "#/items/properties/reference_citation_depth",
         "type": "string",
         "title": "Reference Citation Depth?",
-        "enums": ["main text", "supplement text", "supplement table"],
-        "description": "First place where the precise-radiocarbon date was recorded in the primary citation publication (i.e, the publication in ancientMetagenomeDir). main text > supplementary text > supplmentary table.",
+        "pattern": "[1-3]|9|NA",
+        "description": "First place where the precise-radiocarbon date was recorded in the primary citation publication (i.e, the publication in ancientMetagenomeDir). 1 - main text > 2 - supplementary text > 3 - supplementary table.",
         "examples": ["1", "2", "3", "9", "NA"]
       },
       "primary_secondary_reference_citation_doi": {
         "$id": "#/items/properties/primary_secondary_reference_citation_doi",
         "type": "string",
-        "pattern": "^10.\\d{4,9}\\/[^,]+$",
+        "pattern": "^10.\\d{4,9}\\/[^,]+$|NA",
         "title": "Digital Object Identifier (DOI) of the publication that the date was originally reported.",
         "description": "DOI of the primary or secondary reference (i.e. the DOI of the publication in which the date was original reported)",
-        "examples": ["10.1038/ng.2906"]
+        "examples": ["10.1038/ng.2906", "NA"]
       },
       "direct_dating": {
         "$id": "#/items/properties/direct_dating",
         "type": "string",
         "title": "Date Directly from Sample?",
-        "enums": ["true", "false", "NA", "NR"],
+        "pattern": "TRUE|FALSE|NA|NR",
         "description": "Whether the date of the ancient metagenomic sample was directly from the same skeleton (or similar), or whether inferred from other samples in the same context",
-        "examples": ["true", "false", "NA", "NR"]
+        "examples": ["TRUE", "FALSE", "NA", "NR"]
       },
       "radiocarbon_lab_code": {
         "$id": "#/items/properties/radiocarbon_lab_sample_id",
@@ -168,16 +168,16 @@
       },
       "radiocarbon_lab_sample_id": {
         "$id": "#/items/properties/radiocarbon_lab_sample_id",
-        "type": "integer",
+        "type": ["integer","null"],
         "title": "Radiocarbon Lab Sample ID",
         "description": "C14 sample code of the radiocarbon date from the lab",
-        "examples": ["12355", "44034"]
+        "examples": [12355, 44034, "NA"]
       },
       "spectrometry_type": {
         "$id": "#/items/properties/spectrometry_type",
         "type": "string",
         "title": "Delta 13C measurement method.",
-        "enums": ["AMS", "IMRS", "NA", "NR"],
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_spectometry_type.json",
         "description": "Which spectrophotometry method was used to measure the delta carbon-13 value, either with Isotope Ratio Mass Spectrometer (IRMS) or Accelerated Mass Spectrometer (AMS).",
         "examples": ["AMS", "IMRS", "NR", "NA"]
       },
@@ -242,15 +242,16 @@
       },
       "calibration_reported": {
         "$id": "#/items/properties/calibration_reported",
-        "type": "boolean",
+        "type": "string",
         "title": "Is Calibration Reported?",
+        "pattern": "TRUE|FALSE|NA",
         "description": "Whether the date has additionally been calibrated.",
-        "examples": ["true", "false"]
+        "examples": ["TRUE", "FALSE", "NA"]
       },
       "calibration_curve": {
         "$id": "#/items/properties/calibration_curve",
         "type": "string",
-        "enums": ["IntCal20", "CalPal2007_HULU", "SHCal20", "Marine20", "NR", "NA"],
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_calibration_curve.json",
         "title": "Calibration Curve",
         "description": "The tree-ring calibration curve used for calibration.",
         "examples": ["IntCal20", "CalPal2007_HULU", "SHCal20", "Marine20", "NR", "NA"]
@@ -258,7 +259,7 @@
       "calibration_software": {
         "$id": "#/items/properties/calibration_software",
         "type": "string",
-        "enums": ["OxCal", "CalPal", "NR", "NA"],
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_calibration_software.json",
         "title": "Calibration Software",
         "description": "Software used for radiocarbon calibration.",
         "examples": ["OxCal", "CalPal", "NR", "NA"]
@@ -309,7 +310,7 @@
       "calibrated_range_suffix": {
         "$id": "#/items/properties/calibrated_range_suffix",
         "type": "string",
-        "enums": ["cal AD", "cal BC", "cal CE", "cal BCE", "cal BP", "NA"],
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_calibrated_range_suffix.json",
         "title": "Suffix of the calibrated date range",
         "description": "The suffix of the calibrated date range",
         "examples": ["cal BP", "NA"]
@@ -323,25 +324,26 @@
       },
       "reservoir_offset_mentioned": {
         "$id": "#/items/properties/reservoir_offset_mentioned",
-        "type": "boolean",
+        "type": "string",
         "title": "Is Reservoir Offset Mentioned?",
+        "pattern": "TRUE|FALSE|NA",
         "description": "If radiocarbon C14 reservoir offset mentioned in any form. False here corresponds to not recorded (NR)",
-        "examples": ["true", "false"]
+        "examples": ["TRUE", "FALSE", "NA"]
       },
       "reservoir_offset_applied": {
         "$id": "#/items/properties/reservoir_offset_applied",
         "type": ["boolean", "null"],
         "title": "Is Reservoir Offset Applied?",
         "description": "If an offset correction or recalibration has been reported to have been applied ",
-        "examples": ["true", "false", "NA"]
+        "examples": ["TRUE", "FALSE", "NA"]
       },
-      "reservoir_offset_type":{
+      "reservoir_offset_type": {
         "$id": "#/items/properties/reservoir_offset_type",
-        "type": [ "string","null" ],
-        "enums": ["MARINE", "FRESHWATER", "NR", "NA"],
+        "type": "string",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_reservoir_offset_type.json",
         "title": "Is the reported Reservoir Effect of Marine or Freshwater nature?",
         "description": "Specify if the reported reservoir effect is of marine or freshwater origin.",
-        "examples": ["MARINE", "FRESHWATER", "NR", "NA"] 
+        "examples": ["FRESHWATER", "NA"]
       },
       "reservoir_offset_reported": {
         "$id": "#/items/properties/reservoir_offset_reported",

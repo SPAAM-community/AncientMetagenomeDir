@@ -339,11 +339,11 @@
       },
       "reservoir_offset_type": {
         "$id": "#/items/properties/reservoir_offset_type",
-        "type": "string",
-        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_reservoir_offset_type.json",
+        "type": ["string","null"],
+        "pattern": "FRESHWATER|MARINE|NR|NA",
         "title": "Is the reported Reservoir Effect of Marine or Freshwater nature?",
         "description": "Specify if the reported reservoir effect is of marine or freshwater origin.",
-        "examples": ["FRESHWATER", "NA"]
+        "examples": ["FRESHWATER","MARINE","NR", "NA"]
       },
       "reservoir_offset_reported": {
         "$id": "#/items/properties/reservoir_offset_reported",

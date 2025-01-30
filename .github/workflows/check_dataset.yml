@@ -59,12 +59,12 @@ jobs:
         if: always()
         run: |
           grep -v streamlit validation/validation_results_raw.txt > validation/validation_results.txt
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: results
           path: validation/validation_results.txt
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         if: always()
         with:
           name: results

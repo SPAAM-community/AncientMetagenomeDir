@@ -20,6 +20,7 @@
       "archive_sample_accession",
       "date_information_present",
       "date_is_radiocarbon",
+      "archaeological_historical_date",
       "multiple_dates",
       "reference_location",
       "reference_citation_depth",
@@ -28,6 +29,7 @@
       "radiocarbon_lab_code",
       "radiocarbon_lab_sample_id",
       "spectrometry_type",
+      "pretreatment_reported",
       "pretreatment_type",
       "sample_material",
       "uncalibrated_date",
@@ -115,8 +117,16 @@
         "type": "string",
         "title": "Is Date Radiocarbon?",
         "pattern": "TRUE|FALSE|NA|NR",
-        "description": "Whether a sample has a specific year-date reported (e.g. 1245, not 15th Century or similar), If false, all other downstream fields should be set to NA",
+        "description": "Whether a sample has a specific radiocarbon date reported (e.g. 1245, not 15th Century or similar)",
         "examples": ["TRUE", "FALSE", "NR", "NA"]
+      },
+      "archaeological_historical_date": {
+        "$id": "#/items/properties/archaeological_historical_date",
+        "type": [ "string", "null"],
+        "title": "Archaeological or historical date range or singular date",
+        "pattern": "[0-9]+-*[0-9]+|NA",
+        "description": "Archaeological or historical date range or singular date. The unit of time is Before Present (before 1950, BP)",
+        "examples": ["500-550", "35", "NA"]
       },
       "multiple_dates": {
         "$id": "#/items/properties/multiple_dates",
@@ -180,6 +190,14 @@
         "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_spectometry_type.json",
         "description": "Which spectrophotometry method was used to measure the delta carbon-13 value, either with Isotope Ratio Mass Spectrometer (IRMS) or Accelerated Mass Spectrometer (AMS).",
         "examples": ["AMS", "IMRS", "NR", "NA"]
+      },
+      "pretreatment_reported":{
+        "$id": "#/items/properties/pretreatment_reported",
+        "type": "string",
+        "title": "Is Preatreatmnet Reported?",
+        "pattern": "TRUE|FALSE|NA|NR",
+        "description": "Is a pretreatment reported?",
+        "examples": ["TRUE", "FALSE", "NA", "NR"]
       },
       "pretreatment_type":{
         "$id": "#/items/properties/pretreatment_type",

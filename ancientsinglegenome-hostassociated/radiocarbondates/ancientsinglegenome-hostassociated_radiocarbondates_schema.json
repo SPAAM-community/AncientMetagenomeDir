@@ -148,17 +148,17 @@
         "$id": "#/items/properties/reference_citation_depth",
         "type": "string",
         "title": "Reference Citation Depth?",
-        "pattern": "[1-3]|9|NA",
+        "pattern": "[1-3]|Unknown|NA",
         "description": "First place where the precise-radiocarbon date was recorded in the primary citation publication (i.e, the publication in ancientMetagenomeDir). 1 - main text > 2 - supplementary text > 3 - supplementary table.",
-        "examples": ["1", "2", "3", "9", "NA"]
+        "examples": ["1", "2", "3", "Unknown", "NA"]
       },
       "primary_secondary_reference_citation_doi": {
         "$id": "#/items/properties/primary_secondary_reference_citation_doi",
         "type": "string",
-        "pattern": "^10.\\d{4,9}\\/[^,]+$|NA",
+        "pattern": "^10.\\d{4,9}\\/[^,]+$|Unknown|NA",
         "title": "Digital Object Identifier (DOI) of the publication that the date was originally reported.",
         "description": "DOI of the primary or secondary reference (i.e. the DOI of the publication in which the date was original reported)",
-        "examples": ["10.1038/ng.2906", "NA"]
+        "examples": ["10.1038/ng.2906", "Unknown", "NA"]
       },
       "direct_dating": {
         "$id": "#/items/properties/direct_dating",

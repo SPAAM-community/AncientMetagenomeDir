@@ -13,7 +13,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
-- Valeur Seersholm 2024 10.1038/s41586-024-07651-2(added by @YuejiaoHuang)
+- Valeur Seersholm 2024 10.1038/s41586-024-07651-2(added by @YuejiaoHuang and @alexhbnr)
 
 #### Ancient Metagenome: Environmental
 

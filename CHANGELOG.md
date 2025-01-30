@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 #### Ancient Single Genome: Host Associated
+- Patrono 2022 10.1038/s41467-022-29614-9 (added by @KaHea-21)
 
 #### Ancient Metagenome: Environmental
 

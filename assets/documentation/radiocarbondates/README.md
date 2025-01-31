@@ -160,11 +160,11 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 ## reference_citation_depth
 
 - Where/when was the sample physically dated? 
-  - 1: radiocarbon date was published in the ancient metagenomics study.
-  - 2: the date was published in an earlier study.
-  - 3: the date was published in a different publication from the secondary citation.
-  - Unknown: when it is unsure where the date was published. 
-  - NA: for samples were not dating information is available.
+  - `1`: radiocarbon date was published in the ancient metagenomics study.
+  - `2`: the date was published in an earlier study.
+  - `3`: the date was published in a different publication from the secondary citation.
+  - `Unknown`: when it is unsure where the date was published. 
+  - `NA`: for samples were not dating information is available.
 
 - Missing value: `Unknown` or `NA`.
 
@@ -173,7 +173,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 - Digital Object Identifier (DOI) of the publication were the precise-radiocarbon date was published.
 
 - Specify:
+
   -`Unknown` when `reference_citation_depth` is set to `Unknown`.
+
   - `NA` for samples were not dating information is available.
 
 - Missing value: `Unknown` or `NA`.
@@ -208,10 +210,13 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 ## spectrometry_type
 
 - The spectrophotometry method used to measure the delta carbon-13 value (δ13C or d13C):
-  - Isotope Ratio Mass Spectrometer (IRMS).
-  - Accelerated Mass Spectrometer (AMS).
+
+  - `IRMS`:Isotope Ratio Mass Spectrometer.
+
+  - `AMS`: Accelerated Mass Spectrometer.
 
 - Specify:
+
   -`NR` when this is not reported.
   -`NA` when the sample has no radiocarbon date.
 
@@ -225,9 +230,12 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - Valid values:
   - `TRUE`: pretreatment applied
+
   - `FALSE`: no pretreatment applied
-  - `NR`: pretreatment not reported or unsure whether a pretreatment was applied.
-  - `NA`: date is not a radiocarbon date.
+
+  - `NR`: pretreatment not reported or unsure whether a pretreatment was applied
+
+  - `NA`: date is not a radiocarbon date
 
 
 ## pretreatment_type
@@ -263,16 +271,21 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 - This is normally the value that the C14 lab will report.
 
 - Specify:
-  - `-99999` if a radiocarbon date is reported but the uncalibrated date is not reported.
+  - `-99999` if a radiocarbon date is reported but the uncalibrated date is not reported
+
   -`NA` if date is not a radiocarbon date
+
 
 ## uncalibrated_uncertainty_plus_minus
 
 - Uncertainty value around uncalibrated date in calendar year date Before Present notation, typically indicated by ± in the C14 lab report.
 
 - Specify:
-  - `-99999` if a radiocarbon date is reported but the uncalibrated uncertainty is not reported.
+
+  - `-99999` if a radiocarbon date is reported but the uncalibrated uncertainty is not reported
+
   -`NA` if date is not a radiocarbon date
+
 
 ## delta_13c
 
@@ -315,8 +328,8 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 - Whether a calibration for the radiocarbon date is reported.
 
 - Values:
-  - TRUE
-  - FALSE
+  - `TRUE`
+  - `FALSE`
 
 - `NA` should be used when date is not radiocarbon date.
 
@@ -437,7 +450,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 - Accepted values: `TRUE` or `FALSE`
 
 - Specify `NA` if: 
+
   - Date is not a radiocarbon date
+
   - No reservoir effect was reported/mentioned.
 
 
@@ -460,8 +475,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 - If a reservoir effect was reported but the applied offser is not reported specify `-99999`.
 
 - Specify `NA` if:
- - Date is not a radiocarbon date
- - No reservoir effect was reported.
+
+  - Date is not a radiocarbon date
+  - No reservoir effect was reported.
 
 ## reservoir_offset_reported_sd
 
@@ -470,8 +486,8 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 - If a reservoir effect was reported but the standard deviation of the actual offset applied is not reported specify `-99999`
 
 - Specify `NA` if:
- - Date is not a radiocarbon date
- - No reservoir effect was reported for the specific sample.
+  - Date is not a radiocarbon date
+  - No reservoir effect was reported for the specific sample.
 
 ## reservoir_aquatic_carbon_perc
 
@@ -480,8 +496,8 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 - If a reservoir effect was reported but the carbon percentage from aquatic contribution is not reported specify `-99999`
 
 - Specify `NA` if:
- - Date is not a radiocarbon date
- - No reservoir effect was reported for the specific sample.
+  - Date is not a radiocarbon date
+  - No reservoir effect was reported for the specific sample.
 
 ## reservoir_aquatic_carbon_perc_sd
 
@@ -490,5 +506,5 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 - If a reservoir effect was reported but the standard deviation of the carbon percentage from aquatic contribution is not reported specify `-99999`
 
 - Specify `NA` if:
- - Date is not a radiocarbon date
- - No reservoir effect was reported for the specific sample.
+  - Date is not a radiocarbon date
+  - No reservoir effect was reported for the specific sample.

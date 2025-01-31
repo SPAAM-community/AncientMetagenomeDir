@@ -181,7 +181,7 @@
         "type": ["integer","null"],
         "title": "Radiocarbon Lab Sample ID",
         "description": "C14 sample code of the radiocarbon date from the lab",
-        "examples": [12355, 44034, "NA"]
+        "examples": [12355, 44034, -99999, "NA"]
       },
       "spectrometry_type": {
         "$id": "#/items/properties/spectrometry_type",
@@ -195,7 +195,7 @@
         "$id": "#/items/properties/pretreatment_reported",
         "type": "string",
         "title": "Is Preatreatmnet Reported?",
-        "pattern": "TRUE|FALSE|NA|NR",
+        "pattern": "TRUE|FALSE|NA",
         "description": "Is a pretreatment reported?",
         "examples": ["TRUE", "FALSE", "NA", "NR"]
       },
@@ -221,14 +221,14 @@
         "maximum": 50000,
         "title": "Uncalibrated Date Year",
         "description": "The uncalibrated date in calendar year date Before Present notation",
-        "examples": [934, 3960, 13000, "NA"]
+        "examples": [934, 3960, 13000, -99999, "NA"]
       },
       "uncalibrated_uncertainty_plus_minus": {
         "$id": "#/items/properties/uncalibrated_uncertainty_plus_minus",
         "type": ["integer", "null"],
         "title": "Uncalibrated Date Year Uncertainty",
         "description": "Uncertainty value around uncalibrated date in calendar year date Before Present notation, typically indicated by ±",
-        "examples": [32, 5, 150, "NA"]
+        "examples": [32, 5, 150, -99999, "NA"]
       },
       "delta_13c": {
         "$id": "#/items/properties/delta_13c",
@@ -299,31 +299,31 @@
       "calibration_software_citation_doi": {
         "$id": "#/items/properties/calibration_software_citation_doi",
         "type": "string",
-        "pattern": "^10.\\d{4,9}\\/[^,]+$|NR|NA",
+        "pattern": "^10.\\d{4,9}\\/[^,]+$|NA",
         "title": "Digital Object Identifier (DOI) of the radiocarbon calibration software publication.",
         "description": "A valid DOI code (not as an URL).",
-        "examples": ["10.1038/ng.2906", "NR", "NA"]
+        "examples": ["10.1038/ng.2906", "NA"]
       },
       "calibrated_range_lower": {
         "$id": "#/items/properties/calibrated_range_lower",
         "type": [ "integer", "null" ],
         "title": "Lower Date of Calibrated Date Range",
         "description": "The lower range of the calibrated date",
-        "examples": [1650, "NA"]
+        "examples": [1650, -99999, "NA"]
       },
       "calibrated_range_upper": {
         "$id": "#/items/properties/calibrated_range_upper",
         "type": [ "integer", "null" ],
         "title": "Upper Date of Calibrated Date Range",
         "description": "The upper range of the calibrated date",
-        "examples": [1450, "NA"]
+        "examples": [1450, -99999, "NA"]
       },
       "calibrated_range_median": {
         "$id": "#/items/properties/calibrated_range_median",
         "type": [ "integer", "null" ],
         "title": "Median Date of Calibrated Date Range",
         "description": "The median date of the calibrated date range",
-        "examples": [1550, "NA"]
+        "examples": [1550, -99999, "NA"]
       },
       "calibrated_range_suffix": {
         "$id": "#/items/properties/calibrated_range_suffix",
@@ -338,7 +338,7 @@
         "type": [ "integer", "null" ],
         "title": "Calibrated range sigma",
         "description": "Confidence level of the reported calibrated age range, typically in 2 (95.4%) or 1 (68.2%) levels of significance (sigma).",
-        "examples": [1, 2, "NA"]
+        "examples": [1, 2, -99999, "NA"]
       },
       "reservoir_offset_mentioned": {
         "$id": "#/items/properties/reservoir_offset_mentioned",
@@ -368,28 +368,28 @@
         "type": [ "integer", "null" ],
         "title": "Reservoir Offset Reported",
         "description": "If the actual value of the offset has been reported (set NR if applied but actual value of offset not reported)",
-        "examples": [250, 400, "NA"]
+        "examples": [250, 400, -99999, "NA"]
       },
       "reservoir_offset_reported_sd": {
         "$id": "#/items/properties/reservoir_offset_reported_sd",
         "type": [ "integer", "null" ],
         "title": "Reservoir Offset Reported Standard Deviation",
         "description": "Standard deviation of the reported reservoir offset. Should be indicated by ±",
-        "examples": [25, 40, "NA"]
+        "examples": [25, 40, -99999, "NA"]
       },
       "reservoir_aquatic_carbon_perc": {
         "$id": "#/items/properties/reservoir_aquatic_carbon_perc",
         "type": [ "integer", "null" ],
         "title": "Reservoir Offset Aquatic carbon percentage",
         "description": "Percentage δ13C estimate of fish contribution to reservoir offset value",
-        "examples": [53, 15, "NA"]
+        "examples": [53, 15, -99999, "NA"]
       },
       "reservoir_aquatic_carbon_perc_sd": {
         "$id": "#/items/properties/reservoir_aquatic_carbon_perc_sd",
         "type": [ "integer", "null" ],
         "title": "Reservoir Offset Reported Standard Deviation",
         "description": "Standard deviation of % δ13C estimate of fish contribution to reservoir offset value. Should be indicated by ±",
-        "examples": [25, 40, "NA"]
+        "examples": [25, 40, -99999, "NA"]
       }
     }
   }

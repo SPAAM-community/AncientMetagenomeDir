@@ -195,7 +195,7 @@
         "$id": "#/items/properties/pretreatment_reported",
         "type": "string",
         "title": "Is Preatreatmnet Reported?",
-        "pattern": "TRUE|FALSE|NA",
+        "pattern": "TRUE|FALSE|NR|NA",
         "description": "Is a pretreatment reported?",
         "examples": ["TRUE", "FALSE", "NA", "NR"]
       },

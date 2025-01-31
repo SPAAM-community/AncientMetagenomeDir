@@ -224,10 +224,11 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 - Whether a pretreatment was applied to the sample prior to the radiocarbon measurement.
 
 - Valid values:
-  - TRUE
-  - FALSE
+  - `TRUE`: pretreatment applied
+  - `FALSE`: no pretreatment applied
+  - `NR`: pretreatment not reported or unsure whether a pretreatment was applied.
+  - `NA`: date is not a radiocarbon date.
 
-- Missing value `NA`
 
 ## pretreatment_type
 

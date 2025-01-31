@@ -334,7 +334,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - Software used for the calibration of the uncalibrated radiocarbon date.
 
-- When the calibration software is not reported please specify `NR`
+- When the calibration software is not reported please specify `NR`.
 
 - `NA` should be used when date is not radiocarbon date.
 
@@ -365,7 +365,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - Digital Object Identifier (DOI) of the publication were the calibration of the radiocarbon date was published.
 
+
 - Specify:
+  - `NR` when calibration is reported but no calibration software is mentioned.
   - `NA` when date is not radiocarbon date or no calibration is reported.
 
 ## calibrated_range_lower

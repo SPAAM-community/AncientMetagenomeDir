@@ -299,7 +299,7 @@
       "calibration_software_citation_doi": {
         "$id": "#/items/properties/calibration_software_citation_doi",
         "type": "string",
-        "pattern": "^10.\\d{4,9}\\/[^,]+$|NA",
+        "pattern": "^10.\\d{4,9}\\/[^,]+$|NR|NA",
         "title": "Digital Object Identifier (DOI) of the radiocarbon calibration software publication.",
         "description": "A valid DOI code (not as an URL).",
         "examples": ["10.1038/ng.2906", "NA"]

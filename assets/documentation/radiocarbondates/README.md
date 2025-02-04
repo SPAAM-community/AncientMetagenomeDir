@@ -176,9 +176,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
     etc.
 
 - Specify:
-
-  -`Unknown` when `reference_citation_depth` is set to `Unknown`.
-
+  - `Unknown` when `reference_citation_depth` is set to `Unknown`.
   - `NA` for samples were not dating information is available.
 
 - Missing value: `Unknown` or `NA`.
@@ -245,6 +243,29 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - Which pretreatment was applied before the radiocarbon measurement.
 
+- The pretreatment is applied when contamination is suspected, e.g. from glues.
+
+- The pretreatment is dependent on the type of material used for radiocarbon dating. Here you can find some common pretreatments based on the material used:
+  - Tooth/ Bone:
+    - Acid only
+    - Acid-base-acid (ABA or AAA)
+    - Collagen; extraction with gelatinisation
+    - Collagen (ultrafiltered); extraction with gelatinisation followed by ultrafiltration
+    - Hydroxyproline
+    - Bioapatite
+  
+  - Charcoal
+    -Acid only
+    -Acid-base-acid (ABA or AAA)
+    -Acid-base-oxidation-stepped combustion (ABOx-SC)
+
+  - Wood
+    - Acid only
+    - Acid-base-acid (ABA or AAA)
+    - Holocellulose
+    - Alphacellulose
+
+
 - Missing value: `NA`
 
 ## sample_material
@@ -274,9 +295,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 - This is normally the value that the C14 lab will report.
 
 - Specify:
-  - `-99999` if a radiocarbon date is reported but the uncalibrated date is not reported
+  - `-99999` if a radiocarbon date is reported but the uncalibrated date is not reported.
 
-  -`NA` if date is not a radiocarbon date
+  - `NA` if date is not a radiocarbon date.
 
 
 ## uncalibrated_uncertainty_plus_minus
@@ -285,9 +306,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - Specify:
 
-  - `-99999` if a radiocarbon date is reported but the uncalibrated uncertainty is not reported
+  - `-99999` if a radiocarbon date is reported but the uncalibrated uncertainty is not reported.
 
-  -`NA` if date is not a radiocarbon date
+  - `NA` if date is not a radiocarbon date.
 
 
 ## delta_13c
@@ -302,7 +323,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - The percentage of carbon in a non-proteinaceous sample used for dating (such as charcoal), expressed as a percentage (%). Used as a quality control measurement. 
 
-- Not reported should be represented as `-99999`
+- Not reported should be represented as `-99999`.
 
 - `NA` should be used when date is not radiocarbon date.
 
@@ -312,7 +333,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - This value is important when reporting radiocarbon dates derive from collagen to determine whether there is a reservoir effect (date appearing to be older than it really is).
 
-- Not reported should be represented as `-99999`
+- Not reported should be represented as `-99999`.
 
 - `NA` should be used when date is not radiocarbon date.
 

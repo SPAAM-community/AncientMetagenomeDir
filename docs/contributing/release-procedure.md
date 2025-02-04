@@ -4,8 +4,7 @@
 
 This document describes the release procedure for AncientMetagenomeDir. Releases are made periodically (~every three months) on the first day of a given month. Names of releases are derived from [this wiki page](https://github.com/SPAAM-workshop/AncientMetagenomeDir/wiki/Release-Name-List).
 
-> [!WARNING]
-> this release procedure currently requires knowledge of command-line git and admin privileges, however this maybe made automatic using Github Actions in the future.
+!> _WARNING_ this release procedure currently requires knowledge of command-line git and admin privileges, however this maybe made automatic using Github Actions in the future.
 
 ## Preparation
 
@@ -21,8 +20,7 @@ Change into the pulled directory
 cd AncientMetagenomeDir
 ```
 
-> [!WARNING]
-> if you are pulling (rather than cloning), make sure you're on the `master` branch.
+!> _WARNING_ if you are pulling (rather than cloning), make sure you're on the `master` branch.
 
 Run through the pre-release checks by running the following script
 
@@ -49,13 +47,13 @@ code assets/analysis/prerelease-validation-withintable.R
 ````
 (Or open in Rstudio, or whatever R IDE is to your taste)
 
-> [!NOTE]
-> this has not been automated as often trying to work out why errors occur requires manual curation.
+<p class='note'>
+<em>NOTE</em> this has not been automated as often trying to work out why errors occur requires manual curation.
+</p>
 
 Once no errors are found, you can run the following script to get the release statement.
 
-> [!WARNING]
-> make sure to update the version tags at the top of the R script before running!
+!> _WARNING_ make sure to update the version tags at the top of the R script before running!
 
 ```bash
 Rscript assets/analysis/release-stats-statement-generator.R
@@ -89,8 +87,9 @@ to
 ## Release v20.12: Ancient City of Nessebar
 ```
 
-> [!TIP]
-> Note that the UNESCO release 'name' does not have to be the full name of the UNESCO entry, it can be shortened for aesthetic/pronouncability reasons (some can be very long)
+<p class='help'>
+<em>TIP</em> Note that the UNESCO release 'name' does not have to be the full name of the UNESCO entry, it can be shortened for aesthetic/pronouncability reasons (some can be very long)
+</p>
 
 Push these changes to master
 
@@ -114,8 +113,8 @@ Run the following command to make a `.zip` archive containing just the table dir
 VERSION=23.03.0
 zip -r AncientMetagenomeDir_v"$VERSION".zip ancient*/ CHANGELOG.md README.md assets/images/figures/* assets/documentation/*
 ``` 
-> [!WARNING]
-> make sure to update the version in the ZIP name!
+
+!> _WARNING_ make sure to update the version in the ZIP name!
 
 ## Make Release
 
@@ -138,9 +137,9 @@ zip -r AncientMetagenomeDir_v"$VERSION".zip ancient*/ CHANGELOG.md README.md ass
         - make sure in the include the github handles of all the people who made PRs, and also ideally who reviewed them if they've not made their own PR (open each closed PR included this release, to get both lists of people).
     - and also the description for the corresponding [UNESCO information page](https://whc.unesco.org/en/list/) of the corresponding release name (see other releases as examples). 
 
-> [!TIP]
-> You can use the script `assets/utility/release_stats_statement_generator.R` to generate the statistics statement for you.
-
+<p class='help'>
+<em>TIP</em> You can use the script <code>assets/utility/release_stats_statement_generator.R</code> to generate the statistics statement for you.
+</p>
 
 3. **IMPORTANT** upload the ZIP file in the 'Attach binaries' section.
 

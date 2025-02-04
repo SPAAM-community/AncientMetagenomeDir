@@ -15,8 +15,7 @@ The AncientMetagenomeDir is a project led by the [SPAAM community](https://spaam
 
 ### Slides
 
-> [!WARNING]  
-> The presentation may be out of date
+!> _WARNING_ The presentation may be out of date
 
 The slides linked below were created by James Fellows Yates. All the content in this document was created based on these slides and patient discussions with the SPAAM community - thank you all! 
 * [A practical intro to Git(Hub) slides](https://hackmd.io/@jfy133/H19kmDalw#/) [2022]
@@ -292,15 +291,15 @@ And a minute or so later a new comment will be posted with a link you can press 
 
 ![image](https://github.com/SPAAM-community/AncientMetagenomeDir/assets/17950287/4fe0e11e-8bf8-45d2-bf0c-8d2fa81517b4)
 
-> [!NOTE]
-> If an error occurs, you'll get another message with instructions on what to do
+<p class="note">
+<em>NOTE</em>&nbsp; If an error occurs, you'll get another message with instructions on what to do
+</p>
 
 This file includes relevant library metadata from the ENA (and SRA) databases, that are already available alongside the FASTQ file files themselves. 
 
 Open the `TEMPLATE_` file in your preferred spreadsheet manager, and start filling it in (but note the instructions below about [additional metadata](@#additional-metadata)!) - just as you have down with the sample metadata sheet above! There are dedicated README file with column descriptions for the library metadata tables too :).
 
-> [!IMPORTANT]
-> It is also critical to **verify** that the pre-filled columns are _also_ correct! In some cases the information on the ENA will be _incorrect_ (e.g. very often the Instrument Platform column!)
+?> _IMPORTANT_ It is also critical to **verify** that the pre-filled columns are _also_ correct! In some cases the information on the ENA will be _incorrect_ (e.g. very often the Instrument Platform column!)
 
 ### Manual
 

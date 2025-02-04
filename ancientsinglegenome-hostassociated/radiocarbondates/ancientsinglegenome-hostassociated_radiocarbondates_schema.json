@@ -78,7 +78,6 @@
       "data_publication_doi": {
         "$id": "#/items/properties/data_publication_doi",
         "type": "string",
-        "pattern": "^10.\\d{4,9}\\/[^,]+$",
         "title": "Digital Object Identifier (DOI) of the publication.",
         "description": "A valid DOI code (not as an URL). Must match a AncientMetagenomeDir samples table entry",
         "examples": ["10.1038/ng.2906"]
@@ -155,10 +154,9 @@
       "primary_secondary_reference_citation_doi": {
         "$id": "#/items/properties/primary_secondary_reference_citation_doi",
         "type": "string",
-        "pattern": "^10.\\d{4,9}\\/[^,]+$|Unknown|NA",
         "title": "Digital Object Identifier (DOI) of the publication that the date was originally reported.",
-        "description": "DOI of the primary or secondary reference (i.e. the DOI of the publication in which the date was original reported)",
-        "examples": ["10.1038/ng.2906", "Unknown", "NA"]
+        "description": "DOI of the primary or secondary reference (i.e. the DOI of the publication in which the date was original reported) or permalink",
+        "examples": ["10.1038/ng.2906", "https://www.jstor.org/stable/j.ctv270kvmk", "Unknown", "NA"]
       },
       "direct_dating": {
         "$id": "#/items/properties/direct_dating",

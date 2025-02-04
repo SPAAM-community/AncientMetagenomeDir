@@ -171,6 +171,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 ## primary_secondary_reference_citation_doi
 
 - Digital Object Identifier (DOI) of the publication were the precise-radiocarbon date was published.
+- Or library permalink
+  - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
+    etc.
 
 - Specify:
 

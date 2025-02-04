@@ -1,1 +1,1 @@
-/Users/andrades/Documents/git/AncientMetagenomeDir/assets/documentation/dates/README.md
+../../assets/documentation/dates/README.md

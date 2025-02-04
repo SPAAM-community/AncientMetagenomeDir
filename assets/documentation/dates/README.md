@@ -1,8 +1,8 @@
-# AncientMetagenomeDir - Radiocarbon Dates Column Specifications
+# AncientMetagenomeDir - Dates Column Specifications
 
 ![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
 
-This page describes columns definitions for the radiocarbon dating list. Right now it only applies to: 
+This page describes columns definitions for the dates list. Right now it only applies to: 
 
 - 🦠: host-associated ancient single genomes
 
@@ -17,7 +17,7 @@ If you wish to a new category, please consult with the [SPAAM
 community](spaam-community.github.io), and then add it to
 `assets/enums/<column>.json`.
 
-Radio carbon dates columns are as follows:
+Dates columns are as follows:
 
 ## project_name
 
@@ -255,9 +255,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
     - Bioapatite
   
   - Charcoal
-    -Acid only
-    -Acid-base-acid (ABA or AAA)
-    -Acid-base-oxidation-stepped combustion (ABOx-SC)
+    - Acid only
+    - Acid-base-acid (ABA or AAA)
+    - Acid-base-oxidation-stepped combustion (ABOx-SC)
 
   - Wood
     - Acid only

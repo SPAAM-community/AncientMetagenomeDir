@@ -171,7 +171,7 @@
         "type": "string",
         "title": "Radiocarbon Lab Sample ID",
         "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_lab_code.json",
-        "description": "Lab code of the date, from https://radiocarbon.webhost.uits.arizona.edu/laboratories from Labs-2023_02_17.pdf. NA is no date available, NR is date available but no lab code",
+        "description": "Lab code of the date, from https://radiocarbon.webhost.uits.arizona.edu/sites/default/files/2025-01/Labs-2025_01_16.pdf NA is no date available, NR is date available but no lab code",
         "examples": ["OxA", "ANAS", "Beta", "NR", "NA"]
       },
       "radiocarbon_lab_sample_id": {

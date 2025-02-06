@@ -348,10 +348,11 @@
       },
       "reservoir_offset_applied": {
         "$id": "#/items/properties/reservoir_offset_applied",
-        "type": ["boolean", "null"],
+        "type": ["string"],
+        "pattern": "TRUE|FALSE|DNE",
         "title": "Is Reservoir Offset Applied?",
         "description": "If an offset correction or recalibration has been reported to have been applied ",
-        "examples": ["TRUE", "FALSE", "NA"]
+        "examples": ["TRUE", "FALSE", "DNE"]
       },
       "reservoir_offset_type": {
         "$id": "#/items/properties/reservoir_offset_type",

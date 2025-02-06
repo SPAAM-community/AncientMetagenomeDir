@@ -481,7 +481,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - Accepted values: `TRUE` or `FALSE`
 
-- Specify `NA` if: 
+- Specify `DNE` if: 
 
   - Date is not a radiocarbon date
 

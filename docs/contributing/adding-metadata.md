@@ -305,7 +305,7 @@ Open the `TEMPLATE_` file in your preferred spreadsheet manager, and start filli
 
 In some cases, the semi-automated library level table metadata scraping will fail, in this case we need to pull the metadata of the libraries and sequencing files ourselves.
 
-- If the publication you're adding has SRA/ENA sample accession codes (i.e., starting with `ERS`/`SRS`), 
+- If the publication you're adding has SRA/ENA sample accession codes (i.e., starting with `ERS`/`SRS`)
   - Look for the project accession code (beginning e.g., with `PRJNA` or `PRJNB`)
   - Search the accession code [ENA](https://www.ebi.ac.uk/ena/browser) or [SRA](https://www.ncbi.nlm.nih.gov/Traces/study/) run browsers
   - Download the table in TSV or CSV format (whatever you prefer) and open in your favourite spreadsheet manager

@@ -242,15 +242,15 @@
         "description": "The percentage of carbon in a non-proteinaceous sample used for dating (such as charcoal), expressed as a percentage (%). Used as a quality control measurement. Not reported should be represented as -99999",
         "examples": [20.5, 17.6, -99999, "NA"]
       },
-      "delta_13n": {
-        "$id": "#/items/properties/delta_13n",
+      "delta_15n": {
+        "$id": "#/items/properties/delta_15n",
         "type": [ "number", "null" ],
-        "title": "δ13N value",
-        "description": "The δ13N value of the dating in ppm (‰). Not reported should be represented as -99999",
+        "title": "δ15N value",
+        "description": "The δ15N value of the dating in ppm (‰). Not reported should be represented as -99999",
         "examples": [-20.5, -17.6, -99999, "NA"]
       },
       "carbon_nitrogen_ratio": {
-        "$id": "#/items/properties/delta_13c",
+        "$id": "#/items/properties/carbon_nitrogen_ratio",
         "type": [ "number", "null" ],
         "title": "Carbon nitrogen ratio",
         "description": "Ratio of amount or concentrations of carbon to nitrogen. Used for quality control value in proteinaceous samples for radiocarbon dating.",

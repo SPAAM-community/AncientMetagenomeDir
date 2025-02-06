@@ -2,6 +2,7 @@
     "enum": [
         "DNE",
         "NR",
+        "IntCal13",
         "IntCal20", 
         "CalPal2007_HULU", 
         "SHCal20", 

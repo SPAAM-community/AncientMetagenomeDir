@@ -1,10 +1,10 @@
 {
     "enum": [
+        "DNE",
+        "NR",
         "IntCal20", 
         "CalPal2007_HULU", 
         "SHCal20", 
-        "Marine20", 
-        "NR", 
-        "NA"
+        "Marine20"
     ]
 }

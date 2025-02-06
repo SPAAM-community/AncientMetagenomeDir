@@ -13,7 +13,7 @@ The directory is accessed via Github. To follow these instructions you will need
 * To have a GitHub account.
 * To be logged into that Github account.
 * Be a member of the SPAAM-workshop organization
-  * Contact any of the coreteam (@spaamworkshop/ancientmetagenomedir-coreteam) or James Fellows Yates (jfy133@gmail.com) to be added.
+  * Contact any of the coreteam on [GitHub](@spaamworkshop/ancientmetagenomedir-coreteam) or [archaeo.social](https://matrix.to/#/#ancientmetagenomedir:matrix.org) to be added.
 
 ## Finding open pull requests for review
 
@@ -195,4 +195,4 @@ You can then ask the submitter if they want to merge, or you can merge for them 
 
 Thank you very much for helping out! The more volunteers, the stronger the project and more useful it will become 💪.
 
-For any questions (simple or complex!), doubts, help, advice, or suggestions, post a message in the #ancientmetagenomedir channel on the [SPAAM slack](https://spaam-community.github.io/#/home)!
+For any questions (simple or complex!), doubts, help, advice, or suggestions, post a message in the #ancientmetagenomedir channel on [archaeo.social](https://matrix.to/#/#ancientmetagenomedir:matrix.org)!

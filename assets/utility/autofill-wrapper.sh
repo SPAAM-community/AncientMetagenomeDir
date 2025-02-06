@@ -69,4 +69,4 @@ if ${verbose}; then
     echo ""
 fi
 
-AMDirT autofill -n "$table_name" $hits -l TEMPLATE_"$project_name"_"$table_name"_libraries.tsv
+amdirt autofill -n "$table_name" $hits -l TEMPLATE_"$project_name"_"$table_name"_libraries.tsv

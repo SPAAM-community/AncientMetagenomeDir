@@ -21,18 +21,18 @@ development of the field of ancient metagenomics over time.
 
 <!-- TOC -->
 
-- [What](#what)
+- [What is it about?](#what)
   - [Samples](#samples)
   - [Libraries](#libraries)
   - [Interactive samples map](#interactive-samples-map)
 - [Who](#who)
-- [How](#how)
+- [How can you use it?](#how)
   - [Citation](#citation)
 - [Core Team](#core-team)
 
 <!-- /TOC -->
 
-## What
+## What is it about?
 
 These lists contain information of ancient metagenomic samples such as publication, sample name, sample type,
 geographic location, dates and DOIs and other accession numbers to raw data
@@ -108,7 +108,7 @@ join our community on [archaeo.social](https://matrix.to/#/#ancientmetagenomedir
 A guide to join can be found [here](https://www.isbarch.org/chat).
 
 
-## How
+## How can you use it?
 
 Guides on how to use AncientMetagenomeDir can be found [here](docs/using/).
 

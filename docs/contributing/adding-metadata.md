@@ -308,7 +308,7 @@ In some cases, the semi-automated library level table metadata scraping will fai
 - If the publication you're adding has SRA/ENA sample accession codes (i.e., starting with `ERS`/`SRS`), 
   - Look for the project accession code (beginning e.g., with `PRJNA` or `PRJNB`)
   - Search the accession code [ENA](https://www.ebi.ac.uk/ena/browser) or [SRA](https://www.ncbi.nlm.nih.gov/Traces/study/) run browsers
-  - Download the table in TSV or CSV format (whatever you prefer) and open in your favourite spreadsheet manager.
+  - Download the table in TSV or CSV format (whatever you prefer) and open in your favourite spreadsheet manager
     - Make sure to select all relevant columns with the `Show Column Selection` menu before downloading
 - If your publication has some other accession codes (i.e., from other databases), sorry but we can't automate that yet 😢.
   - You will have to extract the information manually from the paper itself, like for sample metadata information (open the library metadata table, copy the header in a separate file, fill in the rows, copy the new rows back to the metadata table etc.)

@@ -1,7 +1,6 @@
 - [Home](/)
 - [Using AncientMetagenomeDir](docs/using/)
-  + [Tutorials](docs/using/)
-    Here you will find tutorials in the future.
+  + [Tutorials](docs/using/tutorials.md)
   + [How-Tos](docs/using/how-to.md)
     * [Usage](docs/using/download.md)
 - [Contributing to AncientMetagenomeDir](docs/contributing/)

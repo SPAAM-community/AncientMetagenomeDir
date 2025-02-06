@@ -21,12 +21,12 @@ development of the field of ancient metagenomics over time.
 
 <!-- TOC -->
 
-- [What is it about?](#what)
+- [What is it about?](#what-is-it-about)
   - [Samples](#samples)
   - [Libraries](#libraries)
   - [Interactive samples map](#interactive-samples-map)
-- [Who](#who)
-- [How can you use it?](#how)
+- [Who can participate?](#who-can-participate)
+- [How can you use it?](#how-can-you-use-it)
   - [Citation](#citation)
 - [Core Team](#core-team)
 
@@ -101,7 +101,7 @@ Light Blue: Host Associated Metagenome,
 Pink: Host Associated Single Genome
 
 
-## Who
+## Who can participate?
 
 This is a community project open to anyone. If you would like to get involved, you can
 join our community on [archaeo.social](https://matrix.to/#/#ancientmetagenomedir:matrix.org).

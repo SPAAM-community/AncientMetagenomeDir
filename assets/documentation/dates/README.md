@@ -124,9 +124,11 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - Whether the precise date reported in the paper is a radiocarbon date.
 
-- When not reported please specify `NR` and when not applicable `NA` (e.g. in case no precise dating was reported).
+- When not reported please specify `NR`
 
-- Accepted values for this column are: `TRUE`, `FALSE`, `NR` or `NA`.
+- When no precise dating is reported specify `DNE`
+
+- Accepted values for this column are: `TRUE`, `FALSE`, `NR` or `DNE`.
 
 > ⚠️ Mandatory value
 
@@ -136,9 +138,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - The date must be reported in years Before Present (BP), understanding present as 1950. 
 
-- When reported date is radiocarbon date please specify `NA`.
+- When reported date is radiocarbon date please specify `DNE`.
 
-- Missing value: `NA`
+- Missing value: `DNE`
 
 ## multiple_dates
 
@@ -146,16 +148,16 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - If this is the case, please create multiple rows for that sample with all the radiocarbon dates reported. 
 
-- Missing value: `NA`
+- Missing value: `DNE`
 
 ## reference_location
 
-- Location or first place where the precise-radiocarbon date was recorded in the primary citation publication (i.e, the publication in ancientMetagenomeDir):
+- Location or first place where the precise-radiocarbon date was recorded in the primary citation publication (i.e, the publication in AncientMetagenomeDir):
   - Main text.
   - Supplement text.
   - Supplement table.
 
-- Missing value: `NA`
+- Missing value: `DNE`
 
 ## reference_citation_depth
 
@@ -164,9 +166,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
   - `2`: the date was published in an earlier study.
   - `3`: the date was published in a different publication from the secondary citation.
   - `Unknown`: when it is unsure where the date was published. 
-  - `NA`: for samples were not dating information is available.
+  - `DNE`: for samples were not dating information is available.
 
-- Missing value: `Unknown` or `NA`.
+- Missing value: `Unknown` or `DNE`.
 
 ## primary_secondary_reference_citation_doi
 
@@ -177,9 +179,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - Specify:
   - `Unknown` when `reference_citation_depth` is set to `Unknown`.
-  - `NA` for samples were not dating information is available.
+  - `DNE` for samples were not dating information is available.
 
-- Missing value: `Unknown` or `NA`.
+- Missing value: `Unknown` or `DNE`.
 
 ## direct_dating
 
@@ -189,12 +191,15 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
   - `TRUE`
   - `FALSE`
   - `NR`: for studies where this is not reported
-  - `NA`: for samples where there is not radiocarbon dating.
+  - `DNE`: for samples where there is not radiocarbon dating.
 
 ## radiocarbon_lab_code
 
 - Lab code for the radiocarbon lab where the dating was produced.
 - The lab codes were extracted from https://radiocarbon.webhost.uits.arizona.edu/sites/default/files/2025-01/Labs-2025_01_16.pdf
+
+- Specify `NR` for studies where this is not reported
+- Specify `DNE` for samples where there is not radiocarbon dating.
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 > if the radiocarbon lab where the data was produced is not in this list, please ping
@@ -220,7 +225,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 - Specify:
 
   -`NR` when this is not reported.
-  -`NA` when the sample has no radiocarbon date.
+  -`DNE` when the sample has no radiocarbon date.
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 > if the type of spectrometry used is not in this list, please ping
@@ -237,7 +242,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
   - `NR`: pretreatment not reported or unsure whether a pretreatment was applied
 
-  - `NA`: date is not a radiocarbon date
+  - `DNE`: date is not a radiocarbon date
 
 
 ## pretreatment_type
@@ -267,7 +272,8 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
     - Alphacellulose
 
 
-- Missing value: `NA`
+- Missing value: `Unknown`
+- Specify `DNE` for samples that have not been radiocarbon dated.
 
 ## sample_material
 
@@ -279,6 +285,8 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - For host-associated single genome list only:
   - If genome is derived from multiple tissue types from the same individual (e.g. bone and soft tissue) then the entry should simply be listed as 'tissue'
+
+- Specify `unknown` for samples that have not been radiocarbon dated.
 
 > ⚠️ Partly [MIxS v5](https://gensc.org/mixs/) compliant field, i.e. term
 > from an [ontology](https://www.ebi.ac.uk/ols/index), and ideally either
@@ -356,13 +364,13 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
   - `TRUE`
   - `FALSE`
 
-- `NA` should be used when date is not radiocarbon date.
+- `DNE` should be used when date is not radiocarbon date.
 
 ## calibration_curve
 
 - The tree-ring calibration curve used for calibration.
 
-- `NA` should be used when date is not radiocarbon date.
+- `DNE` should be used when date is not radiocarbon date.
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 > if a different calibration curves is used, please ping
@@ -374,7 +382,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - When the calibration software is not reported please specify `NR`.
 
-- `NA` should be used when date is not radiocarbon date.
+- `DNE` should be used when date is not radiocarbon date.
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 > if a different calibration software is used, please ping
@@ -386,7 +394,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - set `NR` if not reported
 
-- `NA` should be used when date is not radiocarbon date.
+- `DNE` should be used when date is not radiocarbon date.
 
 ## calibration_software_settings
 
@@ -396,7 +404,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - `NR` should if it is not reported.
 
-- `NA` should be used when date is not radiocarbon date.
+- `DNE` should be used when date is not radiocarbon date.
 
 
 ## calibration_software_citation_doi
@@ -406,7 +414,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - Specify:
   - `NR` when calibration is reported but no calibration software is mentioned.
-  - `NA` when date is not radiocarbon date or no calibration is reported.
+  - `DNE` when date is not radiocarbon date or no calibration is reported.
 
 ## calibrated_range_lower
 
@@ -437,7 +445,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - The suffix of the calibrated date range, usually reported with calibrated or cal. before the time unit, e.g. cal BC or cal BP.
 
-- `NA` should be used when date is not radiocarbon date or no calibration has been reported.
+- `DNE` should be used when date is not radiocarbon date or no calibration has been reported.
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 > if a different calibration range suffix is used, please ping
@@ -465,8 +473,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
   - `TRUE`: a reservoir effect is mentioned in any form in the publication.
   - `FALSE`: here corresponds to not recorded (NR)
 
-- Specify `NA` if: 
-  - Date is not a radiocarbon date
+- Specify `DNE` if date is not a radiocarbon date
 
 ## reservoir_offset_applied
 
@@ -474,7 +481,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - Accepted values: `TRUE` or `FALSE`
 
-- Specify `NA` if: 
+- Specify `DNE` if: 
 
   - Date is not a radiocarbon date
 
@@ -491,7 +498,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - Specify:
   - `NR` when reservoir effect has been reported but the type is not mentioned.
-  - `NA` if not reservoir effect reported/mentioned or if date is not a radiocarbon date.
+  - `DNE` if not reservoir effect reported/mentioned or if date is not a radiocarbon date.
 
 ## reservoir_offset_reported
 

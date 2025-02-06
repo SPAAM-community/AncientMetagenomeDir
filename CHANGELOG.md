@@ -13,6 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- C14 Majander 2020 10.1016/j.cub.2020.07.058 (added by @KaHea-21)
+  
 #### Ancient Metagenome: Environmental
 
 ### Changed

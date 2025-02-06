@@ -107,7 +107,6 @@ This is a community project open to anyone. If you would like to get involved, y
 join our community on [archaeo.social](https://matrix.to/#/#ancientmetagenomedir:matrix.org).
 A guide to join can be found [here](https://www.isbarch.org/chat).
 
-
 ## How can you use it?
 
 Guides on how to use AncientMetagenomeDir can be found [here](docs/using/).
@@ -122,9 +121,9 @@ For a specific _release_ citation (e.g. the version used for analysis), go to [R
 
 Alongside the Zenodo ID of the release version, please also cite:
 
-Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Velsko, I. M., Borry, M., Bravo-Lopez, M. J., Fernandez-Guerra, A., Green, E. J., Ramachandran, S. L., Heintzman, P. D., Spyrou, M. A., Hübner, A., Gancz, A. S., Hider, J., Allshouse, A. F., Zaro, V., & Warinner, C. (2021). Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir. Scientific Data, 8(1), 31. DOI: [10.1038/s41597-021-00816-y](https://doi.org/10.1038/s41597-021-00816-y)
+> Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Velsko, I. M., Borry, M., Bravo-Lopez, M. J., Fernandez-Guerra, A., Green, E. J., Ramachandran, S. L., Heintzman, P. D., Spyrou, M. A., Hübner, A., Gancz, A. S., Hider, J., Allshouse, A. F., Zaro, V., & Warinner, C. (2021). Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir. Scientific Data, 8(1), 31. DOI: [10.1038/s41597-021-00816-y](https://doi.org/10.1038/s41597-021-00816-y)
 
-⚠️ You must also cite each paper you use data from, citing AncientMetagenomeDir is not sufficient on it's own!
+!> _WARNING_ You must also cite each paper you use data from, citing AncientMetagenomeDir is not sufficient on it's own!
 
 > ℹ️ The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore
 > provides no warranty or completeness or accuracy of the data. If in doubt, refer

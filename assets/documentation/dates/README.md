@@ -126,7 +126,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - When not reported please specify `NR`
 
-- Whe no precise dating is reported specify `DNE`
+- When no precise dating is reported specify `DNE`
 
 - Accepted values for this column are: `TRUE`, `FALSE`, `NR` or `DNE`.
 

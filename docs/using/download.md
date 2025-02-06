@@ -26,4 +26,4 @@ To download the _bleeding edge_ AncientMetagenomeDir sample list:
 
 ⚠️ these TSV files in the repository represent the cutting-edge version, and are subject to change, please use the files in the 'releases' section or Zenodo archive for when using for reproducible science!
 
-✅ For some spreadsheet software copy>paste of the raw format directly into a spreadsheet of the \_contents\* of the links above can work, if not, follow instructions above.
+✅ For some spreadsheet software copy>paste of the raw format directly into a spreadsheet of the **contents** of the links above can work, if not, follow instructions above.

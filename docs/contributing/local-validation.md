@@ -1,5 +1,7 @@
 # Local validation
 
+!> _WARNING_ This documentation may be out-of-date. Please see the documentation for [AMDirT](https://amdirt.readthedocs.io/en/master/).
+
 ## Preparation
 
 1. Install ancientMetagenomeDirCheck / AMDirT

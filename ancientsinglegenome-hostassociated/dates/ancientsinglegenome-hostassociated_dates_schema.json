@@ -36,7 +36,7 @@
       "uncalibrated_uncertainty_plus_minus",
       "delta_13c",
       "carbon_perc",
-      "delta_13n",
+      "delta_15n",
       "carbon_nitrogen_ratio",
       "calibration_reported",
       "calibration_curve",

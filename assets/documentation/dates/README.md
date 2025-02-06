@@ -170,7 +170,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 ## primary_secondary_reference_citation_doi
 
-- Digital Object Identifier (DOI) of the publication were the precise-radiocarbon date was published.
+- Digital Object Identifier (DOI) of the publication were the precise uncalibrated radiocarbon date was published.
 - Or library permalink
   - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
     etc.
@@ -194,6 +194,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 ## radiocarbon_lab_code
 
 - Lab code for the radiocarbon lab where the dating was produced.
+- The lab codes were extracted from https://radiocarbon.webhost.uits.arizona.edu/sites/default/files/2025-01/Labs-2025_01_16.pdf
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 > if the radiocarbon lab where the data was produced is not in this list, please ping
@@ -327,9 +328,9 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 - `NA` should be used when date is not radiocarbon date.
 
-## delta_13n
+## delta_15n
 
-- The δ13N value of the dating in ppm (‰). 
+- The δ15N value of the dating in ppm (‰). 
 
 - This value is important when reporting radiocarbon dates derive from collagen to determine whether there is a reservoir effect (date appearing to be older than it really is).
 

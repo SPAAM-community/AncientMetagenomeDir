@@ -154,7 +154,7 @@
       "primary_secondary_reference_citation_doi": {
         "$id": "#/items/properties/primary_secondary_reference_citation_doi",
         "type": "string",
-        "title": "Digital Object Identifier (DOI) of the publication that the date was originally reported.",
+        "title": "Digital Object Identifier (DOI) of the publication that the uncalibrated date was originally reported.",
         "description": "DOI of the primary or secondary reference (i.e. the DOI of the publication in which the date was original reported) or permalink",
         "examples": ["10.1038/ng.2906", "https://www.jstor.org/stable/j.ctv270kvmk", "Unknown", "NA"]
       },

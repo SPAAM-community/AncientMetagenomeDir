@@ -13,6 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- C14 Vagene2018 0.1038/s41559-017-0446-6 (added by @marcel-keller)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

@@ -21,22 +21,18 @@ development of the field of ancient metagenomics over time.
 
 <!-- TOC -->
 
-- [Description](#description)
-- [Usage](#usage)
-- [Citation](#citation)
-- [Current Status](#current-status)
+- [What is it about?](#what-is-it-about)
   - [Samples](#samples)
   - [Libraries](#libraries)
   - [Interactive samples map](#interactive-samples-map)
-- [Contributing](#contributing)
-  - [Contributing your own Publications](#contributing-your-own-publications)
-  - [Contributing previously published publications](#contributing-previously-published-publications)
-  - [Guidelines and Conventions](#guidelines-and-conventions)
+- [Who can participate?](#who-can-participate)
+- [How can you use it?](#how-can-you-use-it)
+  - [Citation](#citation)
 - [Core Team](#core-team)
 
 <!-- /TOC -->
 
-## Description
+## What is it about?
 
 These lists contain information of ancient metagenomic samples such as publication, sample name, sample type,
 geographic location, dates and DOIs and other accession numbers to raw data
@@ -74,50 +70,6 @@ to use the information in their own publications, as per the CC-BY 4.0 licence.
 > "Pyu Cities" due to lack of interest from the community. It may be reinstated in
 > the future.
 
-## Usage
-
-To download the latest _stable_ release of an AncientMetagenomeDir sample list:
-
-1. Go to the AncientMetagenomeDir [Zenodo repository](https://doi.org/10.5281/zenodo.3980833)
-2. Scroll down the page to the 'Files' section
-3. Press the 'Download' button next to the `.zip` button
-4. Once downloaded, unzip the archive by right-clicking and pressing e.g. decompress or extract
-5. In the extracted folder, change into the sample list of interest, and open the `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R)
-
-To download the _bleeding edge_ AncientMetagenomeDir sample list:
-
-1. Right click on one of the following URLs:
-   - Ancient single genome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv)
-   - Ancient metagenome - host associated: [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv)
-   - Ancient metagenome - environmental [samples](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-environmental/samples/ancientmetagenome-environmental_samples.tsv)
-   - Ancient single genome - host associated: [libraries](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientsinglegenome-hostassociated/libraries/ancientsinglegenome-hostassociated_libraries.tsv)
-   - Ancient metagenome - host associated: [libraries](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries.tsv)
-   - Ancient metagenome - environmental [libraries](https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/ancientmetagenome-environmental/libraries/ancientmetagenome-environmental_libraries.tsv)
-2. Press 'Save Link as' and save. The file name should end in `.tsv`.
-3. Open the resulting `.tsv` file in a spreadsheet program (e.g. LibreOffice Calc, Microsoft Excel) or your programming language of choice (e.g. R).
-
-⚠️ these TSV files in the repository represent the cutting-edge version, and are subject to change, please use the files in the 'releases' section or Zenodo archive for when using for reproducible science!
-
-✅ For some spreadsheet software copy>paste of the raw format directly into a spreadsheet of the \_contents\* of the links above can work, if not, follow instructions above.
-
-## Citation
-
-📖 For **general** use of the project, please use the publication citation below.
-
-For a specific _release_ citation (e.g. the version used for analysis), go to [Releases](https://github.com/SPAAM-community/AncientMetagenomeDir/releases) and use the DOI in the badge of the given release's description, or check the corresponding [Zenodo entry](https://doi.org/10.5281/zenodo.3980833)
-
-Alongside the Zenodo ID of the release version, please also cite:
-
-Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Velsko, I. M., Borry, M., Bravo-Lopez, M. J., Fernandez-Guerra, A., Green, E. J., Ramachandran, S. L., Heintzman, P. D., Spyrou, M. A., Hübner, A., Gancz, A. S., Hider, J., Allshouse, A. F., Zaro, V., & Warinner, C. (2021). Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir. Scientific Data, 8(1), 31. DOI: [10.1038/s41597-021-00816-y](https://doi.org/10.1038/s41597-021-00816-y)
-
-⚠️ You must also cite each paper you use data from, citing AncientMetagenomeDir is not sufficient on it's own!
-
-> ℹ️ The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore
-> provides no warranty or completeness or accuracy of the data. If in doubt, refer
-> to the original publication of a given sample. Corrections are accepted, and thus later
-> versions may have different values.
-
-## Current Status
 
 ### Samples
 
@@ -148,83 +100,36 @@ Green: Environmental Metagenome,
 Light Blue: Host Associated Metagenome,
 Pink: Host Associated Single Genome
 
-## Contributing
 
-<p align="center">
-<img src="assets/images/documentation/spaam-AncientMetagenomeDir_workflow.png" width=50% >
-<p/>
+## Who can participate?
 
-If you are not familiar with Git(Hub), quick start step-by-step guides can be found in
-the following (note these may be out of date):
+This is a community project open to anyone. If you would like to get involved, you can
+join our community on [archaeo.social](https://matrix.to/#/#ancientmetagenomedir:matrix.org).
+A guide to join can be found [here](https://www.isbarch.org/chat).
 
-- [Adding samples and libraries via pull request](https://github.com/SPAAM-community/AncientMetagenomeDir/wiki/Adding-metadata:-step-by-step-guide)
-- Performing a pull request _review_ [here](https://hackmd.io/@jfy133/B156Z2mfP) or in PDF format [here](https://github.com/spaam-community/AncientMetagenomeDir/raw/master/assets/intro_to_ancientmetagenomedir_github_pull_request_review.pdf)
+## How can you use it?
 
-Samples must be from _published_ studies, and should only include _sample_ level
-information. Preprints often have not made data avaliable at this point, and we make
-the **assumption** that peer-review has correctly evaluated any submitted metagenome is
-valid. Included papers should generally have uploaded their own data, however in certain
-cases may see exceptions (such as retrieval of bacterial genomes from off-target reads from
-human population studies). If unsure, please consult the AncientMetagenomeDir community on [slack](https://spaam-community.slack.com/channels/ancientmetagenomedir).
+Guides on how to use AncientMetagenomeDir can be found [here](docs/using/).
 
-Samples must also have been accessible on public databases (e.g. [EBI
-ENA](https://www.ebi.ac.uk/ena) or [NCBI
-SRA](https://www.ncbi.nlm.nih.gov/sra)).
+Guides on how to contribute to AncientMetagenomeDir can be found [here](docs/contributing/).
 
-> Important: we do not currently record _sequencing data_ information, due to
-> different uploading strategies by different groups.
+### Citation
 
-### Contributing your own Publications
+📖 For **general** use of the project, please use the publication citation below.
 
-Contributing a new publication's sample information consists of the following:
+For a specific _release_ citation (e.g. the version used for analysis), go to [Releases](https://github.com/SPAAM-community/AncientMetagenomeDir/releases) and use the DOI in the badge of the given release's description, or check the corresponding [Zenodo entry](https://doi.org/10.5281/zenodo.3980833)
 
-- check under the
-  [issues](https://github.com/spaam-community/AncientMetagenomeDir/issues) tab if
-  the paper is already listed (if not, make one!)
-  - check whether the issue has already been
-    [closed](https://github.com/spaam-community/AncientMetagenomeDir/issues?q=is%3Aissue+is%3Aclosed)
-  - if it listed, check to see if there is already a [pull
-    request](https://github.com/spaam-community/AncientMetagenomeDir/pulls)
-    linked to it
-- assign yourself to the issue
-- check if site/samples have been published before (i.e. to ensure the same
-  names are used for any new samples)
-- making your own fork or branch of the repository
-- update the given list (e.g. in spreadsheet program, R etc.)
-  - generally you will be copying direct from a publication's supplementary
-    information
-  - some columns have standard pre-defined categories, check a lists's README if
-    in doubt!
-  - if you need to add a category please request one by mentioning
-    @ancientmetagenomedir-coreteam in your PR, or update the enums in JSON files
-    under `assets/enums` yourself
-- making a pull-request
-- receive a review to check your additions follow current conventions
-- have your PR merged
-- close the issue
+Alongside the Zenodo ID of the release version, please also cite:
 
-All contributions are attributed through Git's in-built recording of the author
-of each commit and pull request. These will be displayed publically in the
-future.
+> Fellows Yates, J. A., Andrades Valtueña, A., Vågene, Å. J., Cribdon, B., Velsko, I. M., Borry, M., Bravo-Lopez, M. J., Fernandez-Guerra, A., Green, E. J., Ramachandran, S. L., Heintzman, P. D., Spyrou, M. A., Hübner, A., Gancz, A. S., Hider, J., Allshouse, A. F., Zaro, V., & Warinner, C. (2021). Community-curated and standardised metadata of published ancient metagenomic samples with AncientMetagenomeDir. Scientific Data, 8(1), 31. DOI: [10.1038/s41597-021-00816-y](https://doi.org/10.1038/s41597-021-00816-y)
 
-### Contributing previously published publications
+!> _WARNING_ You must also cite each paper you use data from, citing AncientMetagenomeDir is not sufficient on it's own!
 
-In addition to researchers adding their own publications, we will also maintain
-lists of published but not-yet-added studies using github issues.
+> ℹ️ The AncientMetagenomeDir community curates this data on a voluntary basis, and therefore
+> provides no warranty or completeness or accuracy of the data. If in doubt, refer
+> to the original publication of a given sample. Corrections are accepted, and thus later
+> versions may have different values.
 
-Therefore researchers who wish to contribute who do not yet have their own
-publications, can 'assign' themselves to specific 'issues' (papers), and reduce
-the risk of duplicates.
-
-Contribution of these publications follow as [above](#own-publications).
-
-### Guidelines and Conventions
-
-To ensure efficient and consistent searching, we include guidelines on how to
-record and format information. Adherence to these guidelines is enforced by
-'pull request' review by members of the SPAAM community and other contributors.
-Furthermore, each category of metagenome will have their own 'special' fields,
-which will be defined in each specific context.
 
 ## Core Team
 The Core Team of AncientMetagenomeDir is responsible for the mantainance of the repository,

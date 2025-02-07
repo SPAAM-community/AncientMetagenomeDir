@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 #### Ancient Single Genome: Host Associated
+- LlanosLizcano2025 10.1038/s41598-024-85038-z (added by @pswali and Toni)
 
 #### Ancient Metagenome: Environmental
 

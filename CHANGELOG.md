@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 #### Ancient Single Genome: Host Associated
+Added C14 info for Devault2017 10.7554/eLife.20983 (@jodie-lb)
 
 #### Ancient Metagenome: Environmental
 

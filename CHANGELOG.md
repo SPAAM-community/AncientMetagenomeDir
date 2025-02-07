@@ -13,6 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

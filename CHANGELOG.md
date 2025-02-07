@@ -13,6 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

@@ -15,6 +15,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Added and Fixed C14 info for Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
 - C14 Key2020 10.1038/s41559-020-1106-9 (added by @iseultj)
+- Added C14 Schuenemann2013 10.1126/science.1238286 (added by @jodie-lb)
 
 #### Ancient Metagenome: Environmental
 

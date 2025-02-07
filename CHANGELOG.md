@@ -13,6 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- C14 Rasmussen 2015 10.1016/j.cell.2015.10.009 (added by @mlo89)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

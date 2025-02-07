@@ -1,0 +1,8 @@
+- [Home](/)
+- [Using AncientMetagenomeDir](docs/using/)
+  + [Tutorials](docs/using/tutorials.md)
+  + [How-Tos](docs/using/how-to.md)
+- [Contributing to AncientMetagenomeDir](docs/contributing/)
+  + [Tutorials](docs/contributing/tutorials.md)
+  + [How-Tos](docs/contributing/how-to.md)
+  + [Reference](docs/reference/)

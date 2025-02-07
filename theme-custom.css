@@ -350,7 +350,7 @@ body.sticky .sidebar-toggle {
   background-color: #f8f8f8;
 }
 .markdown-section p.tip {
-  background-color: #f8f8f8;
+  background-color: rgba(246, 96, 0, 0.1);
   border-bottom-right-radius: 2px;
   border-left: 4px solid #f66;
   border-top-right-radius: 2px;
@@ -381,8 +381,21 @@ body.sticky .sidebar-toggle {
   color: #34495e;
 }
 .markdown-section p.warn {
-  background: rgba(66,185,131,0.1);
+  background: rgba(137, 87, 229, 0.1);
   border-radius: 2px;
+  border-left: 4px solid rgb(137, 87, 235);
+  padding: 1rem;
+}
+.markdown-section p.note {
+  background: rgba(31, 111, 235, 0.1);
+  border-radius: 2px;
+  border-left: 4px solid rgb(31, 111, 235);
+  padding: 1rem;
+}
+.markdown-section p.help {
+  background: rgba(66, 185, 131, 0.1);
+  border-radius: 2px;
+  border-left: 4px solid rgb(66, 185, 131);
   padding: 1rem;
 }
 .markdown-section ul.task-list > li {

@@ -13,9 +13,13 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- RodriguezVarela 2024 10.1126/sciadv.adp8625 (added by @ZoePochon)
+  
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+- Added three new species names to singlegenome_species.json (added by @ZoePochon)
 
 ### Removed
 

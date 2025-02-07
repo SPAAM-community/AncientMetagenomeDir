@@ -12,7 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 #### Ancient Single Genome: Host Associated
-C14 Key2020 10.1038/s41559-020-1106-9 (added by @iseultj)
+- C14 Key2020 10.1038/s41559-020-1106-9 (added by @iseultj)
 #### Ancient Metagenome: Environmental
 
 ### Changed

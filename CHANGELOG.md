@@ -12,7 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 #### Ancient Single Genome: Host Associated
-
+- Dates for Jackson 2024 10.1093/molbev/msae017 (added by @iseultj)
 #### Ancient Metagenome: Environmental
 
 ### Changed

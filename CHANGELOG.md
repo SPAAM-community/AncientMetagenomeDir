@@ -13,6 +13,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 - Added and Fixed C14 info for Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
+- Majander 2024 10.1038/s41586-023-06965-x (added by @nihandilsad)
 
 #### Ancient Metagenome: Environmental
 

@@ -13,6 +13,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
+- Added and Fixed C14 info for Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
+- C14 Key2020 10.1038/s41559-020-1106-9 (added by @iseultj)
+- C14 deBarrosDamgaard2018 10.1038/s41586-018-0094-2 (added by @marcel-keller)
 - C14 Vagene2018 0.1038/s41559-017-0446-6 (added by @marcel-keller)
 
 #### Ancient Metagenome: Environmental

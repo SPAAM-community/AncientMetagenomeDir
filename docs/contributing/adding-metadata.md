@@ -22,7 +22,7 @@ Originally written by Eleanor Green (@eg715), with contributions from the SPAAM 
     - [Pull request automatic checks](#pull-request-automatic-checks)
     - [Identifying problems and fixing failed checks](#identifying-problems-and-fixing-failed-checks)
 - [Add library metadata](#add-library-metadata)
-    - [Preparation](#preparation)
+    - [Preparation](#preparation-1)
     - [Semi-Automated](#semi-automated)
     - [Manual](#manual)
 - [Additional Metadata](#additional-metadata)

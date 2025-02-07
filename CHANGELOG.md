@@ -13,6 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Barquea 2024 10.1038/s41586-024-08515-5 (added by @jasmezz)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

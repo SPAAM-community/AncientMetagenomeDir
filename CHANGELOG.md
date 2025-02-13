@@ -22,6 +22,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - C14 Susat 2024 10.1038/s42003-024-06676-7 (added by @aidaanva)
 
+- Valeur Seersholm 2024 10.1038/s41586-024-07651-2(added by @YuejiaoHuang and @alexhbnr)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

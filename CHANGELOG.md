@@ -22,6 +22,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - C14 Susat 2024 10.1038/s42003-024-06676-7 (added by @aidaanva)
 
+- C14: PattersonRoss 2018 10.1371/journal.ppat.1006750 (added by @KaHea-21)
+  
 #### Ancient Metagenome: Environmental
 
 ### Changed

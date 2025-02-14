@@ -27,6 +27,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- C14: Barquera 2020 10.1016/j.cub.2020.04.002 (added by @KaHea-21)
 - Fiddaman 2023 10.1126/science.adg2238 (added by @aidaanva)
 - Susat 2024 10.1038/s42003-024-06676-7 (added by @MagdalenaHC)
 

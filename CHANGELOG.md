@@ -22,6 +22,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - C14 Susat 2024 10.1038/s42003-024-06676-7 (added by @aidaanva)
 
+- Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

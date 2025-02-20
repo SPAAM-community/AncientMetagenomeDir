@@ -3,6 +3,10 @@ name: check_dataset
 on:
   pull_request:
     branches: [master]
+    paths:
+      - "ancientmetagenome-environmental/**"
+      - "ancientmetagenome-hostassociated/**"
+      - "ancientsinglegenome-hostassociated/**"
 
 jobs:
   amdirt:

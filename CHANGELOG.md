@@ -22,6 +22,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - C14 Susat 2024 10.1038/s42003-024-06676-7 (added by @aidaanva)
 
+- C14 Bos 2014 10.1038/nature13591 (added by @yaxalponce)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed
@@ -624,3 +626,4 @@ Correction: Correct release ZIP upload
 - Maixner2016: corrected singlegenome_domain
 
 ### Removed
+

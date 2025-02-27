@@ -60,11 +60,12 @@ Library columns are as follows:
 ## data_publication_doi
 
 - Must correspond to the `publication_doi` of the publication in the
-  corresponding sample metadata table!
-- Publication DOI.
-- Or library permalink:
-  - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr)
-    etc.
+corresponding sample metadata table!
+- Publication DOI. _Not_ the full URL, just the DOI
+  - e.g. 10.1038/ng.2906
+  - You can test it by adding it on to the end of https://doi.org/ and see if it resolves to the publication (e.g. https://doi.org/10.1038/ng.2906)
+- Or library permalink (full URL):
+  - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr) etc.
 
 > ⚠️ Mandatory value
 
@@ -96,17 +97,11 @@ Library columns are as follows:
 
 ## archive_project
 
-- Must correspond to the `archive_project` of the publication in the
-  corresponding sample metadata table!
-- A project level accession code under which all libraries of a project are
-  assigned to.
+- Must correspond to the `archive_project` of the publication in the corresponding sample metadata table!
+- A project level accession code under which all libraries of a project are assigned to.
 - Specific examples:
-
-  - Archive: ENA/SRA/DDBJ: should be _primary_ accession code beginning with
-    `PRJ`. [Example](https://www.ebi.ac.uk/ena/browser/view/PRJNA438985).
-  - Archive: MG-RAST: should be accession code beginning with `mgp`.
-    [Example](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp13354).
-
+  - Archive: ENA/SRA/DDBJ: should be _primary_ accession code beginning with `PRJ`. [Example](https://www.ebi.ac.uk/ena/browser/view/PRJNA438985).
+  - Archive: MG-RAST: should be accession code beginning with `mgp`. [Example](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp13354).
 - Missing value: `Unknown`
 
 ## archive_sample_accession
@@ -177,6 +172,9 @@ Library columns are as follows:
   primary source protocol if referenced (e.g. if 'libraries prepared as described in Meyer
   and Kircher', use polymerase cited there. If you go down a citation chain,
   'as in X, as in Y, as in Z', specify `Unknown`.
+- Specific examples:
+  - [Kircher et al. (2012) Nucleic Acids Research](https://doi.org/10.1093/nar/gkr771): AmpliTaq Gold DNA
+  - [Meyer & Kircher (2010) Cold Spring Harbour Protocols](https://doi.org/10.1101/pdb.prot5448): Phusion Hot Start High-Fidelity DNA
 
 > ⚠️ Must follow categories specified in
 > `assets/enums/library_polymerase.json`
@@ -212,7 +210,7 @@ Library columns are as follows:
 ## instrument_model
 
 - Sequencing machine used for sequencing the library.
-- Follows [ENA categories](https://www.ebi.ac.uk/ena/portal/api/controlledVocab?field=instrument_model).
+- Follows [ENA categories](https://github.com/enasequence/webin-cli/blob/master/src/main/resources/uk/ac/ebi/ena/webin/cli/reads/instrument.properties).
 - In most cases for aDNA labs will be some form of Illumina platform.
 
 > ⚠️ If not described in the ENA table, or there is discrepency with the paper, specify: `unspecified`
@@ -287,7 +285,7 @@ Library columns are as follows:
 - Download link to raw data files.
 - Should start with `ftp`, `https`, or `http`.
 - Can be semi-colon separated list for paired-end sequenced runs.
-- Link must allow direct download of files via command-line utility e.g. with wget or curl. I.e., the link must send you directly to a file, not a gateway page.
+- Link must allow direct download of files via command-line utility e.g. with `wget` or `curl`. I.e., the link must send you directly to a file, not a gateway page.
 
 > ⚠️ Mandatory value
 
@@ -312,4 +310,5 @@ Library columns are as follows:
 - File sizes of corresponding download files in bytes.
 - This can be used to estimated HDD space that will be used after download.
 - Can be semi-colon separated list for paired-end data, and in some cases paired-end with singletons.
-- > ⚠️ Mandatory value
+
+> ⚠️ Mandatory value

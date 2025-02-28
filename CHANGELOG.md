@@ -22,6 +22,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Added C14 Schuenemann2013 10.1126/science.1238286 (added by @jodie-lb)
 
 
+- C14 Bos 2014 10.1038/nature13591 (added by @yaxalponce)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed
@@ -624,3 +626,4 @@ Correction: Correct release ZIP upload
 - Maixner2016: corrected singlegenome_domain
 
 ### Removed
+

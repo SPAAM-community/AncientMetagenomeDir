@@ -15,11 +15,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Susat 2021 10.1016/j.celrep.2021.109278 (C14 added by @aidaanva)
 - C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
-- Added and Fixed C14 info for Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
+- C14 Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
 - C14 Key2020 10.1038/s41559-020-1106-9 (added by @iseultj)
 - C14 deBarrosDamgaard2018 10.1038/s41586-018-0094-2 (added by @marcel-keller)
 - C14 Susat 2024 10.1038/s42003-024-06676-7 (added by @aidaanva)
-- C14 Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
+- C14 Schuenemann2013 10.1126/science.1238286 (added by @jodie-lb)
 - C14 Rasmussen 2015 10.1016/j.cell.2015.10.009 (added by @mlo89)
 
 

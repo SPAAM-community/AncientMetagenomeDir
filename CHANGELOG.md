@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 #### Ancient Single Genome: Host Associated
+
 - C14 Susat 2021 10.1016/j.celrep.2021.109278 (added by @aidaanva)
 - C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
 - C14 Warinner 2014 10.1038/ng.2906 (added by @biancamariabonucci)
@@ -20,6 +21,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Susat 2024 10.1038/s42003-024-06676-7 (added by @aidaanva)
 - C14 Schuenemann 2013 10.1126/science.1238286 (added by @jodie-lb)
 - C14 Majander 2020 10.1016/j.cub.2020.07.058 (added by @KaHea-21)
+- C14 Yu2020 (added by @hsf378)
 
 #### Ancient Metagenome: Environmental
 

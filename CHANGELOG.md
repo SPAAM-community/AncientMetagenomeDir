@@ -22,6 +22,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Added C14 Schuenemann2013 10.1126/science.1238286 (added by @jodie-lb)
 
 
+- Valeur Seersholm 2024 10.1038/s41586-024-07651-2(added by @YuejiaoHuang and @alexhbnr)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

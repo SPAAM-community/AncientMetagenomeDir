@@ -13,16 +13,23 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
+
+
 - C14 Susat 2021 10.1016/j.celrep.2021.109278 (added by @aidaanva)
-- C14 Yu2020 (added by @hsf378)
 - C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
-- C14 info for Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
+- C14 Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
 - C14 Key2020 10.1038/s41559-020-1106-9 (added by @iseultj)
 - C14 deBarrosDamgaard2018 10.1038/s41586-018-0094-2 (added by @marcel-keller)
 - C14 Susat 2024 10.1038/s42003-024-06676-7 (added by @aidaanva)
-- C14 Schuenemann 2013 10.1126/science.1238286 (added by @jodie-lb)
+- C14 Schuenemann2013 10.1126/science.1238286 (added by @jodie-lb)
+- C14 Yu2020 10.1016/j.cell.2020.04.037 (added by @hsf378)
+- C14 Devault2017 10.7554/eLife.20983 (@jodie-lb)
+- C14 Dux 2020 10.1126/science.aba9411 (added C14 by @aidaanva and @KaHea-21)
+- C14 Sabin 2020 10.1186/s13059-020-02112-1 (added by @KaHea-21)
+- C14 Lebrasseur 2024 10.1093/ve/vead087 (added by @nihandilsad)
+- C14 Parker2023 10.1371/journal.ppat.1011404 (added by @iseultj)
 - C14 Giffin 2020 10.1038/s41598-020-66012-x (added by @jodie-lb)
-
 
 #### Ancient Metagenome: Environmental
 

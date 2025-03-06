@@ -24,6 +24,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Devault2017 10.7554/eLife.20983 (@jodie-lb)
 
 
+- C14: PattersonRoss 2018 10.1371/journal.ppat.1006750 (added by @KaHea-21)
+  
 #### Ancient Metagenome: Environmental
 
 ### Changed

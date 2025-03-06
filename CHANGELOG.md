@@ -22,6 +22,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Schuenemann2013 10.1126/science.1238286 (added by @jodie-lb)
 - C14 Yu2020 10.1016/j.cell.2020.04.037 (added by @hsf378)
 - C14 Devault2017 10.7554/eLife.20983 (@jodie-lb)
+- C14 Keller2019 10.1073/pnas.1820447116 (added by @marcel-keller)
 
 
 #### Ancient Metagenome: Environmental

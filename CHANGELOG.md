@@ -28,6 +28,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Sabin 2020 10.1186/s13059-020-02112-1 (added by @KaHea-21)
 
 
+- C14 Lebrasseur 2024 10.1093/ve/vead087 (added by @nihandilsad)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

@@ -21,7 +21,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 deBarrosDamgaard2018 10.1038/s41586-018-0094-2 (added by @marcel-keller)
 - C14 Susat 2024 10.1038/s42003-024-06676-7 (added by @aidaanva)
 - C14 Schuenemann 2013 10.1126/science.1238286 (added by @jodie-lb)
-- C14 Giffin 2020 10.1038/s41598-020-66012-x (added by )
+- C14 Giffin 2020 10.1038/s41598-020-66012-x (added by @jodie-lb)
 
 
 #### Ancient Metagenome: Environmental

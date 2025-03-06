@@ -30,6 +30,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Sabin 2020 10.1186/s13059-020-02112-1 (added by @KaHea-21)
 - C14 Lebrasseur 2024 10.1093/ve/vead087 (added by @nihandilsad)
 - C14 Parker2023 10.1371/journal.ppat.1011404 (added by @iseultj)
+- C14 Vagene2018 0.1038/s41559-017-0446-6 (added by @marcel-keller)
 
 #### Ancient Metagenome: Environmental
 

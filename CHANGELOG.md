@@ -13,7 +13,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
-
 - Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
 
 
@@ -30,6 +29,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Sabin 2020 10.1186/s13059-020-02112-1 (added by @KaHea-21)
 - C14 Lebrasseur 2024 10.1093/ve/vead087 (added by @nihandilsad)
 - C14 Parker2023 10.1371/journal.ppat.1011404 (added by @iseultj)
+- Added C14 for Neumann2022 10.1016/j.cub.2022.06.094 (added by @iseultj)
+
 
 #### Ancient Metagenome: Environmental
 

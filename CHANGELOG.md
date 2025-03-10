@@ -1,3 +1,4 @@
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -30,6 +31,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Lebrasseur 2024 10.1093/ve/vead087 (added by @nihandilsad)
 - C14 Parker2023 10.1371/journal.ppat.1011404 (added by @iseultj)
 - C14 Neumann2022 10.1016/j.cub.2022.06.094 (added by @iseultj)
+- C14 Kay 2014 10.1128/mBio.01337-14 (added by @KaHea-21)
+- C14 AndradesValtuena2022 10.1073/pnas.2116722119 (added by @iseultj)
+- C14 Majander2024 10.1038/s41586-023-06965-x (added by @nihandilsad and @KaHea-21)
 - C14 Vagene2022 10.1038/s41467-022-28562-8 (added by @iseultj)
 
 

@@ -41,6 +41,7 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 PattersonRoss2018 10.1371/journal.ppat.1006750 (added by @KaHea-21)
 - C14 Vagene2018 0.1038/s41559-017-0446-6 (added by @marcel-keller)
 - C14 Guellil2022 10.1186/s13059-021-02580-z (added by @ZoePochon)
+- C14 Majander 2020 10.1016/j.cub.2020.07.058 (added by @KaHea-21)
 
 
 #### Ancient Metagenome: Environmental

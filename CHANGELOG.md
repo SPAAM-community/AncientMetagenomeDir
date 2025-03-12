@@ -27,7 +27,7 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 Schuenemann2013 10.1126/science.1238286 (added by @jodie-lb)
 - C14 Yu2020 10.1016/j.cell.2020.04.037 (added by @hsf378)
 - C14 Devault2017 10.7554/eLife.20983 (@jodie-lb)
-- C14 Dux 2020 10.1126/science.aba9411 (added by @aidaanva and @KaHea-21)
+- C14 Dux2020 10.1126/science.aba9411 (added by @aidaanva and @KaHea-21)
 - C14 Sabin 2020 10.1186/s13059-020-02112-1 (added by @KaHea-21)
 - C14 Lebrasseur 2024 10.1093/ve/vead087 (added by @nihandilsad)
 - C14 Parker2023 10.1371/journal.ppat.1011404 (added by @iseultj)
@@ -36,6 +36,7 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 AndradesValtuena2022 10.1073/pnas.2116722119 (added by @iseultj)
 - C14 Majander2024 10.1038/s41586-023-06965-x (added by @nihandilsad and @KaHea-21)
 - C14 Vagene2022 10.1038/s41467-022-28562-8 (added by @iseultj)
+- C14 Bos2016 10.7554/eLife.12994 (added by @marcel-keller)
 
 
 #### Ancient Metagenome: Environmental

@@ -37,6 +37,7 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 Majander2024 10.1038/s41586-023-06965-x (added by @nihandilsad and @KaHea-21)
 - C14 Vagene2022 10.1038/s41467-022-28562-8 (added by @iseultj)
 - C14 Bos2016 10.7554/eLife.12994 (added by @marcel-keller)
+- C14 Giffin 2020 10.1038/s41598-020-66012-x (added by @jodie-lb)
 
 
 #### Ancient Metagenome: Environmental

@@ -5,6 +5,8 @@
         "cal BC", 
         "cal CE", 
         "cal BCE", 
-        "cal BP"
+        "cal BP",
+        "cal BC/AD",
+        "cal BCE/CE"
     ]
 }

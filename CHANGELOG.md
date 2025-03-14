@@ -16,7 +16,7 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 #### Ancient Single Genome: Host Associated
 
 - Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
-
+- LlanosLizcano2025 10.1038/s41598-024-85038-z (added by @pswali and @tonidedios94)
 
 - C14 Susat 2021 10.1016/j.celrep.2021.109278 (added by @aidaanva)
 - C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)

@@ -1,0 +1,395 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientsinglegenome-hostassociated/ancientsinglegenome-hostassociated_radiocarbondates_schema.json",
+  "type": "array",
+  "title": "JSON schema for AncientMetagenomeDir ancient host-associated single-genome C14 data",
+  "description": "The JSON schema for AncientMetagenomeDir ancient host-associated radiocarbon date (C14) information",
+  "additionalItems": false,
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The items schema",
+    "description": "An explanation about the purpose of this instance.",
+    "default": {},
+    "required": [
+      "project_name",
+      "publication_year",
+      "data_publication_doi",
+      "sample_name",
+      "archive_project",
+      "archive_sample_accession",
+      "date_information_present",
+      "date_is_radiocarbon",
+      "archaeological_historical_date",
+      "multiple_dates",
+      "reference_location",
+      "reference_citation_depth",
+      "primary_secondary_reference_citation_doi",
+      "direct_dating",
+      "radiocarbon_lab_code",
+      "radiocarbon_lab_sample_id",
+      "spectrometry_type",
+      "pretreatment_reported",
+      "pretreatment_type",
+      "sample_material",
+      "uncalibrated_date",
+      "uncalibrated_uncertainty_plus_minus",
+      "delta_13c",
+      "carbon_perc",
+      "delta_15n",
+      "carbon_nitrogen_ratio",
+      "calibration_reported",
+      "calibration_curve",
+      "calibration_software",
+      "calibration_software_version",
+      "calibration_software_settings",
+      "calibration_software_citation_doi",
+      "calibrated_range_lower",
+      "calibrated_range_upper",
+      "calibrated_range_median",
+      "calibrated_range_suffix",
+      "calibrated_range_sigma",
+      "reservoir_offset_mentioned",
+      "reservoir_offset_applied",
+      "reservoir_offset_type",
+      "reservoir_offset_reported",
+      "reservoir_offset_reported_sd",
+      "reservoir_aquatic_carbon_perc",
+      "reservoir_aquatic_carbon_perc_sd"
+    ],
+    "properties": {
+      "project_name": {
+        "$id": "#/items/properties/project_name",
+        "type": "string",
+        "title": "AncientMetagenomeDir key of the publication",
+        "description": "Format: surnameYYYY (if duplicate key but different publication, add b,c,d etc. as necessary). Must match a AncientMetagenomeDir samples table entry",
+        "pattern": "^[a-zA-Z]+\\d{4}[b-z]?$",
+        "examples": ["Warinner2014", "Muhlemann2018", "Muhlemann2018a"]
+      },
+      "publication_year": {
+        "$id": "#/items/properties/publication_year",
+        "type": "integer",
+        "minimum": 1950,
+        "maximum": 2100,
+        "title": "Year of publication",
+        "description": "Format: YYYY",
+        "examples": [2014]
+      },
+      "data_publication_doi": {
+        "$id": "#/items/properties/data_publication_doi",
+        "type": "string",
+        "title": "Digital Object Identifier (DOI) of the publication.",
+        "description": "A valid DOI code (not as an URL). Must match a AncientMetagenomeDir samples table entry",
+        "examples": ["10.1038/ng.2906"]
+      },
+      "sample_name": {
+        "$id": "#/items/properties/sample_name",
+        "type": "string",
+        "title": "Name of the sample",
+        "description": "In most cases this should be the name of the host individual. Must match a AncientMetagenomeDir samples table entry",
+        "examples": ["B61"]
+      },
+      "archive_project": {
+        "$id": "#/items/properties/archive_project",
+        "type": "string",
+        "title": "Archive project accession platform",
+        "description": "Name of the nucleotide data archiving platform. Must match a AncientMetagenomeDir samples table entry",
+        "examples": ["PRJNA438985", "mgp13354"]
+      },
+      "archive_sample_accession": {
+        "$id": "#/items/properties/archive_sample_accession",
+        "type": "string",
+        "pattern": "^[\\S]+$",
+        "title": "Archive accession number",
+        "description": "Samples archive accession numbers, multiple records can be separated with commas. No spaces allowed. Must match a AncientMetagenomeDir samples table entry",
+        "examples": ["SRS473742,SRS473743,SRS473744,SRS473745"]
+      },
+      "date_information_present": {
+        "$id": "#/items/properties/date_information_present",
+        "type": "boolean",
+        "title": "Is Date Information Present?",
+        "description": "Whether a sample has a specific year-date reported (e.g. 1245, not 15th Century or similar), If false, all other downstream fields should be set to NA",
+        "examples": ["true", "false"]
+      },
+      "date_is_radiocarbon": {
+        "$id": "#/items/properties/date_is_radiocarbon",
+        "type": "string",
+        "title": "Is Date Radiocarbon?",
+        "pattern": "TRUE|FALSE|DNE|NR",
+        "description": "Whether a sample has a specific radiocarbon date reported (e.g. 1245, not 15th Century or similar)",
+        "examples": ["TRUE", "FALSE", "NR", "DNE"]
+      },
+      "archaeological_historical_date": {
+        "$id": "#/items/properties/archaeological_historical_date",
+        "type": [ "string"],
+        "title": "Archaeological or historical date range or singular date",
+        "pattern": "[0-9]+-*[0-9]+|DNE",
+        "description": "Archaeological or historical date range or singular date. The unit of time is Before Present (before 1950, BP)",
+        "examples": ["500-550", "35", "DNE"]
+      },
+      "multiple_dates": {
+        "$id": "#/items/properties/multiple_dates",
+        "type": "string",
+        "title": "Multiple Direct Dates Present?",
+        "pattern": "TRUE|FALSE|DNE",
+        "description": "Whether multiple (direct) dates are present for this sample; if so make multiple rows for the sample with one date per row.",
+        "examples": ["true", "false", "DNE"]
+      },
+      "reference_location": {
+        "$id": "#/items/properties/reference_location",
+        "type": "string",
+        "title": "Location of Reference to Date",
+        "pattern": "main text|supplement text|supplement table|DNE",
+        "description": "First place where the precise-radiocarbon date was recorded in the primary citation publication (i.e, the publication in ancientMetagenomeDir). main text > supplementary text > supplmentary table.",
+        "examples": ["main text", "supplement text", "supplement table", "DNE"]
+      },
+      "reference_citation_depth": {
+        "$id": "#/items/properties/reference_citation_depth",
+        "type": "string",
+        "title": "Reference Citation Depth?",
+        "pattern": "[1-3]|Unknown|DNE",
+        "description": "First place where the precise-radiocarbon date was recorded in the primary citation publication (i.e, the publication in ancientMetagenomeDir). 1 - main text > 2 - supplementary text > 3 - supplementary table.",
+        "examples": ["1", "2", "3", "Unknown", "DNE"]
+      },
+      "primary_secondary_reference_citation_doi": {
+        "$id": "#/items/properties/primary_secondary_reference_citation_doi",
+        "type": "string",
+        "title": "Digital Object Identifier (DOI) of the publication that the uncalibrated date was originally reported.",
+        "description": "DOI of the primary or secondary reference (i.e. the DOI of the publication in which the date was original reported) or permalink",
+        "examples": ["10.1038/ng.2906", "https://www.jstor.org/stable/j.ctv270kvmk", "Unknown", "DNE"]
+      },
+      "direct_dating": {
+        "$id": "#/items/properties/direct_dating",
+        "type": "string",
+        "title": "Date Directly from Sample?",
+        "pattern": "TRUE|FALSE|DNE|NR",
+        "description": "Whether the date of the ancient metagenomic sample was directly from the same skeleton (or similar), or whether inferred from other samples in the same context",
+        "examples": ["TRUE", "FALSE", "DNE", "NR"]
+      },
+      "radiocarbon_lab_code": {
+        "$id": "#/items/properties/radiocarbon_lab_sample_id",
+        "type": "string",
+        "title": "Radiocarbon Lab Sample ID",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_lab_code.json",
+        "description": "Lab code of the date, from https://radiocarbon.webhost.uits.arizona.edu/sites/default/files/2025-01/Labs-2025_01_16.pdf NA is no date available, NR is date available but no lab code",
+        "examples": ["OxA", "ANAS", "Beta", "NR", "DNE"]
+      },
+      "radiocarbon_lab_sample_id": {
+        "$id": "#/items/properties/radiocarbon_lab_sample_id",
+        "type": ["integer","null"],
+        "title": "Radiocarbon Lab Sample ID",
+        "description": "C14 sample code of the radiocarbon date from the lab",
+        "examples": [12355, 44034, -99999, "NA"]
+      },
+      "spectrometry_type": {
+        "$id": "#/items/properties/spectrometry_type",
+        "type": "string",
+        "title": "Delta 13C measurement method.",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_spectometry_type.json",
+        "description": "Which spectrophotometry method was used to measure the delta carbon-13 value, either with Isotope Ratio Mass Spectrometer (IRMS) or Accelerated Mass Spectrometer (AMS).",
+        "examples": ["AMS", "IMRS", "NR", "DNE"]
+      },
+      "pretreatment_reported":{
+        "$id": "#/items/properties/pretreatment_reported",
+        "type": "string",
+        "title": "Is Preatreatmnet Reported?",
+        "pattern": "TRUE|FALSE|NR|DNE",
+        "description": "Is a pretreatment reported?",
+        "examples": ["TRUE", "FALSE", "DNE", "NR"]
+      },
+      "pretreatment_type":{
+        "$id": "#/items/properties/pretreatment_type",
+        "type": "string",
+        "title": "Pretreatment method used for decontamination applied to sample.",
+        "description": "Which spectrophotometry method was used to measure the delta carbon-13 value, either with Isotope Ratio Mass Spectrometer (IRMS) or Accelerated Mass Spectrometer (AMS).",
+        "examples": ["Brown et al. 1988 with Vivaspin® filter cleaning method from Bronk Ramsey et al. (2004)", "NR", "NA"]
+      },
+      "sample_material": {
+        "$id": "#/items/properties/sample_material",
+        "type": "string",
+        "title": "Sample Material Used For Dating",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/material.json",
+        "description": "Sample material used for extraction of e.g. collagen for generating the radiocarbon date",
+        "examples": ["bone", "enamel"]
+      },
+      "uncalibrated_date ": {
+        "$id": "#/items/properties/delta_13c",
+        "type": ["integer", "null"],
+        "minimum": 0,
+        "maximum": 50000,
+        "title": "Uncalibrated Date Year",
+        "description": "The uncalibrated date in calendar year date Before Present notation",
+        "examples": [934, 3960, 13000, -99999, "NA"]
+      },
+      "uncalibrated_uncertainty_plus_minus": {
+        "$id": "#/items/properties/uncalibrated_uncertainty_plus_minus",
+        "type": ["integer", "null"],
+        "title": "Uncalibrated Date Year Uncertainty",
+        "description": "Uncertainty value around uncalibrated date in calendar year date Before Present notation, typically indicated by ±",
+        "examples": [32, 5, 150, -99999, "NA"]
+      },
+      "delta_13c": {
+        "$id": "#/items/properties/delta_13c",
+        "type": [ "number", "null" ],
+        "title": "δ13C value",
+        "description": "The δ13C value of the dating in ppm (‰). Not reported should be represented as -99999.",
+        "examples": [-20.5, -17.6, -99999, "NA"]
+      },
+      "carbon_perc": {
+        "$id": "#/items/properties/carbon_perc",
+        "type": [ "number", "null" ],
+        "title": "Carbon percentage",
+        "description": "The percentage of carbon in a non-proteinaceous sample used for dating (such as charcoal), expressed as a percentage (%). Used as a quality control measurement. Not reported should be represented as -99999",
+        "examples": [20.5, 17.6, -99999, "NA"]
+      },
+      "delta_15n": {
+        "$id": "#/items/properties/delta_15n",
+        "type": [ "number", "null" ],
+        "title": "δ15N value",
+        "description": "The δ15N value of the dating in ppm (‰). Not reported should be represented as -99999",
+        "examples": [-20.5, -17.6, -99999, "NA"]
+      },
+      "carbon_nitrogen_ratio": {
+        "$id": "#/items/properties/carbon_nitrogen_ratio",
+        "type": [ "number", "null" ],
+        "title": "Carbon nitrogen ratio",
+        "description": "Ratio of amount or concentrations of carbon to nitrogen. Used for quality control value in proteinaceous samples for radiocarbon dating.",
+        "examples": [2.5, 1.6, -99999, "NA"]
+      },
+      "calibration_reported": {
+        "$id": "#/items/properties/calibration_reported",
+        "type": "string",
+        "title": "Is Calibration Reported?",
+        "pattern": "TRUE|FALSE|DNE",
+        "description": "Whether the date has additionally been calibrated.",
+        "examples": ["TRUE", "FALSE", "DNE"]
+      },
+      "calibration_curve": {
+        "$id": "#/items/properties/calibration_curve",
+        "type": "string",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_calibration_curve.json",
+        "title": "Calibration Curve",
+        "description": "The tree-ring calibration curve used for calibration.",
+        "examples": ["IntCal20", "CalPal2007_HULU", "SHCal20", "Marine20", "NR", "DNE"]
+      },
+      "calibration_software": {
+        "$id": "#/items/properties/calibration_software",
+        "type": "string",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_calibration_software.json",
+        "title": "Calibration Software",
+        "description": "Software used for radiocarbon calibration.",
+        "examples": ["OxCal", "CalPal", "NR", "DNE"]
+      },
+      "calibration_software_version": {
+        "$id": "#/items/properties/calibration_software_version",
+        "type": "string",
+        "title": "Calibration Software",
+        "description": "Which version of the calibration software used, (set NR if not reported)",
+        "examples": ["v1.20", "0.35", "NR", "DNE"]
+      },
+      "calibration_software_settings": {
+        "$id": "#/items/properties/calibration_software_settings",
+        "type": "string",
+        "title": "Calibration Software settings",
+        "description": "Settings used with the calibration software, (set NR if not reported)",
+        "examples": ["default", "-m 10", "NR", "DNE"]
+      },
+      "calibration_software_citation_doi": {
+        "$id": "#/items/properties/calibration_software_citation_doi",
+        "type": "string",
+        "pattern": "^10.\\d{4,9}\\/[^,]+$|NR|DNE",
+        "title": "Digital Object Identifier (DOI) of the radiocarbon calibration software publication.",
+        "description": "A valid DOI code (not as an URL).",
+        "examples": ["10.1038/ng.2906", "DNE"]
+      },
+      "calibrated_range_lower": {
+        "$id": "#/items/properties/calibrated_range_lower",
+        "type": [ "integer", "null" ],
+        "title": "Lower Date of Calibrated Date Range",
+        "description": "The lower range of the calibrated date",
+        "examples": [1650, -99999, "NA"]
+      },
+      "calibrated_range_upper": {
+        "$id": "#/items/properties/calibrated_range_upper",
+        "type": [ "integer", "null" ],
+        "title": "Upper Date of Calibrated Date Range",
+        "description": "The upper range of the calibrated date",
+        "examples": [1450, -99999, "NA"]
+      },
+      "calibrated_range_median": {
+        "$id": "#/items/properties/calibrated_range_median",
+        "type": [ "integer", "null" ],
+        "title": "Median Date of Calibrated Date Range",
+        "description": "The median date of the calibrated date range",
+        "examples": [1550, -99999, "NA"]
+      },
+      "calibrated_range_suffix": {
+        "$id": "#/items/properties/calibrated_range_suffix",
+        "type": "string",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_calibrated_range_suffix.json",
+        "title": "Suffix of the calibrated date range",
+        "description": "The suffix of the calibrated date range",
+        "examples": ["cal BP", "DNE"]
+      },
+      "calibrated_range_sigma": {
+        "$id": "#/items/properties/calibrated_range_sigma",
+        "type": [ "number", "null" ],
+        "title": "Calibrated range sigma",
+        "description": "Confidence level of the reported calibrated age range, typically in 2 (95.4%) or 1 (68.2%) levels of significance (sigma).",
+        "examples": [1, 2, -99999, "NA"]
+      },
+      "reservoir_offset_mentioned": {
+        "$id": "#/items/properties/reservoir_offset_mentioned",
+        "type": "string",
+        "title": "Is Reservoir Offset Mentioned?",
+        "pattern": "TRUE|FALSE|DNE",
+        "description": "If radiocarbon C14 reservoir offset mentioned in any form. False here corresponds to not recorded (NR)",
+        "examples": ["TRUE", "FALSE", "DNE"]
+      },
+      "reservoir_offset_applied": {
+        "$id": "#/items/properties/reservoir_offset_applied",
+        "type": ["string"],
+        "pattern": "TRUE|FALSE|DNE",
+        "title": "Is Reservoir Offset Applied?",
+        "description": "If an offset correction or recalibration has been reported to have been applied ",
+        "examples": ["TRUE", "FALSE", "DNE"]
+      },
+      "reservoir_offset_type": {
+        "$id": "#/items/properties/reservoir_offset_type",
+        "type": ["string"],
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/c14_reservoir_offset_type.json",
+        "title": "Is the reported Reservoir Effect of Marine or Freshwater nature?",
+        "description": "Specify if the reported reservoir effect is of marine or freshwater origin.",
+        "examples": ["FRESHWATER","MARINE","NR", "DNE"]
+      },
+      "reservoir_offset_reported": {
+        "$id": "#/items/properties/reservoir_offset_reported",
+        "type": [ "integer", "null" ],
+        "title": "Reservoir Offset Reported",
+        "description": "If the actual value of the offset has been reported (set NR if applied but actual value of offset not reported)",
+        "examples": [250, 400, -99999, "NA"]
+      },
+      "reservoir_offset_reported_sd": {
+        "$id": "#/items/properties/reservoir_offset_reported_sd",
+        "type": [ "integer", "null" ],
+        "title": "Reservoir Offset Reported Standard Deviation",
+        "description": "Standard deviation of the reported reservoir offset. Should be indicated by ±",
+        "examples": [25, 40, -99999, "NA"]
+      },
+      "reservoir_aquatic_carbon_perc": {
+        "$id": "#/items/properties/reservoir_aquatic_carbon_perc",
+        "type": [ "integer", "null" ],
+        "title": "Reservoir Offset Aquatic carbon percentage",
+        "description": "Percentage δ13C estimate of fish contribution to reservoir offset value",
+        "examples": [53, 15, -99999, "NA"]
+      },
+      "reservoir_aquatic_carbon_perc_sd": {
+        "$id": "#/items/properties/reservoir_aquatic_carbon_perc_sd",
+        "type": [ "integer", "null" ],
+        "title": "Reservoir Offset Reported Standard Deviation",
+        "description": "Standard deviation of % δ13C estimate of fish contribution to reservoir offset value. Should be indicated by ±",
+        "examples": [25, 40, -99999, "NA"]
+      }
+    }
+  }
+}

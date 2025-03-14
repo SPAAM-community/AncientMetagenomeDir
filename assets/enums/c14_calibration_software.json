@@ -1,0 +1,10 @@
+{
+  "enum": [
+    "DNE",
+    "NR",
+    "OxCal",
+    "CalPal",
+    "SwissCal",
+    "Calib"
+  ]
+}

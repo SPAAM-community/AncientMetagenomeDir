@@ -333,7 +333,7 @@
       },
       "calibrated_range_sigma": {
         "$id": "#/items/properties/calibrated_range_sigma",
-        "type": [ "integer", "null" ],
+        "type": [ "number", "null" ],
         "title": "Calibrated range sigma",
         "description": "Confidence level of the reported calibrated age range, typically in 2 (95.4%) or 1 (68.2%) levels of significance (sigma).",
         "examples": [1, 2, -99999, "NA"]

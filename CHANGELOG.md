@@ -16,7 +16,7 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 #### Ancient Single Genome: Host Associated
 
 - Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
-
+- RodriguezVarela 2024 10.1126/sciadv.adp8625 (added by @ZoePochon)
 
 - C14 Susat 2021 10.1016/j.celrep.2021.109278 (added by @aidaanva)
 - C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
@@ -45,11 +45,11 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 Duggan2016 10.1016/j.cub.2016.10.061 (added by @KaHea-21)
 - C14 for Jackson 2024 10.1093/molbev/msae017 (added by @iseultj)
 
-
-
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+- Added three new species names to singlegenome_species.json (added by @ZoePochon)
 
 ### Removed
 

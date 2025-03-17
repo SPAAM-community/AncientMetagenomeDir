@@ -185,7 +185,7 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 ## direct_dating
 
-- Whether the sample in the ancient metagenomic study was directly radiocarbon dated.
+- Whether a sample for the individual in the ancient metagenomic study was directly radiocarbon dated.
 
 - Values for the column are:
   - `TRUE`
@@ -208,11 +208,11 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 ## radiocarbon_lab_sample_id
 
-- Numerical identifier from the radiocarbon dating lab that corresponds to the sample sent for radiocarbon dating.
+- Alphanumerical identifier from the radiocarbon dating lab that corresponds to the sample sent for radiocarbon dating.
 
 - Specify:
   - `-99999`: when no sample identifier from the radiocarbon lab has been reported.
-  - `NA`: when date is not a radiocarbon date.
+  - `DNE`: when date is not a radiocarbon date.
 
 ## spectrometry_type
 
@@ -277,14 +277,11 @@ The SRS code is to the left of the SAMEA-like code under the **sample:** field
 
 ## sample_material
 
-- Sample type DNA was extracted from
+- Sample type that was used as substract for radiocarbon dating
 
   - e.g. dental calculus, palaeofaeces, intestinal, chewing gum
   - e.g. permafrost, lake sediment, peat soil, bone
   - e.g. tooth, bone, dental calculus
-
-- For host-associated single genome list only:
-  - If genome is derived from multiple tissue types from the same individual (e.g. bone and soft tissue) then the entry should simply be listed as 'tissue'
 
 - Specify `unknown` for samples that have not been radiocarbon dated.
 

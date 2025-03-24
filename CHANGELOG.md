@@ -5,7 +5,56 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v24.12: Old Town of Corfu [Unreleased]
+## v25.03: Historic Centre of Cordoba [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
+
+#### Ancient Single Genome: Host Associated
+
+- Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
+- Michel 2024 10.1038/s41586-024-07546-2 (added by @meganemichel)
+
+
+- C14 Susat 2021 10.1016/j.celrep.2021.109278 (added by @aidaanva)
+- C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
+- C14 Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
+- C14 Key2020 10.1038/s41559-020-1106-9 (added by @iseultj)
+- C14 deBarrosDamgaard2018 10.1038/s41586-018-0094-2 (added by @marcel-keller)
+- C14 Susat 2024 10.1038/s42003-024-06676-7 (added by @aidaanva)
+- C14 Schuenemann2013 10.1126/science.1238286 (added by @jodie-lb)
+- C14 Yu2020 10.1016/j.cell.2020.04.037 (added by @hsf378)
+- C14 Devault2017 10.7554/eLife.20983 (@jodie-lb)
+- C14 Dux2020 10.1126/science.aba9411 (added by @aidaanva and @KaHea-21)
+- C14 Sabin 2020 10.1186/s13059-020-02112-1 (added by @KaHea-21)
+- C14 Lebrasseur 2024 10.1093/ve/vead087 (added by @nihandilsad)
+- C14 Parker2023 10.1371/journal.ppat.1011404 (added by @iseultj)
+- C14 Neumann2022 10.1016/j.cub.2022.06.094 (added by @iseultj)
+- C14 Kay 2014 10.1128/mBio.01337-14 (added by @KaHea-21)
+- C14 AndradesValtuena2022 10.1073/pnas.2116722119 (added by @iseultj)
+- C14 Majander2024 10.1038/s41586-023-06965-x (added by @nihandilsad and @KaHea-21)
+- C14 Vagene2022 10.1038/s41467-022-28562-8 (added by @iseultj)
+- C14 Bos2016 10.7554/eLife.12994 (added by @marcel-keller)
+- C14 Giffin 2020 10.1038/s41598-020-66012-x (added by @jodie-lb)
+- C14 PattersonRoss2018 10.1371/journal.ppat.1006750 (added by @KaHea-21)
+- C14 Vagene2018 0.1038/s41559-017-0446-6 (added by @marcel-keller)
+- C14 Guellil2022 10.1186/s13059-021-02580-z (added by @ZoePochon)
+- C14 Majander 2020 10.1016/j.cub.2020.07.058 (added by @KaHea-21)
+- C14 Duggan2016 10.1016/j.cub.2016.10.061 (added by @KaHea-21)
+- C14 for Jackson 2024 10.1093/molbev/msae017 (added by @iseultj)
+
+
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+### Removed
+
+## v24.12: Old Town of Corfu
 
 ### Added
 
@@ -13,11 +62,14 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
-- Michel 2024 10.1038/s41586-024-07546-2 (added by @meganemichel)
+- Fiddaman 2023 10.1126/science.adg2238 (added by @aidaanva)
+- Susat 2024 10.1038/s42003-024-06676-7 (added by @MagdalenaHC)
 
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+- Bonczarowska2023: Fixed library type (actually half-UDG, despite paper reporting non-UDG) 10.1098/rspb.2023.0622 (fixed by @marcel-keller)
 
 ### Removed
 

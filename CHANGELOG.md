@@ -12,7 +12,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 #### Ancient Single Genome: Host Associated
-
+ - C14 Zhou2018 10.1016/j.cub.2018.05.058 (Added by @KaHea-21)
+ - 
 #### Ancient Metagenome: Environmental
 
 ### Changed

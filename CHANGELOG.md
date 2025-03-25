@@ -44,9 +44,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Guellil2022 10.1186/s13059-021-02580-z (added by @ZoePochon)
 - C14 Majander 2020 10.1016/j.cub.2020.07.058 (added by @KaHea-21)
 - C14 Duggan2016 10.1016/j.cub.2016.10.061 (added by @KaHea-21)
-- C14 for Jackson 2024 10.1093/molbev/msae017 (added by @iseultj)
-
-
+- C14 Jackson2024 10.1093/molbev/msae017 (added by @iseultj)
+- C14 Guellil2020 10.1073/pnas.2009677117 (added by @bbartholdy)
+- C14 White2021 10.3390/biology10121324 (added by @biancamariabonucci)
 
 #### Ancient Metagenome: Environmental
 

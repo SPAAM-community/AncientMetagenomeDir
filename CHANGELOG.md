@@ -54,7 +54,10 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 Kay2015 10.1038/ncomms7717 (Added by @KaHea-21)
 - C14 Bos 2014 10.1038/nature13591 (added by @yaxalponce and @KaHea-21)
 - C14 Rasmussen 2015 10.1016/j.cell.2015.10.009 (added by @mlo89)
+- C14 Barquera 2020 10.1016/j.cub.2020.04.002 (added by @KaHea-21)
+- C14 KrauseKyora2018	10.7554/eLife.36666 (added by @KaHea-21)
 - C14 Keller2019 10.1073/pnas.1820447116 (added by @marcel-keller)
+
 
 
 #### Ancient Metagenome: Environmental

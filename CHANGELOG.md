@@ -52,7 +52,7 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 Bos2011 10.1038/nature10549 (added by @KaHea-21)
 - C14 Zhou2018 10.1016/j.cub.2018.05.058 (Added by @KaHea-21)
 - C14 Kay2015 10.1038/ncomms7717 (Added by @KaHea-21)
-
+- C14 Barquera 2020 10.1016/j.cub.2020.04.002 (added by @KaHea-21)
 
 #### Ancient Metagenome: Environmental
 
@@ -68,7 +68,6 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 
 #### Ancient Single Genome: Host Associated
 
-- C14: Barquera 2020 10.1016/j.cub.2020.04.002 (added by @KaHea-21)
 - Fiddaman 2023 10.1126/science.adg2238 (added by @aidaanva)
 - Susat 2024 10.1038/s42003-024-06676-7 (added by @MagdalenaHC)
 

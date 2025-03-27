@@ -147,9 +147,9 @@
         "$id": "#/items/properties/reference_citation_depth",
         "type": "string",
         "title": "Reference Citation Depth?",
-        "pattern": "[1-3]|Unknown|NA",
+        "pattern": "[1-3]|Unknown|DNE",
         "description": "First place where the precise-radiocarbon date was recorded in the primary citation publication (i.e, the publication in ancientMetagenomeDir). 1 - main text > 2 - supplementary text > 3 - supplementary table.",
-        "examples": ["1", "2", "3", "Unknown", "NA"]
+        "examples": ["1", "2", "3", "Unknown", "DNE"]
       },
       "primary_secondary_reference_citation_doi": {
         "$id": "#/items/properties/primary_secondary_reference_citation_doi",
@@ -176,10 +176,10 @@
       },
       "radiocarbon_lab_sample_id": {
         "$id": "#/items/properties/radiocarbon_lab_sample_id",
-        "type": ["integer","null"],
+        "type": ["string"],
         "title": "Radiocarbon Lab Sample ID",
         "description": "C14 sample code of the radiocarbon date from the lab",
-        "examples": [12355, 44034, -99999, "NA"]
+        "examples": ["12355", "44034.1.1", "3456A", "-99999", "DNE"]
       },
       "spectrometry_type": {
         "$id": "#/items/properties/spectrometry_type",
@@ -333,7 +333,7 @@
       },
       "calibrated_range_sigma": {
         "$id": "#/items/properties/calibrated_range_sigma",
-        "type": [ "integer", "null" ],
+        "type": [ "number", "null" ],
         "title": "Calibrated range sigma",
         "description": "Confidence level of the reported calibrated age range, typically in 2 (95.4%) or 1 (68.2%) levels of significance (sigma).",
         "examples": [1, 2, -99999, "NA"]

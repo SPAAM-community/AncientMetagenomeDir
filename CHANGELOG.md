@@ -15,8 +15,8 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 
 #### Ancient Single Genome: Host Associated
 
-
 - Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
+- Valeur Seersholm 2024 10.1038/s41586-024-07651-2(added by @YuejiaoHuang and @alexhbnr)
 - C14 Susat 2021 10.1016/j.celrep.2021.109278 (added by @aidaanva)
 - C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
 - C14 Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
@@ -56,8 +56,9 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 Rasmussen 2015 10.1016/j.cell.2015.10.009 (added by @mlo89)
 - C14 Barquera 2020 10.1016/j.cub.2020.04.002 (added by @KaHea-21)
 - C14 KrauseKyora2018	10.7554/eLife.36666 (added by @KaHea-21)
+- C14 Long2022 10.1038/s42003-022-03527-1 (added by @mlo89)
+- C14 Devault2014 10.1056/NEJMoa1308663 (Added by @KaHea-21)
 - C14 Keller2019 10.1073/pnas.1820447116 (added by @marcel-keller)
-
 
 
 #### Ancient Metagenome: Environmental

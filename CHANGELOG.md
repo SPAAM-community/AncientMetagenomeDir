@@ -1,4 +1,3 @@
-
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -11,11 +10,13 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
+
 Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 
 #### Ancient Single Genome: Host Associated
 
 - Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
+- Valeur Seersholm 2024 10.1038/s41586-024-07651-2(added by @YuejiaoHuang and @alexhbnr)
 - RodriguezVarela 2024 10.1126/sciadv.adp8625 (added by @ZoePochon)
 
 - C14 Susat 2021 10.1016/j.celrep.2021.109278 (added by @aidaanva)
@@ -43,7 +44,26 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 Guellil2022 10.1186/s13059-021-02580-z (added by @ZoePochon)
 - C14 Majander 2020 10.1016/j.cub.2020.07.058 (added by @KaHea-21)
 - C14 Duggan2016 10.1016/j.cub.2016.10.061 (added by @KaHea-21)
-- C14 for Jackson 2024 10.1093/molbev/msae017 (added by @iseultj)
+  <<<<<<< HEAD
+- # C14 for Jackson 2024 10.1093/molbev/msae017 (added by @iseultj)
+- C14 Jackson2024 10.1093/molbev/msae017 (added by @iseultj)
+- C14 Guellil2020 10.1073/pnas.2009677117 (added by @bbartholdy)
+- C14 White2021 10.3390/biology10121324 (added by @biancamariabonucci)
+- C14 Schuenemann2018 10.1371/journal.ppat.1006997 (added by @KaHea-21)
+- C14 Muhlemann 2018 10.1038/s41586-018-0097-z (added by @KaHea-21)
+- C14 Kocher2021 10.1126/science.abi5658 (added by @arthurKocher)
+- C14 Guellil2018 10.1073/pnas.1807266115 (added by @KaHea-21)
+- C14 Bos2011 10.1038/nature10549 (added by @KaHea-21)
+- C14 Zhou2018 10.1016/j.cub.2018.05.058 (Added by @KaHea-21)
+- C14 Kay2015 10.1038/ncomms7717 (Added by @KaHea-21)
+- C14 Bos 2014 10.1038/nature13591 (added by @yaxalponce and @KaHea-21)
+- C14 Rasmussen 2015 10.1016/j.cell.2015.10.009 (added by @mlo89)
+- C14 Barquera 2020 10.1016/j.cub.2020.04.002 (added by @KaHea-21)
+- C14 KrauseKyora2018 10.7554/eLife.36666 (added by @KaHea-21)
+- C14 Long2022 10.1038/s42003-022-03527-1 (added by @mlo89)
+- C14 Devault2014 10.1056/NEJMoa1308663 (Added by @KaHea-21)
+
+> > > > > > > master
 
 #### Ancient Metagenome: Environmental
 

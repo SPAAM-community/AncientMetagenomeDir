@@ -1,4 +1,3 @@
-
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -11,6 +10,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
+
 Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 
 #### Ancient Single Genome: Host Associated
@@ -18,6 +18,8 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 
 - Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
 - Valeur Seersholm 2024 10.1038/s41586-024-07651-2(added by @YuejiaoHuang and @alexhbnr)
+- RodriguezVarela 2024 10.1126/sciadv.adp8625 (added by @ZoePochon)
+- LlanosLizcano2025 10.1038/s41598-024-85038-z (added by @pswali and @tonidedios94)
 - C14 Susat 2021 10.1016/j.celrep.2021.109278 (added by @aidaanva)
 - C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
 - C14 Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
@@ -49,17 +51,16 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 Schuenemann2018 10.1371/journal.ppat.1006997 (added by @KaHea-21)
 - C14 Muhlemann 2018 10.1038/s41586-018-0097-z (added by @KaHea-21)
 - C14 Kocher2021 10.1126/science.abi5658 (added by @arthurKocher)
-- C14 Guellil2018 10.1073/pnas.1807266115	(added by @KaHea-21)
+- C14 Guellil2018 10.1073/pnas.1807266115 (added by @KaHea-21)
 - C14 Bos2011 10.1038/nature10549 (added by @KaHea-21)
 - C14 Zhou2018 10.1016/j.cub.2018.05.058 (Added by @KaHea-21)
 - C14 Kay2015 10.1038/ncomms7717 (Added by @KaHea-21)
 - C14 Bos 2014 10.1038/nature13591 (added by @yaxalponce and @KaHea-21)
 - C14 Rasmussen 2015 10.1016/j.cell.2015.10.009 (added by @mlo89)
 - C14 Barquera 2020 10.1016/j.cub.2020.04.002 (added by @KaHea-21)
-- C14 KrauseKyora2018	10.7554/eLife.36666 (added by @KaHea-21)
+- C14 KrauseKyora2018 10.7554/eLife.36666 (added by @KaHea-21)
 - C14 Long2022 10.1038/s42003-022-03527-1 (added by @mlo89)
 - C14 Devault2014 10.1056/NEJMoa1308663 (Added by @KaHea-21)
-
 
 #### Ancient Metagenome: Environmental
 
@@ -663,4 +664,3 @@ Correction: Correct release ZIP upload
 - Maixner2016: corrected singlegenome_domain
 
 ### Removed
-

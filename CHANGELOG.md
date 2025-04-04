@@ -14,6 +14,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 
 #### Ancient Single Genome: Host Associated
+- Patrono 2022 10.1038/s41467-022-29614-9 (added by @KaHea-21)
 
 - Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
 - Valeur Seersholm 2024 10.1038/s41586-024-07651-2(added by @YuejiaoHuang and @alexhbnr)

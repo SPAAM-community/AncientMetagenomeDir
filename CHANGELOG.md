@@ -58,6 +58,7 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 KrauseKyora2018	10.7554/eLife.36666 (added by @KaHea-21)
 - C14 Long2022 10.1038/s42003-022-03527-1 (added by @mlo89)
 - C14 Devault2014 10.1056/NEJMoa1308663 (Added by @KaHea-21)
+- C14 DeDios2019 10.1099/mgen.0.000289 (added by @aidaanva)
 
 
 #### Ancient Metagenome: Environmental

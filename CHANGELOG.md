@@ -64,8 +64,6 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 
 ### Changed
 
-- Added three new species names to singlegenome_species.json (added by @ZoePochon)
-
 ### Removed
 
 ## v24.12: Old Town of Corfu

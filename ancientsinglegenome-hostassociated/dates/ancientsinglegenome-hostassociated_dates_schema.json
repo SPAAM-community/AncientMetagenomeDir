@@ -176,10 +176,10 @@
       },
       "radiocarbon_lab_sample_id": {
         "$id": "#/items/properties/radiocarbon_lab_sample_id",
-        "type": ["integer","null"],
+        "type": ["string"],
         "title": "Radiocarbon Lab Sample ID",
         "description": "C14 sample code of the radiocarbon date from the lab",
-        "examples": [12355, 44034, -99999, "NA"]
+        "examples": ["12355", "44034.1.1", "3456A", "-99999", "DNE"]
       },
       "spectrometry_type": {
         "$id": "#/items/properties/spectrometry_type",

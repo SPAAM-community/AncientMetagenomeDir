@@ -298,7 +298,7 @@ Dates columns are as follows:
 
 - Specify:
 
-- `-99999` if a radiocarbon date is reported but the uncalibrated uncertainty is not reported.
+ - `-99999` if a radiocarbon date is reported but the uncalibrated uncertainty is not reported.
 
 Set `NA` if not a radiocarbon date.
 

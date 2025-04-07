@@ -69,6 +69,7 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 Rascovan2019 10.1016/j.cell.2018.11.005 (added by @aidaanva)
 - C14 vanDorp2020 10.1093/molbev/msz264 (added by @aidaanva)
 - C14 DeDios2019 10.1099/mgen.0.000289 (added by @aidaanva)
+- C14 DeDios2020 10.1016/j.meegid.2020.104209 (added by @KaHea-21)
 
 
 
@@ -88,7 +89,6 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 
 - Fiddaman 2023 10.1126/science.adg2238 (added by @aidaanva)
 - Susat 2024 10.1038/s42003-024-06676-7 (added by @MagdalenaHC)
-- C14: DeDios2020 10.1016/j.meegid.2020.104209 (added by @KaHea-21)
 
 #### Ancient Metagenome: Environmental
 

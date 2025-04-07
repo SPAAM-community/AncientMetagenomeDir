@@ -123,7 +123,7 @@
         "$id": "#/items/properties/archaeological_historical_date",
         "type": [ "string"],
         "title": "Archaeological or historical date range or singular date",
-        "pattern": "[0-9]+-*[0-9]+|DNE",
+        "pattern": "[0-9]+-*[0-9]*|DNE",
         "description": "Archaeological or historical date range or singular date. The unit of time is Before Present (before 1950, BP)",
         "examples": ["500-550", "35", "DNE"]
       },
@@ -176,10 +176,10 @@
       },
       "radiocarbon_lab_sample_id": {
         "$id": "#/items/properties/radiocarbon_lab_sample_id",
-        "type": ["integer","null"],
+        "type": ["string"],
         "title": "Radiocarbon Lab Sample ID",
         "description": "C14 sample code of the radiocarbon date from the lab",
-        "examples": [12355, 44034, -99999, "NA"]
+        "examples": ["12355", "44034.1.1", "3456A", "-99999", "DNE"]
       },
       "spectrometry_type": {
         "$id": "#/items/properties/spectrometry_type",

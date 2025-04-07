@@ -14,12 +14,14 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 
 #### Ancient Single Genome: Host Associated
-- Patrono 2022 10.1038/s41467-022-29614-9 (added by @KaHea-21)
 
+- Patrono 2022 10.1038/s41467-022-29614-9 (added by @KaHea-21)
 - Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
 - Valeur Seersholm 2024 10.1038/s41586-024-07651-2(added by @YuejiaoHuang and @alexhbnr)
 - RodriguezVarela 2024 10.1126/sciadv.adp8625 (added by @ZoePochon)
 - LlanosLizcano2025 10.1038/s41598-024-85038-z (added by @pswali and @tonidedios94)
+- Barquera 2024 10.1038/s41586-024-08515-5 (added by @jasmezz)
+
 - C14 Susat 2021 10.1016/j.celrep.2021.109278 (added by @aidaanva)
 - C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
 - C14 Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
@@ -69,8 +71,11 @@ Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - C14 Rascovan2019 10.1016/j.cell.2018.11.005 (added by @aidaanva)
 - C14 vanDorp2020 10.1093/molbev/msz264 (added by @aidaanva)
 - C14 DeDios2019 10.1099/mgen.0.000289 (added by @aidaanva)
+- C14 Kerudin2019 10.1016/j.jas.2019.105035 (added by @aidaanva)
+- C14 Worobey2016 10.1038/nature19827 (added by @aidaanva)
+- C14 Schuenemann2011 10.1073/pnas.1105107108 (added by @aidaanva)
+- C14 Duggan2020 10.1186/s13059-020-02079-z (added by @aidaanva)
 - C14 Spyrou2016 10.1016/j.chom.2016.05.012 (added by @aidaanva)
-
 
 #### Ancient Metagenome: Environmental
 

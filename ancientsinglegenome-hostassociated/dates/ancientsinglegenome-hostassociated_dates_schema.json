@@ -123,7 +123,7 @@
         "$id": "#/items/properties/archaeological_historical_date",
         "type": [ "string"],
         "title": "Archaeological or historical date range or singular date",
-        "pattern": "[0-9]+-*[0-9]+|DNE",
+        "pattern": "[0-9]+-*[0-9]*|DNE",
         "description": "Archaeological or historical date range or singular date. The unit of time is Before Present (before 1950, BP)",
         "examples": ["500-550", "35", "DNE"]
       },

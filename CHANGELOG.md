@@ -29,6 +29,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Fiddaman 2023 10.1126/science.adg2238 (added by @aidaanva)
 - Susat 2024 10.1038/s42003-024-06676-7 (added by @MagdalenaHC)
+- C14: DeDios2020 10.1016/j.meegid.2020.104209 (added by @KaHea-21)
 
 #### Ancient Metagenome: Environmental
 

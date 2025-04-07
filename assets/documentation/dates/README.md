@@ -300,7 +300,7 @@ Dates columns are as follows:
 
  - `-99999` if a radiocarbon date is reported but the uncalibrated uncertainty is not reported.
 
-Set `NA` if not a radiocarbon date.
+ - Set `NA` if not a radiocarbon date.
 
 ## delta_13c
 

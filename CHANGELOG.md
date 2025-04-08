@@ -13,6 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- C14 Spyrou2019 10.1038/s41467-019-12154-0 (added by @aidaanva)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

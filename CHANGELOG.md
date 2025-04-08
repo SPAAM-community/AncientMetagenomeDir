@@ -11,9 +11,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
-- C14 Namouchi2018 10.1073/pnas.1812865115 (added by @aidaanva)
-
 #### Ancient Single Genome: Host Associated
+
+- C14 Namouchi2018 10.1073/pnas.1812865115 (added by @aidaanva)
 
 #### Ancient Metagenome: Environmental
 

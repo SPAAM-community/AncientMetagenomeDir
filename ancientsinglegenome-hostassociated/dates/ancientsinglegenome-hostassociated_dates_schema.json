@@ -25,7 +25,8 @@
       "reference_location",
       "reference_citation_depth",
       "primary_secondary_reference_citation_doi",
-      "direct_dating",
+      "direct_dating_individual",
+      "direct_dating_element",
       "radiocarbon_lab_code",
       "radiocarbon_lab_sample_id",
       "spectrometry_type",
@@ -158,12 +159,20 @@
         "description": "DOI of the primary or secondary reference (i.e. the DOI of the publication in which the date was original reported) or permalink",
         "examples": ["10.1038/ng.2906", "https://www.jstor.org/stable/j.ctv270kvmk", "Unknown", "DNE"]
       },
-      "direct_dating": {
+      "direct_dating_individual": {
         "$id": "#/items/properties/direct_dating",
         "type": "string",
-        "title": "Date Directly from Sample?",
+        "title": "Date Directly from the individual?",
         "pattern": "TRUE|FALSE|DNE|NR",
-        "description": "Whether the date of the ancient metagenomic sample was directly from the same skeleton (or similar), or whether inferred from other samples in the same context",
+        "description": "Whether the radiocarbon date used for the ancient metagenomics study was derived from the individual. Eg. The sample used for the C14 dating is a rib or bone which was not used for the metagenomic analysis, but is from the same individual.",
+        "examples": ["TRUE", "FALSE", "DNE", "NR"]
+      },
+      "direct_dating_element": {
+        "$id": "#/items/properties/direct_dating",
+        "type": "string",
+        "title": "Date Directly from Sample where DNA was extracted for the metagenomic study?",
+        "pattern": "TRUE|FALSE|DNE|NR",
+        "description": "Whether the radiocarbon date used for the ancient metagenomics study was derived from the same element. Eg. the tooth used for the metagenomic analysis was also radiocarbon dated.",
         "examples": ["TRUE", "FALSE", "DNE", "NR"]
       },
       "radiocarbon_lab_code": {

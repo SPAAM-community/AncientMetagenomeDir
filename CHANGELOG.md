@@ -13,7 +13,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- C14 DeDios2020 10.1016/j.meegid.2020.104209 (added by @KaHea-21)
 - C14 Wagner2014 10.1016/S1473-3099(13)70323-2 (added by @aidaanva)
+
 
 #### Ancient Metagenome: Environmental
 

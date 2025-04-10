@@ -160,7 +160,7 @@
         "examples": ["10.1038/ng.2906", "https://www.jstor.org/stable/j.ctv270kvmk", "Unknown", "DNE"]
       },
       "direct_dating_individual": {
-        "$id": "#/items/properties/direct_dating",
+        "$id": "#/items/properties/direct_dating_individual",
         "type": "string",
         "title": "Date Directly from the individual?",
         "pattern": "TRUE|FALSE|DNE|NR",
@@ -168,7 +168,7 @@
         "examples": ["TRUE", "FALSE", "DNE", "NR"]
       },
       "direct_dating_element": {
-        "$id": "#/items/properties/direct_dating",
+        "$id": "#/items/properties/direct_dating_element",
         "type": "string",
         "title": "Date Directly from Sample where DNA was extracted for the metagenomic study?",
         "pattern": "TRUE|FALSE|DNE|NR",

@@ -18,6 +18,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Martin2013 10.1038/ncomms3172 (added by @aidaanva)
 - C14 Namouchi2018 10.1073/pnas.1812865115 (added by @aidaanva)
 - C14 Yoshida2013 10.7554/eLife.00731.002 (added by @aidaanva)
+- C14 Spyrou2019 10.1038/s41467-019-12154-0 (added by @aidaanva)
 
 
 #### Ancient Metagenome: Environmental

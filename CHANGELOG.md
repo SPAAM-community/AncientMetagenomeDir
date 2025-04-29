@@ -33,6 +33,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Rieux2021	10.1038/s41598-021-00518-w (added by @KaHea-21)
 - C14 Long2023 10.1371/journal.ppat.1011538 (added by @jfy133)
 - C14 Jager2022 10.1016/j.tube.2022.102181 (added by @jfy133)
+- C14 Granehall2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
 
 
 #### Ancient Metagenome: Environmental

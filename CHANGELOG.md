@@ -21,6 +21,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Spyrou2019 10.1038/s41467-019-12154-0 (added by @aidaanva)
 - C14 Muhlemann2020 10.1126/science.aaw8977 (added by @aidaanva)
 - C14 KrauseKyora2018b 10.1038/s41467-018-03857-x (added by @aidaanva)
+- C14 PlaDiaz2025 10.1186/s12915-024-02108-4 (added by @iseultj)
 - C14 Eaton2023 10.1016/j.cub.2023.01.064 (added by @aidaanva)
 
 

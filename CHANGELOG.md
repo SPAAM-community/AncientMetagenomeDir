@@ -26,6 +26,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Susat2020 10.1038/s41598-020-71530-9 (added by @iseultj)
 - C14 Gelabert2016	10.1073/pnas.1611017113 (added by @KaHea-21)
 - C14 Williams2020 10.1128/mra.00850-20 (added by @KaHea-21)
+- C14 Wu2021 10.1371/journal.ppat.1009886 (added by @YuejiaoHuang)
 
 
 

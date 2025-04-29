@@ -22,12 +22,11 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Muhlemann2020 10.1126/science.aaw8977 (added by @aidaanva)
 - C14 KrauseKyora2018b 10.1038/s41467-018-03857-x (added by @aidaanva)
 - C14 PlaDiaz2025 10.1186/s12915-024-02108-4 (added by @iseultj)
-- C14 Eisenhofer2020	10.1098/rstb.2019.0578 (added by @KaHea-21)
+- C14 Eisenhofer2020 10.1098/rstb.2019.0578 (added by @KaHea-21)
 - C14 Susat2020 10.1038/s41598-020-71530-9 (added by @iseultj)
-- C14 Gelabert2016	10.1073/pnas.1611017113 (added by @KaHea-21)
+- C14 Gelabert2016 10.1073/pnas.1611017113 (added by @KaHea-21)
 - C14 Williams2020 10.1128/mra.00850-20 (added by @KaHea-21)
-
-
+- C14 Long2023 10.1371/journal.ppat.1011538 (added by @jfy133)
 
 #### Ancient Metagenome: Environmental
 
@@ -107,7 +106,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Schuenemann2011 10.1073/pnas.1105107108 (added by @aidaanva)
 - C14 Duggan2020 10.1186/s13059-020-02079-z (added by @aidaanva)
 - C14 Spyrou2016 10.1016/j.chom.2016.05.012 (added by @aidaanva)
-
 
 #### Ancient Metagenome: Environmental
 

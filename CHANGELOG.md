@@ -28,6 +28,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Williams2020 10.1128/mra.00850-20 (added by @KaHea-21)
 - C14 Urban2024 10.1016/j.cub.2024.04.006 (added by @jfy133)
 - C14 Rozwalak2024 10.1038/s41467-023-44370-0	(added by @jfy133)
+- C14 Sarhan2023	10.1186/s12915-022-01509-7 (added by @KaHea-21)
 
 
 #### Ancient Metagenome: Environmental

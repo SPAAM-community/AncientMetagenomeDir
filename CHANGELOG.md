@@ -40,6 +40,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Marciniak2016	10.1016/j.cub.2016.10.016 (added by @KaHea-21)
 - C14 Wu2021 10.1371/journal.ppat.1009886 (added by @YuejiaoHuang)
 - C14 Clavel2023 10.1016/j.isci.2023.106787 (added by @KaHea-21)
+- C14 Campos2023 10.1038/s41467-023-39950-z (added by @reedharder)
 
 
 #### Ancient Metagenome: Environmental

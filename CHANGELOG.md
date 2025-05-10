@@ -42,7 +42,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Clavel2023 10.1016/j.isci.2023.106787 (added by @KaHea-21)
 - C14 Guellil2022b 10.1126/sciadv.abo4435 (added by @YuejiaoHuang)
 - C14 Eaton2023 10.1016/j.cub.2023.01.064 (added by @aidaanva)
-
+- C14 Pfrengle2021	10.1186/s12915-021-01120-2 (added by @KaHea-21)
 
 #### Ancient Metagenome: Environmental
 

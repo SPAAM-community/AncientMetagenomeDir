@@ -45,6 +45,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Neumann2023	10.1553/archaeologia107s137 (added by @KaHea-21)
 - C14 Patrono2022	10.1038/s41467-022-29614-9 (added by @KaHea-21)
 - C14 Campos2021	10.1371/journal.ppat.1009714 (added by @KaHea-21)
+- C14 Neukamm2020	10.1186/s12915-020-00839-8 (added by @aidaanva)
+
 
 
 #### Ancient Metagenome: Environmental

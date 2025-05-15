@@ -50,7 +50,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Schuenemann2018b	10.1371/journal.pntd.0006447 (added by @KaHea-21)
 - C14 LlanosLizcano2025	10.1038/s41598-024-85038-z (added by @KaHea-21)
 - C14 Haller2021	10.1016/j.isci.2021.102419 (added by @KaHea-21)
-
+- C14 Spyrou2022	10.1038/s41586-022-04800-3 (added by @KaHea-21)
 
 
 #### Ancient Metagenome: Environmental

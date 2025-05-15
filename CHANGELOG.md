@@ -48,6 +48,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Neukamm2020	10.1186/s12915-020-00839-8 (added by @aidaanva)
 - C14 Braun2020	10.3390/microorganisms8020298 (added by @KaHea-21)
 - C14 Schuenemann2018b	10.1371/journal.pntd.0006447 (added by @KaHea-21)
+- C14 Barquera2024 10.1038/s41586-024-08515-5 (added by @KaHea-21)
 
 
 

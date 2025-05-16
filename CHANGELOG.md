@@ -52,6 +52,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Haller2021	10.1016/j.isci.2021.102419 (added by @KaHea-21)
 - C14 Spyrou2022	10.1038/s41586-022-04800-3 (added by @KaHea-21)
 - C14 Bonczarowska2023	10.1098/rspb.2023.0622 (added by @KaHea-21)
+- C14 Kilinc2021 10.1126/sciadv.abc4587 (added by @aidaanva)
 
 
 #### Ancient Metagenome: Environmental

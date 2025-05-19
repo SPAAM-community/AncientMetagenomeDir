@@ -64,6 +64,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Added missing samples Guellil2022b 10.1126/sciadv.abo4435 (@aidaanva)
+
 ### Removed
 
 ## v25.03: Historic Centre of Cordoba

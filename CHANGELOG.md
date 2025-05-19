@@ -57,7 +57,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Ferrari2020	10.1098/rstb.2019.0572 (added by @KaHea-21)
 - C14 SeguinOrlando2021	10.1016/j.isci.2021.102383 (added by @KaHea-21)
 - C14 Barquera2024 10.1038/s41586-024-08515-5 (added by @KaHea-21)
-
+- C14 Pfrengle2021 10.1186/s12915-021-01120-2 (added by @KaHea-21)
 
 
 #### Ancient Metagenome: Environmental
@@ -138,7 +138,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Schuenemann2011 10.1073/pnas.1105107108 (added by @aidaanva)
 - C14 Duggan2020 10.1186/s13059-020-02079-z (added by @aidaanva)
 - C14 Spyrou2016 10.1016/j.chom.2016.05.012 (added by @aidaanva)
-- C14 Pfrengle2021 10.1186/s12915-021-01120-2 (added by @KaHea-21)
+
 
 
 #### Ancient Metagenome: Environmental

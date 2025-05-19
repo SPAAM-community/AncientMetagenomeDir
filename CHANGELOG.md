@@ -5,20 +5,80 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v25.03: Historic Centre of Cordoba [Unreleased]
+## v25.06: Amphitheatre of El Jem [Unpublished]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+- Michel 2024 10.1038/s41586-024-07546-2 (added by @meganemichel)
+- C14 DeDios2020 10.1016/j.meegid.2020.104209 (added by @KaHea-21)
+- C14 Wagner2014 10.1016/S1473-3099(13)70323-2 (added by @aidaanva)
+- C14 Martin2013 10.1038/ncomms3172 (added by @aidaanva)
+- C14 Namouchi2018 10.1073/pnas.1812865115 (added by @aidaanva)
+- C14 Yoshida2013 10.7554/eLife.00731.002 (added by @aidaanva)
+- C14 Spyrou2019 10.1038/s41467-019-12154-0 (added by @aidaanva)
+- C14 Muhlemann2020 10.1126/science.aaw8977 (added by @aidaanva)
+- C14 KrauseKyora2018b 10.1038/s41467-018-03857-x (added by @aidaanva)
+- C14 PlaDiaz2025 10.1186/s12915-024-02108-4 (added by @iseultj)
+- C14 Eisenhofer2020 10.1098/rstb.2019.0578 (added by @KaHea-21)
+- C14 Susat2020 10.1038/s41598-020-71530-9 (added by @iseultj)
+- C14 Gelabert2016 10.1073/pnas.1611017113 (added by @KaHea-21)
+- C14 Williams2020 10.1128/mra.00850-20 (added by @KaHea-21)
+- C14 Urban2024 10.1016/j.cub.2024.04.006 (added by @jfy133)
+- C14 Rozwalak2024 10.1038/s41467-023-44370-0 (added by @jfy133)
+- C14 Sarhan2023 10.1186/s12915-022-01509-7 (added by @KaHea-21)
+- C14 RodriguezVarela2024 10.1126/sciadv.adp8625 (added by @ZoePochon)
+- C14 Rieux2021 10.1038/s41598-021-00518-w (added by @KaHea-21)
+- C14 Long2023 10.1371/journal.ppat.1011538 (added by @jfy133)
+- C14 Jager2022 10.1016/j.tube.2022.102181 (added by @jfy133)
+- C14 Granehall2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
+- C14 Mendum2014 10.1186/1471-2164-15-270 (added by @iseultj)
+- C14 Taubenberger2005 2005 10.1038/nature04230 (added by @KaHea-21)
+- C14 Eerkens2018 10.1016/j.ijpp.2018.05.001 (added by @aidaanva)
+- C14 Marciniak2016 10.1016/j.cub.2016.10.016 (added by @KaHea-21)
+- C14 Wu2021 10.1371/journal.ppat.1009886 (added by @YuejiaoHuang)
+- C14 Clavel2023 10.1016/j.isci.2023.106787 (added by @KaHea-21)
+- C14 Guellil2022b 10.1126/sciadv.abo4435 (added by @YuejiaoHuang)
+- C14 Eaton2023 10.1016/j.cub.2023.01.064 (added by @aidaanva)
+- C14 Neumann2023 10.1553/archaeologia107s137 (added by @KaHea-21)
+- C14 Patrono2022 10.1038/s41467-022-29614-9 (added by @KaHea-21)
+- C14 Campos2021 10.1371/journal.ppat.1009714 (added by @KaHea-21)
+- C14 Neukamm2020 10.1186/s12915-020-00839-8 (added by @aidaanva)
+- C14 Braun2020 10.3390/microorganisms8020298 (added by @KaHea-21)
+- C14 Schuenemann2018b 10.1371/journal.pntd.0006447 (added by @KaHea-21)
+- C14 LlanosLizcano2025 10.1038/s41598-024-85038-z (added by @KaHea-21)
+- C14 Haller2021 10.1016/j.isci.2021.102419 (added by @KaHea-21)
+- C14 Spyrou2022 10.1038/s41586-022-04800-3 (added by @KaHea-21)
+- C14 Bonczarowska2023 10.1098/rspb.2023.0622 (added by @KaHea-21)
+- C14 Kilinc2021 10.1126/sciadv.abc4587 (added by @aidaanva)
+- C14 Morozova2020 10.1098/rstb.2019.0569 (added by @aidaanva)
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+### Removed
+
+## v25.03: Historic Centre of Cordoba
 
 ### Added
 
 #### Ancient Metagenome: Host Associated
 
 - Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
+- Velsko 2024 10.1038/s41467-024-53920-z (added by @ivelsko and @alexhbnr)
 
 #### Ancient Single Genome: Host Associated
 
+- Patrono 2022 10.1038/s41467-022-29614-9 (added by @KaHea-21)
 - Pla-Diaz 2025 10.1186/s12915-024-02108-4 (added by @jfy133)
 - Valeur Seersholm 2024 10.1038/s41586-024-07651-2(added by @YuejiaoHuang and @alexhbnr)
-- Michel 2024 10.1038/s41586-024-07546-2 (added by @meganemichel)
-
+- RodriguezVarela 2024 10.1126/sciadv.adp8625 (added by @ZoePochon)
+- LlanosLizcano2025 10.1038/s41598-024-85038-z (added by @pswali and @tonidedios94)
+- Barquera 2024 10.1038/s41586-024-08515-5 (added by @jasmezz)
 - C14 Susat 2021 10.1016/j.celrep.2021.109278 (added by @aidaanva)
 - C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
 - C14 Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
@@ -50,17 +110,29 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Schuenemann2018 10.1371/journal.ppat.1006997 (added by @KaHea-21)
 - C14 Muhlemann 2018 10.1038/s41586-018-0097-z (added by @KaHea-21)
 - C14 Kocher2021 10.1126/science.abi5658 (added by @arthurKocher)
-- C14 Guellil2018 10.1073/pnas.1807266115	(added by @KaHea-21)
+- C14 Guellil2018 10.1073/pnas.1807266115 (added by @KaHea-21)
 - C14 Bos2011 10.1038/nature10549 (added by @KaHea-21)
 - C14 Zhou2018 10.1016/j.cub.2018.05.058 (Added by @KaHea-21)
 - C14 Kay2015 10.1038/ncomms7717 (Added by @KaHea-21)
 - C14 Bos 2014 10.1038/nature13591 (added by @yaxalponce and @KaHea-21)
 - C14 Rasmussen 2015 10.1016/j.cell.2015.10.009 (added by @mlo89)
 - C14 Barquera 2020 10.1016/j.cub.2020.04.002 (added by @KaHea-21)
-- C14 KrauseKyora2018	10.7554/eLife.36666 (added by @KaHea-21)
+- C14 KrauseKyora2018 10.7554/eLife.36666 (added by @KaHea-21)
 - C14 Long2022 10.1038/s42003-022-03527-1 (added by @mlo89)
 - C14 Devault2014 10.1056/NEJMoa1308663 (Added by @KaHea-21)
-
+- C14 Maixner2016 10.1126/science.aad2545 (added by @aidaanva)
+- C14 Keller2019 10.1073/pnas.1820447116 (added by @marcel-keller)
+- C14 Maixner2016 10.1126/science.aad2545 (added by @aidaanva)
+- C14 Feldman2016 10.1093/molbev/msw170 (added by @aidaanva)
+- C14 Philips2020 10.1186/s12864-020-06810-9 (added by @yaxalponce and @KaHea-21)
+- C14 Rascovan2019 10.1016/j.cell.2018.11.005 (added by @aidaanva)
+- C14 vanDorp2020 10.1093/molbev/msz264 (added by @aidaanva)
+- C14 DeDios2019 10.1099/mgen.0.000289 (added by @aidaanva)
+- C14 Kerudin2019 10.1016/j.jas.2019.105035 (added by @aidaanva)
+- C14 Worobey2016 10.1038/nature19827 (added by @aidaanva)
+- C14 Schuenemann2011 10.1073/pnas.1105107108 (added by @aidaanva)
+- C14 Duggan2020 10.1186/s13059-020-02079-z (added by @aidaanva)
+- C14 Spyrou2016 10.1016/j.chom.2016.05.012 (added by @aidaanva)
 
 #### Ancient Metagenome: Environmental
 
@@ -664,4 +736,3 @@ Correction: Correct release ZIP upload
 - Maixner2016: corrected singlegenome_domain
 
 ### Removed
-

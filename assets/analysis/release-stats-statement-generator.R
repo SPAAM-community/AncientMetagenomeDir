@@ -1,8 +1,8 @@
 suppressPackageStartupMessages(library(tidyverse))
 
-previous_tag <- "v24.09.0"
+previous_tag <- "v24.12.0"
 release_tag <- "master"
-new_release <- "v24.12.0"
+new_release <- "v25.03.0"
 
 ## SAMPLES
 
@@ -67,17 +67,17 @@ cat(
        adds_single_samples, "new ancient microbial genomes, and",
        adds_env_samples, "new ancient environmental samples.",
        "This brings the repository to a total of",
-       tot_pubs_samples, "publications,",
-       tot_microb_samples, "ancient host-associated metagenome samples,",
-       tot_single_samples, "ancient microbial genomes, and",
-       tot_env_samples, "ancient environmental samples\n\nFurthermore, this release adds",
+       format(tot_pubs_samples, big.mark = ","), "publications,",
+       format(tot_microb_samples, big.mark = ","), "ancient host-associated metagenome samples,",
+       format(tot_single_samples, big.mark = ","), "ancient microbial genomes, and",
+       format(tot_env_samples, big.mark = ","), "ancient environmental samples\n\nFurthermore, this release adds",
        adds_microb_libraries, "new ancient host-associated metagenome libraries,",
        adds_single_libraries, "new ancient microbial genome libraries, and",
        adds_env_libraries, "new ancient environmental libraries.",
        "This brings the repository to a total of",
-       tot_microb_libraries, "ancient host-associated metagenome libraries,",
-       tot_single_libraries, "ancient microbial genomes libraries, and",
-       tot_env_libraries, "ancient environmental libraries.\n\n"
+       format(tot_microb_libraries, big.mark = ","), "ancient host-associated metagenome libraries,",
+       format(tot_single_libraries, big.mark = ","), "ancient microbial genomes libraries, and",
+       format(tot_env_libraries, big.mark = ","), "ancient environmental libraries.\n\n"
 )
 
 ## TWITTER

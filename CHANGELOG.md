@@ -36,7 +36,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Jager2022 10.1016/j.tube.2022.102181 (added by @jfy133)
 - C14 Granehall2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
 - C14 Mendum2014 10.1186/1471-2164-15-270 (added by @iseultj)
-- C14 Taubenberger2005 2005 10.1038/nature04230 (added by @KaHea-21)
+- C14 Taubenberger2005 10.1038/nature04230 (added by @KaHea-21)
 - C14 Eerkens2018 10.1016/j.ijpp.2018.05.001 (added by @aidaanva)
 - C14 Marciniak2016 10.1016/j.cub.2016.10.016 (added by @KaHea-21)
 - C14 Wu2021 10.1371/journal.ppat.1009886 (added by @YuejiaoHuang)

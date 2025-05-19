@@ -27,6 +27,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Gelabert2016	10.1073/pnas.1611017113 (added by @KaHea-21)
 - C14 Williams2020 10.1128/mra.00850-20 (added by @KaHea-21)
 - C14 Fiddaman2023 10.1126/science.adg2238 (added by @biancamariabonucci)
+- Update the C14 information of C14 Fiddaman2023 10.1126/science.adg2238 (added by @biancamariabonucci)
 
 
 

@@ -63,6 +63,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Environmental
 
 ### Changed
+- Fix sample_type for Parker 2023 10.1371/journal.ppat.1011404 (@aidaanva)
 
 ### Removed
 

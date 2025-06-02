@@ -4,4 +4,5 @@ Technical reference guides if you're a pro but just forgot what exactly is allow
 
 - [Library column specifications](docs/reference/library-specifications.md)
 - [Sample column specifications](docs/reference/sample-specifications.md)
+- [Dates column specifications](docs/reference/dates-specifications.md)
 - [Release name list](docs/reference/release-name-list.md)

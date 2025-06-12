@@ -59,11 +59,16 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Barquera2024 10.1038/s41586-024-08515-5 (added by @KaHea-21)
 - C14 Pfrengle2021 10.1186/s12915-021-01120-2 (added by @KaHea-21)
 - C14 Rifkin2023 10.1038/s42003-023-04582-y (added by @KaHea-21)
+- C14 Fiddaman2023 10.1126/science.adg2238 (added by @biancamariabonucci)
+- C14 Guellil2021	10.1038/s41598-021-98214-2 (added by @KaHea-21)
 - C14 Sun2024	10.1038/s41467-024-47358-6  (added by @silvta and @KaHea-21)
+
 
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+- Added missing samples Guellil2022b 10.1126/sciadv.abo4435 (@aidaanva)
 
 ### Removed
 

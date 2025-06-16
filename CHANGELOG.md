@@ -58,7 +58,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 SeguinOrlando2021	10.1016/j.isci.2021.102383 (added by @KaHea-21)
 - C14 Barquera2024 10.1038/s41586-024-08515-5 (added by @KaHea-21)
 - C14 Pfrengle2021 10.1186/s12915-021-01120-2 (added by @KaHea-21)
-- C14 Quagliariello2022 10.1038/s41467-022-34416-0 (added by @AnnaEWhite)
+- C14 Quagliariello2022 10.1038/s41467-022-34416-0 (added by @AnnaEWhite and @aidaanva)
 
 
 #### Ancient Metagenome: Environmental

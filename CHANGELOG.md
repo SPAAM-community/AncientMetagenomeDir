@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/c5f0af34-0207-4068-8894-10eb05f5da78)
-
 # Changelog
 
 All notable changes to this project will be documented in this file.

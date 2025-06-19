@@ -63,6 +63,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Guellil2021	10.1038/s41598-021-98214-2 (added by @KaHea-21)
 - C14 DeDios2021	10.1016/j.isci.2021.103021 (added by @KaHea-21)
 - C14 Sun2024	10.1038/s41467-024-47358-6  (added by @silvta and @KaHea-21)
+- C14 Quagliariello2022 10.1038/s41467-022-34416-0 (added by @AnnaEWhite and @aidaanva)
 
 
 #### Ancient Metagenome: Environmental

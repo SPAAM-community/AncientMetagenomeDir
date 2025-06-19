@@ -40,12 +40,38 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Marciniak2016	10.1016/j.cub.2016.10.016 (added by @KaHea-21)
 - C14 Wu2021 10.1371/journal.ppat.1009886 (added by @YuejiaoHuang)
 - C14 Clavel2023 10.1016/j.isci.2023.106787 (added by @KaHea-21)
+- C14 Guellil2022b 10.1126/sciadv.abo4435 (added by @YuejiaoHuang)
+- C14 Eaton2023 10.1016/j.cub.2023.01.064 (added by @aidaanva)
+- C14 Neumann2023 10.1553/archaeologia107s137 (added by @KaHea-21)
+- C14 Patrono2022	10.1038/s41467-022-29614-9 (added by @KaHea-21)
+- C14 Campos2021 10.1371/journal.ppat.1009714 (added by @KaHea-21)
+- C14 Neukamm2020	10.1186/s12915-020-00839-8 (added by @aidaanva)
+- C14 Braun2020	10.3390/microorganisms8020298 (added by @KaHea-21)
+- C14 Schuenemann2018b	10.1371/journal.pntd.0006447 (added by @KaHea-21)
+- C14 LlanosLizcano2025	10.1038/s41598-024-85038-z (added by @KaHea-21)
+- C14 Haller2021	10.1016/j.isci.2021.102419 (added by @KaHea-21)
+- C14 Spyrou2022	10.1038/s41586-022-04800-3 (added by @KaHea-21)
+- C14 Bonczarowska2023	10.1098/rspb.2023.0622 (added by @KaHea-21)
+- C14 Kilinc2021 10.1126/sciadv.abc4587 (added by @aidaanva)
+- C14 Morozova2020 10.1098/rstb.2019.0569 (added by @aidaanva)
+- C14 Ferrari2020	10.1098/rstb.2019.0572 (added by @KaHea-21)
+- C14 SeguinOrlando2021	10.1016/j.isci.2021.102383 (added by @KaHea-21)
+- C14 Barquera2024 10.1038/s41586-024-08515-5 (added by @KaHea-21)
+- C14 Pfrengle2021 10.1186/s12915-021-01120-2 (added by @KaHea-21)
+- C14 Rifkin2023 10.1038/s42003-023-04582-y (added by @KaHea-21)
+- C14 Fiddaman2023 10.1126/science.adg2238 (added by @biancamariabonucci)
+- C14 Guellil2021	10.1038/s41598-021-98214-2 (added by @KaHea-21)
+- C14 DeDios2021	10.1016/j.isci.2021.103021 (added by @KaHea-21)
+- C14 Sun2024	10.1038/s41467-024-47358-6  (added by @silvta and @KaHea-21)
+- C14 Quagliariello2022 10.1038/s41467-022-34416-0 (added by @AnnaEWhite and @aidaanva)
 - C14 Campos2023 10.1038/s41467-023-39950-z (added by @reedharder)
 
 
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+- Added missing samples Guellil2022b 10.1126/sciadv.abo4435 (@aidaanva)
 
 ### Removed
 
@@ -121,6 +147,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Schuenemann2011 10.1073/pnas.1105107108 (added by @aidaanva)
 - C14 Duggan2020 10.1186/s13059-020-02079-z (added by @aidaanva)
 - C14 Spyrou2016 10.1016/j.chom.2016.05.012 (added by @aidaanva)
+
+
 
 #### Ancient Metagenome: Environmental
 

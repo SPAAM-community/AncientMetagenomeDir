@@ -66,7 +66,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Quagliariello2022 10.1038/s41467-022-34416-0 (added by @AnnaEWhite and @aidaanva)
 - C14 Seersholm2024 10.1038/s41586-024-07651-2 (added by @ZoePochon)
 - C14 Campos2023 10.1038/s41467-023-39950-z (added by @reedharder)
-
+- C14 Lugli2017	10.1186/s40168-016-0221-y (added by @KaHea-21)
 
 
 #### Ancient Metagenome: Environmental

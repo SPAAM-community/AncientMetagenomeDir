@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v25.06: Amphitheatre of El Jem [Unpublished]
+## v25.06: Amphitheatre of El Jem
 
 ### Added
 
@@ -69,8 +69,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Danneels2021	10.1016/j.cub.2021.03.049 (added by @KaHea-21)
 - C14 Bonczarowska2022	10.1186/s13059-022-02806-8 (added by @KaHea-21)
 - C14 Lugli2017	10.1186/s40168-016-0221-y (added by @KaHea-21)
-
-
 
 #### Ancient Metagenome: Environmental
 

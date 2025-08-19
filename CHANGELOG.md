@@ -11,6 +11,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Correction: Corrected radiocarbon date of EMN001 from 9000 to 18700 BP (added by warinner)
+
 #### Ancient Single Genome: Host Associated
 
 #### Ancient Metagenome: Environmental

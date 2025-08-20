@@ -17,6 +17,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Corrected radiocarbon date of EMN001 from 9000 to 18700 BP in FellowsYates2021 (added by @warinner)
+
 ### Removed
 
 ## v25.06: Amphitheatre of El Jem

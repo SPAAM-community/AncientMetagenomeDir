@@ -22,7 +22,8 @@ This is to close <!-- REPLACE this comment (including the < > symbols) with a ha
 5. Fill in the template, and **verify** autofilled data correct!
 6. Once filled in, append(!) the new rows from the TEMPLATE file to the end of the corresponding library metadata file, and update this PR
 7. Wait for checks for library metadata to pass
-8. Request review!
+8. Only for ancientsinglegenome-hostassociated: fill the dates table
+9. Request review!
 
 ### Pre-review checklist (new publications)
 
@@ -38,4 +39,5 @@ This is to close <!-- REPLACE this comment (including the < > symbols) with a ha
   - Use `@spaam-bot please autofill <table_name> <project_id>` to get a half-filled template! May take a minute or so to get the comment with the file
   - Fill in template, and **verify** autofill data correct!
   - Once filled in, append(!) the new rows to the end of the corresponding library metadata file
+- [ ] For ancientsinglegenome-hostassociated: fill the dates table!
 - [ ] Changelog is updated to include the publication under 'Added'?

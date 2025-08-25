@@ -1,5 +1,16 @@
 # AncienMetagenomeDir release procedure
 
+<!-- TOC -->
+
+- [Introduction](#introduction)
+- [Preparation](#preparation)
+- [Release Preparation](#release-preparation)
+- [Make Release](#make-release)
+- [Clean up](#clean-up)
+- [Announcements](#announcements)
+
+<!-- /TOC -->
+
 ## Introduction
 
 This document describes the release procedure for AncientMetagenomeDir. Releases are made periodically (~every three months) on the first day of a given month. Names of releases are derived from [this wiki page](https://github.com/SPAAM-workshop/AncientMetagenomeDir/wiki/Release-Name-List).

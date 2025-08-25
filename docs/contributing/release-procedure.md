@@ -110,9 +110,9 @@ git commit -m "Update versions for release"
 git push
 ```
 
-Once pushed, **monitor the GitHub repository for the GitHub Actions check on master until it goes green** against the latest commit from 'actions-user' - this is to ensure you have the final stats images from the auto-updater. 
+Once pushed, go to the tab [Actions](https://github.com/SPAAM-community/AncientMetagenomeDir/actions) on the AncientMetagenomeDir GitHub page. First, select `AncientMetagenomeDir GeoJSON update` from the left panel and run the workflow by selecting `Run workflow`. Afterwards, select `AncientMetagenomeDir Live Status Update` from the left panel and run the workflow by selecting `Run workflow`. This is to ensure you have the final stats images from the auto-updater. 
 
-Once you get the tick, pull the repository one last time:
+Once the workflow has finished, pull the repository one last time:
 
 ```bash
 git pull

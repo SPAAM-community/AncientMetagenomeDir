@@ -17,5 +17,5 @@ To quickly check across multiple tables, you can use a bash command + variable c
 ```sh
 TABLE=ancientsinglegenome-hostassociated
 LEVEL=samples
-amdirt validate -d -m "$TABLE"/"$LEVEL"/"$TABLE"_"$LEVEL".tsv "$TABLE"/"$LEVEL"/"$TABLE"_"$LEVEL"_schema.json
+amdirt validate -d -s -c "$TABLE"/"$LEVEL"/"$TABLE"_"$LEVEL".tsv "$TABLE"/"$LEVEL"/"$TABLE"_"$LEVEL"_schema.json
 ```

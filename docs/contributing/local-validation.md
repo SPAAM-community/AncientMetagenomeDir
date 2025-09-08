@@ -1,18 +1,21 @@
 # Local validation
 
-!> _WARNING_ This documentation may be out-of-date. Please see the documentation for [AMDirT](https://amdirt.readthedocs.io/en/master/).
 
 ## Preparation
 
-1. Install ancientMetagenomeDirCheck / AMDirT
+1. Install AMDirT (see [installation instructions here](https://amdirt.readthedocs.io/en/master/README.html#install))
 2. Change to root directory of cloned AncientMetagenomeDir repository
+
+<p class="note">
+<em>NOTE</em>&nbsp; You can find the <a href='https://amdirt.readthedocs.io/en/master/'>full documentation for AMDirT here
+</a></p>
 
 ## Quick Checks
 
-To quickly check across multiple tables, can use this bash command + variable combination:
+To quickly check across multiple tables, you can use a bash command + variable combination. For example:
 
-```
-$ TABLE=<of choice, e.g. ancientsinglegenome-hostassciated>
-$ LEVEL=<of choice, i.e. samples or libraries>
-$ ancientMetagenomeDirCheck -v -d -m "$TABLE"/"$LEVEL"/"$TABLE"_"$LEVEL".tsv "$TABLE"/"$LEVEL"/"$TABLE"_"$LEVEL"_schema.json
+```sh
+TABLE=ancientsinglegenome-hostassociated
+LEVEL=samples
+amdirt validate -d -s -c "$TABLE"/"$LEVEL"/"$TABLE"_"$LEVEL".tsv "$TABLE"/"$LEVEL"/"$TABLE"_"$LEVEL"_schema.json
 ```

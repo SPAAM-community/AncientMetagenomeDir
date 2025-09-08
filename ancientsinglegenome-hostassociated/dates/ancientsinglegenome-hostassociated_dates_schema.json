@@ -231,7 +231,7 @@
         "examples": ["bone", "enamel"]
       },
       "uncalibrated_date ": {
-        "$id": "#/items/properties/delta_13c",
+        "$id": "#/items/properties/uncalibrated_date",
         "type": ["integer", "null"],
         "minimum": 0,
         "maximum": 50000,

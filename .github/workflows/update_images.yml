@@ -1,9 +1,7 @@
 name: AncientMetagenomeDir Live Status Updates
 
 on:
-  release:
-    types: [published]
-
+  workflow_dispatch:
 jobs:
   live-status-image-update:
     runs-on: ubuntu-latest

@@ -771,3 +771,9 @@ Correction: Correct release ZIP upload
 - Maixner2016: corrected singlegenome_domain
 
 ### Removed
+
+### Added
+
+#### Ancient Metagenome: Environmental
+
+- Schreiber 2025 10.1038/s41467-025-59731-0 (added by @slennart)

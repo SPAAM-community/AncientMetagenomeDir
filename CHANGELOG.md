@@ -102,6 +102,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Fleskes 2024 10.1038/s42003-024-06893-0 (added by @anastbr and @rozwalak)
 - Velsko 2024 10.1038/s41467-024-53920-z (added by @ivelsko and @alexhbnr)
+- Guinet 2025 10.1016/j.cell.2025.08.003 (added by @BenjaminGuinet)
 
 #### Ancient Single Genome: Host Associated
 

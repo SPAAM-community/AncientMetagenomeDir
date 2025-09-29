@@ -382,28 +382,28 @@
       },
       "reservoir_offset_reported": {
         "$id": "#/items/properties/reservoir_offset_reported",
-        "type": [ "integer", "null" ],
+        "type": [ "number", "null" ],
         "title": "Reservoir Offset Reported",
         "description": "If the actual value of the offset has been reported (set NR if applied but actual value of offset not reported)",
         "examples": [250, 400, -99999, "NA"]
       },
       "reservoir_offset_reported_sd": {
         "$id": "#/items/properties/reservoir_offset_reported_sd",
-        "type": [ "integer", "null" ],
+        "type": [ "number", "null" ],
         "title": "Reservoir Offset Reported Standard Deviation",
         "description": "Standard deviation of the reported reservoir offset. Should be indicated by ±",
         "examples": [25, 40, -99999, "NA"]
       },
       "reservoir_aquatic_carbon_perc": {
         "$id": "#/items/properties/reservoir_aquatic_carbon_perc",
-        "type": [ "integer", "null" ],
+        "type": [ "number", "null" ],
         "title": "Reservoir Offset Aquatic carbon percentage",
         "description": "Percentage δ13C estimate of fish contribution to reservoir offset value",
         "examples": [53, 15, -99999, "NA"]
       },
       "reservoir_aquatic_carbon_perc_sd": {
         "$id": "#/items/properties/reservoir_aquatic_carbon_perc_sd",
-        "type": [ "integer", "null" ],
+        "type": [ "number", "null" ],
         "title": "Reservoir Offset Reported Standard Deviation",
         "description": "Standard deviation of % δ13C estimate of fish contribution to reservoir offset value. Should be indicated by ±",
         "examples": [25, 40, -99999, "NA"]

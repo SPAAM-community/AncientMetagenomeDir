@@ -10,7 +10,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
-
+- Erikesen 2025 10.1038/s42003-025-07616-9 (added by @jfy133)
 #### Ancient Single Genome: Host Associated
 
 #### Ancient Metagenome: Environmental

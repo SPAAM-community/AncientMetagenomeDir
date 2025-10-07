@@ -16,6 +16,7 @@
       "publication_year",
       "data_publication_doi",
       "sample_name",
+      "singlegenome_species",
       "archive_project",
       "archive_sample_accession",
       "date_information_present",
@@ -89,6 +90,14 @@
         "title": "Name of the sample",
         "description": "In most cases this should be the name of the host individual. Must match a AncientMetagenomeDir samples table entry",
         "examples": ["B61"]
+      },
+      "singlegenome_species": {
+        "$id": "#/items/properties/singlegenome_species",
+        "type": "string",
+        "title": "Latin name of the microbiome species",
+        "description": "Linnean latin name, follows NCBI taxonomy where possible",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/singlegenome_species.json",
+        "examples": ["Homo sapiens"]
       },
       "archive_project": {
         "$id": "#/items/properties/archive_project",
@@ -222,7 +231,7 @@
         "examples": ["bone", "enamel"]
       },
       "uncalibrated_date ": {
-        "$id": "#/items/properties/delta_13c",
+        "$id": "#/items/properties/uncalibrated_date",
         "type": ["integer", "null"],
         "minimum": 0,
         "maximum": 50000,
@@ -373,28 +382,28 @@
       },
       "reservoir_offset_reported": {
         "$id": "#/items/properties/reservoir_offset_reported",
-        "type": [ "integer", "null" ],
+        "type": [ "number", "null" ],
         "title": "Reservoir Offset Reported",
         "description": "If the actual value of the offset has been reported (set NR if applied but actual value of offset not reported)",
         "examples": [250, 400, -99999, "NA"]
       },
       "reservoir_offset_reported_sd": {
         "$id": "#/items/properties/reservoir_offset_reported_sd",
-        "type": [ "integer", "null" ],
+        "type": [ "number", "null" ],
         "title": "Reservoir Offset Reported Standard Deviation",
         "description": "Standard deviation of the reported reservoir offset. Should be indicated by ±",
         "examples": [25, 40, -99999, "NA"]
       },
       "reservoir_aquatic_carbon_perc": {
         "$id": "#/items/properties/reservoir_aquatic_carbon_perc",
-        "type": [ "integer", "null" ],
+        "type": [ "number", "null" ],
         "title": "Reservoir Offset Aquatic carbon percentage",
         "description": "Percentage δ13C estimate of fish contribution to reservoir offset value",
         "examples": [53, 15, -99999, "NA"]
       },
       "reservoir_aquatic_carbon_perc_sd": {
         "$id": "#/items/properties/reservoir_aquatic_carbon_perc_sd",
-        "type": [ "integer", "null" ],
+        "type": [ "number", "null" ],
         "title": "Reservoir Offset Reported Standard Deviation",
         "description": "Standard deviation of % δ13C estimate of fish contribution to reservoir offset value. Should be indicated by ±",
         "examples": [25, 40, -99999, "NA"]

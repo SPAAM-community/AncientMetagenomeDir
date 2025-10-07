@@ -5,7 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v25.06: Amphitheatre of El Jem [Unpublished]
+## v25.09: Site of Palmyra [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+- Erikesen 2025 10.1038/s42003-025-07616-9 (added by @jfy133)
+#### Ancient Single Genome: Host Associated
+
+- C14 Fotakis 2020 10.1098/rstb.2019.0584 (added by @aidaanva)
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+- Corrected radiocarbon date of EMN001 from 9000 to 18700 BP in FellowsYates2021 (added by @warinner)
+
+### Removed
+
+## v25.06: Amphitheatre of El Jem
 
 ### Added
 
@@ -62,6 +80,14 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Rifkin2023 10.1038/s42003-023-04582-y (added by @KaHea-21)
 - C14 Fiddaman2023 10.1126/science.adg2238 (added by @biancamariabonucci)
 - C14 Guellil2021	10.1038/s41598-021-98214-2 (added by @KaHea-21)
+- C14 DeDios2021	10.1016/j.isci.2021.103021 (added by @KaHea-21)
+- C14 Sun2024	10.1038/s41467-024-47358-6  (added by @silvta and @KaHea-21)
+- C14 Quagliariello2022 10.1038/s41467-022-34416-0 (added by @AnnaEWhite and @aidaanva)
+- C14 Seersholm2024 10.1038/s41586-024-07651-2 (added by @ZoePochon)
+- C14 Campos2023 10.1038/s41467-023-39950-z (added by @reedharder)
+- C14 Danneels2021	10.1016/j.cub.2021.03.049 (added by @KaHea-21)
+- C14 Bonczarowska2022	10.1186/s13059-022-02806-8 (added by @KaHea-21)
+- C14 Lugli2017	10.1186/s40168-016-0221-y (added by @KaHea-21)
 
 #### Ancient Metagenome: Environmental
 

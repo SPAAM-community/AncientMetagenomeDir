@@ -1,5 +1,26 @@
 # Reviewing a Pull Request
 
+<!-- TOC -->
+
+- [Introduction](#introduction)
+- [Finding open pull requests for review](#finding-open-pull-requests-for-review)
+- [Preparation or review](#preparation-or-review)
+- [Carrying out a review](#carrying-out-a-review)
+    - [Checking the automated tests passed](#checking-the-automated-tests-passed)
+- [Finding the submission entries](#finding-the-submission-entries)
+- [General GitHub pull request review procedure](#general-github-pull-request-review-procedure)
+- [AncientMetagenomeDir specific procedures](#ancientmetagenomedir-specific-procedures)
+    - [Checking the CHANGELOG](#checking-the-changelog)
+- [Checking the metadata file](#checking-the-metadata-file)
+    - [Consistency Check](#consistency-check)
+    - [Accuracy Check](#accuracy-check)
+- [Once review completed](#once-review-completed)
+    - [Changes to be made](#changes-to-be-made)
+    - [No more changes](#no-more-changes)
+- [Final comments](#final-comments)
+
+<!-- /TOC -->
+
 ## Introduction
 
 The AncientMetagenomeDir is a project led by the [SPAAM community](https://spaam-workshop.github.io/#/).

@@ -4,6 +4,34 @@ Originally written by Eleanor Green (@eg715), with contributions from the SPAAM 
 
 ---
 
+<!-- TOC -->
+
+- [Introduction](#introduction)
+    - [Slides](#slides)
+- [Selecting and assigning publications](#selecting-and-assigning-publications)
+- [Preparation](#preparation)
+    - [Making a new branch](#making-a-new-branch)
+    - [Excel/Spreadsheet set up](#excelspreadsheet-set-up)
+- [Collect metadata](#collect-metadata)
+    - [Some tips](#some-tips)
+- [Upload metadata](#upload-metadata)
+    - [Commit changes](#commit-changes)
+    - [Update Change log](#update-change-log)
+    - [Update enumns](#update-enumns)
+- [Making a pull request](#making-a-pull-request)
+    - [Pull request automatic checks](#pull-request-automatic-checks)
+    - [Identifying problems and fixing failed checks](#identifying-problems-and-fixing-failed-checks)
+- [Add library metadata](#add-library-metadata)
+    - [Preparation](#preparation-1)
+    - [Semi-Automated](#semi-automated)
+    - [Manual](#manual)
+- [Additional Metadata](#additional-metadata)
+- [Submitting the library table](#submitting-the-library-table)
+- [Request reviewers](#request-reviewers)
+    - [Making reviewer requested changes](#making-reviewer-requested-changes)
+
+<!-- /TOC -->
+
 ## Introduction
 
 The AncientMetagenomeDir is a project led by the [SPAAM community](https://spaam-workshop.github.io/#/). The Directory is accessed via [Github](https://github.com/SPAAM-workshop/AncientMetagenomeDir). This document is to serve as a guide to contributing new publications to the Directory. To follow these instructions you will need:

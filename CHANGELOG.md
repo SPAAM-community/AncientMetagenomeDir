@@ -17,6 +17,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- von Hippel 2025 10.1126/sciadv.adj5527 (added by @cat-hytr)
+
 ### Changed
 
 - Corrected radiocarbon date of EMN001 from 9000 to 18700 BP in FellowsYates2021 (added by @warinner)

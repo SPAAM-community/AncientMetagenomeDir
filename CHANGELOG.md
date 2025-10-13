@@ -10,14 +10,18 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
-- Erikesen 2025 10.1038/s42003-025-07616-9 (added by @jfy133)
+
+- Eriksen 2025 10.1038/s42003-025-07616-9 (added by @jfy133)
+
 #### Ancient Single Genome: Host Associated
 
 - C14 Fotakis 2020 10.1098/rstb.2019.0584 (added by @aidaanva)
+- Michel 2024 10.1038/s41586-024-07546-2 (added by @meganemichel)
 
 #### Ancient Metagenome: Environmental
 
 - von Hippel 2025 10.1126/sciadv.adj5527 (added by @cat-hytr)
+- Schreiber 2025 10.1038/s41467-025-59731-0 (added by @slennart)
 
 ### Changed
 
@@ -33,7 +37,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
-- Michel 2024 10.1038/s41586-024-07546-2 (added by @meganemichel)
 - C14 DeDios2020 10.1016/j.meegid.2020.104209 (added by @KaHea-21)
 - C14 Wagner2014 10.1016/S1473-3099(13)70323-2 (added by @aidaanva)
 - C14 Martin2013 10.1038/ncomms3172 (added by @aidaanva)
@@ -775,8 +778,3 @@ Correction: Correct release ZIP upload
 
 ### Removed
 
-### Added
-
-#### Ancient Metagenome: Environmental
-
-- Schreiber 2025 10.1038/s41467-025-59731-0 (added by @slennart)

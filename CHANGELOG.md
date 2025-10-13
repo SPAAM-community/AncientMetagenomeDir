@@ -10,10 +10,14 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
-
+- Erikesen 2025 10.1038/s42003-025-07616-9 (added by @jfy133)
 #### Ancient Single Genome: Host Associated
 
+- C14 Fotakis 2020 10.1098/rstb.2019.0584 (added by @aidaanva)
+
 #### Ancient Metagenome: Environmental
+
+- von Hippel 2025 10.1126/sciadv.adj5527 (added by @cat-hytr)
 
 ### Changed
 
@@ -29,6 +33,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Michel 2024 10.1038/s41586-024-07546-2 (added by @meganemichel)
 - C14 DeDios2020 10.1016/j.meegid.2020.104209 (added by @KaHea-21)
 - C14 Wagner2014 10.1016/S1473-3099(13)70323-2 (added by @aidaanva)
 - C14 Martin2013 10.1038/ncomms3172 (added by @aidaanva)
@@ -43,17 +48,17 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Gelabert2016 10.1073/pnas.1611017113 (added by @KaHea-21)
 - C14 Williams2020 10.1128/mra.00850-20 (added by @KaHea-21)
 - C14 Urban2024 10.1016/j.cub.2024.04.006 (added by @jfy133)
-- C14 Rozwalak2024 10.1038/s41467-023-44370-0	(added by @jfy133)
+- C14 Rozwalak2024 10.1038/s41467-023-44370-0 (added by @jfy133)
 - C14 Sarhan2023 10.1186/s12915-022-01509-7 (added by @KaHea-21)
 - C14 RodriguezVarela2024 10.1126/sciadv.adp8625 (added by @ZoePochon)
-- C14 Rieux2021	10.1038/s41598-021-00518-w (added by @KaHea-21)
+- C14 Rieux2021 10.1038/s41598-021-00518-w (added by @KaHea-21)
 - C14 Long2023 10.1371/journal.ppat.1011538 (added by @jfy133)
 - C14 Jager2022 10.1016/j.tube.2022.102181 (added by @jfy133)
 - C14 Granehall2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
 - C14 Mendum2014 10.1186/1471-2164-15-270 (added by @iseultj)
-- C14 Taubenberger2005	2005	10.1038/nature04230 (added by @KaHea-21)
+- C14 Taubenberger2005 10.1038/nature04230 (added by @KaHea-21)
 - C14 Eerkens2018 10.1016/j.ijpp.2018.05.001 (added by @aidaanva)
-- C14 Marciniak2016	10.1016/j.cub.2016.10.016 (added by @KaHea-21)
+- C14 Marciniak2016 10.1016/j.cub.2016.10.016 (added by @KaHea-21)
 - C14 Wu2021 10.1371/journal.ppat.1009886 (added by @YuejiaoHuang)
 - C14 Clavel2023 10.1016/j.isci.2023.106787 (added by @KaHea-21)
 - C14 Guellil2022b 10.1126/sciadv.abo4435 (added by @YuejiaoHuang)
@@ -89,6 +94,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Environmental
 
 ### Changed
+- Fix sample_type for Parker 2023 10.1371/journal.ppat.1011404 (@aidaanva)
 
 - Added missing samples Guellil2022b 10.1126/sciadv.abo4435 (@aidaanva)
 
@@ -111,7 +117,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - RodriguezVarela 2024 10.1126/sciadv.adp8625 (added by @ZoePochon)
 - LlanosLizcano2025 10.1038/s41598-024-85038-z (added by @pswali and @tonidedios94)
 - Barquera 2024 10.1038/s41586-024-08515-5 (added by @jasmezz)
-
 - C14 Susat 2021 10.1016/j.celrep.2021.109278 (added by @aidaanva)
 - C14 Austin 2022 10.1038/s42003-022-03890-z (added by @nihandilsad)
 - C14 Warinner2014 10.1038/ng.2906 (added by @biancamariabonucci)
@@ -166,8 +171,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Schuenemann2011 10.1073/pnas.1105107108 (added by @aidaanva)
 - C14 Duggan2020 10.1186/s13059-020-02079-z (added by @aidaanva)
 - C14 Spyrou2016 10.1016/j.chom.2016.05.012 (added by @aidaanva)
-
-
 
 #### Ancient Metagenome: Environmental
 
@@ -771,3 +774,9 @@ Correction: Correct release ZIP upload
 - Maixner2016: corrected singlegenome_domain
 
 ### Removed
+
+### Added
+
+#### Ancient Metagenome: Environmental
+
+- Schreiber 2025 10.1038/s41467-025-59731-0 (added by @slennart)

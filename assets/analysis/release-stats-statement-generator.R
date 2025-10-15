@@ -1,8 +1,8 @@
 suppressPackageStartupMessages(library(tidyverse))
 
-previous_tag <- "v25.03.0"
+previous_tag <- "v25.06.0"
 release_tag <- "master"
-new_release <- "v25.06.0"
+new_release <- "v25.09.0"
 
 ## SAMPLES
 

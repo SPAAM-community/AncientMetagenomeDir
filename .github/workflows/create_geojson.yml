@@ -10,16 +10,16 @@ jobs:
       run:
         shell: bash -l {0}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_ACTIONS_COMMIT_ACTION }}
-      - uses: conda-incubator/setup-miniconda@v2
+      - uses: conda-incubator/setup-miniconda@v3
         with:
           miniforge-variant: Miniforge3
           activate-environment: geojson
           environment-file: assets/analysis/geojson_environment.yml
           auto-activate-base: true
-          channels: conda-forge,defaults
+          channels: conda-forge
           use-mamba: true
       - name: Generate map geojson
         run: |

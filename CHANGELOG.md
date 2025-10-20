@@ -42,7 +42,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Changed
 
 - Corrected radiocarbon date of EMN001 from 9000 to 18700 BP in FellowsYates2021 (added by @warinner)
-- Added two samples of Ottoni2021 with wide sample age ranges that were previously excluded (added by @alexhbnr)
 
 ### Removed
 

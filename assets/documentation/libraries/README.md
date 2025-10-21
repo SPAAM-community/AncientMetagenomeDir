@@ -59,7 +59,7 @@ Library columns are as follows:
 
 ## data_publication_doi
 
-- Must be the same to the `publication_doi` of the publication in the samples table
+- Must be the same as the `publication_doi` of the publication in the samples table
 - Specify just the DOI, not the full URL.
   - e.g. 10.1038/ng.2906
   - You can test it by adding it on to the end of https://doi.org/ and see if it resolves to the publication (e.g. https://doi.org/10.1038/ng.2906)

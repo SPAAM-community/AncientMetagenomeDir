@@ -1,7 +1,6 @@
 name: geojson
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - click
   - geopandas

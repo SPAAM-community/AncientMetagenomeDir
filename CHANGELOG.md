@@ -28,6 +28,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 - Eriksen 2025 10.1038/s42003-025-07616-9 (added by @jfy133)
+- Jin 2025 10.1016/j.quascirev.2025.109604 (added by @Amend-1634)
+
 
 #### Ancient Single Genome: Host Associated
 

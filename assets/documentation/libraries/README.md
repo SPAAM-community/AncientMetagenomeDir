@@ -59,10 +59,13 @@ Library columns are as follows:
 
 ## data_publication_doi
 
-- Must be the same as the `publication_doi` of the publication in the samples table
-- Specify just the DOI, not the full URL.
+- Must correspond to the `publication_doi` of the publication in the
+corresponding sample metadata table!
+- Publication DOI. _Not_ the full URL, just the DOI
   - e.g. 10.1038/ng.2906
   - You can test it by adding it on to the end of https://doi.org/ and see if it resolves to the publication (e.g. https://doi.org/10.1038/ng.2906)
+- Or library permalink (full URL):
+  - e.g. [worldcat](https://www.worldcat.org/), [HAL](hal.archives-ouvertes.fr) etc.
 
 > ⚠️ Mandatory value
 

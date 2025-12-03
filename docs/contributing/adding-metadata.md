@@ -29,7 +29,8 @@ Originally written by Eleanor Green (@eg715), with contributions from the SPAAM 
 - [Submitting the library table](#submitting-the-library-table)
 - [Request reviewers](#request-reviewers)
     - [Making reviewer requested changes](#making-reviewer-requested-changes)
-- [Adding dates metadata (ancientsinglegenome-hostassociated only)](#adding-dates)
+- [Adding dates metadata (ancientsinglegenome-hostassociated only)](#adding-dates-metadata-ancientsinglegenome-hostassociated-only)
+  
 <!-- /TOC -->
 
 ## Introduction
@@ -359,7 +360,7 @@ Once your library metadata is ready, go to your PR, open the corresponding file 
 
 Append your new metadata to the end of the library metadata, and make a commit (just as with the sample metadata).
 
-Once again your Pull Request will go through automated checks, and leave you comment if there is something wrong. Once you've got all green ticks, if you’re working on the ancientsinglegenome-hostassociated list you should enter the dates information as a last step. If you're working on another sample type, it’s time to move onto human review!
+Once again your Pull Request will go through automated checks, and leave you comment if there is something wrong. Once you've got all green ticks, if you’re working on the ancientsinglegenome-hostassociated list you should [enter the dates information](#adding-dates-metadata-ancientsinglegenome-hostassociated-only) as a last step. If you're working on another sample type, it’s time to move onto human review!
 
 ## Request reviewers
 
@@ -402,11 +403,11 @@ Annndddd that's it! You made it!!! :tada: :star_struck: :star:
 ***
 
 
-### Adding dates metadata (ancientsinglegenome-hostassociated only)
+## Adding dates metadata (ancientsinglegenome-hostassociated only)
 
 Once you have passing tests for the sample and library tables, it's time to add metadata regarding the precise dating of each sample.
 
-## Preparation
+### Preparation
 
 During this tutorial we will be updating the dating information metadata table. This is stored in the dates folder of the AncientMetagenomeDir ancientsinglegenome-hostassociated section. As with the sample and library metadata tables, open this table and copy and paste the entire table into your preferred spreadsheet tool (as with the sample metadata instructions).
 
@@ -426,7 +427,7 @@ Go to the publication you’re working on and have another quick read through, s
 
 For guidance on what information to add to each column see the [README.md](https://github.com/SPAAM-community/AncientMetagenomeDir/blob/C14-Tutorial/assets/documentation/dates/README.md) (each list, e.g. ancientmetagenome-hostassociated has its own README.md, so make sure you’re checking the right one)
 
-# Helpful tips 
+### Helpful tips 
 
 Some samples are dated using exclusively historic or archaeological methods. These include samples dated by their archaeological context (e.g. associated ceramic typologies), stratigraphic dating, or historical methods much as museum samples and marked graves. These dates are sometimes given in addition to more precise radiocarbon dates. To allow these dates to be consistent across the table you must convert them to BP - note, for samples which are more recent than 1950 enter them as a negative (e.g 1970 would be -20). This [Date Conversion](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/) tool is very useful for converting dates to BP! 
 

@@ -29,7 +29,7 @@ Originally written by Eleanor Green (@eg715), with contributions from the SPAAM 
 - [Submitting the library table](#submitting-the-library-table)
 - [Request reviewers](#request-reviewers)
     - [Making reviewer requested changes](#making-reviewer-requested-changes)
-
+- [Adding dates metadata (ancientsinglegenome-hostassociated only)](#adding-dates)
 <!-- /TOC -->
 
 ## Introduction
@@ -359,7 +359,7 @@ Once your library metadata is ready, go to your PR, open the corresponding file 
 
 Append your new metadata to the end of the library metadata, and make a commit (just as with the sample metadata).
 
-Once again your Pull Request will go through automated checks, and leave you comment if there is something wrong. Once you've got all green ticks, you can continue to human review!
+Once again your Pull Request will go through automated checks, and leave you comment if there is something wrong. Once you've got all green ticks, if you’re working on the ancientsinglegenome-hostassociated list you should enter the dates information as a last step. If you're working on another sample type, it’s time to move onto human review!
 
 ## Request reviewers
 
@@ -398,3 +398,51 @@ When prompted then you can delete the branch you have been working on as all the
 </p>
 
 Annndddd that's it! You made it!!! :tada: :star_struck: :star:
+
+***
+
+
+### Adding dates metadata (ancientsinglegenome-hostassociated only)
+
+Once you have passing tests for the sample and library tables, it's time to add metadata regarding the precise dating of each sample.
+
+## Preparation
+
+During this tutorial we will be updating the dating information metadata table. This is stored in the dates folder of the AncientMetagenomeDir ancientsinglegenome-hostassociated section. As with the sample and library metadata tables, open this table and copy and paste the entire table into your preferred spreadsheet tool (as with the sample metadata instructions).
+
+As some columns are shared between the sample and dates tables you should first copy and paste the row data from the following columns from the sample metadata table into the into the dates table: `project_name, publication_year, data_publication_doi, sample_name, singlegenome_species, archive_project, archive_sample_accession`
+
+So it should like something like this:
+
+<p align=center>
+<img src="https://github.com/SPAAM-community/AncientMetagenomeDir/blob/C14-Tutorial/assets/tutorials/step_by_step/Screenshot%202025-12-03%20at%2015.48.50.png" width=75%>
+</p>
+
+Now you’re ready to start entering the dating information 👌
+
+## Collect date metadata
+
+Go to the publication you’re working on and have another quick read through, scanning for mention of how the samples were dated; pull up the supplementary data etc.
+
+For guidance on what information to add to each column see the [README.md](https://github.com/SPAAM-community/AncientMetagenomeDir/blob/C14-Tutorial/assets/documentation/dates/README.md) (each list, e.g. ancientmetagenome-hostassociated has its own README.md, so make sure you’re checking the right one)
+
+# Helpful tips 
+
+Some samples are dated using exclusively historic or archaeological methods. These include samples dated by their archaeological context (e.g. associated ceramic typologies), stratigraphic dating, or historical methods much as museum samples and marked graves. These dates are sometimes given in addition to more precise radiocarbon dates. To allow these dates to be consistent across the table you must convert them to BP - note, for samples which are more recent than 1950 enter them as a negative (e.g 1970 would be -20). This [Date Conversion](https://nikhausmann.shinyapps.io/BP_to_BC_and_more/) tool is very useful for converting dates to BP! 
+
+Although it is perhaps the most important data to enter accurately in our table, sometimes finding the uncalibrated radiocarbon date can be difficult. Ideally this should be provided in the main text or a supplementary table, but sometimes we may need to interpret a radiocarbon calibration graph to extract this data (alongside other metadata we need!). We’ve provided an example plot below - more information about interpreting them can be found [here](https://c14.arch.ox.ac.uk/calibration.html) 📉🕰️
+
+<p align=center>
+<img src="https://github.com/SPAAM-community/AncientMetagenomeDir/blob/C14-Tutorial/assets/tutorials/step_by_step/Screenshot%202025-12-03%20at%2015.52.02.png" width=75%>
+</p>
+
+Sometimes multiple radiocarbon dates are generated and reported for the same sample - if this is the case enter each date as a separate row.
+The value you must enter to indicate ‘no value’ varies by column across this table (e.g. ‘DNE’ or ‘NA’), so double check the [README.md](https://github.com/SPAAM-community/AncientMetagenomeDir/blob/C14-Tutorial/assets/documentation/dates/README.md) for exactly what to enter, as this may cause it to fail the automated checks following your commit (next step). 
+
+## Submitting the dates table
+
+Once your dating information metadata is ready, go to your PR, and open the corresponding file on your GitHub branch.
+Append your new metadata to the end of the dates metadata by copying it over from your sheet, and make a commit (as with the sample and library metadata).
+
+Once again your Pull Request will go through automated checks, and leave you a comment if there is something wrong.
+Once you have all green ticks, it’s time for human review!

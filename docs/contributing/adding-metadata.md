@@ -429,7 +429,7 @@ Now you’re ready to start entering the dating information 👌
 
 Go to the publication you’re working on and have another quick read through, scanning for mention of how the samples were dated; pull up the supplementary data etc.
 
-For guidance on what information to add to each column see the [dates column specifications](docs/reference/dates-specifications.md) (each list, e.g. ancientmetagenome-hostassociated has its own README.md, so make sure you’re checking the right one)
+For guidance on what information to add to each column see the [dates column specifications](docs/reference/dates-specifications.md) (each list, e.g. ancientmetagenome-hostassociated has its own specifications, so make sure you’re checking the right one)
 
 ### Helpful tips 
 
@@ -450,4 +450,4 @@ Once your dating information metadata is ready, go to your PR, and open the corr
 Append your new metadata to the end of the dates metadata by copying it over from your sheet, and make a commit (as with the sample and library metadata).
 
 Once again your Pull Request will go through automated checks, and leave you a comment if there is something wrong.
-Once you have all green ticks, it’s time for human review!
+Once you have all green ticks, it’s time for [human review](#request-reviewers)!

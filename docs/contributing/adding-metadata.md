@@ -416,7 +416,7 @@ As some columns are shared between the sample and dates tables you should first 
 So it should like something like this:
 
 <p align=center>
-<img src="https://github.com/SPAAM-community/AncientMetagenomeDir/blob/C14-Tutorial/assets/tutorials/step_by_step/Screenshot%202025-12-03%20at%2015.48.50.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/tutorials/step_by_step/32-dates_example_table.png" width=75%>
 </p>
 
 Now you’re ready to start entering the dating information 👌
@@ -425,7 +425,7 @@ Now you’re ready to start entering the dating information 👌
 
 Go to the publication you’re working on and have another quick read through, scanning for mention of how the samples were dated; pull up the supplementary data etc.
 
-For guidance on what information to add to each column see the [README.md](https://github.com/SPAAM-community/AncientMetagenomeDir/blob/C14-Tutorial/assets/documentation/dates/README.md) (each list, e.g. ancientmetagenome-hostassociated has its own README.md, so make sure you’re checking the right one)
+For guidance on what information to add to each column see the [dates column specifications](docs/reference/dates-specifications.md) (each list, e.g. ancientmetagenome-hostassociated has its own README.md, so make sure you’re checking the right one)
 
 ### Helpful tips 
 
@@ -434,11 +434,11 @@ Some samples are dated using exclusively historic or archaeological methods. The
 Although it is perhaps the most important data to enter accurately in our table, sometimes finding the uncalibrated radiocarbon date can be difficult. Ideally this should be provided in the main text or a supplementary table, but sometimes we may need to interpret a radiocarbon calibration graph to extract this data (alongside other metadata we need!). We’ve provided an example plot below - more information about interpreting them can be found [here](https://c14.arch.ox.ac.uk/calibration.html) 📉🕰️
 
 <p align=center>
-<img src="https://github.com/SPAAM-community/AncientMetagenomeDir/blob/C14-Tutorial/assets/tutorials/step_by_step/Screenshot%202025-12-03%20at%2015.52.02.png" width=75%>
+<img src="https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/master/assets/tutorials/step_by_step/33-dates_graph.png" width=75%>
 </p>
 
 Sometimes multiple radiocarbon dates are generated and reported for the same sample - if this is the case enter each date as a separate row.
-The value you must enter to indicate ‘no value’ varies by column across this table (e.g. ‘DNE’ or ‘NA’), so double check the [README.md](https://github.com/SPAAM-community/AncientMetagenomeDir/blob/C14-Tutorial/assets/documentation/dates/README.md) for exactly what to enter, as this may cause it to fail the automated checks following your commit (next step). 
+The value you must enter to indicate ‘no value’ varies by column across this table (e.g. ‘DNE’ or ‘NA’), so double check the [dates column specifications](docs/reference/dates-specifications.md) for exactly what to enter, as this may cause it to fail the automated checks following your commit (next step). 
 
 ## Submitting the dates table
 

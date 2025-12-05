@@ -7,30 +7,34 @@ Originally written by Eleanor Green (@eg715), with contributions from the SPAAM 
 <!-- TOC -->
 
 - [Introduction](#introduction)
-    - [Slides](#slides)
+  - [Slides](#slides)
 - [Selecting and assigning publications](#selecting-and-assigning-publications)
 - [Preparation](#preparation)
-    - [Making a new branch](#making-a-new-branch)
-    - [Excel/Spreadsheet set up](#excelspreadsheet-set-up)
+  - [Making a new branch](#making-a-new-branch)
+  - [Excel/Spreadsheet set up](#excelspreadsheet-set-up)
 - [Collect metadata](#collect-metadata)
-    - [Some tips](#some-tips)
+  - [Some tips](#some-tips)
 - [Upload metadata](#upload-metadata)
-    - [Commit changes](#commit-changes)
-    - [Update Change log](#update-change-log)
-    - [Update enumns](#update-enumns)
+  - [Commit changes](#commit-changes)
+  - [Update Change log](#update-change-log)
+  - [Update enumns](#update-enumns)
 - [Making a pull request](#making-a-pull-request)
-    - [Pull request automatic checks](#pull-request-automatic-checks)
-    - [Identifying problems and fixing failed checks](#identifying-problems-and-fixing-failed-checks)
+  - [Pull request automatic checks](#pull-request-automatic-checks)
+  - [Identifying problems and fixing failed checks](#identifying-problems-and-fixing-failed-checks)
 - [Add library metadata](#add-library-metadata)
-    - [Preparation](#preparation-1)
-    - [Semi-Automated](#semi-automated)
-    - [Manual](#manual)
+  - [Preparation](#preparation-1)
+  - [Semi-Automated](#semi-automated)
+  - [Manual](#manual)
 - [Additional Metadata](#additional-metadata)
 - [Submitting the library table](#submitting-the-library-table)
 - [Request reviewers](#request-reviewers)
-    - [Making reviewer requested changes](#making-reviewer-requested-changes)
+  - [Making reviewer requested changes](#making-reviewer-requested-changes)
 - [Adding dates metadata (ancientsinglegenome-hostassociated only)](#adding-dates-metadata-ancientsinglegenome-hostassociated-only)
-  
+  - [Preparation](#preparation-2)
+  - [Collect date metadata](#collect-date-metadata)
+  - [Helpful tips](#helpful-tips)
+- [Submitting the dates table](#submitting-the-dates-table)
+
 <!-- /TOC -->
 
 ## Introduction
@@ -421,7 +425,7 @@ So it should like something like this:
 
 Now you’re ready to start entering the dating information 👌
 
-## Collect date metadata
+### Collect date metadata
 
 Go to the publication you’re working on and have another quick read through, scanning for mention of how the samples were dated; pull up the supplementary data etc.
 

@@ -5,7 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v25.09: Site of Palmyra [Unreleased]
+## v25.12: Historic Centre of Sighişoara [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Guinet 2025 10.1016/j.cell.2025.08.003 (added by @BenjaminGuinet)
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+- Added two samples of Ottoni2021 with wide sample age ranges that were previously excluded (added by @alexhbnr)
+
+### Removed
+
+## v25.09: Site of Palmyra
 
 ### Added
 

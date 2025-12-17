@@ -215,7 +215,7 @@ Sample columns are as follows:
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-## pathogen_domain
+## singlegenome_domain
 
 > 🦠 host-associated single genome only!
 
@@ -224,7 +224,7 @@ Sample columns are as follows:
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-## pathogen_species
+## singlegenome_species
 
 > 🦠 host-associated single genome only!
 

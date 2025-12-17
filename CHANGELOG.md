@@ -14,7 +14,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Guinet 2025 10.1016/j.cell.2025.08.003 (added by @BenjaminGuinet)
 
 #### Ancient Single Genome: Host Associated
-- Ramire 2025 10.1038/s41559-025-02771-y (added by @YuejiaoHuang)
+- Ramirez 2025 10.1038/s41559-025-02771-y (added by @YuejiaoHuang)
 
 #### Ancient Metagenome: Environmental
 

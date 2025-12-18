@@ -799,3 +799,6 @@ Correction: Correct release ZIP upload
 
 ### Removed
 
+###  Ancient Metagenome: Host associated
+
+- Poksane 2025 10.1128/spectrum.02705-24

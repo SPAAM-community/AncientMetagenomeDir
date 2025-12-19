@@ -15,7 +15,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
-- Ramirez 2025 10.1038/s41559-025-02771-y (added by @YuejiaoHuang and Dario Ramirez)
+- Ramirez 2025 10.1038/s41559-025-02771-y (added by @YuejiaoHuang and @darioramirez092)
 - L'hôte 2024 10.1038/s41467-024-50536-1 (added by @aidaanva)
 
 #### Ancient Metagenome: Environmental

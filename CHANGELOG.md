@@ -39,6 +39,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - C14 Fotakis 2020 10.1098/rstb.2019.0584 (added by @aidaanva)
 - Michel 2024 10.1038/s41586-024-07546-2 (added by @meganemichel)
+- Augias 2025 10.1093/infdis/jiaf189 (added by @YuejiaoHuang)
 
 #### Ancient Metagenome: Environmental
 

@@ -22,7 +22,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - von Hippel 2025 10.1126/sciadv.adj5527 (added by @cat-hytr)
 - Schreiber 2025 10.1038/s41467-025-59731-0 (added by @slennart)
-- Grasso 2025  10.1111/1755-0998.14122 (added by @Giulica13)
+- Grasso 2025 10.1111/1755-0998.14122 (added by @Giulica13)
 
 ### Changed
 

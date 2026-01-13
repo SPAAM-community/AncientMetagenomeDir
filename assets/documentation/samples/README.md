@@ -215,7 +215,7 @@ Sample columns are as follows:
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-## pathogen_domain
+## singlegenome_domain
 
 > 🦠 host-associated single genome only!
 
@@ -224,7 +224,7 @@ Sample columns are as follows:
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`
 
-## pathogen_species
+## singlegenome_species
 
 > 🦠 host-associated single genome only!
 
@@ -363,7 +363,7 @@ the archive_accesion as: `MG585269.1`
   <summary>Expand to show location of ERS codes on ENA</summary>
   
   ![Location of ERS
-  codes](../images/tutorials/spaam-AncientMetagenomeDir_ena_ers_location.png)
+  codes](../../images/documentation/spaam-AncientMetagenomeDir_ena_ers_location.png)
   
   Select the 'secondary_sample_accesion' and 'sample_alias' columns.
 
@@ -372,7 +372,7 @@ the archive_accesion as: `MG585269.1`
   <summary>Expand to show location of SRS codes on SRA</summary>
 
 ![Location of ERS
-  codes](../images/tutorials/spaam-AncientMetagenomeDir_sra_srs_location.png)
+  codes](../../images/documentation/spaam-AncientMetagenomeDir_sra_srs_location.png)
 
 The SRS code is to the left of the SAMEA-like code under the **sample:** field
 

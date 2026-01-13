@@ -4,6 +4,8 @@
         "gut",
         "soft tissue",
         "skeletal tissue",
-        "plant tissue"
+        "plant tissue",
+        "leaf",
+        "root"
     ]
 }

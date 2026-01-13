@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
+## v25.12: Historic Centre of Sighişoara [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Guinet 2025 10.1016/j.cell.2025.08.003 (added by @BenjaminGuinet)
+
+#### Ancient Single Genome: Host Associated
+
+- Ramirez 2025 10.1038/s41559-025-02771-y (added by @YuejiaoHuang and @darioramirez092)
+- L'hôte 2024 10.1038/s41467-024-50536-1 (added by @aidaanva)
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+- Added two samples of Ottoni2021 with wide sample age ranges that were previously excluded (added by @alexhbnr)
+
+### Removed
+
 ## v25.09: Site of Palmyra
 
 ### Added
@@ -17,6 +38,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - C14 Fotakis 2020 10.1098/rstb.2019.0584 (added by @aidaanva)
 - Michel 2024 10.1038/s41586-024-07546-2 (added by @meganemichel)
+- Augias 2025 10.1093/infdis/jiaf189 (added by @YuejiaoHuang)
 
 #### Ancient Metagenome: Environmental
 
@@ -779,3 +801,6 @@ Correction: Correct release ZIP upload
 
 ### Removed
 
+###  Ancient Metagenome: Host associated
+
+- Poksane 2025 10.1128/spectrum.02705-24

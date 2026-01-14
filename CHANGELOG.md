@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 - Guinet 2025 10.1016/j.cell.2025.08.003 (added by @BenjaminGuinet)
+- Jin 2025 10.1016/j.quascirev.2025.109604 (added by @Amend-1634)
 
 #### Ancient Single Genome: Host Associated
 

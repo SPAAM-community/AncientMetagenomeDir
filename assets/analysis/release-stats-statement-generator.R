@@ -1,8 +1,8 @@
 suppressPackageStartupMessages(library(tidyverse))
 
-previous_tag <- "v25.06.0"
+previous_tag <- "v25.09.0"
 release_tag <- "master"
-new_release <- "v25.09.0"
+new_release <- "v25.12.0"
 
 ## SAMPLES
 
@@ -70,7 +70,7 @@ cat(
        format(tot_pubs_samples, big.mark = ","), "publications,",
        format(tot_microb_samples, big.mark = ","), "ancient host-associated metagenome samples,",
        format(tot_single_samples, big.mark = ","), "ancient microbial genomes, and",
-       format(tot_env_samples, big.mark = ","), "ancient environmental samples\n\nFurthermore, this release adds",
+       format(tot_env_samples, big.mark = ","), "ancient environmental samples.\n\nFurthermore, this release adds",
        adds_microb_libraries, "new ancient host-associated metagenome libraries,",
        adds_single_libraries, "new ancient microbial genome libraries, and",
        adds_env_libraries, "new ancient environmental libraries.",

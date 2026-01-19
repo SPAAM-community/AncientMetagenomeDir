@@ -5,13 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v25.12: Historic Centre of Sighişoara [Unreleased]
+## v26.03: The par force hunting landscape in North Zealand [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+### Removed
+
+## v25.12: Historic Centre of Sighişoara
 
 ### Added
 
 #### Ancient Metagenome: Host Associated
 
 - Guinet 2025 10.1016/j.cell.2025.08.003 (added by @BenjaminGuinet)
+- Jin 2025 10.1016/j.quascirev.2025.109604 (added by @Amend-1634)
 
 #### Ancient Single Genome: Host Associated
 

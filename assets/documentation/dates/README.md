@@ -397,7 +397,7 @@ Dates columns are as follows:
 
 ## calibrated_range_confidence_interval
 
-- Confidence interval of the reported calibrated age range, in `95.4%` or `68.2`.
+- Confidence interval of the reported calibrated age range, either `95.4%` or `68.2`.
 - Accepted values:
   - `68.2`: corresponds to 68.2%
   - `95.4`: corresponds to 95.4%

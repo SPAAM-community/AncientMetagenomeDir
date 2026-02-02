@@ -50,7 +50,7 @@
       "calibrated_range_upper",
       "calibrated_range_median",
       "calibrated_range_suffix",
-      "calibrated_range_sigma",
+      "calibrated_range_confidence_interval",
       "reservoir_offset_mentioned",
       "reservoir_offset_applied",
       "reservoir_offset_type",

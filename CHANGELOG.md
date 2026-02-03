@@ -19,6 +19,16 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Removed
 
+## v25.12.2: Historic Centre of Sighişoara
+
+### Corrected
+
+Fixed inconsistent values for missing data in dates table and documentation for dates table.
+
+### Misc
+
+Renaming of column `calibrated_range_sigma` to `calibrated_range_confidence_interval` after consultation with radiocarbon specialist in the dates table.
+
 ## v25.12: Historic Centre of Sighişoara
 
 ### Added
@@ -40,6 +50,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Added two samples of Ottoni2021 with wide sample age ranges that were previously excluded (added by @alexhbnr)
 
 ### Removed
+
 
 ## v25.09: Site of Palmyra
 

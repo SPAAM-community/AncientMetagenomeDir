@@ -395,12 +395,12 @@ Dates columns are as follows:
 > @spaam-community/ancientmetagenomedir-coreteam
 
 
-## calibrated_range_sigma
+## calibrated_range_confidence_interval
 
-- Confidence level of the reported calibrated age range, in `2` (95.4%) or `1` (68.2%) levels of significance (sigma).
+- Confidence interval of the reported calibrated age range, in `95.4`% (2) or `68.2` (1) levels of significance (sigma).
 - Accepted values:
-  - `1`: corresponds to 68.2%
-  - `2`: corresponds to 95.4%
+  - `68.2`: also referred as 1 sigma (although not technically correct)
+  - `95.4`: also referred as 2 sigma (although not technically correct)
   - `-99999`: no confidence level was reported
 - If both confidence levels have been reported, record the one with the higher confidence interval.
 - Set `NA` if not a radiocarbon date or no calibration has been reported. 

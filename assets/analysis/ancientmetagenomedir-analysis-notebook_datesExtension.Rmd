@@ -43,7 +43,7 @@ load_thedir_data <- function(path, name) {
     select(List, everything())
 }
 
-data_version <- "25.12.0"
+data_version <- "25.12.2"
 
 ```
 
@@ -565,7 +565,7 @@ samples_initialVersion %>%
 #Line plot releases
 ```{r}
 releases_nolib <- c("20.09", "20.12", "21.03", "21.06", "21.09")
-releases_lib <- c("22.09", "22.09.2","22.12.0","23.03.0", "23.06.0", "23.09.0", "23.12.0","24.03.0", "24.06.0","24.09.0","24.12.0","25.03.0","25.06.0","25.09.0","25.12.0")
+releases_lib <- c("22.09", "22.09.2","22.12.0","23.03.0", "23.06.0", "23.09.0", "23.12.0","24.03.0", "24.06.0","24.09.0","24.12.0","25.03.0","25.06.0","25.09.0","25.12.2")
 
 samples_nolib <- data.frame(List=factor(), total=integer(),Release=character())
 samples_lib <- data.frame(List=factor(), total=integer(),Release=character())
@@ -623,9 +623,10 @@ ggsave("Line_plot_number_samples_releases.pdf",
 ```
 # Date distribution of uncalibrated dates and archaeological dates
 ```{r}
-#Reading local copy due to long hyphon vs short hyphon in table:
 
-raw_hostsinglegenome_dates_for_plotting <- read_tsv("../../ancientsinglegenome-hostassociated/dates/ancientsinglegenome-hostassociated_dates.tsv")
+#raw_hostsinglegenome_dates_for_plotting <- read_tsv("../../ancientsinglegenome-hostassociated/dates/ancientsinglegenome-hostassociated_dates.tsv")
+raw_hostsinglegenome_dates_for_plotting <- raw_hostsinglegenome_dates
+
 
 samples_after1950 <- raw_hostsinglegenome_dates_for_plotting %>%
   filter(grepl("^-[0-9]*", archaeological_historical_date))

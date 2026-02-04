@@ -612,7 +612,7 @@ sampleCountReleasesLine <- ggplot(samples_allreleases, aes(x=Release, y=total, g
         #legend.box.background = element_rect(color="black", size=1)
         )
 
-ggsave("Line_plot_number_samples_releases.pdf",
+ggsave("../images/figures/Line_plot_number_samples_releases.pdf",
        sampleCountReleasesLine,
        device = cairo_pdf(),
        units = "in",
@@ -717,7 +717,7 @@ timeline_dates <- mean_archaeological %>%
     )
   
 
-ggsave("Timeline_Dates_singleGenome.png",
+ggsave("../images/figures/Timeline_Dates_singleGenome.png",
        timeline_dates,
        device = "png",
        units = "in",

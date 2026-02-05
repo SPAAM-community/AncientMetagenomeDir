@@ -14,7 +14,7 @@
     "required": [
       "project_name",
       "publication_year",
-      "data_publication_doi",
+      "publication_doi",
       "sample_name",
       "singlegenome_species",
       "archive_project",

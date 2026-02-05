@@ -45,7 +45,7 @@ Dates columns are as follows:
 > ⚠️ Mandatory value
 
 
-## data_publication_doi
+## publication_doi
 
 - Publication DOI
 - Or library permalink

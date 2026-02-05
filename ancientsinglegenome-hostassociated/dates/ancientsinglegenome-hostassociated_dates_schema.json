@@ -77,7 +77,7 @@
         "description": "Format: YYYY",
         "examples": [2014]
       },
-      "data_publication_doi": {
+      "publication_doi": {
         "$id": "#/items/properties/data_publication_doi",
         "type": "string",
         "title": "Digital Object Identifier (DOI) of the publication.",

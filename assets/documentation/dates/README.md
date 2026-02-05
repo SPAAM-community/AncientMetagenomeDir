@@ -45,7 +45,7 @@ Dates columns are as follows:
 > ⚠️ Mandatory value
 
 
-## data_publication_doi
+## publication_doi
 
 - Publication DOI
 - Or library permalink
@@ -60,6 +60,17 @@ Dates columns are as follows:
   - In most cases this should be the name of the host _individual_ (for host-associated samples)
   - If samples are referred to by multiple names, use the most informative
   
+> ⚠️ Mandatory value
+
+## sample_host
+
+> 🧫 host-associated metagenome only!
+
+- Linnean latin name
+- Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
+
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
+
 > ⚠️ Mandatory value
 
 ## singlegenome_species

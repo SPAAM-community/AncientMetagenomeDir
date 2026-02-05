@@ -62,6 +62,17 @@ Dates columns are as follows:
   
 > ⚠️ Mandatory value
 
+## sample_host
+
+> 🧫 host-associated metagenome only!
+
+- Linnean latin name
+- Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
+
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
+
+> ⚠️ Mandatory value
+
 ## singlegenome_species
 
 > 🦠 host-associated single genome only!

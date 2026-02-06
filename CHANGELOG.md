@@ -11,6 +11,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- C14 Modi2020 10.1007/s12520-019-00983-5 (added by @ilight1542)
+
 #### Ancient Single Genome: Host Associated
 
 #### Ancient Metagenome: Environmental

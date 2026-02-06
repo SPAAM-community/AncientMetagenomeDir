@@ -44,11 +44,11 @@ The AncientMetagenomeDir is a project led by the [SPAAM community](https://spaam
 * To have a Github account 
 * To be logged into that Github account 
 * Be a member of the SPAAM-workshop organization
-  * Contact any of the maintainers on the SPAAM slack (#ancientmetagenomedir) to be added. 
+  * Contact any of the maintainers on the SPAAM [element](https://matrix.to/#/#spaam:archaeo.social) or slack (#ancientmetagenomedir) channels to be added. Please note that the slack channel is no longer active (February 2026)
 
 ### Slides
 
-!> _WARNING_ The presentation may be out of date
+⚠️ _WARNING_ The presentation may be out of date
 
 The slides linked below were created by James Fellows Yates. All the content in this document was created based on these slides and patient discussions with the SPAAM community - thank you all! 
 * [A practical intro to Git(Hub) slides](https://hackmd.io/@jfy133/H19kmDalw#/) [2022]
@@ -91,7 +91,7 @@ Within the branch you have created, navigate to the subdirectory the paper has b
 
 If you’re not sure you can check this by looking at the labels assigned on the Issues tab.
 
-When in the correct directory, select the <ins>.tsv</ins> file for this category. Below you can see that I am in the Ziesemer-2015 branch and I am looking at the <ins>.tsv</ins> file for the ancientmetagenome-hostassociated category:
+When in the correct directory, select the <ins>.tsv</ins> file for this category. Below you can see that I am in the `Ziesemer-2015` branch and I am looking at the <ins>.tsv</ins> file for the ancientmetagenome-hostassociated category:
 
 <p align=center>
 <img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/4.png" width=75%>
@@ -109,7 +109,7 @@ This will open up the <ins>.tsv</ins> table in its raw form, copy the first line
 <img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/6.png" width=75%"
 </p>
 
-Paste this line into your preferred spreadsheet tool (Microsoft Excel, LibreOffice Calc, Google Sheets etc.) , this is where we will record all the information for easier copying. In most spreadsheet otols you can then resize the columns and freeze the top row etc. - Whatever makes it easier to work. Then start adding the data entries.
+Paste this line into your preferred spreadsheet tool (Microsoft Excel, LibreOffice Calc, Google Sheets, etc.) , this is where we will record all the information for easier copying. In most spreadsheet tools you can then resize the columns and freeze the top row etc. - Whatever makes it easier to work. Then start adding the data entries.
 
 <p align=center>
 <img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/7.png" width=75%"
@@ -148,7 +148,7 @@ For guidance on what information to add to each column see the <ins>README.md</i
 
   * If the sample age is not reported, this sample should **not** be included. This is particularly relevant to sediment studies - taking a midpoint between two dated layers is not sufficient due to bioturbation
 
-* Be sure to record the correct <ins>archive_accession</ins>. Check out the <ins>.README</ins> where you’ll see a screenshot of where to find the secondary sample accession IDs within different databases. These  normally should be ‘SRA sample’ IDs (i.e. ERS or SRS for the ENA and NCBI SRA respectively), however please ask on Slack (#ancientmetagenomedir) if you are in doubt or have a different archive. **Careful:** You may have multiple ERS/SRS codes per sample as some people upload each library as a different ‘sample’. If this is the case be sure to include all the sample accessions comma separated list: ERRXXXX,ERRXXXXX,ERRXXXX. Always go with the sample accession rather than the run accession.
+* Be sure to record the correct <ins>archive_accession</ins>. Check out the <ins>.README</ins> where you’ll see a screenshot of where to find the secondary sample accession IDs within different databases. These  normally should be ‘SRA sample’ IDs (i.e. ERS or SRS for the ENA and NCBI SRA respectively), however please ask on element (#spaam:archaeo.social) or Slack (#ancientmetagenomedir) if you are in doubt or have a different archive. **Careful:** You may have multiple ERS/SRS codes per sample as some people upload each library as a different ‘sample’. If this is the case be sure to include all the sample accessions comma separated list: ERRXXXX,ERRXXXXX,ERRXXXX. Always go with the sample accession rather than the run accession.
 
 * If you have more than one sample (e.g. a tooth and bone, tooth and calculus, two teeth) taken from the _same_ individual, this counts as _two data entries_ on two separate rows - just make sure you have got the <ins>sample_name</ins> down accurately. 
 
@@ -332,7 +332,7 @@ This file includes relevant library metadata from the ENA (and SRA) databases, t
 
 Open the `TEMPLATE_` file in your preferred spreadsheet manager, and start filling it in (but note the instructions below about [additional metadata](@#additional-metadata)!) - just as you have down with the sample metadata sheet above! There are dedicated README file with column descriptions for the library metadata tables too :).
 
-?> _IMPORTANT_ It is also critical to **verify** that the pre-filled columns are _also_ correct! In some cases the information on the ENA will be _incorrect_ (e.g. very often the Instrument Platform column!)
+⚠️ _IMPORTANT_ It is also critical to **verify** that the pre-filled columns are _also_ correct! In some cases the information on the ENA will be _incorrect_ (e.g. very often the Instrument Platform column!)
 
 ### Manual
 
@@ -384,7 +384,7 @@ The reviewers will cross-reference the data is correct, will make comments on yo
 
 Edit the <ins>.tsv</ins> file and commit the requested changes. 
 
-When these changes have been approved ,and checks have passed for a final time, you can merge the pull request! To do this scroll down to the bottom of the <ins>Pull request</ins> tab and click <ins>Merge pull request</ins>.
+When these changes have been approved, and checks have passed for a final time, you can merge the pull request! To do this scroll down to the bottom of the <ins>Pull request</ins> tab and click <ins>Merge pull request</ins>.
 
 <p align=center>
 <img src="https://raw.githubusercontent.com/SPAAM-workshop/AncientMetagenomeDir/master/assets/tutorials/step_by_step/29.png" width=75%>
@@ -409,11 +409,11 @@ Annndddd that's it! You made it!!! :tada: :star_struck: :star:
 
 ## Adding dates metadata
 
-Once you have passing tests for the sample and library tables, it's time to add metadata regarding the precise dating of each sample if you are working on either the ancientsinglegenome-hostassociated or ancientmetagenome-hostassociated tables.
+Once you have passing tests for the sample and library tables, it's time to add metadata regarding the precise dating of each sample if you are working on either the `ancientsinglegenome-hostassociated` or `ancientmetagenome-hostassociated` tables.
 
 ### Preparation
 
-During this tutorial we will be updating the dating information metadata table. This is stored in the dates folder of the AncientMetagenomeDir ancientsinglegenome-hostassociated and ancientmetagenome-hostassociated sections. As with the sample and library metadata tables, open this table and copy and paste the entire table into your preferred spreadsheet tool (as with the sample metadata instructions).
+During this tutorial we will be updating the dating information metadata table. This is stored in the dates folder of the AncientMetagenomeDir `ancientsinglegenome-hostassociated` and `ancientmetagenome-hostassociated` sections. As with the sample and library metadata tables, open this table and copy and paste the entire table into your preferred spreadsheet tool (as with the sample metadata instructions).
 
 As some columns are shared between the sample and dates tables you should first copy and paste the row data from the following columns from the sample metadata table into the into the dates table: `project_name, publication_year, data_publication_doi, sample_name, singlegenome_species, archive_project, archive_sample_accession`
 

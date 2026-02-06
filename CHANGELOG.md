@@ -11,9 +11,15 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
-- C14 Maixner 2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
+- C14 Sabin 2020 10.1098/rstb.2019.0576 (added by @KaHea-21)
+- C14 Kimsis 2023 10.1111/1758-2229.13157 (added by @KaHea-21)
+- C14 Scorrano 2022 10.1038/s42003-022-04190-2 (added by @KaHea-21)
 - C14 Fotakis 2020 10.1098/rstb.2019.0584 (added by @aidaanva) 
 - C14 Jackson2024 10.1093/molbev/msae017 (added by @iseultj)
+- C14 Appelt 2014	10.1128/AEM.03242-13 (added by @aidaanva)
+- C14 Maixner 2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
+
+
 
 #### Ancient Single Genome: Host Associated
 

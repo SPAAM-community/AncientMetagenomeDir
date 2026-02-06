@@ -18,6 +18,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Jackson2024 10.1093/molbev/msae017 (added by @iseultj)
 - C14 Appelt 2014	10.1128/AEM.03242-13 (added by @aidaanva)
 - C14 Kazarina 2021 10.3390/genes12020309 (added by @aidaanva)
+- C14 Eisenhofer 2020	10.1098/rstb.2019.0578 (added by @aidaanva)
+
 
 #### Ancient Single Genome: Host Associated
 

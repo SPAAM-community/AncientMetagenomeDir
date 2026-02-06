@@ -198,7 +198,7 @@ Dates columns are as follows:
 
 - Code for the radiocarbon lab where the sample was dated.
 - The lab codes were extracted from https://radiocarbon.webhost.uits.arizona.edu/sites/default/files/2025-01/Labs-2025_01_16.pdf
-  - e.g MAMS, BRAMS, Poz, UCIAMS, KIA
+  - e.g `MAMS`, `BRAMS`, `Poz`, `UCIAMS`, `KIA`
 - set `NR` if not reported 
 - set `DNE` if not a radiocarbon date
 
@@ -209,7 +209,7 @@ Dates columns are as follows:
 
 ## radiocarbon_lab_sample_id
 
-- Alphanumeric identifier from the radiocarbon dating lab that corresponds to the sample sent for radiocarbon dating. Each sample has a unique identifier assigned by the radiocarbon laboratory. E.g. 29816, 1304, 61584.
+- Alphanumeric identifier from the radiocarbon dating lab that corresponds to the sample sent for radiocarbon dating. Each sample has a unique identifier assigned by the radiocarbon laboratory. E.g. `29816`, `1304`, `61584`.
 - `-99999`: when no sample identifier from the radiocarbon lab has been reported.
 - set `DNE` if not a radiocarbon date
 
@@ -336,7 +336,7 @@ Dates columns are as follows:
 ## calibration_curve
 
 - The calibration curve used.
-  - e.g. IntCal13, IntCal20, IntCal98, SHCal13, SHCal20.
+  - e.g. `IntCal13`, `IntCal20`, `IntCal98`, `SHCal13`, `SHCal20`.
 - Set `NR` if the date is not reported.
 - Set `DNE` if not a radiocarbon date.
 
@@ -348,7 +348,7 @@ Dates columns are as follows:
 ## calibration_software
 
 - Software used for the calibration of the radiocarbon date.
-  - e.g. Calib, SwissCal, OxCal.
+  - e.g. `Calib`, `SwissCal`, `OxCal`.
 - Set `NR` if the date is not reported.
 - Set `DNE` if not a radiocarbon date.
   
@@ -363,12 +363,12 @@ Dates columns are as follows:
 - Set `NR` if not reported.
 - Set `DNE` if not a radiocarbon date.
 
-> ⚠️ Must follow versioning as reported by the software.
+> ⚠️ Must follow versioning as reported by the software. E.g. `4.3.2` or `4.4.4` for [OxCal](https://c14.arch.ox.ac.uk/oxcal.html), or `8.20` for [Calib](http://calib.org/calib/calib.html) as in their websites.
 
 ## calibration_software_settings
 
 - Settings used with the calibration software to calibrate the radiocarbon date.
-- Specify default if default parameters where used, and if specific parameters were used report for example -m 10
+- Specify default if default parameters where used, and if specific parameters were used report for example `-m 10`
 - Set `NR` if not reported.
 - Set `DNE` if not a radiocarbon date.
 
@@ -404,7 +404,7 @@ Dates columns are as follows:
 
 ## calibrated_range_suffix
 
-- The suffix of the calibrated date range, usually reported with calibrated or cal. before the time unit, e.g. cal BC or cal BP.
+- The suffix of the calibrated date range, usually reported with calibrated or cal. before the time unit, e.g. `cal BC` or `cal BP`.
 - Set `DNE` if not a radiocarbon date or no calibration has been reported. 
 
 > ⚠️ Must follow categories specified in `assets/enums/<column>.json`

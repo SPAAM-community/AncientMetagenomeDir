@@ -22,6 +22,7 @@ Dates columns are as follows:
   - Use the non-accented version (e.g. ã or ä become a).
   - If the first author has multiple or hyphenated surnames, write them all
     together capitalising each surname.
+    - e.g. AndradesValtuena2022, instead of Andrades Valtueña2022 or Andrades-Valtueña2022 
 - If a same author/year combination already exists, please append a single lower
   case character (b,c,d etc.) to the key.
   - The already existing key does not need to be updated. `b` indicates the
@@ -59,6 +60,7 @@ Dates columns are as follows:
 - Unique identifier for that sample as used in publication
   - In most cases this should be the name of the host _individual_ (for host-associated samples)
   - If samples are referred to by multiple names, use the most informative
+  - Must **not** be confused with _archive_project_ or _archive_sample_accession_
   
 > ⚠️ Mandatory value
 
@@ -128,7 +130,7 @@ Dates columns are as follows:
 ## archaeological_historical_date
 
 - Specify the range or singular date reported in the paper that corresponds to an archaeological or a historical date.
-- The date must be reported in years Before Present (BP), understanding present as 1950. Eg. if a burial has a grave dated to 1600 AD, the date should be entered as **350** (350 years BP).
+- The date must be reported in years Before Present (BP), understanding present as 1950. E.g. if a burial has a grave dated to 1600 AD, the date should be entered as **350** (350 years BP).
 - Where dates are given as a period range they should be converted to BP. eg. ‘6th-5th millennium BC’ should be entered as **7950-5950**.
 - When both archaeological dates and radiocarbon dates are reported, enter each date into the relevant field. (Though * *uncalibrated radiocarbon dates* * are the priority.) 
 - When there is only a radiocarbon date reported specify `DNE`.
@@ -174,7 +176,7 @@ Dates columns are as follows:
 
 ## direct_dating_individual 
 
-- Whether the radiocarbon date used for the ancient metagenomics study was derived from the individual. Eg. The sample used for the C14 dating is a rib or bone which was not used for the metagenomic analysis, but is from the same individual.
+- Whether the radiocarbon date used for the ancient metagenomics study was derived from the individual. E.g. The sample used for the C14 dating is a rib or bone which was not used for the metagenomic analysis, but is from the same individual.
 - Values for the column are:
   - `TRUE`
   - `FALSE`
@@ -184,7 +186,7 @@ Dates columns are as follows:
 
 ## direct_dating_element
 
-- Whether the radiocarbon date used for the ancient metagenomics study was derived from the same element. Eg. the tooth used for the metagenomic analysis was also radiocarbon dated. 
+- Whether the radiocarbon date used for the ancient metagenomics study was derived from the same element. E.g. the tooth used for the metagenomic analysis was also radiocarbon dated. 
 - Values for the column are:
   - `TRUE`
   - `FALSE`
@@ -196,6 +198,7 @@ Dates columns are as follows:
 
 - Code for the radiocarbon lab where the sample was dated.
 - The lab codes were extracted from https://radiocarbon.webhost.uits.arizona.edu/sites/default/files/2025-01/Labs-2025_01_16.pdf
+  - e.g MAMS, BRAMS, Poz, UCIAMS, KIA
 - set `NR` if not reported 
 - set `DNE` if not a radiocarbon date
 
@@ -206,7 +209,7 @@ Dates columns are as follows:
 
 ## radiocarbon_lab_sample_id
 
-- Alphanumeric identifier from the radiocarbon dating lab that corresponds to the sample sent for radiocarbon dating.
+- Alphanumeric identifier from the radiocarbon dating lab that corresponds to the sample sent for radiocarbon dating. Each sample has a unique identifier assigned by the radiocarbon laboratory. E.g. 29816, 1304, 61584.
 - `-99999`: when no sample identifier from the radiocarbon lab has been reported.
 - set `DNE` if not a radiocarbon date
 
@@ -333,6 +336,7 @@ Dates columns are as follows:
 ## calibration_curve
 
 - The calibration curve used.
+  - e.g. IntCal13, IntCal20, IntCal98, SHCal13, SHCal20.
 - Set `NR` if the date is not reported.
 - Set `DNE` if not a radiocarbon date.
 
@@ -344,6 +348,7 @@ Dates columns are as follows:
 ## calibration_software
 
 - Software used for the calibration of the radiocarbon date.
+  - e.g. Calib, SwissCal, OxCal.
 - Set `NR` if the date is not reported.
 - Set `DNE` if not a radiocarbon date.
   
@@ -358,6 +363,7 @@ Dates columns are as follows:
 - Set `NR` if not reported.
 - Set `DNE` if not a radiocarbon date.
 
+> ⚠️ Must follow versioning as reported by the software.
 
 ## calibration_software_settings
 
@@ -369,7 +375,7 @@ Dates columns are as follows:
 
 ## calibration_software_citation_doi
 
-- Digital Object Identifier (DOI) of the software used to calibrate the date  Eg. for Oxcal cite: 10.1017/S0033822200033865 . For Calib cite: 10.1017/S0033822200013904 
+- Digital Object Identifier (DOI) of the software used to calibrate the date. E.g. for Oxcal cite: 10.1017/S0033822200033865 . For Calib cite: 10.1017/S0033822200013904 
 - Specify:
   - `NR` when calibration is reported but no calibration software is mentioned.
   - `DNE` when date is not radiocarbon date or no calibration is reported.
@@ -377,14 +383,14 @@ Dates columns are as follows:
 
 ## calibrated_range_lower
 
-- The lower range of the calibrated date (aka. the oldest)
+- The lower range of the calibrated date (aka. the oldest).
 - If calibration has been done but the calibrated lower range is not reported, specify `-99999`
 - Set `NA` if not a radiocarbon date or no calibration has been reported. 
 
 
 ## calibrated_range_upper
 
-- The upper range of the calibrated date (aka. youngest date)
+- The upper range of the calibrated date (aka. youngest date).
 - If calibration has been done but the calibrated upper range is not reported, specify `-99999`
 - Set `NA` if not a radiocarbon date or no calibration has been reported.
 
@@ -408,7 +414,7 @@ Dates columns are as follows:
 
 ## calibrated_range_confidence_interval
 
-- Confidence interval of the reported calibrated age range, either `95.4%` or `68.2`.
+- Confidence interval of the reported calibrated age range, either `95.4` or `68.2`.
 - Accepted values:
   - `68.2`: corresponds to 68.2%
   - `95.4`: corresponds to 95.4%

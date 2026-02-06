@@ -13,6 +13,9 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Light-Maka 2025 10.1016/j.cell.2025.07.029 (added by @ilight1542)
+- C14 Light-Maka 2025 10.1016/j.cell.2025.07.029 (added by @ilight1542)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

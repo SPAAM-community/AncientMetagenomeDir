@@ -13,6 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Barbieri 2025 10.1016/j.cub.2025.09.047 (added by @aidaanva)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

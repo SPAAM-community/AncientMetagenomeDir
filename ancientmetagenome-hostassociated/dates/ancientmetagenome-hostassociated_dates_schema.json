@@ -16,7 +16,7 @@
       "publication_year",
       "publication_doi",
       "sample_name",
-      "singlegenome_species",
+      "sample_host",
       "archive_project",
       "archive_sample_accession",
       "date_information_present",
@@ -77,7 +77,7 @@
         "description": "Format: YYYY",
         "examples": [2014]
       },
-      "data_publication_doi": {
+      "publication_doi": {
         "$id": "#/items/properties/data_publication_doi",
         "type": "string",
         "title": "Digital Object Identifier (DOI) of the publication.",
@@ -91,12 +91,12 @@
         "description": "In most cases this should be the name of the host individual. Must match a AncientMetagenomeDir samples table entry",
         "examples": ["B61"]
       },
-      "singlegenome_species": {
-        "$id": "#/items/properties/singlegenome_species",
+      "sample_host": {
+        "$id": "#/items/properties/sample_host",
         "type": "string",
-        "title": "Latin name of the microbiome species",
+        "title": "Latin name of the host species",
         "description": "Linnean latin name, follows NCBI taxonomy where possible",
-        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/singlegenome_species.json",
+        "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/sample_host.json",
         "examples": ["Homo sapiens"]
       },
       "archive_project": {

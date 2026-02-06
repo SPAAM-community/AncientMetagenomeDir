@@ -45,7 +45,7 @@ Dates columns are as follows:
 > ⚠️ Mandatory value
 
 
-## data_publication_doi
+## publication_doi
 
 - Publication DOI
 - Or library permalink
@@ -60,6 +60,17 @@ Dates columns are as follows:
   - In most cases this should be the name of the host _individual_ (for host-associated samples)
   - If samples are referred to by multiple names, use the most informative
   
+> ⚠️ Mandatory value
+
+## sample_host
+
+> 🧫 host-associated metagenome only!
+
+- Linnean latin name
+- Follow [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/) where possible
+
+> ⚠️ Must follow categories specified in `assets/enums/<column>.json`
+
 > ⚠️ Mandatory value
 
 ## singlegenome_species
@@ -395,14 +406,14 @@ Dates columns are as follows:
 > @spaam-community/ancientmetagenomedir-coreteam
 
 
-## calibrated_range_sigma
+## calibrated_range_confidence_interval
 
-- Confidence level of the reported calibrated age range, in `2` (95.4%) or `1` (68.2%) levels of significance (sigma).
+- Confidence interval of the reported calibrated age range, either `95.4%` or `68.2`.
 - Accepted values:
-  - `1`: corresponds to 68.2%
-  - `2`: corresponds to 95.4%
-  - `-99999`: no confidence level was reported
-- If both confidence levels have been reported, record the one with the higher confidence interval.
+  - `68.2`: corresponds to 68.2%
+  - `95.4`: corresponds to 95.4%
+  - `-99999`: no confidence interval was reported
+- If both confidence intervals have been reported, record the one with the higher confidence interval.
 - Set `NA` if not a radiocarbon date or no calibration has been reported. 
 
 

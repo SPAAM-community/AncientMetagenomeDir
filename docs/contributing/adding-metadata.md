@@ -409,13 +409,13 @@ Annndddd that's it! You made it!!! :tada: :star_struck: :star:
 
 ---
 
-## Adding dates metadata (ancientsinglegenome-hostassociated only)
+## Adding dates metadata
 
-Once you have passing tests for the sample and library tables, it's time to add metadata regarding the precise dating of each sample.
+Once you have passing tests for the sample and library tables, it's time to add metadata regarding the precise dating of each sample if you are working on either the ancientsinglegenome-hostassociated or ancientmetagenome-hostassociated tables.
 
 ### Preparation
 
-During this tutorial we will be updating the dating information metadata table. This is stored in the dates folder of the AncientMetagenomeDir ancientsinglegenome-hostassociated section. As with the sample and library metadata tables, open this table and copy and paste the entire table into your preferred spreadsheet tool (as with the sample metadata instructions).
+During this tutorial we will be updating the dating information metadata table. This is stored in the dates folder of the AncientMetagenomeDir ancientsinglegenome-hostassociated and ancientmetagenome-hostassociated sections. As with the sample and library metadata tables, open this table and copy and paste the entire table into your preferred spreadsheet tool (as with the sample metadata instructions).
 
 As some columns are shared between the sample and dates tables you should first copy and paste the row data from the following columns from the sample metadata table into the into the dates table: `project_name, publication_year, data_publication_doi, sample_name, singlegenome_species, archive_project, archive_sample_accession`
 

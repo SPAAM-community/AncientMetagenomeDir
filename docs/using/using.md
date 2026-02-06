@@ -17,7 +17,7 @@ By the end of the tutorial, we will understand how to access the AncientMetageno
 ### Background
 
 In this simulation, we will imagine we are research working on discovering viral pathogens in past societies.
-We will assume we are a relatively new Ph.D. student, who is still getting comfortable with the commandline.
+We will assume we are a relatively new Ph.D. student, who is still getting comfortable with the command line.
 Therefore, we will prefer graphical user interfaces over command line interaction.
 
 In this scenario, we can imagine we have discovered some individuals that have preserved historical Variola virus in medieval Norway.
@@ -25,7 +25,7 @@ To better understand the evolutionary history of the new genomes in this region,
 However, as we want to understand the historical evolution of the virus in Norway, we don't want to compare to simply just modern genomes (particularly given how fast viruses can evolve).
 
 During our literature review, we've come across multiple papers reporting ancient variola genomes.
-These would be good candidates to add to our comparative data for our phylogenomic analysis - but how can we retrieve this data!
+These would be good candidates to add to our comparative data for our phylogenomic analysis - but how can we retrieve this data?
 Searching on public databases on the ENA or SRA are possible, but the uploaded data in these previous publications are inconsistent making it hard to track down.
 
 Instead, we decide to turn to AncientMetagenomeDir, which we've heard has standardised metadata of many publicly available datasets!
@@ -68,7 +68,7 @@ This table contains single genomes of different microbes, including Viruses.
 Now we have found the tables of interest for our particular Virus study - we can open the `.tsv` (or table separated value) file in our preferred spreadsheet software.
 In this case, we will open it in Google Docs.
 
-![Screenshot of Google Sheets window, with an unmodified `ancientsinglegenome-hostassociated_samples.tsv` file open.](../../assets/tutorials/using/navigate.png).
+![Screenshot of Google Sheets window, with an unmodified `ancientsinglegenome-hostassociated_samples.tsv` file open.](../../assets/tutorials/using/sheets.png).
 
 Once open, to make it easier to search and explore the table, we turn on 'Data Filtering' (indicated as activated by the green triangle symbols next to each column), and freeze the first row.
 
@@ -84,7 +84,7 @@ We are looking for Variola Virus genomes to compare against, so lets first filte
 
 For this, we scroll to the `singlegenome_species` column, open the filter, clear all selections, and search and select for only `Variola virus`.
 
-![Screenshot of Google Sheets window, the filter menu of the `singlegenome_species` column is open, all options unselected except for the 'Variola virus' entry](../../assets/tutorials/using/freeze.png).
+![Screenshot of Google Sheets window, the filter menu of the `singlegenome_species` column is open, all options unselected except for the 'Variola virus' entry](../../assets/tutorials/using/species.png).
 
 We can then do the same filtering procedure on the `geo_loc_name` column to find just the genomes from Norway, matching our own data.
 
@@ -92,7 +92,7 @@ We can then do the same filtering procedure on the `geo_loc_name` column to find
 
 This results in two previously published samples from Norway that had preserved ancient Variola virus ancient DNA.
 
-We can check the `sample_age` column to see the see that both also fit approximately in our time period of the Medieval ages.
+We can check the `sample_age` column to see that both also fit approximately in our time period of the Medieval ages.
 
 ![Screenshot of Google Sheets window, with an filtered `ancientsinglegenome-hostassociated_samples.tsv` file showing just two samples containing Variola Viruses from Norway.](../../assets/tutorials/using/samples.png).
 
@@ -112,14 +112,14 @@ Once opened, we can set the same filter and freezed row set up as with the sampl
 
 Using the two sample archive accessions we discovered above, we can filter the library table's `archive_sample_accession` column to the two samples we found in the previous table.
 
-![Screenshot of Google Sheets window with ancientsinglegenome-hostassociated libraries table filtered to the two samples of interest, with 6 resulting rows being displayed](../../assets/tutorials/using/libraries.png).
+![Screenshot of Google Sheets window with ancientsinglegenome-hostassociated libraries table filtered to the two samples of interest, with 6 resulting rows being displayed](../../assets/tutorials/using/filtered.png).
 
 This table has lots of information about the specific DNA library that was sequenced, such as the strandedness of the library, library treatment (was damage removed), and what platform the library was sequenced on.
 
 In this case, as we want to place genomes on a phylogenomic tree, we will assume that the 'targed capture' libraries will have sufficient enriched genomic coverage for such purpose.
 Therefore we filter the column `library_strategy` to 'Targeted-Capture'.
 
-![Screenshot of Google Sheets window with ancientsinglegenome-hostassociated libraries table filtered to the two samples of interest and only 'targeted capture' libraries select, with 4 resulting rows being displayed](../../assets/tutorials/using/libraries.png).
+![Screenshot of Google Sheets window with ancientsinglegenome-hostassociated libraries table filtered to the two samples of interest and only 'targeted capture' libraries select, with 4 resulting rows being displayed](../../assets/tutorials/using/capture.png).
 
 Now we have identified the relevant samples and compatible libraries for our dataset, we can download our data!
 

@@ -10,7 +10,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
-C14 Jackson2024 10.1093/molbev/msae017 (added by @iseultj)
+
+- C14 Fotakis 2020 10.1098/rstb.2019.0584 (added by @aidaanva) 
+- C14 Jackson2024 10.1093/molbev/msae017 (added by @iseultj)
+
 #### Ancient Single Genome: Host Associated
 
 #### Ancient Metagenome: Environmental

@@ -1,3 +1,5 @@
 ## Tutorials
 
-Here you will find tutorials in the future.
+Tutorials for using AncientMetagenomeDir:
+
+- [Very simple introduction to using AncientMetagenomeDir for retrieving sequencing data](docs/using/using.md)

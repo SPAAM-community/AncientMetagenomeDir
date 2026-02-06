@@ -1,4 +1,4 @@
-## Using AncientMetagenomeDir
+## Very simple introduction to using AncientMetagenomeDir for retrieving sequencing data
 
 ### Introduction
 

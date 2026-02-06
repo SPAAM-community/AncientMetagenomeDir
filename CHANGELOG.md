@@ -14,6 +14,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Fotakis 2020 10.1098/rstb.2019.0584 (added by @aidaanva) 
 
 #### Ancient Single Genome: Host Associated
+- Adapa 2025 10.3390/genes16080926 (added by @biancamariabonucci)
 
 #### Ancient Metagenome: Environmental
 

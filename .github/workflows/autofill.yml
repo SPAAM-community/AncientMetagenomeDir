@@ -38,7 +38,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install amdirt==1.7.0
+          pip install amdirt==1.7.1
           pip install jsonschema==4.17.0
 
       # Get context of PR...

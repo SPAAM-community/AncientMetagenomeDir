@@ -15,5 +15,3 @@ human population studies). If unsure, please consult the AncientMetagenomeDir co
 Samples must also have been accessible on public databases (e.g. [EBI
 ENA](https://www.ebi.ac.uk/ena) or [NCBI
 SRA](https://www.ncbi.nlm.nih.gov/sra)).
-
-?> _IMPORTANT_ we do not currently record __sequencing data__ information, due to different uploading strategies by different groups.

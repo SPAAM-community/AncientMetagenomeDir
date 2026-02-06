@@ -15,6 +15,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Jackson2024 10.1093/molbev/msae017 (added by @iseultj)
 
 #### Ancient Single Genome: Host Associated
+- Adapa 2025 10.3390/genes16080926 (added by @biancamariabonucci)
 
 #### Ancient Metagenome: Environmental
 

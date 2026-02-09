@@ -16,17 +16,17 @@ By the end of the tutorial, we will understand how to access the AncientMetageno
 
 ### Background
 
-In this simulation, we will imagine we are research working on discovering viral pathogens in past societies.
+In this simulation, we will imagine we are a researcher working on discovering viral pathogens in past societies.
 We will assume we are a relatively new Ph.D. student, who is still getting comfortable with the command line.
 Therefore, we will prefer graphical user interfaces over command line interaction.
 
 In this scenario, we can imagine we have discovered some individuals that have preserved historical Variola virus in medieval Norway.
-To better understand the evolutionary history of the new genomes in this region, we want to place this new genomes on a phylogenomic tree.
-However, as we want to understand the historical evolution of the virus in Norway, we don't want to compare to simply just modern genomes (particularly given how fast viruses can evolve).
+To better understand the evolutionary history of the new genomes in this region, we want to place these new genomes on a phylogenomic tree.
+However, as we want to understand the historical evolution of the virus in Norway, we don't want to simply compare modern genomes (particularly given how fast viruses can evolve).
 
 During our literature review, we've come across multiple papers reporting ancient variola genomes.
-These would be good candidates to add to our comparative data for our phylogenomic analysis - but how can we retrieve this data?
-Searching on public databases on the ENA or SRA are possible, but the uploaded data in these previous publications are inconsistent making it hard to track down.
+These would be good candidates to add to our comparative data for our phylogenomic analysis - but how can we retrieve these data?
+Searching on public databases on the ENA or SRA is possible, but the uploaded data in these previous publications are inconsistent, making it hard to track down.
 
 Instead, we decide to turn to AncientMetagenomeDir, which we've heard has standardised metadata of many publicly available datasets!
 
@@ -106,7 +106,7 @@ For this, we need to return to our downloaded Zenodo archive, but instead of ope
 
 ![A folder tree of an AncientMetagenomeDir zenodo archive, with the subfolders opened to the ancientsinglegenome-hostassociated/libraries directory, where a TSV, JSON, and README file are seen.](../../assets/tutorials/using/navigate2.png).
 
-Once opened, we can set the same filter and freezed row set up as with the samples table.
+Once opened, we can set the same filter and freezed row as with the samples table.
 
 ![Screenshot of Google Sheets window with ancientsinglegenome-hostassociated libraries table open.](../../assets/tutorials/using/libraries.png).
 
@@ -116,7 +116,7 @@ Using the two sample archive accessions we discovered above, we can filter the l
 
 This table has lots of information about the specific DNA library that was sequenced, such as the strandedness of the library, library treatment (was damage removed), and what platform the library was sequenced on.
 
-In this case, as we want to place genomes on a phylogenomic tree, we will assume that the 'targed capture' libraries will have sufficient enriched genomic coverage for such purpose.
+In this case, as we want to place genomes on a phylogenomic tree, we will assume that the 'targeted capture' libraries will have sufficient enriched genomic coverage for such purpose.
 Therefore we filter the column `library_strategy` to 'Targeted-Capture'.
 
 ![Screenshot of Google Sheets window with ancientsinglegenome-hostassociated libraries table filtered to the two samples of interest and only 'targeted capture' libraries select, with 4 resulting rows being displayed](../../assets/tutorials/using/capture.png).
@@ -126,7 +126,11 @@ Now we have identified the relevant samples and compatible libraries for our dat
 ![Screenshot of Google Sheets window with ancientsinglegenome-hostassociated libraries table filtered to the two samples of interest and only 'targeted capture' libraries select, with 4 resulting rows being displayed, and the `download_links` column being highlighted](../../assets/tutorials/using/results.png).
 
 We can scroll to the `download_links` column, and there we will find FTP URLs we can use to download the sequencing data's FASTQ files from the ENA.
-For this you can either click the URL to download to your machine, or copy the link to use command line tools such as `wget` or `curl` to download to your server or cluster.
+For this you can either click the URL to download to your machine, or copy the link to use command line tools such as `wget` or `curl` to download to your server or cluster; for example:
+
+```sh
+curl -O http://ftp.sra.ebi.ac.uk/vol1/fastq/ERR409/008/ERR4093838/ERR4093838.fastq.gz
+```
 
 You can also use the associated `download_size` and `download_md5s` columns to give you an estimate of required harddrive space, and validate the integrity of the downloaded file.
 

@@ -22,7 +22,7 @@ Dates columns are as follows:
   - Use the non-accented version (e.g. ã or ä become a).
   - If the first author has multiple or hyphenated surnames, write them all
     together capitalising each surname.
-    - e.g. AndradesValtuena2022, instead of Andrades Valtueña2022 or Andrades-Valtueña2022 
+    - e.g. `AndradesValtuena2022`, instead of `Andrades Valtueña2022` or `Andrades-Valtueña2022` 
 - If a same author/year combination already exists, please append a single lower
   case character (b,c,d etc.) to the key.
   - The already existing key does not need to be updated. `b` indicates the
@@ -130,8 +130,8 @@ Dates columns are as follows:
 ## archaeological_historical_date
 
 - Specify the range or singular date reported in the paper that corresponds to an archaeological or a historical date.
-- The date must be reported in years Before Present (BP), understanding present as 1950. E.g. if a burial has a grave dated to 1600 AD, the date should be entered as **350** (350 years BP).
-- Where dates are given as a period range they should be converted to BP. eg. ‘6th-5th millennium BC’ should be entered as **7950-5950**.
+- The date must be reported in years Before Present (BP), understanding present as `1950`. E.g. if a burial has a grave dated to 1600 AD, the date should be entered as `350` (350 years BP).
+- Where dates are given as a period range they should be converted to BP. eg. ‘6th-5th millennium BC’ should be entered as `7950-5950`.
 - When both archaeological dates and radiocarbon dates are reported, enter each date into the relevant field. (Though * *uncalibrated radiocarbon dates* * are the priority.) 
 - When there is only a radiocarbon date reported specify `DNE`.
 - Missing value: `DNE`
@@ -375,7 +375,7 @@ Dates columns are as follows:
 
 ## calibration_software_citation_doi
 
-- Digital Object Identifier (DOI) of the software used to calibrate the date. E.g. for Oxcal cite: 10.1017/S0033822200033865 . For Calib cite: 10.1017/S0033822200013904 
+- Digital Object Identifier (DOI) of the software used to calibrate the date. E.g. for Oxcal cite: `10.1017/S0033822200033865` . For Calib cite: `10.1017/S0033822200013904`
 - Specify:
   - `NR` when calibration is reported but no calibration software is mentioned.
   - `DNE` when date is not radiocarbon date or no calibration is reported.

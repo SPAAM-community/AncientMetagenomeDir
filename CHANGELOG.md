@@ -15,6 +15,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Urban 2025 10.1186/S12915-025-02282-Z (added by @granehaell) 
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

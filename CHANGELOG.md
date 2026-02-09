@@ -20,6 +20,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Kazarina 2021 10.3390/genes12020309 (added by @aidaanva)
 - C14 Eisenhofer 2020	10.1098/rstb.2019.0578 (added by @aidaanva)
 - C14 Williams 2020	10.1128/MRA.00850-20 (added by @aidaanva)
+- C14 Jacobson 2020 10.1098/rstb.2019.0586 (added by @iseultj)
 
 #### Ancient Single Genome: Host Associated
 

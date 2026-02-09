@@ -812,3 +812,13 @@ Augias2025	2025	10.1093/infdis/jiaf189	Papua	-4.00	138.00	Indonesia	1998_5_4	Hom
 Ramirez2025	2025	10.1038/s41559-025-02771-y	La Herradura	-29.98	-71.35	Chile	ECR001	Homo sapiens	4100	10.1038/s41559-025-02771-y	bacteria	Mycobacterium lepromatosis	bone	chromosome	ENA	raw,reference_aligned	PRJEB81970	ERS21392103
 Ramirez2025	2025	10.1038/s41559-025-02771-y	El Cerrito	-35.68	-71.54	Chile	ECR003	Homo sapiens	3900	10.1038/s41559-025-02771-y	bacteria	Mycobacterium lepromatosis	tooth	chromosome	ENA	raw,reference_aligned	PRJEB81970	ERS21392104
 Lhote2024	2024	10.1038/s41467-024-50536-1	Menteşe Höyük	40.277	29.524	Turkey	Mentese6	Ovis aries	8000	10.1038/s41467-024-50536-1	bacteria	Brucella melitensis	bone	chromosome	ENA	raw	PRJEB75678	ERS15395854
+Adapa2025	2025	10.3390/genes16080926	Jerash	32.273	35.89	Jordan	W2-122_PD_ii	Homo sapiens	1350	10.3390/genes16080926	bacteria	Yersinia pestis	tooth	chromosome	SRA	raw	PRJNA1303691	SRS26119224,SRS26119223
+Adapa2025	2025	10.3390/genes16080926	Jerash	32.273	35.89	Jordan	W2-110_P	Homo sapiens	1350	10.3390/genes16080926	bacteria	Yersinia pestis	tooth	chromosome	SRA	raw	PRJNA1303691	SRS26119222
+Adapa2025	2025	10.3390/genes16080926	Jerash	32.273	35.89	Jordan	W2-110_D	Homo sapiens	1350	10.3390/genes16080926	bacteria	Yersinia pestis	tooth	chromosome	SRA	raw	PRJNA1303691	SRS26119221
+Adapa2025	2025	10.3390/genes16080926	Jerash	32.273	35.89	Jordan	W2-122_PD	Homo sapiens	1350	10.3390/genes16080926	bacteria	Yersinia pestis	tooth	chromosome	SRA	raw	PRJNA1303691	SRS26119220
+Adapa2025	2025	10.3390/genes16080926	Jerash	32.273	35.89	Jordan	W2-118_PD	Homo sapiens	1350	10.3390/genes16080926	bacteria	Yersinia pestis	tooth	chromosome	SRA	raw	PRJNA1303691	SRS26119219
+Adapa2025	2025	10.3390/genes16080926	Jerash	32.273	35.89	Jordan	W2-131_PD	Homo sapiens	1350	10.3390/genes16080926	bacteria	Yersinia pestis	tooth	chromosome	SRA	raw	PRJNA1303691	SRS26119218
+Adapa2025	2025	10.3390/genes16080926	Jerash	32.273	35.89	Jordan	W2-131_C	Homo sapiens	1350	10.3390/genes16080926	bacteria	Yersinia pestis	tooth	chromosome	SRA	raw	PRJNA1303691	SRS26119216
+Adapa2025	2025	10.3390/genes16080926	Jerash	32.273	35.89	Jordan	W2-130_D_ii	Homo sapiens	1350	10.3390/genes16080926	bacteria	Yersinia pestis	tooth	chromosome	SRA	raw	PRJNA1303691	SRS26119217
+Adapa2025	2025	10.3390/genes16080926	Jerash	32.273	35.89	Jordan	W2-130_P_ii	Homo sapiens	1350	10.3390/genes16080926	bacteria	Yersinia pestis	tooth	chromosome	SRA	raw	PRJNA1303691	SRS26119214
+Adapa2025	2025	10.3390/genes16080926	Jerash	32.273	35.89	Jordan	W2-130_C	Homo sapiens	1350	10.3390/genes16080926	bacteria	Yersinia pestis	tooth	chromosome	SRA	raw	PRJNA1303691	SRS26119215

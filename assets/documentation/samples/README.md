@@ -238,7 +238,6 @@ Sample columns are as follows:
 ## material
 
 - Sample type DNA was extracted from
-
   - e.g. dental calculus, palaeofaeces, intestinal, chewing gum
   - e.g. permafrost, lake sediment, peat soil, bone
   - e.g. tooth, bone, dental calculus
@@ -340,7 +339,6 @@ the archive_accesion as: `MG585269.1`
 
 - A project level accession code under which all samples of a project are assigned to
 - Specific examples:
-
   - Archive: ENA/SRA/DDBJ: should be _primary_ accession code beginning with `PRJ`. [Example](https://www.ebi.ac.uk/ena/browser/view/PRJNA438985).
   - Archive: MG-RAST: should be accession code beginning with `mgp`. [Example](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp13354).
   - Archive: Dryad/FIGSHARE etc.: use the dataset's overall DOI as archive project accession.

@@ -23,6 +23,10 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+### Corrected
+
+- Date unconsistancies in Muhlemann 2018b https://doi.org/10.1073/pnas.1804921115 (corrected by @ZoePochon)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed

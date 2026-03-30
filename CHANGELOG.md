@@ -22,6 +22,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Williams 2020	10.1128/MRA.00850-20 (added by @aidaanva)
 
 #### Ancient Single Genome: Host Associated
+- Bozzi 2026 10.1126/science.adw3020 (added by @ZoePochon)
 
 #### Ancient Metagenome: Environmental
 

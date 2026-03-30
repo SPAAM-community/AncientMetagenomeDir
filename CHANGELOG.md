@@ -30,6 +30,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- Velsko 2024: replace the community type and material for the sample ERS15409414 (from bone to dental calculus)
+
 ### Removed
 
 ## v25.12.2: Historic Centre of Sighişoara

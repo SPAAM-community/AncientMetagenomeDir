@@ -11,13 +11,32 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- C14 Sabin 2020 10.1098/rstb.2019.0576 (added by @KaHea-21)
+- C14 Kimsis 2023 10.1111/1758-2229.13157 (added by @KaHea-21)
+- C14 Scorrano 2022 10.1038/s42003-022-04190-2 (added by @KaHea-21)
+- C14 Fotakis 2020 10.1098/rstb.2019.0584 (added by @aidaanva) 
+- C14 Warinner 2024 10.1038/ng.2906 (added by @KaHea-21)
+- C14 Jackson2024 10.1093/molbev/msae017 (added by @iseultj)
+- C14 Appelt 2014	10.1128/AEM.03242-13 (added by @aidaanva)
+- C14 Eriksen 2025 10.1038/s42003-025-07616-9 (added by @meganemichel)
+- C14 Kazarina 2021 10.3390/genes12020309 (added by @aidaanva)
+- C14 Eisenhofer 2020	10.1098/rstb.2019.0578 (added by @aidaanva)
+- C14 Williams 2020	10.1128/MRA.00850-20 (added by @aidaanva)
+- C14 Modi2020 10.1007/s12520-019-00983-5 (added by @ilight1542)
+- C14 Granehall 2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
+- C14 Jacobson 2020 10.1098/rstb.2019.0586 (added by @iseultj)
+
+
 #### Ancient Single Genome: Host Associated
 
 - Light-Maka 2025 10.1016/j.cell.2025.07.029 (added by @ilight1542)
+- Urban 2025 10.1186/S12915-025-02282-Z (added by @granehaell) 
 
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+- Velsko 2024: replace the community type and material for the sample ERS15409414 (from bone to dental calculus)
 
 ### Removed
 

@@ -29,7 +29,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
-- Urban 2025 10.1186/S12915-025-02282-Z (added by @granehaell)
+- Light-Maka 2025 10.1016/j.cell.2025.07.029 (added by @ilight1542)
+- Urban 2025 10.1186/S12915-025-02282-Z (added by @granehaell) 
 
 #### Ancient Metagenome: Environmental
 

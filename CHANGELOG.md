@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v26.03: The par force hunting landscape in North Zealand [Unreleased]
+## v26.03: The par force hunting landscape in North Zealand
 
 ### Added
 
@@ -36,8 +36,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
-- Velsko 2024: replace the community type and material for the sample ERS15409414 (from bone to dental calculus)
-- Muhlemann 2018b (10.1073/pnas.1804921115): Corrected date unconsistancies as pointed in #1731 (corrected by @ZoePochon)
+- Velsko 2024: replace the community type and material for the sample ERS15409414 (from bone to dental calculus; corrected by @alexhbnr)
+- Muhlemann 2018b (10.1073/pnas.1804921115): Corrected date inconsistencies as pointed in #1731 (corrected by @ZoePochon)
 
 ### Removed
 

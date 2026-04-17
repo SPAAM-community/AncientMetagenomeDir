@@ -26,6 +26,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Modi2020 10.1007/s12520-019-00983-5 (added by @ilight1542)
 - C14 Granehall 2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
 - C14 Jacobson 2020 10.1098/rstb.2019.0586 (added by @iseultj)
+- C14 Ottoni 2021 10.1073/pnas.2102116118 (added by @z-yilectronic)
 
 
 #### Ancient Single Genome: Host Associated

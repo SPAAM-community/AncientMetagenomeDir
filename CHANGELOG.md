@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 #### Ancient Single Genome: Host Associated
+- Adapa 2025 10.3390/genes16080926 (added by @biancamariabonucci)
 
 #### Ancient Metagenome: Environmental
 

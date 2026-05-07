@@ -11,21 +11,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
-#### Ancient Single Genome: Host Associated
-
-#### Ancient Metagenome: Environmental
-
-### Changed
-
-### Removed
-
-## v26.03: The par force hunting landscape in North Zealand
-
-### Added
-
-#### Ancient Metagenome: Host Associated
-
-- C14 Witt 2021 10.1038/s41598-021-82362-6 (added by @KaHea-21)
+- C14 SeguinOrlando 2021 10.1016/j.cub.2020.12.015 (added by @KaHea-21)
 - C14 Sabin 2020 10.1098/rstb.2019.0576 (added by @KaHea-21)
 - C14 Kimsis 2023 10.1111/1758-2229.13157 (added by @KaHea-21)
 - C14 Scorrano 2022 10.1038/s42003-022-04190-2 (added by @KaHea-21)

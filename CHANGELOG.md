@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v26.03: The par force hunting landscape in North Zealand [Unreleased]
+## v26.06: Litomyšl Castle [Unreleased]
 
 ### Added
 
@@ -13,6 +13,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - C14 Wibowo	2021	10.1038/s41586-021-03532-0 (added by @KaHea-21)
 - C14 Witt 2021 10.1038/s41598-021-82362-6 (added by @KaHea-21)
+- C14 SeguinOrlando 2021 10.1016/j.cub.2020.12.015 (added by @KaHea-21)
 - C14 Sabin 2020 10.1098/rstb.2019.0576 (added by @KaHea-21)
 - C14 Kimsis 2023 10.1111/1758-2229.13157 (added by @KaHea-21)
 - C14 Scorrano 2022 10.1038/s42003-022-04190-2 (added by @KaHea-21)
@@ -27,6 +28,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Modi2020 10.1007/s12520-019-00983-5 (added by @ilight1542)
 - C14 Granehall 2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
 - C14 Jacobson 2020 10.1098/rstb.2019.0586 (added by @iseultj)
+- C14 Maixner 2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
+
 
 
 #### Ancient Single Genome: Host Associated
@@ -38,8 +41,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
-- Velsko 2024: replace the community type and material for the sample ERS15409414 (from bone to dental calculus)
-- Muhlemann 2018b (10.1073/pnas.1804921115): Corrected date unconsistancies as pointed in #1731 (corrected by @ZoePochon)
+- Velsko 2024: replace the community type and material for the sample ERS15409414 (from bone to dental calculus; corrected by @alexhbnr)
+- Muhlemann 2018b (10.1073/pnas.1804921115): Corrected date inconsistencies as pointed in #1731 (corrected by @ZoePochon)
 
 ### Removed
 

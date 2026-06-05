@@ -319,6 +319,8 @@ Definitions of possible categories are as follows:
 - `raw`: shotgun or whole-genome-enrichment data in FASTQ format without any
   type of depletion or computational manipulation of read/data composition, with
   exception of adapters being trimmed (as per ENA submission specifications).
+- `host_removed`: FASTQ generated after mapping to the host containing only 
+  unmapped reads.
 - `assembly`: anything that is derived of a de-novo assembly process,
   independent of the completeness.
 - `binned_mag`: a single-taxon assembly (derived from above) based on one or

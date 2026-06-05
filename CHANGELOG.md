@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 
+- C14 Wright	2024	10.1016/j.jasrep.2024.104510 (added by @KaHea-21)
 - C14 Nishimura	2024	10.1371/journal.pone.0295924 (added by @KaHea-21)
 - C14 Kirdok 2024	10.1038/s41598-023-48762-6 (added by @KaHea-21)
 - C14 Honap 2023 10.1002/ajpa.24735 (added by @nihandilsad)

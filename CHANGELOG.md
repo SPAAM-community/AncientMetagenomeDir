@@ -10,7 +10,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
-
+- C14 Modi	2021	10.1016/j.quaint.2021.12.003 (added by @KaHea-21)
 - C14 Moraitou	2022	10.1093/molbev/msac263 (added by @KaHea-21)
 - C14 Rampelli	2021	10.1038/s42003-021-01689-y (added by @KaHea-21)
 - C14 Wibowo	2021	10.1038/s41586-021-03532-0 (added by @KaHea-21)

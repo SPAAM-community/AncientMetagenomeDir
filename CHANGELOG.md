@@ -11,7 +11,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
-
+- C14 Ottoni	2021	10.1073/pnas.2102116118 (added by @KaHea-21)
 - C14 Rampelli	2021	10.1038/s42003-021-01689-y (added by @KaHea-21)
 - C14 Wibowo	2021	10.1038/s41586-021-03532-0 (added by @KaHea-21)
 - C14 Maixner 2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)

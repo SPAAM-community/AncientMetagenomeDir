@@ -351,8 +351,9 @@
       },
       "calibrated_range_confidence_interval": {
         "$id": "#/items/properties/calibrated_range_confidence_interval",
-        "type": [ "number", "null" ],
+        "type": [ "string", "null" ],
         "title": "Calibrated range confidence interval",
+        "pattern": "68.2|95.4|-99999",
         "description": "Confidence interval of the reported calibrated age range, typically either 95.4% (also referred as 2) or 68.2% (also referred as 1).",
         "examples": [68.2, 95.4, -99999, "NA"]
       },

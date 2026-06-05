@@ -21,16 +21,15 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Maixner 2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
 
 
-
 #### Ancient Single Genome: Host Associated
 
 - Bozzi 2026 10.1126/science.adw3020 (added by @ZoePochon)
+- Barbieri 2025 10.1016/j.cub.2025.09.047 (added by @aidaanva)
 
 
 #### Ancient Metagenome: Environmental
 
 ### Changed
-
 
 ### Removed
 

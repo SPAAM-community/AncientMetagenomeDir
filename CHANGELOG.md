@@ -22,6 +22,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Bozzi 2026 10.1126/science.adw3020 (added by @ZoePochon)
 - Barbieri 2025 10.1016/j.cub.2025.09.047 (added by @aidaanva)
 
+
 #### Ancient Metagenome: Environmental
 
 ### Changed
@@ -59,8 +60,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Velsko 2024: replace the community type and material for the sample ERS15409414 (from bone to dental calculus; corrected by @alexhbnr)
 - Muhlemann 2018b (10.1073/pnas.1804921115): Corrected date inconsistencies as pointed in #1731 (corrected by @ZoePochon)
-
-### Removed
 
 ## v25.12.2: Historic Centre of Sighişoara
 

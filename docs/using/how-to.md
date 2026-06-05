@@ -2,4 +2,4 @@
 
 How-to guides for using AncientMetagenomeDir:
 
-- [Downloading AncientMetagenomeDir](docs/using/download.md)
+- [Downloading AncientMetagenomeDir datasets](docs/using/download.md)

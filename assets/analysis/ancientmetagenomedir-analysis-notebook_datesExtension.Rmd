@@ -43,7 +43,7 @@ load_thedir_data <- function(path, name) {
     select(List, everything())
 }
 
-data_version <- "25.09.0"
+data_version <- "25.12.2"
 
 ```
 
@@ -528,7 +528,7 @@ ggsave("AncientMetagenomeDir-Sample_Map_AgeTimeline.png",
        height = 7
        )
 ```
-# Plot initial release (v20.09) compared to current version v.25.06
+# Plot initial release (v20.09) compared to current version v.25.12
 ```{r}
 initial_data_version <- "20.09"
 initial_raw_hostmetagenome <- load_thedir_data(paste0("https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/refs/tags/v", initial_data_version,"/ancientmetagenome-hostassociated/ancientmetagenome-hostassociated.tsv", sep = ""), "Host Associated Metagenome")
@@ -565,7 +565,7 @@ samples_initialVersion %>%
 #Line plot releases
 ```{r}
 releases_nolib <- c("20.09", "20.12", "21.03", "21.06", "21.09")
-releases_lib <- c("22.09", "22.09.2","22.12.0","23.03.0", "23.06.0", "23.09.0", "23.12.0","24.03.0", "24.06.0","24.09.0","24.12.0","25.03.0","25.06.0","25.09.0")
+releases_lib <- c("22.09", "22.09.2","22.12.0","23.03.0", "23.06.0", "23.09.0", "23.12.0","24.03.0", "24.06.0","24.09.0","24.12.0","25.03.0","25.06.0","25.09.0","25.12.2")
 
 samples_nolib <- data.frame(List=factor(), total=integer(),Release=character())
 samples_lib <- data.frame(List=factor(), total=integer(),Release=character())
@@ -612,7 +612,7 @@ sampleCountReleasesLine <- ggplot(samples_allreleases, aes(x=Release, y=total, g
         #legend.box.background = element_rect(color="black", size=1)
         )
 
-ggsave("Line_plot_number_samples_releases.pdf",
+ggsave("../images/figures/Line_plot_number_samples_releases.pdf",
        sampleCountReleasesLine,
        device = cairo_pdf(),
        units = "in",
@@ -623,9 +623,10 @@ ggsave("Line_plot_number_samples_releases.pdf",
 ```
 # Date distribution of uncalibrated dates and archaeological dates
 ```{r}
-#Reading local copy due to long hyphon vs short hyphon in table:
 
-raw_hostsinglegenome_dates_for_plotting <- read.delim("../../ancientsinglegenome-hostassociated/dates/ancientsinglegenome-hostassociated_dates.tsv") 
+#raw_hostsinglegenome_dates_for_plotting <- read_tsv("../../ancientsinglegenome-hostassociated/dates/ancientsinglegenome-hostassociated_dates.tsv")
+raw_hostsinglegenome_dates_for_plotting <- raw_hostsinglegenome_dates
+
 
 samples_after1950 <- raw_hostsinglegenome_dates_for_plotting %>%
   filter(grepl("^-[0-9]*", archaeological_historical_date))
@@ -653,10 +654,12 @@ mean_archaeological <- raw_hostsinglegenome_dates_for_plotting %>%
 mean_C14 <- raw_hostsinglegenome_dates_for_plotting %>%
   filter(date_is_radiocarbon == "TRUE") %>%
   mutate(dating_type = case_when(
-    calibration_reported == TRUE ~ "C14 calibrated date",
-    .default = "C14 uncalibrated date"
+    uncalibrated_date != -99999 ~ "C14 uncalibrated date",
+    .default = "C14 calibrated date",
   ), 
-         dating_mean = case_when( calibrated_range_suffix == "cal BP" & calibrated_range_median != -99999 ~ calibrated_range_median,
+         dating_mean = case_when(
+           uncalibrated_date != -99999 ~ uncalibrated_date,
+           calibrated_range_suffix == "cal BP" & calibrated_range_median != -99999 ~ calibrated_range_median,
                                   calibrated_range_suffix == "cal BCE" & calibrated_range_median != -99999 ~ 1950 + calibrated_range_median,
                                   calibrated_range_suffix == "cal BC" & calibrated_range_median != -99999 ~ 1950 + calibrated_range_median,
                           calibrated_range_suffix == "cal AD" & calibrated_range_median != -99999 ~ 1950 - calibrated_range_median,
@@ -676,7 +679,6 @@ mean_C14 <- raw_hostsinglegenome_dates_for_plotting %>%
                           calibrated_range_upper != -99999 & calibrated_range_suffix == "cal AD" ~ 1950 - calibrated_range_upper,
                           calibrated_range_lower != -99999 & calibrated_range_suffix == "cal CE" ~ 1950 - calibrated_range_lower,
                           calibrated_range_upper != -99999 & calibrated_range_suffix == "cal CE" ~ 1950 - calibrated_range_upper,
-                          .default = uncalibrated_date
          )) %>%
   select(-archaeological_historical_date)
 
@@ -715,7 +717,7 @@ timeline_dates <- mean_archaeological %>%
     )
   
 
-ggsave("Timeline_Dates_singleGenome.png",
+ggsave("../images/figures/Timeline_Dates_singleGenome.png",
        timeline_dates,
        device = "png",
        units = "in",
@@ -749,6 +751,9 @@ deduplicated_dates_table %>%
 
 # Statistics radiocarbon reporting
 ```{r}
+radiocarbon_dates_samples_data <- deduplicated_dates_table %>%
+  filter(date_is_radiocarbon == "TRUE")
+
 radiocarbon_dates_samples <- deduplicated_dates_table %>%
   filter(date_is_radiocarbon == "TRUE") %>%
   mutate(Uncalibrated_reported = ifelse(uncalibrated_date == -99999, "Absent", "Present"),
@@ -795,9 +800,13 @@ deduplicated_dates_table %>%
         radiocarbon_lab_sample_id_reported = ifelse(radiocarbon_lab_sample_id == "-99999", "Absent", "Present"),
         delta_13c_reported = ifelse(delta_13c == -99999, "Absent", "Present"),
         delta_15n_reported = ifelse(delta_15n == -99999, "Absent", "Present"),
-        carbon_nitrogen_ratio_reported = ifelse(carbon_nitrogen_ratio == -99999, "Absent", "Present")
+        carbon_nitrogen_ratio_reported = ifelse(carbon_nitrogen_ratio == -99999, "Absent", "Present"),
+        sample_material_reported = ifelse(sample_material == "unknown", "Absent",
+                                          "Present"),
+        pretreatment_type_reported = ifelse(pretreatment_type == "NR", "Absent",
+                                          "Present")
         ) %>%
-  select(sample_name, Uncalibrated_reported, radiocarbon_lab_code_reported, radiocarbon_lab_sample_id_reported, delta_13c_reported, delta_15n_reported, carbon_nitrogen_ratio_reported) %>%
+  select(sample_name, Uncalibrated_reported, radiocarbon_lab_code_reported, radiocarbon_lab_sample_id_reported, delta_13c_reported, delta_15n_reported, carbon_nitrogen_ratio_reported,sample_material_reported, pretreatment_type_reported) %>%
   #distinct_all() %>%
   pivot_longer(!sample_name, names_to = "Statistic", values_to = "values") %>%
   group_by(Statistic, values) %>%

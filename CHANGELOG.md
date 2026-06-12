@@ -11,22 +11,30 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- C14 Farrer 2021 10.1038/s41598-021-86100-w (added by @nihandilsad)
+- C14 Modi	2021	10.1016/j.quaint.2021.12.003 (added by @KaHea-21)
+- C14 Wright	2024	10.1016/j.jasrep.2024.104510 (added by @KaHea-21)
+- C14 Nishimura	2024	10.1371/journal.pone.0295924 (added by @KaHea-21)
+- C14 Kirdok 2024	10.1038/s41598-023-48762-6 (added by @KaHea-21)
+- C14 Honap 2023 10.1002/ajpa.24735 (added by @nihandilsad)
+- C14 Moraitou	2022	10.1093/molbev/msac263 (added by @KaHea-21)
+- C14 Bozzi 2024 10.1038/s41598-023-40246-x (added by @aidaanva)
 - C14 Ottoni	2021	10.1073/pnas.2102116118 (added by @KaHea-21)
 - C14 Rampelli	2021	10.1038/s42003-021-01689-y (added by @KaHea-21)
 - C14 Wibowo	2021	10.1038/s41586-021-03532-0 (added by @KaHea-21)
 - C14 Maixner 2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
-
+- C14 Fagernas 2022 10.1093/femsmc/xtac006 (added by @iseultj)
 
 
 #### Ancient Single Genome: Host Associated
 
 - Bozzi 2026 10.1126/science.adw3020 (added by @ZoePochon)
+- Barbieri 2025 10.1016/j.cub.2025.09.047 (added by @aidaanva)
 
 
 #### Ancient Metagenome: Environmental
 
 ### Changed
-
 
 ### Removed
 

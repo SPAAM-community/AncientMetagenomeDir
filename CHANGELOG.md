@@ -17,6 +17,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Kirdok 2024	10.1038/s41598-023-48762-6 (added by @KaHea-21)
 - C14 Honap 2023 10.1002/ajpa.24735 (added by @nihandilsad)
 - C14 Moraitou	2022	10.1093/molbev/msac263 (added by @KaHea-21)
+- C14 Bozzi 2024 10.1038/s41598-023-40246-x (added by @aidaanva)
 - C14 Rampelli	2021	10.1038/s42003-021-01689-y (added by @KaHea-21)
 - C14 Wibowo	2021	10.1038/s41586-021-03532-0 (added by @KaHea-21)
 - C14 Maixner 2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)

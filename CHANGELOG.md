@@ -25,6 +25,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Fagernas 2022 10.1093/femsmc/xtac006 (added by @iseultj)
 - C14 Kazarina 2021b 10.1016/j.jasrep.2021.103213 (added by @aidaanva)
 - C14 Rampelli 2021b 10.1016/j.isci.2021.102816 (added by @aidaanva)
+- C14 Brealey 2021 10.1016/j.cub.2021.08.010 (added by @iseultj)
 
 #### Ancient Single Genome: Host Associated
 

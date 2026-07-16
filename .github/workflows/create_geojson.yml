@@ -10,9 +10,10 @@ jobs:
       run:
         shell: bash -l {0}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GH_ACTIONS_COMMIT_ACTION }}
+          persist-credentials: true
       - uses: conda-incubator/setup-miniconda@v3
         with:
           miniforge-variant: Miniforge3
@@ -28,7 +29,7 @@ jobs:
           --meta_host ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv \
           --single_host ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv \
           --geojson assets/images/figures/ancientmetagenomedir.geojson
-      - uses: stefanzweifel/git-auto-commit-action@v7.2.0
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "[skip ci] Update AncientMetagenomeDir geojson"
           push_options: --force

@@ -14,12 +14,13 @@ jobs:
         with:
           token: ${{ secrets.GH_ACTIONS_COMMIT_ACTION }}
           persist-credentials: true
-      - uses: conda-incubator/setup-miniconda@v3
+      - uses: conda-incubator/setup-miniconda@v4
         with:
           miniforge-variant: Miniforge3
           activate-environment: geojson
           environment-file: assets/analysis/geojson_environment.yml
-          auto-activate-base: true
+          auto-activate: true
+          conda-remove-defaults: true
           channels: conda-forge
           use-mamba: true
       - name: Generate map geojson

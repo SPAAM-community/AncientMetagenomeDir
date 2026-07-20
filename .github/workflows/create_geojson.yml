@@ -10,10 +10,9 @@ jobs:
       run:
         shell: bash -l {0}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GH_ACTIONS_COMMIT_ACTION }}
-          persist-credentials: true
       - uses: conda-incubator/setup-miniconda@v3
         with:
           miniforge-variant: Miniforge3

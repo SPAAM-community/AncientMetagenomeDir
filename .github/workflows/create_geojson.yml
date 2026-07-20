@@ -2,6 +2,8 @@ name: AncientMetagenomeDir GeoJSON updates
 
 on:
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   live-status-geosjon-update:
     runs-on: ubuntu-latest

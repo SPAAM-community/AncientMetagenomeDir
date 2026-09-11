@@ -12,6 +12,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Host Associated
 
 - C14 Austin 2024 10.1038/s41598-024-64818-7 (added by @nihandilsad)
+- C14 Ottoni 2021 10.1073/pnas.2102116118 (added by @KaHea-21)
 
 #### Ancient Single Genome: Host Associated
 

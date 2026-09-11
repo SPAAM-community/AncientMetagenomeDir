@@ -5,7 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v26.06: Litomyšl Castle [Unreleased]
+## v26.09: Neolithic Flint Mines at Spiennes (Mons) [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- C14 Austin 2024 10.1038/s41598-024-64818-7 (added by @nihandilsad)
+- C14 Ottoni 2021 10.1073/pnas.2102116118 (added by @KaHea-21)
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+### Removed
+
+## v26.06: Litomyšl Castle
 
 ### Added
 
@@ -19,12 +36,13 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Honap 2023 10.1002/ajpa.24735 (added by @nihandilsad)
 - C14 Moraitou	2022	10.1093/molbev/msac263 (added by @KaHea-21)
 - C14 Bozzi 2024 10.1038/s41598-023-40246-x (added by @aidaanva)
-- C14 Ottoni	2021	10.1073/pnas.2102116118 (added by @KaHea-21)
 - C14 Rampelli	2021	10.1038/s42003-021-01689-y (added by @KaHea-21)
 - C14 Wibowo	2021	10.1038/s41586-021-03532-0 (added by @KaHea-21)
 - C14 Maixner 2021 10.1186/s40168-021-01132-8 (added by @KaHea-21)
 - C14 Fagernas 2022 10.1093/femsmc/xtac006 (added by @iseultj)
-
+- C14 Kazarina 2021b 10.1016/j.jasrep.2021.103213 (added by @aidaanva)
+- C14 Rampelli 2021b 10.1016/j.isci.2021.102816 (added by @aidaanva)
+- C14 Brealey 2021 10.1016/j.cub.2021.08.010 (added by @iseultj)
 
 #### Ancient Single Genome: Host Associated
 

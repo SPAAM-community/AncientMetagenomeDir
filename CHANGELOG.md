@@ -15,6 +15,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Valverde 2026 10.1038/s41467-026-71603-9 (added by @msabrysarhan)
+
 #### Ancient Metagenome: Environmental
 
 ### Changed
@@ -47,7 +49,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - Bozzi 2026 10.1126/science.adw3020 (added by @ZoePochon)
 - Barbieri 2025 10.1016/j.cub.2025.09.047 (added by @aidaanva)
-- Valverde 2026 10.1038/s41467-026-71603-9 (added by @msabrysarhan)
 
 #### Ancient Metagenome: Environmental
 

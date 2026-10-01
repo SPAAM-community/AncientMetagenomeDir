@@ -13,6 +13,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 - C14 Austin 2024 10.1038/s41598-024-64818-7 (added by @nihandilsad)
 - C14 Guinet 2025 10.1016/j.cell.2025.08.003 (added by @ZoePochon)
+- C14 Velsko 2024 10.1038/s41467-024-53920-z (added by @nihandilsad)
+
 
 #### Ancient Single Genome: Host Associated
 

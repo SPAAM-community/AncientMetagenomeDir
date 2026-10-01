@@ -2,6 +2,8 @@ name: AncientMetagenomeDir GeoJSON updates
 
 on:
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   live-status-geosjon-update:
     runs-on: ubuntu-latest
@@ -10,15 +12,17 @@ jobs:
       run:
         shell: bash -l {0}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GH_ACTIONS_COMMIT_ACTION }}
-      - uses: conda-incubator/setup-miniconda@v3
+          persist-credentials: true
+      - uses: conda-incubator/setup-miniconda@v4
         with:
           miniforge-variant: Miniforge3
           activate-environment: geojson
           environment-file: assets/analysis/geojson_environment.yml
-          auto-activate-base: true
+          auto-activate: true
+          conda-remove-defaults: true
           channels: conda-forge
           use-mamba: true
       - name: Generate map geojson
@@ -28,7 +32,7 @@ jobs:
           --meta_host ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv \
           --single_host ancientsinglegenome-hostassociated/samples/ancientsinglegenome-hostassociated_samples.tsv \
           --geojson assets/images/figures/ancientmetagenomedir.geojson
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "[skip ci] Update AncientMetagenomeDir geojson"
           push_options: --force

@@ -5,10 +5,12 @@
         "IntCal13",
         "IntCal20", 
         "CalPal2007_HULU",
+        "SHCal04",
         "SHCal13",
         "SHCal20", 
         "Marine20",
         "IntCal98",
-        "IntCal09"
+        "IntCal09",
+        "SHCal20,Marine20"
     ]
 }

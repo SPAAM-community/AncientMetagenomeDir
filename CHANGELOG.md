@@ -15,6 +15,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Guinet 2025 10.1016/j.cell.2025.08.003 (added by @ZoePochon)
 
 #### Ancient Single Genome: Host Associated
+- Adapa 2025 10.3390/genes16080926 (added by @biancamariabonucci)
 
 #### Ancient Metagenome: Environmental
 

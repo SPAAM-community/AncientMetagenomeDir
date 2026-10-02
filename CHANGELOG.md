@@ -20,6 +20,17 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- fix library_layout of the bone samples of Velsko 2024 (corrected by @alexhbnr)
+- apply changes to samples to comply with validation schemes (corrected by @alexhbnr):
+  + Warinner 2014
+  + Scorrano 2022
+  + Granehall 2021
+  + Jacobsen 2021
+  + Maixner 2021
+  + SeguinOrlando 2021
+  + Wibowo 2021
+  + Bozzi 2024
+
 ### Removed
 
 ## v26.06: Litomyšl Castle

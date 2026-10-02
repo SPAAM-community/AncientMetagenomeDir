@@ -20,6 +20,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 ### Changed
 
+- fix library_layout of the bone samples of Velsko 2024 (corrected by @alexhbnr)
+
 ### Removed
 
 ## v26.06: Litomyšl Castle

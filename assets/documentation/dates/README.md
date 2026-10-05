@@ -413,7 +413,7 @@ Dates columns are as follows:
 > @spaam-community/ancientmetagenomedir-coreteam
 
 
-## calibrated_range_confidence_interval
+## calibrated_range_CI
 
 - Confidence interval of the reported calibrated age range, either `95.4` or `68.2`.
 - Accepted values:

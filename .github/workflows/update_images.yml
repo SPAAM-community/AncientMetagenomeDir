@@ -18,7 +18,7 @@ jobs:
           activate-environment: ancientmetagenomedir-live-status-update
           environment-file: assets/analysis/analysis_environment.yml
           auto-activate-base: true
-          channels: conda-forge,defaults
+          channels: conda-forge
       - name: Generate map plots
         run: |
           Rscript assets/analysis/plot_timelines.R ${GITHUB_WORKSPACE}/

@@ -19,6 +19,7 @@
     "raw,assembly,binned_cag",
     "raw,binned_cag",
     "assembly,binned_cag",
-    "raw,binned_mag,consensus"
+    "raw,binned_mag,consensus",
+    "host_removed"
   ]
 }

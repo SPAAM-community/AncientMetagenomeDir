@@ -12,15 +12,15 @@ jobs:
   amdirt:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-python@v4
         with:
-          python-version: "3.9"
+          python-version: "3.12"
           architecture: "x64"
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install amdirt==1.6.5
+          pip install amdirt==1.7.1
           pip install jsonschema==4.17.0
       - name: Make validation results directory
         run: mkdir validation/
@@ -65,6 +65,12 @@ jobs:
           echo "# Dates" >> validation/validation_results_raw.txt
           echo "## Ancient Single Genome Host Associated" >> validation/validation_results_raw.txt
           amdirt validate -s -d -c -m ancientsinglegenome-hostassociated/dates/ancientsinglegenome-hostassociated_dates.tsv ancientsinglegenome-hostassociated/dates/ancientsinglegenome-hostassociated_dates_schema.json &>>  validation/validation_results_raw.txt
+      - name: DATES ancient host-associated metagenomes
+        if: always()
+        run: |
+          echo "# Dates" >> validation/validation_results_raw.txt
+          echo "## Ancient Metagenome Host Associated" >> validation/validation_results_raw.txt
+          amdirt validate -s -d -c -m ancientmetagenome-hostassociated/dates/ancientmetagenome-hostassociated_dates.tsv ancientmetagenome-hostassociated/dates/ancientmetagenome-hostassociated_dates_schema.json &>>  validation/validation_results_raw.txt
       - name: cleanup validation results from streamlit warnings
         if: always()
         run: |

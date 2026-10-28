@@ -13,6 +13,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Single Genome: Host Associated
 
+- Swali 2025 10.1126/science.adr21 (added by @pswali)
 - Valverde 2026 10.1038/s41467-026-71603-9 (added by @msabrysarhan)
 
 #### Ancient Metagenome: Environmental

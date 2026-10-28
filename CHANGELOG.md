@@ -10,6 +10,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
+- C14 Poksane2025 10.1128/spectrum.02705-24 (added by @iseultj)
 
 #### Ancient Single Genome: Host Associated
 

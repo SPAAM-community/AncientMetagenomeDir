@@ -5,7 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v26.09: Neolithic Flint Mines at Spiennes (Mons) [Unreleased]
+## v26.12: Gamzigrad-Romuliana, Palace of Galerius [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+### Removed
+
+## v26.09: Neolithic Flint Mines at Spiennes (Mons)
 
 ### Added
 
@@ -21,6 +35,17 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+- fix library_layout of the bone samples of Velsko 2024 (corrected by @alexhbnr)
+- apply changes to samples to comply with validation schemes (corrected by @alexhbnr):
+  + Warinner 2014
+  + Scorrano 2022
+  + Granehall 2021
+  + Jacobsen 2021
+  + Maixner 2021
+  + SeguinOrlando 2021
+  + Wibowo 2021
+  + Bozzi 2024
 
 ### Removed
 

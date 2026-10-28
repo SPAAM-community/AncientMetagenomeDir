@@ -65,6 +65,12 @@ jobs:
           echo "# Dates" >> validation/validation_results_raw.txt
           echo "## Ancient Single Genome Host Associated" >> validation/validation_results_raw.txt
           amdirt validate -s -d -c -m ancientsinglegenome-hostassociated/dates/ancientsinglegenome-hostassociated_dates.tsv ancientsinglegenome-hostassociated/dates/ancientsinglegenome-hostassociated_dates_schema.json &>>  validation/validation_results_raw.txt
+      - name: DATES ancient host-associated metagenomes
+        if: always()
+        run: |
+          echo "# Dates" >> validation/validation_results_raw.txt
+          echo "## Ancient Metagenome Host Associated" >> validation/validation_results_raw.txt
+          amdirt validate -s -d -c -m ancientmetagenome-hostassociated/dates/ancientmetagenome-hostassociated_dates.tsv ancientmetagenome-hostassociated/dates/ancientmetagenome-hostassociated_dates_schema.json &>>  validation/validation_results_raw.txt
       - name: cleanup validation results from streamlit warnings
         if: always()
         run: |

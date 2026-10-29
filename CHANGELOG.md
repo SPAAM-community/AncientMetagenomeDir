@@ -10,6 +10,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
+- C14 Quagliariello 2022 10.1038/s41467-022-34416-0 (added by @KaHea-21)
 
 #### Ancient Single Genome: Host Associated
 

@@ -10,7 +10,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
-
+- Sarhan 2026 10.1186/s40168-026-02417-6 (added by @iseultj)
 #### Ancient Single Genome: Host Associated
 
 - Swali 2025 10.1126/science.adr21 (added by @pswali)

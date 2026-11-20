@@ -16,6 +16,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Fleskes 2024 10.1038/s42003-024-06893-0 (added by @iseultj)
 
 #### Ancient Single Genome: Host Associated
+- RodriguezVarela2026 10.1038/s41467-026-70615-9 (added by @ZoePochon)
 
 #### Ancient Metagenome: Environmental
 

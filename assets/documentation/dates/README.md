@@ -337,6 +337,7 @@ Dates columns are as follows:
 
 - The calibration curve used.
   - e.g. `IntCal13`, `IntCal20`, `IntCal98`, `SHCal13`, `SHCal20`.
+  - When two or more curves have been used for calibration, specify as comma separated list checking the combitations already described in `assets/enums/<column>.json` (See below).
 - Set `NR` if the date is not reported.
 - Set `DNE` if not a radiocarbon date.
 
@@ -412,7 +413,7 @@ Dates columns are as follows:
 > @spaam-community/ancientmetagenomedir-coreteam
 
 
-## calibrated_range_confidence_interval
+## calibrated_range_CI
 
 - Confidence interval of the reported calibrated age range, either `95.4` or `68.2`.
 - Accepted values:

@@ -1,8 +1,8 @@
 suppressPackageStartupMessages(library(tidyverse))
 
-previous_tag <- "v26.03.0"
+previous_tag <- "v26.06.0"
 release_tag <- "master"
-new_release <- "v26.06.0"
+new_release <- "v26.09.0"
 
 ## SAMPLES
 
@@ -59,10 +59,9 @@ tot_single_libraries <- nrow(new_single_libraries)
 ## DATES
 
 # previous_env_dates <- read_tsv(paste0("https://github.com/SPAAM-community/AncientMetagenomeDir/raw/", previous_tag, "/ancientmetagenome-environmental/dates/ancientmetagenome-environmental_dates.tsv"), show_col_types = FALSE)
-# previous_microb_dates <- read_tsv(paste0("https://github.com/SPAAM-community/AncientMetagenomeDir/raw/", previous_tag, "/ancientmetagenome-hostassociated/dates/ancientmetagenome-hostassociated_dates.tsv"), show_col_types = FALSE)
+previous_microb_dates <- read_tsv(paste0("https://github.com/SPAAM-community/AncientMetagenomeDir/raw/", previous_tag, "/ancientmetagenome-hostassociated/dates/ancientmetagenome-hostassociated_dates.tsv"), show_col_types = FALSE)
 previous_single_dates <- read_tsv(paste0("https://github.com/SPAAM-community/AncientMetagenomeDir/raw/", previous_tag, "/ancientsinglegenome-hostassociated/dates/ancientsinglegenome-hostassociated_dates.tsv"), show_col_types = FALSE)
-# previous_pubs_dates <- c(previous_env_dates$data_publication_doi, previous_microb_dates$data_publication_doi, previous_single_dates$data_publication_doi) %>%
-previous_pubs_dates <- c(previous_single_dates$data_publication_doi) %>%
+previous_pubs_dates <- c(previous_microb_dates$publication_doi, previous_single_dates$publication_doi) %>% # previous_env_dates$data_publication_doi, 
        unique() %>%
        length()
 
@@ -76,7 +75,7 @@ new_pubs_dates <- c(new_microb_dates$publication_doi, new_single_dates$publicati
 
 adds_pubs_dates <- new_pubs_dates - previous_pubs_dates
 # adds_env_dates <- nrow(new_env_dates) - nrow(previous_env_dates)
-adds_microb_dates <- nrow(new_microb_dates) # - nrow(previous_microb_dates)
+adds_microb_dates <- nrow(new_microb_dates) - nrow(previous_microb_dates)
 adds_single_dates <- nrow(new_single_dates) - nrow(previous_single_dates)
 
 tot_pubs_dates <- new_pubs_dates

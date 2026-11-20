@@ -5,7 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Calendar Versioning](https://calver.org/).
 
-## v26.09: Neolithic Flint Mines at Spiennes (Mons) [Unreleased]
+## v26.12: Gamzigrad-Romuliana, Palace of Galerius [Unreleased]
+
+### Added
+
+#### Ancient Metagenome: Host Associated
+
+- Sarhan 2026 10.1186/s40168-026-02417-6 (added by @iseultj)
+- C14 Poksane2025 10.1128/spectrum.02705-24 (added by @iseultj)
+- C14 Fleskes 2024 10.1038/s42003-024-06893-0 (added by @iseultj)
+
+#### Ancient Single Genome: Host Associated
+
+#### Ancient Metagenome: Environmental
+
+### Changed
+
+### Removed
+
+## v26.09: Neolithic Flint Mines at Spiennes (Mons)
 
 ### Added
 
@@ -20,6 +38,17 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 #### Ancient Metagenome: Environmental
 
 ### Changed
+
+- fix library_layout of the bone samples of Velsko 2024 (corrected by @alexhbnr)
+- apply changes to samples to comply with validation schemes (corrected by @alexhbnr):
+  + Warinner 2014
+  + Scorrano 2022
+  + Granehall 2021
+  + Jacobsen 2021
+  + Maixner 2021
+  + SeguinOrlando 2021
+  + Wibowo 2021
+  + Bozzi 2024
 
 ### Removed
 
@@ -79,6 +108,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Jacobson 2020 10.1098/rstb.2019.0586 (added by @iseultj)
 
 #### Ancient Single Genome: Host Associated
+- Swali 2025 10.1126/science.adr21 (added by @pswali)
 - Light-Maka 2025 10.1016/j.cell.2025.07.029 (added by @ilight1542)
 - Urban 2025 10.1186/S12915-025-02282-Z (added by @granehaell) 
 

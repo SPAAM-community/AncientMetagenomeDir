@@ -14,8 +14,12 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Sarhan 2026 10.1186/s40168-026-02417-6 (added by @iseultj)
 - C14 Poksane2025 10.1128/spectrum.02705-24 (added by @iseultj)
 - C14 Fleskes 2024 10.1038/s42003-024-06893-0 (added by @iseultj)
+- C14 Velsko 2022 10.1093/pnasnexus/pgac148 (added by @iseultj)
 
 #### Ancient Single Genome: Host Associated
+
+- Swali 2025 10.1126/science.adr21 (added by @pswali)
+- Valverde 2026 10.1038/s41467-026-71603-9 (added by @msabrysarhan)
 
 #### Ancient Metagenome: Environmental
 
@@ -78,7 +82,6 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Bozzi 2026 10.1126/science.adw3020 (added by @ZoePochon)
 - Barbieri 2025 10.1016/j.cub.2025.09.047 (added by @aidaanva)
 
-
 #### Ancient Metagenome: Environmental
 
 ### Changed
@@ -107,9 +110,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Jacobson 2020 10.1098/rstb.2019.0586 (added by @iseultj)
 
 #### Ancient Single Genome: Host Associated
-- Swali 2025 10.1126/science.adr21 (added by @pswali)
 - Light-Maka 2025 10.1016/j.cell.2025.07.029 (added by @ilight1542)
-- Urban 2025 10.1186/S12915-025-02282-Z (added by @granehaell) 
+- Urban 2025 10.1186/S12915-025-02282-Z (added by @granehaell)
 
 #### Ancient Metagenome: Environmental
 

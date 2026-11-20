@@ -11,6 +11,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Host Associated
 
+- Kuriyama 2026 10.1038/s41598-026-55286-2 (added by @nihandilsad)
 - Sarhan 2026 10.1186/s40168-026-02417-6 (added by @iseultj)
 - C14 Poksane2025 10.1128/spectrum.02705-24 (added by @iseultj)
 - C14 Fleskes 2024 10.1038/s42003-024-06893-0 (added by @iseultj)
@@ -22,6 +23,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - Valverde 2026 10.1038/s41467-026-71603-9 (added by @msabrysarhan)
 
 #### Ancient Metagenome: Environmental
+
+- Kuriyama 2026 10.1038/s41598-026-55286-2 (added by @nihandilsad)
 
 ### Changed
 

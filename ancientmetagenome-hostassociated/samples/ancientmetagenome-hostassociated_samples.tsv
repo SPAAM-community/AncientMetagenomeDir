@@ -1734,3 +1734,86 @@ Poksane2025	2025	10.1128/spectrum.02705-24	Lejasbitēni cemetery	56.60	25.30	Lat
 Jin2025	2025	10.1016/j.quascirev.2025.109604	Alazeya River in the Kolyma Lowland, Yakutia	70.44	154.37	Russia	steppe_bison	Bison priscus	52500	10.1016/j.quascirev.2025.109604	gut	digestive tract contents	ENA	PRJEB83219	ERS22559872
 Sarhan2026	2026	10.1186/s40168-026-02417-6	Hauslabjoch	46.773	10.837	Italy	ITIIIAB	Homo sapiens	5300	10.1126/science.aad2545	soft tissue	skin	ENA	PRJEB94382	ERS26965310
 Sarhan2026	2026	10.1186/s40168-026-02417-6	Hauslabjoch	46.773	10.837	Italy	IW18	Homo sapiens	5300	10.1126/science.aad2545	soft tissue	bodily fluid material	ENA	PRJEB94382	ERS26965313
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery East	NA	NA	Norway	STA1	Homo sapiens	1030	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615071
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL9	Homo sapiens	510	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615070
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL7	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615068
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL8	Homo sapiens	923	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615069
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL10	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615055
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL11	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615056
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL12	Homo sapiens	923	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615057
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL1	Homo sapiens	750	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615054
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL13	Homo sapiens	392	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615058
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL14	Homo sapiens	630	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615059
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL15	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615060
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL16	Homo sapiens	630	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615061
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL17	Homo sapiens	392	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615062
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL2	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615063
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL3	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615064
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL4	Homo sapiens	1030	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615065
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL5	Homo sapiens	750	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615066
+Kaptan2026	2026	10.1371/journal.pone.0340244	Sola ruin church	NA	NA	Norway	SOL6	Homo sapiens	750	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615067
+Kaptan2026	2026	10.1371/journal.pone.0340244	Ogna cemetery	NA	NA	Norway	OGN1	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615051
+Kaptan2026	2026	10.1371/journal.pone.0340244	Ogna cemetery	NA	NA	Norway	OGN2	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615052
+Kaptan2026	2026	10.1371/journal.pone.0340244	Ogna cemetery	NA	NA	Norway	OGN3	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615053
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery Byparken	NA	NA	Norway	STA2	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615082
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery Byparken	NA	NA	Norway	STA3	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615093
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery Byparken	NA	NA	Norway	STA4	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615104
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery Byparken	NA	NA	Norway	STA5	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615115
+Kaptan2026	2026	10.1371/journal.pone.0340244	Avaldsnes	NA	NA	Norway	AVA1	Homo sapiens	630	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615040
+Kaptan2026	2026	10.1371/journal.pone.0340244	Avaldsnes	NA	NA	Norway	AVA2	Homo sapiens	630	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615041
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA17	Homo sapiens	392	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615079
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA18	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615080
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA19	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615081
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA26a	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615089
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA20	Homo sapiens	392	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615083
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA24	Homo sapiens	750	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615087
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA22	Homo sapiens	750	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615085
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA23	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615086
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA15	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615077
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA16	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615078
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA25	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615088
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Nave floor	NA	NA	Norway	STA21	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615084
+Kaptan2026	2026	10.1371/journal.pone.0340244	Hausken cemetery	NA	NA	Norway	HAU1	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615042
+Kaptan2026	2026	10.1371/journal.pone.0340244	Hausken cemetery	NA	NA	Norway	HAU2	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615043
+Kaptan2026	2026	10.1371/journal.pone.0340244	Hausken cemetery	NA	NA	Norway	HAU3	Homo sapiens	392	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615044
+Kaptan2026	2026	10.1371/journal.pone.0340244	Hausken cemetery	NA	NA	Norway	HAU4	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615045
+Kaptan2026	2026	10.1371/journal.pone.0340244	Hausken cemetery	NA	NA	Norway	HAU5	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615046
+Kaptan2026	2026	10.1371/journal.pone.0340244	Hausken cemetery	NA	NA	Norway	HAU6	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615047
+Kaptan2026	2026	10.1371/journal.pone.0340244	Hausken cemetery	NA	NA	Norway	HAU7	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615048
+Kaptan2026	2026	10.1371/journal.pone.0340244	Hausken cemetery	NA	NA	Norway	HAU8	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615049
+Kaptan2026	2026	10.1371/journal.pone.0340244	Hausken cemetery	NA	NA	Norway	HAU9	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615050
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Choir	NA	NA	Norway	STA6	Homo sapiens	1030	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615116
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Choir	NA	NA	Norway	STA7	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615117
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Choir	NA	NA	Norway	STA8	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615118
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Choir	NA	NA	Norway	STA9	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615119
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Choir	NA	NA	Norway	STA10	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615072
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Choir	NA	NA	Norway	STA11	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615073
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Choir	NA	NA	Norway	STA12	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615074
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Choir	NA	NA	Norway	STA13	Homo sapiens	1030	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615075
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cathedral Choir	NA	NA	Norway	STA14	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615076
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA48	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615113
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA31	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615095
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA30	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615094
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA43	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615108
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA46	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615111
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA36	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615100
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA39	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615103
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA37	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615101
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA33	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615097
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA42	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615107
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA29	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615092
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA40	Homo sapiens	510	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615105
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA32	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615096
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA34	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615098
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA38	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615102
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA35	Homo sapiens	275	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615099
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA47	Homo sapiens	750	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615112
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA28	Homo sapiens	923	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615091
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA27	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615090
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA45	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615110
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA44	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615109
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA49	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615114
+Kaptan2026	2026	10.1371/journal.pone.0340244	Stavanger cemetery North	NA	NA	Norway	STA41	Homo sapiens	1025	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615106
+Kaptan2026	2026	10.1371/journal.pone.0340244	Utstein monastery church	NA	NA	Norway	UTS1	Homo sapiens	750	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615120
+Kaptan2026	2026	10.1371/journal.pone.0340244	Utstein monastery church	NA	NA	Norway	UTS2a	Homo sapiens	392	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615121
+Kaptan2026	2026	10.1371/journal.pone.0340244	Utstein monastery church	NA	NA	Norway	UTS3	Homo sapiens	630	10.1371/journal.pone.0340244	skeletal tissue	bone	ENA	PRJEB104929	SAMEA121615123

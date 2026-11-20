@@ -11,6 +11,7 @@
         "Marine20",
         "IntCal98",
         "IntCal09",
-        "SHCal20,Marine20"
+        "SHCal20,Marine20",
+        "Marine20,IntCal20"
     ]
 }

@@ -15,6 +15,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 - C14 Poksane2025 10.1128/spectrum.02705-24 (added by @iseultj)
 - C14 Fleskes 2024 10.1038/s42003-024-06893-0 (added by @iseultj)
 - C14 Velsko 2022 10.1093/pnasnexus/pgac148 (added by @iseultj)
+- Bonucci 2025 10.1016/j.isci.2025.113182 (added by @biancamariabonucci)
+
 
 #### Ancient Single Genome: Host Associated
 

@@ -62,6 +62,7 @@ lsin_acc <-
   unlist()
 
 ## TEST: Archive accession in sample, not library (missing): if no errors should result in character(0)
+## Expected allowed: "ERS5447401" "ERS6621911" [Patrono 2022: sequencing data has not been corrected on ENA yet]
 setdiff(senv_acc, lenv_acc)
 setdiff(shos_acc, lhos_acc)
 setdiff(ssin_acc, lsin_acc)

@@ -10,6 +10,7 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 ### Added
 
 #### Ancient Metagenome: Host Associated
+- C14 Fontani 2023 10.1038/s41598-023-39250-y (added by @nihandilsad)
 - Sarhan 2026 10.1186/s40168-026-02417-6 (added by @iseultj)
 #### Ancient Single Genome: Host Associated
 

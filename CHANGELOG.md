@@ -20,6 +20,8 @@ and this project follows to [Calendar Versioning](https://calver.org/).
 
 #### Ancient Metagenome: Environmental
 
+- Kuriyama 2026 10.1038/s41598-026-55286-2 (added by @nihandilsad)
+
 ### Changed
 
 ### Removed
